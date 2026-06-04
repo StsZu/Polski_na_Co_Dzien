@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Móc i chcieć - quiz po polsku</title>
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #5e6a75;
+      --line: #d9e1e7;
+      --panel: rgba(255, 255, 255, 0.92);
+      --panel-solid: #ffffff;
+      --teal: #147b7b;
+      --blue: #235a92;
+      --gold: #b27721;
+      --green: #187348;
+      --red: #ba3d32;
+      --green-bg: #e8f6ef;
+      --red-bg: #fae8e6;
+      --focus: #147b7b;
+      --shadow: 0 18px 44px rgba(23, 33, 43, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 18% 8%, rgba(20, 123, 123, 0.16), transparent 34%),
+        radial-gradient(circle at 86% 12%, rgba(178, 119, 33, 0.18), transparent 32%),
+        linear-gradient(135deg, #eef5f4 0%, #f8f5ef 54%, #edf1f6 100%);
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .page {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0;
+    }
+
+    header {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .badge {
+      width: fit-content;
+      padding: 7px 10px;
+      border: 1px solid rgba(20, 123, 123, 0.34);
+      border-radius: 8px;
+      color: #0f5f5f;
+      background: rgba(255, 255, 255, 0.7);
+      font-size: 0.84rem;
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.05rem;
+      line-height: 1.1;
+      font-weight: 850;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .card,
+    .side-card {
+      border: 1px solid rgba(255, 255, 255, 0.76);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+
+    .card {
+      padding: 22px;
+    }
+
+    .side-card {
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 12px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      font-weight: 800;
+    }
+
+    .progress-track {
+      height: 10px;
+      border: 1px solid #d9e2e8;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #e8eef2;
+      margin-bottom: 20px;
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      transition: width 240ms ease;
+    }
+
+    .question-title {
+      margin: 0 0 10px;
+      font-size: 1.36rem;
+      line-height: 1.25;
+    }
+
+    .question-text {
+      margin: 0 0 18px;
+      color: #2f3b45;
+      font-size: 1.05rem;
+      line-height: 1.55;
+    }
+
+    .options {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .option {
+      width: 100%;
+      min-height: 58px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel-solid);
+      color: var(--ink);
+      text-align: left;
+      cursor: pointer;
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease, box-shadow 160ms ease;
+    }
+
+    .option:hover:not(:disabled) {
+      transform: translateY(-1px);
+      border-color: rgba(20, 123, 123, 0.55);
+      box-shadow: 0 10px 22px rgba(23, 33, 43, 0.1);
+    }
+
+    .option:focus-visible,
+    .primary:focus-visible,
+    .secondary:focus-visible {
+      outline: 3px solid rgba(20, 123, 123, 0.28);
+      outline-offset: 2px;
+    }
+
+    .option:disabled {
+      cursor: default;
+    }
+
+    .option.correct {
+      border-color: rgba(24, 115, 72, 0.65);
+      background: var(--green-bg);
+      color: #114f33;
+      font-weight: 750;
+    }
+
+    .option.incorrect {
+      border-color: rgba(186, 61, 50, 0.68);
+      background: var(--red-bg);
+      color: #84291f;
+      font-weight: 750;
+    }
+
+    .feedback {
+      display: none;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+      line-height: 1.55;
+    }
+
+    .feedback.show {
+      display: block;
+    }
+
+    .feedback.correct {
+      border: 1px solid rgba(24, 115, 72, 0.34);
+      background: var(--green-bg);
+      color: #114f33;
+    }
+
+    .feedback.incorrect {
+      border: 1px solid rgba(186, 61, 50, 0.34);
+      background: var(--red-bg);
+      color: #84291f;
+    }
+
+    .feedback strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    .primary,
+    .secondary {
+      min-height: 46px;
+      border: 0;
+      border-radius: 8px;
+      padding: 0 18px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform 160ms ease, opacity 160ms ease, box-shadow 160ms ease;
+    }
+
+    .primary {
+      color: white;
+      background: linear-gradient(135deg, var(--teal), var(--blue));
+      box-shadow: 0 12px 24px rgba(20, 123, 123, 0.22);
+    }
+
+    .secondary {
+      color: var(--teal);
+      background: #edf7f6;
+      border: 1px solid rgba(20, 123, 123, 0.22);
+    }
+
+    .primary:hover:not(:disabled),
+    .secondary:hover:not(:disabled) {
+      transform: translateY(-1px);
+    }
+
+    .primary:disabled {
+      cursor: not-allowed;
+      opacity: 0.48;
+      box-shadow: none;
+    }
+
+    .metric {
+      display: grid;
+      gap: 3px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.72);
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 800;
+    }
+
+    .metric strong {
+      font-size: 1.36rem;
+    }
+
+    .tips {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+      font-size: 0.95rem;
+    }
+
+    .result {
+      display: none;
+      gap: 16px;
+    }
+
+    .result.show {
+      display: grid;
+    }
+
+    .result-score {
+      font-size: 3rem;
+      line-height: 1;
+      font-weight: 900;
+      color: var(--teal);
+    }
+
+    .result h2 {
+      margin: 0;
+      font-size: 1.7rem;
+    }
+
+    .result p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 780px) {
+      .page {
+        width: min(100% - 24px, 640px);
+        padding: 18px 0;
+      }
+
+      h1 {
+        font-size: 1.72rem;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 18px;
+      }
+
+      .side-card {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .tips {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .topline,
+      .actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .primary,
+      .secondary {
+        width: 100%;
+      }
+
+      .side-card {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="badge">Interaktywny quiz z gramatyki polskiej</div>
+      <h1>Móc i chcieć</h1>
+      <p class="subtitle">Ćwicz uprzejme prośby oraz formy trybu przypuszczającego w rodzaju męskim, żeńskim, liczbie mnogiej i formach oficjalnych.</p>
+    </header>
+
+    <main class="layout">
+      <section class="card" id="quizCard" aria-label="Pytanie quizu">
+        <div class="topline">
+          <span id="questionCounter">Pytanie 1 z 10</span>
+          <span id="scoreCounter">Wynik: 0</span>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <div id="questionScreen">
+          <h2 class="question-title" id="questionTitle"></h2>
+          <p class="question-text" id="questionText"></p>
+          <div class="options" id="options"></div>
+          <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+          <div class="actions">
+            <button class="primary" id="nextBtn" type="button" disabled>Następne pytanie</button>
+          </div>
+        </div>
+
+        <div class="result" id="resultScreen" aria-live="polite">
+          <div class="result-score" id="resultPercent">0%</div>
+          <h2 id="resultTitle">Wynik</h2>
+          <p id="resultDetails"></p>
+          <p id="resultComment"></p>
+          <div class="actions">
+            <button class="secondary" id="restartBtn" type="button">Rozpocznij ponownie</button>
+          </div>
+        </div>
+      </section>
+
+      <aside class="side-card" aria-label="Postęp quizu">
+        <div class="metric">
+          <span>Pytania</span>
+          <strong id="totalQuestions">10</strong>
+        </div>
+        <div class="metric">
+          <span>Odpowiedziano</span>
+          <strong id="answeredCount">0</strong>
+        </div>
+        <p class="tips">Wybierz jedną odpowiedź przy każdym pytaniu. Wyjaśnienie pojawi się od razu po wyborze.</p>
+      </aside>
+    </main>
+
+    <footer>Quiz offline wygenerowany z lokalnego źródła JSON.</footer>
+  </div>
+
+  <script>
+    const quizData = [
+      {
+        "title": "Uprzejma prośba z pan",
+        "question": "Które zdanie jest najbardziej uprzejmym sposobem poproszenia mężczyzny o powtórzenie?",
+        "options": [
+          "Czy mógłby pan to powtórzyć?",
+          "Czy mogłaby pan to powtórzyć?",
+          "Czy chciałby pan to powtórzyć?"
+        ],
+        "correct": 0,
+        "feedback": "Poprawna forma to „mógłby pan”, ponieważ „pan” jest formą męską, a czasownika „móc” używamy w uprzejmych prośbach. „Chciałby pan” znaczy „czy chciałby pan”, a nie „czy mógłby pan”."
+      },
+      {
+        "title": "Forma żeńska czasownika chcieć",
+        "question": "Kobieta chce powiedzieć: Chciałabym kupić bilet. Które zdanie jest poprawne?",
+        "options": [
+          "Chciałbym kupić bilet.",
+          "Chciałabym kupić bilet.",
+          "Chcielibyśmy kupić bilet."
+        ],
+        "correct": 1,
+        "feedback": "Kobieta mówi „chciałabym”. „Chciałbym” to forma męska, a „chcielibyśmy” znaczy „my chcielibyśmy”."
+      },
+      {
+        "title": "Prośba do koleżanki",
+        "question": "Pytasz koleżankę: Czy mogłabyś mi pomóc? Która forma jest poprawna?",
+        "options": [
+          "Czy mógłbyś mi pomóc?",
+          "Czy moglibyście mi pomóc?",
+          "Czy mogłabyś mi pomóc?"
+        ],
+        "correct": 2,
+        "feedback": "Poprawna forma to „mogłabyś”, ponieważ zwracasz się nieformalnie do jednej kobiety. „Mógłbyś” jest do jednego mężczyzny, a „moglibyście” do grupy."
+      },
+      {
+        "title": "Forma państwo",
+        "question": "Które zdanie poprawnie używa uprzejmej formy liczby mnogiej „państwo”?",
+        "options": [
+          "Czy państwo chcieliby zobaczyć ten film?",
+          "Czy państwo chciałyby zobaczyć ten film?",
+          "Czy państwo chciałby zobaczyć ten film?"
+        ],
+        "correct": 0,
+        "feedback": "Z formą „państwo” zwykle używamy męskoosobowej formy liczby mnogiej: „chcieliby”. To standardowa uprzejma forma zwracania się do grupy."
+      },
+      {
+        "title": "Móc czy chcieć",
+        "question": "Który czasownik lepiej pasuje do uprzejmej prośby?",
+        "options": [
+          "Chciałbym pan pomóc.",
+          "Czy mógłby pan pomóc?",
+          "Czy chciałby pan pomóc mi książkę?"
+        ],
+        "correct": 1,
+        "feedback": "W uprzejmych prośbach po polsku często używa się formy „Czy mógłby pan...?”. Czasownik „chcieć” wyraża chęć, a nie możliwość ani prośbę o wykonanie czegoś."
+      },
+      {
+        "title": "Rodzaj męski liczby pojedynczej",
+        "question": "Javier jest mężczyzną. Które zdanie jest poprawne?",
+        "options": [
+          "Czy Javier chciałaby jechać z nami?",
+          "Czy Javier chciałyby jechać z nami?",
+          "Czy Javier chciałby jechać z nami?"
+        ],
+        "correct": 2,
+        "feedback": "Javier to rodzaj męski liczby pojedynczej, więc poprawna forma to „chciałby”. „Chciałaby” jest formą żeńską liczby pojedynczej, a „chciałyby” formą żeńską liczby mnogiej."
+      },
+      {
+        "title": "Grupa kobiet",
+        "question": "Mówisz do grupy kobiet: Czy mogłybyście na mnie zaczekać? Które zdanie jest poprawne?",
+        "options": [
+          "Czy mogłybyście zaczekać na mnie?",
+          "Czy moglibyście zaczekać na mnie?",
+          "Czy mogłabyś zaczekać na mnie?"
+        ],
+        "correct": 0,
+        "feedback": "Gdy „wy” odnosi się do grupy kobiet, poprawna forma to „mogłybyście”. „Moglibyście” jest formą męskoosobową albo dla grupy mieszanej, a „mogłabyś” odnosi się do jednej kobiety."
+      },
+      {
+        "title": "Chciałbym",
+        "question": "Mężczyzna mówi: Chciałbym dobrze mówić po polsku. Które zdanie jest poprawne?",
+        "options": [
+          "Chciałabym mówić dobrze po polsku.",
+          "Chciałbyś mówić dobrze po polsku.",
+          "Chciałbym mówić dobrze po polsku."
+        ],
+        "correct": 2,
+        "feedback": "Mężczyzna mówi „chciałbym”. „Chciałabym” mówi kobieta, a „chciałbyś” znaczy „ty chciałbyś”, gdy zwracamy się do mężczyzny."
+      },
+      {
+        "title": "Formalna prośba do pani",
+        "question": "Które zdanie jest poprawną uprzejmą prośbą do kobiety?",
+        "options": [
+          "Czy mógłby pani mówić wolniej?",
+          "Czy mogłaby pani mówić wolniej?",
+          "Czy mogłyby pani mówić wolniej?"
+        ],
+        "correct": 1,
+        "feedback": "Poprawna forma to „mogłaby pani”, ponieważ „pani” jest formą żeńską liczby pojedynczej. „Mógłby” jest formą męską, a „mogłyby” formą żeńską liczby mnogiej."
+      },
+      {
+        "title": "Chcielibyśmy",
+        "question": "Grupa mieszana mówi: Chcielibyśmy zarezerwować stolik. Które zdanie jest poprawne?",
+        "options": [
+          "Chciałybyśmy zarezerwować stolik.",
+          "Chciałabym zarezerwować stolik.",
+          "Chcielibyśmy zarezerwować stolik."
+        ],
+        "correct": 2,
+        "feedback": "Dla grupy mieszanej albo grupy z co najmniej jednym mężczyzną po polsku używamy formy męskoosobowej „chcielibyśmy”. „Chciałybyśmy” jest używane tylko przez grupę kobiet."
+      }
+    ];
+
+    const questionCounter = document.getElementById("questionCounter");
+    const scoreCounter = document.getElementById("scoreCounter");
+    const progressFill = document.getElementById("progressFill");
+    const questionScreen = document.getElementById("questionScreen");
+    const resultScreen = document.getElementById("resultScreen");
+    const questionTitle = document.getElementById("questionTitle");
+    const questionText = document.getElementById("questionText");
+    const optionsEl = document.getElementById("options");
+    const feedbackEl = document.getElementById("feedback");
+    const nextBtn = document.getElementById("nextBtn");
+    const restartBtn = document.getElementById("restartBtn");
+    const answeredCount = document.getElementById("answeredCount");
+    const totalQuestions = document.getElementById("totalQuestions");
+    const resultPercent = document.getElementById("resultPercent");
+    const resultTitle = document.getElementById("resultTitle");
+    const resultDetails = document.getElementById("resultDetails");
+    const resultComment = document.getElementById("resultComment");
+
+    let currentIndex = 0;
+    let score = 0;
+    let selected = false;
+
+    totalQuestions.textContent = String(quizData.length);
+
+    function renderQuestion() {
+      const item = quizData[currentIndex];
+      selected = false;
+      questionCounter.textContent = `Pytanie ${currentIndex + 1} z ${quizData.length}`;
+      scoreCounter.textContent = `Wynik: ${score}`;
+      answeredCount.textContent = String(currentIndex);
+      progressFill.style.width = `${(currentIndex / quizData.length) * 100}%`;
+      questionTitle.textContent = item.title;
+      questionText.textContent = item.question;
+      optionsEl.innerHTML = "";
+      feedbackEl.className = "feedback";
+      feedbackEl.innerHTML = "";
+      nextBtn.disabled = true;
+      nextBtn.textContent = currentIndex === quizData.length - 1 ? "Pokaż wynik" : "Następne pytanie";
+
+      item.options.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.className = "option";
+        button.type = "button";
+        button.textContent = option;
+        button.addEventListener("click", () => selectAnswer(index));
+        optionsEl.appendChild(button);
+      });
+    }
+
+    function selectAnswer(index) {
+      if (selected) {
+        return;
+      }
+
+      const item = quizData[currentIndex];
+      const buttons = [...optionsEl.querySelectorAll(".option")];
+      const isCorrect = index === item.correct;
+      selected = true;
+
+      if (isCorrect) {
+        score += 1;
+      }
+
+      buttons.forEach((button, buttonIndex) => {
+        button.disabled = true;
+        if (buttonIndex === item.correct) {
+          button.classList.add("correct");
+        }
+        if (buttonIndex === index && !isCorrect) {
+          button.classList.add("incorrect");
+        }
+      });
+
+      feedbackEl.className = `feedback show ${isCorrect ? "correct" : "incorrect"}`;
+      feedbackEl.innerHTML = `<strong>${isCorrect ? "Poprawnie" : "Niepoprawnie"}</strong>${item.feedback}`;
+      nextBtn.disabled = false;
+      scoreCounter.textContent = `Wynik: ${score}`;
+      answeredCount.textContent = String(currentIndex + 1);
+      progressFill.style.width = `${((currentIndex + 1) / quizData.length) * 100}%`;
+    }
+
+    function showResult() {
+      const percent = Math.round((score / quizData.length) * 100);
+      let comment = "Powtórz materiał i spróbuj ponownie.";
+
+      if (percent >= 90) {
+        comment = "Znakomicie.";
+      } else if (percent >= 70) {
+        comment = "Dobra robota.";
+      } else if (percent >= 50) {
+        comment = "Ćwicz dalej.";
+      }
+
+      questionScreen.classList.add("hidden");
+      resultScreen.classList.add("show");
+      questionCounter.textContent = "Quiz ukończony";
+      scoreCounter.textContent = `Wynik: ${score}`;
+      answeredCount.textContent = String(quizData.length);
+      progressFill.style.width = "100%";
+      resultPercent.textContent = `${percent}%`;
+      resultTitle.textContent = comment;
+      resultDetails.textContent = `Liczba poprawnych odpowiedzi: ${score} z ${quizData.length}.`;
+      resultComment.textContent = "Użyj przycisku ponownego startu, aby przećwiczyć te same pytania jeszcze raz.";
+    }
+
+    nextBtn.addEventListener("click", () => {
+      if (currentIndex === quizData.length - 1) {
+        showResult();
+        return;
+      }
+      currentIndex += 1;
+      renderQuestion();
+    });
+
+    restartBtn.addEventListener("click", () => {
+      currentIndex = 0;
+      score = 0;
+      questionScreen.classList.remove("hidden");
+      resultScreen.classList.remove("show");
+      renderQuestion();
+    });
+
+    renderQuestion();
+  </script>
+</body>
+</html>

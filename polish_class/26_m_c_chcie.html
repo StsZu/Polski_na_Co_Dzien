@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 26: MÓC & CHCIEĆ у формі умовного способу</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            200: '#e2e8f0',
+                            300: '#cbd5e1',
+                            500: '#4f46e5', // Primary indigo
+                            600: '#4338ca',
+                            700: '#3730a3',
+                            800: '#1e1b4b',
+                            900: '#0f172a',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts & Font Awesome for Premium Aesthetics -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .glow-effect {
+            box-shadow: 0 4px 20px rgba(79, 70, 229, 0.08);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #4f46e5;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen selection:bg-indigo-150 selection:text-indigo-900 overflow-x-hidden">
+
+    <!-- Premium Header / Sticky Navigation with Progress Tracker -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="bg-indigo-600 text-white font-bold p-2.5 rounded-xl shadow-lg shadow-indigo-600/20 flex items-center justify-center">
+                    <span class="text-sm tracking-widest uppercase">PL</span>
+                </div>
+                <div>
+                    <span class="text-xs font-semibold text-indigo-600 tracking-wider uppercase block">Lekcja 26</span>
+                    <span class="text-base font-bold text-slate-900 tracking-tight">MÓC & CHCIEĆ</span>
+                </div>
+            </div>
+            
+            <!-- Global Interactive Progress Bar -->
+            <div class="hidden md:flex items-center gap-4">
+                <div class="text-right">
+                    <span class="text-xs text-slate-500 block">Прогрес уроку</span>
+                    <span id="progress-text" class="text-xs font-bold text-emerald-600">0% Виконано</span>
+                </div>
+                <div class="w-32 bg-slate-200 rounded-full h-2 overflow-hidden">
+                    <div id="progress-bar" class="bg-emerald-500 h-full w-0 transition-all duration-500 ease-out"></div>
+                </div>
+            </div>
+            
+            <a href="#practice-section" class="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-4 py-2 rounded-lg text-sm transition-all duration-200 shadow-md shadow-indigo-600/10 hover:scale-105 active:scale-95">
+                До практики
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-16">
+        
+        <!-- Hero Section -->
+        <section class="relative rounded-3xl overflow-hidden border border-indigo-100 bg-gradient-to-br from-indigo-50/80 via-white to-slate-50 p-8 sm:p-12 md:p-16 shadow-sm">
+            <!-- Decorative background elements -->
+            <div class="absolute -right-24 -top-24 w-96 h-96 bg-indigo-600/5 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -left-24 -bottom-24 w-96 h-96 bg-blue-600/5 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <div class="max-w-3xl relative z-10 space-y-6">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-700 border border-indigo-200/50 uppercase tracking-widest">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    Мистецтво ввічливості
+                </span>
+                
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
+                    Конструкції <span class="bg-gradient-to-r from-indigo-600 to-indigo-800 bg-clip-text text-transparent">MÓC</span> та <span class="bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent">CHCIEĆ</span>
+                </h1>
+                
+                <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl">
+                    Навчіться звучати м'якше та ввічливіше за допомогою форми розумного умовного способу з часткою <strong class="text-slate-900 font-semibold">-bym / -byś / -by</strong>. Це основа витонченої повсякденної та офіційної комунікації у Польщі.
+                </p>
+                
+                <!-- Quick Goals badges -->
+                <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-xl text-sm">
+                    <div class="flex items-center gap-3 bg-white border border-slate-200 p-3 rounded-xl shadow-sm">
+                        <div class="w-8 h-8 rounded-lg bg-indigo-50 flex items-center justify-center text-indigo-600 font-bold shrink-0">1</div>
+                        <span class="text-slate-600">Замінити різке <span class="text-rose-600 font-medium">"chcę"</span> на елегантне <span class="text-emerald-700 font-semibold">"chciałbym"</span></span>
+                    </div>
+                    <div class="flex items-center gap-3 bg-white border border-slate-200 p-3 rounded-xl shadow-sm">
+                        <div class="w-8 h-8 rounded-lg bg-indigo-50 flex items-center justify-center text-indigo-600 font-bold shrink-0">2</div>
+                        <span class="text-slate-600">Будувати делікатні прохання за допомогою <span class="text-emerald-700 font-semibold">"mógłbyś / mogłabyś"</span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Concept & Interactive Grammar Explorer -->
+        <section id="grammar-section" class="space-y-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">1. Інтерактивний Кон'югатор (Дієвідмінювання)</h2>
+                    <p class="text-slate-500 mt-1">Оберіть дієслово та рід, щоб миттєво побачити, як змінюються закінчення умовного способу.</p>
+                </div>
+                
+                <!-- Verb & Gender Controls -->
+                <div class="flex flex-wrap gap-2.5 bg-slate-200/80 border border-slate-300 p-1.5 rounded-2xl shrink-0 self-start">
+                    <button onclick="switchVerb('móc')" id="btn-verb-moc" class="px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 bg-indigo-600 text-white shadow-lg shadow-indigo-600/25">
+                        MÓC (могти)
+                    </button>
+                    <button onclick="switchVerb('chcieć')" id="btn-verb-chciec" class="px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 text-slate-600 hover:text-slate-900">
+                        CHCIEĆ (хотіти)
+                    </button>
+                    <div class="w-[1px] bg-slate-300 my-1 mx-0.5"></div>
+                    <button onclick="switchGender('m')" id="btn-gender-m" class="px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 bg-white text-indigo-600 border border-slate-200 shadow-sm">
+                        Чоловічий (M)
+                    </button>
+                    <button onclick="switchGender('f')" id="btn-gender-f" class="px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 text-slate-600 hover:text-slate-900">
+                        Жіночий (F)
+                    </button>
+                </div>
+            </div>
+
+            <!-- Conjugation Display Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- Left Details Info Box -->
+                <div class="lg:col-span-1 bg-white border border-slate-200 p-6 rounded-2xl space-y-6 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-lg" id="verb-badge">M</div>
+                            <div>
+                                <h3 id="explorer-title" class="text-xl font-bold text-slate-900">Móc — Могти</h3>
+                                <p class="text-xs text-slate-500">Форма ввічливого прохання</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 space-y-4">
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                Замість прямолінійного теперішнього часу польська мова вимагає використання умовного способу для пом'якшення тону розмови.
+                            </p>
+                            <div class="p-3.5 bg-slate-50 border border-slate-100 rounded-xl text-xs space-y-2">
+                                <div class="flex justify-between"><span class="text-slate-500">Основа мин. часу:</span> <strong class="text-indigo-700 font-mono" id="stem-info">mógł- / mogł-</strong></div>
+                                <div class="flex justify-between"><span class="text-slate-500">Частка умовного:</span> <strong class="text-emerald-600 font-mono" id="suffix-info">-bym / -byś / -by</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 bg-indigo-50 border border-indigo-100 rounded-xl text-xs text-indigo-800 flex items-start gap-2.5">
+                        <svg class="w-4 h-4 text-indigo-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span><strong>Порада:</strong> Закінчення умовного способу завжди чітко вказують на стать того, ХТО говорить, або ДО КОГО звертаються!</span>
+                    </div>
+                </div>
+
+                <!-- Right Responsive Interactive Table -->
+                <div class="lg:col-span-2 bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <div class="overflow-x-auto custom-scrollbar">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-slate-50 border-b border-slate-200 text-xs font-bold text-slate-500 uppercase tracking-wider">
+                                    <th class="py-4 px-6">Особа (Pronoun)</th>
+                                    <th class="py-4 px-6">Теперішній час</th>
+                                    <th class="py-4 px-6 text-indigo-600">Ввічлива форма (Умовний спосіб)</th>
+                                    <th class="py-4 px-6">Переклад</th>
+                                </tr>
+                            </thead>
+                            <tbody id="conjugation-rows" class="divide-y divide-slate-100 text-sm text-slate-700">
+                                <!-- JS Populated Content -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Formulas Section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Formula 1: Polite Requests -->
+            <div class="bg-white border border-slate-200 hover:border-indigo-400 transition-all duration-300 p-8 rounded-2xl relative group shadow-sm">
+                <div class="absolute top-4 right-4 bg-indigo-50 text-indigo-600 text-xs font-semibold px-2.5 py-1 rounded-full border border-indigo-100">
+                    Формула №1
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Прохання з MÓC</h3>
+                <p class="text-xs text-indigo-600 mb-6 uppercase tracking-wider font-semibold">Як коректно попросити про послугу</p>
+                
+                <div class="p-5 bg-slate-50 rounded-xl border border-slate-100 mb-6 font-mono text-center flex flex-wrap gap-2 items-center justify-center text-sm sm:text-base">
+                    <span class="text-emerald-600 font-bold">Czy</span>
+                    <span class="text-slate-400">+</span>
+                    <span class="text-indigo-600 font-bold bg-indigo-50 px-2.5 py-1 rounded-lg border border-indigo-100" id="formula-moc-ex">mógłbyś</span>
+                    <span class="text-slate-400">+</span>
+                    <span class="text-slate-700 font-bold">інфінітив дієслова</span>
+                    <span class="text-slate-500">?</span>
+                </div>
+                
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center bg-slate-50/50 p-3 rounded-lg border border-slate-200/60 hover:bg-slate-50 transition-colors">
+                        <div>
+                            <span class="text-slate-900 block font-medium">Czy mógłbyś mi pomóc?</span>
+                            <span class="text-xs text-slate-500">Чи міг би ти мені допомогти? (до чоловіка)</span>
+                        </div>
+                        <button onclick="speakPolish('Czy mógłbyś mi pomóc?')" class="text-slate-500 hover:text-slate-800 p-2 rounded-lg hover:bg-slate-200 transition-colors" title="Прослухати">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                        </button>
+                    </div>
+                    <div class="flex justify-between items-center bg-slate-50/50 p-3 rounded-lg border border-slate-200/60 hover:bg-slate-50 transition-colors">
+                        <div>
+                            <span class="text-slate-900 block font-medium">Czy mogłaby pani mówić wolniej?</span>
+                            <span class="text-xs text-slate-500">Чи могла б пані говорити повільніше? (офіційно до жінки)</span>
+                        </div>
+                        <button onclick="speakPolish('Czy mogłaby pani mówić wolniej?')" class="text-slate-500 hover:text-slate-800 p-2 rounded-lg hover:bg-slate-200 transition-colors" title="Прослухати">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formula 2: Polite Desires -->
+            <div class="bg-white border border-slate-200 hover:border-indigo-400 transition-all duration-300 p-8 rounded-2xl relative group shadow-sm">
+                <div class="absolute top-4 right-4 bg-indigo-50 text-indigo-600 text-xs font-semibold px-2.5 py-1 rounded-full border border-indigo-100">
+                    Формула №2
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Бажання з CHCIEĆ</h3>
+                <p class="text-xs text-indigo-600 mb-6 uppercase tracking-wider font-semibold">Як ввічливо висловити свої хотіння</p>
+                
+                <div class="p-5 bg-slate-50 rounded-xl border border-slate-100 mb-6 font-mono text-center flex flex-wrap gap-2 items-center justify-center text-sm sm:text-base">
+                    <span class="text-indigo-600 font-bold bg-indigo-50 px-2.5 py-1 rounded-lg border border-indigo-100" id="formula-chciec-ex">chciałbym</span>
+                    <span class="text-slate-400">+</span>
+                    <span class="text-slate-700 font-bold">інфінітив</span>
+                    <span class="text-slate-400">або</span>
+                    <span class="text-teal-600 font-bold">іменник</span>
+                </div>
+                
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center bg-slate-50/50 p-3 rounded-lg border border-slate-200/60 hover:bg-slate-50 transition-colors">
+                        <div>
+                            <span class="text-slate-900 block font-medium">Chciałbym kawę.</span>
+                            <span class="text-xs text-slate-500">Я хотів би каву. (говорить чоловік)</span>
+                        </div>
+                        <button onclick="speakPolish('Chciałbym kawę.')" class="text-slate-500 hover:text-slate-800 p-2 rounded-lg hover:bg-slate-200 transition-colors" title="Прослухати">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                        </button>
+                    </div>
+                    <div class="flex justify-between items-center bg-slate-50/50 p-3 rounded-lg border border-slate-200/60 hover:bg-slate-50 transition-colors">
+                        <div>
+                            <span class="text-slate-900 block font-medium">Chciałabym kupić bilet.</span>
+                            <span class="text-xs text-slate-500">Я хотіла б купити квиток. (говорить жінка)</span>
+                        </div>
+                        <button onclick="speakPolish('Chciałabym kupić bilet.')" class="text-slate-500 hover:text-slate-800 p-2 rounded-lg hover:bg-slate-200 transition-colors" title="Прослухати">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Practical Pronunciation & IPA Laboratory -->
+        <section class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center font-bold">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-extrabold text-slate-900">Лабораторія правильної вимови</h2>
+                    <p class="text-slate-500 text-sm">Секрети усунення іноземного акценту в польській фонетиці</p>
+                </div>
+            </div>
+
+            <!-- Accent Warn Card -->
+            <div class="bg-amber-50 border border-amber-200/60 p-4 rounded-xl flex items-start gap-3 text-sm text-amber-850">
+                <svg class="w-5 h-5 text-amber-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                <span><strong>Дуже важливо:</strong> Сполучення літер <strong class="text-amber-800 font-semibold">chciał-</strong> ніколи не читається як «чхіал». Воно звучить приблизно як вкрай делікатне <strong class="text-indigo-900 bg-indigo-50 px-1.5 py-0.5 rounded font-mono">хщяв-</strong>, де «l» (ł) вимовляється подібно до англійського звуку «w» (у).</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-2">
+                <!-- Pronunciation Cards -->
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex items-center justify-between hover:bg-slate-100/85 transition-all">
+                    <div>
+                        <span class="text-xs text-slate-400 font-semibold tracking-wide uppercase">mógłbyś</span>
+                        <h4 class="text-base font-bold text-slate-900 mt-0.5">mógłbyś</h4>
+                        <div class="flex items-center gap-2 mt-1.5">
+                            <span class="text-xs bg-slate-200 text-slate-600 px-1.5 py-0.5 rounded font-mono">/ˈmuk.wbɨm/</span>
+                            <span class="text-xs text-indigo-600 font-medium">муґл-бись</span>
+                        </div>
+                    </div>
+                    <button onclick="speakPolish('mógłbyś')" class="p-2.5 bg-indigo-50 text-indigo-600 hover:text-white hover:bg-indigo-600 rounded-xl transition-all shadow-sm">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                    </button>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex items-center justify-between hover:bg-slate-100/85 transition-all">
+                    <div>
+                        <span class="text-xs text-slate-400 font-semibold tracking-wide uppercase">mogłabym</span>
+                        <h4 class="text-base font-bold text-slate-900 mt-0.5">mogłabym</h4>
+                        <div class="flex items-center gap-2 mt-1.5">
+                            <span class="text-xs bg-slate-200 text-slate-600 px-1.5 py-0.5 rounded font-mono">/mɔˈɡwa.bɨm/</span>
+                            <span class="text-xs text-indigo-600 font-medium">моґла-бим</span>
+                        </div>
+                    </div>
+                    <button onclick="speakPolish('mogłabym')" class="p-2.5 bg-indigo-50 text-indigo-600 hover:text-white hover:bg-indigo-600 rounded-xl transition-all shadow-sm">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                    </button>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex items-center justify-between hover:bg-slate-100/85 transition-all">
+                    <div>
+                        <span class="text-xs text-slate-400 font-semibold tracking-wide uppercase">chciałbym</span>
+                        <h4 class="text-base font-bold text-slate-900 mt-0.5">chciałbym</h4>
+                        <div class="flex items-center gap-2 mt-1.5">
+                            <span class="text-xs bg-slate-200 text-slate-600 px-1.5 py-0.5 rounded font-mono">/ˈxɕaw.bɨm/</span>
+                            <span class="text-xs text-indigo-600 font-medium">хщяв-бим</span>
+                        </div>
+                    </div>
+                    <button onclick="speakPolish('chciałbym')" class="p-2.5 bg-indigo-50 text-indigo-600 hover:text-white hover:bg-indigo-600 rounded-xl transition-all shadow-sm">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                    </button>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex items-center justify-between hover:bg-slate-100/85 transition-all">
+                    <div>
+                        <span class="text-xs text-slate-400 font-semibold tracking-wide uppercase">chciałabyś</span>
+                        <h4 class="text-base font-bold text-slate-900 mt-0.5">chciałabyś</h4>
+                        <div class="flex items-center gap-2 mt-1.5">
+                            <span class="text-xs bg-slate-200 text-slate-600 px-1.5 py-0.5 rounded font-mono">/xɕaˈwa.bɨɕ/</span>
+                            <span class="text-xs text-indigo-600 font-medium">хщяла-бись</span>
+                        </div>
+                    </div>
+                    <button onclick="speakPolish('chciałabyś')" class="p-2.5 bg-indigo-50 text-indigo-600 hover:text-white hover:bg-indigo-600 rounded-xl transition-all shadow-sm">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                    </button>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex items-center justify-between hover:bg-slate-100/85 transition-all">
+                    <div>
+                        <span class="text-xs text-slate-400 font-semibold tracking-wide uppercase">chcielibyśmy</span>
+                        <h4 class="text-base font-bold text-slate-900 mt-0.5">chcielibyśmy</h4>
+                        <div class="flex items-center gap-2 mt-1.5">
+                            <span class="text-xs bg-slate-800/10 text-slate-600 px-1.5 py-0.5 rounded font-mono">/xɕɛˈli.bɨɕ.mɨ/</span>
+                            <span class="text-xs text-indigo-600 font-medium">хщелі-бисьми</span>
+                        </div>
+                    </div>
+                    <button onclick="speakPolish('chcielibyśmy')" class="p-2.5 bg-indigo-50 text-indigo-600 hover:text-white hover:bg-indigo-600 rounded-xl transition-all shadow-sm">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                    </button>
+                </div>
+
+                <!-- WebSpeech Support Checker -->
+                <div class="bg-indigo-50/50 border border-dashed border-indigo-200 p-4 rounded-xl flex flex-col justify-center text-center space-y-1.5">
+                    <span id="speech-badge" class="text-[11px] font-bold text-emerald-600 uppercase tracking-wider">Голосовий модуль активний</span>
+                    <p class="text-xs text-slate-500">Кожна картка підтримує інтерактивний синтез мовлення pl-PL для правильної постановки вашої вимови.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speaking & Drill Simulator (Creative Block) -->
+        <section class="bg-gradient-to-r from-indigo-50 via-white to-slate-50 border border-indigo-100 rounded-3xl p-6 sm:p-8 md:p-10 space-y-8 relative shadow-sm">
+            <div class="max-w-2xl">
+                <span class="text-xs text-indigo-600 font-bold uppercase tracking-widest bg-indigo-100 border border-indigo-250 px-2.5 py-1 rounded-full">Інтерактивний тренажер</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3">2. Мовленнєвий Симулятор Дрилів (Drill Machine)</h2>
+                <p class="text-slate-500 text-sm mt-1">Обирайте мовну роль та вставляйте дієслова з уроку. Відпрацюйте до автоматизму понад 30 різних варіацій ввічливих фраз!</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                <!-- Left: Interactive Settings (4 cols) -->
+                <div class="lg:col-span-5 bg-white p-6 rounded-2xl border border-slate-200 space-y-6 shadow-sm">
+                    <!-- Step 1: Persona selection -->
+                    <div class="space-y-3">
+                        <label class="text-xs font-bold text-slate-500 uppercase tracking-wider block">1. Оберіть формат звернення:</label>
+                        <div class="grid grid-cols-1 gap-2">
+                            <button onclick="setDrillTemplate('pan', 'Czy mógłby pan [дієслово] to?')" class="drill-template-btn p-3 rounded-xl border text-left text-sm transition-all duration-150 flex items-center justify-between border-indigo-300 bg-indigo-50 text-indigo-900 font-medium" data-template="pan">
+                                <span>Czy mógłby pan ... ? <span class="text-xs text-slate-500 block mt-0.5 font-normal">Офіційно до чоловіка</span></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
+                            </button>
+                            <button onclick="setDrillTemplate('pani', 'Czy mogłaby pani [дієслово] wolniej?')" class="drill-template-btn p-3 rounded-xl border border-slate-200 text-left text-sm text-slate-700 transition-all duration-150 hover:bg-slate-50 flex items-center justify-between" data-template="pani">
+                                <span>Czy mogłaby pani ... ? <span class="text-xs text-slate-500 block mt-0.5 font-normal">Офіційно до жінки</span></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-transparent border border-slate-300"></span>
+                            </button>
+                            <button onclick="setDrillTemplate('ty_m', 'Czy mógłbyś mi [дієслово]?')" class="drill-template-btn p-3 rounded-xl border border-slate-200 text-left text-sm text-slate-700 transition-all duration-150 hover:bg-slate-50 flex items-center justify-between" data-template="ty_m">
+                                <span>Czy mógłbyś ... ? <span class="text-xs text-slate-500 block mt-0.5 font-normal">Дружньо до чоловіка</span></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-transparent border border-slate-300"></span>
+                            </button>
+                            <button onclick="setDrillTemplate('ty_f', 'Czy mogłabyś [дієслово]?')" class="drill-template-btn p-3 rounded-xl border border-slate-200 text-left text-sm text-slate-700 transition-all duration-150 hover:bg-slate-50 flex items-center justify-between" data-template="ty_f">
+                                <span>Czy mogłabyś ... ? <span class="text-xs text-slate-500 block mt-0.5 font-normal">Дружньо до жінки</span></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-transparent border border-slate-300"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Infinitive action words -->
+                    <div class="space-y-3">
+                        <label class="text-xs font-bold text-slate-500 uppercase tracking-wider block">2. Виберіть дієслово дії:</label>
+                        <div class="flex flex-wrap gap-2">
+                            <button onclick="setDrillVerb('pomóc', 'допомогти')" class="drill-verb-btn px-3 py-2 rounded-lg text-xs font-semibold border border-indigo-500 bg-indigo-50 text-indigo-700 shadow-sm" data-verb="pomóc">pomóc</button>
+                            <button onclick="setDrillVerb('zaczekać', 'почекати')" class="drill-verb-btn px-3 py-2 rounded-lg text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-verb="zaczekać">zaczekać</button>
+                            <button onclick="setDrillVerb('powtórzyć', 'повторити')" class="drill-verb-btn px-3 py-2 rounded-lg text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-verb="powtórzyć">powtórzyć</button>
+                            <button onclick="setDrillVerb('pożyczyć mi', 'позичити мені')" class="drill-verb-btn px-3 py-2 rounded-lg text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-verb="pożyczyć mi">pożyczyć</button>
+                            <button onclick="setDrillVerb('porozmawiać', 'поговорити')" class="drill-verb-btn px-3 py-2 rounded-lg text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-verb="porozmawiać">porozmawiać</button>
+                            <button onclick="setDrillVerb('zobaczyć menu', 'побачити меню')" class="drill-verb-btn px-3 py-2 rounded-lg text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-verb="zobaczyć menu">zobaczyć</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Active Display Console (7 cols) -->
+                <div class="lg:col-span-7 flex flex-col justify-between bg-white p-8 rounded-2xl border border-slate-200 space-y-8 relative overflow-hidden shadow-sm">
+                    <div class="absolute -right-12 -bottom-12 w-48 h-48 bg-indigo-500/5 rounded-full blur-2xl"></div>
+                    
+                    <div class="space-y-4">
+                        <span class="text-xs font-bold text-slate-400 tracking-wider uppercase block">Генератор висловлювання</span>
+                        <div class="space-y-1">
+                            <h3 id="drill-output-pl" class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-normal tracking-tight">Czy mógłby pan pomóc to?</h3>
+                            <p id="drill-output-ua" class="text-slate-500 text-base">Чи міг би пан допомогти це?</p>
+                        </div>
+                    </div>
+
+                    <!-- Audio simulator and drill controls -->
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <button onclick="triggerDrillVoice()" class="flex items-center gap-2 px-6 py-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold transition-all transform hover:scale-[1.02] shadow-lg shadow-indigo-600/20">
+                                <svg class="w-5 h-5 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                                Прослухати &amp; Повторити
+                            </button>
+                            <div class="text-xs text-slate-500">
+                                Промовте фразу вголос <strong>3 рази</strong> поспіль для відпрацювання м'язової пам'яті.
+                            </div>
+                        </div>
+
+                        <!-- Mini indicator tracker for drill progress -->
+                        <div class="flex items-center gap-2 border-t border-slate-100 pt-4">
+                            <span class="text-[11px] font-bold text-slate-400 uppercase tracking-widest">Проговорено спроб:</span>
+                            <div class="flex gap-1.5" id="drill-counter">
+                                <span class="w-2.5 h-2.5 rounded-full bg-slate-200 border border-slate-300"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-slate-200 border border-slate-300"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-slate-200 border border-slate-300"></span>
+                            </div>
+                            <span id="drill-status-text" class="text-[11px] text-indigo-600 font-bold ml-2">Натисніть кнопку, щоб розпочати</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Common Mistakes Section (Comparison Visuals) -->
+        <section class="space-y-6">
+            <div>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">3. Картки типових помилок (Do &amp; Don't)</h2>
+                <p class="text-slate-500 mt-1">Оберіть правильний мовний етикет і уникайте русизмів чи граматичних невідповідностей.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="border border-slate-200 bg-white rounded-2xl overflow-hidden flex flex-col justify-between shadow-sm">
+                    <div class="p-5 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[11px] text-rose-700 font-bold tracking-widest bg-rose-50 px-2 py-0.5 rounded border border-rose-200 uppercase">Увага: Жіночий рід</span>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-start gap-2 text-rose-600 text-sm font-semibold">
+                                <span>❌ Ja chciałbym kawę.</span>
+                            </div>
+                            <div class="flex items-start gap-2 text-emerald-600 text-sm font-semibold">
+                                <span>✅ Ja chciałabym kawę.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-50 p-4 border-t border-slate-200/80 text-xs text-slate-500">
+                        Коли говорить жінка, обов'язково використовується суфікс жіночого роду <strong class="text-slate-800 font-semibold">-bym / -abym</strong>.
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="border border-slate-200 bg-white rounded-2xl overflow-hidden flex flex-col justify-between shadow-sm">
+                    <div class="p-5 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[11px] text-rose-700 font-bold tracking-widest bg-rose-50 px-2 py-0.5 rounded border border-rose-200 uppercase">Звернення до жінки</span>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-start gap-2 text-rose-600 text-sm font-semibold">
+                                <span>❌ Czy ty mógłbyś?</span>
+                            </div>
+                            <div class="flex items-start gap-2 text-emerald-600 text-sm font-semibold">
+                                <span>✅ Czy mogłabyś?</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-50 p-4 border-t border-slate-200/80 text-xs text-slate-500">
+                        Звертаючись до жінки на «ти», застосовуємо виключно суфікс <strong class="text-slate-800 font-semibold">-byś / -abyś</strong>.
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="border border-slate-200 bg-white rounded-2xl overflow-hidden flex flex-col justify-between shadow-sm">
+                    <div class="p-5 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[11px] text-rose-700 font-bold tracking-widest bg-rose-50 px-2 py-0.5 rounded border border-rose-200 uppercase">Форма Państwo</span>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-start gap-2 text-rose-600 text-sm font-semibold">
+                                <span>❌ Państwo chciałyby</span>
+                            </div>
+                            <div class="flex items-start gap-2 text-emerald-600 text-sm font-semibold">
+                                <span>✅ Państwo chcieliby</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-50 p-4 border-t border-slate-200/80 text-xs text-slate-500">
+                        Офіційна форма <strong class="text-slate-800 font-semibold">Państwo</strong> (Ви) завжди вимагає чоловічо-особової форми множини.
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="border border-slate-200 bg-white rounded-2xl overflow-hidden flex flex-col justify-between shadow-sm">
+                    <div class="p-5 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[11px] text-rose-700 font-bold tracking-widest bg-rose-50 px-2 py-0.5 rounded border border-rose-200 uppercase">Тон прохання</span>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-start gap-2 text-rose-600 text-sm font-semibold">
+                                <span>❌ Chcę kawę (грубувато)</span>
+                            </div>
+                            <div class="flex items-start gap-2 text-emerald-600 text-sm font-semibold">
+                                <span>✅ Chciałbym/am kawę.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-50 p-4 border-t border-slate-200/80 text-xs text-slate-500">
+                        Замість прямого «хочу», у ресторані чи магазині варто завжди використовувати умовну форму.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Dialog Simulator Section -->
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+            <!-- Textual context & controls (4 cols) -->
+            <div class="lg:col-span-4 bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl flex flex-col justify-between space-y-6 shadow-sm">
+                <div>
+                    <span class="text-xs text-indigo-600 font-bold uppercase tracking-widest block mb-2">Кава та етикет</span>
+                    <h2 class="text-2xl font-extrabold text-slate-900 leading-snug">4. Міні-діалог: у кав’ярні</h2>
+                    <p class="text-slate-500 text-sm mt-3 leading-relaxed">
+                        Подивіться, як природно ввічливі форми вбудовуються у реальну побутову розмову. Натисніть «Режим рольової гри», щоб випробувати себе.
+                    </p>
+                </div>
+
+                <div class="space-y-3">
+                    <button onclick="toggleDialogTranslations()" id="btn-dialog-trans" class="w-full py-3 px-4 rounded-xl text-sm font-semibold border border-indigo-200 bg-indigo-50/50 hover:bg-indigo-50 text-indigo-700 transition-all shadow-sm">
+                        Приховати переклад
+                    </button>
+                    <button onclick="toggleRoleplayMode()" id="btn-roleplay" class="w-full py-3 px-4 rounded-xl text-sm font-semibold bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-700 transition-all shadow-sm">
+                        Режим рольової гри (Сховати роль А)
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dialogue console (8 cols) -->
+            <div class="lg:col-span-8 bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl space-y-6 flex flex-col justify-between shadow-sm">
+                <div class="space-y-4">
+                    <!-- Dialogue Row 1 -->
+                    <div class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors" id="dialog-row-1">
+                        <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-1">A</div>
+                        <div class="space-y-1 w-full">
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm font-semibold text-indigo-600">Гість (Chłopak)</span>
+                                <button onclick="speakPolish('Dzień dobry. Chciałbym kawę i ciasto.')" class="p-1 hover:text-slate-800 text-slate-400 transition-colors">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                                </button>
+                            </div>
+                            <p class="text-slate-900 text-base font-semibold dialogue-pl">Dzień dobry. Chciałbym kawę i ciasto.</p>
+                            <p class="text-sm text-slate-500 dialogue-ua">Добрий день. Я хотів би каву і тістечко.</p>
+                        </div>
+                    </div>
+
+                    <!-- Dialogue Row 2 -->
+                    <div class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors" id="dialog-row-2">
+                        <div class="w-8 h-8 rounded-lg bg-teal-600 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-1">B</div>
+                        <div class="space-y-1 w-full">
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm font-semibold text-teal-600">Офіціант (Kelner)</span>
+                                <button onclick="speakPolish('Oczywiście. Jaką kawę?')" class="p-1 hover:text-slate-800 text-slate-400 transition-colors">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                                </button>
+                            </div>
+                            <p class="text-slate-900 text-base font-semibold dialogue-pl">Oczywiście. Jaką kawę?</p>
+                            <p class="text-sm text-slate-500 dialogue-ua">Звичайно. Яку каву?</p>
+                        </div>
+                    </div>
+
+                    <!-- Dialogue Row 3 -->
+                    <div class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors" id="dialog-row-3">
+                        <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-1">A</div>
+                        <div class="space-y-1 w-full">
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm font-semibold text-indigo-600">Гість (Chłopak)</span>
+                                <button onclick="speakPolish('Poproszę cappuccino. Czy mógłbym też dostać wodę?')" class="p-1 hover:text-slate-800 text-slate-400 transition-colors">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                                </button>
+                            </div>
+                            <p class="text-slate-900 text-base font-semibold dialogue-pl">Poproszę cappuccino. Czy mógłbym też dostać wodę?</p>
+                            <p class="text-sm text-slate-500 dialogue-ua">Прошу капучино. Чи міг би я також отримати воду?</p>
+                        </div>
+                    </div>
+
+                    <!-- Dialogue Row 4 -->
+                    <div class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors" id="dialog-row-4">
+                        <div class="w-8 h-8 rounded-lg bg-teal-600 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-1">B</div>
+                        <div class="space-y-1 w-full">
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm font-semibold text-teal-400">Офіціант (Kelner)</span>
+                                <button onclick="speakPolish('Tak, oczywiście.')" class="p-1 hover:text-slate-800 text-slate-400 transition-colors">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                                </button>
+                            </div>
+                            <p class="text-slate-900 text-base font-semibold dialogue-pl">Tak, oczywiście.</p>
+                            <p class="text-sm text-slate-500 dialogue-ua">Так, звичайно.</p>
+                        </div>
+                    </div>
+
+                    <!-- Dialogue Row 5 -->
+                    <div class="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors" id="dialog-row-5">
+                        <div class="w-8 h-8 rounded-lg bg-indigo-600 text-white text-xs font-bold flex items-center justify-center shrink-0 mt-1">A</div>
+                        <div class="space-y-1 w-full">
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm font-semibold text-indigo-600">Гість (Chłopak)</span>
+                                <button onclick="speakPolish('Dziękuję.')" class="p-1 hover:text-slate-800 text-slate-400 transition-colors">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                                </button>
+                            </div>
+                            <p class="text-slate-900 text-base font-semibold dialogue-pl">Dziękuję.</p>
+                            <p class="text-sm text-slate-500 dialogue-ua">Дякую.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 text-center border-t border-slate-100 pt-4">
+                    Натисніть на іконку гучномовця, щоб почути вимову будь-якої репліки від носія мови.
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Practice Zone (Quiz with dynamic Javascript evaluation) -->
+        <section id="practice-section" class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 md:p-10 space-y-10 shadow-sm">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between border-b border-slate-150 pb-6 gap-4">
+                <div>
+                    <span class="text-xs text-emerald-600 font-bold uppercase tracking-wider block">Перевірка засвоєння матеріалу</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">5. Інтерактивна Практична Арена</h2>
+                </div>
+                <div class="bg-slate-50 px-4 py-2.5 rounded-xl border border-slate-200 flex items-center gap-3 shadow-inner">
+                    <span class="text-xs text-slate-500">Поточний результат:</span>
+                    <span id="quiz-score" class="text-base font-bold text-emerald-600">0 / 11 правильних</span>
+                </div>
+            </div>
+
+            <!-- Block A: Multiple Choice Questions (from exercise 1) -->
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-bold text-indigo-600">Частина 1: Оберіть правильну форму дієслова</h3>
+                    <p class="text-slate-500 text-sm">Уважно оцінюйте стать та число дійової особи.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="mcq-container">
+                    <!-- MCQ Question 1 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 mcq-card shadow-sm" data-qindex="0">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Запитання 1</span>
+                            <span class="text-xs text-indigo-600 font-semibold">я, чоловік (chcieć)</span>
+                        </div>
+                        <p class="text-slate-800 text-base font-medium">Ja ______________ kawę.</p>
+                        <div class="grid grid-cols-2 gap-2 pt-2">
+                            <button onclick="checkMCQ(0, 'chciałbym', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                chciałbym
+                            </button>
+                            <button onclick="checkMCQ(0, 'chciałabym', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                chciałabym
+                            </button>
+                        </div>
+                        <p class="feedback-msg text-xs hidden pt-1"></p>
+                    </div>
+
+                    <!-- MCQ Question 2 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 mcq-card shadow-sm" data-qindex="1">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Запитання 2</span>
+                            <span class="text-xs text-indigo-600 font-semibold">я, жінка (móc)</span>
+                        </div>
+                        <p class="text-slate-800 text-base font-medium">Ja ______________ zapytać?</p>
+                        <div class="grid grid-cols-2 gap-2 pt-2">
+                            <button onclick="checkMCQ(1, 'mógłbym', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                mógłbym
+                            </button>
+                            <button onclick="checkMCQ(1, 'mogłabym', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                mogłabym
+                            </button>
+                        </div>
+                        <p class="feedback-msg text-xs hidden pt-1"></p>
+                    </div>
+
+                    <!-- MCQ Question 3 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 mcq-card shadow-sm" data-qindex="2">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Запитання 3</span>
+                            <span class="text-xs text-indigo-600 font-semibold">ти, жінка (móc)</span>
+                        </div>
+                        <p class="text-slate-800 text-base font-medium">Czy ______________ mi pomóc?</p>
+                        <div class="grid grid-cols-2 gap-2 pt-2">
+                            <button onclick="checkMCQ(2, 'mógłbyś', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                mógłbyś
+                            </button>
+                            <button onclick="checkMCQ(2, 'mogłabyś', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                mogłabyś
+                            </button>
+                        </div>
+                        <p class="feedback-msg text-xs hidden pt-1"></p>
+                    </div>
+
+                    <!-- MCQ Question 4 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 mcq-card shadow-sm" data-qindex="3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Запитання 4</span>
+                            <span class="text-xs text-indigo-600 font-semibold">пан, офіційно (móc)</span>
+                        </div>
+                        <p class="text-slate-800 text-base font-medium">Czy ______________ pan powtórzyć?</p>
+                        <div class="grid grid-cols-2 gap-2 pt-2">
+                            <button onclick="checkMCQ(3, 'mógłby', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                mógłby
+                            </button>
+                            <button onclick="checkMCQ(3, 'mogłaby', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                mogłaby
+                            </button>
+                        </div>
+                        <p class="feedback-msg text-xs hidden pt-1"></p>
+                    </div>
+
+                    <!-- MCQ Question 5 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 mcq-card md:col-span-2 shadow-sm" data-qindex="4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Запитання 5</span>
+                            <span class="text-xs text-indigo-600 font-semibold">państwo, офіційно (chcieć)</span>
+                        </div>
+                        <p class="text-slate-800 text-base font-medium">Czy państwo ______________ zobaczyć mieszkanie?</p>
+                        <div class="grid grid-cols-2 gap-2 pt-2">
+                            <button onclick="checkMCQ(4, 'chcieliby', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                chcieliby
+                            </button>
+                            <button onclick="checkMCQ(4, 'chciałyby', this)" class="option-btn py-2.5 px-4 rounded-lg bg-white border border-slate-200 hover:border-slate-350 text-sm font-medium text-slate-700 shadow-sm transition-all">
+                                chciałyby
+                            </button>
+                        </div>
+                        <p class="feedback-msg text-xs hidden pt-1"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block B: Writing Translation Exercises (from exercise 2) -->
+            <div class="space-y-6 pt-6 border-t border-slate-150">
+                <div>
+                    <h3 class="text-lg font-bold text-indigo-600">Частина 2: Напишіть переклад польською мовою</h3>
+                    <p class="text-slate-500 text-sm">Введіть переклад речення. Програма автоматично перевірить ваші відповіді (з урахуванням діакритики).</p>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- Trans Item 1 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 trans-card shadow-sm" data-tindex="0">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Завдання 1</span>
+                            <span class="text-xs text-slate-500">Очікується: я, чоловік (chcieć)</span>
+                        </div>
+                        <p class="text-slate-800 font-medium">Я хотів би купити квиток.</p>
+                        <div class="flex gap-2">
+                            <input type="text" placeholder="Впишіть переклад..." class="trans-input w-full bg-white border border-slate-200 px-4 py-2.5 rounded-lg text-sm text-slate-800 focus:outline-none focus:border-indigo-500 font-medium shadow-inner">
+                            <button onclick="checkTranslation(0)" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm rounded-lg transition-colors whitespace-nowrap shadow-sm">Перевірити</button>
+                        </div>
+                        <div class="trans-feedback hidden text-xs flex items-center justify-between p-3 rounded-lg"></div>
+                    </div>
+
+                    <!-- Trans Item 2 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 trans-card shadow-sm" data-tindex="1">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Завдання 2</span>
+                            <span class="text-xs text-slate-500">Очікується: я, жінка (chcieć + з паном / з пані / з паством)</span>
+                        </div>
+                        <p class="text-slate-800 font-medium">Я хотіла б поговорити з вами.</p>
+                        <div class="flex gap-2">
+                            <input type="text" placeholder="Впишіть переклад..." class="trans-input w-full bg-white border border-slate-200 px-4 py-2.5 rounded-lg text-sm text-slate-800 focus:outline-none focus:border-indigo-500 font-medium shadow-inner">
+                            <button onclick="checkTranslation(1)" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm rounded-lg transition-colors whitespace-nowrap shadow-sm">Перевірити</button>
+                        </div>
+                        <div class="trans-feedback hidden text-xs flex items-center justify-between p-3 rounded-lg"></div>
+                    </div>
+
+                    <!-- Trans Item 3 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 trans-card shadow-sm" data-tindex="2">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Завдання 3</span>
+                            <span class="text-xs text-slate-500">Очікується: пан, офіційне запитання (móc)</span>
+                        </div>
+                        <p class="text-slate-800 font-medium">Чи міг би пан повторити?</p>
+                        <div class="flex gap-2">
+                            <input type="text" placeholder="Впишіть переклад..." class="trans-input w-full bg-white border border-slate-200 px-4 py-2.5 rounded-lg text-sm text-slate-800 focus:outline-none focus:border-indigo-500 font-medium shadow-inner">
+                            <button onclick="checkTranslation(2)" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm rounded-lg transition-colors whitespace-nowrap shadow-sm">Перевірити</button>
+                        </div>
+                        <div class="trans-feedback hidden text-xs flex items-center justify-between p-3 rounded-lg"></div>
+                    </div>
+
+                    <!-- Trans Item 4 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 trans-card shadow-sm" data-tindex="3">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Завдання 4</span>
+                            <span class="text-xs text-slate-500">Очікується: пані, офіційне запитання (móc)</span>
+                        </div>
+                        <p class="text-slate-800 font-medium">Чи могла б пані говорити повільніше?</p>
+                        <div class="flex gap-2">
+                            <input type="text" placeholder="Впишіть переклад..." class="trans-input w-full bg-white border border-slate-200 px-4 py-2.5 rounded-lg text-sm text-slate-800 focus:outline-none focus:border-indigo-500 font-medium shadow-inner">
+                            <button onclick="checkTranslation(3)" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm rounded-lg transition-colors whitespace-nowrap shadow-sm">Перевірити</button>
+                        </div>
+                        <div class="trans-feedback hidden text-xs flex items-center justify-between p-3 rounded-lg"></div>
+                    </div>
+
+                    <!-- Trans Item 5 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 trans-card shadow-sm" data-tindex="4">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Завдання 5</span>
+                            <span class="text-xs text-slate-500">Очікується: ми, чоловічо-особова/загальна група (chcieć)</span>
+                        </div>
+                        <p class="text-slate-800 font-medium">Ми хотіли б подивитися цей фільм.</p>
+                        <div class="flex gap-2">
+                            <input type="text" placeholder="Впишіть переклад..." class="trans-input w-full bg-white border border-slate-200 px-4 py-2.5 rounded-lg text-sm text-slate-800 focus:outline-none focus:border-indigo-500 font-medium shadow-inner">
+                            <button onclick="checkTranslation(4)" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm rounded-lg transition-colors whitespace-nowrap shadow-sm">Перевірити</button>
+                        </div>
+                        <div class="trans-feedback hidden text-xs flex items-center justify-between p-3 rounded-lg"></div>
+                    </div>
+
+                    <!-- Trans Item 6 -->
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3 trans-card shadow-sm" data-tindex="5">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                            <span class="text-xs text-slate-400 font-semibold uppercase">Завдання 6</span>
+                            <span class="text-xs text-slate-500">Очікується: ви, чоловічо-особова або змішана група (móc)</span>
+                        </div>
+                        <p class="text-slate-800 font-medium">Чи могли б ви почекати?</p>
+                        <div class="flex gap-2">
+                            <input type="text" placeholder="Впишіть переклад..." class="trans-input w-full bg-white border border-slate-200 px-4 py-2.5 rounded-lg text-sm text-slate-800 focus:outline-none focus:border-indigo-500 font-medium shadow-inner">
+                            <button onclick="checkTranslation(5)" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm rounded-lg transition-colors whitespace-nowrap shadow-sm">Перевірити</button>
+                        </div>
+                        <div class="trans-feedback hidden text-xs flex items-center justify-between p-3 rounded-lg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Revision Section -->
+        <section class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 md:p-10 space-y-8 shadow-sm">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-150 pb-6">
+                <div>
+                    <h2 class="text-2xl font-extrabold text-slate-900">6. Швидкий фінальний конспект</h2>
+                    <p class="text-slate-500 text-sm mt-1">Опорні фрази та головна вижимка уроку в одному місці.</p>
+                </div>
+                <button onclick="resetWholeProgress()" class="text-slate-400 hover:text-slate-600 text-xs font-semibold uppercase tracking-wider underline transition-colors">
+                    Очистити весь прогрес
+                </button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm">
+                <!-- Recap Card 1 -->
+                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-3 shadow-sm">
+                    <div class="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold">M</div>
+                    <h3 class="text-base font-bold text-slate-900">Дієслово MÓC</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Використовуємо у формі <strong class="text-slate-800 font-semibold">mógłbym / mogłabym</strong> («міг би / могла б») для вираження вкрай делікатних, ввічливих прохань.
+                    </p>
+                </div>
+
+                <!-- Recap Card 2 -->
+                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-3 shadow-sm">
+                    <div class="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold">C</div>
+                    <h3 class="text-base font-bold text-slate-900">Дієслово CHCIEĆ</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        У формі <strong class="text-slate-800 font-semibold">chciałbym / chciałabym</strong> («хотів би / хотіла б») повністю усуває грубість прямого «хочу» в магазинах та ресторанах.
+                    </p>
+                </div>
+
+                <!-- Recap Card 3 -->
+                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-3 shadow-sm">
+                    <div class="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold">G</div>
+                    <h3 class="text-base font-bold text-slate-900">Узгодження родів</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Закінчення умовного способу мають родові відмінності: <strong class="text-indigo-600 font-semibold">-bym (ч.р.)</strong> проти <strong class="text-pink-600 font-semibold">-abym (ж.р.)</strong>. Будьте уважні під час говоріння!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Home Work Board / Action Card -->
+            <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-6 sm:p-8 space-y-6">
+                <div>
+                    <span class="text-xs text-indigo-600 font-bold uppercase tracking-widest block mb-1">Обов'язкове завдання на закріплення</span>
+                    <h3 class="text-xl font-bold text-slate-900">Домашнє завдання</h3>
+                    <p class="text-slate-600 text-sm mt-1">Складіть 6 власних речень польською мовою відповідно до вивчених формул:</p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-medium text-slate-700">
+                    <div class="p-3 bg-white rounded-xl border border-slate-200 shadow-sm">
+                        <span class="text-indigo-600 block font-bold mb-1">Блок 1</span>
+                        2 речення з <br><strong class="text-slate-900 font-bold">chciałbym / chciałabym</strong>
+                    </div>
+                    <div class="p-3 bg-white rounded-xl border border-slate-200 shadow-sm">
+                        <span class="text-indigo-600 block font-bold mb-1">Блок 2</span>
+                        2 речення з <br><strong class="text-slate-900 font-bold">mógłby pan / mogłaby pani</strong>
+                    </div>
+                    <div class="p-3 bg-white rounded-xl border border-slate-200 shadow-sm">
+                        <span class="text-indigo-600 block font-bold mb-1">Блок 3</span>
+                        2 питання з <br><strong class="text-slate-900 font-bold">moglibyście / chcielibyście</strong>
+                    </div>
+                </div>
+
+                <!-- Homework Editor Workspace -->
+                <div class="space-y-4">
+                    <textarea id="hw-input" placeholder="Введіть ваші речення тут..." rows="4" class="w-full bg-white border border-slate-200 rounded-xl p-4 text-sm text-slate-800 focus:outline-none focus:border-indigo-500 font-mono shadow-inner"></textarea>
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <div class="text-xs text-slate-500">
+                            Текст зберігається локально. Ви можете скопіювати його або перевірити у свого викладача.
+                        </div>
+                        <button onclick="saveHomework()" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs py-3 px-6 rounded-xl transition-all self-end shrink-0 uppercase tracking-wider shadow-md shadow-indigo-600/10">
+                            Зберегти чернетку
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 bg-white py-12 text-center text-xs text-slate-500 mt-20">
+        <div class="max-w-7xl mx-auto px-4 space-y-2">
+            <p>Урок 26: MÓC і CHCIEĆ у формі з -bym / -byś / -by • Інтерактивний Веб-Тренажер</p>
+            <p class="text-slate-400">&copy; 2026 Premium Polish Learning App. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Javascript Logic Engine -->
+    <script>
+        // Grammar Explorer Data
+        const conjugations = {
+            móc: {
+                m: [
+                    { pronoun: "ja", present: "mogę", polite: "mógłbym", trans: "я міг би" },
+                    { pronoun: "ty", present: "możesz", polite: "mógłbyś", trans: "ти міг би" },
+                    { pronoun: "on / pan", present: "może", polite: "mógłby", trans: "він / пан міг би" },
+                    { pronoun: "my", present: "możemy", polite: "moglibyśmy", trans: "ми могли б" },
+                    { pronoun: "wy", present: "możecie", polite: "moglibyście", trans: "ви могли б" },
+                    { pronoun: "oni / panowie / państwo", present: "mogą", polite: "mogliby", trans: "вони / панове / ви могли б" }
+                ],
+                f: [
+                    { pronoun: "ja", present: "mogę", polite: "mogłabym", trans: "я могла б" },
+                    { pronoun: "ty", present: "możesz", polite: "mogłabyś", trans: "ти могла б" },
+                    { pronoun: "ona / pani", present: "może", polite: "mogłaby", trans: "вона / пані могла б" },
+                    { pronoun: "my", present: "możemy", polite: "mogłybyśmy", trans: "ми могли б" },
+                    { pronoun: "wy", present: "możecie", polite: "mogłybyście", trans: "ви могли б" },
+                    { pronoun: "one / panie", present: "mogą", polite: "mogłyby", trans: "вони могли б" }
+                ]
+            },
+            chcieć: {
+                m: [
+                    { pronoun: "ja", present: "chcę", polite: "chciałbym", trans: "я хотів би" },
+                    { pronoun: "ty", present: "chcesz", polite: "chciałbyś", trans: "ти хотів би" },
+                    { pronoun: "on / pan", present: "chce", polite: "chciałby", trans: "він / пан хотів би" },
+                    { pronoun: "my", present: "chcemy", polite: "chcielibyśmy", trans: "ми хотіли б" },
+                    { pronoun: "wy", present: "chcecie", polite: "chcielibyście", trans: "ви хотіли б" },
+                    { pronoun: "oni / panowie / państwo", present: "chcą", polite: "chcieliby", trans: "вони / панове / ви хотіли б" }
+                ],
+                f: [
+                    { pronoun: "ja", present: "chcę", polite: "chciałabym", trans: "я хотіла б" },
+                    { pronoun: "ty", present: "chcesz", polite: "chciałabyś", trans: "ти хотіла б" },
+                    { pronoun: "ona / pani", present: "chce", polite: "chciałaby", trans: "вона / пані хотіла б" },
+                    { pronoun: "my", present: "chcemy", polite: "chciałybyśmy", trans: "ми хотіли б" },
+                    { pronoun: "wy", present: "chcecie", polite: "chciałybyście", trans: "ви хотіли б" },
+                    { pronoun: "one / panie", present: "chcą", polite: "chciałyby", trans: "вони хотіли б" }
+                ]
+            }
+        };
+
+        // Active State of Verb Explorer
+        let activeVerb = 'móc';
+        let activeGender = 'm';
+
+        // Interactive Drill Machine State
+        let currentDrillTemplate = 'pan';
+        let currentDrillVerb = 'pomóc';
+        let drillTplText = 'Czy mógłby pan [дієслово] to?';
+        let drillVerbText = 'pomóc';
+        let drillTranslationUa = 'допомогти';
+        let voiceAttempts = 0;
+
+        // Translation Answers Validation Data (Exercise 2)
+        const translationAnswers = [
+            {
+                correct: ["chciałbym kupić bilet.", "chciałbym kupić bilet"],
+                hint: "Chciałbym kupić bilet."
+            },
+            {
+                correct: [
+                    "chciałabym porozmawiać z panem.", "chciałabym porozmawiać z panią.", "chciałabym porozmawiać z państwem.",
+                    "chciałabym porozmawiać z panem", "chciałabym porozmawiać z panią", "chciałabym porozmawiać z państwem",
+                    "chciałabym z państwem porozмаwiać", "chciałabym z panem porozmawiać", "chciałabym z panią porozmawiać"
+                ],
+                hint: "Chciałabym porozmawiać z panem / z panią / z państwem."
+            },
+            {
+                correct: ["czy mógłby pan to powtórzyć?", "czy mógłby pan to powtórzyć", "czy mógłby pan powtórzyć?", "czy mógłby pan powtórzyć"],
+                hint: "Czy mógłby pan to powtórzyć?"
+            },
+            {
+                correct: ["czy mogłaby pani mówić wolniej?", "czy mogłaby pani mówić wolniej"],
+                hint: "Czy mogłaby pani mówić wolniej?"
+            },
+            {
+                correct: ["chcielibyśmy zobaczyć ten film.", "chcielibyśmy zobaczyć ten film"],
+                hint: "Chcielibyśmy zobaczyć ten film."
+            },
+            {
+                correct: ["czy moglibyście zaczekać?", "czy moglibyście zaczekać", "czy moglibyście poczekać?", "czy moglibyście poczekać"],
+                hint: "Czy moglibyście zaczekać?"
+            }
+        ];
+
+        // Overall progress state tracker
+        let checkedMCQs = new Set();
+        let checkedTranslations = new Set();
+        let drillActivityCompleted = false;
+        let dialogueActivityCompleted = false;
+
+        // Init App on load
+        window.addEventListener('DOMContentLoaded', () => {
+            renderExplorer();
+            updateDrillOutput();
+            loadSavedProgress();
+            updateGlobalProgress();
+            
+            // Warm up WebSpeech API
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.getVoices();
+                window.speechSynthesis.onvoiceschanged = () => {
+                    window.speechSynthesis.getVoices();
+                };
+            } else {
+                const speechBadge = document.getElementById('speech-badge');
+                if (speechBadge) {
+                    speechBadge.innerText = "Голос не підтримується";
+                    speechBadge.className = "text-[11px] font-bold text-rose-600 uppercase tracking-wider";
+                }
+            }
+        });
+
+        // Speak aloud utilizing Polish TTS synthesis
+        function speakPolish(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel(); // Stop any pending speech
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'pl-PL';
+                
+                const voices = window.speechSynthesis.getVoices();
+                const polishVoice = voices.find(voice => voice.lang.startsWith('pl'));
+                if (polishVoice) {
+                    utterance.voice = polishVoice;
+                }
+                
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        // Switch Verbs inside Explorer Block
+        function switchVerb(verb) {
+            activeVerb = verb;
+            
+            // Adjust buttons active styling
+            document.getElementById('btn-verb-moc').className = verb === 'móc' 
+                ? "px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 bg-indigo-600 text-white shadow-lg shadow-indigo-600/25"
+                : "px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 text-slate-600 hover:text-indigo-600";
+                
+            document.getElementById('btn-verb-chciec').className = verb === 'chcieć' 
+                ? "px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 bg-indigo-600 text-white shadow-lg shadow-indigo-600/25"
+                : "px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 text-slate-600 hover:text-indigo-600";
+
+            renderExplorer();
+        }
+
+        // Switch Gender inside Explorer Block
+        function switchGender(gender) {
+            activeGender = gender;
+
+            // Adjust buttons active styling
+            document.getElementById('btn-gender-m').className = gender === 'm' 
+                ? "px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 bg-white text-indigo-600 border border-slate-200 shadow-sm font-bold"
+                : "px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 text-slate-600 hover:text-indigo-600";
+                
+            document.getElementById('btn-gender-f').className = gender === 'f' 
+                ? "px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 bg-white text-indigo-600 border border-slate-200 shadow-sm font-bold"
+                : "px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 text-slate-600 hover:text-indigo-600";
+
+            renderExplorer();
+        }
+
+        // Render Explorer Table Body
+        function renderExplorer() {
+            const list = conjugations[activeVerb][activeGender];
+            const tbody = document.getElementById('conjugation-rows');
+            
+            // Update Text descriptions
+            if (activeVerb === 'móc') {
+                document.getElementById('explorer-title').innerText = "Móc — Могти";
+                document.getElementById('stem-info').innerText = "mógł- / mogł-";
+                document.getElementById('verb-badge').innerText = "M";
+                document.getElementById('verb-badge').className = "w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-lg border border-indigo-100";
+            } else {
+                document.getElementById('explorer-title').innerText = "Chcieć — Хотіти";
+                document.getElementById('stem-info').innerText = "chciał- / chcieli-";
+                document.getElementById('verb-badge').innerText = "C";
+                document.getElementById('verb-badge').className = "w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-lg border border-blue-100";
+            }
+
+            tbody.innerHTML = '';
+            list.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-slate-50 transition-colors";
+                tr.innerHTML = `
+                    <td class="py-4 px-6 font-semibold text-slate-800">${row.pronoun}</td>
+                    <td class="py-4 px-6 font-mono text-slate-500">${row.present}</td>
+                    <td class="py-4 px-6">
+                        <div class="flex items-center gap-2">
+                            <span class="font-mono text-indigo-700 font-bold bg-indigo-50 border border-indigo-100 px-2 py-1 rounded">${row.polite}</span>
+                            <button onclick="speakPolish('${row.polite}')" class="p-1 hover:text-slate-800 text-slate-400 transition-colors">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                            </button>
+                        </div>
+                    </td>
+                    <td class="py-4 px-6 text-slate-600">${row.trans}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Set Drill Template Action
+        function setDrillTemplate(tplName, rawText) {
+            currentDrillTemplate = tplName;
+            drillTplText = rawText;
+            
+            // Highlight Buttons
+            document.querySelectorAll('.drill-template-btn').forEach(btn => {
+                const isCurrent = btn.dataset.template === tplName;
+                btn.className = isCurrent 
+                    ? "drill-template-btn p-3 rounded-xl border text-left text-sm transition-all duration-150 flex items-center justify-between border-indigo-300 bg-indigo-50 text-indigo-900 font-medium shadow-sm"
+                    : "drill-template-btn p-3 rounded-xl border border-slate-200 text-left text-sm text-slate-700 transition-all duration-150 hover:bg-slate-50 flex items-center justify-between";
+                
+                const dot = btn.querySelector('span:last-child');
+                dot.className = isCurrent ? "w-2.5 h-2.5 rounded-full bg-indigo-600" : "w-2.5 h-2.5 rounded-full bg-transparent border border-slate-300";
+            });
+
+            updateDrillOutput();
+        }
+
+        // Set Drill Verb Action
+        function setDrillVerb(verbWord, transUa) {
+            currentDrillVerb = verbWord;
+            drillVerbText = verbWord;
+            drillTranslationUa = transUa;
+
+            // Highlight Buttons
+            document.querySelectorAll('.drill-verb-btn').forEach(btn => {
+                const isCurrent = btn.dataset.verb === verbWord;
+                btn.className = isCurrent
+                    ? "drill-verb-btn px-3 py-2 rounded-lg text-xs font-semibold border border-indigo-500 bg-indigo-50 text-indigo-750 shadow-sm"
+                    : "drill-verb-btn px-3 py-2 rounded-lg text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-600 hover:text-slate-900 hover:bg-slate-100";
+            });
+
+            updateDrillOutput();
+        }
+
+        // Render Generated outputs based on Drill selections
+        function updateDrillOutput() {
+            let outputPl = "";
+            let outputUa = "";
+
+            if (currentDrillTemplate === 'pan') {
+                outputPl = `Czy mógłby pan ${currentDrillVerb} to?`;
+                outputUa = `Чи міг би пан ${drillTranslationUa} це?`;
+            } else if (currentDrillTemplate === 'pani') {
+                outputPl = `Czy mogłaby pani ${currentDrillVerb} wolniej?`;
+                outputUa = `Чи могла б пані ${drillTranslationUa} повільніше?`;
+            } else if (currentDrillTemplate === 'ty_m') {
+                outputPl = `Czy mógłbyś mi ${currentDrillVerb}?`;
+                outputUa = `Чи міг би ти мені ${drillTranslationUa}?`;
+            } else if (currentDrillTemplate === 'ty_f') {
+                outputPl = `Czy mogłabyś ${currentDrillVerb}?`;
+                outputUa = `Чи могла б ти ${drillTranslationUa}?`;
+            }
+
+            document.getElementById('drill-output-pl').innerText = outputPl;
+            document.getElementById('drill-output-ua').innerText = outputUa;
+
+            voiceAttempts = 0;
+            updateDrillCounter();
+        }
+
+        // Interactive counters on Speak trigger
+        function triggerDrillVoice() {
+            const phrase = document.getElementById('drill-output-pl').innerText;
+            speakPolish(phrase);
+
+            if (voiceAttempts < 3) {
+                voiceAttempts++;
+                updateDrillCounter();
+            }
+
+            if (voiceAttempts === 3 && !drillActivityCompleted) {
+                drillActivityCompleted = true;
+                updateGlobalProgress();
+                saveLocalState();
+            }
+        }
+
+        // Render Drill Dots indicator
+        function updateDrillCounter() {
+            const counterDiv = document.getElementById('drill-counter');
+            const statusText = document.getElementById('drill-status-text');
+            
+            counterDiv.innerHTML = '';
+            for (let i = 1; i <= 3; i++) {
+                const dot = document.createElement('span');
+                if (i <= voiceAttempts) {
+                    dot.className = "w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-md shadow-emerald-500/20";
+                } else {
+                    dot.className = "w-2.5 h-2.5 rounded-full bg-slate-200 border border-slate-300";
+                }
+                counterDiv.appendChild(dot);
+            }
+
+            if (voiceAttempts === 0) {
+                statusText.innerText = "Натисніть кнопку, щоб розпочати";
+                statusText.className = "text-[11px] text-indigo-600 font-bold ml-2";
+            } else if (voiceAttempts < 3) {
+                statusText.innerText = `Відмінно! Проговоріть ще ${3 - voiceAttempts} рази`;
+                statusText.className = "text-[11px] text-amber-600 font-bold ml-2";
+            } else {
+                statusText.innerText = "Прекрасно! Цю модель засвоєно.";
+                statusText.className = "text-[11px] text-emerald-600 font-bold ml-2";
+            }
+        }
+
+        // Toggle Dialog Options
+        let dialogueTranslationsHidden = false;
+        function toggleDialogTranslations() {
+            dialogueTranslationsHidden = !dialogueTranslationsHidden;
+            const elements = document.querySelectorAll('.dialogue-ua');
+            elements.forEach(el => {
+                if (dialogueTranslationsHidden) {
+                    el.classList.add('hidden');
+                } else {
+                    el.classList.remove('hidden');
+                }
+            });
+
+            document.getElementById('btn-dialog-trans').innerText = dialogueTranslationsHidden ? "Показати переклад" : "Приховати переклад";
+            
+            if (!dialogueActivityCompleted) {
+                dialogueActivityCompleted = true;
+                updateGlobalProgress();
+                saveLocalState();
+            }
+        }
+
+        // Hide/Show Roleplay Dialogue sets
+        let roleplayMode = 0; // 0: off, 1: Hide Speaker A, 2: Hide Speaker B
+        function toggleRoleplayMode() {
+            roleplayMode = (roleplayMode + 1) % 3;
+            
+            const btn = document.getElementById('btn-roleplay');
+            const rowsA = document.querySelectorAll('#dialog-row-1 .dialogue-pl, #dialog-row-3 .dialogue-pl, #dialog-row-5 .dialogue-pl');
+            const rowsB = document.querySelectorAll('#dialog-row-2 .dialogue-pl, #dialog-row-4 .dialogue-pl');
+
+            // Reset states
+            rowsA.forEach(r => r.classList.remove('opacity-5', 'hover:opacity-100', 'transition-opacity'));
+            rowsB.forEach(r => r.classList.remove('opacity-5', 'hover:opacity-100', 'transition-opacity'));
+
+            if (roleplayMode === 0) {
+                btn.innerText = "Режим рольової гри (Сховати роль А)";
+                btn.className = "w-full py-3 px-4 rounded-xl text-sm font-semibold bg-slate-100 border border-slate-200 hover:bg-slate-250 text-slate-700 transition-all shadow-sm";
+            } else if (roleplayMode === 1) {
+                btn.innerText = "Режим рольової гри (Сховати роль B)";
+                btn.className = "w-full py-3 px-4 rounded-xl text-sm font-semibold bg-indigo-50 border border-indigo-200 text-indigo-700 hover:bg-indigo-100 transition-all shadow-sm";
+                rowsA.forEach(r => {
+                    r.classList.add('opacity-5', 'hover:opacity-100', 'transition-opacity');
+                });
+            } else if (roleplayMode === 2) {
+                btn.innerText = "Вимкнути рольову гру";
+                btn.className = "w-full py-3 px-4 rounded-xl text-sm font-semibold bg-emerald-50 border border-emerald-200 text-emerald-700 hover:bg-emerald-100 transition-all shadow-sm";
+                rowsB.forEach(r => {
+                    r.classList.add('opacity-5', 'hover:opacity-100', 'transition-opacity');
+                });
+            }
+
+            if (!dialogueActivityCompleted) {
+                dialogueActivityCompleted = true;
+                updateGlobalProgress();
+                saveLocalState();
+            }
+        }
+
+        // MCQ Interactive Checker logic
+        const mcqCorrectAnswers = ['chciałbym', 'mogłabym', 'mogłabyś', 'mógłby', 'chcieliby'];
+        function checkMCQ(qIndex, selection, element) {
+            const card = document.querySelector(`.mcq-card[data-qindex="${qIndex}"]`);
+            const buttons = card.querySelectorAll('.option-btn');
+            const feedback = card.querySelector('.feedback-msg');
+            const correctText = mcqCorrectAnswers[qIndex];
+
+            buttons.forEach(btn => {
+                btn.disabled = true;
+                if (btn.innerText.trim() === correctText) {
+                    btn.className = "option-btn py-2.5 px-4 rounded-lg bg-emerald-50 border border-emerald-350 text-emerald-700 text-sm font-bold shadow-sm transition-all";
+                } else {
+                    btn.className = "option-btn py-2.5 px-4 rounded-lg bg-slate-100/60 border border-slate-200 text-slate-400 text-sm font-medium transition-all";
+                }
+            });
+
+            if (selection === correctText) {
+                feedback.innerText = "Правильно! Чудове відчуття мови.";
+                feedback.className = "feedback-msg text-xs pt-1.5 font-bold text-emerald-600 block";
+                if (!checkedMCQs.has(qIndex)) {
+                    checkedMCQs.add(qIndex);
+                }
+            } else {
+                element.className = "option-btn py-2.5 px-4 rounded-lg bg-rose-50 border border-rose-300 text-rose-700 text-sm font-bold shadow-sm transition-all";
+                feedback.innerText = `Неправильно. Правильна відповідь: ${correctText}`;
+                feedback.className = "feedback-msg text-xs pt-1.5 font-bold text-rose-600 block";
+            }
+
+            updateQuizScoreBoard();
+            updateGlobalProgress();
+            saveLocalState();
+        }
+
+        // Translation Interactive Evaluator logic
+        function checkTranslation(tIndex) {
+            const card = document.querySelector(`.trans-card[data-tindex="${tIndex}"]`);
+            const inputField = card.querySelector('.trans-input');
+            const rawUserValue = inputField.value.trim().toLowerCase();
+            const feedback = card.querySelector('.trans-feedback');
+            
+            const cleanedVal = rawUserValue.replace(/[?.!,]/g, "").trim();
+            const answerSet = translationAnswers[tIndex];
+
+            let isCorrect = false;
+            for (let i = 0; i < answerSet.correct.length; i++) {
+                const target = answerSet.correct[i].toLowerCase().replace(/[?.!,]/g, "").trim();
+                if (cleanedVal === target) {
+                    isCorrect = true;
+                    break;
+                }
+            }
+
+            feedback.classList.remove('hidden');
+
+            if (isCorrect) {
+                feedback.innerHTML = `
+                    <span><strong>Чудово:</strong> Ваша відповідь абсолютно точна.</span>
+                    <button onclick="speakPolish('${answerSet.hint}')" class="p-1.5 bg-emerald-100 text-emerald-700 rounded hover:bg-emerald-200 transition-colors shadow-sm">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                    </button>
+                `;
+                feedback.className = "trans-feedback text-xs flex items-center justify-between p-3 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 block mt-2";
+                inputField.disabled = true;
+
+                if (!checkedTranslations.has(tIndex)) {
+                    checkedTranslations.add(tIndex);
+                }
+            } else {
+                feedback.innerHTML = `
+                    <span><strong>Спробуйте ще раз:</strong> Зверніть увагу на закінчення чи діакритику. Зразок: <strong class="font-mono text-slate-800">${answerSet.hint}</strong></span>
+                    <button onclick="speakPolish('${answerSet.hint}')" class="p-1.5 bg-rose-100 text-rose-700 rounded hover:bg-rose-200 transition-colors shadow-sm">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                    </button>
+                `;
+                feedback.className = "trans-feedback text-xs flex items-center justify-between p-3 rounded-lg bg-rose-50 border border-rose-250 text-rose-700 block mt-2";
+            }
+
+            updateQuizScoreBoard();
+            updateGlobalProgress();
+            saveLocalState();
+        }
+
+        function updateQuizScoreBoard() {
+            const correctCount = checkedMCQs.size + checkedTranslations.size;
+            document.getElementById('quiz-score').innerText = `${correctCount} / 11 правильних`;
+        }
+
+        function updateGlobalProgress() {
+            const mcqMax = 5;
+            const transMax = 6;
+            const drillValue = drillActivityCompleted ? 1 : 0;
+            const dialogueValue = dialogueActivityCompleted ? 1 : 0;
+
+            const totalScorePoints = checkedMCQs.size + checkedTranslations.size + drillValue + dialogueValue;
+            const totalMaxPoints = mcqMax + transMax + 1 + 1;
+
+            const computedPercentage = Math.round((totalScorePoints / totalMaxPoints) * 100);
+            
+            document.getElementById('progress-bar').style.width = `${computedPercentage}%`;
+            document.getElementById('progress-text').innerText = `${computedPercentage}% Виконано`;
+        }
+
+        function saveLocalState() {
+            const state = {
+                mcqs: Array.from(checkedMCQs),
+                translations: Array.from(checkedTranslations),
+                drillCompleted: drillActivityCompleted,
+                dialogueCompleted: dialogueActivityCompleted,
+                homework: document.getElementById('hw-input').value
+            };
+            localStorage.setItem('polish_lesson_26_state_light', JSON.stringify(state));
+        }
+
+        function loadSavedProgress() {
+            const saved = localStorage.getItem('polish_lesson_26_state_light');
+            if (saved) {
+                try {
+                    const parsed = JSON.parse(saved);
+                    if (parsed.mcqs) {
+                        parsed.mcqs.forEach(q => checkedMCQs.add(q));
+                    }
+                    if (parsed.translations) {
+                        parsed.translations.forEach(t => checkedTranslations.add(t));
+                    }
+                    drillActivityCompleted = !!parsed.drillCompleted;
+                    dialogueActivityCompleted = !!parsed.dialogueCompleted;
+                    if (parsed.homework) {
+                        document.getElementById('hw-input').value = parsed.homework;
+                    }
+                    
+                    checkedMCQs.forEach(idx => {
+                        const card = document.querySelector(`.mcq-card[data-qindex="${idx}"]`);
+                        if (card) {
+                            const correctText = mcqCorrectAnswers[idx];
+                            const buttons = card.querySelectorAll('.option-btn');
+                            buttons.forEach(btn => {
+                                btn.disabled = true;
+                                if (btn.innerText.trim() === correctText) {
+                                    btn.className = "option-btn py-2.5 px-4 rounded-lg bg-emerald-50 border border-emerald-300 text-emerald-700 text-sm font-bold shadow-sm transition-all";
+                                } else {
+                                    btn.className = "option-btn py-2.5 px-4 rounded-lg bg-slate-100/60 border border-slate-200 text-slate-400 text-sm font-medium transition-all";
+                                }
+                            });
+                            const feedback = card.querySelector('.feedback-msg');
+                            feedback.innerText = "Засвоєно.";
+                            feedback.className = "feedback-msg text-xs pt-1.5 font-bold text-emerald-600 block";
+                        }
+                    });
+
+                    checkedTranslations.forEach(idx => {
+                        const card = document.querySelector(`.trans-card[data-tindex="${idx}"]`);
+                        if (card) {
+                            const inputField = card.querySelector('.trans-input');
+                            const feedback = card.querySelector('.trans-feedback');
+                            const answerSet = translationAnswers[idx];
+
+                            inputField.value = answerSet.hint;
+                            inputField.disabled = true;
+
+                            feedback.classList.remove('hidden');
+                            feedback.innerHTML = `
+                                <span><strong>Засвоєно:</strong> Зразок: <strong class="font-mono text-slate-800">${answerSet.hint}</strong></span>
+                                <button onclick="speakPolish('${answerSet.hint}')" class="p-1.5 bg-emerald-100 text-emerald-700 rounded hover:bg-emerald-200 transition-colors shadow-sm">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+                                </button>
+                            `;
+                            feedback.className = "trans-feedback text-xs flex items-center justify-between p-3 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 block mt-2 shadow-sm";
+                        }
+                    });
+
+                    updateQuizScoreBoard();
+                } catch (e) {
+                    console.error("Failed to parse progress storage map", e);
+                }
+            }
+        }
+
+        function saveHomework() {
+            saveLocalState();
+            const textToArea = document.getElementById('hw-input');
+            const originalBorder = textToArea.className;
+            textToArea.className = "w-full bg-white border border-emerald-500 rounded-xl p-4 text-sm text-slate-800 focus:outline-none font-mono shadow-inner";
+            setTimeout(() => {
+                textToArea.className = originalBorder;
+            }, 1000);
+        }
+
+        function resetWholeProgress() {
+            localStorage.removeItem('polish_lesson_26_state_light');
+            checkedMCQs.clear();
+            checkedTranslations.clear();
+            drillActivityCompleted = false;
+            dialogueActivityCompleted = false;
+            window.location.reload();
+        }
+    </script>
+</body>
+</html>

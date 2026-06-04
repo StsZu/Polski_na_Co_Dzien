@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polski na Co Dzień — Portal Edukacyjny</title>
+  <style>
+    :root {
+      /* Daylight Mode (Warm premium academic linen theme) */
+      --bg-body: #e7dfd2;
+      --bg-card: #f8f3e9;
+      --bg-card-hover: #faf7f2;
+      --border-color: #d4c7b3;
+      --border-hover: #b8a891;
+      --text-main: #2f2822;
+      --text-muted: #7a6858;
+      --text-descr: #4a3e34;
+      --btn-bg: rgba(255, 251, 244, 0.9);
+      --btn-hover: #efe6d8;
+      --btn-border: #d4c7b3;
+      --accent: #8d2930; /* Polish Crimson Accent */
+      --accent-light: rgba(141, 41, 48, 0.08);
+      --accent-glow: rgba(141, 41, 48, 0.15);
+      --accent-success: #3e6b48;
+      --accent-success-light: rgba(62, 107, 72, 0.1);
+      --accent-error: #9a3434;
+      --accent-error-light: rgba(154, 52, 52, 0.1);
+      --shadow-sm: 0 2px 8px rgba(74, 62, 52, 0.04);
+      --shadow-md: 0 6px 20px rgba(74, 62, 52, 0.06);
+      --transition-speed: 0.3s;
+      --font-serif: Georgia, "Palatino Linotype", serif;
+      --font-sans: "SF Pro Text", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    }
+
+    /* Night Ops Mode (Warm dark cockpit panel theme) */
+    .night-mode {
+      --bg-body: #14110f;
+      --bg-card: #1f1b18;
+      --bg-card-hover: #26211d;
+      --border-color: #38302b;
+      --border-hover: #52473f;
+      --text-main: #f3eae1;
+      --text-muted: #9e8d80;
+      --text-descr: #cfc2b6;
+      --btn-bg: #2b2420;
+      --btn-hover: #3b322c;
+      --btn-border: #473d35;
+      --accent: #ff4d5a; /* Glowing Dark Polish Red */
+      --accent-light: rgba(255, 77, 90, 0.15);
+      --accent-glow: rgba(255, 77, 90, 0.35);
+      --accent-success: #5ca36b;
+      --accent-success-light: rgba(92, 163, 107, 0.15);
+      --accent-error: #e55c5c;
+      --accent-error-light: rgba(229, 92, 92, 0.15);
+      --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.25);
+      --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      font-family: var(--font-serif);
+      min-height: 100vh;
+      padding: 40px 20px;
+      line-height: 1.55;
+      transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+    }
+
+    /* Reset interactive element typography */
+    button, a, input, select {
+      font-family: var(--font-sans);
+    }
+
+    /* --- LAYOUT WRAPPER --- */
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    /* --- NAVIGATION / TOP BAR --- */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-sans);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 13px;
+      color: var(--accent);
+    }
+
+    .brand-flag {
+      width: 20px;
+      height: 12px;
+      border-radius: 2px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .brand-flag-white { background: #ffffff; flex: 1; }
+    .brand-flag-red { background: #dc143c; flex: 1; }
+
+    .theme-toggle-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 10px 16px;
+      border-radius: 30px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-speed) ease;
+    }
+
+    .theme-toggle-btn:hover {
+      border-color: var(--border-hover);
+      background: var(--bg-card-hover);
+      transform: translateY(-1px);
+    }
+
+    .theme-toggle-btn svg {
+      width: 16px;
+      height: 16px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+
+    /* --- HERO/HEADER SECTION --- */
+    .hero {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      padding: 44px 48px;
+      box-shadow: var(--shadow-md);
+      position: relative;
+      overflow: hidden;
+      transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 5px;
+      height: 100%;
+      background: var(--accent);
+    }
+
+    .hero-title-group {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 8px;
+    }
+
+    .hero-icon {
+      width: 38px;
+      height: 38px;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .hero-title {
+      font-size: 38px;
+      line-height: 1.15;
+      font-weight: 800;
+      color: var(--text-main);
+      letter-spacing: -0.02em;
+    }
+
+    .hero-subtitle {
+      font-size: 20px;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-bottom: 24px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+      align-items: flex-start;
+    }
+
+    .hero-intro {
+      font-size: 18px;
+      line-height: 1.65;
+      color: var(--text-descr);
+    }
+
+    .hero-intro-ua {
+      font-size: 15px;
+      color: var(--text-muted);
+      margin-top: 14px;
+      line-height: 1.6;
+      border-left: 2px solid var(--border-color);
+      padding-left: 14px;
+    }
+
+    .outcomes-box {
+      background: var(--btn-bg);
+      border: 1px dashed var(--border-color);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .outcomes-title {
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .outcomes-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .outcomes-list li {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-descr);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .outcomes-list li svg {
+      width: 14px;
+      height: 14px;
+      color: var(--accent-success);
+      flex-shrink: 0;
+    }
+
+    /* --- PORTAL SPLIT GRID --- */
+    .dashboard-layout {
+      display: grid;
+      grid-template-columns: 1.7fr 1fr;
+      gap: 24px;
+    }
+
+    /* --- MATERIALS CARDS SECTION --- */
+    .materials-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .section-headline {
+      font-family: var(--font-sans);
+      font-size: 14px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .material-card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      min-height: 250px;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .material-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--border-hover);
+      box-shadow: var(--shadow-md);
+    }
+
+    .material-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 120px;
+      height: 120px;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+      opacity: 0;
+      transition: opacity var(--transition-speed) ease;
+      pointer-events: none;
+    }
+
+    .material-card:hover::after {
+      opacity: 1;
+    }
+
+    .card-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .badge {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 5px 12px;
+      border-radius: 100px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .badge-class { background-color: var(--accent-light); color: var(--accent); }
+    .badge-quiz { background-color: var(--accent-success-light); color: var(--accent-success); }
+    .badge-media { background-color: var(--btn-hover); color: var(--text-main); }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: var(--text-main);
+      margin-bottom: 10px;
+      letter-spacing: -0.01em;
+    }
+
+    .card-desc {
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--text-descr);
+      margin-bottom: 24px;
+    }
+
+    .card-btn {
+      margin-top: auto;
+      min-height: 50px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      border-radius: 12px;
+      color: var(--text-main);
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      width: 100%;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.15s ease;
+      outline: none;
+    }
+
+    .card-btn:hover {
+      background-color: var(--btn-hover);
+      border-color: var(--border-hover);
+      transform: translateY(-1px);
+    }
+
+    .card-btn:focus-visible {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .card-btn:active {
+      transform: scale(0.99);
+    }
+
+    .card-btn-icon {
+      width: 16px;
+      height: 16px;
+      transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .card-btn:hover .card-btn-icon {
+      transform: translateX(4px);
+    }
+
+    /* --- SIDEBAR PANEL (Progress & Live Widget) --- */
+    .sidebar-column {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .sidebar-widget {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    }
+
+    .widget-title {
+      font-family: var(--font-sans);
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .widget-title svg {
+      width: 18px;
+      height: 18px;
+      color: var(--accent);
+    }
+
+    .tracker-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .tracker-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .tracker-checkbox {
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--border-color);
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      display: grid;
+      place-content: center;
+      transition: all 0.15s ease;
+    }
+
+    .tracker-checkbox:checked {
+      background-color: var(--accent-success);
+      border-color: var(--accent-success);
+    }
+
+    .tracker-checkbox:checked::before {
+      content: "";
+      width: 10px;
+      height: 6px;
+      border-left: 2px solid #ffffff;
+      border-bottom: 2px solid #ffffff;
+      transform: rotate(-45deg) translateY(-1px);
+    }
+
+    .tracker-text {
+      font-family: var(--font-sans);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-descr);
+      transition: color 0.15s ease;
+    }
+
+    .tracker-checkbox:checked + .tracker-text {
+      text-decoration: line-through;
+      color: var(--text-muted);
+    }
+
+    /* Progress bar design */
+    .progress-bar-container {
+      background: var(--btn-hover);
+      border-radius: 100px;
+      height: 8px;
+      overflow: hidden;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .progress-bar-fill {
+      background: var(--accent-success);
+      height: 100%;
+      width: 0%;
+      transition: width 0.4s ease;
+    }
+
+    .progress-label {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-top: 6px;
+      display: block;
+      text-align: right;
+    }
+
+    .flashcard-drill {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .drill-prompt {
+      background: var(--btn-hover);
+      border-radius: 12px;
+      padding: 16px;
+      font-style: italic;
+      font-size: 16px;
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+    }
+
+    .drill-input-wrapper {
+      position: relative;
+    }
+
+    .drill-input {
+      width: 100%;
+      padding: 12px;
+      font-size: 15px;
+      border-radius: 10px;
+      border: 2px solid var(--border-color);
+      background: var(--bg-card);
+      color: var(--text-main);
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+
+    .drill-input:focus {
+      border-color: var(--accent);
+    }
+
+    .drill-btn-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-secondary {
+      flex: 1;
+      padding: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: var(--btn-bg);
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .btn-secondary:hover {
+      background: var(--btn-hover);
+      border-color: var(--border-hover);
+    }
+
+    .btn-primary {
+      flex: 1.3;
+      padding: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 8px;
+      border: none;
+      background: var(--accent);
+      color: #ffffff;
+      cursor: pointer;
+      transition: opacity 0.15s ease;
+    }
+
+    .btn-primary:hover {
+      opacity: 0.9;
+    }
+
+    .drill-feedback {
+      display: none;
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .drill-feedback.success {
+      display: block;
+      background: var(--accent-success-light);
+      color: var(--accent-success);
+    }
+
+    .drill-feedback.error {
+      display: block;
+      background: var(--accent-error-light);
+      color: var(--accent-error);
+    }
+
+    .mistakes-table-wrapper {
+      overflow-x: auto;
+      margin-top: 10px;
+    }
+
+    .mistakes-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-family: var(--font-sans);
+      font-size: 13px;
+    }
+
+    .mistakes-table th {
+      border-bottom: 2px solid var(--border-color);
+      padding: 10px 8px;
+      color: var(--text-muted);
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.05em;
+    }
+
+    .mistakes-table td {
+      border-bottom: 1px solid var(--border-color);
+      padding: 10px 8px;
+      vertical-align: top;
+    }
+
+    .text-bad {
+      color: var(--accent-error);
+      font-weight: 700;
+    }
+
+    .text-good {
+      color: var(--accent-success);
+      font-weight: 700;
+    }
+
+    /* --- FOOTER ADVICE / NOTES --- */
+    .portal-note {
+      background-color: var(--bg-card);
+      border: 1px dashed var(--border-color);
+      border-radius: 22px;
+      padding: 28px 34px;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      box-shadow: var(--shadow-sm);
+      transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    }
+
+    .portal-note-icon {
+      width: 26px;
+      height: 26px;
+      color: var(--accent);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .portal-note-content {
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--text-descr);
+    }
+
+    .portal-note-title {
+      font-family: var(--font-sans);
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 6px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 1024px) {
+      .dashboard-layout {
+        grid-template-columns: 1.5fr 1fr;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .dashboard-layout {
+        grid-template-columns: 1fr;
+      }
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      .material-card {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 24px 12px;
+      }
+      .hero {
+        padding: 30px 24px;
+      }
+      .hero-title {
+        font-size: 28px;
+      }
+      .hero-subtitle {
+        font-size: 17px;
+        margin-bottom: 16px;
+      }
+      .hero-intro {
+        font-size: 15px;
+      }
+      .hero-intro-ua {
+        font-size: 13px;
+      }
+      .material-card {
+        padding: 22px;
+      }
+      .card-title {
+        font-size: 21px;
+      }
+      .card-desc {
+        font-size: 15px;
+      }
+      .portal-note {
+        padding: 20px;
+        gap: 12px;
+      }
+      .portal-note-content {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- TOP NAVIGATION & SWITCHER -->
+    <nav class="top-bar" aria-label="Nawigacja główna">
+      <div class="brand-logo" aria-hidden="true">
+        <div class="brand-flag">
+          <div class="brand-flag-white"></div>
+          <div class="brand-flag-red"></div>
+        </div>
+        <span>PL na co dzień</span>
+      </div>
+      
+      <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Przełącz motyw dzień/noc" onclick="toggleTheme()">
+        <svg class="sun-icon" id="sunIcon" viewBox="0 0 24 24" style="display: block;">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" id="moonIcon" viewBox="0 0 24 24" style="display: none;">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <span id="themeBtnText">Night Ops</span>
+      </button>
+    </nav>
+
+    <!-- HERO PANEL -->
+    <header class="hero" role="banner">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-title-group">
+            <svg class="hero-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+            <h1 class="hero-title">Polski na Co Dzień</h1>
+          </div>
+          <p class="hero-subtitle">Interaktywna platforma do efektywnej nauki języka polskiego</p>
+          
+          <div class="hero-intro">
+            Witaj w przestrzeni edukacyjnej stworzonej do systematycznej i angażującej nauki. Znajdziesz tutaj interaktywne lekcje gramatyczne, testy wiedzy oraz materiały multimedialne do codziennej płynnej komunikacji.
+            <div class="hero-intro-ua" lang="uk">
+              Ласкаво просимо до преміального простору вивчення польської мови. Тут поєднано інтерактивні заняття, тестування для миттєвої перевірки знань та корисні аудіо- та візуальні інструменти.
+            </div>
+          </div>
+        </div>
+
+        <div class="outcomes-box">
+          <h2 class="outcomes-title">Cele naukowe:</h2>
+          <ul class="outcomes-list">
+            <li>
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              Czasowniki modalne: móc, chcieć
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              Formy grzecznościowe (-bym)
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              Słuchanie & Wizualizacja
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="dashboard-layout">
+      
+      <!-- PRIMARY CARDS: LEFT COLUMN -->
+      <main class="materials-column">
+        <div>
+          <h2 class="section-headline">
+            <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+            Dostępne materiały naukowe
+          </h2>
+          <div class="card-grid">
+            
+            <!-- MODULE 1 -->
+            <article class="material-card">
+              <div class="card-header-row">
+                <span class="badge badge-class">
+                  <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                  Lekcja gramatyki
+                </span>
+              </div>
+              <h3 class="card-title">MÓC & CHCIEĆ</h3>
+              <p class="card-desc">Opanuj odmianę czasowników modalnych w różnych czasach oraz zasady tworzenia uprzejmych próśb i zwrotów przy użyciu końcówek kondycjonalnych <em>-bym, -byś, -by</em>.</p>
+              <a href="polish_class/26_m_c_chcie.html" class="card-btn" aria-label="Otwórz lekcję o Móc i Chcieć">
+                <span>Otwórz lekcję</span>
+                <svg class="card-btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+              </a>
+            </article>
+
+            <!-- MODULE 2 -->
+            <article class="material-card">
+              <div class="card-header-row">
+                <span class="badge badge-quiz">
+                  <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                  Trening wiedzy
+                </span>
+              </div>
+              <h3 class="card-title">Quiz: MÓC & CHCIEĆ</h3>
+              <p class="card-desc">Zmierz się z 10 spersonalizowanymi pytaniami testowymi. Otrzymaj natychmiastowe wyjaśnienie poprawnej formy bezpośrednio po udzieleniu odpowiedzi.</p>
+              <a href="quiz_moc_chciec.html" class="card-btn" aria-label="Rozpocznij quiz o Móc i Chcieć">
+                <span>Rozpocznij quiz</span>
+                <svg class="card-btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+              </a>
+            </article>
+
+            <!-- MODULE 3 -->
+            <article class="material-card">
+              <div class="card-header-row">
+                <span class="badge badge-media">
+                  <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                  Wizualna ściąga
+                </span>
+              </div>
+              <h3 class="card-title">Infografiki</h3>
+              <p class="card-desc">Szybkie tabele powtórkowe, schematy odmian oraz korelacje modalne skompilowane w przejrzyste obrazy, które możesz przeglądać w dowolnej chwili.</p>
+              <a href="infographics.html" class="card-btn" aria-label="Zobacz infografiki">
+                <span>Zobacz infografiki</span>
+                <svg class="card-btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+              </a>
+            </article>
+
+            <!-- MODULE 4 -->
+            <article class="material-card">
+              <div class="card-header-row">
+                <span class="badge badge-media">
+                  <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg>
+                  Trening ze słuchu
+                </span>
+              </div>
+              <h3 class="card-title">Piosenki</h3>
+              <p class="card-desc">Nauka języka w rytmie muzyki! Słuchaj wyselekcjonowanych nagrań, analizuj wbudowany tekst wraz z objaśnionym słownictwem codziennego użytku.</p>
+              <a href="songs.html" class="card-btn" aria-label="Przejdź do piosenek">
+                <span>Posłuchaj piosenek</span>
+                <svg class="card-btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+              </a>
+            </article>
+
+          </div>
+        </div>
+      </main>
+
+      <!-- INTERACTIVE PANEL: RIGHT COLUMN -->
+      <aside class="sidebar-column">
+        
+        <!-- TRACKER WIDGET -->
+        <section class="sidebar-widget" aria-label="Mój postęp nauki">
+          <h2 class="widget-title">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            Twój Postęp Dziś
+          </h2>
+          <div class="tracker-list">
+            <label class="tracker-item">
+              <input type="checkbox" class="tracker-checkbox" id="chk-lesson" onchange="updateProgress()">
+              <span class="tracker-text">Obejrzano Lekcję (Móc & Chcieć)</span>
+            </label>
+            <label class="tracker-item">
+              <input type="checkbox" class="tracker-checkbox" id="chk-quiz" onchange="updateProgress()">
+              <span class="tracker-text">Ukończono Quiz gramatyczny</span>
+            </label>
+            <label class="tracker-item">
+              <input type="checkbox" class="tracker-checkbox" id="chk-info" onchange="updateProgress()">
+              <span class="tracker-text">Przejrzano Infografiki</span>
+            </label>
+            <label class="tracker-item">
+              <input type="checkbox" class="tracker-checkbox" id="chk-songs" onchange="updateProgress()">
+              <span class="tracker-text">Przesłuchano Piosenkę</span>
+            </label>
+          </div>
+          
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="progressBar"></div>
+          </div>
+          <span class="progress-label" id="progressPercent">Zrobiono: 0%</span>
+        </section>
+
+        <!-- LIVE DAILY DRILL WIDGET -->
+        <section class="sidebar-widget" aria-label="Szybki Trening">
+          <h2 class="widget-title">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            Szybki Trening (Live Drill)
+          </h2>
+          <div class="flashcard-drill">
+            <p class="drill-prompt" id="drillPrompt">Chciał_____ (ja, m.) pójść do kina.</p>
+            <div class="drill-input-wrapper">
+              <input type="text" class="drill-input" id="drillAnswer" placeholder="Wpisz brakujące słowo / końcówkę..." autocomplete="off">
+            </div>
+            <div class="drill-feedback" id="drillFeedback"></div>
+            <div class="drill-btn-row">
+              <button class="btn-secondary" onclick="revealDrillAnswer()">Pokaż</button>
+              <button class="btn-primary" onclick="checkDrillAnswer()">Sprawdź</button>
+            </div>
+            <button class="btn-secondary" style="margin-top: 4px;" onclick="loadNextDrill()">Kolejne zdanie &rarr;</button>
+          </div>
+        </section>
+
+        <!-- COMMON MISTAKES PANEL -->
+        <section class="sidebar-widget" aria-label="Częste błędy">
+          <h2 class="widget-title" style="margin-bottom: 8px;">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            Uwaga na błędy!
+          </h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.45;">Typowe potknięcia przy użyciu czasowników modalnych:</p>
+          <div class="mistakes-table-wrapper">
+            <table class="mistakes-table">
+              <thead>
+                <tr>
+                  <th>Błąd (Źle)</th>
+                  <th>Poprawnie</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-bad">Ja chcem kawę</td>
+                  <td class="text-good">Ja chcę kawę</td>
+                </tr>
+                <tr>
+                  <td class="text-bad">Oni chcią pić</td>
+                  <td class="text-good">Oni chcą pić</td>
+                </tr>
+                <tr>
+                  <td class="text-bad">Ja chciełbym</td>
+                  <td class="text-good">Ja chciałbym</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+      </aside>
+
+    </div>
+
+    <!-- FOOTER METHODOLOGICAL NOTES -->
+    <footer class="portal-note" role="note">
+      <svg class="portal-note-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+      </svg>
+      <div class="portal-note-content">
+        <h2 class="portal-note-title">Zalecana ścieżka dydaktyczna / Рекомендований навчальний трек:</h2>
+        <p style="margin-bottom: 6px;">
+          Rekomendujemy rozpoczęcie od <strong>Lekcji</strong> w celu opanowania bazy teoretycznej. Następnie, uaktywnij wiedzę w <strong>Quizie</strong>. Użyj <strong>Infografik</strong> do wizualnego zapamiętania i słuchaj <strong>Piosenek</strong>, aby zakotwiczyć naturalny rytm języka w głowie.
+        </p>
+        <p style="font-size: 13px; color: var(--text-muted);" lang="uk">
+          Рекомендуємо починати з <strong>Lekcji</strong> для теоретичного базису. Потім закріпіть матеріал через <strong>Quiz</strong>. Користуйтеся <strong>Infografiki</strong> для візуального запам'ятовування, та слухайте <strong>Piosenki</strong> для адаптації сприйняття на слух.
+        </p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    /* 
+       --- INTERACTIVE SYSTEM SCRIPTS ---
+    */
+
+    // --- DAY & NIGHT OPERATION THEME SWITCHER ---
+    function toggleTheme() {
+      const body = document.body;
+      const sunIcon = document.getElementById('sunIcon');
+      const moonIcon = document.getElementById('moonIcon');
+      const themeText = document.getElementById('themeBtnText');
+
+      if (body.classList.contains('night-mode')) {
+        // Switch to daylight
+        body.classList.remove('night-mode');
+        sunIcon.style.display = 'block';
+        moonIcon.style.display = 'none';
+        themeText.innerText = 'Night Ops';
+        localStorage.setItem('theme', 'day');
+      } else {
+        // Switch to night mode
+        body.classList.add('night-mode');
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'block';
+        themeText.innerText = 'Daylight';
+        localStorage.setItem('theme', 'night');
+      }
+    }
+
+    // --- PROGRESS TRACKER LOGIC ---
+    const trackerKeys = ['chk-lesson', 'chk-quiz', 'chk-info', 'chk-songs'];
+
+    function updateProgress() {
+      let checkedCount = 0;
+      trackerKeys.forEach(key => {
+        const checkbox = document.getElementById(key);
+        if (checkbox.checked) {
+          checkedCount++;
+          localStorage.setItem(key, 'true');
+        } else {
+          localStorage.removeItem(key);
+        }
+      });
+
+      const percentage = Math.round((checkedCount / trackerKeys.length) * 100);
+      document.getElementById('progressBar').style.width = percentage + '%';
+      document.getElementById('progressPercent').innerText = `Zrobiono: ${percentage}%`;
+    }
+
+    function loadSavedProgress() {
+      trackerKeys.forEach(key => {
+        const checkbox = document.getElementById(key);
+        if (localStorage.getItem(key) === 'true') {
+          checkbox.checked = true;
+        }
+      });
+      updateProgress();
+    }
+
+    // --- INTERACTIVE DAILY DRILL (Zwrot Dnia) ---
+    const drillDatabase = [
+      {
+        prompt: "Chciał_____ (ja, m.) pójść do kina.",
+        accepted: ["bym"],
+        clue: "Końcówka trybu przypuszczającego dla 1 os. l.poj. r.męskiego."
+      },
+      {
+        prompt: "Czy mogł_____ (ty, f.) mi pomóc?",
+        accepted: ["byś"],
+        clue: "Forma kondycjonalna trybu grzecznościowego (2 os. l.poj. r.żeńskiego)."
+      },
+      {
+        prompt: "My nie chc______ (my, m.-os.) iść na lekcję.",
+        accepted: ["emy", "cemy"],
+        clue: "Końcówka liczby mnogiej czasu teraźniejszego (chcemy)."
+      },
+      {
+        prompt: "Oni mog___ zapłacić kartą w sklepie.",
+        accepted: ["ą"],
+        clue: "Trzecia osoba liczby mnogiej czasu teraźniejszego od 'móc' (mogą)."
+      },
+      {
+        prompt: "Chciał_____ (ona) napisać wiadomość.",
+        accepted: ["aby"],
+        clue: "Forma 3 os. liczby pojedynczej rodzaju żeńskiego trybu przypuszczającego."
+      }
+    ];
+
+    let currentDrillIndex = 0;
+
+    function loadDrill(index) {
+      const drill = drillDatabase[index];
+      document.getElementById('drillPrompt').innerText = drill.prompt;
+      document.getElementById('drillAnswer').value = '';
+      
+      const feedback = document.getElementById('drillFeedback');
+      feedback.style.display = 'none';
+      feedback.className = 'drill-feedback';
+    }
+
+    function checkDrillAnswer() {
+      const answer = document.getElementById('drillAnswer').value.trim().toLowerCase();
+      const drill = drillDatabase[currentDrillIndex];
+      const feedback = document.getElementById('drillFeedback');
+
+      const isCorrect = drill.accepted.some(val => answer === val || answer.includes(val));
+
+      if (isCorrect) {
+        feedback.innerText = "Świetnie! Poprawna odpowiedź.";
+        feedback.className = "drill-feedback success";
+      } else {
+        feedback.innerText = `Niestety nie. Wskazówka: ${drill.clue}`;
+        feedback.className = "drill-feedback error";
+      }
+    }
+
+    function revealDrillAnswer() {
+      const drill = drillDatabase[currentDrillIndex];
+      const feedback = document.getElementById('drillFeedback');
+      feedback.innerText = `Rozwiązanie: ${drill.accepted.join(' / ')}`;
+      feedback.className = "drill-feedback success";
+    }
+
+    function loadNextDrill() {
+      currentDrillIndex = (currentDrillIndex + 1) % drillDatabase.length;
+      loadDrill(currentDrillIndex);
+    }
+
+    // --- APPLICATION BOOTSTRAP ---
+    window.onload = function() {
+      // 1. Initializing Theme State
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'night') {
+        document.body.classList.add('night-mode');
+        document.getElementById('sunIcon').style.display = 'none';
+        document.getElementById('moonIcon').style.display = 'block';
+        document.getElementById('themeBtnText').innerText = 'Daylight';
+      }
+      
+      // 2. Load Progress Bar Checkboxes
+      loadSavedProgress();
+
+      // 3. Launch Drill Database
+      loadDrill(0);
+    };
+  </script>
+</body>
+</html>
