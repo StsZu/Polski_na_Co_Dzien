@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polski na Co Dzień — Infografiki</title>
+  <style>
+    :root {
+      --bg-body: #e7dfd2;
+      --bg-card: #f8f3e9;
+      --bg-card-hover: #faf7f2;
+      --border-color: #d4c7b3;
+      --border-hover: #b8a891;
+      --text-main: #2f2822;
+      --text-muted: #7a6858;
+      --text-descr: #4a3e34;
+      --btn-bg: rgba(255, 251, 244, 0.9);
+      --btn-hover: #efe6d8;
+      --accent: #8d2930;
+      --accent-glow: rgba(141, 41, 48, 0.15);
+      --shadow-sm: 0 2px 8px rgba(74, 62, 52, 0.04);
+      --shadow-md: 0 6px 20px rgba(74, 62, 52, 0.06);
+      --transition-speed: 0.3s;
+      --font-serif: Georgia, "Palatino Linotype", serif;
+      --font-sans: "SF Pro Text", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    }
+
+    .night-mode {
+      --bg-body: #14110f;
+      --bg-card: #1f1b18;
+      --bg-card-hover: #26211d;
+      --border-color: #38302b;
+      --border-hover: #52473f;
+      --text-main: #f3eae1;
+      --text-muted: #9e8d80;
+      --text-descr: #cfc2b6;
+      --btn-bg: #2b2420;
+      --btn-hover: #3b322c;
+      --accent: #ff4d5a;
+      --accent-glow: rgba(255, 77, 90, 0.35);
+      --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.25);
+      --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-serif);
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 40px 20px;
+      line-height: 1.55;
+      transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+    }
+
+    button, a { font-family: var(--font-sans); }
+
+    .module { width: 100%; max-width: 1040px; margin: 0 auto; }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      padding: 0 4px;
+    }
+
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .back:hover { color: var(--accent); }
+
+    .theme-toggle-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 9px 15px;
+      border-radius: 30px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-speed) ease;
+    }
+    .theme-toggle-btn:hover { border-color: var(--border-hover); background: var(--bg-card-hover); transform: translateY(-1px); }
+    .theme-toggle-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; }
+
+    .header {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 22px;
+      padding: 34px 38px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-md);
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 5px; height: 100%;
+      background: var(--accent);
+    }
+    .title { font-size: 32px; line-height: 1.2; margin-bottom: 8px; font-weight: 800; }
+    .subtitle { font-size: 17px; color: var(--text-muted); line-height: 1.5; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .item {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 18px;
+      padding: 14px;
+      cursor: zoom-in;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .item:hover { border-color: var(--border-hover); transform: translateY(-3px); box-shadow: var(--shadow-md); }
+
+    .item img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 12px;
+      background: #fff;
+      display: block;
+    }
+    .item h2 { font-size: 16px; line-height: 1.35; margin-top: 12px; color: var(--text-main); }
+
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(20, 16, 12, 0.92);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      z-index: 50;
+      cursor: zoom-out;
+    }
+    .lightbox.is-open { display: flex; }
+    .lightbox img { max-width: 100%; max-height: 92vh; border-radius: 10px; cursor: default; }
+    .lightbox-close {
+      position: fixed; top: 18px; right: 22px;
+      color: #f8f3e9; font-size: 34px; line-height: 1;
+      font-family: Arial, sans-serif; cursor: pointer; border: none; background: none;
+    }
+    .lightbox-actions {
+      position: fixed; bottom: 20px; left: 50%;
+      transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 10px;
+    }
+    .lightbox-links { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .lightbox-link {
+      color: #2f2822; background: #f8f3e9;
+      border: 1px solid #d4c7b3; border-radius: 10px;
+      padding: 10px 18px; font-family: var(--font-sans);
+      font-size: 14px; font-weight: 600; text-decoration: none;
+    }
+    .lightbox-link:hover { background: #efe6d8; border-color: #b8a891; }
+    .lightbox-open-full {
+      color: #f8f3e9; font-family: var(--font-sans);
+      font-size: 14px; text-decoration: underline;
+    }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 560px) {
+      body { padding: 24px 12px; }
+      .grid { grid-template-columns: 1fr; }
+      .header { padding: 26px 22px; }
+      .title { font-size: 27px; }
+      .item img { height: 240px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="module">
+    <nav class="top-bar" aria-label="Nawigacja">
+      <a href="index.html" class="back">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+        Wszystkie materiały
+      </a>
+      <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Przełącz motyw dzień/noc" onclick="toggleTheme()">
+        <svg class="sun-icon" id="sunIcon" viewBox="0 0 24 24" style="display: block;">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" id="moonIcon" viewBox="0 0 24 24" style="display: none;">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <span id="themeBtnText">Night Ops</span>
+      </button>
+    </nav>
+
+    <header class="header">
+      <h1 class="title">Infografiki</h1>
+      <p class="subtitle">Wizualne ściągi do nauki. Kliknij obrazek, aby zobaczyć go w pełnym rozmiarze.</p>
+    </header>
+
+    <section class="grid" id="grid" aria-label="Infografiki"></section>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Zamknij">&times;</button>
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-actions">
+      <div class="lightbox-links" id="lightbox-links"></div>
+      <a class="lightbox-open-full" id="lightbox-full" href="#" target="_blank" rel="noopener">Otwórz oryginalny plik PNG w nowej karcie</a>
+    </div>
+  </div>
+
+  <script>
+    const images = [
+      { file: "Lekcja_gramatyki_MÓC_CHCIEĆ", title: "MÓC & CHCIEĆ — gramatyka w obrazie", links: [
+        { href: "polish_class/26_m_c_chcie.html", label: "Otwórz lekcję" },
+        { href: "quiz/polish-moc-chciec-quiz.html", label: "Rozpocznij quiz" }
+      ] }
+    ];
+
+    const grid = document.getElementById("grid");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    const lightboxFull = document.getElementById("lightbox-full");
+    const lightboxLinks = document.getElementById("lightbox-links");
+
+    images.forEach(img => {
+      const thumb = `img/thumb/${img.file}.jpg`;
+      const item = document.createElement("article");
+      item.className = "item";
+      item.innerHTML = `<img src="${thumb}" alt="${img.title}" loading="lazy"><h2>${img.title}</h2>`;
+      item.addEventListener("click", () => openLightbox(img));
+      grid.appendChild(item);
+    });
+
+    function openLightbox(img) {
+      const full = `img/${img.file}.png`;
+      lightboxImg.src = full;
+      lightboxImg.alt = img.title;
+      lightboxFull.href = full;
+      const links = img.links || (img.link ? [img.link] : []);
+      lightboxLinks.innerHTML = links.map(
+        l => `<a class="lightbox-link" href="${l.href}">${l.label}</a>`
+      ).join("");
+      lightbox.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("is-open");
+      lightboxImg.src = "";
+      document.body.style.overflow = "";
+    }
+
+    lightbox.addEventListener("click", (e) => {
+      if (e.target === lightboxImg || e.target === lightboxFull) return;
+      closeLightbox();
+    });
+    document.getElementById("lightbox-close").addEventListener("click", closeLightbox);
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLightbox(); });
+
+    function toggleTheme() {
+      const body = document.body;
+      const isNight = body.classList.toggle('night-mode');
+      document.getElementById('sunIcon').style.display = isNight ? 'none' : 'block';
+      document.getElementById('moonIcon').style.display = isNight ? 'block' : 'none';
+      document.getElementById('themeBtnText').innerText = isNight ? 'Daylight' : 'Night Ops';
+      localStorage.setItem('theme', isNight ? 'night' : 'day');
+    }
+
+    window.onload = function() {
+      if (localStorage.getItem('theme') === 'night') {
+        document.body.classList.add('night-mode');
+        document.getElementById('sunIcon').style.display = 'none';
+        document.getElementById('moonIcon').style.display = 'block';
+        document.getElementById('themeBtnText').innerText = 'Daylight';
+      }
+    };
+  </script>
+</body>
+</html>
