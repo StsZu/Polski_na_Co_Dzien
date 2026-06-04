@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polski na Co Dzień — Piosenki</title>
+  <style>
+    :root {
+      --bg-body: #e7dfd2;
+      --bg-card: #f8f3e9;
+      --bg-card-hover: #faf7f2;
+      --border-color: #d4c7b3;
+      --border-hover: #b8a891;
+      --text-main: #2f2822;
+      --text-muted: #7a6858;
+      --text-descr: #4a3e34;
+      --btn-bg: rgba(255, 251, 244, 0.9);
+      --btn-hover: #efe6d8;
+      --accent: #8d2930;
+      --accent-light: rgba(141, 41, 48, 0.08);
+      --accent-glow: rgba(141, 41, 48, 0.15);
+      --shadow-sm: 0 2px 8px rgba(74, 62, 52, 0.04);
+      --shadow-md: 0 6px 20px rgba(74, 62, 52, 0.06);
+      --transition-speed: 0.3s;
+      --font-serif: Georgia, "Palatino Linotype", serif;
+      --font-sans: "SF Pro Text", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    }
+
+    .night-mode {
+      --bg-body: #14110f;
+      --bg-card: #1f1b18;
+      --bg-card-hover: #26211d;
+      --border-color: #38302b;
+      --border-hover: #52473f;
+      --text-main: #f3eae1;
+      --text-muted: #9e8d80;
+      --text-descr: #cfc2b6;
+      --btn-bg: #2b2420;
+      --btn-hover: #3b322c;
+      --accent: #ff4d5a;
+      --accent-light: rgba(255, 77, 90, 0.15);
+      --accent-glow: rgba(255, 77, 90, 0.35);
+      --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.25);
+      --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-serif);
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 40px 20px;
+      line-height: 1.55;
+      transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+    }
+
+    button, a, audio { font-family: var(--font-sans); }
+
+    .module { width: 100%; max-width: 880px; margin: 0 auto; }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      padding: 0 4px;
+    }
+
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .back:hover { color: var(--accent); }
+
+    .theme-toggle-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 9px 15px;
+      border-radius: 30px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-speed) ease;
+    }
+    .theme-toggle-btn:hover { border-color: var(--border-hover); background: var(--bg-card-hover); transform: translateY(-1px); }
+    .theme-toggle-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; }
+
+    .header {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 22px;
+      padding: 34px 38px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-md);
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 5px; height: 100%;
+      background: var(--accent);
+    }
+    .title { font-size: 32px; line-height: 1.2; margin-bottom: 8px; font-weight: 800; }
+    .subtitle { font-size: 17px; color: var(--text-muted); line-height: 1.5; }
+
+    .song-list { display: flex; flex-direction: column; gap: 18px; }
+
+    .song {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: var(--shadow-sm);
+      scroll-margin-top: 20px;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .song:hover { border-color: var(--border-hover); box-shadow: var(--shadow-md); }
+
+    .song-head { display: flex; gap: 18px; align-items: flex-start; }
+
+    .cover {
+      width: 96px;
+      height: 96px;
+      flex-shrink: 0;
+      border-radius: 14px;
+      object-fit: cover;
+      border: 1px solid var(--border-color);
+      background: #fff;
+    }
+
+    .song-meta { flex: 1; min-width: 0; }
+    .song-title { font-size: 21px; font-weight: 700; line-height: 1.25; margin-bottom: 4px; }
+    .song-artist { font-family: var(--font-sans); font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
+    .song-topic {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      color: var(--accent);
+      background: var(--accent-light);
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 100px;
+      line-height: 1.4;
+    }
+
+    .song audio { width: 100%; margin-top: 16px; }
+
+    .song-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .song-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--btn-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      color: var(--text-main);
+      padding: 9px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .song-btn:hover { background: var(--btn-hover); border-color: var(--border-hover); }
+
+    .lyrics {
+      display: none;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px dashed var(--border-color);
+      white-space: pre-wrap;
+      font-family: var(--font-serif);
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text-descr);
+    }
+    .lyrics.is-open { display: block; }
+
+    @media (max-width: 560px) {
+      body { padding: 24px 12px; }
+      .header { padding: 26px 22px; }
+      .title { font-size: 27px; }
+      .song-head { gap: 14px; }
+      .cover { width: 72px; height: 72px; }
+      .song-title { font-size: 19px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="module">
+    <nav class="top-bar" aria-label="Nawigacja">
+      <a href="index.html" class="back">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+        Wszystkie materiały
+      </a>
+      <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Przełącz motyw dzień/noc" onclick="toggleTheme()">
+        <svg class="sun-icon" id="sunIcon" viewBox="0 0 24 24" style="display: block;">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" id="moonIcon" viewBox="0 0 24 24" style="display: none;">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <span id="themeBtnText">Night Ops</span>
+      </button>
+    </nav>
+
+    <header class="header">
+      <h1 class="title">Piosenki</h1>
+      <p class="subtitle">Nauka w rytmie muzyki. Słuchaj i czytaj tekst — formy grzecznościowe same wpadają w ucho.</p>
+    </header>
+
+    <section class="song-list" id="songList" aria-label="Piosenki"></section>
+  </main>
+
+  <script>
+    const songs = [
+      {
+        file: "grzeczne-slowa",
+        title: "Chciałbym, Mogłabym — Grzeczne Słowa",
+        artist: "sts_zubar · Suno",
+        topic: "Formy grzecznościowe: chciałbym / mógłbym, prośby do pana, pani i państwa",
+        links: [
+          { href: "polish_class/26_m_c_chcie.html", label: "Otwórz lekcję" },
+          { href: "quiz/polish-moc-chciec-quiz.html", label: "Rozpocznij quiz" }
+        ],
+        lyrics: `[Spoken Intro]
+Dzisiaj uczymy się grzecznych słów.
+Nie tylko: chcę.
+Nie tylko: mogę.
+Ale spokojnie, uprzejmie:
+chciałbym, chciałabym,
+mógłbym, mogłabym.
+
+[Verse 1]
+Chcę kawę — to jest prosto,
+ale czasem brzmi zbyt mocno.
+Chciałbym kawę, proszę,
+brzmi łagodnie, brzmi dobrze.
+
+Chciałabym herbatę,
+chciałabym kupić bilet.
+Chciałbym zapytać,
+czy mogę mówić chwilę?
+
+[Chorus]
+Chciałbym, chciałabym,
+tak mówimy grzeczniej.
+Mógłbym, mogłabym,
+tak pytamy bezpieczniej.
+
+Czy mógłby pan powtórzyć?
+Czy mogłaby pani wolniej?
+Chciałbym mówić po polsku,
+coraz lepiej, coraz spokojniej.
+
+[Spoken-Sung Verse 2]
+Móc — to znaczy: mogę.
+Ale w prośbie mówisz tak:
+Czy mógłbyś mi pomóc?
+Czy mogłabyś zaczekać?
+
+Do pana:
+Czy mógłby pan powtórzyć?
+Do pani:
+Czy mogłaby pani mówić wolniej?
+
+Do grupy:
+Czy moglibyście przyjść jutro?
+Czy mogliby państwo pomóc?
+
+[Verse 3]
+Chcieć — to znaczy: chcę.
+Ale grzeczniej mówimy tak:
+chciałbym, chciałabym,
+chcielibyśmy — właśnie tak.
+
+Chciałbym zobaczyć menu.
+Chciałabym kupić bilet.
+Chcielibyśmy zarezerwować stolik,
+czy można jeszcze chwilę?
+
+[Bridge]
+Ja, mężczyzna: chciałbym.
+Ja, kobieta: chciałabym.
+Ja, mężczyzna: mógłbym.
+Ja, kobieta: mogłabym.
+
+Ty, mężczyzna: mógłbyś.
+Ty, kobieta: mogłabyś.
+Państwo: chcieliby.
+Oni: mogliby.
+
+[Spoken-Sung Practice]
+Powtarzaj za mną:
+
+Chciałbym kawę, proszę.
+Chciałabym herbatę, proszę.
+Czy mógłby pan pomóc?
+Czy mogłaby pani zaczekać?
+Czy moglibyście powtórzyć?
+Czy państwo chcieliby zobaczyć ten film?
+
+[Final Chorus]
+Chciałbym, chciałabym,
+to są słowa uprzejme.
+Mógłbym, mogłabym,
+to pytania codzienne.
+
+Nie mówię za twardo,
+nie mówię zbyt szybko.
+Mówię po polsku grzecznie,
+prosto, jasno, blisko.
+
+[Outro]
+Chciałbym.
+Chciałabym.
+Mógłbym.
+Mogłabym.
+
+Czy mógłby pan powtórzyć?
+Czy mogłaby pani mówić wolniej?
+
+Tak uczę się polskiego,
+spokojnie i dokładnie.`
+      },
+      {
+        file: "chcialbym-moglabys",
+        title: "Chciałbym, Mogłabyś",
+        artist: "sts_zubar · Suno",
+        topic: "Tryb przypuszczający w prośbach: mógłbyś / mogłabyś — soft and polite",
+        links: [
+          { href: "polish_class/26_m_c_chcie.html", label: "Otwórz lekcję" },
+          { href: "quiz/polish-moc-chciec-quiz.html", label: "Rozpocznij quiz" }
+        ],
+        lyrics: `[Intro]
+Chciałbym, chciałabym,
+mógłbym, mogłabym.
+Mówisz grzecznie, mówisz lekko,
+po polsku każdego dnia.
+
+[Verse 1]
+Nie mówię: chcę kawę,
+to brzmi za mocno tak.
+Powiem: chciałbym kawę,
+i już uprzejmy mam znak.
+
+Chciałabym herbatę,
+chciałbym kupić bilet.
+Małe słowo, miękki ton,
+i rozmowa idzie mile.
+
+[Chorus]
+Chciałbym, chciałabym,
+to znaczy: I would like.
+Mógłbyś, mogłabyś,
+to prośba, soft and polite.
+
+Czy mógłby pan powtórzyć?
+Czy mogłaby pani wolniej?
+Chciałbym mówić po polsku,
+coraz lepiej, coraz spokojniej.
+
+[Verse 2]
+Czy mógłbyś mi pomóc?
+Do chłopaka powiem tak.
+Czy mogłabyś zaczekać?
+Do dziewczyny — dobry znak.
+
+Czy mógłby pan powtórzyć?
+Oficjalnie, bardzo grzecznie.
+Czy mogłaby pani mówić wolniej?
+Tak brzmi jasno i bezpiecznie.
+
+[Bridge]
+My mówimy: chcielibyśmy,
+wy mówicie: chcielibyście.
+Oni mówią: mogliby,
+państwo także: chcieliby.
+
+Ja — chciałbym, jeśli mężczyzna.
+Ja — chciałabym, jeśli kobieta.
+Pan — mógłby, pani — mogłaby,
+prosta forma, dobra metoda.
+
+[Spoken-Sung Practice]
+Chciałbym zapytać.
+Chciałabym kupić bilet.
+Czy mógłby pan pomóc?
+Czy mogłaby pani powtórzyć?
+
+Chcielibyśmy zobaczyć film.
+Czy moglibyście zaczekać?
+Czy państwo chcieliby kawę?
+Tak po polsku można grzecznie pytać.
+
+[Final Chorus]
+Chciałbym, chciałabym,
+to znaczy: I would like.
+Mógłbyś, mogłabyś,
+to prośba, soft and polite.
+
+Czy mógłby pan powtórzyć?
+Czy mogłaby pani wolniej?
+Chciałbym mówić po polsku,
+coraz lepiej, coraz spokojniej.
+
+[Outro]
+Chciałbym, chciałabym,
+mógłbym, mogłabym.
+Grzeczne słowa, prosty rytm,
+po polsku już mówię z tym.`
+      }
+    ];
+
+    const list = document.getElementById("songList");
+
+    songs.forEach((s, i) => {
+      const article = document.createElement("article");
+      article.className = "song";
+      article.id = s.file;
+      const actions = (s.links || []).map(
+        l => `<a class="song-btn" href="${l.href}">${l.label}</a>`
+      ).join("");
+      article.innerHTML = `
+        <div class="song-head">
+          <img class="cover" src="img/${s.file}.jpg" alt="Okładka: ${s.title}" loading="lazy">
+          <div class="song-meta">
+            <h2 class="song-title">${s.title}</h2>
+            <p class="song-artist">${s.artist}</p>
+            <span class="song-topic">${s.topic}</span>
+          </div>
+        </div>
+        <audio controls preload="none" src="audio/${s.file}.mp3"></audio>
+        <div class="song-actions">
+          <button class="song-btn" type="button" data-lyrics="${i}" aria-expanded="false">Pokaż tekst</button>
+          ${actions}
+        </div>
+        <div class="lyrics" id="lyrics-${i}">${s.lyrics.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</div>
+      `;
+      list.appendChild(article);
+    });
+
+    list.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-lyrics]");
+      if (!btn) return;
+      const box = document.getElementById("lyrics-" + btn.dataset.lyrics);
+      const open = box.classList.toggle("is-open");
+      btn.setAttribute("aria-expanded", String(open));
+      btn.textContent = open ? "Ukryj tekst" : "Pokaż tekst";
+    });
+
+    function toggleTheme() {
+      const body = document.body;
+      const isNight = body.classList.toggle('night-mode');
+      document.getElementById('sunIcon').style.display = isNight ? 'none' : 'block';
+      document.getElementById('moonIcon').style.display = isNight ? 'block' : 'none';
+      document.getElementById('themeBtnText').innerText = isNight ? 'Daylight' : 'Night Ops';
+      localStorage.setItem('theme', isNight ? 'night' : 'day');
+    }
+
+    window.onload = function() {
+      if (localStorage.getItem('theme') === 'night') {
+        document.body.classList.add('night-mode');
+        document.getElementById('sunIcon').style.display = 'none';
+        document.getElementById('moonIcon').style.display = 'block';
+        document.getElementById('themeBtnText').innerText = 'Daylight';
+      }
+      if (location.hash) {
+        const el = document.getElementById(location.hash.slice(1));
+        if (el) el.scrollIntoView();
+      }
+    };
+  </script>
+</body>
+</html>
