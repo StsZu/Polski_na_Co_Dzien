@@ -1,0 +1,178 @@
+{
+  "id": "02",
+  "title": "Cześć, skąd jesteś?",
+  "goal": "Повторюємо: звідки ти (skąd) · де живеш (gdzie mieszkasz) · як справи · займенники + być · числа 11–20",
+  "vocab": [
+    { "group": "Skąd jesteś? — країни (z + кого/чого)", "items": [
+      ["z Polski","з Польщі"],["z Anglii","з Англії"],["z Niemiec","з Німеччини"],
+      ["z Francji","з Франції"],["z USA","зі США"],["z Hiszpanii","з Іспанії"],
+      ["z Włoch","з Італії"],["z Ukrainy","з України"]
+    ]},
+    { "group": "Co słychać? — як справи", "items": [
+      ["Co słychać?","як справи?"],["Co u ciebie?","як у тебе?"],["Wszystko dobrze","все добре"],
+      ["Wszystko w porządku","все гаразд"],["Nic nowego","нічого нового"],["Świetnie","чудово"],
+      ["Tak sobie","так собі"],["Po staremu","по-старому"]
+    ]},
+    { "group": "Zaimki + być — особи", "items": [
+      ["ja jestem","я є"],["ty jesteś","ти є"],["on / ona jest","він / вона є"],
+      ["my jesteśmy","ми є"],["wy jesteście","ви є"],["oni / one są","вони є"]
+    ]},
+    { "group": "Liczebniki 11–20 — числа", "items": [
+      ["jedenaście","11"],["dwanaście","12"],["trzynaście","13"],["czternaście","14"],
+      ["piętnaście","15"],["szesnaście","16"],["siedemnaście","17"],["osiemnaście","18"],
+      ["dziewiętnaście","19"],["dwadzieścia","20"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"звідки", "title":"Jestem z…", "formula":"Jestem z + країна", "ex":"Jestem z Polski. · Jestem z Niemiec. · Jestem z USA." },
+    { "badge":"де живу", "title":"Mieszkam w…", "formula":"Mieszkam w + місто", "ex":"mieszkam · mieszkasz · mieszka · mieszkamy · mieszkacie · mieszkają" },
+    { "badge":"навіщо", "title":"…, żeby / bo", "formula":"Uczę się polskiego, żeby… / bo…", "ex":"…, żeby pracować w Polsce. · …, bo mój chłopak jest z Polski." }
+  ],
+  "czytanie": [
+    { "block": "A. Sekretariat — rejestracja", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · трек 028", "lines":[
+        ["Sekretarka","Dzień dobry. Jak się pani nazywa?","Добрий день. Як Ваше прізвище?"],
+        ["Angela","Nie rozumiem.","Не розумію."],
+        ["Sekretarka","Imię i nazwisko.","Ім’я та прізвище."],
+        ["Angela","Aha. Jestem Angela Brown.","Ага. Я Анджела Браун."],
+        ["Sekretarka","Skąd pani jest?","Звідки Ви?"],
+        ["Angela","Przepraszam, nie rozumiem.","Перепрошую, не розумію."],
+        ["Sekretarka","Z Anglii, z Francji, z Niemiec?","З Англії, з Франції, з Німеччини?"],
+        ["Angela","Jestem z Anglii.","Я з Англії."],
+        ["Sekretarka","Gdzie pani mieszka w Krakowie?","Де Ви живете в Кракові?"],
+        ["Angela","Adres? Kraków, ulica Długa 3.","Адреса? Краків, вулиця Длуґа, 3."],
+        ["Sekretarka","W porządku. To jest pani karta studenta, segregator i mapa.","Гаразд. Це Ваша студентська картка, папка і мапа."],
+        ["Angela","Dziękuję bardzo. Do widzenia.","Дуже дякую. До побачення."]
+      ]}
+    ]},
+    { "block": "B. Co słychać?", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 030", "lines":[
+        ["Tom","Cześć. Co słychać?","Привіт. Як справи?"],
+        ["Mami","Cześć. Dziękuję, wszystko dobrze. A ty?","Привіт. Дякую, все добре. А ти?"],
+        ["Tom","Nie „a ty”, ale „a u ciebie”. Proszę powtórzyć.","Не «a ty», а «a u ciebie». Повтори, будь ласка."],
+        ["Mami","Dziękuję, wszystko dobrze. A u ciebie?","Дякую, все добре. А в тебе?"],
+        ["Tom","Dziękuję, wszystko w porządku.","Дякую, все гаразд."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · oficjalny · трек 031", "lines":[
+        ["Uwe","Dzień dobry. Co u pani słychać?","Добрий день. Як у Вас справи?"],
+        ["Angela","Dzień dobry. Dziękuję, wszystko świetnie. A u pana?","Добрий день. Дякую, все чудово. А у Вас?"],
+        ["Uwe","Dziękuję, w porządku.","Дякую, гаразд."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 2 · фрази · трек 033",
+        "words":"Co słychać? · Wszystko w porządku. · Co u ciebie? · Nic nowego. · Dziękuję, wszystko świetnie. · Po staremu." }
+    ]},
+    { "block": "D. Skąd? Gdzie mieszkasz?", "items": [
+      { "type":"dia", "title":"Dialog 1 · oficjalny · трек 035", "lines":[
+        ["Pani","Ja jestem z Polski. A pan? Skąd pan jest? Z Niemiec, z Francji, z Anglii?","Я з Польщі. А Ви? Звідки Ви? З Німеччини, Франції, Англії?"],
+        ["Pan","Jestem z Niemiec.","Я з Німеччини."],
+        ["Pani","Ja mieszkam w Krakowie. A pan? Gdzie pan mieszka?","Я живу в Кракові. А Ви? Де живете?"],
+        ["Pan","Mieszkam w Berlinie.","Живу в Берліні."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · nieoficjalny · трек 036", "lines":[
+        ["—","Skąd jesteś?","Звідки ти?"],
+        ["—","Jestem z Anglii.","Я з Англії."],
+        ["—","Gdzie mieszkasz?","Де живеш?"],
+        ["—","Mieszkam w Londynie.","Живу в Лондоні."]
+      ]}
+    ]},
+    { "block": "E. Liczebniki — adresy", "items": [
+      { "type":"ref", "title":"Ćwiczenie 4 · adresy · трек 040",
+        "words":"Aleja Mickiewicza 28 · Ulica Starowiślna 17 · Plac Mariacki 5 · Rynek Główny 7 · Ulica Szeroka 18 · Plac Wszystkich Świętych 6 · Aleje Trzech Wieszczów",
+        "note":"Потренуйся читати адреси й числа вголос." }
+    ]},
+    { "block": "F. Znajomość", "items": [
+      { "type":"dia", "title":"Dialog 1 · Manuela i Uwe · трек 041", "lines":[
+        ["Uwe","Cześć. Jak się nazywasz?","Привіт. Як тебе звати?"],
+        ["Manuela","Cześć. Jestem Manuela Sanchez. A ty?","Привіт. Я Мануела Санчес. А ти?"],
+        ["Uwe","Jestem Uwe Stein. Skąd jesteś?","Я Уве Штайн. Звідки ти?"],
+        ["Manuela","Jestem z Hiszpanii. A ty?","Я з Іспанії. А ти?"],
+        ["Uwe","Jestem z Niemiec. Mieszkasz w Madrycie?","Я з Німеччини. Живеш у Мадриді?"],
+        ["Manuela","Nie, mieszkam w Barcelonie. A ja mieszkam teraz w centrum, ulica Świętego Jana.","Ні, живу в Барселоні. А зараз живу в центрі, вулиця Святого Яна."],
+        ["Uwe","Dlaczego uczysz się polskiego?","Чому ти вчиш польську?"],
+        ["Manuela","Uczę się polskiego, żeby studiować w Polsce. A ty dlaczego?","Вчу польську, щоб навчатися в Польщі. А ти чому?"],
+        ["Uwe","Uczę się polskiego, żeby pracować w Warszawie.","Вчу польську, щоб працювати у Варшаві."]
+      ]}
+    ]},
+    { "block": "G. Powtórzenie", "items": [
+      { "type":"dia", "title":"Dialog A · Javier · трек 043", "lines":[
+        ["Javier","Dzień dobry. Nazywam się Javier Perez. Tu są moje dane osobowe.","Добрий день. Мене звати Хав’єр Перес. Ось мої особисті дані."],
+        ["Sekretarka","Dobrze. Imię: Javier. Nazwisko: Perez. Narodowość: Argentyńczyk. Adres: Kraków, Nowowiejska 12 przez 6. W porządku?","Добре. Ім’я: Хав’єр. Прізвище: Перес. Національність: аргентинець. Адреса: Краків, Нововейська 12/6. Гаразд?"],
+        ["Javier","Tak, oczywiście. A jak się nazywa moja nauczycielka?","Так, звичайно. А як звати мою вчительку?"],
+        ["Sekretarka","Teraz jest Anna Stelmach. Miłej lekcji.","Зараз — Анна Стельмах. Гарного уроку."]
+      ]},
+      { "type":"dia", "title":"Dialog B · rodzina Maj · трек 044", "lines":[
+        ["(opis)","Mami wraca do domu z koleżanką Angelą.","Мамі повертається додому з подругою Анджелою."],
+        ["Pani Maj","Witam. Bardzo mi miło. Nazywam się Joanna Maj. To jest mój mąż Grzegorz, moja córka Karolina i mój syn Karol.","Вітаю. Дуже приємно. Мене звати Йоанна Май. Це мій чоловік Ґжеґож, моя донька Кароліна і мій син Кароль."],
+        ["Angela","Bardzo mi miło państwa poznać.","Дуже приємно познайомитися."],
+        ["Pani Maj","Skąd pani jest?","Звідки Ви?"],
+        ["Angela","Jestem z Anglii.","Я з Англії."],
+        ["Pani Maj","Dlaczego uczy się pani polskiego?","Чому Ви вчите польську?"],
+        ["Angela","Uczę się polskiego, żeby mówić w domu po polsku. Moja mama jest z Polski.","Вчу польську, щоб удома говорити польською. Моя мама з Польщі."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_02.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_02/ (028–044.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 2 · co u ciebie?", "lines":[
+      ["Nauczyciel","Dzień dobry, co słychać?","Добрий день, як справи?"],
+      ["Mami","Dziękuję, wszystko dobrze.","Дякую, все добре."],
+      ["Nauczyciel","Mami, a co u ciebie?","Мамі, а як у тебе?"],
+      ["Mami","U ciebie? Co to znaczy „u ciebie”?","«U ciebie»? Що означає «u ciebie»?"],
+      ["Nauczyciel","„Co u ciebie?” to znaczy „co słychać u ciebie? Czy wszystko dobrze?”","«Co u ciebie?» означає «як у тебе справи? Чи все добре?»"],
+      ["Mami","Teraz rozumiem. Tak, wszystko dobrze.","Тепер розумію. Так, усе добре."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 4 · dialog oficjalny", "lines":[
+      ["Mami","Skąd pan jest?","Звідки Ви?"],
+      ["Tom","Jestem z USA.","Я зі США."],
+      ["Mami","Gdzie pan mieszka?","Де Ви живете?"],
+      ["Tom","Mieszkam w Nowym Jorku.","Живу в Нью-Йорку."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 14 · adresy — читай уголос",
+      "words":"Ulica Szpitalna 15 · Ulica Sienna 17 · Dworzec Główny · Ulica Cicha 14 · Ulica Wrzesińska 9 · Ulica Duża 19 · Ulica Mała 10 · Ulica Żółkiewskiego 13" },
+    { "type":"ref", "title":"Ćwiczenie 17 · jak jest? — оцінки",
+      "words":"Świetnie · Bardzo dobrze · Dobrze · Tak sobie · Źle · Bardzo źle · Fatalnie",
+      "note":"Від найкращого до найгіршого — відповіді на «Co słychać?»." }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L02.txt",
+  "manifests": [
+    { "nat":"Argentyńczyk", "name":"Javier Perez", "rows":[
+      ["Imię","Javier"],["Nazwisko","Perez"],["Narodowość","Argentyńczyk"],
+      ["Adres","ul. Nowowiejska 12/6, Kraków"],["Telefon","0 603 57 72 13"]
+    ]},
+    { "nat":"z USA", "name":"Tom Peterson", "rows":[
+      ["Imię","Tom"],["Nazwisko","Peterson"],["Narodowość","Amerykanin"],
+      ["Adres","ul. Urzędnicza 10/3, Kraków"],["Telefon","12 623 17 13"]
+    ]}
+  ],
+  "mistakes": [
+    ["Jestem z Anglia","Jestem z Anglii","Після «z» (skąd?) — родовий відмінок: z Anglii."],
+    ["Mieszkam w Kraków","Mieszkam w Krakowie","Після «w» (gdzie?) — місцевий відмінок: w Krakowie."],
+    ["Co słychać? — A ty?","Co słychać? — A u ciebie?","Про самопочуття: «a u ciebie?», не «a ty?»."],
+    ["Jestem z Niemcy","Jestem z Niemiec","Німеччина у формі «skąd»: z Niemiec."]
+  ],
+  "drills": [
+    ["Спитай неформально, звідки людина.","Skąd jesteś?"],
+    ["Скажи, що ти з України.","Jestem z Ukrainy."],
+    ["Спитай ввічливо (Ви), де людина живе.","Gdzie pan / pani mieszka?"],
+    ["Скажи, що живеш у Кракові.","Mieszkam w Krakowie."],
+    ["Спитай друга, як справи.","Co słychać? / Co u ciebie?"],
+    ["Відповідай: усе чудово.","Wszystko świetnie."],
+    ["Поясни мету: щоб працювати в Польщі.","Uczę się polskiego, żeby pracować w Polsce."],
+    ["Поясни причину: бо твоя мама з Польщі.","Uczę się polskiego, bo moja mama jest z Polski."],
+    ["Спитай, чи має людина телефон.","Masz telefon?"],
+    ["Порахуй уголос від 11 до 20.","jedenaście, dwanaście… dwadzieścia"],
+    ["Скажи: ми живемо в Європі.","Mieszkamy w Europie."]
+  ],
+  "quiz": [
+    {"topic":"країни","q":"«Jestem z Anglii» означає:","o":["Я з Англії","Я живу в Англії","Я вивчаю англійську","Мене звати Анджела"],"a":0},
+    {"topic":"граматика (skąd)","q":"Звідки? «Jestem z ___» (Німеччина):","o":["Niemcy","Niemiec","Niemcami","Niemczech"],"a":1},
+    {"topic":"граматика (gdzie)","q":"«Mieszkam ___ Krakowie.»","o":["z","w","do","na"],"a":1},
+    {"topic":"як справи","q":"Неформально спитати про самопочуття:","o":["Skąd jesteś?","Co u ciebie?","Gdzie mieszkasz?","Ile masz lat?"],"a":1},
+    {"topic":"być","q":"«Oni ___ tam.» (być)","o":["jest","jesteś","są","jesteśmy"],"a":2},
+    {"topic":"числа","q":"Котре число — «piętnaście»?","o":["13","15","16","50"],"a":1},
+    {"topic":"числа","q":"Як по-польськи «20»?","o":["dwanaście","dwadzieścia","dziesięć","dwa"],"a":1},
+    {"topic":"mieszkać","q":"«Gdzie ty ___?» (mieszkać)","o":["mieszkam","mieszkasz","mieszka","mieszkają"],"a":1},
+    {"topic":"мета (dlaczego)","q":"«Uczę się polskiego, ___ studiować w Polsce.»","o":["bo","żeby","ale","i"],"a":1},
+    {"topic":"країни","q":"«Tom jest z USA. Mieszka w ___.»","o":["Berlinie","Nowym Jorku","Barcelonie","Rzymie"],"a":1}
+  ]
+}

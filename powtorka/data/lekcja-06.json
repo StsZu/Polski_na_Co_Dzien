@@ -1,0 +1,200 @@
+{
+  "id": "06",
+  "title": "Co robisz? Nudzę się!",
+  "goal": "Повторюємо: дієвідміна -ę / -isz / -e (czasownik) · co robisz? · хобі й заняття · mój / moja / moje · lubię + bezokolicznik · umieć / chcieć",
+  "vocab": [
+    { "group": "Czasowniki — що роблю (-ę / -isz)", "items": [
+      ["robić","робити"],["pisać","писати"],["czytać","читати"],["szukać","шукати"],
+      ["gotować","готувати"],["pracować","працювати"],["oglądać","дивитися"],["malować","малювати"],
+      ["uczyć się","вчитися"],["nudzić się","нудьгувати"],["rozmawiać","розмовляти"],["telefonować","телефонувати"]
+    ]},
+    { "group": "Hobby — захоплення", "items": [
+      ["czytać książki","читати книжки"],["słuchać muzyki","слухати музику"],["robić zakupy","робити покупки"],
+      ["robić zdjęcia","фотографувати"],["tańczyć","танцювати"],["śpiewać","співати"],
+      ["podróżować","подорожувати"],["zwiedzać","оглядати / відвідувати"],["pływać","плавати"],
+      ["biegać","бігати"],["jeździć na rowerze","їздити на велосипеді"],["jeździć na rolkach","кататися на роликах"]
+    ]},
+    { "group": "Mój / moja / moje — мій / моя / моє", "items": [
+      ["mój tata","мій тато"],["moja mama","моя мама"],["moje dziecko","моя дитина"],
+      ["twój dom","твій дім"],["twoja książka","твоя книжка"],["twoje auto","твоє авто"]
+    ]},
+    { "group": "Przydatne — корисні", "items": [
+      ["Co robisz?","що ти робиш?"],["Nudzę się.","мені нудно / нудьгую"],["lubię + robić","люблю (щось робити)"],
+      ["umieć","вміти"],["chcieć","хотіти"],["interesujące","цікаво / цікаве"],
+      ["smutny / smutna","сумний / сумна"],["coś specjalnego","щось особливе"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"я роблю", "title":"Koniugacja -ę / -isz", "formula":"ja -ę · ty -isz / -asz · on/ona -i / -e", "ex":"robić: robię, robisz, robi · pisać: piszę, piszesz, pisze" },
+    { "badge":"люблю", "title":"lubię + bezokolicznik", "formula":"lubić (lubię, lubisz) + інфінітив", "ex":"Lubię czytać. · Lubię tańczyć i podróżować." },
+    { "badge":"мій", "title":"mój / moja / moje", "formula":"męski: mój · żeński: moja · nijaki: moje", "ex":"mój tata · moja mama · moje dziecko" }
+  ],
+  "czytanie": [
+    { "block": "A. Co robisz?", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 A · трек 066", "lines":[
+        ["Mami","Przepraszam, co pani robi?","Перепрошую, що Ви робите?"],
+        ["Joanna","Gotuję pierogi. A ty umiesz gotować?","Готую вареники. А ти вмієш готувати?"],
+        ["Mami","Nie bardzo, tylko ryż. Moja mama gotuje bardzo dobrze, ja nie lubię.","Не дуже, тільки рис. Моя мама готує дуже добре, я не люблю."],
+        ["Joanna","Aha, to szkoda. Wiesz, może Karol robi coś interesującego.","Ага, шкода. Знаєш, може, Кароль робить щось цікаве."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 B · трек 067", "lines":[
+        ["Mami","Cześć. Mogę? Co robisz?","Привіт. Можна? Що робиш?"],
+        ["Karol","Cześć, proszę. Czytam książkę.","Привіт, прошу. Читаю книжку."],
+        ["Mami","To interesujące?","Це цікаво?"],
+        ["Karol","Jasne. Bardzo lubię czytać.","Звісно. Дуже люблю читати."],
+        ["Mami","E, ja niespecjalnie. Wolę grać na komputerze. A co robi twój tata?","Е, я не дуже. Волію грати на комп’ютері. А що робить твій тато?"],
+        ["Karol","Myślę, że pracuje.","Думаю, що працює."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 C · трек 068", "lines":[
+        ["Mami","Co pan robi?","Що Ви робите?"],
+        ["Grzegorz","Pracuję. Szukam informacji, piszę e-maile.","Працюю. Шукаю інформацію, пишу е-мейли."],
+        ["Mami","A co to jest Pudelek? Pan tu pracuje?","А що це — Pudelek? Ви тут працюєте?"],
+        ["Grzegorz","Yyy, a to, to nic. Tylko informacje o znanych, popularnych aktorach, muzykach.","Еее, а це? Це нічого. Тільки інформація про відомих, популярних акторів, музикантів."],
+        ["Mami","To znaczy, że pan teraz nie pracuje, tak?","Тобто Ви зараз не працюєте, так?"],
+        ["Grzegorz","Yyy, no nie. Wiesz, Mami, moja córka ogląda stare zdjęcia. To bardzo interesujące.","Еее, ну ні. Знаєш, Мамі, моя донька дивиться старі фото. Це дуже цікаво."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 D · трек 069", "lines":[
+        ["Mami","A ty co robisz?","А ти що робиш?"],
+        ["Karolina","Oglądam stare zdjęcia. O, to na przykład moja mama i mój tata na uniwersytecie, a to mój brat na wakacjach.","Дивлюся старі фото. О, це, наприклад, моя мама й мій тато в університеті, а це мій брат на канікулах."],
+        ["Mami","Jaki mały!","Який маленький!"],
+        ["Karolina","No. Mami, a co ty robisz dzisiaj?","Ну. Мамі, а що ти робиш сьогодні?"],
+        ["Mami","Ja? Ja nic. Nudzę się i jestem trochę smutna.","Я? Я нічого. Нудьгую і трохи сумна."],
+        ["Karolina","Dlaczego?","Чому?"],
+        ["Mami","Bo moja mama, mój tata, moja siostra i mój brat są w Japonii, a ja tu, w Polsce.","Бо моя мама, мій тато, моя сестра й мій брат — у Японії, а я тут, у Польщі."]
+      ]}
+    ]},
+    { "block": "B. Gdzie jesteś? Co robisz?", "items": [
+      { "type":"dia", "title":"Ćwiczenie 2 A · телефон · трек 070", "lines":[
+        ["—","Gdzie dzwonisz?","Куди ти дзвониш?"],
+        ["—","Telefonuję do ambasady.","Телефоную до посольства."],
+        ["—","Dlaczego?","Чому?"],
+        ["—","Mój paszport jest nieaktualny.","Мій паспорт недійсний."],
+        ["—","To faktycznie masz problem.","Тоді справді маєш проблему."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 B · zakupy · трек 071", "lines":[
+        ["—","Halo, Karolina? Gdzie jesteś?","Алло, Кароліно? Де ти?"],
+        ["Karolina","Robię zakupy w galerii Centrum. A ty?","Роблю покупки в галереї «Центрум». А ти?"],
+        ["—","Spaceruję po parku i robię zdjęcia.","Гуляю парком і фотографую."],
+        ["Karolina","Co fotografujesz?","Що фотографуєш?"],
+        ["—","Teraz małe dziecko. Jest brudne, ale śliczne.","Зараз маленьку дитину. Замурзана, але чарівна."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 C · park · трек 072", "lines":[
+        ["—","Halo, Tom? Gdzie jesteś?","Алло, Томе? Де ти?"],
+        ["Tom","Jestem w parku.","Я в парку."],
+        ["—","Co robisz w parku? Biegasz?","Що робиш у парку? Бігаєш?"],
+        ["Tom","Nie, nie biegam. Gram w koszykówkę.","Ні, не бігаю. Граю в баскетбол."],
+        ["—","Ja też chcę grać. Wiesz, gdzie jest park Jordana?","Я теж хочу грати. Знаєш, де парк Йордана?"],
+        ["Tom","Oczywiście. To czekamy.","Звісно. То чекаємо."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 D · film · трек 073", "lines":[
+        ["—","Karol, co oglądasz?","Кароль, що дивишся?"],
+        ["Karol","Fajny film.","Класний фільм."],
+        ["—","Jaki?","Який?"],
+        ["Karol","To stara polska komedia. Jest bardzo wesoła. A ty, mamo, co robisz?","Це стара польська комедія. Дуже весела. А ти, мамо, що робиш?"],
+        ["Mama","Maluję.","Малюю."],
+        ["Karol","O, co malujesz?","О, що малюєш?"],
+        ["Mama","Teraz maluję pejzaż, ale jestem już zmęczona.","Зараз малюю пейзаж, але я вже втомлена."]
+      ]}
+    ]},
+    { "block": "C. Hobby — co lubisz robić?", "items": [
+      { "type":"dia", "title":"Dialog 1 · gospodyni i gospodarz · трек 074", "lines":[
+        ["—","Mami, co robisz po lekcji?","Мамі, що робиш після уроку?"],
+        ["Mami","Ja? Nic specjalnego. Nudzę się.","Я? Нічого особливого. Нудьгую."],
+        ["—","Nudzisz się? A dlaczego?","Нудьгуєш? А чому?"],
+        ["Mami","Bo gospodyni Joanna gotuje pierogi, gospodarz Grzegorz pracuje w domu, a Karol czyta. Nie mają czasu.","Бо господиня Йоанна готує вареники, господар Ґжеґож працює вдома, а Кароль читає. Не мають часу."],
+        ["—","A ty co lubisz robić?","А ти що любиш робити?"],
+        ["Mami","Bardzo lubię grać na komputerze, malować i słuchać muzyki rockowej.","Дуже люблю грати на комп’ютері, малювати й слухати рок-музику."],
+        ["—","Ja też lubię słuchać muzyki i lubię tańczyć, spotykać się ze znajomymi i robić zakupy.","Я теж люблю слухати музику й люблю танцювати, зустрічатися зі знайомими та робити покупки."],
+        ["—","Ja nie umiem tańczyć.","Я не вмію танцювати."],
+        ["—","Nie ma problemu, jestem świetnym nauczycielem tańca. W weekend idziemy tańczyć.","Без проблем, я чудовий вчитель танцю. У вихідні йдемо танцювати."]
+      ]},
+      { "type":"ref", "title":"Hobby · трек 075",
+        "words":"chodzić na spacery · chodzić na siłownię · chodzić do kina · czytać książki · gotować · grać na gitarze · jeździć konno · malować · oglądać telewizję · podróżować · robić zakupy · robić zdjęcia · słuchać muzyki · śpiewać · tańczyć · uczyć się języków obcych · biegać · pływać · grać w tenisa · grać w piłkę · grać w szachy · jeździć na rowerze · jeździć na rolkach · jeździć na nartach",
+        "note":"Прочитай уголос і познач, що вмієш робити (umiem) і що любиш (lubię)." },
+      { "type":"dia", "title":"Ćwiczenie 3 · plany na weekend · трек 076", "lines":[
+        ["—","W weekend są w Krakowie moje koleżanki z Londynu. Najpierw chcemy zrobić zakupy w galerii handlowej, a potem idziemy na kawę.","У вихідні в Кракові мої подруги з Лондона. Спершу хочемо зробити покупки в торговому центрі, а потім ідемо на каву."],
+        ["—","Koleżanki z grupy chcą iść do klubu, bo jest koncert. Ja też idę z nimi, ale nie wiem, kto gra.","Подруги з групи хочуть піти до клубу, бо є концерт. Я теж іду з ними, але не знаю, хто грає."],
+        ["—","Co planuję robić w weekend? Jeszcze nie wiem. Chcę iść na festiwal filmów iberoamerykańskich.","Що планую робити у вихідні? Ще не знаю. Хочу піти на фестиваль ібероамериканських фільмів."],
+        ["—","W weekendy zwykle nie mam czasu, bo pracuję, ale chcę się trochę zrelaksować i iść na masaż.","У вихідні зазвичай не маю часу, бо працюю, але хочу трохи відпочити й піти на масаж."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_06-1.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_06/ (066–077.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 1 · Dialog 1 — szukam informacji", "lines":[
+      ["—","Co robisz, mamo?","Що робиш, мамо?"],
+      ["—","Piszę e-maile, a ty?","Пишу е-мейли, а ти?"],
+      ["—","Szukam informacji kolejowej.","Шукаю інформацію про потяги."],
+      ["—","Szukasz informacji kolejowej? Dlaczego?","Шукаєш розклад потягів? Чому?"],
+      ["—","Bo muszę dziś być w Warszawie i nie wiem, kiedy jest pociąg.","Бо мушу сьогодні бути у Варшаві й не знаю, коли потяг."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 1 · Dialog 2 — gazeta", "lines":[
+      ["—","Cześć, Javier. Co robisz?","Привіт, Хав’єре. Що робиш?"],
+      ["Javier","Czytam gazetę.","Читаю газету."],
+      ["—","Po polsku?","Польською?"],
+      ["Javier","Nie, po hiszpańsku.","Ні, іспанською."],
+      ["—","Aha, ja też lubię czytać gazety po japońsku. Kiedy czytam po japońsku, myślę, że jestem w domu i nie jestem smutna.","Ага, я теж люблю читати газети японською. Коли читаю японською, думаю, що я вдома, і мені не сумно."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 1 · Dialog 3 — zadanie domowe", "lines":[
+      ["—","Julia, jesteś tutaj?","Юліє, ти тут?"],
+      ["Julia","Tak, jestem. Dlaczego pytasz?","Так, тут. Чому питаєш?"],
+      ["—","Bardzo się nudzę, a ty, co robisz?","Дуже нудьгую, а ти що робиш?"],
+      ["Julia","Uczę się angielskiego. Piszę teraz zadanie domowe. A ty? Dlaczego się nie uczysz?","Вчу англійську. Зараз пишу домашнє завдання. А ти? Чому не вчишся?"]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 1 · Dialog 4 — zdjęcia z Wenecji", "lines":[
+      ["—","Co robicie?","Що ви робите?"],
+      ["—","My? Rozmawiamy i oglądamy zdjęcia.","Ми? Розмовляємо й дивимося фото."],
+      ["—","O, fajna fotografia. Kto to jest?","О, класне фото. Хто це?"],
+      ["—","To moja mama i ja w Wenecji.","Це моя мама і я у Венеції."],
+      ["—","To ty siedzisz tutaj?","Це ти сидиш тут?"],
+      ["—","Tak, to ja. Lubisz zwiedzać nowe miejsca?","Так, це я. Любиш відвідувати нові місця?"],
+      ["—","Bardzo. Lubię zwiedzać i podróżować.","Дуже. Люблю оглядати й подорожувати."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 8 · rolki — umieć", "lines":[
+      ["—","Cześć, Angela. Co robisz?","Привіт, Анджело. Що робиш?"],
+      ["Angela","Czekam na mamę. Planujemy dziś razem jeździć na rolkach. Umiesz jeździć na rolkach?","Чекаю на маму. Плануємо сьогодні разом кататися на роликах. Умієш кататися на роликах?"],
+      ["—","Oczywiście. Ja niestety nie umiem.","Звісно. Я, на жаль, не вмію."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 9 · talenty — umieć grać", "lines":[
+      ["—","Kto tak pięknie tańczy?","Хто так гарно танцює?"],
+      ["—","To Javier. On umie świetnie tańczyć.","Це Хав’єр. Він уміє чудово танцювати."],
+      ["—","Myślę, że Javier jest bardzo utalentowany.","Думаю, що Хав’єр дуже талановитий."],
+      ["—","Naprawdę?","Справді?"],
+      ["—","Tak. Javier tańczy, ładnie śpiewa, gra też na gitarze i na pianinie.","Так. Хав’єр танцює, гарно співає, грає також на гітарі та на фортепіано."],
+      ["—","Ja też dobrze tańczę, gram na pianinie i na skrzypcach.","Я теж добре танцюю, граю на фортепіано та на скрипці."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L06.txt",
+  "mistakes": [
+    ["Ja robisz","Ja robię","Дієвідміна: ja robię, ty robisz. Для «я» закінчення -ę."],
+    ["Co ty robi?","Co ty robisz?","Для «ty» закінчення -isz / -asz: robisz, czytasz."],
+    ["mój mama","moja mama","«mama» — жіночий рід: moja, а не mój."],
+    ["Lubię tańczę","Lubię tańczyć","Після «lubię» — інфінітив: lubię tańczyć, lubię czytać."]
+  ],
+  "drills": [
+    ["Спитай неформально, що друг робить.","Co robisz?"],
+    ["Скажи: я нудьгую.","Nudzę się."],
+    ["Скажи: читаю книжку.","Czytam książkę."],
+    ["Скажи: пишу е-мейли.","Piszę e-maile."],
+    ["Скажи: я люблю танцювати й співати.","Lubię tańczyć i śpiewać."],
+    ["Спитай, чи друг уміє готувати.","Umiesz gotować?"],
+    ["Скажи: це мій тато і моя мама.","To jest mój tata i moja mama."],
+    ["Скажи: я дивлюся старі фото.","Oglądam stare zdjęcia."],
+    ["Спитай по телефону, де він/вона.","Gdzie jesteś?"],
+    ["Скажи: я граю в баскетбол у парку.","Gram w koszykówkę w parku."],
+    ["Назви три свої хобі.","Lubię czytać, podróżować i słuchać muzyki."],
+    ["Скажи: я трохи сумна, бо мама в Японії.","Jestem trochę smutna, bo mama jest w Japonii."]
+  ],
+  "quiz": [
+    {"topic":"koniugacja","q":"«Ja ___ książkę» (czytać):","o":["czytasz","czyta","czytam","czytacie"],"a":2},
+    {"topic":"koniugacja","q":"«Co ty ___?» (robić):","o":["robię","robisz","robi","robimy"],"a":1},
+    {"topic":"czasownik","q":"«Nudzę się» означає:","o":["я працюю","мені нудно","я готую","я подорожую"],"a":1},
+    {"topic":"lubię","q":"Після «lubię» вживаємо:","o":["іменник у formie -ę","інфінітив (tańczyć)","минулий час","jest"],"a":1},
+    {"topic":"mój/moja","q":"«___ mama jest w Japonii»:","o":["Mój","Moja","Moje","Moi"],"a":1},
+    {"topic":"mój/moja","q":"«To jest ___ tata» (męski):","o":["moja","moje","mój","moi"],"a":2},
+    {"topic":"hobby","q":"«robić zakupy» — це:","o":["фотографувати","робити покупки","готувати","подорожувати"],"a":1},
+    {"topic":"umieć","q":"«Umiesz gotować?» питає:","o":["чи любиш готувати","чи вмієш готувати","чи готуєш зараз","де готуєш"],"a":1},
+    {"topic":"czasownik","q":"«piszę» — це від дієслова:","o":["pić","pisać","prosić","pływać"],"a":1},
+    {"topic":"koniugacja","q":"«On ___ stare zdjęcia» (oglądać):","o":["oglądam","oglądasz","ogląda","oglądają"],"a":2}
+  ]
+}

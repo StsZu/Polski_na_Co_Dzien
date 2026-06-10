@@ -1,0 +1,189 @@
+{
+  "id": "26",
+  "title": "Same problemy!",
+  "goal": "Повторюємо: справи «do załatwienia» · послуги (szewc, krawiec, naprawa) · скарги й рекламації · дрібні аварії та пригоди · повідомлення про крадіжку · zgłosić / reklamować · powinienem / mógłbyś",
+  "vocab": [
+    { "group": "Sprawy do załatwienia — справи, які треба владнати", "items": [
+      ["mam coś do załatwienia","маю дещо владнати"],["do zrobienia","що зробити"],["doładować kartę / komórkę","поповнити картку / телефон"],
+      ["zapłacić rachunki","оплатити рахунки"],["skopiować notatki","скопіювати конспект"],["przesyłka do odebrania","посилка для отримання"],
+      ["skoczyć do bankomatu","забігти до банкомата"],["coś do jedzenia","щось поїсти"],["od ręki / od razu","відразу, негайно"]
+    ]},
+    { "group": "Usługi i naprawy — послуги та ремонт", "items": [
+      ["szewc","швець"],["krawiec","кравець"],["fryzjer","перукар"],["mechanik","механік"],
+      ["warsztat samochodowy","автомайстерня"],["skrócić spodnie","укоротити штани"],["urwał się pasek","відірвався ремінець"],
+      ["zanieść do naprawy","віднести в ремонт"],["naprawić","полагодити"],["czy to się opłaca?","чи це варто?"]
+    ]},
+    { "group": "Reklamacja i problemy — рекламація та проблеми", "items": [
+      ["przeterminowany jogurt","прострочений йогурт"],["data ważności minęła","термін придатності минув"],["reklamować","рекламувати, повертати"],
+      ["paragon","чек"],["wymienić","обміняти"],["uciekł mi tramwaj","я не встиг на трамвай"],
+      ["umieram z głodu","вмираю з голоду"],["zdenerwowany","знервований"],["co za dzień!","що за день!"]
+    ]},
+    { "group": "Wypadek i kradzież — пригода та крадіжка", "items": [
+      ["wypadek samochodowy","автомобільна аварія"],["wymusić pierwszeństwo","не дати дорогу (вимусити перевагу)"],["zahamować","загальмувати"],
+      ["uszkodzony","пошкоджений"],["zgłosić kradzież","заявити про крадіжку"],["ukradł mi portfel","украв у мене гаманець"],
+      ["biuro rzeczy znalezionych","бюро знахідок"],["wypełnić formularz","заповнити бланк"],["zablokować karty","заблокувати картки"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"треба зробити", "title":"do + iменник (rzeczownik odsłowny)", "formula":"mam coś do + (za)łatwienia / odebrania / jedzenia / naprawy", "ex":"Mam przesyłkę do odebrania. · Coś do jedzenia. · Zanieść do naprawy." },
+    { "badge":"повинність", "title":"powinienem / powinnaś", "formula":"powinien(em) · powinna(ś) + bezokolicznik", "ex":"Powinieneś zadzwonić do MPK. · Nie powinnaś go wyrzucać, tylko reklamować." },
+    { "badge":"ввічливе прохання", "title":"czy mógłbyś / mogłabyś", "formula":"Czy mógłbyś / mogłabyś + bezokolicznik?", "ex":"Czy mogłabyś poprowadzić lekcję? · Czy możesz wziąć mikser?" }
+  ],
+  "czytanie": [
+    { "block": "A. Same problemy — sprawy do załatwienia", "items": [
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 240", "lines":[
+        ["Kolega","Tom, idziesz na pierogi?","Томе, ідеш на вареники?"],
+        ["Tom","Chętnie, ale potem lecę, bo mam kilka spraw do załatwienia.","Залюбки, але потім біжу, бо маю кілька справ владнати."],
+        ["Kolega","Do czego?","До чого?"],
+        ["Tom","Do załatwienia. Hm... trochę jak „do zrobienia”. Muszę doładować moją kartę na tramwaj, kupić nowe oprawki do okularów, bo stare mi pękły, zapłacić rachunki na poczcie i iść do księgarni.","«Владнати». Хм... трохи як «зробити». Мушу поповнити трамвайну картку, купити нову оправу для окулярів, бо стара тріснула, оплатити рахунки на пошті й піти до книгарні."],
+        ["Kolega","Warto zapamiętać. „Do załatwienia”. Ja też mam coś do załatwienia. Muszę skopiować notatki, które pożyczyłem od Angeli.","Варто запам’ятати. «Владнати». Я теж маю дещо владнати. Мушу скопіювати конспект, який позичив в Анджели."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 241", "lines":[
+        ["Kolega 1","Zostajesz oglądać film? Dziś są „Sami swoi”. Stara, ale podobno fajna komedia.","Залишаєшся дивитися фільм? Сьогодні «Sami swoi». Стара, але начебто класна комедія."],
+        ["Kolega 2","Tak, słyszałem, że to niezły film i chcę go obejrzeć. Wychodzę na moment ze szkoły, mam przesyłkę do odebrania i jeszcze powinienem skoczyć do bankomatu.","Так, я чув, що це непоганий фільм, і хочу його подивитися. Вийду на хвильку зі школи, маю отримати посилку і ще мушу забігти до банкомата."],
+        ["Kolega 1","Wiesz... a ja chyba wyjdę po coś do jedzenia.","Знаєш... а я, мабуть, вийду по щось поїсти."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 3 · трек 242", "lines":[
+        ["Angela","Cześć Mami. Co tam masz?","Привіт, Мамі. Що там у тебе?"],
+        ["Mami","Kupiłam sobie spodnie.","Купила собі штани."],
+        ["Angela","O! Wystrzałowe.","О! Шикарні."],
+        ["Mami","Tak. Ale chyba są trochę za długie.","Так. Але, здається, трохи задовгі."],
+        ["Angela","Rzeczywiście. Trzeba je trochę skrócić. Po obiedzie idę do szewca, tam obok jest krawiec. Może skrócić ci te spodnie od ręki.","Справді. Треба їх трохи вкоротити. Після обіду йду до шевця, поряд є кравець. Може вкоротити тобі ці штани відразу."],
+        ["Mami","Od ręki?","«Від руки»?"],
+        ["Angela","Tak się mówi. To znaczy: od razu.","Так кажуть. Це означає: відразу."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 4 · трек 243", "lines":[
+        ["Kolega","Hej, słyszę, że wybieracie się do szewca. Czy mogłybyście wziąć moją torbę?","Гей, чую, що ви збираєтесь до шевця. Чи могли б ви взяти мою сумку?"],
+        ["Koleżanka","Po co?","Навіщо?"],
+        ["Kolega","Urwał się pasek.","Відірвався ремінець."],
+        ["Koleżanka","No nie wiem, czy to się opłaca naprawiać.","Ну не знаю, чи варто це лагодити."],
+        ["Kolega","Fakt. Ale możesz zapytać i sama zdecydujesz.","Факт. Але можеш спитати і сама вирішиш."],
+        ["Koleżanka","Dobra. Kasę poproszę.","Гаразд. Гроші давай."],
+        ["Kolega","Oddam ci potem. O kurczę, muszę jeszcze doładować komórkę. Możesz mi kupić kartę za 25 złotych?","Віддам тобі потім. Ой леле, мушу ще поповнити телефон. Можеш мені купити картку за 25 злотих?"],
+        ["Koleżanka","Nie za dużo chcesz?","Не забагато хочеш?"],
+        ["Kolega","Proszę cię, muszę się uczyć. A i tak idziecie koło kiosku.","Прошу тебе, мушу вчитися. А ви й так ідете повз кіоск."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 5 · трек 244", "lines":[
+        ["Mężczyzna","Jest już obiad?","Обід уже готовий?"],
+        ["Kobieta","Będzie za moment. Spieszysz się gdzieś?","За хвилину. Кудись поспішаєш?"],
+        ["Mężczyzna","Tak. Samochód się znowu zepsuł.","Так. Машина знову зламалася."],
+        ["Kobieta","Coś poważnego?","Щось серйозне?"],
+        ["Mężczyzna","Chyba nie. Mam nadzieję, że mechanik mi to do jutra naprawi.","Мабуть, ні. Сподіваюся, механік полагодить мені до завтра."],
+        ["Kobieta","Proszę, jedzenie gotowe. Aha, czy jak wrócisz, to mógłbyś wziąć psa na spacer? Ja nie zdążę, bo zaraz biegnę do fryzjera, a potem po wyniki badań do przychodni.","Прошу, їжа готова. Ага, як повернешся, міг би вигуляти пса? Я не встигну, бо зараз біжу до перукаря, а потім по результати аналізів до поліклініки."],
+        ["Mężczyzna","Mam trochę pracy.","Маю трохи роботи."],
+        ["Kobieta","Dzieci nie mogą iść?","Діти не можуть піти?"],
+        ["Mężczyzna","Karolina wychodzi do miasta, a Karol ma jutro test z łaciny. Spacer po parku dobrze ci zrobi.","Кароліна йде в місто, а Кароль має завтра тест із латини. Прогулянка парком тобі піде на користь."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 6 · трек 245", "lines":[
+        ["Mężczyzna","Słucham.","Слухаю."],
+        ["Joanna","Cześć, to ja Joanna. Jesteś już w domu? Co z samochodem?","Привіт, це я, Йоанна. Ти вже вдома? Що з машиною?"],
+        ["Mężczyzna","Jutro mam zadzwonić. Powinien być po południu.","Завтра маю подзвонити. Має бути по обіді."],
+        ["Joanna","Byłeś już z psem na spacerze?","Ти вже вигуляв пса?"],
+        ["Mężczyzna","Ee, właśnie wychodzimy.","Е-е, саме виходимо."],
+        ["Joanna","To świetnie. Czy możesz wziąć mikser i po drodze zanieść go do naprawy?","Чудово. Можеш узяти міксер і по дорозі віднести його в ремонт?"],
+        ["Mężczyzna","Ale...","Але..."],
+        ["Joanna","Żadnego ale. To ci zajmie 5 minut.","Жодних «але». Це займе тобі 5 хвилин."]
+      ]}
+    ]},
+    { "block": "B. Reklamacja — рекламація товару", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · Dialog 1 · трек 252", "lines":[
+        ["Kolega","Angela, dlaczego jesteś taka zdenerwowana?","Анджело, чому ти така знервована?"],
+        ["Angela","Najpierw urwał mi się pasek w sandale. Potem uciekł mi tramwaj. A teraz umieram z głodu, bo sprzedali mi przeterminowany jogurt i muszę go wyrzucić. Co za dzień.","Спершу в мене відірвався ремінець у босоніжці. Потім я не встигла на трамвай. А тепер умираю з голоду, бо мені продали прострочений йогурт, і я мушу його викинути. Що за день."],
+        ["Kolega","Nie powinnaś go wyrzucać, tylko reklamować. Gdzie go kupiłaś?","Тобі не варто його викидати, а повернути. Де ти його купила?"],
+        ["Angela","Masz rację. To niedaleko. Zdążę przed lekcją.","Маєш рацію. Це недалеко. Встигну до уроку."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 · Dialog 2 · трек 253", "lines":[
+        ["Angela","Dzień dobry. Kupiłam dziś tutaj przeterminowany jogurt.","Добрий день. Я купила тут сьогодні прострочений йогурт."],
+        ["Ekspedientka","Proszę pokazać. Faktycznie. Data ważności minęła wczoraj.","Покажіть, будь ласка. Справді. Термін придатності минув учора."],
+        ["Angela","No właśnie.","Отож-бо."],
+        ["Ekspedientka","Czy ma pani paragon?","У Вас є чек?"],
+        ["Angela","Niestety nie.","На жаль, ні."],
+        ["Ekspedientka","To nic. Pamiętam panią. Proszę zaczekać. Zaraz go wymienię.","Нічого. Я Вас пам’ятаю. Зачекайте, будь ласка. Зараз обміняю."]
+      ]}
+    ]},
+    { "block": "C. Wypadek i kradzież — пригода та крадіжка", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · трек 254", "lines":[
+        ["Ania","Halo?","Алло?"],
+        ["Javier","Cześć Aniu. Nie dojadę na czas do szkoły. Czy mogłabyś poprowadzić za mnie lekcję?","Привіт, Аню. Я не встигну до школи. Чи могла б ти провести за мене урок?"],
+        ["Ania","Tak, mogłabym. Jesteś zdenerwowany. Czy coś się stało?","Так, могла б. Ти знервований. Щось сталося?"],
+        ["Javier","Miałem mały wypadek samochodowy.","Я мав невелику автомобільну аварію."],
+        ["Ania","Coś poważnego?","Щось серйозне?"],
+        ["Javier","Na szczęście nie. Taksówkarz wymusił pierwszeństwo. Ja zdążyłem zahamować, ale samochód za mną niestety nie.","На щастя, ні. Таксист не дав дорогу. Я встиг загальмувати, а машина за мною, на жаль, ні."],
+        ["Ania","Czy wszystko w porządku?","Усе гаразд?"],
+        ["Javier","Ze mną tak. Tylko samochód jest trochę uszkodzony. Teraz czekamy na policję. A potem chciałbym od razu pojechać do warsztatu samochodowego.","Зі мною так. Тільки машина трохи пошкоджена. Зараз чекаємо на поліцію. А потім хотів би відразу поїхати в автомайстерню."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 1 · трек 255", "lines":[
+        ["Koleżanka","Javier? Co się stało?","Хав’єре? Що сталося?"],
+        ["Javier","Zgubiłem notatki Angeli.","Я загубив конспект Анджели."],
+        ["Koleżanka","To masz pecha. Angela miała zły dzień i na pewno nie będzie zadowolona. Może je zostawiłeś w domu?","Тобі не щастить. У Анджели був поганий день, і вона точно не зрадіє. Може, ти залишив його вдома?"],
+        ["Javier","Nie. Pamiętam, że wychodziłem z nimi. Miałem je jeszcze na przystanku, kiedy rozmawiałem z Elą.","Ні. Пам’ятаю, що виходив із ним. Він ще був зі мною на зупинці, коли я розмовляв з Елею."],
+        ["Koleżanka","Kto to jest Ela?","Хто така Еля?"],
+        ["Javier","Sąsiadka.","Сусідка."],
+        ["Koleżanka","I co potem?","І що потім?"],
+        ["Javier","Potem wsiadłem do tramwaju i też rozmawiałem z jakąś dziewczyną. I potem wysiadłem i... i gdzieś zgubiłem te notatki.","Потім я сів у трамвай і теж розмовляв з якоюсь дівчиною. А потім вийшов і... і десь загубив той конспект."],
+        ["Koleżanka","Wiesz... jesteś zupełnie nieodpowiedzialny. Powinieneś zadzwonić do biura rzeczy znalezionych MPK. Jeśli zostawiłeś je w tramwaju, to może ktoś odda.","Знаєш... ти зовсім безвідповідальний. Тобі варто подзвонити в бюро знахідок MPK. Якщо ти залишив його в трамваї, то, може, хтось поверне."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 8 · трек 256", "lines":[
+        ["Urzędnik","Słucham pana.","Слухаю Вас."],
+        ["Mężczyzna","Ktoś ukradł mi portfel.","Хтось украв у мене гаманець."],
+        ["Urzędnik","Gdzie to się stało?","Де це сталося?"],
+        ["Mężczyzna","W pubie. Miałem go w kieszeni w kurtce i powiesiłem kurtkę na krześle.","У пабі. Він був у кишені куртки, а куртку я повісив на стілець."],
+        ["Urzędnik","Czy miał pan jakieś dokumenty w portfelu?","Чи були у Вас якісь документи в гаманці?"],
+        ["Mężczyzna","Nie. Karty kredytowe już zablokowałem. Ale przyszedłem zgłosić kradzież, bo kamera zarejestrowała mężczyznę, który ukradł portfel.","Ні. Кредитні картки я вже заблокував. Але прийшов заявити про крадіжку, бо камера зафіксувала чоловіка, який украв гаманець."],
+        ["Urzędnik","Dziękuję bardzo. To cenna informacja. Proszę jeszcze wypełnić ten formularz.","Дуже дякую. Це цінна інформація. Заповніть, будь ласка, ще цей бланк."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_26.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_26/ (240–256.mp3)",
+  "zeszyt": [
+    { "type":"ref", "title":"Ćwiczenie 6 · bezpieczeństwo na drogach — читай уголос",
+      "words":"wypadek drogowy · ranni i kontuzjowani · nieprzestrzeganie przepisów · nadmierna prędkość · wymuszanie pierwszeństwa · nieprawidłowe wyprzedzanie · jazda pod wpływem alkoholu · zły stan dróg · wąskie i kręte drogi · zniszczona nawierzchnia · brak chodników · mgła · ślisko",
+      "note":"Конспект тексту про причини ДТП у Польщі." },
+    { "type":"dia", "title":"Ćwiczenie 9 · zgłoszenie kradzieży paszportu", "lines":[
+      ["Urzędnik","Słucham pana.","Слухаю Вас."],
+      ["Mężczyzna","Dzień dobry, chciałem zgłosić kradzież paszportu.","Добрий день, я хотів заявити про крадіжку паспорта."],
+      ["Urzędnik","Kiedy i gdzie to się stało?","Коли і де це сталося?"],
+      ["Mężczyzna","Niestety nie wiem. Kiedy rano wychodziłem z hotelu, na pewno go jeszcze miałem. Potem zwiedzałem Kraków, byłem w różnych miejscach.","На жаль, не знаю. Коли вранці виходив з готелю, він точно ще був при мені. Потім оглядав Краків, був у різних місцях."],
+      ["Urzędnik","Rozumiem. Czy zginęło panu coś jeszcze?","Розумію. Чи зникло у Вас ще щось?"],
+      ["Mężczyzna","Nie, tylko paszport.","Ні, лише паспорт."],
+      ["Urzędnik","Proszę wypełnić ten formularz.","Заповніть, будь ласка, цей бланк."],
+      ["Mężczyzna","Mam problem, nie pamiętam numeru paszportu.","У мене проблема, не пам’ятаю номера паспорта."],
+      ["Urzędnik","Na razie proszę wypełnić resztę, a numer może pan potem dosłać mailem.","Поки що заповніть решту, а номер можете потім дослати мейлом."],
+      ["Mężczyzna","Gotowe, proszę.","Готово, прошу."],
+      ["Urzędnik","Dobrze, proszę zaczekać pięć minut. No, ma pan szczęście. Pana paszport ktoś znalazł w muzeum. Jest do odebrania na posterunku policji naprzeciwko muzeum.","Добре, зачекайте п’ять хвилин. Ну, Вам пощастило. Ваш паспорт хтось знайшов у музеї. Його можна забрати у відділку поліції навпроти музею."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L26.txt",
+  "mistakes": [
+    ["Mam coś do załatwić","Mam coś do załatwienia","Після «do» — віддієслівний іменник на -nie/-cie, не інфінітив."],
+    ["Powinieneś zadzwonić wczoraj","Powinieneś był zadzwonić","Минулий час «powinienem»: powinien + był + bezokolicznik."],
+    ["Czy możesz prowadzić lekcję za mnie?","Czy mogłabyś poprowadzić lekcję za mnie?","Ввічливе прохання — умовний спосіб «mógłbyś / mogłabyś»."],
+    ["Ukradli mnie portfel","Ukradli mi portfel","Кому украли — давальний відмінок: «mi», не «mnie» тут."]
+  ],
+  "drills": [
+    ["Скажи, що маєш кілька справ владнати.","Mam kilka spraw do załatwienia."],
+    ["Скажи, що мусиш поповнити трамвайну картку.","Muszę doładować kartę na tramwaj."],
+    ["Попроси ввічливо провести за тебе урок.","Czy mogłabyś poprowadzić za mnie lekcję?"],
+    ["Поскаржся, що тобі продали прострочений йогурт.","Sprzedali mi przeterminowany jogurt."],
+    ["Спитай у крамниці, чи можна обміняти товар.","Czy mogę to wymienić?"],
+    ["Скажи, що відірвався ремінець і треба полагодити.","Urwał się pasek, trzeba go naprawić."],
+    ["Скажи, що мав невелику автомобільну аварію.","Miałem mały wypadek samochodowy."],
+    ["Заяви на поліції, що хтось украв твій гаманець.","Ktoś ukradł mi portfel."],
+    ["Скажи, що тобі варто подзвонити в бюро знахідок.","Powinienem zadzwonić do biura rzeczy znalezionych."],
+    ["Попроси заповнити бланк.","Proszę wypełnić ten formularz."],
+    ["Скажи, що машина зламалася і механік полагодить до завтра.","Samochód się zepsuł, mechanik naprawi go do jutra."],
+    ["Скажи, що не маєш чека.","Niestety nie mam paragonu."]
+  ],
+  "quiz": [
+    {"topic":"do załatwienia","q":"«Mam coś do ___» (załatwić):","o":["załatwić","załatwienia","załatwiam","załatwiony"],"a":1},
+    {"topic":"usługi","q":"Хто вкоротить штани?","o":["szewc","krawiec","fryzjer","mechanik"],"a":1},
+    {"topic":"usługi","q":"«od ręki» означає:","o":["вручну","відразу","дорого","завтра"],"a":1},
+    {"topic":"reklamacja","q":"Йогурт прострочений. Що зробиш?","o":["wyrzucić","reklamować","zapłacić","schować"],"a":1},
+    {"topic":"reklamacja","q":"«Data ważności minęła» — це:","o":["знижка","термін придатності минув","немає чека","товар у наявності"],"a":1},
+    {"topic":"powinność","q":"«Nie ___ go wyrzucać, tylko reklamować» (ти, ж.р.):","o":["powinien","powinnaś","powinno","powinniśmy"],"a":1},
+    {"topic":"wypadek","q":"«Taksówkarz wymusił pierwszeństwo» — він:","o":["загальмував","не дав дорогу","перевищив швидкість","заснув"],"a":1},
+    {"topic":"prośba","q":"Ввічливо попросити жінку: «Czy ___ poprowadzić lekcję?»","o":["możesz","mogłabyś","mogłeś","mogę"],"a":1},
+    {"topic":"kradzież","q":"Гаманець украли. Куди йдеш заявити?","o":["do szewca","na policję","do banku","do przychodni"],"a":1},
+    {"topic":"słownictwo","q":"«biuro rzeczy znalezionych» — це:","o":["автомайстерня","бюро знахідок","банк","поліклініка"],"a":1}
+  ]
+}

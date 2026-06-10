@@ -1,0 +1,134 @@
+{
+  "id": "04",
+  "title": "Jaki jesteś?",
+  "goal": "Повторюємо: опис людей (прикметники) · jaki / jaka / jakie · skąd jesteś · mówić po…ku · mieszkać w · інтернаціоналізми",
+  "vocab": [
+    { "group": "Cechy charakteru i wyglądu — риси та зовнішність", "items": [
+      ["pracowity","працьовитий"],["leniwy","лінивий"],["gruby","товстий"],["szczupły","худорлявий"],
+      ["wysoki","високий"],["niski","низький"],["średniego wzrostu","середнього зросту"],
+      ["wesoły","веселий"],["smutny","сумний"],["przystojny","вродливий (про чоловіка)"],
+      ["ładny","гарний"],["brzydki","негарний"],["zmęczony","втомлений"],["wysportowany","спортивний"],
+      ["stary","старий"],["młody","молодий"],["zdrowy","здоровий"],["chory","хворий"],
+      ["czysty","чистий"],["brudny","брудний"],["sympatyczny","симпатичний"],["miły","милий"]
+    ]},
+    { "group": "Internacjonalizmy — інтернаціоналізми", "items": [
+      ["agresywny","агресивний"],["aktywny","активний"],["ambitny","амбітний"],["atrakcyjny","привабливий"],
+      ["energiczny","енергійний"],["inteligentny","розумний"],["romantyczny","романтичний"],
+      ["sfrustrowany","розчарований"],["spontaniczny","спонтанний"],["utalentowany","талановитий"],
+      ["zestresowany","знервований"],["kreatywny","креативний"]
+    ]},
+    { "group": "Skąd? Gdzie? — звідки і де", "items": [
+      ["Skąd jesteś?","звідки ти?"],["Jestem z Argentyny","я з Аргентини"],
+      ["Jestem z Japonii","я з Японії"],["Jestem z Francji","я з Франції"],
+      ["Mieszkam w Krakowie","живу в Кракові"],["Mieszkam w Paryżu","живу в Парижі"],
+      ["mówić po polsku","говорити польською"],["mówić po hiszpańsku","говорити іспанською"]
+    ]},
+    { "group": "Przydatne — корисні фрази", "items": [
+      ["Co słychać?","як справи?"],["Wszystko w porządku","усе гаразд"],["A u ciebie?","а в тебе?"],
+      ["Masz rację","маєш рацію"],["Cieszę się","я радий / тішуся"],["To świetnie","це чудово"],
+      ["Jestem pewny","я впевнений"],["Ma dziewczynę","має дівчину"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"який ти?", "title":"jaki / jaka / jakie jesteś", "formula":"jaki (m) · jaka (ż) + прикметник з тим самим родом", "ex":"Jaki jesteś? — Jestem wysoki. · Jaka jesteś? — Jestem wesoła." },
+    { "badge":"рід прикметника", "title":"-y / -a / -e", "formula":"чол. -y/-i · жін. -a · сер. -e", "ex":"wysoki (m) · wysoka (ż) · wysokie (n) · smutny → smutna" },
+    { "badge":"звідки / де", "title":"z + звідки · w + де", "formula":"Jestem z + країна (Dop.) · Mieszkam w + місто (Miejsc.)", "ex":"Jestem z Japonii. · Mieszkam w Krakowie / w Paryżu / w Tokio." }
+  ],
+  "czytanie": [
+    { "block": "A. Co słychać? Nowy student", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · трек 054", "lines":[
+        ["Mami","Cześć Javier.","Привіт, Хав’єре."],
+        ["Javier","Cześć Mami. Co słychać?","Привіт, Мамі. Як справи?"],
+        ["Mami","Wszystko w porządku. A u ciebie?","Усе гаразд. А в тебе?"],
+        ["Javier","U mnie też dobrze, dziękuję. Czy wiesz, kto to jest?","У мене теж добре, дякую. Знаєш, хто це?"],
+        ["Mami","Nie, nie wiem. Ale myślę, że to jest nowy student.","Ні, не знаю. Але думаю, що це новий студент."],
+        ["Javier","Hmm. Ciekawe, czy jest w naszej grupie.","Хм. Цікаво, чи він у нашій групі."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Pierre · трек 055", "lines":[
+        ["Pierre","Hola.","Hola (привіт ісп.)."],
+        ["Mami","Przepraszam, nie rozumiem.","Перепрошую, не розумію."],
+        ["Javier","Mami, mówimy po polsku.","Мамі, ми говоримо польською."],
+        ["Mami","Ach, nie pamiętam, jak mówimy po polsku „hola”.","Ах, не пам’ятаю, як буде польською «hola»."],
+        ["Javier","No dobrze Mami, masz rację. „Hola” to słowo po hiszpańsku. Znaczy „cześć”.","Ну добре, Мамі, маєш рацію. «Hola» — іспанське слово. Означає «привіт»."],
+        ["Pierre","Cześć. Jestem Pierre. Pierre Lavie. Przepraszam, nie mówię po hiszpańsku, tylko po francusku i trochę po polsku.","Привіт. Я П’єр. П’єр Лав’є. Перепрошую, не говорю іспанською, лише французькою і трохи польською."],
+        ["Javier","Cześć. Ja mam na imię Javier i jestem z Argentyny. A to jest Mami. Mami Takada. Ona jest z Japonii i mówi po japońsku.","Привіт. Мене звати Хав’єр, я з Аргентини. А це Мамі. Мамі Такада. Вона з Японії і говорить японською."],
+        ["Pierre","Miło mi.","Приємно."],
+        ["Mami","Mnie też. A ty jesteś z Francji?","Мені теж. А ти з Франції?"],
+        ["Pierre","Tak. Jestem z Francji i mieszkam w Paryżu. A wy, gdzie mieszkacie?","Так. Я з Франції і живу в Парижі. А ви де живете?"],
+        ["Javier","Ja mieszkam w Buenos Aires, ale teraz w Krakowie.","Я живу в Буенос-Айресі, але зараз у Кракові."],
+        ["Mami","A ja w Tokio. Ale teraz też w Krakowie.","А я в Токіо. Але зараз теж у Кракові."],
+        ["Pierre","Czy jesteś w grupie A1?","Ти в групі A1?"],
+        ["Javier","Tak. To jest moja nowa grupa.","Так. Це моя нова група."],
+        ["Pierre","To świetnie. To jest też nasza grupa. Cieszę się.","Це чудово. Це й наша група. Я тішуся."]
+      ]}
+    ]},
+    { "block": "C. Jaki jesteś? — opis osoby", "items": [
+      { "type":"dia", "title":"Dialog 1 · Adam · трек 056", "lines":[
+        ["—","(Angela i Mami robią herbatę i rozmawiają na korytarzu.)","(Анджела й Мамі роблять чай і розмовляють у коридорі.)"],
+        ["Angela","Mami, dlaczego jesteś dziś smutna?","Мамі, чому ти сьогодні сумна?"],
+        ["Mami","Smutna? Nie. Nie jestem smutna. Tylko myślę. Intensywnie myślę o Adamie.","Сумна? Ні. Я не сумна. Просто думаю. Інтенсивно думаю про Адама."],
+        ["Angela","Kto to jest Adam?","Хто такий Адам?"],
+        ["Mami","Ach. Adam to kolega Karola. Jest wysoki, przystojny, wysportowany, sympatyczny. Planuje studiować japonistykę. Już trochę mówi po japońsku. Jest tylko jeden problem. Niestety. Ma dziewczynę.","Ах. Адам — колега Кароля. Він високий, вродливий, спортивний, симпатичний. Планує вивчати японістику. Уже трохи говорить японською. Є лише одна проблема. На жаль. Він має дівчину."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 2 · przymiotniki · трек 057",
+        "words":"pracowity · leniwy · gruby · szczupły · wysoki · niski · średniego wzrostu · wesoła · smutna · przystojny · ładna · brzydka · zmęczony · wysportowany · stary · młody · zdrowa · chora · czysta · brudna" },
+      { "type":"dia", "title":"Dialog 2 · lektorka · трек 058", "lines":[
+        ["—","(Jest przerwa. Javier, Angela i Mami rozmawiają na korytarzu.)","(Перерва. Хав’єр, Анджела й Мамі розмовляють у коридорі.)"],
+        ["Javier","Wiecie, kto to jest?","Знаєте, хто це?"],
+        ["Angela","Ja wiem. To jest lektorka języka hiszpańskiego.","Я знаю. Це викладачка іспанської мови."],
+        ["Mami","Myślę, że ona jest bardzo miła.","Думаю, що вона дуже мила."],
+        ["Javier","A ja nie wiem, czy ona jest miła, czy nie. Ale na pewno jest atrakcyjna.","А я не знаю, чи вона мила, чи ні. Але точно приваблива."],
+        ["Angela","Javier, jak ona ma na imię?","Хав’єре, як її звати?"],
+        ["Javier","Nie pamiętam dobrze, ale chyba Maria.","Не пам’ятаю точно, але здається Марія."],
+        ["Mami","To jest twoja koleżanka?","Це твоя подруга?"],
+        ["Javier","Nie, to nie jest moja koleżanka. Ale ona jest z Hiszpanii. Jestem pewny, że ona jest energiczna, spontaniczna i bardzo sympatyczna.","Ні, це не моя подруга. Але вона з Іспанії. Я впевнений, що вона енергійна, спонтанна і дуже симпатична."]
+      ]},
+      { "type":"ref", "title":"Internacjonalizmy · трек 059",
+        "words":"agresywny · aktywny · ambitny · atrakcyjny · energiczny · inteligentny · romantyczny · sfrustrowany · spontaniczny · utalentowany · zestresowany · kreatywny",
+        "note":"Прочитай інтернаціоналізми вголос — вони схожі на українські." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_04.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_04/ (054–059.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 8 · uczyć się języka", "lines":[
+      ["—","Czy ty uczysz się języka angielskiego?","Чи ти вчиш англійську мову?"],
+      ["—","Nie, ja nie uczę się angielskiego. Jestem nauczycielką.","Ні, я не вчу англійську. Я вчителька."],
+      ["—","Rozumiem. To znaczy, że ty uczysz angielskiego, tak?","Розумію. Тобто ти викладаєш англійську, так?"],
+      ["—","Tak. A ty?","Так. А ти?"],
+      ["—","Ja też jestem nauczycielem. Uczę języka niemieckiego, ale teraz chodzę na kurs do Glossy i uczę się angielskiego.","Я теж учитель. Викладаю німецьку, але зараз ходжу на курс до «Glossy» і вчу англійську."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L04.txt",
+  "mistakes": [
+    ["Mami jest smutny","Mami jest smutna","Жіночий рід прикметника: -a (smutna, wesoła)."],
+    ["Jestem z Japonia","Jestem z Japonii","Після «z» — родовий відмінок: z Japonii, z Francji."],
+    ["Mieszkam w Kraków","Mieszkam w Krakowie","Після «w» — місцевий відмінок: w Krakowie, w Paryżu."],
+    ["Mówię po polski","Mówię po polsku","Конструкція «mówić po + -ku»: po polsku, po japońsku."]
+  ],
+  "drills": [
+    ["Спитай неформально, як справи.","Co słychać?"],
+    ["Відповідь: усе гаразд, а в тебе?","Wszystko w porządku. A u ciebie?"],
+    ["Спитай, звідки людина.","Skąd jesteś?"],
+    ["Скажи: я з Японії і живу в Кракові.","Jestem z Japonii i mieszkam w Krakowie."],
+    ["Опиши чоловіка: високий і вродливий.","Jest wysoki i przystojny."],
+    ["Опиши жінку: весела і мила.","Jest wesoła i miła."],
+    ["Скажи: я говорю польською і трохи японською.","Mówię po polsku i trochę po japońsku."],
+    ["Назви три риси характеру.","pracowity, ambitny, sympatyczny"],
+    ["Скажи: я не сумна, просто думаю.","Nie jestem smutna, tylko myślę."],
+    ["Спитай, як її звати.","Jak ona ma na imię?"],
+    ["Скажи: маєш рацію, це чудово.","Masz rację, to świetnie."],
+    ["Скажи: я впевнений, що вона приваблива.","Jestem pewny, że ona jest atrakcyjna."]
+  ],
+  "quiz": [
+    {"topic":"przymiotnik","q":"«Mami jest ___» (sumna, жін. рід):","o":["smutny","smutna","smutne","smutni"],"a":1},
+    {"topic":"opis","q":"«wysportowany» означає:","o":["втомлений","спортивний","лінивий","хворий"],"a":1},
+    {"topic":"skąd","q":"«Skąd jesteś?» питає про:","o":["ім’я","звідки ти","вік","адресу"],"a":1},
+    {"topic":"odmiana","q":"«Jestem ___ Francji.» (з Франції)","o":["w","z","na","do"],"a":1},
+    {"topic":"mieszkać","q":"«Mieszkam ___ Krakowie.»","o":["z","w","po","na"],"a":1},
+    {"topic":"mówić","q":"«Mówię ___ polsku.»","o":["w","z","po","na"],"a":2},
+    {"topic":"frazy","q":"Хтось питає «Co słychać?». Відповідь:","o":["Wszystko w porządku","Do widzenia","Nie wiem","Gdzie jest?"],"a":0},
+    {"topic":"opis","q":"«leniwy» — це:","o":["працьовитий","лінивий","веселий","молодий"],"a":1},
+    {"topic":"internacjonalizmy","q":"«inteligentny» означає:","o":["агресивний","розумний","сумний","брудний"],"a":1},
+    {"topic":"rodzaj","q":"Чоловік: «Jaki jesteś?», жінка: «___ jesteś?»","o":["Jaki","Jaka","Jakie","Jak"],"a":1}
+  ]
+}

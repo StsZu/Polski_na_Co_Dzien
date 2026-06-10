@@ -1,0 +1,128 @@
+{
+  "id": "18",
+  "title": "Pokaż mi swoje mieszkanie, a powiem ci kim jesteś",
+  "goal": "Повторюємо: квартира й кімнати · меблі та предмети · місцевник (l.poj. і l.mn.) · прийменники w / na / przy / o / po · дієслова stać / leżeć / wisieć · myśleć o · jeździć po",
+  "vocab": [
+    { "group": "Mieszkanie i pomieszczenia — квартира та кімнати", "items": [
+      ["mieszkanie","квартира"],["dom","будинок"],["pokój","кімната"],["kuchnia","кухня"],
+      ["łazienka","ванна"],["sypialnia","спальня"],["salon","вітальня"],["przedpokój","передпокій"],
+      ["balkon","балкон"],["garderoba","гардеробна"],["piętro","поверх"],["parter","перший поверх"],
+      ["blok","багатоповерхівка"],["kamienica","кам’яниця"],["kominek","камін"],["spiżarnia","комора"],
+      ["strych","горище"],["piwnica","підвал"]
+    ]},
+    { "group": "Meble i sprzęty — меблі та предмети", "items": [
+      ["biurko","письмовий стіл"],["szafa","шафа"],["łóżko","ліжко"],["fotel","крісло"],
+      ["regał","стелаж"],["półka","полиця"],["lampa","лампа"],["dywan","килим"],
+      ["obraz","картина"],["lustro","дзеркало"],["sofa","диван"],["komoda","комод"],
+      ["wanna","ванна (предмет)"],["umywalka","умивальник"],["prysznic","душ"],["pralka","пральна машина"],
+      ["lodówka","холодильник"],["kuchenka","плита"],["zlew","раковина"],["telewizor","телевізор"]
+    ]},
+    { "group": "Lokalizacja — де що стоїть", "items": [
+      ["stać · stoi","стояти · стоїть"],["leżeć · leży","лежати · лежить"],["wisieć · wisi","висіти · висить"],
+      ["na środku","посередині"],["po lewej stronie","ліворуч"],["po prawej stronie","праворуч"],
+      ["w rogu","у кутку"],["przy ścianie","біля стіни"],["na wprost","навпроти"],
+      ["na podłodze","на підлозі"],["na suficie","на стелі"],["na ścianie","на стіні"]
+    ]},
+    { "group": "Przyimki i czasowniki — прийменники й дієслова", "items": [
+      ["w","у (всередині)"],["na","на"],["przy","біля / при"],["po","по"],["o","про"],
+      ["myśleć o...","думати про..."],["marzyć o...","мріяти про..."],["jeździć po...","їздити по..."],
+      ["spacerować po...","гуляти по..."],["mieszkać w...","жити в..."]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"де? l.poj.", "title":"Miejscownik однини", "formula":"приголосна основи → -e / -ie / -u / -y / -i (часто з чергуванням t→c, k→c, g→dz, ch→sz)", "ex":"sklep → w sklepie · stół → na stole · mucha → o musze · Polska → w Polsce" },
+    { "badge":"де? l.mn.", "title":"Miejscownik множини", "formula":"іменник → -ach · прикметник → -ych / (k,g) -ich", "ex":"góry → w polskich górach · miasta → w różnych miastach · Mazury → na Mazurach" },
+    { "badge":"w / na", "title":"Прийменники місця", "formula":"w: країна / місто / будівля · na: активність / площа / поверхня", "ex":"w Polsce · w Krakowie · w kinie — na koncercie · na rynku · na stole" }
+  ],
+  "czytanie": [
+    { "block": "A. Ciasne, ale własne! — Mieszkanie państwa Maj", "items": [
+      { "type":"dia", "title":"Tekst · трек 178", "lines":[
+        ["Lektor","Państwo Maj mieszkają w nowym bloku w Śródmieściu. Mają mieszkanie na czwartym piętrze.","Родина Май живе в новій багатоповерхівці в центрі. Має квартиру на четвертому поверсі."],
+        ["Lektor","Wcześniej mieszkali razem z rodzicami pana Grzegorza w bloku zbudowanym w latach siedemdziesiątych.","Раніше вони жили разом із батьками пана Ґжеґожа в будинку, збудованому в сімдесятих роках."],
+        ["Lektor","Ale od kiedy pan Grzegorz zaczął pracować w firmie informatycznej i dobrze zarabiać, zdecydowali, że wezmą kredyt i kupili nowe, dość duże mieszkanie, 120 metrów kwadratowych.","Але відколи пан Ґжеґож почав працювати в IT-фірмі й добре заробляти, вони вирішили взяти кредит і купили нову, доволі велику квартиру, 120 квадратних метрів."],
+        ["Lektor","Oprócz kuchni, łazienki, przedpokoju i sypialni, są trzy pokoje: Karola, Karoliny i Mami, oraz duży salon, z którego wychodzi się na balkon.","Окрім кухні, ванної, передпокою та спальні, є три кімнати: Кароля, Кароліни і Мамі, а також велика вітальня, з якої виходять на балкон."],
+        ["Lektor","W pokoju, w którym mieszka teraz Mami, był kiedyś gabinet pana Grzegorza.","У кімнаті, де тепер живе Мамі, колись був кабінет пана Ґжеґожа."],
+        ["Lektor","Ale państwo Maj przenieśli wszystkie rzeczy z gabinetu do swojej sypialni, żeby zrobić nowy pokój dla japońskiej studentki.","Але родина Май перенесла всі речі з кабінету до своєї спальні, щоб зробити нову кімнату для японської студентки."],
+        ["Lektor","Chociaż mieszkanie jest w dobrej okolicy i jest nowe, pani Joanna marzy o własnym domu na wsi, w którym będzie kominek, spiżarnia, strych, piwnica i dużo pokoi dla dzieci, wnuków, przyjaciół i rodziny.","Хоча квартира в гарному районі й нова, пані Йоанна мріє про власний будинок на селі, де будуть камін, комора, горище, підвал і багато кімнат для дітей, онуків, друзів і родини."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 3 · meble i sprzęty",
+        "words":"obraz · szafa · wanna · łóżko · umywalka · prysznic · wieszak · pralka · kuchenka · lampa · sofa · biurko · fotel · zlew · zmywarka · szafka · telewizor · stół · komoda · regał · półka · krzesło · kwiatek · lustro · lodówka · ubikacja",
+        "note":"Прочитай назви меблів уголос і пригадай їхній рід." }
+    ]},
+    { "block": "C. Marzę o dalekich podróżach!", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 179", "lines":[
+        ["Angela","Mami, śpisz?","Мамі, спиш?"],
+        ["Mami","Nie, nie śpię.","Ні, не сплю."],
+        ["Angela","To co robisz?","То що робиш?"],
+        ["Mami","Myślę.","Думаю."],
+        ["Angela","O czym myślisz?","Про що думаєш?"],
+        ["Mami","Myślę o Japonii i o moich rodzicach. Niedługo jadę do nich, muszę wszystkim kupić prezenty.","Думаю про Японію і про моїх батьків. Скоро їду до них, маю всім купити подарунки."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · трек 180", "lines":[
+        ["Uwe","Jestem zmęczony pracą i szkołą. Marzę o wakacjach.","Я втомлений роботою і навчанням. Мрію про канікули."],
+        ["Angela","Ja nie jestem zmęczona, ale też marzę o dalekich podróżach. W Polsce jest dobrze, ale chciałabym pojechać do Nepalu i Tybetu.","Я не втомлена, але теж мрію про далекі подорожі. У Польщі добре, але я хотіла б поїхати до Непалу й Тибету."],
+        ["Mami","A do Japonii?","А до Японії?"],
+        ["Angela","Jasne. Japonia też jest interesująca. Tak naprawdę to chyba chciałabym podróżować po świecie.","Звісно. Японія теж цікава. Насправді я, мабуть, хотіла б подорожувати світом."],
+        ["Javier","Bardzo dobrze. Podróże dużo uczą. A może razem w weekendy będziemy jeździć po Polsce?","Дуже добре. Подорожі багато чого вчать. А може, разом на вихідних будемо їздити по Польщі?"]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 1 · O czym oni myślą?",
+        "words":"Uwe → o polskim piwie · Javier → o pływaniu · Mami → o Witkacym · Angela → o języku polskim · Karol → o piłce nożnej · Karolina → o kursie tańca",
+        "note":"Зверни увагу: після «myśleć o» завжди місцевник." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_18.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_18/ (178–180.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 8–9 · Andrzej i jego praca", "lines":[
+      ["—","Andrzej jest studentem piątego roku polonistyki. Ma trudną sytuację finansową i cały czas musi gdzieś pracować, żeby mieć pieniądze na studia.","Анджей — студент п’ятого курсу полоністики. Має складну фінансову ситуацію і весь час мусить десь працювати, щоб мати гроші на навчання."],
+      ["—","Na pierwszym roku pracował w bibliotece uniwersyteckiej. Praca była sympatyczna, ale pieniędzy było za mało.","На першому курсі працював в університетській бібліотеці. Робота була приємна, але грошей було замало."],
+      ["—","Potem pracował w różnych barach i kawiarniach. Zarabiał dużo więcej, ale pracował w nocy i spał na wykładach.","Потім працював у різних барах і кав’ярнях. Заробляв набагато більше, але працював уночі й спав на лекціях."],
+      ["—","Na trzecim roku pracował w hotelu, na czwartym w firmie reklamowej.","На третьому курсі працював у готелі, на четвертому — в рекламній фірмі."],
+      ["—","Na piątym roku dostał pracę w wydawnictwie młodzieżowym jako korektor tekstów i teraz cały czas siedzi w papierach.","На п’ятому курсі отримав роботу в молодіжному видавництві коректором текстів і тепер увесь час сидить у паперах."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 11 · Biurko Mami — gdzie co jest?", "lines":[
+      ["—","Na środku biurka jest laptop. Po lewej stronie leży duży album o polskim artyście Witkacym.","Посередині столу — ноутбук. Ліворуч лежить великий альбом про польського митця Віткаци."],
+      ["—","Na ścianie wisi portret Witkacego. To kopia jego obrazu.","На стіні висить портрет Віткаци. Це копія його картини."],
+      ["—","Przy ścianie stoi radio. Mami często słucha przez słuchawki, żeby nie przeszkadzać rodzinie Maji.","Біля стіни стоїть радіо. Мамі часто слухає через навушники, щоб не заважати родині Май."],
+      ["—","Po prawej stronie biurka stoi lampka. Przy lampce stoi wysoki kubek, w kubku są pędzelki.","Праворуч на столі стоїть лампа. Біля лампи стоїть високе горнятко, у горнятку — пензлики."],
+      ["—","Na brzegu biurka leżą książki, słownik i książka do języka polskiego. Książka jest otwarta, na książce leży ołówek.","З краю столу лежать книжки, словник і підручник польської. Книжка відкрита, на книжці лежить олівець."],
+      ["—","Czekolada leży po drugiej stronie laptopa, blisko telefonu.","Шоколадка лежить з іншого боку ноутбука, біля телефону."]
+    ]},
+    { "type":"ref", "title":"Opis pokoju Mami · powtórzenie",
+      "words":"po lewej stronie · po prawej stronie · w rogu · na wprost drzwi · przy oknie · na łóżku · na podłodze · na środku · na suficie",
+      "note":"Прочитай опис кімнати й познач, де стоїть, лежить чи висить кожен предмет." }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L18.txt",
+  "mistakes": [
+    ["w nowy dom","w nowym domu","Місцевник: прикметник чол. роду → -ym, іменник → -u (виняток)."],
+    ["na stóle","na stole","Чергування ó → o + t/ł-група → -e: stół → na stole."],
+    ["w Polskie","w Polsce","k → c перед -e: Polska → w Polsce."],
+    ["myślę o Japonia","myślę o Japonii","Після «myśleć o» — місцевник: o Japonii."],
+    ["jeździć po Polska","jeździć po Polsce","«po» вимагає місцевника: po Polsce."]
+  ],
+  "drills": [
+    ["Скажи, де живе родина Май (поверх).","Mieszkają na czwartym piętrze."],
+    ["Спитай, де стоїть холодильник.","Gdzie stoi lodówka?"],
+    ["Скажи: килим лежить на підлозі.","Dywan leży na podłodze."],
+    ["Скажи: картина висить на стіні.","Obraz wisi na ścianie."],
+    ["Постав «sklep» у місцевник.","w sklepie"],
+    ["Постав «stół» у місцевник.","na stole"],
+    ["Постав «Kraków» у місцевник.","w Krakowie"],
+    ["Скажи: я думаю про Японію.","Myślę o Japonii."],
+    ["Скажи: мрію про канікули.","Marzę o wakacjach."],
+    ["Скажи: ми їздимо по Польщі.","Jeździmy po Polsce."],
+    ["Постав «góry» у місцевник множини.","w górach"],
+    ["Назви три кімнати у квартирі.","kuchnia, sypialnia, łazienka"]
+  ],
+  "quiz": [
+    {"topic":"mieszkanie","q":"На якому поверсі живе родина Май?","o":["на другому","на третьому","на четвертому","на п’ятому"],"a":2},
+    {"topic":"miejscownik","q":"«sklep» у місцевнику — це:","o":["w sklepu","w sklepie","w sklepy","na sklepie"],"a":1},
+    {"topic":"miejscownik","q":"«stół» у місцевнику:","o":["na stółe","na stole","na stołu","w stole"],"a":1},
+    {"topic":"miejscownik","q":"«Polska» у місцевнику:","o":["w Polsku","w Polsce","w Polski","na Polsce"],"a":1},
+    {"topic":"przyimki","q":"З якою категорією вживаємо «na»?","o":["країна","місто","будівля","площа / активність"],"a":3},
+    {"topic":"czasowniki","q":"«Obraz ___ w salonie.» (висить)","o":["stoi","leży","wisi","jest"],"a":2},
+    {"topic":"czasowniki","q":"«Lodówka ___ w kuchni.» (стоїть)","o":["stoi","leży","wisi","siedzi"],"a":0},
+    {"topic":"o + czym","q":"«Mami myśli ___ Japonii.»","o":["w","na","o","po"],"a":2},
+    {"topic":"l.mnoga","q":"«góry» у місцевнику множини:","o":["w góry","w górach","na górze","w górów"],"a":1},
+    {"topic":"po + czym","q":"«Jeżdżą ___ Polsce.» (по)","o":["w","na","po","przy"],"a":2}
+  ]
+}

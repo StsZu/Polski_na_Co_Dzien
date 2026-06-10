@@ -1,0 +1,167 @@
+{
+  "id": "17",
+  "title": "Plotki, plotki. Kto z kim i o czym?",
+  "goal": "Повторюємо: вираження почуттів і думок · podoba mi się / lubię · самопочуття (mi: zimno, gorąco, smutno) · відмінювання особових займенників · плітки й оцінка людей",
+  "vocab": [
+    { "group": "Uczucia i opinie — почуття та думки", "items": [
+      ["Podoba mi się.","мені подобається"],["Lubię to.","я це люблю"],["Nie podoba mi się.","мені не подобається"],
+      ["Bardzo mi się podoba!","мені дуже подобається!"],["Denerwuje mnie to.","це мене дратує"],["Irytuje mnie to.","це мене дратує"],
+      ["Nie mam zdania.","не маю думки"],["Wszystko jedno.","все одно"],["Czy ja wiem...","та хто його знає..."],
+      ["Nie mogę się zdecydować.","не можу вирішити"]
+    ]},
+    { "group": "Samopoczucie — самопочуття (… mi)", "items": [
+      ["smutno mi","мені сумно"],["zimno mi","мені холодно"],["gorąco mi","мені жарко"],["ciepło mi","мені тепло"],
+      ["chce mi się jeść","мені хочеться їсти"],["chce mi się pić","мені хочеться пити"],["chce mi się spać","мені хочеться спати"],
+      ["jest mi gorąco","мені жарко"],["upał","спека"]
+    ]},
+    { "group": "Wygląd i ubrania — вигляд та одяг", "items": [
+      ["wyglądać ładnie / brzydko","виглядати гарно / погано"],["modny","модний"],["niemodny","немодний"],
+      ["bluzka","блузка"],["spodnie","штани"],["sweter","светр"],["biżuteria","біжутерія"],
+      ["grubo wyglądam","виглядаю товстою"],["figura","фігура"],["marudna","вереда / буркотлива"]
+    ]},
+    { "group": "Plotki i relacje — плітки й стосунки", "items": [
+      ["plotki","плітки"],["plotkować","пліткувати"],["interesować się kimś","цікавитися кимось"],["rumienić się","червоніти"],
+      ["zakochana","закохана"],["kochać","кохати / любити"],["cenić","цінувати"],["dziwny","дивний"],
+      ["prezent","подарунок"],["urodziny","день народження"],["strasznie","страшенно / дуже"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"+ biernik", "title":"Lubię…", "formula":"Lubię + кого/що (biernik): Adama · tę dziewczynę · to dziecko", "ex":"Lubię Adama, bo jest miły. · Lubię tę dziewczynę. · Lubię to dziecko." },
+    { "badge":"+ mianownik", "title":"Podoba mi się…", "formula":"Podoba mi się + хто/що (mianownik): Adam · ta dziewczyna · to dziecko", "ex":"Podoba mi się Adam, bo jest przystojny. · Podoba mi się ta dziewczyna. · Podobają mi się polskie góry." },
+    { "badge":"celownik", "title":"Zaimki: mi, ci, mu…", "formula":"ja→mi · ty→ci · on/ono→mu · ona→jej · my→nam · wy→wam · oni/one→im", "ex":"Smutno mi. · Podoba ci się? · Prezent dla niej. · Podobało im się." }
+  ],
+  "czytanie": [
+    { "block": "A. Co o tym myślisz? — Що ти про це думаєш?", "items": [
+      { "type":"dia", "title":"Ćwiczenie 2 · bluzka i spodnie · трек 173", "lines":[
+        ["Angela","Co myślisz o tej bluzce? Kompletnie nie mam nic ładnego na imprezę u Javiera.","Що думаєш про цю блузку? Зовсім не маю нічого гарного на вечірку в Хав’єра."],
+        ["Mami","Świetna! I chyba bardzo modna. Będziesz w niej dobrze wyglądać. Ładnie ci w tym kolorze.","Чудова! І, мабуть, дуже модна. Ти в ній гарно виглядатимеш. Тобі личить цей колір."],
+        ["Angela","Myślisz? Czy ja wiem? Nie mam do niej spodni.","Думаєш? Та хто його знає. Не маю до неї штанів."],
+        ["Mami","A ten sweter? Nie podoba ci się?","А цей светр? Тобі не подобається?"],
+        ["Angela","Nie bardzo, grubo w nim wyglądam.","Не дуже, я в ньому виглядаю товстою."],
+        ["Mami","Coś ty?! Bardzo ładnie wyglądasz. Chciałabym mieć taką figurę jak ty.","Та що ти?! Дуже гарно виглядаєш. Я б хотіла мати таку фігуру, як ти."],
+        ["Angela","Nie mogę się zdecydować. Mam dziś zły dzień.","Не можу вирішити. У мене сьогодні поганий день."],
+        ["Mami","Widzę. A co się dzieje?","Бачу. А що сталося?"],
+        ["Angela","Smutno mi, pogoda jest beznadziejna, mam różne problemy.","Мені сумно, погода жахлива, маю різні проблеми."],
+        ["Mami","Więc zaraz mi o nich opowiesz. Idziemy na kawę albo sok.","То зараз мені про них розкажеш. Ідемо на каву чи сік."],
+        ["Angela","Dobry pomysł. Ciepło tu, pić mi się chce.","Гарна ідея. Тут тепло, мені хочеться пити."],
+        ["Mami","Ale jesteś dziś marudna! Idziemy! Dokąd chcesz iść?","Ну й вереда ти сьогодні! Ідемо! Куди хочеш піти?"],
+        ["Angela","Wszystko jedno. Nie mam zdania.","Все одно. Не маю думки."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 3 · uczucia i opinie — почуття та думки",
+        "words":"Pozytywne: Podoba mi się. · Będziesz w niej dobrze wyglądać. · Bardzo ładnie wyglądasz. · Ładnie ci w tym kolorze. · Chciałabym mieć taką figurę jak ty. — Negatywne: Denerwuje mnie to. · Irytuje mnie to. · Nie bardzo, grubo w nim wyglądam. · Smutno mi. · Ale jesteś dziś marudna! — Brak opinii: Czy ja wiem? · Nie mogę się zdecydować. · Nie mam zdania. · Wszystko jedno.",
+        "note":"Розсортуй фрази на позитивні, негативні та «без думки»." }
+    ]},
+    { "block": "B. Podoba ci się? — Тобі подобається?", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · intonacja · трек 174",
+        "words":"Fuj! Co to jest?! Nie podoba mi się to! · Jak tu pięknie! Bardzo mi się podoba! · Strasznie mi zimno! · Ale dziś upał! Gorąco mi! · Nie lubię czekać w korku! · To skandal! Jak tu brudno! · Mieszkam w Krakowie 20 lat i bardzo lubię to miasto. · Chce mi się jeść. Chodźmy na obiad!",
+        "note":"Прослухай і повтори з правильною інтонацією; добери речення до фото." },
+      { "type":"ref", "title":"Ćwiczenie 2 · LUBIĘ czy PODOBA MI SIĘ?",
+        "words":"LUBIĘ (biernik): herbatę owocową · lody waniliowe · moich przyjaciół · bigos · psy · ten nowy film · moje mieszkanie · filmy Quentina Tarantino · kuchnię włoską · polskie góry. — PODOBA MI SIĘ (mianownik): ta nowa bluzka · ten dom na ulicy · ten obraz w galerii · obrazy Picassa · Portugalia.",
+        "note":"«lubię» + biernik (кого/що), «podoba mi się» + mianownik (хто/що сам собою)." },
+      { "type":"ref", "title":"Ćwiczenie 3 · zaimki w celowniku",
+        "words":"ja → mi · ty → ci · on/ono → mu · ona → jej · my → nam · wy → wam · oni/one → im",
+        "note":"Jestem zmęczony i nic mi się nie chce. · Podobało im się. · Smutno mi!" }
+    ]},
+    { "block": "C. Co o nim myślisz? — Що ти про нього думаєш?", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · plotki o Javierze · трек 175", "lines":[
+        ["Mami","Więc o co chodzi? Dlaczego jesteś smutna?","То в чому річ? Чому ти сумна?"],
+        ["Angela","A takie tam, różne sprawy rodzinne. Ale nie chcę o nich mówić.","Та так, різні сімейні справи. Але не хочу про них говорити."],
+        ["Mami","Czy mogę ci pomóc?","Чи можу тобі допомогти?"],
+        ["Angela","Raczej nie, ale dziękuję. Może porozmawiamy o czymś innym? Widziałaś nowe studentki z grupy zero?","Радше ні, але дякую. Може, поговоримо про щось інше? Бачила нових студенток із нульової групи?"],
+        ["Mami","Tak, widziałam je i też z nimi rozmawiałam. Bardzo fajne dziewczyny.","Так, бачила їх і теж із ними розмовляла. Дуже класні дівчата."],
+        ["Angela","I ładne. Javier chce je zaprosić na urodziny.","І гарні. Хав’єр хоче запросити їх на день народження."],
+        ["Mami","Dobry pomysł. Mogą się z nami zintegrować i lepiej poznać.","Гарна ідея. Зможуть до нас приєднатися й краще познайомитися."],
+        ["Angela","Tak, na pewno chcą poznać Javiera.","Так, напевно хочуть познайомитися з Хав’єром."],
+        ["Mami","Myślisz?","Думаєш?"],
+        ["Angela","Jasne, jest sympatyczny, przystojny, każda dziewczyna chciałaby się z nim spotkać.","Звісно, він приємний, гарний, кожна дівчина хотіла б із ним зустрітися."],
+        ["Mami","Ty też?!","Ти теж?!"],
+        ["Angela","Hi, hi, spokojnie, spokojnie, ja nie, ale widzę, że ty tak.","Хі-хі, спокійно, спокійно, я ні, але бачу, що ти так."],
+        ["Mami","Co ja?","Що я?"],
+        ["Angela","Mami, to jasne, że jesteś w nim zakochana. A co kupiłaś dla niego na prezent?","Мамі, це ж очевидно, що ти в нього закохана. А що ти купила йому в подарунок?"],
+        ["Mami","Po pierwsze, to nie jestem w nim zakochana, a po drugie prezentu dla niego jeszcze nie kupiłam, bo nie wiem, co mu się podoba. Może razem zdecydujemy?","По-перше, я в нього не закохана, а по-друге, подарунка йому ще не купила, бо не знаю, що йому подобається. Може, разом вирішимо?"],
+        ["Angela","Dobrze, to idziemy poszukać. Ale i tak wiem, że go kochasz.","Добре, то ходімо пошукати. Але я все одно знаю, що ти його кохаєш."],
+        ["Mami","Nieprawda!","Неправда!"],
+        ["Angela","Prawda, prawda.","Правда, правда."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 4 · deklinacja zaimków osobowych",
+        "words":"Mianownik: ja, ty, on, ona, ono, my, wy, oni, one · Dopełniacz: mnie, ciebie/cię, jego/go/niego, jej/niej, jego/niego, nas, was, ich/nich, ich/nich · Celownik: mnie/mi, tobie/ci, jemu/mu/niemu, jej/niej, jemu/niemu, nam, wam, im/nim, im/nim · Biernik: mnie, cię/ciebie, go/jego/niego, ją/nią, je/nie, nas, was, ich/nich, je/nie · Narzędnik: mną, tobą, nim, nią, nim, nami, wami, nimi, nimi · Miejscownik: mnie, tobie, nim, niej, nim, nas, was, nich, nich",
+        "note":"Lubię go. · Dziękuję ci. · Idę do niego. · Czekam na nią. · Kocham tylko jego (emfaza)." }
+    ]},
+    { "block": "D. Co mu kupić? — Що йому купити?", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · prezent dla Javiera · трек 176",
+        "words":"słownik języka polskiego · książka kucharska · płyta z polską muzyką jazzową · torba ekologiczna z aplikacją · płyta z polską muzyką rockową · t-shirt z aplikacją · płyta z polską muzyką folkową · album ze zdjęciami · kubek · obraz · biżuteria z bursztynu · film DVD",
+        "note":"Mami i Angela wybierają prezent dla Javiera. Co planują kupić? Co w końcu kupują?" },
+      { "type":"ref", "title":"Ćwiczenie 2 · wyrażenia z dialogu · трек 177",
+        "words":"Co myślisz o słowniku języka polskiego? · To bez sensu. · Musimy wybrać coś specjalnego. · Może jakąś płytę? · Wszystko jedno. · Nie, to zły pomysł. · Świetny pomysł! · Nie znamy się na... · Ja wolę rock. · Idealnie! · Lepiej coś egzotycznego. · To banalne.",
+        "note":"Прослухай діалог і познач фрази, які в ньому звучать." },
+      { "type":"ref", "title":"Ćwiczenie 3 · prezent z Krakowa — для кого?",
+        "words":"srebrna biżuteria z bursztynu · oscypek · tradycyjna haftowana bluzka · miód · grzane wino · precel krakowski · książka do słuchania · książka ze zdjęciami z Polski",
+        "note":"Dla eleganckiej kobiety, dla starszej pani, dla wujka z Ameryki, dla rodziny z zimnej Kanady, dla dziadka (medycyna naturalna), dla kuzynki (folklor)..." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_17.pdf (e-polish.eu) · Аудіо: 2_Main_book_audio_podręcznik/lekcja_17/ (172–177.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 2 · po urlopie", "lines":[
+      ["—","Cześć, Aneta! Świetnie wyglądasz! Jak urlop?","Привіт, Ането! Чудово виглядаєш! Як відпустка?"],
+      ["Aneta","Dziękuję! Na wakacjach było fantastycznie! A ty? Byłaś gdzieś?","Дякую! На канікулах було фантастично! А ти? Була десь?"],
+      ["—","Tak, w Bieszczadach.","Так, у Бещадах."],
+      ["Aneta","I jak? Fajnie było?","І як? Класно було?"],
+      ["—","Czy ja wiem... Oczywiście, Bieszczady podobają mi się zawsze, ale niestety... Jak wszędzie — za dużo ludzi. Denerwuje mnie to.","Та хто його знає... Звісно, Бещади мені завжди подобаються, але, на жаль... Як і всюди — забагато людей. Це мене дратує."],
+      ["Aneta","Mnie też to irytuje. A pogodę miałaś ładną?","Мене це теж дратує. А погода була гарна?"],
+      ["—","Nie bardzo. Padał deszcz i wszystko było mokre. Nie możesz dobrze odpoczywać, kiedy cały czas jest zimno.","Не дуже. Йшов дощ і все було мокре. Не можеш добре відпочити, коли весь час холодно."],
+      ["Aneta","To prawda.","Це правда."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 5 · plotki o Piotrze", "lines":[
+      ["—","Słyszałam, że Piotr bardzo się tobą interesuje.","Я чула, що Пьотр дуже тобою цікавиться."],
+      ["—","Mną? Naprawdę? Skąd wiesz?","Мною? Справді? Звідки знаєш?"],
+      ["—","Był wczoraj u Kuby i cały wieczór opowiadał mu o tobie.","Він був учора в Куби й цілий вечір розповідав йому про тебе."],
+      ["—","O mnie?","Про мене?"],
+      ["—","Widzę, że się rumienisz. Pewnie też się nim interesujesz.","Бачу, що ти червонієш. Мабуть, теж ним цікавишся."],
+      ["—","Daj spokój. Po prostu jest mi gorąco. No dobrze. Może trochę się nim interesuję. Nie śmiej się ze mnie.","Та облиш. Просто мені жарко. Ну добре. Може, трохи ним цікавлюся. Не смійся з мене."],
+      ["—","Wiesz co? Idę dziś do Kuby. Może też pójdziesz ze mną do niego?","Знаєш що? Я йду сьогодні до Куби. Може, теж підеш зі мною до нього?"],
+      ["—","Lepiej nie. On mnie chyba nie lubi. I poza tym jest trochę dziwny.","Краще ні. Він мене, мабуть, не любить. І до того ж трохи дивний."],
+      ["—","Dlaczego tak myślisz? Ja go bardzo lubię i naprawdę go cenię. Ty mało o nim wiesz.","Чому так думаєш? Я його дуже люблю і справді ціную. Ти мало про нього знаєш."],
+      ["—","Fakt. Ale on i tak czeka na ciebie, a nie na nas. Ja lepiej pójdę do Doroty.","Факт. Але він усе одно чекає на тебе, а не на нас. Я краще піду до Дороти."],
+      ["—","Może też wstąpisz do niej na moment? Przyjdź po mnie koło czwartej.","Може, теж зайдеш до неї на хвильку? Зайди по мене близько четвертої."],
+      ["—","W porządku. Będę u ciebie za kwadrans czwarta. Będzie okazja, żeby poplotkować o nich.","Гаразд. Буду в тебе за чверть четверта. Буде нагода попліткувати про них."],
+      ["—","O kim? O Kubie i o Piotrku. Myślisz, że oni nie plotkują o nas?","Про кого? Про Кубу і про Пьотрека. Думаєш, що вони не пліткують про нас?"],
+      ["—","Tak ci się tylko wydaje. Mnie? Na pewno nie.","Це тобі лише так здається. Мене? Напевно ні."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 12 · jakie lubię prezenty",
+      "words":"A. Bardzo podobają mi się oryginalne prezenty — coś małego, ale z pomysłem. · B. Lubię książki, płyty. Nie lubię bezsensownych prezentów. Ważne, czy jest praktyczny. · C. Prezent musi być ładnie zapakowany — piękne opakowanie to połowa przyjemności.",
+      "note":"Прочитай три думки про подарунки й порівняй зі своїми вподобаннями." }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L17.txt",
+  "mistakes": [
+    ["Lubię ta dziewczyna","Lubię tę dziewczynę","Після «lubię» — biernik: tę dziewczynę."],
+    ["Podoba mi się tę bluzkę","Podoba mi się ta bluzka","Після «podoba mi się» — mianownik: ta bluzka."],
+    ["Jestem zimno","Zimno mi","Самопочуття — безособово з celownik: «zimno mi», а не «jestem zimno»."],
+    ["Dziękuję cię","Dziękuję ci","«Dziękować» вимагає celownik: dziękuję ci, не «cię»."]
+  ],
+  "drills": [
+    ["Скажи, що тобі подобається ця нова блузка.","Podoba mi się ta nowa bluzka."],
+    ["Скажи, що любиш цю дівчину (biernik).","Lubię tę dziewczynę."],
+    ["Поскаржся, що тобі холодно.","Zimno mi. / Strasznie mi zimno!"],
+    ["Скажи, що тобі хочеться їсти.","Chce mi się jeść."],
+    ["Спитай подругу, чи їй подобається цей светр.","Podoba ci się ten sweter?"],
+    ["Скажи, що тобі все одно і ти не маєш думки.","Wszystko jedno. Nie mam zdania."],
+    ["Скажи, що цей фільм тобі дуже подобається.","Ten film bardzo mi się podoba!"],
+    ["Скажи, що не можеш вирішити.","Nie mogę się zdecydować."],
+    ["Подякуй комусь (ти йому): «дякую тобі».","Dziękuję ci."],
+    ["Скажи, що любиш польські гори (podoba się, мн.).","Podobają mi się polskie góry."],
+    ["Скажи, що це тебе дратує.","Denerwuje mnie to. / Irytuje mnie to."],
+    ["Спитай, що йому купити в подарунок.","Co mu kupić na prezent?"]
+  ],
+  "quiz": [
+    {"topic":"podoba/lubię","q":"«Podoba mi się ___» — який відмінок іде далі?","o":["biernik (kogo/co)","mianownik (kto/co)","celownik","dopełniacz"],"a":1},
+    {"topic":"podoba/lubię","q":"«Lubię ___ dziewczynę.» Обери правильну форму:","o":["ta","tę","tej","ten"],"a":1},
+    {"topic":"samopoczucie","q":"Як сказати «мені холодно»?","o":["Jestem zimno","Zimno mi","Mam zimno","Zimno jest mnie"],"a":1},
+    {"topic":"zaimki","q":"«Dziękuję ___» (ти → тобі):","o":["cię","ciebie","ci","tobą"],"a":2},
+    {"topic":"zaimki","q":"Celownik для «ona»:","o":["jej","ją","nią","niej"],"a":0},
+    {"topic":"opinie","q":"«Nie mam zdania» означає:","o":["мені подобається","мені не подобається","не маю думки","я закоханий"],"a":2},
+    {"topic":"słownictwo","q":"«plotkować» — це:","o":["пліткувати","подобатися","червоніти","купувати"],"a":0},
+    {"topic":"samopoczucie","q":"«Chce mi się jeść» означає:","o":["мені холодно","мені хочеться їсти","мені сумно","мені жарко"],"a":1},
+    {"topic":"zaimki","q":"«Czekam na ___» (вона, biernik):","o":["jej","ją","nią","niej"],"a":1},
+    {"topic":"słownictwo","q":"«Ładnie ci w tym kolorze» — це:","o":["критика","комплімент","питання","відмова"],"a":1}
+  ]
+}

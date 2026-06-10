@@ -1,0 +1,173 @@
+{
+  "id": "23",
+  "title": "Za małe? Za duże? W sam raz!",
+  "goal": "Повторюємо: одяг, матеріали та візерунки · ступені порівняння прикметників · конструкція za + прикметник · mieć na sobie / nosić + biernik · wiedzieć vs znać · покупки та компліменти",
+  "vocab": [
+    { "group": "Ubrania — одяг", "items": [
+      ["sukienka","сукня"],["spodnie","штани"],["szorty / spodenki","шорти"],["kurtka","куртка"],
+      ["płaszcz","пальто"],["sweter","светр"],["żakiet","жіночий жакет"],["kamizelka","жилет"],
+      ["golf","водолазка"],["spódnica","спідниця"],["podkoszulek","майка"],["marynarka","піджак"],
+      ["koszula","сорочка"],["dres","спортивний костюм"],["bluzka","блузка"],["kostium","жіночий костюм"]
+    ]},
+    { "group": "Dodatki i obuwie — аксесуари й взуття", "items": [
+      ["czapka","шапка"],["kapelusz","капелюх"],["szalik","шарф"],["krawat","краватка"],
+      ["rękawiczki","рукавички"],["pasek","ремінь"],["torebka","сумочка"],["biżuteria","біжутерія"],
+      ["adidasy","кросівки"],["trampki","кеди"],["kozaki","чоботи"],["sandały","сандалі"]
+    ]},
+    { "group": "Materiały i wzory — матеріали та візерунки", "items": [
+      ["bawełniany","бавовняний"],["wełniany","вовняний"],["lniany","лляний"],["skórzany","шкіряний"],
+      ["w paski","в смужку"],["w kratkę","в клітинку"],["w kropki","в горошок"],["przezroczysty","прозорий"],
+      ["luźny","вільний / широкий"],["obcisły / ciasny","обтислий / тісний"],["szeroki","широкий"],["wąski","вузький"],
+      ["gruby","товстий"],["cienki","тонкий"]
+    ]},
+    { "group": "Zakupy i komplementy — покупки й компліменти", "items": [
+      ["Za małe / za duże","замалі / завеликі"],["Za krótkie / za długie","закороткі / задовгі"],
+      ["W sam raz!","якраз!"],["Mogę przymierzyć?","можу приміряти?"],["Jaki rozmiar?","який розмір?"],
+      ["rozmiar większy / mniejszy","більший / менший розмір"],["przymierzalnia","примірочна"],
+      ["Wyglądasz olśniewająco!","ти виглядаєш приголомшливо!"],["Pasuje do twoich oczu","підходить до твоїх очей"],
+      ["Pobyt w Polsce ci służy","перебування в Польщі тобі на користь"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"вищий ступінь", "title":"Stopień wyższy", "formula":"прикметник + -szy / -ejszy (часто з чергуванням)", "ex":"gruby → grubszy · modny → modniejszy · długi → dłuższy · wąski → węższy" },
+    { "badge":"найвищий", "title":"Stopień najwyższy", "formula":"naj- + вищий ступінь", "ex":"najgrubszy · najmodniejszy · najdłuższy · najlepszy · największy" },
+    { "badge":"порівняння", "title":"niż / od / ze", "formula":"…szy + niż + mianownik · od + dopełniacz · naj…szy + ze + dopełniacz", "ex":"grubszy niż mój · grubszy od mojego · najgrubszy ze wszystkich" }
+  ],
+  "czytanie": [
+    { "block": "A. Nie mam się w co ubrać!", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · трек 217", "lines":[
+        ["Angela","Czy możemy usiąść na chwilę? Jestem już potwornie zmęczona.","Можемо присісти на хвильку? Я вже страшенно втомлена."],
+        ["Mami","Jasne, ale tylko na chwilę. Pół godziny na herbatę wystarczy?","Звісно, але тільки на хвильку. Пів години на чай вистачить?"],
+        ["Angela","Mam nadzieję. Czy możesz mi powiedzieć, dlaczego od kilku godzin biegamy po sklepach?","Сподіваюся. Можеш мені сказати, чому ми вже кілька годин бігаємо по магазинах?"],
+        ["Mami","To proste. Za kilka dni przyjeżdżają moje koleżanki z Londynu. Muszę kupić sobie coś nowego do ubrania. Coś oryginalnego.","Це просто. За кілька днів приїжджають мої подруги з Лондона. Мушу купити собі щось нове з одягу. Щось оригінальне."],
+        ["Angela","Naprawdę musisz?","Справді мусиш?"],
+        ["Mami","Nie mogą mnie zobaczyć w starych ciuchach.","Вони не можуть побачити мене в старому шматті."],
+        ["Angela","Okej. To chyba nie jest problem. Przecież w Krakowie jest dużo sklepów.","Окей. Це ж не проблема. Адже в Кракові багато магазинів."],
+        ["Mami","Te same sklepy są w Anglii. A ja muszę mieć coś wyjątkowego. Nie rozumiesz?","Ті самі магазини є в Англії. А я мушу мати щось особливе. Не розумієш?"],
+        ["Angela","Chyba nie rozumiem. A czego konkretnie szukamy? Sukienki, spodni, kostiumu?","Мабуть, не розумію. А чого конкретно шукаємо? Сукні, штанів, костюма?"],
+        ["Mami","Jeszcze nie wiem. Ale ma to być olśniewające.","Ще не знаю. Але це має бути приголомшливе."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · 5 dialogów · трек 218", "lines":[
+        ["Mami","Może ta?","Може, ця?"],
+        ["Angela","Ta sukienka jest okropna! — Raczej stylowa! — To nie jest ani mój fason, ani moje kolory!","Ця сукня жахлива! — Радше стильна! — Це ні мій фасон, ні мої кольори!"],
+        ["Mami","To jest interesujące! A co to jest?","Це цікаво! А що це?"],
+        ["Angela","Spódnica. To nie mój styl. Wolę coś bardziej eleganckiego.","Спідниця. Це не мій стиль. Волію щось елегантніше."],
+        ["Mami","A takie szerokie spodnie?","А такі широкі штани?"],
+        ["Angela","Fajne, ale materiał jest kiepski.","Класні, але матеріал кепський."],
+        ["Mami","A ta bluzka?","А ця блузка?"],
+        ["Angela","Jest bardzo oryginalna i piękna! Ale nic mi do niej nie pasuje. Nie mam takich ubrań.","Дуже оригінальна і гарна! Але мені нічого до неї не пасує. Не маю такого одягу."],
+        ["Mami","To może klasyczny kostium?","То, може, класичний костюм?"],
+        ["Angela","Ładny kolor i fason w porządku.","Гарний колір і фасон нормальний."]
+      ]},
+      { "type":"ref", "title":"Słownictwo · ubrania",
+        "words":"sukienka · spodnie · szorty · kurtka · płaszcz · sweter · żakiet · kamizelka · golf · spódnica · podkoszulek · marynarka · koszula · dres",
+        "note":"garnitur = spodnie + marynarka (чоловічий костюм) · kostium = spódnica + żakiet (жіночий костюм)." }
+    ]},
+    { "block": "B. Za krótkie? Za długie?", "items": [
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 219", "lines":[
+        ["Kriss","Masz doskonałą figurę, więc możemy szukać krótkiej sukienki lub spódnicy.","Маєш чудову фігуру, тож можемо шукати коротку сукню або спідницю."],
+        ["Angela","Dobrze, tylko żeby nie była za krótka. Styl minimalistyczny odpowiada mi tylko w mieszkaniu.","Добре, тільки щоб не була закоротка. Мінімалістичний стиль мені пасує лише вдома."],
+        ["Kriss","Jak sobie życzysz kochana, nie za długa, nie za krótka, znajdziemy więc taką w sam raz.","Як забажаєш, люба, не задовга, не закоротка, знайдемо саме якраз."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 220", "lines":[
+        ["Angela","Czy nie uważasz, że te rękawy są za długie?","Тобі не здається, що ці рукави задовгі?"],
+        ["Kriss","Kochanie, takie rękawy są najmodniejsze w tym sezonie! Wyglądasz bosko!","Любонько, такі рукави наймодніші цього сезону! Виглядаєш божественно!"],
+        ["Angela","Tak? Nie jestem przekonana, wolę rękawy bardziej dopasowane, ale zaufam ci. A wy, dziewczyny, co myślicie?","Так? Я не переконана, волію рукави більш припасовані, але довірюся тобі. А ви, дівчата, що думаєте?"],
+        ["Mami","Wyglądasz pięknie!","Виглядаєш гарно!"],
+        ["Karolina","Super! Ta sukienka pasuje idealnie do twojej figury!","Супер! Ця сукня ідеально пасує до твоєї фігури!"]
+      ]},
+      { "type":"dia", "title":"Dialog 1 · w przymierzalni · трек 221", "lines":[
+        ["Karolina","Szybko poszło! Angela jest już ubrana, więc…","Швидко вийшло! Анджела вже одягнена, тож…"],
+        ["Kriss","Ależ nie! Musimy jeszcze kupić buty i dodatki! Koniecznie jakąś malutką torebkę, szeroki pasek, może jakąś biżuterię.","Та ні! Мусимо ще купити взуття й аксесуари! Обов’язково якусь маленьку сумочку, широкий ремінь, може, якусь біжутерію."],
+        ["Karolina","A możesz wcześniej jeszcze nam doradzić?","А можеш спершу ще нам порадити?"],
+        ["Kriss","Z przyjemnością! Szukamy czegoś na konkretną okazję czy na co dzień?","Із задоволенням! Шукаємо щось на конкретну подію чи на щодень?"],
+        ["Karolina","Czegoś na co dzień, do szkoły.","Щось на щодень, до школи."],
+        ["Mami","Ja już mam coś dla siebie! Pasuje mi ta koszula?","Я вже маю щось для себе! Мені пасує ця сорочка?"],
+        ["Kriss","Moja kochana! Bardzo dobry wybór! Świetne kolory! Cudowna kratka! Ale musisz znaleźć mniejszą!","Моя люба! Дуже добрий вибір! Чудові кольори! Прекрасна клітинка! Але мусиш знайти меншу!"],
+        ["Mami","Ale ja lubię luźne ubrania.","Але я люблю вільний одяг."],
+        ["Kriss","Nie mówię, że masz chodzić w rozmiarze XS, ale w tej koszuli rękaw jest dla ciebie za długi, masz ją prawie do kolan! Rozmiar XL jest nie dla ciebie! Będziesz wyglądała jak worek. No już, leć po mniejszą!","Не кажу, що маєш ходити в розмірі XS, але в цій сорочці рукав для тебе задовгий, маєш її майже до колін! Розмір XL не для тебе! Виглядатимеш як мішок. Ну ж бо, біжи по меншу!"],
+        ["Karolina","A ja jak wyglądam w tej bluzce?","А я як виглядаю в цій блузці?"],
+        ["Kriss","Fason świetny, rozmiar idealny, ale kolor! Okropny! Masz jasne włosy — lepiej będziesz wyglądała w bardziej intensywnym kolorze. O! W tym zielonym albo w tej fioletowej! Fiolet jest najmodniejszy!","Фасон чудовий, розмір ідеальний, але колір! Жахливий! Маєш світле волосся — краще виглядатимеш у яскравішому кольорі. О! У цьому зеленому або в цій фіолетовій! Фіолет наймодніший!"]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · kupno butów · трек 222", "lines":[
+        ["Kriss","Myślę, że te będą idealne!","Думаю, ці будуть ідеальні!"],
+        ["Angela","Chciałabym przymierzyć te buty.","Я хотіла б приміряти ці туфлі."],
+        ["Sprzedawczyni","Oczywiście, jaki rozmiar?","Звичайно, який розмір?"],
+        ["Angela","38.","38."],
+        ["Sprzedawczyni","Proszę.","Прошу."],
+        ["Angela","Przepraszam, czy mogę prosić o rozmiar większe? Te są za małe.","Перепрошую, чи можу попросити розмір більший? Ці замалі."],
+        ["Sprzedawczyni","Zaraz sprawdzę. Są, proszę.","Зараз перевірю. Є, прошу."],
+        ["Angela","Świetnie! Te są w sam raz!","Чудово! Ці саме якраз!"]
+      ]},
+      { "type":"ref", "title":"Gramatyka · stopniowanie przymiotników",
+        "words":"gruby → grubszy → najgrubszy · długi → dłuższy → najdłuższy · wąski → węższy → najwęższy · krótki → krótszy → najkrótszy · szeroki → szerszy → najszerszy · dobry → lepszy → najlepszy · zły → gorszy → najgorszy · duży → większy → największy · mały → mniejszy → najmniejszy · kolorowy → bardziej kolorowy → najbardziej kolorowy",
+        "note":"za + przymiotnik = занадто: za krótka, za długa, za mała, za duża, za obcisła, za luźna." },
+      { "type":"ref", "title":"Gramatyka · wiedzieć vs znać",
+        "words":"wiedzieć + питальне слово (kto? jak? ile? gdzie? co?) · znać + biernik (kogo? co? — особа / річ)",
+        "note":"Czy wiesz, jak nazywa się stolica Polski? · Czy znasz panią Teresę?" }
+    ]},
+    { "block": "C. Wyglądasz cudownie!", "items": [
+      { "type":"dia", "title":"Dialog 1 · w restauracji · трек 223", "lines":[
+        ["—","Emily, Kate i Sarah spotkały się z Angelą w eleganckiej restauracji w Krakowie.","Емілі, Кейт і Сара зустрілися з Анджелою в елегантному ресторані в Кракові."],
+        ["Emily","Tak dawno cię nie widziałam! Wyglądasz olśniewająco!","Так давно тебе не бачила! Виглядаєш приголомшливо!"],
+        ["Kate","To prawda! Jesteś szczuplejsza. Pobyt w Polsce ci służy!","Це правда! Ти стала стрункішою. Перебування в Польщі тобі на користь!"],
+        ["Sarah","I masz piękną sukienkę! Gdzie kupiłaś?","І маєш гарну сукню! Де купила?"],
+        ["Angela","Dziękuję! Jesteście bardzo miłe! Zaraz wam wszystko opowiem.","Дякую! Ви дуже милі! Зараз вам усе розповім."]
+      ]},
+      { "type":"ref", "title":"Komplementy · корисні вирази",
+        "words":"Wyglądasz olśniewająco / cudownie / pięknie / przepięknie! · Masz piękne oczy / świetne włosy / idealną figurę! · Dobrze ci w tej sukience / tym kolorze / tym fasonie! · Pasuje do twoich oczu / twojej figury!",
+        "note":"Потренуй компліменти вголос." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_23.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_23/ (217–223.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 3 · co mają na sobie?", "lines":[
+      ["—","Ten mężczyzna ma na sobie garnitur, czyli marynarkę i spodnie. Do garnituru nosi koszulę i krawat. W ręku trzyma skórzaną teczkę.","Цей чоловік одягнений у костюм, тобто піджак і штани. До костюма носить сорочку й краватку. У руці тримає шкіряний портфель."],
+      ["—","Ta dziewczyna ma na sobie ciepły golf i krótką, wąską spódnicę w kratkę. W ręku ma elegancką torebkę.","Ця дівчина одягнена в теплу водолазку й коротку, вузьку спідницю в клітинку. У руці має елегантну сумочку."],
+      ["—","Ten piłkarz ma na sobie podkoszulek w paski, szorty, długie skarpety też w paski oraz adidasy. Oczywiście on gra w piłkę.","Цей футболіст одягнений у майку в смужку, шорти, довгі шкарпетки теж у смужку та кросівки. Звісно, він грає у футбол."],
+      ["—","Ta dziewczyna ma na sobie krótką bluzkę i bardzo długą, szeroką spódnicę w kwiaty.","Ця дівчина одягнена в коротку блузку й дуже довгу, широку спідницю в квіти."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 13 · w sklepie", "lines":[
+      ["Sprzedawczyni","Czy mogę w czymś pomóc?","Чи можу чимось допомогти?"],
+      ["Klientka","Chciałabym przymierzyć ten żakiet.","Я хотіла б приміряти цей жакет."],
+      ["Sprzedawczyni","Oczywiście. Jaki ma pani rozmiar?","Звичайно. Який у Вас розмір?"],
+      ["Klientka","Czterdzieści.","Сорок."],
+      ["Sprzedawczyni","Proszę bardzo, tam jest przymierzalnia.","Будь ласка, там примірочна."],
+      ["Klientka","Niestety, ten żakiet ma za krótkie rękawy. Czy jest większy rozmiar?","На жаль, цей жакет має закороткі рукави. Чи є більший розмір?"],
+      ["Sprzedawczyni","Obawiam się, że ten jest największy.","Боюся, що цей найбільший."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L23.txt",
+  "mistakes": [
+    ["Ten sweter jest grubejszy","Ten sweter jest grubszy","Короткі прикметники → -szy, не -ejszy: gruby → grubszy."],
+    ["Ta sukienka jest dłuższa niż mojej","…niż moja","Після «niż» — mianownik: dłuższa niż moja."],
+    ["Ta sukienka jest dłuższa od moja","…od mojej","Після «od» — dopełniacz: dłuższa od mojej."],
+    ["Czy znasz, jak nazywa się stolica?","Czy wiesz, jak nazywa się stolica?","З питальним словом (jak/co/gdzie) — «wiedzieć», не «znać»."]
+  ],
+  "drills": [
+    ["Скажи, що сукня замала.","Ta sukienka jest za mała."],
+    ["Скажи продавцю, що хочеш приміряти ці туфлі.","Chciałabym przymierzyć te buty."],
+    ["Попроси більший розмір.","Czy mogę prosić o rozmiar większe?"],
+    ["Скажи, що туфлі саме якраз.","Te buty są w sam raz."],
+    ["Утвори вищий ступінь: «długi».","dłuższy"],
+    ["Утвори найвищий ступінь: «dobry».","najlepszy"],
+    ["Скажи: цей светр товщий за мій.","Ten sweter jest grubszy od mojego."],
+    ["Спитай подругу, чи знає вона пані Терезу.","Czy znasz panią Teresę?"],
+    ["Спитай, чи знає вона, як називається столиця Польщі.","Czy wiesz, jak nazywa się stolica Polski?"],
+    ["Зроби комплімент: ти виглядаєш приголомшливо.","Wyglądasz olśniewająco!"],
+    ["Скажи: тобі личить цей колір.","Dobrze ci w tym kolorze."],
+    ["Опиши, що на тобі зараз: маю на собі сорочку й штани.","Mam na sobie koszulę i spodnie."]
+  ],
+  "quiz": [
+    {"topic":"stopniowanie","q":"Вищий ступінь від «gruby»:","o":["grubejszy","grubszy","najgrubszy","bardziej gruby"],"a":1},
+    {"topic":"stopniowanie","q":"Найвищий ступінь від «dobry»:","o":["lepszy","dobrszy","najlepszy","najdobrzejszy"],"a":2},
+    {"topic":"porównanie","q":"«Ten sweter jest grubszy ___ mój.» (порівняння через mianownik):","o":["od","niż","ze","jak"],"a":1},
+    {"topic":"porównanie","q":"«Ten sweter jest najgrubszy ___ wszystkich.»","o":["niż","od","ze","do"],"a":2},
+    {"topic":"za+przymiotnik","q":"Туфлі тиснуть, вони замалі. Кажеш:","o":["Są w sam raz","Są za małe","Są za duże","Są idealne"],"a":1},
+    {"topic":"zakupy","q":"Хочеш приміряти жакет. Кажеш:","o":["Chciałabym przymierzyć ten żakiet","Jaki rozmiar?","To za drogie","Wyglądam pięknie"],"a":0},
+    {"topic":"wiedzieć/znać","q":"«Czy ___ panią Teresę?» (іменник-особа):","o":["wiesz","znasz","masz","jesteś"],"a":1},
+    {"topic":"wiedzieć/znać","q":"«Czy ___, jak nazywa się stolica Polski?»","o":["znasz","wiesz","masz","robisz"],"a":1},
+    {"topic":"ubrania","q":"Що таке «krawat»?","o":["шарф","краватка","ремінь","шапка"],"a":1},
+    {"topic":"wzory","q":"«w kratkę» — це візерунок:","o":["в смужку","в клітинку","в горошок","в квіти"],"a":1}
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "15",
+  "title": "Karton czy pudełko?",
+  "goal": "Повторюємо: упаковки й продукти · кількість і міри (ile?) · dopełniacz l. mn. (родовий множини) · ćwierć / pół kilo · pocztę · zaimki osobowe в dopełniaczu",
+  "vocab": [
+    { "group": "Opakowania — упаковки", "items": [
+      ["puszka","банка (бляшана)"],["paczka","пачка"],["butelka","пляшка"],["karton","картон / пакет"],
+      ["słoik","слоїк (банка скляна)"],["kawałek","шматок"],["pudełko","коробка"],["zgrzewka","блок (упаковка)"],
+      ["kostka","брусок (масла)"],["bochenek","буханець"],["tabliczka","плитка"],["plasterek","скибочка"]
+    ]},
+    { "group": "Zakupy i produkty — продукти", "items": [
+      ["mleko","молоко"],["makaron","макарони"],["ciastka","печиво"],["szynka","шинка"],
+      ["żółty ser","жовтий сир"],["sok","сік"],["wino","вино"],["jabłko","яблуко"],
+      ["pieczarki","печериці"],["warzywa","овочі"],["musztarda","гірчиця"],["ogórki kiszone","квашені огірки"],
+      ["chipsy","чіпси"],["dżem","джем"],["kukurydza","кукурудза"],["groszek","горошок"]
+    ]},
+    { "group": "Ile? — кількість і міри", "items": [
+      ["kilogram (kg)","кілограм"],["pół kilo","півкіло"],["ćwierć kilo","чверть кіло"],["dwadzieścia deka","двадцять дека (200 г)"],
+      ["dużo","багато"],["mało","мало"],["kilka","декілька"],["trochę","трохи"],["niewiele","небагато"],["sto złotych","сто злотих"]
+    ]},
+    { "group": "Poczta i prośby — пошта й прохання", "items": [
+      ["list polecony","рекомендований лист"],["list lotniczy","авіалист"],["pocztówka / widokówka","листівка"],["koperta","конверт"],
+      ["znaczek","марка"],["listonosz","листоноша"],["skrzynka pocztowa","поштова скринька"],["nadać faks","надіслати факс"],
+      ["Czy możesz mi pomóc?","Можеш мені допомогти?"],["Chętnie","залюбки"],["Przykro mi, ale nie","Шкода, але ні"],["Mam do ciebie prośbę","Маю до тебе прохання"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"родовий мн.", "title":"Dopełniacz liczby mnogiej", "formula":"м.р.: -ów / -y / -i · ж.р.: -ø · сер.р.: -ø", "ex":"dużo studentów · pięć butelek · pięć zimnych piw · dziesięć jabłek" },
+    { "badge":"скільки?", "title":"Ile? + dopełniacz", "formula":"dużo / mało / kilka / trochę / niewiele + dopełniacz", "ex":"dużo studentów · kilka słoików · trochę warzyw · mało pieniędzy" },
+    { "badge":"числа й міри", "title":"2,3,4 vs 5,6...", "formula":"2,3,4 + mianownik l. mn. · 5,6... + dopełniacz l. mn.", "ex":"2 kartony soku · 5 kartonów soku · pół kilo sera · ćwierć kilo szynki" }
+  ],
+  "czytanie": [
+    { "block": "A. Puszki, paczki i pudełka", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · Co to jest? · трек 147 (вступ)",
+        "words":"puszka · paczka · butelka · karton · słoik · kawałek · pudełko",
+        "note":"Назви упаковки. UWAGA: paczka / puszka / butelka / karton / słoik / kawałek + dopełniacz." },
+      { "type":"ref", "title":"Ćwiczenie 3 · Co pasuje? — що з чим",
+        "words":"paczka herbaty · pudełko czekoladek · słoik dżemu · butelka piwa · puszka kukurydzy · karton soku · kawałek sera · kostka masła · tabliczka czekolady · plasterek szynki" },
+      { "type":"dia", "title":"Dialog 2 · lista zakupów · трек 147", "lines":[
+        ["Joanna","Karol!","Кароль!"],
+        ["Karol","Tak mamo?","Так, мамо?"],
+        ["Joanna","Mam do ciebie prośbę, czy możesz iść na zakupy?","Маю до тебе прохання, чи можеш піти за покупками?"],
+        ["Karol","Teraz? Wolałbym nie.","Зараз? Краще не хотів би."],
+        ["Joanna","Karol!","Кароль!"],
+        ["Karol","Mamo, jestem bardzo zajęty. Naprawdę!","Мамо, я дуже зайнятий. Справді!"],
+        ["Joanna","Karol!","Кароль!"],
+        ["Karol","Dobrze, dobrze. Już idę.","Добре, добре. Вже йду."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 4 · u sprzedawcy · трек 148", "lines":[
+        ["Sprzedawca","Słucham.","Слухаю."],
+        ["Karol","Proszę słoik dżemu malinowego, ten duży, żółtego sera i ćwierć kilo białego.","Прошу слоїк малинового джему, той великий, жовтого сиру і чверть кіло білого."],
+        ["Sprzedawca","Proszę, co jeszcze?","Прошу, що ще?"],
+        ["Karol","Kostkę masła i dwadzieścia plasterków chudej szynki.","Брусок масла і двадцять скибочок нежирної шинки."],
+        ["Sprzedawca","To wszystko?","Це все?"],
+        ["Karol","Nie, jeszcze poproszę kukurydzy, dwie puszki, i soku pomarańczowego.","Ні, ще попрошу кукурудзи, дві банки, і помаранчевого соку."]
+      ]}
+    ]},
+    { "block": "B. Zakupy na piknik", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · piknik konny · трек 149", "lines":[
+        ["Iwona","Cześć Sylwia! Jedziesz z nami na piknik? Taka piękna pogoda, wreszcie mamy złotą polską jesień!","Привіт, Сильвіє! Їдеш із нами на пікнік? Така гарна погода, нарешті маємо золоту польську осінь!"],
+        ["Sylwia","Na piknik? Raczej nie. Wiesz, ja boję się koni.","На пікнік? Радше ні. Знаєш, я боюся коней."],
+        ["Iwona","Niestety, nie żartuję! Czy wybiera się dużo studentów?","На жаль, не жартую! Чи збирається багато студентів?"],
+        ["Sylwia","Chyba żartujesz!","Ти, мабуть, жартуєш!"],
+        ["Iwona","Prawie wszyscy, tylko kilka studentek zostaje. Słuchaj, czy mogłabyś mi pomóc zrobić zakupy na ten piknik?","Майже всі, тільки декілька студенток лишається. Слухай, чи могла б ти допомогти мені зробити покупки на цей пікнік?"],
+        ["Sylwia","Bardzo chętnie. A co musisz kupić?","Дуже залюбки. А що треба купити?"],
+        ["Iwona","Tylko dodatki, kilka słoików musztardy, trochę warzyw na grilla, trochę pieczarek, kilkanaście piw i soków.","Тільки додатки, кілька слоїків гірчиці, трохи овочів на гриль, трохи печериць, з десяток пив і соків."],
+        ["Iwona","Wielkie dzięki, idziemy. Aha, moment, muszę sprawdzić, czy nie mam za mało pieniędzy.","Велике дякую, ідемо. Ага, момент, мушу перевірити, чи не маю замало грошей."],
+        ["Sylwia","Nie ma sprawy. Idziemy?","Без проблем. Ідемо?"]
+      ]},
+      { "type":"dia", "title":"Dialog 1 · na bazarze · трек 154", "lines":[
+        ["Sylwia","Co kupujemy najpierw?","Що купуємо спершу?"],
+        ["Iwona","Może warzywa.","Може, овочі."],
+        ["Sprzedawca","Co dla pań?","Що для пань?"],
+        ["Iwona","Kilogram pieczarek.","Кілограм печериць."],
+        ["Sprzedawca","Może być dziesięć deka więcej?","Можна на десять дека більше?"],
+        ["Iwona","Tak, nie ma problemu.","Так, без проблем."],
+        ["Sprzedawca","Co jeszcze?","Що ще?"],
+        ["Iwona","Trzy kilogramy papryki i pięć kilogramów ziemniaków.","Три кілограми перцю і п’ять кілограмів картоплі."],
+        ["Sylwia","A co byś powiedziała na kiszone ogórki?","А що скажеш на квашені огірки?"],
+        ["Iwona","Świetny pomysł! Jak myślisz, ile?","Чудова ідея! Як гадаєш, скільки?"],
+        ["Sylwia","Pół kilograma chyba wystarczy.","Півкілограма, мабуть, вистачить."],
+        ["Iwona","Uff, dobrze, że samochód mam blisko!","Уф, добре, що машина в мене поряд!"]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · pakuję się · трек 155", "lines":[
+        ["Karolina","O, pakujesz się! Dokąd się wybierasz?","О, пакуєшся! Куди вибираєшся?"],
+        ["Mami","Jadę na piknik za Kraków.","Їду на пікнік за Краків."],
+        ["Karolina","To super!","Це супер!"],
+        ["Mami","Tak, tylko mój plecak jest strasznie ciężki.","Так, тільки мій рюкзак страшенно важкий."],
+        ["Karolina","Faktycznie, a co ty tam masz?","Справді, а що ти там маєш?"],
+        ["Mami","3 paczki słonych paluszków, 5 paczek chipsów, butelkę coli, kilka puszek piwa, 2 puszki orzeszków...","3 пачки солоних паличок, 5 пачок чіпсів, пляшку коли, кілька банок пива, 2 банки горішків..."],
+        ["Karolina","To będzie niezła impreza!","Це буде непогана вечірка!"]
+      ]},
+      { "type":"dia", "title":"Dialog 3 · ile kartonów? · трек 155", "lines":[
+        ["Javier","Myślę, żeby kupić po 2 puszki piwa na osobę.","Думаю купити по 2 банки пива на особу."],
+        ["Tom","Tylko po 2 puszki? Wydaje mi się, że to bez sensu. Może lepiej 2 zgrzewki.","Тільки по 2 банки? Здається, це безглуздо. Може, краще 2 блоки."],
+        ["Javier","Jedna zgrzewka to 6 puszek, tak?","Один блок — це 6 банок, так?"],
+        ["Tom","Tak.","Так."],
+        ["Uwe","Zgrzewka, zgrzewka – skomplikowane słowo. Chyba jeszcze kilka kartonów soku i wodę mineralną.","Zgrzewka, zgrzewka — складне слово. Мабуть, ще кілька пакетів соку й мінеральну воду."],
+        ["Javier","Ile tych kartonów?","Скільки тих пакетів?"],
+        ["Uwe","No, nie wiem. Może 5 kartonów pomarańczowego i 2 kartony jabłkowego.","Ну, не знаю. Може, 5 пакетів помаранчевого і 2 пакети яблучного."],
+        ["Javier","A butelek wody ile?","А пляшок води скільки?"],
+        ["Tom","10 butelek?","10 пляшок?"],
+        ["Uwe","To chyba za dużo. Może 4 butelki gazowanej i 4 niegazowanej.","Це, мабуть, забагато. Може, 4 пляшки газованої і 4 негазованої."],
+        ["Javier","W porządku. Coś jeszcze?","Гаразд. Щось іще?"],
+        ["Tom","Chyba wszystko, resztę miały kupić dziewczyny.","Мабуть, усе, решту мали купити дівчата."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 5 · ułóż dialogi — склади за зразком · трек 150-152",
+        "words":"5 jogurtów owocowych · bochenek chleba · 2 butelki wody mineralnej · 10 plasterków szynki · pół kilo żółtego sera · 3 paczki ciastek · kawałek szynki · 2 pomidory · 5 kartonów mleka · 2 kg ziemniaków",
+        "note":"2,3,4 + mianownik · 5,6,7... + dopełniacz." },
+      { "type":"ref", "title":"Ćwiczenie 6 · uzupełnij — родовий множини",
+        "words":"10 jabłek · 7 ogórków kiszonych · słoik zielonych oliwek · 12 jajek · paczka czekoladowych ciastek · 5 jogurtów naturalnych" }
+    ]},
+    { "block": "C. Poczta", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · Co to jest? · poczta",
+        "words":"pocztówka · paczka · list lotniczy · znaczek · listonosz · koperta · list polecony · skrzynka pocztowa" },
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 156", "lines":[
+        ["Mami","Karol, czy pomożesz mi?","Кароль, чи допоможеш мені?"],
+        ["Karol","Nie ma sprawy, a o co chodzi?","Без проблем, а в чому річ?"],
+        ["Mami","Muszę wysłać ważny list i nie wiem jak. Czy możesz iść ze mną na pocztę?","Мушу надіслати важливий лист і не знаю як. Чи можеш піти зі мною на пошту?"],
+        ["Karol","Na pocztę? Yyy, tam jest zawsze kolejka. Ja nie cierpię kolejek! Poza tym jestem bardzo zajęty!","На пошту? Еее, там завжди черга. Я не зношу черг! До того ж я дуже зайнятий!"],
+        ["Karolina","Karol! Jesteś okropny, zmyślasz! Mami, możesz iść ze mną.","Кароль! Ти жахливий, вигадуєш! Мамі, можеш піти зі мною."],
+        ["Mami","O, dziękuję bardzo.","О, дуже дякую."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 157", "lines":[
+        ["Mami","Dzień dobry, proszę znaczek na list lotniczy do Japonii.","Добрий день, прошу марку на авіалист до Японії."],
+        ["Urzędnik","Dzień dobry. Może woli pani wysłać list priorytetem? Priorytet to bardzo szybki list.","Добрий день. Може, пані воліє надіслати лист пріоритетом? Пріоритет — це дуже швидкий лист."],
+        ["Mami","Dobrze, może być priorytet.","Добре, нехай буде пріоритет."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 3 · трек 158", "lines":[
+        ["Uwe","Dzień dobry. Mam list polecony, czy mogłaby mi pani pomóc?","Добрий день. Маю рекомендований лист, чи могли б ви мені допомогти?"],
+        ["Urzędniczka","Tak, słucham.","Так, слухаю."],
+        ["Uwe","Muszę wysłać oficjalny list.","Мушу надіслати офіційний лист."],
+        ["Urzędniczka","Urzędowy, tak?","Урядовий, так?"],
+        ["Uwe","Tak, tak. Do urzędu finansowego, muszę mieć dowód, dokument, że go wysłałem.","Так, так. До податкової, мушу мати підтвердження, документ, що я його надіслав."],
+        ["Urzędniczka","Rozumiem. Proszę wysłać list polecony.","Розумію. Надішліть рекомендований лист."],
+        ["Uwe","Dobrze. Chciałbym jeszcze nadać faks do Niemiec.","Добре. Хотів би ще надіслати факс до Німеччини."],
+        ["Urzędniczka","Proszę bardzo.","Будь ласка."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 4 · трек 159", "lines":[
+        ["Angela","Proszę sześć znaczków na kartkę do Unii Europejskiej.","Прошу шість марок на листівку до Євросоюзу."],
+        ["Urzędniczka","Proszę, znaczki i pocztówkę. Coś jeszcze?","Прошу, марки і листівку. Щось іще?"],
+        ["Angela","Na pocztówkę?","На листівку?"],
+        ["Urzędniczka","Pocztówka, widokówka to znaczy to samo.","Pocztówka, widokówka — це те саме."],
+        ["Angela","Aha, dziękuję. To wszystko.","Ага, дякую. Це все."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 5 · трек 160", "lines":[
+        ["Javier","Dzień dobry, chciałem nadać paczkę do Argentyny. Czy to dużo kosztuje?","Добрий день, хотів надіслати посилку до Аргентини. Чи це дорого коштує?"],
+        ["Urzędnik","Cena zależy od wagi, od wielkości.","Ціна залежить від ваги, від розміру."],
+        ["Javier","Mam nadzieję, że nie jest ciężka.","Сподіваюся, вона не важка."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 3 · rodzaje listów — види листів",
+        "words":"pocztówka — kolorowa kartka z pozdrowieniami · list priorytet / ekspresowy — bardzo szybki list · widokówka — mały kolorowy obrazek na list albo pocztówkę · list polecony — list urzędowy · koperta — opakowanie na list · list zwykły — normalny list" }
+    ]},
+    { "block": "D. Czy pomożesz mi?", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · prośby i reakcje — прохання й реакції",
+        "words":"PROŚBA: Czy mógłbyś mi pomóc? · Czy pomożesz mi? · Czy możesz mi pomóc? · Czy mogłaby mi pani pomóc? · Mam do ciebie prośbę · Chciałem cię prosić o pomoc",
+        "note":"REAKCJA+: Chętnie · Tak, oczywiście · Z przyjemnością · Nie ma sprawy. REAKCJA-: Przykro mi, ale nie · Niestety, nie mam czasu · Przepraszam, ale jestem bardzo zajęty." }
+    ]},
+    { "block": "E. Zaimki (займенники в dopełniaczu)", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 161", "lines":[
+        ["Javier","Dzwonię do ciebie i dzwonię. Dlaczego nie odbierasz?","Дзвоню до тебе й дзвоню. Чому не береш слухавки?"],
+        ["Uwe","Przepraszam, miałem spotkanie i trochę się przedłużyło. Dzwoniłeś już do Toma?","Перепрошую, мав зустріч, і вона трохи затягнулася. Ти вже дзвонив до Тома?"],
+        ["Javier","Do niego też się nie mogę dodzwonić. A ty pewnie nie dzwoniłeś do Mami i Angeli?","До нього теж не можу додзвонитися. А ти, мабуть, не дзвонив до Мамі й Анджели?"],
+        ["Uwe","Zaraz do nich zadzwonię. Aha, tylko nie mam telefonu do Angeli. Masz może numer do niej?","Зараз до них зателефоную. Ага, тільки не маю телефону Анджели. Маєш, може, номер до неї?"]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · трек 162", "lines":[
+        ["Tom","Cześć Javier, dzwoniłeś do mnie.","Привіт, Хав’єре, ти дзвонив до мене."],
+        ["Javier","Dzwoniłem do was wszystkich. Bez skutku!","Дзвонив до вас усіх. Без результату!"],
+        ["Tom","Dlaczego do nas wszystkich i dlaczego się denerwujesz?","Чому до нас усіх і чому нервуєшся?"]
+      ]},
+      { "type":"dia", "title":"Dialog 3 · трек 163", "lines":[
+        ["Iwona","Nie widziałaś mojego telefonu? Szukam go wszędzie.","Не бачила мого телефону? Шукаю його всюди."],
+        ["Ania","Leży tam, pod książką.","Лежить там, під книжкою."],
+        ["Iwona","O, jej też szukałam.","О, її теж шукала."],
+        ["Ania","I tych dobrych ciastek pewnie też?","І того смачного печива, мабуть, теж?"],
+        ["Iwona","Tak, ich też.","Так, його теж."],
+        ["Ania","Ciastek nie musisz szukać, już zjadłyśmy.","Печива не мусиш шукати, ми вже з’їли."]
+      ]},
+      { "type":"dia", "title":"Dialog 4 · трек 164", "lines":[
+        ["Mami","Szukam jej wszędzie! Gdzie ona jest? Ich też nie widzę! Dlaczego oni do mnie nie dzwonią? A Javier? Był tu przed chwilą i teraz go już nie ma.","Шукаю її всюди! Де вона? Їх теж не бачу! Чому вони мені не дзвонять? А Хав’єр? Був тут щойно, а тепер його вже немає."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_15.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_15/ (147–164.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 4 · u sprzedawcy", "lines":[
+      ["Sprzedawca","Proszę. Co dla pani?","Прошу. Що для пані?"],
+      ["Klientka","Proszę karton chudego mleka, paczkę makaronu i paczkę ciastek.","Прошу пакет нежирного молока, пачку макаронів і пачку печива."],
+      ["Sprzedawca","Co jeszcze?","Що ще?"],
+      ["Klientka","Proszę ten kawałek szynki i puszkę zielonego groszku.","Прошу цей шматок шинки і банку зеленого горошку."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 5 · zakupy dla mamy", "lines":[
+      ["Syn","Mamo, wybieram się do sklepu. Kupić coś?","Мамо, збираюся до магазину. Купити щось?"],
+      ["Mama","Właściwie to wszystko mamy, ale możesz kupić kilka jabłek.","Власне, усе маємо, але можеш купити декілька яблук."],
+      ["Syn","Ile to jest kilka?","Скільки це — декілька?"],
+      ["Mama","Sześć jabłek powinno wystarczyć.","Шість яблук мало б вистачити."],
+      ["Syn","Czy to wszystko?","Це все?"],
+      ["Mama","Tak. Nie, poczekaj. Kup jeszcze dziesięć plasterków szynki i pół kilograma żółtego sera.","Так. Ні, зачекай. Купи ще десять скибочок шинки і півкілограма жовтого сиру."],
+      ["Syn","Jeszcze coś?","Ще щось?"],
+      ["Mama","Tak. Weź jeszcze dwa kartony soku porzeczkowego i jedną butelkę czerwonego wina.","Так. Візьми ще два пакети смородинового соку і одну пляшку червоного вина."],
+      ["Syn","To trochę dużo, a ja mam niewiele pieniędzy.","Це трохи багато, а я маю небагато грошей."],
+      ["Mama","Masz tu sto złotych. Reszta dla ciebie.","Маєш тут сто злотих. Решта тобі."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L15.txt",
+  "mistakes": [
+    ["pięć butelka wody","pięć butelek wody","Після 5,6... — dopełniacz l. mn.: butelek."],
+    ["dużo studenci","dużo studentów","«dużo» вимагає родового: studentów."],
+    ["pół kilo ser","pół kilo sera","Після міри — dopełniacz: sera."],
+    ["2 kartonów soku","2 kartony soku","2,3,4 — mianownik l. mn.: kartony (не -ów)."]
+  ],
+  "drills": [
+    ["Попроси банку зеленого горошку.","Proszę puszkę zielonego groszku."],
+    ["Скажи: десять скибочок шинки.","dziesięć plasterków szynki"],
+    ["Скажи: півкіло жовтого сиру.","pół kilo żółtego sera"],
+    ["Скажи: 2 пакети соку (мн.).","dwa kartony soku"],
+    ["Скажи: 5 пакетів соку.","pięć kartonów soku"],
+    ["Скажи, що маєш мало грошей.","Mam mało pieniędzy."],
+    ["Спитай ввічливо, чи можуть тобі допомогти.","Czy mógłby mi pan pomóc?"],
+    ["Попроси марку на авіалист до Японії.","Proszę znaczek na list lotniczy do Japonii."],
+    ["Скажи, що хочеш надіслати рекомендований лист.","Chcę wysłać list polecony."],
+    ["Скажи: дзвоню до тебе.","Dzwonię do ciebie."],
+    ["Скажи: шукаю його всюди.","Szukam go wszędzie."],
+    ["Відмов ввічливо на прохання.","Przykro mi, ale nie. / Niestety, nie mam czasu."]
+  ],
+  "quiz": [
+    {"topic":"opakowania","q":"Як назвати скляну банку джему?","o":["puszka dżemu","słoik dżemu","karton dżemu","butelka dżemu"],"a":1},
+    {"topic":"dopełniacz mn.","q":"«pięć ___ wody» (butelka):","o":["butelka","butelki","butelek","butelką"],"a":2},
+    {"topic":"liczebniki","q":"Правильно: «2 ___ soku»","o":["karton","kartony","kartonów","kartonami"],"a":1},
+    {"topic":"liczebniki","q":"Правильно: «5 ___ soku»","o":["karton","kartony","kartonów","kartonem"],"a":2},
+    {"topic":"ile","q":"«dużo studentów» — слово «dużo» вимагає:","o":["mianownika","dopełniacza","biernika","narzędnika"],"a":1},
+    {"topic":"miary","q":"«pół kilo» сиру по-польськи:","o":["pół kilo ser","pół kilo sera","pół kilo serze","pół kilo serem"],"a":1},
+    {"topic":"poczta","q":"«list polecony» — це:","o":["авіалист","рекомендований лист","листівка","конверт"],"a":1},
+    {"topic":"poczta","q":"Хто розносить листи?","o":["urzędnik","listonosz","sprzedawca","sąsiad"],"a":1},
+    {"topic":"prośba","q":"Ввічлива відмова на прохання:","o":["Chętnie","Z przyjemnością","Przykro mi, ale nie","Nie ma sprawy"],"a":2},
+    {"topic":"zaimki","q":"«Szukam ___ wszędzie» (on, телефон):","o":["go","jego","niego","mu"],"a":0}
+  ]
+}

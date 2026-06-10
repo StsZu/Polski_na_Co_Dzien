@@ -1,0 +1,182 @@
+{
+  "id": "07",
+  "title": "Małe zakupy",
+  "goal": "Повторюємо: знахідний відмінок (biernik) іменників і прикметників · покупки в кіоску й галереї · числа 100–1000 · ціни (złote / grosze) · czy jest / są → nie ma",
+  "vocab": [
+    { "group": "Zakupy i miejsca — покупки та місця", "items": [
+      ["kiosk","кіоск"],["galeria handlowa","торговий центр"],["sklep","магазин"],
+      ["drogeria","магазин косметики"],["kantor","обмінник валют"],["bankomat","банкомат"],
+      ["pieniądze","гроші"],["lista zakupów","список покупок"],["kupować / kupić","купувати / купити"],
+      ["kosztować","коштувати"],["płacić","платити"],["polecać","рекомендувати"]
+    ]},
+    { "group": "Towary w kiosku — товари в кіоску", "items": [
+      ["gazeta","газета"],["magazyn","журнал"],["mapa","мапа"],["długopis","ручка"],
+      ["bilet normalny / ulgowy","квиток повний / пільговий"],["guma do żucia","жуйка"],
+      ["aparat fotograficzny","фотоапарат"],["karta pamięci","карта пам’яті"],["kosmetyki","косметика"]
+    ]},
+    { "group": "Przymiotniki — прикметники", "items": [
+      ["krótki / długi","короткий / довгий"],["wolny / zajęty","вільний / зайнятий"],
+      ["drogi / tani","дорогий / дешевий"],["bogaty / biedny","багатий / бідний"],
+      ["dobry / dobra / dobre","добрий / добра / добре"],["mały / duży","малий / великий"],
+      ["sportowy","спортивний"],["inteligentny","розумний"]
+    ]},
+    { "group": "Liczebniki 100–1000 — числа", "items": [
+      ["sto","100"],["dwieście","200"],["trzysta","300"],["czterysta","400"],
+      ["pięćset","500"],["sześćset","600"],["siedemset","700"],["osiemset","800"],
+      ["dziewięćset","900"],["tysiąc","1000"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"biernik · kogo? co?", "title":"Mam + знахідний відмінок", "formula":"ж.: -a/-i → -ą прикм. + -ę іменник · ч. живий: -ego + -a · ч. неживий і середній = називний", "ex":"Mam długą listę. · Mam inteligentnego brata. · Mam wolny czas. · Mam sportowe auto." },
+    { "badge":"czy jest / są", "title":"Питання про наявність", "formula":"Czy jest…? → Tak, jest. · Czy są…? → Tak, są. · заперечення: Nie, nie ma.", "ex":"Czy jest „Gazeta Krakowska”? — Tak. · Czy są papierosy? — Nie ma." },
+    { "badge":"ceny", "title":"złote / złotych · grosze / groszy", "formula":"1 → złoty, grosz · 2–4 → złote, grosze · 5+ → złotych, groszy", "ex":"2 złote 50 groszy · 33 złote 15 groszy · 99 złotych 99 groszy" }
+  ],
+  "czytanie": [
+    { "block": "A. Biernik — lista zakupów", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 078", "lines":[
+        ["Karolina","Mami, co robisz? Masz wolny czas czy jesteś zajęta?","Мамі, що робиш? Маєш вільний час чи зайнята?"],
+        ["Mami","Nudzę się...","Нудьгую..."],
+        ["Karolina","Może spacer?","Може, прогулянка?"],
+        ["Pani Maj","Dziewczyny, a może galeria handlowa, co? Tu jest lista zakupów.","Дівчата, а може, торговий центр? Ось список покупок."],
+        ["Karolina","Jest krótka? No, to nie ma problemu. Mami, a ty masz swoją listę?","Він короткий? Ну, тоді без проблем. Мамі, а ти маєш свій список?"],
+        ["Mami","Tak, ale ja mam długą listę. Zakupy to jest mój plan na jutro, ale może być też na dzisiaj.","Так, але я маю довгий список. Покупки — це мій план на завтра, але може бути й на сьогодні."],
+        ["Karolina","OK, a ty Karol, co chcesz z galerii?","Окей, а ти, Кароль, що хочеш із торгового центру?"],
+        ["Karol","Sportowe auto?","Спортивне авто?"],
+        ["Karolina","Cha, cha, cha, ale mam inteligentnego brata...!","Ха-ха-ха, ну й розумний у мене брат...!"]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 1 · kto to mówi? (biernik)",
+        "words":"Mam wolny czas. · Mam długą listę. · Mam sportowe auto. · Mam inteligentnego brata.",
+        "note":"Зверни увагу на закінчення: długą listę (ж.), inteligentnego brata (ч. живий), wolny czas / sportowe auto (без зміни)." },
+      { "type":"ref", "title":"Ćwiczenie 2 · czasowniki + biernik",
+        "words":"czytać gazetę · oglądać telewizję / film · robić zdjęcie / zakupy · gotować zupę / makaron · grać w golfa / piłkę nożną · kupować bilet / kawę / chleb · pisać list / zdanie · lubić kawę / sport / muzykę" }
+    ]},
+    { "block": "B. Kiosk", "items": [
+      { "type":"ref", "title":"Lista zakupów (kiosk)",
+        "words":"Gazeta Krakowska · mała mapa · czerwony długopis · miętowa guma do żucia · bilet normalny · kolorowy magazyn" },
+      { "type":"dia", "title":"Dialog 1 · трек 079", "lines":[
+        ["Mami","Dzień dobry. Czy jest „Gazeta Krakowska”?","Добрий день. Чи є «Gazeta Krakowska»?"],
+        ["Pani","Tak, jest.","Так, є."],
+        ["Mami","Proszę „Gazetę Krakowską”. Ile kosztuje?","Дайте «Gazetę Krakowską». Скільки коштує?"],
+        ["Pani","2 złote 50 groszy. Czy coś jeszcze?","2 злоті 50 грошів. Щось іще?"],
+        ["Mami","Czy jest mała mapa Krakowa?","Чи є маленька мапа Кракова?"],
+        ["Pani","Nie ma.","Немає."],
+        ["Mami","A bilet normalny?","А повний квиток?"],
+        ["Pani","Też nie ma. Jest ulgowy. Jest pani studentką?","Теж немає. Є пільговий. Ви студентка?"],
+        ["Mami","Tak, jestem!","Так, студентка!"],
+        ["Karolina","Nie, Mami, nie studiujesz na uniwersytecie, musisz mieć bilet normalny.","Ні, Мамі, ти не вчишся в університеті, тобі потрібен повний квиток."],
+        ["Pani","Czy to wszystko?","Це все?"]
+      ]},
+      { "type":"dia", "title":"Dialog · papierosy (czy są…?)", "lines":[
+        ["Karolina","Czy są papierosy?","Чи є цигарки?"],
+        ["Pani","A ile masz lat?","А скільки тобі років?"],
+        ["Karolina","Yyy, 17 i pół.","Ееем, 17 з половиною."],
+        ["Pani","No to nie ma. Musisz mieć 18 lat.","Тоді немає. Тобі має бути 18 років."],
+        ["Karolina","Ale to dla taty!","Але це для тата!"],
+        ["Pani","Tak, tak, na pewno. Do widzenia.","Так-так, звісно. До побачення."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · LOTTO · трек 080", "lines":[
+        ["Karolina","O, tu jest LOTTO. Gramy?","О, тут ЛОТО. Граємо?"],
+        ["Mami","Nie bardzo rozumiem...","Не дуже розумію..."],
+        ["Karolina","To jest loteria. Musimy typować 6 numerów. Limit jest 49. Jeden kupon kosztuje 2 złote. Kiedy dobrze wytypujesz 3 numery, masz 16 złotych! Z loterii możemy mieć DUŻĄ SUMĘ, nie tylko 16 złotych...","Це лотерея. Треба вибрати 6 номерів. Ліміт — 49. Один купон коштує 2 злоті. Якщо правильно вгадаєш 3 номери, маєш 16 злотих! У лотереї можна виграти ВЕЛИКУ СУМУ, не тільки 16 злотих..."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 5–6 · kupony · треки 081–082",
+        "words":"Kupon 1: 8 · 12 · 20 · 33 · 45 · 49 · Kupon 2: 3 · 7 · 14 · 16 · 28 · 39 · Kupon 3: 2 · 9 · 15 · 19 · 24 · 32 · Kupon 4: 5 · 10 · 11 · 18 · 30 · 41",
+        "note":"Прочитай номери вголос — це числа 1–49." },
+      { "type":"ref", "title":"Ćwiczenie 7 · liczebniki 100–1000 · трек 083",
+        "words":"sto · dwieście · trzysta · czterysta · pięćset · sześćset · siedemset · osiemset · dziewięćset · tysiąc",
+        "note":"Приклади: 212 · 304 · 333 · 405 · 507 · 609 · 721 · 806 · 901 · 1100." }
+    ]},
+    { "block": "C. Galeria handlowa", "items": [
+      { "type":"ref", "title":"Plan galerii — I piętro",
+        "words":"RTV · piekarnia · odzież · biżuteria · obuwie · herbaciarnia · optyk · fryzjer · cukiernia · biuro podróży · bank · kawiarnia · kwiaciarnia · kiosk · apteka · drogeria · delikatesy · pralnia · AGD" },
+      { "type":"dia", "title":"Tekst · czego chcą? (biernik)", "lines":[
+        ["—","Karolina interesuje się fotografią i chce nowy aparat fotograficzny, bo stary nie robi dobrych zdjęć. Chce też duży album i kartę pamięci do aparatu, no i może jeszcze ładną torbę na aparat albo statyw.","Кароліна цікавиться фотографією і хоче новий фотоапарат, бо старий не робить добрих знімків. Хоче також великий альбом і карту пам’яті до апарата, ну й, може, ще гарну сумку на апарат або штатив."],
+        ["—","Mami chce małą mapę Krakowa, ołówek, czerwony długopis, kolorowy magazyn i kosmetyki.","Мамі хоче маленьку мапу Кракова, олівець, червону ручку, кольоровий журнал і косметику."]
+      ]},
+      { "type":"dia", "title":"Dialog · sklep samoobsługowy", "lines":[
+        ["Mami","A gdzie ja mogę kupić... mapę...?","А де я можу купити... мапу...?"],
+        ["Karolina","W Empiku. A kosmetyki w drogerii.","В «Empik». А косметику — в магазині косметики."],
+        ["Mami","O, nie ma pani ani pana! Dlaczego?","О, немає ні продавчині, ні продавця! Чому?"],
+        ["Karolina","To sklep samoobsługowy. Ty sama decydujesz, co kupujesz, a tam jest kasa.","Це магазин самообслуговування. Ти сама вирішуєш, що купуєш, а там каса."],
+        ["Mami","Rozumiem, self-service, tak? Jak w restauracji albo w supermarkecie?","Розумію, self-service, так? Як у ресторані чи в супермаркеті?"],
+        ["Karolina","Dokładnie!","Саме так!"]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1a · aparat · трек 084", "lines":[
+        ["Karolina","Dzień dobry.","Добрий день."],
+        ["Pan","Dzień dobry, słucham?","Добрий день, слухаю?"],
+        ["Karolina","Czy jest dobry, ale niedrogi aparat fotograficzny?","Чи є добрий, але недорогий фотоапарат?"],
+        ["Pan","Jakiej firmy?","Якої фірми?"],
+        ["Karolina","Nie wiem, jaką firmę pan poleca?","Не знаю, яку фірму ви порадите?"],
+        ["Pan","Może Kodak? Ten aparat jest bardzo dobry: mały, funkcjonalny.","Може, Kodak? Цей апарат дуже добрий: маленький, функціональний."],
+        ["Karolina","Kosztuje tylko 300 złotych? A ten?","Коштує лише 300 злотих? А цей?"],
+        ["Pan","422 złote, ale to promocja, bo karta pamięci i torba są gratis.","422 злоті, але це акція, бо карта пам’яті й сумка безкоштовні."],
+        ["Karolina","Super! Biorę ten. A jest album na fotografie?","Супер! Беру цей. А є альбом для фотографій?"],
+        ["Pan","Niestety, nie ma.","На жаль, немає."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1b · kantor · трек 085", "lines":[
+        ["Karolina","Masz wszystko?","Маєш усе?"],
+        ["Mami","Tak, wszystko. Ale nie mam pieniędzy...","Так, усе. Але не маю грошей..."],
+        ["Karolina","A masz kartę? Bo tam jest bankomat.","А маєш картку? Бо там є банкомат."],
+        ["Mami","Mam, ale w domu. Tutaj mam jeszcze euro.","Маю, але вдома. Тут маю ще євро."],
+        ["Karolina","OK, kantor też tu jest. Ile masz euro?","Окей, обмінник теж тут є. Скільки маєш євро?"],
+        ["Mami","Pięćset.","П’ятсот."],
+        ["Karolina","Ho, ho, ho, ale jesteś bogata! No, jeszcze tylko zakupy dla mamy i do domu.","Ого-го, та ти багата! Ну, ще тільки покупки для мами — і додому."],
+        ["Mami","Nie, nie do domu, tu jest tak interesująco!","Ні, не додому, тут так цікаво!"]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_07.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_07/ (078–086.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 1–2 · co robisz?", "lines":[
+      ["Tom","Cześć, Uwe. Co robisz?","Привіт, Уве. Що робиш?"],
+      ["Uwe","Cześć, Tom. Nic specjalnego, czytam książkę.","Привіт, Томе. Нічого особливого, читаю книжку."],
+      ["Tom","Po polsku?","Польською?"],
+      ["Uwe","Nie, czytam niemiecką książkę. A ty? Co robisz?","Ні, читаю німецьку книжку. А ти? Що робиш?"],
+      ["Tom","Teraz piszę zadanie domowe i oglądam mecz.","Зараз пишу домашнє завдання і дивлюся матч."],
+      ["Uwe","Piszesz zadanie i oglądasz mecz?","Пишеш завдання і дивишся матч?"],
+      ["Tom","Tak, bo zadanie jest łatwe, a mecz jest nudny.","Так, бо завдання легке, а матч нудний."],
+      ["Uwe","Aha, czyli masz wolny czas. Może pub?","Ага, тобто маєш вільний час. Може, паб?"],
+      ["Tom","Pub? Nie, w domu mam dobre piwo. Mam plan: spotykamy się u mnie, robimy dobrą pizzę albo gotujemy risotto.","Паб? Ні, вдома маю добре пиво. Маю план: зустрічаємося в мене, робимо добру піцу або готуємо різото."],
+      ["Uwe","To dobry pomysł. A co potem? Oglądamy telewizję?","Це добра ідея. А що потім? Дивимося телевізор?"],
+      ["Tom","Nie, telewizja jest nieciekawa. Mam dużego psa, on lubi spacerować. Idziemy na długi spacer i rozmawiamy po polsku.","Ні, телевізор нецікавий. Маю великого пса, він любить гуляти. Ідемо на довгу прогулянку і розмовляємо польською."],
+      ["Uwe","Ty masz psa, a ja mam dużego kota. Ma na imię Garfield, ale on nie lubi spacerować, a ja lubię.","Ти маєш пса, а я маю великого кота. Його звати Гарфілд, але він не любить гуляти, а я люблю."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 10 · kupony Lotto — читай числа",
+      "words":"Kupon 1: 8 · 12 · 20 · 33 · 45 · 49 · Kupon 2: 3 · 7 · 14 · 16 · 28 · 39 · Kupon 3: 2 · 9 · 15 · 19 · 24 · 32 · Kupon 4: 5 · 10 · 11 · 18 · 30 · 41 · Kupon 5: 1 · 17 · 25 · 34 · 37 · 43 · Kupon 6: 4 · 13 · 23 · 31 · 39 · 49" },
+    { "type":"ref", "title":"Ćwiczenie 11 · liczebniki 100–1000 — читай уголос",
+      "words":"212 · 304 · 333 · 405 · 507 · 609 · 721 · 806 · 901 · 1100" }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L07.txt",
+  "mistakes": [
+    ["Mam długa lista","Mam długą listę","Знахідний відмінок ж. роду: прикметник -ą, іменник -ę."],
+    ["Mam inteligentny brat","Mam inteligentnego brata","Чол. живий у biernik: прикметник -ego, іменник -a."],
+    ["Czytam gazeta","Czytam gazetę","Після czytać — знахідний відмінок: gazeta → gazetę."],
+    ["2 złotych 50 grosze","2 złote 50 groszy","Після 2–4 → złote; після 50 (5+) → groszy."]
+  ],
+  "drills": [
+    ["Скажи: я маю довгий список.","Mam długą listę."],
+    ["Скажи: я маю розумного брата.","Mam inteligentnego brata."],
+    ["Скажи: я читаю газету.","Czytam gazetę."],
+    ["Спитай у кіоску, чи є «Gazeta Krakowska».","Czy jest „Gazeta Krakowska”?"],
+    ["Спитай, скільки коштує.","Ile kosztuje?"],
+    ["Скажи: 2 злоті 50 грошів.","2 złote 50 groszy."],
+    ["Скажи продавцю: немає.","Nie ma."],
+    ["Порахуй сотнями: 100, 200, 300.","sto, dwieście, trzysta"],
+    ["Скажи число 500 і 700.","pięćset, siedemset"],
+    ["Спитай, де можна купити мапу.","Gdzie mogę kupić mapę?"],
+    ["Скажи: я хочу новий фотоапарат.","Chcę nowy aparat fotograficzny."],
+    ["Скажи: я готую томатний суп.","Gotuję zupę pomidorową."]
+  ],
+  "quiz": [
+    {"topic":"biernik","q":"«Mam ___ listę.» (długa) — який варіант?","o":["długa","długą","długi","długie"],"a":1},
+    {"topic":"biernik","q":"«Mam inteligentnego ___.» (brat)","o":["brat","bratem","brata","bracie"],"a":2},
+    {"topic":"biernik","q":"Чол. неживий рід у biernik: «Mam wolny ___» (czas)","o":["czasu","czasem","czas","czasie"],"a":2},
+    {"topic":"czasowniki","q":"«Czytam ___» (gazeta)","o":["gazeta","gazetą","gazety","gazetę"],"a":3},
+    {"topic":"czy jest","q":"У кіоску немає товару. Продавець каже:","o":["Tak, jest","Nie ma","Czy coś jeszcze?","Słucham"],"a":1},
+    {"topic":"ceny","q":"«2 ___ 50 groszy» — який варіант?","o":["złoty","złote","złotych","złotem"],"a":1},
+    {"topic":"ceny","q":"«99 złotych 99 ___» — після 99:","o":["grosz","grosze","groszy","groszem"],"a":2},
+    {"topic":"liczby","q":"Як по-польськи «700»?","o":["siedemset","sześćset","osiemset","siedemdziesiąt"],"a":0},
+    {"topic":"liczby","q":"«dwieście» — це число:","o":["100","200","300","2000"],"a":1},
+    {"topic":"zakupy","q":"Де Мамі може обміняти євро на злоті?","o":["w drogerii","w kantorze","w piekarni","w aptece"],"a":1}
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "01",
+  "title": "Pierwszy dzień w szkole",
+  "goal": "Повторюємо: вітання й прощання · представлення · алфавіт · фрази для класу · числа 0–10",
+  "vocab": [
+    { "group": "Powitania i pożegnania — вітання та прощання", "items": [
+      ["Dzień dobry","добрий день"],["Dobry wieczór","добрий вечір"],["Cześć!","привіт / бувай"],
+      ["Dobranoc","добраніч"],["Do widzenia","до побачення"],["Do zobaczenia","до зустрічі"],
+      ["Do jutra","до завтра"],["Na razie","поки що"],["Pa!","па!"]
+    ]},
+    { "group": "Przedstawianie się — представлення", "items": [
+      ["Jestem...","я є..."],["Nazywam się...","мене звати"],["Mam na imię...","моє ім’я..."],
+      ["Miło mi","приємно"],["Bardzo mi miło","дуже приємно"],["Mnie również","мені теж"],
+      ["Jak się nazywasz?","як тебе звати?"],["Jak się pani nazywa?","як Ваше прізвище?"]
+    ]},
+    { "group": "W klasie — фрази для уроку", "items": [
+      ["Nie rozumiem","не розумію"],["Nie wiem","не знаю"],["Proszę powtórzyć","повторіть"],
+      ["Proszę przeliterować","продиктуйте по літерах"],["Co to znaczy...?","що означає...?"],
+      ["Mam pytanie","маю питання"],["Gdzie jest...?","де є...?"],["na lewo / na prawo","ліворуч / праворуч"]
+    ]},
+    { "group": "Liczebniki — числа 0–10", "items": [
+      ["zero","0"],["jeden","1"],["dwa","2"],["trzy","3"],["cztery","4"],["pięć","5"],
+      ["sześć","6"],["siedem","7"],["osiem","8"],["dziewięć","9"],["dziesięć","10"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"я є", "title":"Jestem", "formula":"Jestem + хто", "ex":"Jestem Tom. · Jestem Japonką (ж.) · Jestem Niemcem (ч.)" },
+    { "badge":"повне ім’я", "title":"Nazywam się", "formula":"Nazywam się + ім’я і прізвище", "ex":"Nazywam się Mami Takada." },
+    { "badge":"тільки ім’я", "title":"Mam na imię", "formula":"Mam na imię + ім’я", "ex":"Mam na imię Tom." }
+  ],
+  "alfabet": [
+    ["Ą","są","о̃ (носове о)"],["Ę","gęś","е̃ (носове е)"],["Ć","ćma","чь (м’яке)"],
+    ["Ł","łatwo","в (англ. w)"],["Ń","koń","нь"],["Ó","ósma","у"],
+    ["Ś","śnieg","шь (м’яке)"],["Ź","źle","жь (м’яке)"],["Ż / RZ","rzeka","ж (тверде)"],
+    ["CZ","czas","ч (тверде)"],["SZ","szkoła","ш (тверде)"],["DZ","dzwon","дз"],
+    ["DŻ","dżungla","дж"],["CH / H","herbata","х"]
+  ],
+  "czytanie": [
+    { "block": "A. Sekretariat — prezentacja", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 001", "lines":[
+        ["Agnieszka","Dzień dobry. Jestem Agnieszka Polańska.","Добрий день. Я Аґнєшка Поланська."],
+        ["Mami","Dzień dobry. Nazywam się Mami Takada.","Добрий день. Мене звати Мамі Такада."],
+        ["Agnieszka","Bardzo mi miło.","Дуже приємно."],
+        ["Mami","Miło mi.","Мені приємно."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · трек 002", "lines":[
+        ["Tom","Cześć. Jestem Tom. A ty?","Привіт. Я Том. А ти?"],
+        ["Mami","Cześć. Jestem Mami.","Привіт. Я Мамі."],
+        ["Tom","Miło mi.","Приємно."],
+        ["Mami","Mnie również.","Мені теж."]
+      ]},
+      { "type":"ref", "title":"Powitania – pożegnania · трек 005",
+        "words":"Dzień dobry. Do widzenia. Dobry wieczór. Dobranoc. Cześć. Do jutra. Do zobaczenia. Na razie. Pa." }
+    ]},
+    { "block": "C. Klasa — prezentacja", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 012", "lines":[
+        ["Angela","Cześć, jestem Angela. A ty?","Привіт, я Анджела. А ти?"],
+        ["Tom","Mam na imię Tom. Bardzo mi miło.","Моє ім’я Том. Дуже приємно."],
+        ["Angela","Miło mi.","Приємно."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · трек 013", "lines":[
+        ["Mami","Cześć. Jestem Mami Takada. Jak się nazywasz?","Привіт. Я Мамі Такада. Як тебе звати?"],
+        ["Angela","Miło mi. Nazywam się Angela Brown.","Приємно. Мене звати Анджела Браун."],
+        ["Mami","Bardzo mi miło.","Дуже приємно."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 · prezentacja", "lines":[
+        ["Nauczycielka","Dzień dobry. Nazywam się Iwona Stępek. Jestem nauczycielką. Proszę się przedstawić.","Добрий день. Мене звати Івона Стемпек. Я вчителька. Представтеся, будь ласка."],
+        ["Angela","Prze... Prze... Ojej, nie rozumiem.","Пред... Пред... Ой, не розумію."],
+        ["Nauczycielka","Przedstawić się, to znaczy: jak się pani nazywa? Prezentacja.","«Представитися» означає: як Ваше прізвище? Презентація."],
+        ["Angela","Aaa! Nazywam się Angela Brown.","Аа! Мене звати Анджела Браун."],
+        ["Nauczycielka","Proszę powtórzyć: przed-sta-wić-się.","Повторіть: пред-ста-ви-ти-ся."],
+        ["Angela","Przed-sta-wić-się. Uff, skomplikowane.","Пред-ста-ви-ти-ся. Уф, складно."]
+      ]}
+    ]},
+    { "block": "D. Przerwa — gdzie jest...?", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 016", "lines":[
+        ["Angela","Przepraszam, gdzie jest toaleta?","Перепрошую, де туалет?"],
+        ["Kobieta","Toaleta jest tam, na prawo.","Туалет там, праворуч."],
+        ["Angela","Dziękuję bardzo.","Дуже дякую."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · трек 017", "lines":[
+        ["Angela","Przepraszam, gdzie jest internet?","Перепрошую, де інтернет?"],
+        ["Kobieta","Komputery są tutaj. Internet jest gratis.","Комп’ютери тут. Інтернет безкоштовний."],
+        ["Angela","Dziękuję panu bardzo.","Дуже Вам дякую."]
+      ]},
+      { "type":"dia", "title":"Dialog 3 · трек 018", "lines":[
+        ["Tom","Przepraszam, gdzie jest woda?","Перепрошую, де вода?"],
+        ["Kobieta","Tu jest woda. Kawa, herbata i cukier są tam.","Тут вода. Кава, чай і цукор — там."],
+        ["Tom","Dziękuję.","Дякую."]
+      ]},
+      { "type":"dia", "title":"Dialog 4 · трек 019", "lines":[
+        ["Angela","A co to jest?","А що це?"],
+        ["Kobieta","To jest program kulturalny.","Це культурна програма."],
+        ["Angela","Program kulturalny? Co to jest?","Культурна програма? Що це?"],
+        ["Kobieta","To coś specjalnego. Film, spotkanie, specjalna lekcja.","Це щось особливе. Фільм, зустріч, спеціальний урок."],
+        ["Angela","Aha, rozumiem.","Ага, розумію."]
+      ]}
+    ]},
+    { "block": "E. Nie rozumiem. Proszę powtórzyć!", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 020", "lines":[
+        ["Urzędniczka","Proszę przeliterować swoje imię i nazwisko.","Продиктуйте по літерах своє ім’я та прізвище."],
+        ["Uwe","Nie rozumiem. Proszę powtórzyć.","Не розумію. Повторіть, будь ласка."],
+        ["Urzędniczka","Proszę przeliterować imię i nazwisko.","Продиктуйте по літерах ім’я та прізвище."],
+        ["Uwe","Aha, rozumiem. U-W-E. S-T-E-I-N.","Ага, розумію. У-В-Е. С-Т-Е-Й-Н."],
+        ["Urzędniczka","Dziękuję.","Дякую."]
+      ]},
+      { "type":"dia", "title":"Dialog 3 · mam pytanie", "lines":[
+        ["Urzędniczka","Proszę przeczytać dialog i proszę napisać ćwiczenie.","Прочитайте діалог і напишіть вправу."],
+        ["Uwe","Mam pytanie. Co to znaczy „szkoła”?","Маю питання. Що означає «szkoła»?"],
+        ["Urzędniczka","School.","School (школа)."],
+        ["Uwe","Dziękuję bardzo.","Дуже дякую."],
+        ["Urzędniczka","Proszę.","Прошу."]
+      ]}
+    ]},
+    { "block": "G. Powtórzenie — formularz", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 027", "lines":[
+        ["Urzędnik","Imię?","Ім’я?"],
+        ["Mami","Mami.","Мамі."],
+        ["Urzędnik","Nazwisko?","Прізвище?"],
+        ["Mami","Takada.","Такада."],
+        ["Urzędnik","Narodowość?","Національність?"],
+        ["Mami","Jestem Japonką.","Я японка."],
+        ["Urzędnik","Adres?","Адреса?"],
+        ["Mami","Kraków, ulica Spacerowa 9.","Краків, вулиця Спацерова, 9."],
+        ["Urzędnik","Numer telefonu?","Номер телефону?"],
+        ["Mami","12 639 84 57. Dziękuję.","12 639 84 57. Дякую."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_01.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_01/ (001–027.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 2 · znajomość", "lines":[
+      ["—","Dzień dobry. Jestem Maria Benini.","Добрий день. Я Марія Беніні."],
+      ["—","Dzień dobry. Nazywam się Uwe Stein.","Добрий день. Мене звати Уве Штайн."],
+      ["—","Bardzo mi miło.","Дуже приємно."],
+      ["—","Mnie również.","Мені теж."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 4 · formularz", "lines":[
+      ["Imię:","Tomasz","Ім’я: Томаш"],
+      ["Nazwisko:","Fischer","Прізвище: Фішер"],
+      ["Narodowość:","Jestem Niemcem.","Національність: я німець."],
+      ["Adres:","Kraków, ulica Studencka 3.","Адреса: Краків, вулиця Студентська, 3."],
+      ["Telefon:","607 443 289.","Телефон: 607 443 289."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 6 · przydatne frazy", "lines":[
+      ["—","Czy to miejsce jest wolne? — Tak, jest wolne.","Це місце вільне? — Так, вільне."],
+      ["—","Na zdrowie. — Dziękuję.","Будьмо / на здоров’я. — Дякую."],
+      ["—","Proszę otworzyć okno. Proszę zamknąć drzwi.","Відчиніть вікно, будь ласка. Зачиніть двері, будь ласка."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 14 · literowanie — продиктуй по літерах",
+      "words":"BANK · FOTOGRAF · PLAN · TEATR · INTERESUJĄCY · AKTOR · RESTAURACJA" },
+    { "type":"ref", "title":"Ćwiczenie 16 · miasta Polski — міста Польщі",
+      "words":"Warszawa, Łódź, Gdańsk, Kraków, Wrocław, Katowice, Opole, Poznań, Toruń, Olsztyn, Częstochowa, Lublin, Kielce, Rzeszów, Białystok, Szczecin, Bydgoszcz, Gorzów Wielkopolski, Zielona Góra.",
+      "note":"Потренуйся читати назви міст уголос." }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L01.txt",
+  "manifests": [
+    { "nat":"Japonka", "name":"Mami Takada", "rows":[
+      ["Imię","Mami"],["Nazwisko","Takada"],["Narodowość","Japonka"],
+      ["Adres","ul. Spacerowa 9, Kraków"],["Telefon","12 639 84 57"]
+    ]},
+    { "nat":"Niemiec", "name":"Tomasz Fischer", "rows":[
+      ["Imię","Tomasz"],["Nazwisko","Fischer"],["Narodowość","Niemiec"],
+      ["Adres","ul. Studencka 3, Kraków"],["Telefon","607 443 289"]
+    ]}
+  ],
+  "mistakes": [
+    ["Dziąkują","Dziękuję","Плутанина Ą / Ę."],
+    ["Mam na imię Brown","Nazywam się Brown","«Mam na imię» — лише ім’я, не прізвище."],
+    ["Jestem Japonka","Jestem Japonką","Після «jestem» — закінчення -ą."]
+  ],
+  "drills": [
+    ["Спитай перехожого, де туалет.","Przepraszam, gdzie jest toaleta?"],
+    ["Представся вчителю офіційно (ім’я і прізвище).","Nazywam się… (ім’я прізвище)."],
+    ["Спитай неформально, як його/її звати.","Jak się nazywasz?"],
+    ["Скажи: «Я дуже втомлений».","Jestem bardzo zmęczony."],
+    ["Попроси вчителя повторити.","Proszę powtórzyć."],
+    ["Спитай, що означає слово «szkoła».","Co to znaczy „szkoła”?"],
+    ["Привітайся ввічливо вранці.","Dzień dobry."],
+    ["Попроси відчинити вікно.","Proszę otworzyć okno."],
+    ["Подякуй і попрощайся до завтра.","Dziękuję. Do jutra."],
+    ["Порахуй уголос від 0 до 5.","zero, jeden, dwa, trzy, cztery, pięć"]
+  ],
+  "quiz": [
+    {"topic":"вітання","q":"Як сказати «до побачення»?","o":["Dzień dobry","Do widzenia","Dobranoc","Cześć"],"a":1},
+    {"topic":"представлення","q":"«Nazywam się Mami Takada» означає:","o":["Я живу в Кракові","Мене звати Мамі Такада","Мені приємно","Я не розумію"],"a":1},
+    {"topic":"фрази для класу","q":"Не зрозумів слово. Кажеш: «Proszę ___.»","o":["powtórzyć","dziękuję","dobranoc","tutaj"],"a":0},
+    {"topic":"вітання","q":"Зустрічаєш друга вранці, неформально:","o":["Dzień dobry","Do jutra","Cześć!","Dobry wieczór"],"a":2},
+    {"topic":"орієнтація","q":"«Toaleta jest na prawo» — туалет:","o":["ліворуч","прямо","праворуч","тут"],"a":2},
+    {"topic":"числа","q":"Котре число — «sześć»?","o":["4","5","6","7"],"a":2},
+    {"topic":"числа","q":"Як по-польськи «9»?","o":["siedem","osiem","dziesięć","dziewięć"],"a":3},
+    {"topic":"представлення","q":"Ввічлива відповідь на знайомство:","o":["Nie wiem","Bardzo mi miło","Gdzie jest?","Na razie"],"a":1},
+    {"topic":"фрази для класу","q":"Хочеш спитати, де вода. Почнеш зі слова:","o":["Dziękuję","Przepraszam","Dobranoc","Również"],"a":1},
+    {"topic":"формуляр","q":"Mami каже «Jestem Japonką». Це:","o":["ім’я","адреса","національність","номер телефону"],"a":2}
+  ]
+}

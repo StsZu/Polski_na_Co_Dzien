@@ -1,0 +1,175 @@
+{
+  "id": "11",
+  "title": "Rodzina",
+  "goal": "Повторюємо: члени родини · сімейний стан (żonaty/panna…) · присвійні займенники Czyj/Czyja/Czyje · pory dnia (rano…o północy) · як часто (zawsze…nigdy)",
+  "vocab": [
+    { "group": "Rodzina — родина", "items": [
+      ["rodzice","батьки"],["matka / mama","мати / мама"],["ojciec / tata","батько / тато"],
+      ["mąż","чоловік"],["żona","дружина"],["dzieci","діти"],["syn","син"],["córka","донька"],
+      ["rodzeństwo","брати й сестри (разом)"],["brat","брат"],["siostra","сестра"],
+      ["dziadkowie","дідусь і бабуся"],["dziadek","дідусь"],["babcia","бабуся"],
+      ["wnuk","онук"],["bliźniak","близнюк"]
+    ]},
+    { "group": "Krewni i powinowaci — родичі та свояки", "items": [
+      ["wujek","дядько"],["ciocia","тітка"],["kuzyn / kuzynka","двоюрідний брат / сестра"],
+      ["teść / teściowa","тесть, свекор / теща, свекруха"],["synowa","невістка"],
+      ["bratowa","братова (дружина брата)"],["bratanek / bratanica","племінник / племінниця (по братові)"],
+      ["narzeczona","наречена"],["dziewczyna / chłopak","дівчина / хлопець"],["jedynaczka","єдина дитина (ж.)"]
+    ]},
+    { "group": "Stan cywilny — сімейний стан", "items": [
+      ["żonaty","одружений (про чоловіка)"],["mężatka","одружена (про жінку)"],
+      ["kawaler","неодружений, парубок"],["panna","незаміжня, панна"],
+      ["rozwiedziony / rozwiedziona","розлучений / розлучена"],["małżeństwo","подружжя / шлюб"],
+      ["stuprocentowy","стовідсотковий"],["drzewo genealogiczne","родовідне дерево"]
+    ]},
+    { "group": "Pory dnia i częstotliwość — час доби та частота", "items": [
+      ["rano","зранку"],["przed południem","до полудня"],["w południe","опівдні"],
+      ["po południu","після полудня"],["wieczorem","увечері"],["w nocy","вночі"],["o północy","опівночі"],
+      ["zawsze","завжди"],["codziennie","щодня"],["zwykle","зазвичай"],["często","часто"],
+      ["od czasu do czasu","час від часу"],["rzadko","рідко"],["nigdy","ніколи"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"чий?", "title":"Czyj? Czyja? Czyje?", "formula":"czyj (m) · czyja (ż) · czyje (n) — узгодь із родом речі", "ex":"Czyj samochód? · Czyja książka? · Czyje zdjęcie?" },
+    { "badge":"присвійні", "title":"mój / twój / nasz…", "formula":"ja → mój/moja/moje · ty → twój/twoja/twoje · my → nasz/nasza/nasze · on,ono → jego · ona → jej · oni,one → ich (без змін за родом)", "ex":"mój brat · moja siostra · moje auto · jego matka · jej lekcje · nasz gospodarz · ich restauracja" },
+    { "badge":"коли?", "title":"Kiedy? — pory dnia", "formula":"rano · przed południem · w południe · po południu · wieczorem · w nocy · o północy", "ex":"Rano robię śniadanie. · W południe jem obiad. · Wieczorem oglądam telewizję." }
+  ],
+  "czytanie": [
+    { "block": "A. Czyja to rodzina? · члени родини й сімейний стан", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · czyja to rodzina? · трек 111A1",
+        "words":"Mami · Angela · Javier · Uwe · Karolina",
+        "note":"Розглянь п’ять родин на малюнку й скажи, чия яка." },
+      { "type":"dia", "title":"Ćwiczenie 2 · Uwe i Mami · трек 111A2", "lines":[
+        ["Uwe","Moja rodzina? Ale która, aktualna czy ta pierwsza? To trochę skomplikowane. Aktualnie mam żonę i dwoje dzieci. Jestem drugi raz żonaty. Nie mam kontaktu z pierwszą żoną, ale wiem, że ona ma drugiego męża. Nie wiem, czy ma dzieci.","Моя родина? Але яка, теперішня чи перша? Це трохи складно. Зараз маю дружину і двох дітей. Я одружений удруге. Не маю контакту з першою дружиною, але знаю, що вона має другого чоловіка. Не знаю, чи має дітей."],
+        ["Mami","Nie wiem, co powiedzieć: normalnie, mam mamę, tatę. Też mam siostrę i brata. Ale nie lubię rozmawiać o mojej rodzinie.","Не знаю, що сказати: звичайно, маю маму, тата. Також маю сестру й брата. Але не люблю розмовляти про свою родину."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Angela · трек 111A2", "lines":[
+        ["Angela","Już nie mam męża. To po polsku się mówi, że jestem rozwiedziona, tak? Jestem pół Polką, pół Angielką. Moja matka była Polką. Nie znam dobrze historii mojej rodziny. Wiem, że ojciec mojej matki, a mój dziadek, był pilotem w RAF-ie. Moja babcia była stuprocentową Polką z bardzo arystokratycznej rodziny. Niestety, już nie żyje. A mój ojciec i jego rodzina są Anglikami.","Я вже не маю чоловіка. Польською кажуть, що я розлучена, так? Я наполовину полька, наполовину англійка. Моя мати була полькою. Я погано знаю історію своєї родини. Знаю, що батько моєї матері, мій дідусь, був пілотом у RAF. Моя бабуся була стовідсотковою полькою з дуже аристократичної родини. На жаль, її вже немає. А мій батько і його родина — англійці."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · Javier i Karolina · трек 111A2", "lines":[
+        ["Javier","Mam dużą rodzinę: rodziców, braci, siostry, kuzynów i kuzynki… Wszyscy mieszkają w jednym mieście. To bardzo fajnie, bo możemy się często spotykać. Kto to jest Maria Elena? Yyy, to moja znajoma, to znaczy przyjaciółka…, to znaczy moja dziewczyna… Ale jeszcze nie żona! Nie mam żony, jestem kawalerem.","Маю велику родину: батьків, братів, сестер, двоюрідних братів і сестер… Усі живуть в одному місті. Це дуже добре, бо можемо часто зустрічатися. Хто така Марія Елена? Еее, це моя знайома, тобто подруга…, тобто моя дівчина… Але ще не дружина! Не маю дружини, я неодружений."],
+        ["Karolina","Mieszkam z rodzicami i bratem. Mój brat i ja jesteśmy bliźniakami. Mam też ciocię — siostrę mojego taty i wujka — brata mojego taty. Moja mama nie ma rodzeństwa. Moi dziadkowie i babcie mieszkają w Gdańsku i Poznaniu, dlatego rzadko się spotykamy — tylko raz, dwa razy w roku. Oczywiście, mam chłopaka. Bardzo się kochamy, ale jeszcze niczego nie planujemy. Jestem panną.","Живу з батьками і братом. Мій брат і я — близнюки. Маю також тітку — сестру мого тата і дядька — брата мого тата. Моя мама не має братів і сестер. Мої дідусі й бабусі живуть у Ґданську і Познані, тому рідко зустрічаємося — лише раз-два на рік. Звичайно, маю хлопця. Дуже кохаємося, але ще нічого не плануємо. Я незаміжня."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 6 · Gdzie kto jest? · трек 111A6", "lines":[
+        ["—","Mam tylko jedną siostrę, ma na imię Basia. Jest już mężatką i ma jedno dziecko — córkę Amelkę (3 lata). Jej mąż Robert jest znanym aktorem. Nasza matka, też Barbara, teraz jest rozwiedziona, ale miała dwóch mężów. Mój ojciec ma na imię Tadeusz, a ojciec mojej siostry Stanisław. Moi dziadkowie to Krystyna i Zygmunt, ale już nie żyją.","Маю лише одну сестру, її звати Бася. Вона вже заміжня й має одну дитину — доньку Амельку (3 роки). Її чоловік Роберт — відомий актор. Наша мати, теж Барбара, тепер розлучена, але мала двох чоловіків. Мого батька звати Тадеуш, а батька моєї сестри — Станіслав. Мої дідусь і бабуся — Кристина і Зиґмунт, але їх уже немає."],
+        ["Jacek","Mam żonę Zosię i dwoje dzieci: Janka (21 lat) i Małgosię (13 lat). Janek ma dziewczynę, ma na imię Dorota. Nie mają jeszcze dzieci. A ja jestem Jacek. Bardzo mi miło Państwa poznać.","Маю дружину Зосю і двох дітей: Янка (21 рік) і Малґосю (13 років). Янек має дівчину, її звати Дорота. Дітей ще не мають. А я — Яцек. Дуже приємно з вами познайомитися."]
+      ]},
+      { "type":"dia", "title":"Kasia i Wojtek to rodzeństwo · стосунки в родині", "lines":[
+        ["—","Kasia i Wojtek to siostra i brat. Kasia i Wojtek to rodzeństwo.","Кася і Войтек — сестра і брат. Кася і Войтек — брат і сестра (rodzeństwo)."],
+        ["—","Dominik i Alina to mąż i żona. Dominik i Alina to małżeństwo.","Домінік і Аліна — чоловік і дружина. Домінік і Аліна — подружжя."],
+        ["—","Dominik i Alina to tata i mama. Dominik i Alina to rodzice.","Домінік і Аліна — тато і мама. Домінік і Аліна — батьки."],
+        ["—","Sabina i Wacław to babcia i dziadek. Sabina i Wacław to dziadkowie.","Сабіна і Вацлав — бабуся і дідусь. Сабіна і Вацлав — дідусь і бабуся."],
+        ["—","Sabina i Wacław, Dominik i Alina, Kasia i Wojtek to rodzina.","Сабіна і Вацлав, Домінік і Аліна, Кася і Войтек — це родина."]
+      ]}
+    ]},
+    { "block": "B. Czyj? Czyja? Czyje? · присвійні займенники", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · Dialog 1–3 · трек 111B1", "lines":[
+        ["Pani Joanna","Czyj samochód blokuje garaż?","Чия машина блокує гараж?"],
+        ["Pan Grzegorz","Nie wiem, na pewno nie nasz.","Не знаю, точно не наша."],
+        ["Nauczycielka","Przepraszam, czyja to książka?","Перепрошую, чия це книжка?"],
+        ["Mami","Nie moja. Myślę, że Javiera.","Не моя. Думаю, що Хав’єра."],
+        ["Angela","Czyje to zdjęcie?","Чиє це фото?"],
+        ["Javier","To? To moje. To moja koleżanka, Maria Elena.","Це? Це моє. Це моя подруга, Марія Елена."],
+        ["Angela","I zdjęcie koleżanki masz w portfelu?! To musi być bardzo dobra koleżanka!","І фото подруги маєш у гаманці?! Це, мабуть, дуже добра подруга!"]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 4 · „Glossa” · Angela i Mami · трек 111B4", "lines":[
+        ["Angela","Cześć, Mami! Czyje to pióro?","Привіт, Мамі! Чия це ручка (перо)?"],
+        ["Mami","Nie wiem, nie moje. Myślę, że Uwego albo Javiera.","Не знаю, не моя. Думаю, що Уве чи Хав’єра."],
+        ["Angela","A gdzie oni są?","А де вони?"],
+        ["Mami","Uwe, jego żona i jej dzieci są na obiedzie. A Javier pisze e-mail do koleżanki. Ale ona to chyba nie jego koleżanka, tylko jego dziewczyna.","Уве, його дружина і її діти — на обіді. А Хав’єр пише e-mail подрузі. Але вона, мабуть, не його подруга, а його дівчина."],
+        ["Angela","On ma dużo koleżanek, hi, hi. Zawsze mówi: „moja koleżanka”!","Він має багато подруг, хі-хі. Завжди каже: «моя подруга»!"],
+        ["Mami","Tak, szkoda…","Так, шкода…"]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 3 · transformacje — заміни на присвійний",
+        "words":"Syn twojej siostry → Syn mojej siostry · Moja matka jest lekarką → Jego matka jest lekarką · Jej lekcje są ciekawe → Nasze lekcje są ciekawe · Idziemy do kina z naszym gospodarzem (wy) · Twoja nauczycielka ma na imię Aneta → Ich nauczycielka… · Twoje zadanie domowe jest dobre → Jego zadanie domowe…",
+        "note":"Стеж за родом речі: czyj/czyja/czyje." }
+    ]},
+    { "block": "C. Rano czy wieczorem? · pory dnia", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · dopasuj zdania do scenek · трек 111C1", "lines":[
+        ["1","Przed południem mam lekcje polskiego w „Glossie”.","До полудня маю уроки польської в «Ґлоссі»."],
+        ["2","Rano pani Joanna robi dla mnie smaczne śniadanie.","Зранку пані Йоанна робить мені смачний сніданок."],
+        ["3","W nocy śpię. Jutro jest nowy pracowity dzień.","Уночі сплю. Завтра новий робочий день."],
+        ["4","Po południu jestem bardzo zmęczona i muszę odpocząć. Javier mówi, że mam siestę.","Після полудня я дуже втомлена і мушу відпочити. Хав’єр каже, що в мене сієста."],
+        ["5","O północy wracam do domu.","Опівночі повертаюся додому."],
+        ["6","W południe jem obiad, zwykle zupę. Bardzo lubię polskie zupy!","Опівдні їм обід, зазвичай суп. Дуже люблю польські супи!"],
+        ["7","Wieczorem spotykam się z Angelą i innymi znajomymi ze szkoły. Ale nie lubię tańczyć.","Увечері зустрічаюся з Анджелою та іншими знайомими зі школи. Але не люблю танцювати."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 2 · Kiedy? — przeciwieństwa (протилежності)",
+        "words":"rano ↔ wieczorem · przed południem ↔ po południu · w południe ↔ o północy · w dzień ↔ w nocy" },
+      { "type":"dia", "title":"Ćwiczenie 3 · W rodzinie Majów · трек 111C3", "lines":[
+        ["—","W rodzinie Majów wszystko jest uporządkowane: rano pani Joanna robi dla wszystkich śniadanie, ale Karolina nie je, bo jest na diecie (jak zawsze). Pan Grzegorz tylko pije kawę, bo nie ma czasu.","У родині Маїв усе впорядковано: зранку пані Йоанна готує всім сніданок, але Кароліна не їсть, бо на дієті (як завжди). Пан Ґжеґож лише п’є каву, бо не має часу."],
+        ["—","Przed południem bliźniaki mają zajęcia, pan Grzegorz jeździ do klientów, a pani Joanna pracuje w domu. Codziennie w południe pan Grzegorz dzwoni do żony, Karol ma przerwę i je drugie śniadanie, a Karolina spotyka się z chłopakiem.","До полудня близнюки мають заняття, пан Ґжеґож їздить до клієнтів, а пані Йоанна працює вдома. Щодня опівдні пан Ґжеґож телефонує дружині, Кароль має перерву і їсть другий сніданок, а Кароліна зустрічається з хлопцем."],
+        ["—","Po południu rodzeństwo robi zakupy, mąż jeszcze pracuje, a żona albo coś gotuje na obiad, albo pisze e-maile. Wieczorem wszyscy jedzą razem kolację w domu lub w restauracji, a następnie małżeństwo ogląda telewizję, córka gra na komputerze, a syn uczy się.","Після полудня діти роблять покупки, чоловік ще працює, а дружина або щось готує на обід, або пише листи. Увечері всі разом вечеряють удома чи в ресторані, а потім подружжя дивиться телевізор, донька грає на комп’ютері, а син учиться."]
+      ]}
+    ]},
+    { "block": "D. Jak często? · частота дій", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · Angela i Uwe · трек 111D1", "lines":[
+        ["Angela","Uwe, jak często pracujesz?","Уве, як часто ти працюєш?"],
+        ["Uwe","He, he, zawsze, od rana do wieczora. Jestem pracoholikiem.","Хе-хе, завжди, з ранку до вечора. Я трудоголік."],
+        ["Angela","A jak często dzwonisz do żony?","А як часто телефонуєш дружині?"],
+        ["Uwe","Codziennie, to znaczy siedem razy w tygodniu.","Щодня, тобто сім разів на тиждень."],
+        ["Angela","A czym jeździsz do pracy?","А чим їздиш на роботу?"],
+        ["Uwe","Zwykle samochodem, ale od czasu do czasu taksówką.","Зазвичай машиною, але час від часу таксі."],
+        ["Angela","A jak często masz urlop?","А як часто маєш відпустку?"],
+        ["Uwe","Bardzo rzadko. Praktycznie tylko raz w roku.","Дуже рідко. Практично лише раз на рік."],
+        ["Angela","A jak często chodzisz na dyskotekę?","А як часто ходиш на дискотеку?"],
+        ["Uwe","Nigdy nie chodzę na dyskotekę. Jestem za stary. A teraz ja mam pytanie: dlaczego tak dużo pytasz?","Ніколи не ходжу на дискотеку. Я застарий. А тепер у мене питання: чому ти так багато питаєш?"],
+        ["Angela","Bo lubię wszystko wiedzieć.","Бо люблю все знати."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 2 · Jak często? — шкала частоти",
+        "words":"max. zawsze · codziennie · zwykle · często · od czasu do czasu · rzadko · bardzo rzadko · prawie nigdy · nigdy min.",
+        "note":"Від «завжди» (max) до «ніколи» (min)." }
+    ]},
+    { "block": "E/F. Twoje drzewo genealogiczne · powtórzenie", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · моя родина (zdjęcie) · трек 111E1", "lines":[
+        ["—","Miałem dziadka Iwana i babcię Jewdokię. Ich córka, moja matka Aleksandra, była żoną mojego ojca Włodzimierza. Ojciec Włodzimierz pochodził z rodziny Mykyty i Tatiany.","Я мав дідуся Івана і бабусю Євдокію. Їхня донька, моя мати Олександра, була дружиною мого батька Володимира. Батько Володимир походив із родини Микити і Тетяни."],
+        ["—","Mam żonę Larysę oraz dwóch synów — Romana i Rusłana. Rusłan ma syna Mirosława, który ma 8 lat i jest moim wnukiem. Żonę Rusłana nazywają Anastazja, a żona Romana ma na imię Lilia.","Маю дружину Ларису та двох синів — Романа і Руслана. Руслан має сина Мирослава, якому 8 років і який є моїм онуком. Дружину Руслана звати Анастасія, а дружину Романа — Лілія."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_11.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_11/ (116–128.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 2 · Rodzina Łukasza", "lines":[
+      ["—","Łukasz ma 27 lat, jest inżynierem elektronikiem i mieszka we Wrocławiu. Łukasz nie jest jeszcze żonaty, ma dziewczynę, ale nie jest pewien, czy to jest na sto procent ta dziewczyna. Jego mama mówi, że on woli być kawalerem.","Лукаш має 27 років, він інженер-електронік і живе у Вроцлаві. Лукаш ще не одружений, має дівчину, але не впевнений, чи це на сто відсотків та дівчина. Його мама каже, що він воліє бути неодруженим."],
+      ["—","Brat Łukasza, Andrzej, ma sympatyczną żonę Joannę i dwoje dzieci. Jego syn Mateusz ma siedem lat, a córka Zuzia ma cztery lata. W weekendy Łukasz często gra w tenisa z bratową Joanną, bo Andrzej nie umie grać. Czasami chodzi do kina z bratankiem na filmy dla dzieci.","Брат Лукаша, Анджей, має приємну дружину Йоанну і двох дітей. Його син Матеуш має сім років, а донька Зузя — чотири роки. На вихідних Лукаш часто грає в теніс із братовою Йоанною, бо Анджей не вміє грати. Іноді ходить у кіно з племінником на фільми для дітей."],
+      ["—","Zuzia i Mateusz nie mają cioci, bo ich tata nie ma siostry, a mama jest jedynaczką. W niedzielę Andrzej często zaprasza na obiad całą rodzinę. Od czasu do czasu jest też dziadek Ignacy z babcią Zosią. Rodzice Łukasza czekają na synową, a brat na bratową, ale Łukasz mówi, że jest za młody i jeszcze ma czas.","Зузя і Матеуш не мають тітки, бо їхній тато не має сестри, а мама — єдина дитина. У неділю Анджей часто запрошує на обід усю родину. Час від часу буває й дідусь Іґнацій із бабусею Зосею. Батьки Лукаша чекають на невістку, а брат — на братову, але Лукаш каже, що замолодий і ще має час."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 12 · Dzień Magdy", "lines":[
+      ["—","Magda wstaje codziennie o siódmej trzydzieści i robi śniadanie dla dzieci. Ona ma córkę Anię i syna Mateusza. Później ubiera się i idzie z dziećmi do szkoły. Przed południem chodzi na zakupy. Zwykle robi zakupy na targu, ale od czasu do czasu też w hipermarkecie.","Маґда встає щодня о пів на восьму і готує сніданок для дітей. Вона має доньку Аню і сина Матеуша. Потім одягається й іде з дітьми до школи. До полудня ходить за покупками. Зазвичай купує на ринку, але час від часу й у гіпермаркеті."],
+      ["—","Kiedy wraca do domu, sprząta i gotuje obiad. W południe często spotyka się z koleżanką na kawie. O 14 odbiera dzieci ze szkoły i idą do domu na obiad. Wieczorem wraca do domu mąż Magdy, Piotrek. On zawsze długo pracuje. Jedzą razem kolację, potem dzieci grają w szachy, a małżeństwo rozmawia i czyta książki. Oni rzadko wychodzą z domu.","Коли повертається додому, прибирає і готує обід. Опівдні часто зустрічається з подругою на каву. О 14-й забирає дітей зі школи, і вони йдуть додому на обід. Увечері додому повертається чоловік Маґди, Пьотрек. Він завжди довго працює. Вони разом вечеряють, потім діти грають у шахи, а подружжя розмовляє і читає книжки. Вони рідко виходять з дому."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L11.txt",
+  "mistakes": [
+    ["Jestem żonaty (про жінку)","Jestem mężatką","Жінка про шлюб каже mężatka, не żonaty."],
+    ["Czyj jest ta książka?","Czyja jest ta książka?","Узгодь рід: ta książka → czyja."],
+    ["jej brat / jejego brat","jej brat","«jej» не змінюється за родом — однакове для m/ż/n."],
+    ["w noc / w południu","w nocy / w południe","Усталені форми: w nocy, w południe (але po południu)."]
+  ],
+  "drills": [
+    ["Спитай, чия це машина.","Czyj to samochód?"],
+    ["Скажи: це моя сестра.","To jest moja siostra."],
+    ["Скажи: це його дружина і її діти.","To jego żona i jej dzieci."],
+    ["Скажи про себе: я одружений / я заміжня.","Jestem żonaty. / Jestem mężatką."],
+    ["Скажи, що ти неодружений / незаміжня.","Jestem kawalerem. / Jestem panną."],
+    ["Назви чотири пори доби по-польськи.","rano, w południe, wieczorem, w nocy"],
+    ["Спитай друга, як часто він працює.","Jak często pracujesz?"],
+    ["Скажи: я завжди снідаю зранку.","Zawsze rano jem śniadanie."],
+    ["Скажи: час від часу їжджу таксі.","Od czasu do czasu jeżdżę taksówką."],
+    ["Скажи, що ти ніколи не ходиш на дискотеку.","Nigdy nie chodzę na dyskotekę."],
+    ["Назви: батьки, брат і сестра (разом), подружжя.","rodzice, rodzeństwo, małżeństwo"],
+    ["Скажи: моя бабуся вже не живе.","Moja babcia już nie żyje."]
+  ],
+  "quiz": [
+    {"topic":"rodzina","q":"«rodzeństwo» — це:","o":["батьки","брати й сестри","дідусь і бабуся","подружжя"],"a":1},
+    {"topic":"stan cywilny","q":"Жінка, яка має чоловіка, це:","o":["panna","mężatka","żonaty","kawaler"],"a":1},
+    {"topic":"stan cywilny","q":"Чоловік, який ще не має дружини:","o":["mąż","żonaty","kawaler","wdowiec"],"a":2},
+    {"topic":"czyj","q":"«___ to książka?» (ta książka)","o":["Czyj","Czyja","Czyje","Czyi"],"a":1},
+    {"topic":"zaimki","q":"«To jest ___ brat.» (ja, чол. рід)","o":["moja","moje","mój","mojego"],"a":2},
+    {"topic":"zaimki","q":"Присвійний для «ona» (вона) — який?","o":["jego","jej","ich","jejej"],"a":1},
+    {"topic":"rodzina","q":"«bratowa» — це:","o":["сестра брата","дружина брата","дочка брата","мати брата"],"a":1},
+    {"topic":"pory dnia","q":"Протилежність до «rano»:","o":["w południe","wieczorem","przed południem","o północy"],"a":1},
+    {"topic":"pory dnia","q":"«o północy» означає:","o":["опівдні","зранку","опівночі","увечері"],"a":2},
+    {"topic":"jak często","q":"Найвища частота (max) на шкалі:","o":["zwykle","często","zawsze","rzadko"],"a":2}
+  ]
+}

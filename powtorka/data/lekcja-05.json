@@ -1,0 +1,179 @@
+{
+  "id": "05",
+  "title": "Jesteś instruktorem tanga?",
+  "goal": "Повторюємо: kim jesteś z zawodu · zawody (професії) · czym się interesujesz · ile masz lat · числа 20–100 · rok / lata / lat · narzędnik (орудний відмінок)",
+  "vocab": [
+    { "group": "Zawody — професії", "items": [
+      ["aktor / aktorka","актор / акторка"],["nauczyciel / nauczycielka","вчитель / вчителька"],
+      ["lekarz","лікар"],["kucharz","кухар"],["kelner","офіціант"],["fotograf","фотограф"],
+      ["informatyk","програміст"],["inżynier","інженер"],["policjant","поліцейський"],
+      ["muzyk","музикант"],["tancerz","танцюрист"],["urzędnik","службовець"],["rolnik","фермер"],
+      ["dziennikarz","журналіст"],["biznesmen","бізнесмен"],["dentysta","стоматолог"],
+      ["pisarz","письменник"],["malarz","художник"],["emeryt","пенсіонер"]
+    ]},
+    { "group": "Liczebniki 20–100 — числа", "items": [
+      ["dwadzieścia","20"],["trzydzieści","30"],["czterdzieści","40"],["pięćdziesiąt","50"],
+      ["sześćdziesiąt","60"],["siedemdziesiąt","70"],["osiemdziesiąt","80"],["dziewięćdziesiąt","90"],
+      ["sto","100"],["plus / minus","плюс / мінус"]
+    ]},
+    { "group": "Wiek i rodzina — вік та родина", "items": [
+      ["Ile masz lat?","скільки тобі років?"],["Ile pani ma lat?","скільки Вам років?"],
+      ["mam 20 lat","мені 20 років"],["(1) rok","рік"],["2,3,4 lata","роки"],["5…90 lat","років"],
+      ["prawie","майже"],["pół / i pół","половина / з половиною"],
+      ["rodzina","родина"],["żona","дружина"],["mąż","чоловік"],["syn","син"]
+    ]},
+    { "group": "Zainteresowania — зацікавлення", "items": [
+      ["Kim jesteś z zawodu?","ким ти за фахом?"],["Czym się interesujesz?","чим ти цікавишся?"],
+      ["interesuję się muzyką","цікавлюся музикою"],["interesuję się sportem","цікавлюся спортом"],
+      ["interesuję się literaturą","цікавлюся літературою"],["lubię słuchać muzyki","люблю слухати музику"],
+      ["lubię grać w tenisa","люблю грати в теніс"],["studiować","навчатися (у виші)"],
+      ["zostać / być lekarzem","стати / бути лікарем"],["utalentowany","талановитий"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"орудний", "title":"Narzędnik — kim? czym?", "formula":"чол./сер.: + -em (k,g → -iem) · жін.: + -ą", "ex":"On jest studentem. · Ona jest studentką. · Ono jest dzieckiem." },
+    { "badge":"прикметник", "title":"Narzędnik — jakim? jaką?", "formula":"чол./сер.: -ym (k,g → -im) · жін.: -ą", "ex":"On jest dobrym studentem. · Ona jest dobrą studentką. · wysokim mężczyzną" },
+    { "badge":"вік", "title":"rok / lata / lat", "formula":"1 → rok · 2,3,4 → lata · 5–21, 22… → lat", "ex":"Mam 1 rok. · Mam 23 lata. · Mam 20 lat." }
+  ],
+  "czytanie": [
+    { "block": "A. Kto to jest? Jaki on jest?", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · prezentacja · трек 060", "lines":[
+        ["—","To jest Uwe. Uwe Stein. On jest z Niemiec. Mieszka w Berlinie. Jest wysoki, przystojny i wysportowany. Uwe to biznesmen. Ma 44 lata. Lubi pracować.","Це Уве. Уве Штайн. Він із Німеччини. Живе в Берліні. Він високий, гарний і спортивний. Уве — бізнесмен. Йому 44 роки. Любить працювати."],
+        ["?","Kto to jest? — To jest Uwe.","Хто це? — Це Уве."],
+        ["?","Skąd on jest? — On jest z Niemiec.","Звідки він? — Він із Німеччини."],
+        ["?","Jaki on jest? — On jest wysoki, przystojny i wysportowany.","Який він? — Він високий, гарний і спортивний."],
+        ["?","Ile ma lat? — On ma 44 lata.","Скільки йому років? — Йому 44 роки."],
+        ["?","Co lubi robić? — Lubi pracować.","Що він любить робити? — Любить працювати."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 2 · prezentacja — ułóż pytania",
+        "words":"Angela Brown · Anglia, Londyn · 27 lat · lektorka języka angielskiego · wysoka, szczupła, ładna, młoda · czytać książki",
+        "note":"Зроби аналогічну презентацію Анджели та постав запитання до тексту." },
+      { "type":"ref", "title":"Ćwiczenie 3 · autoprezentacja",
+        "words":"Jak masz na imię? · Jak się nazywasz? · Skąd jesteś? · Gdzie mieszkasz? · Jaki/jaka jesteś? · Ile masz lat? · Co lubisz robić?",
+        "note":"Напиши власну презентацію, відповідаючи на ці питання." }
+    ]},
+    { "block": "B. Liczebniki 20–100", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · dziesiątki · трек 061",
+        "words":"dwadzieścia (20) · trzydzieści (30) · czterdzieści (40) · pięćdziesiąt (50) · sześćdziesiąt (60) · siedemdziesiąt (70) · osiemdziesiąt (80) · dziewięćdziesiąt (90) · sto (100)" },
+      { "type":"ref", "title":"Ćwiczenie 3 · matematyka — ile to jest?",
+        "words":"31 + 23 = pięćdziesiąt cztery · 14 + 33 · 16 + 13 · 33 + 44 · 72 + 18 · 79 − 11 · 65 − 22 · 96 − 12 · 77 − 55 · 110 − 9",
+        "note":"plus (+) · minus (−) · jest / równa się (=)" },
+      { "type":"dia", "title":"Dialog 1 · ile masz lat? · трек 062", "lines":[
+        ["Mami","Karol, ile masz lat?","Кароль, скільки тобі років?"],
+        ["Karol","Prawie 18.","Майже 18."],
+        ["Mami","Prawie?","Майже?"],
+        ["Karol","17 i pół. A ty?","17 з половиною. А тобі?"],
+        ["Mami","A ja mam 20 lat.","А мені 20 років."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · ile pani ma lat? · трек 063", "lines":[
+        ["Mami","Ile pani ma lat?","Скільки Вам років?"],
+        ["Pani Maj","Dlaczego pytasz?","Чому питаєш?"],
+        ["Mami","Ćwiczę liczebniki.","Треную числа."],
+        ["Pani Maj","Wiesz, w Polsce nie pytamy kobiet, ile mają lat. To trochę nieelegancko, ale nie ma problemu, ja mam 43 lata, a mój mąż, Grzegorz, 45 lat.","Знаєш, у Польщі не питають жінок про вік. Це трохи неввічливо, але нема проблеми, мені 43 роки, а моєму чоловікові, Ґжеґожу, 45 років."]
+      ]}
+    ]},
+    { "block": "C. Zawody", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · kto to jest? · трек 064",
+        "words":"aktor · fotograf · policjant · inżynier · nauczyciel · muzyk · emeryt · rolnik · kelner · biznesmen · urzędnik · lekarz · tancerz · dziennikarz · kucharz · informatyk · dentysta" },
+      { "type":"ref", "title":"Ćwiczenie 2 · forma żeńska -ka (alternacja rz : r)",
+        "words":"barman → barmanka · kelner → kelnerka · nauczyciel → nauczycielka · lekarz → lekarka · dziennikarz → dziennikarka · kucharz → kucharka · tancerz → tancerka · artysta → artystka",
+        "note":"UWAGA! pan/pani: architekt, taksówkarz, inżynier, minister, prezydent, muzyk, fotograf, kierowca, profesor — без жіночої форми." },
+      { "type":"ref", "title":"Ćwiczenie 3 · kto to jest? jaki on jest?",
+        "words":"aktor · aktorka · malarz · polityk · zdolna · dobry · utalentowany · atrakcyjny",
+        "note":"Напр.: To jest zdolna aktorka Nicole Kidman." }
+    ]},
+    { "block": "D. Kim ona jest?", "items": [
+      { "type":"dia", "title":"Dialog 1 · rodzina · трек 065", "lines":[
+        ["—","Javier i Uwe siedzą razem przy stoliku, jest przerwa.","Хав’єр і Уве сидять разом за столиком, перерва."],
+        ["Javier","O! Co masz? Co to jest?","О! Що маєш? Що це?"],
+        ["Uwe","To? To jest fotografia. Tu jest moja rodzina.","Це? Це фотографія. Тут моя родина."],
+        ["Javier","To jest twoja żona, a to twoje dziecko, tak?","Це твоя дружина, а це твоя дитина, так?"],
+        ["Uwe","Tak. Moja żona Anna i mój syn Eric.","Так. Моя дружина Анна і мій син Ерік."],
+        ["Javier","Twoja żona jest bardzo ładna — jest piękna!","Твоя дружина дуже гарна — вона красива!"],
+        ["Uwe","O tak! Jest piękna i utalentowana. Ona jest aktorką. Jest bardzo popularną aktorką. Pracuje w teatrze w Berlinie.","О так! Вона красива й талановита. Вона акторка. Дуже популярна акторка. Працює в театрі в Берліні."],
+        ["Javier","A ty, kim jesteś z zawodu?","А ти, ким ти за фахом?"],
+        ["Uwe","Jestem biznesmenem. A ty?","Я бізнесмен. А ти?"],
+        ["Javier","To skomplikowane…, ale z zawodu jestem muzykiem. Gram na gitarze, akordeonie, na pianinie… Jestem też instruktorem tanga.","Це складно…, але за фахом я музикант. Граю на гітарі, акордеоні, на піаніно… Я ще й інструктор танго."],
+        ["Uwe","Hm, jesteś muzykiem i umiesz tańczyć tango.","Гм, ти музикант і вмієш танцювати танго."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 1 · prawda czy nieprawda?",
+        "words":"Uwe nie ma rodziny. (N) · Syn ma na imię Eric. (P) · Anna nie jest atrakcyjna. (N) · Uwe jest aktorem. (N) · Javier umie tańczyć tango. (P) · Javier jest muzykiem. (P)" },
+      { "type":"ref", "title":"Ćwiczenie 2 · mianownik czy narzędnik?",
+        "words":"Eric to dobry syn → Eric jest dobrym synem. · Kasia to ambitna studentka → jest ambitną studentką. · On jest świetnym kucharzem. · Agnieszka to miła sekretarka. · Jan jest wesołym mężczyzną. · Warszawa to stolica Polski. · Picasso to popularny malarz. · Kraków to stare miasto. · Oscypek to regionalny ser. · Centrum Manggha to nowoczesny budynek." },
+      { "type":"dia", "title":"Ćwiczenie 3 · Co czytasz?", "lines":[
+        ["Javier","Cześć Mami! Co czytasz?","Привіт, Мамі! Що читаєш?"],
+        ["Mami","Cześć Javier! Czytam książkę biograficzną.","Привіт, Хав’єре! Читаю біографічну книжку."],
+        ["Javier","A kto to jest?","А хто це?"],
+        ["Mami","To jest Witkacy.","Це Віткаци."],
+        ["Javier","Wi-tka-cy???","Ві-тка-ци???"],
+        ["Mami","Tak. To bardzo popularny polski malarz, pisarz, dramaturg, fotograf i filozof, hmmm…!","Так. Це дуже популярний польський художник, письменник, драматург, фотограф і філософ, гммм…!"],
+        ["Javier","Niestety, nie znam.","На жаль, не знаю."],
+        ["Mami","Och, Javier, nie martw się! Ja znam Witkacego, bo interesuję się sztuką i malarstwem. Ale na przykład tango, czy akordeon, to dla mnie czarna magia!","Ох, Хав’єре, не журися! Я знаю Віткаци, бо цікавлюся мистецтвом і малярством. Але, наприклад, танго чи акордеон — це для мене китайська грамота!"]
+      ]},
+      { "type":"ref", "title":"Czym się interesujesz? · zainteresowania",
+        "words":"Interesuję się… sportem, boksem, malarstwem impresjonistycznym, historią, piłką nożną, muzyką rockową, fotografią, francuskimi filmami, sportami ekstremalnymi, książkami kryminalnymi…" }
+    ]},
+    { "block": "E. Powtórzenie — ułóż pytania", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · prezentacja Mami · трек 060", "lines":[
+        ["—","To jest Mami. Ona nazywa się Mami Takada. Jest z Japonii. Normalnie mieszka w Tokio, ale teraz mieszka w Krakowie.","Це Мамі. Вона зветься Мамі Такада. Вона з Японії. Зазвичай живе в Токіо, але зараз живе в Кракові."],
+        ["—","Ma 20 lat. Jest niska, szczupła i sympatyczna. Mówi po japońsku, dobrze po angielsku i trochę po polsku. Ona jest dobrą studentką.","Їй 20 років. Вона невисока, струнка й симпатична. Говорить японською, добре англійською і трохи польською. Вона добра студентка."],
+        ["—","Teraz ona intensywnie uczy się języka polskiego, bo planuje studiować malarstwo w Polsce, a konkretnie w Krakowie. Interesuje się muzyką rockową, malarstwem i architekturą. Ona bardzo lubi malować.","Зараз вона інтенсивно вчить польську, бо планує вивчати малярство в Польщі, а конкретно в Кракові. Цікавиться рок-музикою, малярством та архітектурою. Вона дуже любить малювати."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_05-1.pdf (ст. 34–39) · Аудіо: 2_Main_book_audio_podręcznik/lekcja_05/ (060–065.mp3)",
+  "zeszyt": [
+    { "type":"ref", "title":"Ćwiczenie 8 · zawody — професії",
+      "words":"Kelner · Nauczyciel · Fotograf · Informatyk · Rolnik · Muzyk · Inżynier · Policjant · Kucharz · Dentysta · Tancerz · Urzędnik · Lekarz · Biznesmen · Dziennikarz · Emeryt · Aktor" },
+    { "type":"dia", "title":"Ćwiczenie 14 · kim jesteś z zawodu?", "lines":[
+      ["Paola","Cześć, jestem Paola. Jestem Włoszką.","Привіт, я Паола. Я італійка."],
+      ["Michel","Cześć, ja jestem Michel. Jestem Francuzem.","Привіт, я Мішель. Я француз."],
+      ["Paola","Kim jesteś z zawodu?","Ким ти за фахом?"],
+      ["Michel","Jestem jeszcze studentem. Studiuję medycynę, bo chcę zostać lekarzem.","Я ще студент. Вивчаю медицину, бо хочу стати лікарем."],
+      ["Paola","Zostać? Nie rozumiem. Co to znaczy?","Стати? Не розумію. Що це означає?"],
+      ["Michel","To znaczy, że chcę być lekarzem. A ty, kim jesteś?","Це означає, що хочу бути лікарем. А ти, ким ти є?"],
+      ["Paola","Jestem nauczycielką.","Я вчителька."],
+      ["Michel","Czym się interesujesz?","Чим ти цікавишся?"],
+      ["Paola","Interesuję się muzyką, historią sztuki i literaturą. A ty?","Цікавлюся музикою, історією мистецтва і літературою. А ти?"],
+      ["Michel","Interesuję się medycyną naturalną i sportem. Co lubisz robić w weekendy?","Цікавлюся натуральною медициною і спортом. Що любиш робити у вихідні?"],
+      ["Paola","Bardzo lubię spacerować i słuchać muzyki. A ty?","Дуже люблю гуляти і слухати музику. А ти?"],
+      ["Michel","Lubię grać w tenisa.","Люблю грати в теніс."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 4–5 · liczebniki — числа",
+      "words":"40, 25, 36, 72 · 0, 50, 14, 89, 66 · 72, 40, 30, 96 · 22, 12, 58, 49 · 17, 50, 32, 48, 23, 60, 16, 78, 89, 98",
+      "note":"Прочитай числа вголос." }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L05.txt",
+  "mistakes": [
+    ["Jestem biznesmen","Jestem biznesmenem","Після «jestem» — орудний: -em."],
+    ["Ona jest aktorka","Ona jest aktorką","Жіночий рід в орудному: -ą (aktorką)."],
+    ["Mam 44 lat","Mam 44 lata","22, 23, 24, 42, 44… (закінчення 2,3,4) → lata."],
+    ["Interesuję się muzyka","Interesuję się muzyką","«interesować się» вимагає орудного: muzyką."]
+  ],
+  "drills": [
+    ["Спитай неформально, скільки років.","Ile masz lat?"],
+    ["Спитай ввічливо пані, скільки їй років.","Ile pani ma lat?"],
+    ["Скажи: мені 20 років.","Mam 20 lat."],
+    ["Скажи: йому 44 роки.","Ma 44 lata."],
+    ["Скажи: я бізнесмен (орудний).","Jestem biznesmenem."],
+    ["Скажи: вона акторка (орудний).","Ona jest aktorką."],
+    ["Спитай, ким він за фахом.","Kim jesteś z zawodu?"],
+    ["Спитай, чим вона цікавиться.","Czym się interesujesz?"],
+    ["Скажи: цікавлюся музикою і спортом.","Interesuję się muzyką i sportem."],
+    ["Порахуй десятки від 20 до 100.","dwadzieścia, trzydzieści, czterdzieści… sto"],
+    ["Скажи: він добрий студент (орудний).","On jest dobrym studentem."],
+    ["Назви п’ять професій.","aktor, lekarz, kelner, muzyk, nauczyciel"]
+  ],
+  "quiz": [
+    {"topic":"zawód","q":"«Jestem ___» (biznesmen). Який орудний?","o":["biznesmen","biznesmena","biznesmenem","biznesmenie"],"a":2},
+    {"topic":"narzędnik ż","q":"«Ona jest ___» (aktorka):","o":["aktorka","aktorką","aktorce","aktorki"],"a":1},
+    {"topic":"wiek","q":"«Mam 23 ___» — яке слово?","o":["rok","lat","lata","lato"],"a":2},
+    {"topic":"wiek","q":"«Mam 20 ___» — правильно:","o":["rok","lata","lat","roku"],"a":2},
+    {"topic":"liczebniki","q":"Як по-польськи «50»?","o":["czterdzieści","pięćdziesiąt","sześćdziesiąt","piętnaście"],"a":1},
+    {"topic":"liczebniki","q":"«dziewięćdziesiąt» — це:","o":["19","90","99","19"],"a":1},
+    {"topic":"zawody","q":"«lekarz» — це:","o":["вчитель","лікар","кухар","фермер"],"a":1},
+    {"topic":"zainteresowania","q":"Спитати про захоплення: «___ się interesujesz?»","o":["Kim","Czym","Kto","Jak"],"a":1},
+    {"topic":"narzędnik m","q":"«On jest ___ studentem» (dobry):","o":["dobry","dobra","dobrym","dobrego"],"a":2},
+    {"topic":"forma żeńska","q":"Жіноча форма від «nauczyciel»:","o":["nauczycielka","nauczycielowa","nauczycielnica","nauczyciela"],"a":0}
+  ]
+}

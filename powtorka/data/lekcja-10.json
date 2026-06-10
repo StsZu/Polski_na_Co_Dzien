@@ -1,0 +1,168 @@
+{
+  "id": "10",
+  "title": "Uwielbiam polskie jedzenie!",
+  "goal": "Повторюємо: ресторан і кав’ярня · замовлення страв · смаки й оцінки · dopełniacz у запереченні · osobowe zaimki в narzędniku (ze mną, z tobą…)",
+  "vocab": [
+    { "group": "Restauracja i zamawianie — ресторан і замовлення", "items": [
+      ["restauracja","ресторан"],["kawiarnia","кав’ярня"],["kelner / kelnerka","офіціант / офіціантка"],
+      ["zarezerwować stolik","забронювати столик"],["karta / menu","меню"],["zamawiać / zamówić","замовляти / замовити"],
+      ["Co podać?","що подати?"],["Poproszę…","я попрошу…"],["rachunek","рахунок"],
+      ["Czy można tu palić?","тут можна курити?"],["reszta","решта"]
+    ]},
+    { "group": "Dania i potrawy — страви", "items": [
+      ["zupa","суп"],["rosół","бульйон"],["żurek","журек"],["barszcz czerwony","червоний борщ"],
+      ["bigos","бігос"],["gołąbki","голубці"],["pierogi ruskie","вареники руські"],["placki ziemniaczane","деруни"],
+      ["naleśniki","млинці"],["kotlet schabowy","шніцель"],["frytki","картопля фрі"],["surówka","салат із сирих овочів"],
+      ["zapiekanka","запіканка (гарячий багет)"]
+    ]},
+    { "group": "Desery i napoje — десерти й напої", "items": [
+      ["deser","десерт"],["lody","морозиво"],["sernik","сирник"],["szarlotka","яблучний пиріг"],
+      ["tort","торт"],["rurka z kremem","трубочка з кремом"],["koktajl truskawkowy","полуничний коктейль"],
+      ["kompot","компот"],["woda mineralna","мінеральна вода"],["sok owocowy","фруктовий сік"],
+      ["herbata z cytryną","чай із лимоном"],["bita śmietana","збиті вершки"]
+    ]},
+    { "group": "Smaki i opinie — смаки й оцінки", "items": [
+      ["smaczny","смачний"],["pyszny","дуже смачний"],["niedobry","несмачний"],["taki sobie","так собі"],
+      ["tłusty / chudy","жирний / нежирний"],["mocny / łagodny","міцний / м’який"],["ostry / kwaśny","гострий / кислий"],
+      ["słodki / gorzki","солодкий / гіркий"],["słony","солоний"],["zimny / gorący","холодний / гарячий"],
+      ["Jak smakuje?","як смакує?"],["Mam ochotę na…","маю охоту на…"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"замовлення", "title":"dla mnie + M. / proszę + B.", "formula":"Dla mnie + MIANOWNIK · Proszę + BIERNIK", "ex":"Dla mnie kawa z mlekiem. · Proszę kawę z mlekiem. · Proszę kurczaka z frytkami." },
+    { "badge":"заперечення", "title":"Dopełniacz w negacji", "formula":"Lubię + B. → Nie lubię + DOPEŁNIACZ (kogo? czego?)", "ex":"Lubię białą kawę → Nie lubię białej kawy. · Lubię czerwone wino → Nie lubię czerwonego wina." },
+    { "badge":"narzędnik", "title":"Zaimki: z kim?", "formula":"ja→ze mną · ty→z tobą · on/ono→z nim · ona→z nią · my→z nami · wy→z wami · oni/one→z nimi", "ex":"Idziesz ze mną do kina? · Lubię z tobą rozmawiać. · Idę z nimi do szkoły." }
+  ],
+  "czytanie": [
+    { "block": "A. Zapraszam was na obiad — rezerwacja i zamawianie", "items": [
+      { "type":"dia", "title":"Dialog 1 · rezerwacja · трек 108", "lines":[
+        ["Kelnerka","Dzień dobry, tu restauracja „U Doroty”, słucham?","Добрий день, це ресторан «У Дороти», слухаю?"],
+        ["Angela","Dzień dobry. Chciałabym zarezerwować stolik dla czterech osób na jutro, na godzinę szesnastą.","Добрий день. Я хотіла б забронювати столик на чотири особи на завтра, на шістнадцяту годину."],
+        ["Kelnerka","Dobrze. Nie ma problemu. Na jakie nazwisko?","Добре. Без проблем. На яке прізвище?"],
+        ["Angela","Brown. Angela Brown.","Браун. Анджела Браун."],
+        ["Kelnerka","Rezerwacja jest gotowa. Czekamy na państwa jutro.","Бронювання готове. Чекаємо на вас завтра."],
+        ["Angela","Dziękuję. Do widzenia.","Дякую. До побачення."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · zamawianie · трек 109", "lines":[
+        ["Kelnerka","Co podać?","Що подати?"],
+        ["Angela","A co może nam pani polecić?","А що Ви можете нам порадити?"],
+        ["Kelnerka","Jest smaczny rosół i żurek. Polecam też bigos.","Є смачний бульйон і журек. Раджу також бігос."],
+        ["Angela","Hm... to ja poproszę rosół, może filet drobiowy z grilla, ziemniaki i surówkę z kiszonej kapusty.","Хм... тоді я попрошу бульйон, можливо, куряче філе з гриля, картоплю й салат із квашеної капусти."],
+        ["Mami","Dla mnie to samo, tylko z frytkami.","Мені те саме, тільки з картоплею фрі."],
+        ["Uwe","A dla mnie żurek z jajkiem i kiełbasą, kotlet schabowy z ziemniakami i surówką z marchewki.","А мені журек із яйцем і ковбасою, шніцель із картоплею й салатом із моркви."],
+        ["Javier","Za zupę dziękuję. Mam ochotę na bigos i poproszę jeszcze gołąbki.","За суп дякую. Маю охоту на бігос і попрошу ще голубці."],
+        ["Kelnerka","A co do picia?","А що з напоїв?"],
+        ["Angela","Dwie herbaty i dwa razy piwo.","Два чаї і двічі пиво."],
+        ["Uwe","Przepraszam, czy można tu palić?","Перепрошую, тут можна курити?"],
+        ["Kelnerka","Niestety tutaj nie, ale można palić w ogródku.","На жаль, тут ні, але можна курити в дворику."]
+      ]},
+      { "type":"ref", "title":"Menu obiadowe — читай уголос",
+        "words":"rosół · żurek · barszcz z uszkami · zupa pomidorowa · kotlet schabowy · filet drobiowy · pieczeń wołowa · gołąbki · bigos · pierogi ruskie · placki ziemniaczane · naleśniki ze szpinakiem · frytki · ziemniaki · surówki · kasza · ryż",
+        "note":"Польські страви — потренуй вимову назв." },
+      { "type":"ref", "title":"Co dla Państwa? · M. czy B.",
+        "words":"Dla mnie kawa z mlekiem. · Proszę kawę z mlekiem. · Dla mnie pizza. · Proszę pizzę. · Dla mnie kurczak z frytkami. · Proszę kurczaka z frytkami." }
+    ]},
+    { "block": "B. Smaki i opinie", "items": [
+      { "type":"dia", "title":"Czy smakuje? · міні-діалоги", "lines":[
+        ["—","I jak? Smakuje ci? Czy zupa jest smaczna?","Ну як? Смакує тобі? Суп смачний?"],
+        ["—","Tak! Jest naprawdę dobra. Spróbuj!","Так! Справді добрий. Спробуй!"],
+        ["—","Czy mogę spróbować twojej sałatki?","Можна спробувати твій салат?"],
+        ["—","Oczywiście! I jak smakuje?","Звісно! І як смакує?"],
+        ["—","O tak! Jest pyszna!","О так! Дуже смачний!"],
+        ["—","Smakuje ci pieczeń?","Смакує тобі печеня?"],
+        ["—","Nie za bardzo. Jest za tłusta.","Не дуже. Вона занадто жирна."]
+      ]},
+      { "type":"ref", "title":"Opinie — від найкращого до найгіршого",
+        "words":"znakomity · wyśmienity · pyszny · przepyszny · świetny · bardzo dobry · dobry · smaczny · niezły · niedobry · taki sobie · okropny · niezbyt smaczny · bez smaku · nie za bardzo" },
+      { "type":"ref", "title":"Jaki? — смаки страв",
+        "words":"tłusty – chudy · mocny – łagodny · ostry – kwaśny · słodki – gorzki · surowy · ciepły – chłodny · słony · zimny – gorący" }
+    ]},
+    { "block": "C. A może rurka z kremem? — kawiarnia", "items": [
+      { "type":"dia", "title":"Dialog 1 · coś słodkiego · трек 110", "lines":[
+        ["Mami","Mam ochotę na coś słodkiego! Angela, masz czas? Idziemy do kawiarni?","Маю охоту на щось солодке! Анджело, маєш час? Ідемо до кав’ярні?"],
+        ["Angela","Na coś słodkiego? Jasne!","На щось солодке? Звісно!"],
+        ["Mami","Ale jest mały problem. Nie znam dobrej kawiarni.","Але є невелика проблема. Я не знаю доброї кав’ярні."],
+        ["Angela","Hm... A może klub? „Pauza” na ulicy Floriańskiej to dobre miejsce. Robią tam bardzo dobre drinki...","Хм... А може, клуб? «Pauza» на вулиці Флоріанській — добре місце. Роблять там дуже добрі коктейлі..."],
+        ["Mami","Angela, ja nie chcę pić ani piwa, ani wódki, ani wina, żadnego drinka! Nie chcę też kawy, herbaty, kompotu czy mleka! Chciałabym tylko zjeść coś słodkiego, jakiś dobry deser, albo chociaż rurkę z kremem, gofra czy coś.","Анджело, я не хочу пити ні пива, ні горілки, ні вина, жодного коктейлю! Не хочу й кави, чаю, компоту чи молока! Я хотіла б тільки з’їсти щось солодке, якийсь добрий десерт, або хоча б трубочку з кремом, вафлю чи щось таке."],
+        ["Angela","Oj Mami, nie złość się! Już wiem! Na rynku jest kawiarnia, nazywa się chyba „Pijalnia czekolady”.","Ой Мамі, не сердься! Уже знаю! На ринку є кав’ярня, називається, здається, «Pijalnia czekolady»."],
+        ["Mami","To dobrze brzmi!","Звучить добре!"],
+        ["Angela","Tak. Tam jest wszystko, desery i czekolady do picia i do jedzenia.","Так. Там є все — десерти й шоколад, щоб пити і щоб їсти."]
+      ]},
+      { "type":"ref", "title":"Menu kawiarni · трек 111–113",
+        "words":"kawa espresso · kawa z rumem · czekolada z orzechami · herbata owocowa · herbata zielona · koktajle owocowe · soki ze świeżych owoców · makowiec · tort czekoladowy · szarlotka na ciepło · lody z bitą śmietaną · galaretka z owocami" },
+      { "type":"ref", "title":"Negacja: Biernik → Dopełniacz",
+        "words":"Lubię białą kawę → Nie lubię białej kawy. · Lubię zimny sok → Nie lubię zimnego soku. · Lubię czerwone wino → Nie lubię czerwonego wina.",
+        "note":"Після «nie lubię / nie mam / nie ma» — родовий відмінок." }
+    ]},
+    { "block": "D. Nareszcie weekend! — narzędnik", "items": [
+      { "type":"dia", "title":"Dialog · z kim? · трек 114", "lines":[
+        ["Javier","Mami, idziesz z nami dzisiaj do pubu?","Мамі, ідеш з нами сьогодні до пабу?"],
+        ["Mami","Z nami, to znaczy z kim?","З нами — тобто з ким?"],
+        ["Javier","Ze mną, z Angelą, z Tomem.","Зі мною, з Анджелою, з Томом."],
+        ["Mami","A Uwe? Co z nim?","А Уве? Що з ним?"],
+        ["Javier","Nie wiem, czekam jeszcze na SMS-a. To jak, idziesz?","Не знаю, ще чекаю на SMS. То як, ідеш?"],
+        ["Mami","Z tobą Javier wszędzie! Hm, hm! To znaczy... z wami wszędzie!","З тобою, Хав’єре, будь-куди! Хм-хм! Тобто... з вами будь-куди!"]
+      ]},
+      { "type":"ref", "title":"Zapiekanki · трек 115",
+        "words":"zapiekanka standard (szczypiorek, cebulka, kukurydza) · ze szczypiorkiem · z podwójnym serem · z szynką · z boczkiem · ze szpinakiem · z kawałkami kurczaka · sos czosnkowy · majonez · keczup ostry/łagodny" }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_10.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_10/ (108–115.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 3 · w restauracji", "lines":[
+      ["Kelner","Proszę, tu jest karta. Czy podać coś do picia?","Прошу, ось меню. Подати щось випити?"],
+      ["—","Poproszę piwo Żywiec. A dla mnie woda mineralna z lodem i cytryną.","Я попрошу пиво «Żywiec». А мені мінеральна вода з льодом і лимоном."],
+      ["Kelner","Gazowana czy niegazowana?","Газована чи негазована?"],
+      ["—","Niegazowana.","Негазована."],
+      ["Kelner","Co panowie zamawiają?","Що панове замовляють?"],
+      ["—","Poproszę żeberka wieprzowe z pieczonymi ziemniakami i zestaw surówek. Dla mnie to samo, tylko z frytkami.","Я попрошу свинячі реберця з печеною картоплею й набір салатів. Мені те саме, тільки з картоплею фрі."],
+      ["Kelner","Czy smakował panom obiad?","Чи смакував панам обід?"],
+      ["—","Tak, bardzo smaczny. Czy możemy prosić o rachunek?","Так, дуже смачний. Можна попросити рахунок?"],
+      ["Kelner","Proszę bardzo. Dziewięćdziesiąt dwa złote.","Будь ласка. Дев’яносто два злотих."],
+      ["—","Proszę, reszta dla pana. Dziękuję bardzo.","Прошу, решта Вам. Дуже дякую."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 11 · w kawiarni", "lines":[
+      ["Kelnerka","Dzień dobry, co podać?","Добрий день, що подати?"],
+      ["—","Dla mnie biała kawa, a dla koleżanki herbata zielona.","Мені кава з молоком, а подрузі зелений чай."],
+      ["Kelnerka","Czy coś jeszcze?","Чи ще щось?"],
+      ["—","Tak. Czy jest szarlotka z lodami?","Так. Чи є яблучний пиріг із морозивом?"],
+      ["Kelnerka","Niestety nie mamy lodów. Polecam pyszną szarlotkę z bitą śmietaną.","На жаль, морозива немає. Раджу смачний пиріг зі збитими вершками."],
+      ["—","Dobrze, poprosimy więc raz szarlotkę i dwa razy koktajl truskawkowy.","Добре, тоді попросимо один пиріг і двічі полуничний коктейль."],
+      ["Kelnerka","Czy to już wszystko?","Це вже все?"],
+      ["—","Tak, dziękuję bardzo.","Так, дуже дякую."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L10.txt",
+  "mistakes": [
+    ["Proszę kawa z mlekiem","Proszę kawę z mlekiem","Після «proszę» — biernik: kawa → kawę."],
+    ["Nie lubię biała kawa","Nie lubię białej kawy","Після заперечення — dopełniacz: białej kawy."],
+    ["Nie mam czerwone wino","Nie mam czerwonego wina","«nie mam» вимагає родового: czerwonego wina."],
+    ["Idziesz z mną?","Idziesz ze mną?","Перед «mną» — форма «ze»: ze mną."]
+  ],
+  "drills": [
+    ["Заброньуй столик на 4 особи на завтра.","Chciałabym zarezerwować stolik dla czterech osób na jutro."],
+    ["Попроси меню в офіціанта.","Poproszę kartę / Proszę o menu."],
+    ["Замов (формою proszę) каву з молоком.","Proszę kawę z mlekiem."],
+    ["Скажи: «мені — те саме, тільки з картоплею фрі».","Dla mnie to samo, tylko z frytkami."],
+    ["Запереч: «я не люблю червоного вина».","Nie lubię czerwonego wina."],
+    ["Запереч: «у мене немає білої кави».","Nie mam białej kawy."],
+    ["Спитай, чи можна тут курити.","Czy można tu palić?"],
+    ["Похвали суп: «справді смачний, спробуй!».","Jest naprawdę dobry. Spróbuj!"],
+    ["Скажи: «маю охоту на щось солодке».","Mam ochotę na coś słodkiego."],
+    ["Спитай подругу: «ідеш зі мною до кав’ярні?».","Idziesz ze mną do kawiarni?"],
+    ["Скажи: «іду з ними до школи».","Idę z nimi do szkoły."],
+    ["Попроси рахунок.","Czy możemy prosić o rachunek?"]
+  ],
+  "quiz": [
+    {"topic":"замовлення","q":"Після «proszę» вживаємо:","o":["mianownik","biernik","dopełniacz","narzędnik"],"a":1},
+    {"topic":"замовлення","q":"«Dla mnie ___ z mlekiem» (kawa):","o":["kawę","kawy","kawą","kawa"],"a":3},
+    {"topic":"заперечення","q":"«Lubię białą kawę» → «Nie lubię ___»:","o":["białą kawę","białej kawy","białą kawą","biała kawa"],"a":1},
+    {"topic":"заперечення","q":"Який відмінок після «nie lubię / nie mam»?","o":["biernik","mianownik","dopełniacz","narzędnik"],"a":2},
+    {"topic":"narzędnik","q":"«Idziesz ___ do kina?» (ja):","o":["z mną","ze mną","z mnie","ze mnie"],"a":1},
+    {"topic":"narzędnik","q":"«z tobą» — це форма займенника:","o":["ja","ty","on","wy"],"a":1},
+    {"topic":"narzędnik","q":"«Idę z ___ do szkoły» (oni):","o":["nim","nią","nimi","nami"],"a":2},
+    {"topic":"страви","q":"«żurek» — це:","o":["десерт","суп","напій","салат"],"a":1},
+    {"topic":"смаки","q":"«Jest za tłusta» означає, що страва:","o":["солона","солодка","занадто жирна","холодна"],"a":2},
+    {"topic":"кав’ярня","q":"«szarlotka» — це:","o":["суп","яблучний пиріг","коктейль","ковбаса"],"a":1}
+  ]
+}

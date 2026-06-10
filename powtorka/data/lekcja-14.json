@@ -1,0 +1,150 @@
+{
+  "id": "14",
+  "title": "Z przewodnikiem po Krakowie",
+  "goal": "Повторюємо: питання про дорогу · об’єкти в місті · транспорт · iść / chodzić · jechać / jeździć · особові займенники в biernik",
+  "vocab": [
+    { "group": "Obiekty w mieście — об’єкти в місті", "items": [
+      ["przewodnik","екскурсовод / гід"],["rzeka","річка"],["stolica","столиця"],["pomnik","пам’ятник"],
+      ["dzielnica","район (міста)"],["kościół","костел"],["katedra","катедра / собор"],["zamek","замок"],
+      ["ratusz","ратуша"],["wieża","вежа"],["przystanek","зупинка"],["skrzyżowanie","перехрестя"],
+      ["światło / światła","світло / світлофор"],["schody","сходи"],["krzyż","хрест"]
+    ]},
+    { "group": "Środki transportu — транспорт", "items": [
+      ["samochód","автомобіль"],["autobus","автобус"],["tramwaj","трамвай"],["taksówka","таксі"],
+      ["pociąg","потяг"],["metro","метро"],["motocykl","мотоцикл"],["skuter","скутер"],
+      ["rower","велосипед"],["samolot","літак"],["statek / prom","корабель / пором"],["dorożka","фіакр (карета)"]
+    ]},
+    { "group": "Pytanie o drogę — питання про дорогу", "items": [
+      ["Jak dojść do…?","Як дійти до…?"],["iść prosto","іти прямо"],["skręcić w lewo / w prawo","повернути ліворуч / праворуч"],
+      ["po prawej / po lewej stronie","праворуч / ліворуч (з боку)"],["na wprost","навпроти / прямо перед"],
+      ["naprzeciwko","навпроти"],["na rogu","на розі"],["na piechotę / pieszo","пішки"],["daleko / blisko","далеко / близько"]
+    ]},
+    { "group": "Zaimki w bierniku — займенники (knh. кого/що)", "items": [
+      ["mnie","мене"],["cię / ciebie","тебе"],["go / jego","його"],["ją / nią","її"],
+      ["nas","нас"],["was","вас"],["ich / nich","їх"],["Czekam na…","Чекаю на…"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"раз / зараз", "title":"iść / jechać", "formula":"одноразовий рух зараз: idę, idziesz, idzie… · jadę, jedziesz, jedzie…", "ex":"Idę na quiz. · Jutro jadę do Nowej Huty. · Javier jedzie rowerem." },
+    { "badge":"завжди / часто", "title":"chodzić / jeździć", "formula":"повторюваний рух: chodzę, chodzisz… · jeżdżę, jeździsz…", "ex":"Zwykle chodzę na wykłady. · Javier zwykle jeździ na basen." },
+    { "badge":"biernik", "title":"Czekam na + кого (Acc.)", "formula":"na + mnie / cię / go / ją / nas / was / nich", "ex":"Czekam na ciebie. · Czekamy na niego. · Ile mogę na was czekać!" }
+  ],
+  "czytanie": [
+    { "block": "A. Uczymy się o Krakowie", "items": [
+      { "type":"ref", "title":"Nowe słowa · нові слова",
+        "words":"przewodnik · światło · światła · schody · krzyż · skrzyżowanie · krzyżówka · zwiedzać · wygrać · nagroda · daleko · blisko" },
+      { "type":"dia", "title":"Dialog 1 · трек 142", "lines":[
+        ["Mami","Co robimy dzisiaj po południu?","Що робимо сьогодні по обіді?"],
+        ["Angela","Idziesz na quiz? Jest za kwadrans. Zwykle chodzę na wykłady albo warsztaty, a to może być coś nowego. Zobaczymy, co wiemy o Krakowie?","Ти йдеш на вікторину? За чверть години. Зазвичай я ходжу на лекції чи майстер-класи, а це може бути щось нове. Подивимось, що ми знаємо про Краків?"],
+        ["Mami","Jasne, że idziemy! Chcę wygrać! Jaka jest nagroda?","Звісно, ідемо! Хочу виграти! Який приз?"],
+        ["Nauczycielka","Przewodnik po Krakowie. Zapraszam na quiz.","Путівник по Кракову. Запрошую на вікторину."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · трек 143", "lines":[
+        ["Mami","Hura! Wygrałam!","Ура! Я виграла!"],
+        ["Angela","Skąd to wszystko wiedziałaś? Byłaś już w Krakowie, ale nie mówiłaś?","Звідки ти все це знала? Ти вже бувала в Кракові, але не казала?"],
+        ["Mami","Nie, ale dużo czytałam w Internecie. Wiesz, że interesuję się komputerami i malarstwem, a ostatnio też trochę architekturą i historią.","Ні, але багато читала в інтернеті. Знаєш, я цікавлюся комп’ютерами й малярством, а останнім часом ще трохи архітектурою та історією."],
+        ["Angela","O, serio?","О, серйозно?"],
+        ["Mami","Tak, ja i Karolina często chodzimy po Krakowie i fotografujemy. To takie pasjonujące i nowe dla mnie. A jutro jadę do Nowej Huty, to dzielnica Krakowa.","Так, ми з Кароліною часто ходимо Краковом і фотографуємо. Це так захопливо й нове для мене. А завтра я їду до Нової Гути, це район Кракова."],
+        ["Angela","Ach tak, no to ja zaraz idę na legendy. Też chcę dużo wiedzieć!","Ах так, ну то я зараз іду на легенди. Теж хочу багато знати!"],
+        ["Mami","A Javier też idzie?","А Хав’єр теж іде?"],
+        ["Angela","Zwykle po południu jeździ na basen. O, widzę go tam, jedzie rowerem, widzisz? Ale ma być o 16:00 na Rynku.","Зазвичай по обіді він їздить у басейн. О, бачу його там, їде велосипедом, бачиш? Але має бути о 16:00 на Ринку."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 4 · środki transportu · трек 145",
+        "words":"winda · tramwaj · taksówka · skuter · samolot · samochód · rower · prom · pociąg · motocykl · metro · jacht · dorożka · autobus · statek",
+        "note":"jechać / jeździć + NARZĘDNIK: samochodem, tramwajem, rowerem…" }
+    ]},
+    { "block": "B. Zwiedzamy", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · co to jest? · obiekty",
+        "words":"rzeka · stolica · pomnik · dzielnica · wieża · kościół · ratusz · katedra · zamek · skrzyżowanie · przystanek" },
+      { "type":"dia", "title":"Dialog 1 · трек 144", "lines":[
+        ["Przewodnik","Dzień dobry państwu. Nazywam się Jan Krall, jestem przewodnikiem po Krakowie. Jesteśmy na Rynku. Na wprost jest pomnik…","Добрий день. Мене звати Ян Кралль, я екскурсовод по Кракову. Ми на Ринку. Прямо перед нами пам’ятник…"],
+        ["Mami","…Adama Mickiewicza. To znany poeta romantyczny.","…Адама Міцкевича. Це відомий поет-романтик."],
+        ["Przewodnik","Za pomnikiem są Sukiennice. Tam jest muzeum, kawiarnia i…","За пам’ятником — Сукенниці. Там музей, кав’ярня і…"],
+        ["Mami","…sklepy z pamiątkami.","…крамниці із сувенірами."],
+        ["Przewodnik","Po prawej stronie jest kościół Mariacki. Ten kościół ma dwie wieże. O, słyszycie? Trębacz gra hejnał, zawsze o pełnej godzinie, na przykład o 12, o 13, o 14.","Праворуч — Маріацький костел. У цього костелу дві вежі. О, чуєте? Сурмач грає гейнал, завжди рівно щогодини, наприклад о 12, о 13, о 14."],
+        ["Mami","O tak, ta melodia ma też piękną legendę.","О так, ця мелодія має ще й гарну легенду."],
+        ["Przewodnik","Po lewej stronie jest ulica Grodzka. Tą ulicą idziemy na Wawel. Tam jest katedra i…","Ліворуч — вулиця Ґродзька. Цією вулицею ми йдемо на Вавель. Там катедра і…"],
+        ["Mami","…zamek królewski.","…королівський замок."],
+        ["Przewodnik","A teraz idziecie na Uniwersytet Jagielloński. Proszę iść prosto, potem skręcić w lewo, a następnie w prawo.","А тепер ви йдете до Яґеллонського університету. Прошу йти прямо, потім повернути ліворуч, а далі праворуч."],
+        ["Mami","A pan?","А Ви?"],
+        ["Przewodnik","Ja idę do domu. Pani wszystko wie!","Я йду додому. Ви ж усе знаєте!"]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · трек 144", "lines":[
+        ["Angela","I co teraz, pani wszystkowiedząca?","І що тепер, пані всезнайко?"],
+        ["Mami","Nic. Idziemy. O, tu na rogu możemy kupić precle. Kto jest głodny?","Нічого. Ідемо. О, тут на розі можемо купити преці. Хто голодний?"],
+        ["Angela","A jak długo i co chcesz zwiedzać? Wieczorem idziemy do pubu!","А як довго і що хочеш оглядати? Увечері ми йдемо в паб!"],
+        ["Mami","Najpierw fotografia grupowa na zewnątrz, jest dobre światło. Naprzeciwko jest wieża ratuszowa, może tam? Tam są schody, idealne miejsce.","Спершу групове фото надворі, тут гарне світло. Навпроти — ратушна вежа, може там? Там сходи, ідеальне місце."],
+        ["Angela","No dobrze, kto stoi na górze, kto na dole?","Ну добре, хто стоїть угорі, хто внизу?"],
+        ["Javier","Ja chcę w środku!","Я хочу всередині!"]
+      ]},
+      { "type":"ref", "title":"Wskazówki · підказки напрямку",
+        "words":"… jest: na wprost · po prawej stronie · po lewej stronie · … iść: prosto · …skręcić: w prawo · w lewo" }
+    ]},
+    { "block": "C. Idziemy do pubu", "items": [
+      { "type":"ref", "title":"Instrukcja A · kiedy jest ładna pogoda",
+        "words":"Proszę skręcić w lewo i iść prosto. Potem proszę dojść do skrzyżowania i jeszcze raz skręcić w lewo. Ta część miasta to Kazimierz – dawna żydowska dzielnica. Następnie proszę iść kilkanaście metrów prosto do następnego skrzyżowania z ulicą Miodową. Skręcić w prawo, zaraz potem w lewo. Na wprost jest plac – ulica z kawiarniami i restauracjami. Nasz pub jest po prawej stronie, na rogu." },
+      { "type":"ref", "title":"Instrukcja B · kiedy jest brzydka pogoda",
+        "words":"Proszę skręcić w lewo i iść prosto. Potem proszę dojść do skrzyżowania i skręcić w prawo. Następnie przejść przez skrzyżowanie i iść cały czas prosto. Przejść przez park (Planty) i dalej iść prosto. Po prawej stronie jest Mały Rynek, a wy idziecie w lewo. To ulica ambasad i konsulatów. Nasz pub jest po lewej stronie." },
+      { "type":"dia", "title":"Ćwiczenie 2 · zaimki · трек 146", "lines":[
+        ["Angela","No jesteś! Wiesz, która godzina?!","Ну ось ти! Знаєш, котра година?!"],
+        ["Mami","Przepraszam, czekałam na ciebie.","Вибач, я чекала на тебе."],
+        ["Angela","Czekałaś na mnie na górze?! Dlaczego? I gdzie jest Karolina? Mówiłaś, że ją zaprosiłaś.","Чекала на мене нагорі?! Чому? І де Кароліна? Ти казала, що її запросила."],
+        ["Mami","Musi się uczyć. Gdzie Javier? Czekamy na niego?","Їй треба вчитися. Де Хав’єр? Чекаємо на нього?"],
+        ["Angela","Nie wiem, może czeka na nas w pubie. Toma i Uwego też nie ma. Czekamy na nich 5 minut i…","Не знаю, може, чекає на нас у пабі. Тома й Уве теж немає. Чекаємо на них 5 хвилин і…"],
+        ["Javier","Halo! Ile mogę na was czekać!","Алло! Скільки можна на вас чекати!"],
+        ["Angela","A gdzie jesteś?","А ти де?"],
+        ["Angela","A my…, czekaj, już idziemy!","А ми…, чекай, уже йдемо!"]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_14-1.pdf · Аудіо: 2_Main_book_audio_podręcznik/lekcja_14/ (142–146.mp3)",
+  "zeszyt": [
+    { "type":"ref", "title":"Ćwiczenie 4 · środki transportu",
+      "words":"winda · tramwaj · taksówka · skuter · samolot · samochód · rower · prom · pociąg · motocykl · metro · jacht · dorożka · autobus · statek" },
+    { "type":"dia", "title":"Ćwiczenie 8 · jak dojść?", "lines":[
+      ["—","Przepraszam, jak dojść do apteki?","Перепрошую, як дійти до аптеки?"],
+      ["—","Proszę iść prosto, a potem skręcić w lewo na pierwszym skrzyżowaniu. Po prawej stronie jest duża księgarnia. Naprzeciwko księgarni jest mała apteka.","Прошу йти прямо, а потім повернути ліворуч на першому перехресті. Праворуч велика книгарня. Навпроти книгарні маленька аптека."],
+      ["—","Dziękuję.","Дякую."],
+      ["—","Przepraszam, gdzie jest Teatr Bagatela?","Перепрошую, де Театр Баґателя?"],
+      ["—","Niestety nie wiem.","На жаль, не знаю."],
+      ["—","Przepraszam, czy wie Pan, gdzie jest Teatr Bagatela?","Перепрошую, чи знаєте Ви, де Театр Баґателя?"],
+      ["—","O, to niedaleko. Może Pani iść pieszo lub jechać tramwajem numer 13. Przystanek jest po drugiej stronie ulicy, o, tam, po prawej.","О, це недалеко. Можете йти пішки або їхати трамваєм номер 13. Зупинка з іншого боку вулиці, о, там, праворуч."],
+      ["—","A jak tam dojść na piechotę?","А як туди дійти пішки?"],
+      ["—","Proszę iść cały czas prosto, około 15 minut, bo Bagatela jest po prawej stronie, na rogu Krupniczej i Karmelickiej.","Прошу йти весь час прямо, близько 15 хвилин, бо Баґателя праворуч, на розі Крупнічої і Кармелицької."],
+      ["—","Dziękuję. Proszę bardzo.","Дякую. Будь ласка."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L14.txt",
+  "mistakes": [
+    ["Zwykle idę na basen.","Zwykle jeżdżę na basen.","Повторюваний рух → chodzić / jeździć, не iść / jechać."],
+    ["Jadę rowerem do szkoły codziennie.","Jeżdżę rowerem do szkoły codziennie.","«codziennie / zwykle» вимагає jeździć (багатократний рух)."],
+    ["Czekam na ty.","Czekam na ciebie.","Після «na» — biernik: ciebie / cię, а не mianownik."],
+    ["Skręcić na lewo.","Skręcić w lewo.","Напрямок повороту — «w lewo / w prawo», а не «na»."]
+  ],
+  "drills": [
+    ["Спитай, як дійти до аптеки.","Jak dojść do apteki?"],
+    ["Скажи: іди прямо, потім поверни ліворуч.","Proszę iść prosto, potem skręcić w lewo."],
+    ["Скажи: костел праворуч.","Kościół jest po prawej stronie."],
+    ["Скажи: я зараз іду на лекцію.","Zaraz idę na wykład."],
+    ["Скажи: я зазвичай ходжу пішки.","Zwykle chodzę pieszo."],
+    ["Скажи: завтра я їду до Нової Гути.","Jutro jadę do Nowej Huty."],
+    ["Скажи: Хав’єр їздить велосипедом.","Javier jeździ rowerem."],
+    ["Скажи: я їду трамваєм номер 13.","Jadę tramwajem numer 13."],
+    ["Скажи: я чекаю на тебе.","Czekam na ciebie."],
+    ["Скажи: ми чекаємо на нього.","Czekamy na niego."],
+    ["Спитай, де зупинка.","Gdzie jest przystanek?"],
+    ["Назви три об’єкти в місті.","kościół, pomnik, ratusz"]
+  ],
+  "quiz": [
+    {"topic":"droga","q":"Як спитати, як дійти до аптеки?","o":["Gdzie jest apteka?","Jak dojść do apteki?","Co to jest apteka?","Ile kosztuje apteka?"],"a":1},
+    {"topic":"kierunek","q":"«Skręcić w prawo» означає:","o":["іти прямо","повернути ліворуч","повернути праворуч","перейти дорогу"],"a":2},
+    {"topic":"obiekty","q":"«ratusz» — це:","o":["вежа","ратуша","перехрестя","зупинка"],"a":1},
+    {"topic":"iść/chodzić","q":"«Zaraz ___ na quiz.» (один раз, зараз)","o":["chodzę","idę","jeżdżę","jadę"],"a":1},
+    {"topic":"iść/chodzić","q":"«Zwykle ___ na wykłady.» (часто, повторювано)","o":["idę","chodzę","jadę","jedziesz"],"a":1},
+    {"topic":"jechać/jeździć","q":"«Jutro ___ do Nowej Huty.» (один раз, завтра)","o":["jeżdżę","jadę","chodzę","idę"],"a":1},
+    {"topic":"transport","q":"«jechać tramwajem» — який це відмінок?","o":["mianownik","biernik","narzędnik","dopełniacz"],"a":2},
+    {"topic":"biernik","q":"«Czekam na ___.» (ty)","o":["ty","ciebie","tobie","twój"],"a":1},
+    {"topic":"biernik","q":"«Czekamy na ___.» (on)","o":["go","jego","niego","jemu"],"a":2},
+    {"topic":"obiekty","q":"«kościół Mariacki ma dwie ___.»","o":["wieże","rzeki","schody","dzielnice"],"a":0}
+  ]
+}

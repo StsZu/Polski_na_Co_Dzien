@@ -1,0 +1,132 @@
+{
+  "id": "21",
+  "title": "Kiedy to było?",
+  "goal": "Повторюємо: дати й роки (w którym roku?) · уродини та іменини · побажання · біографія · доконаний / недоконаний вид у минулому часі",
+  "vocab": [
+    { "group": "Urodziny i imieniny — свята людини", "items": [
+      ["urodziny","день народження"],["imieniny","іменини"],["obchodzić","святкувати"],
+      ["impreza","вечірка"],["zaproszenie","запрошення"],["prezent","подарунок"],
+      ["kalendarz","календар"],["data","дата"],["rocznica","річниця"]
+    ]},
+    { "group": "Życzenia — побажання", "items": [
+      ["Sto lat!","сто років! (многая літа)"],["Wszystkiego najlepszego!","усього найкращого!"],
+      ["Wesołych świąt!","веселих свят!"],["Szczęśliwego Nowego Roku!","щасливого Нового року!"],
+      ["Wesołego Alleluja!","веселого Великодня!"],["Udanych wakacji!","вдалих канікул!"],
+      ["pomyślności","успіхів / щастя"],["na nowej drodze życia","на новій життєвій дорозі (молодятам)"]
+    ]},
+    { "group": "Biografia — етапи життя", "items": [
+      ["urodzić się","народитися"],["chodzić do szkoły","ходити до школи"],
+      ["zdać maturę","скласти матуру"],["studiować","навчатися (в універ.)"],
+      ["pobrać się","одружитися (пара)"],["ożenić się","одружитися (про чол.)"],
+      ["robić karierę","робити кар’єру"],["przejść na emeryturę","вийти на пенсію"],
+      ["umrzeć","померти"],["upadł komunizm","упав комунізм"]
+    ]},
+    { "group": "Aspekt — вид дієслова", "items": [
+      ["robić → zrobić","робити → зробити"],["czytać → przeczytać","читати → прочитати"],
+      ["jeść → zjeść","їсти → з’їсти"],["pić → wypić","пити → випити"],
+      ["dzwonić → zadzwonić","дзвонити → подзвонити"],["pisać → napisać","писати → написати"],
+      ["kupować → kupić","купувати → купити"],["spotykać → spotkać","зустрічати → зустріти"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"котрого числа", "title":"Kiedy masz urodziny?", "formula":"числівник (порядк., -ego) + місяць (-a): пятого lipca", "ex":"pierwszego stycznia · czternastego lutego · dwudziestego piątego marca" },
+    { "badge":"якого року", "title":"W którym roku?", "formula":"w + рік порядковим числівником (-ym/-im) + roku", "ex":"1981 → w tysiąc dziewięćset osiemdziesiątym pierwszym roku · 2001 → w dwa tysiące pierwszym roku · 2000 → w dwutysięcznym roku" },
+    { "badge":"вид", "title":"Aspekt w czasie przeszłym", "formula":"niedokonany (процес/рутина) ↔ dokonany (один раз/результат)", "ex":"Sprzątałam, ale nie jest czysto. ↔ Posprzątałam i jest czysto. · być, mieć, mieszkać, pracować, studiować — лише недоконаний." }
+  ],
+  "czytanie": [
+    { "block": "A. Kiedy masz urodziny i imieniny?", "items": [
+      { "type":"dia", "title":"Ćwiczenie 2 · zaproszenie · трек 197", "lines":[
+        ["Karolina","Mami, jesteś zajęta?","Мамі, ти зайнята?"],
+        ["Mami","Nie, wejdź proszę.","Ні, заходь, будь ласка."],
+        ["Karolina","Mam pytanie: czy chciałabyś pojechać z nami do Gdańska, na urodziny mojego dziadka? Dziadkowie bardzo chcieliby cię poznać.","Маю питання: чи хотіла б ти поїхати з нами до Гданська, на день народження мого дідуся? Дідусь із бабусею дуже хотіли б з тобою познайомитися."],
+        ["Mami","Jasne! Dziękuję za zaproszenie. Kiedy?","Звісно! Дякую за запрошення. Коли?"],
+        ["Karolina","W tę sobotę. Jedziemy wszyscy razem samochodem.","Цієї суботи. Їдемо всі разом машиною."],
+        ["Mami","Dobrze. Chętnie. A to urodziny, tak, nie imieniny?","Добре. Залюбки. А це уродини, так, не іменини?"],
+        ["Karolina","Tak, urodziny. Przyjeżdża cała rodzina, będzie duża impreza.","Так, уродини. Приїжджає вся родина, буде велика вечірка."],
+        ["Mami","Cieszę się, nie byłam jeszcze na dużej polskiej imprezie. À propos, co to dokładnie są imieniny?","Я рада, я ще не була на великій польській вечірці. До речі, що саме таке іменини?"],
+        ["Karolina","To dzień twojego imienia. Na przykład ja mam na imię Karolina, więc mam imieniny piątego lipca.","Це день твого імені. Наприклад, мене звати Кароліна, тож у мене іменини п’ятого липня."],
+        ["Mami","Cztery razy w roku?!","Чотири рази на рік?!"],
+        ["Karolina","Nie, imieniny są tylko raz w roku, nie można mieć ich kilka razy. Wszystkie imieniny są zapisane w polskich kalendarzach.","Ні, іменини лише раз на рік, не можна мати їх кілька разів. Усі іменини записані в польських календарях."],
+        ["Mami","I są tak samo ważne jak urodziny?","І вони так само важливі, як день народження?"],
+        ["Karolina","Różnie, zależy od tradycji rodzinnych. U nas w domu obchodzimy urodziny, ale u taty w pracy imieniny. A kiedy ja mam imieniny?","По-різному, залежить від родинних традицій. У нас удома святкують уродини, а в тата на роботі — іменини. А коли в мене іменини?"],
+        ["Mami","„Mami” to nie jest polskie imię, więc nie ma go, niestety, w kalendarzu.","«Мамі» — це не польське ім’я, тож його, на жаль, немає в календарі."],
+        ["Karolina","Szkoda!","Шкода!"]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 4 · daty — запиши дату · трек 198",
+        "words":"Dzień Dziecka — pierwszego czerwca (01.06) · Sylwester — trzydziestego pierwszego grudnia · szóstego lutego · dwunastego września · ósmego lipca · od drugiego do dziewiątego marca · od dwudziestego czwartego listopada · piątek, trzynasty sierpnia",
+        "note":"Місяці після числа: stycznia, lutego, marca, kwietnia, maja, czerwca, lipca, sierpnia, września, października, listopada, grudnia." }
+    ]},
+    { "block": "B. Sto lat i wszystkiego najlepszego!", "items": [
+      { "type":"ref", "title":"Ćwiczenie 2 · piosenka „Sto lat” · трек 200",
+        "words":"Sto lat, sto lat, niech żyje, żyje nam! · Jeszcze raz, jeszcze raz, niech żyje, żyje nam! · Niech żyje nam!",
+        "note":"Заспівай уголос — традиційна пісня на день народження." },
+      { "type":"ref", "title":"Ćwiczenie 3 · życzenia na okazje · трек 201",
+        "words":"Wesołych świąt! (Boże Narodzenie) · Szczęśliwego Nowego Roku! (Nowy Rok) · Wesołego Alleluja! (Wielkanoc) · Wszystkiego najlepszego na nowej drodze życia! (ślub) · Udanych wakacji! (wyjazd na urlop)" }
+    ]},
+    { "block": "C. W którym roku?", "items": [
+      { "type":"ref", "title":"Ćwiczenie 2 · daty rocznikowe · трек 203",
+        "words":"1999 → w tysiąc dziewięćset dziewięćdziesiątym dziewiątym roku · 2002 → w dwa tysiące drugim roku · 1536 → w tysiąc pięćset trzydziestym szóstym roku · 1973 → w tysiąc dziewięćset siedemdziesiątym trzecim roku · 1939 → w tysiąc dziewięćset trzydziestym dziewiątym roku · 1844 → w tysiąc osiemset czterdziestym czwartym roku" },
+      { "type":"ref", "title":"Ćwiczenie 3 · wydarzenia i daty · трек 204",
+        "words":"Dziadek się urodził. · Zaczęła się wojna (1939). · Ojciec dziadka zginął w Katyniu. · Matka dziadka zginęła w powstaniu warszawskim (1944). · Skończyła się wojna (1945). · Dziadek ożenił się z babcią. · Dziadek zdał maturę. · Lech Wałęsa dostał nagrodę Nobla (1983). · Komunizm upadł w Polsce (1989).",
+        "note":"Поєднай кожну подію з роком." },
+      { "type":"ref", "title":"Ćwiczenie 6 · biografia Lecha Wałęsy",
+        "words":"urodził się 29 września 1943 r. w Popowie · chodził do szkół w Chalinie i Lipnie · w 1969 r. ożenił się z Danutą · w latach 1967–1976 pracował jako elektryk w Stoczni Gdańskiej · w sierpniu 1980 r. lider strajku · w 1983 r. dostał Pokojową Nagrodę Nobla · w 1989 r. „Okrągły Stół” · w 1990 r. został Prezydentem RP" }
+    ]},
+    { "block": "D. Mami, co robiłaś?", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · weekend · трек 205", "lines":[
+        ["—","Co Angela robiła w weekend? Sprzątała mieszkanie.","Що Анджела робила у вихідні? Прибирала квартиру."],
+        ["—","Co Mami zrobiła w weekend? Poznała nowych ludzi.","Що Мамі зробила у вихідні? Познайомилася з новими людьми."]
+      ]},
+      { "type":"ref", "title":"Aspekt · недоконаний vs доконаний",
+        "words":"niedokonany: codziennie wstawałem o 7:00 · od pierwszej do drugiej jadłem obiad · sprzątałam, ale nie jest czysto · dokonany: wczoraj wstałem o 10:00 · szybko zjadłem obiad · posprzątałam i nareszcie jest czysto",
+        "note":"Слова wczoraj, w piątek, rok temu НЕ визначають виду. być, mieć, mieszkać, pracować, studiować — лише недоконані." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_21.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_21/ (196–205.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 5 · biografia Jarka", "lines":[
+      ["—","Jarek urodził się w 1987 roku.","Ярек народився 1987 року."],
+      ["—","Kiedy miał pięć lat, poszedł do przedszkola, a potem do szkoły.","Коли йому було п’ять років, пішов у дитсадок, а потім до школи."],
+      ["—","W 1996 roku rodzice Jarka postanowili wyjechać z Polski, ale po roku wrócili.","1996 року батьки Ярека вирішили виїхати з Польщі, але за рік повернулися."],
+      ["—","Skończył szkołę podstawową w 2000 roku, gimnazjum w 2003 i poszedł do liceum.","Закінчив початкову школу 2000 року, гімназію — 2003, і пішов до ліцею."],
+      ["—","Zdał maturę w 2006 roku i zaczął studiować chemię.","Склав матуру 2006 року й почав вивчати хімію."],
+      ["—","W 2008 roku pojechał na stypendium do Niemiec i przez rok studiował w Monachium.","2008 року поїхав на стипендію до Німеччини й рік навчався в Мюнхені."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 4 · lata — читай уголос",
+      "words":"1915 · 966 · 2030 · 1876 · 1912 · 1655",
+      "note":"Прочитай роки польською (порядковим числівником у місцевому відмінку, де доречно)." }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L21.txt",
+  "mistakes": [
+    ["Mam urodziny piąty lipca","Mam urodziny piątego lipca","Дата «котрого числа» — порядковий числівник у родовому: -ego."],
+    ["w dwa tysiące roku","w dwutysięcznym roku","2000 рік — особлива форма: w dwutysięcznym roku."],
+    ["Wczoraj posprzątałam, ale nie jest czysto","Wczoraj sprzątałam, ale nie jest czysto","Немає результату → недоконаний вид (sprzątałam)."],
+    ["Wczoraj studiowałem ten temat i zrozumiałem","Wczoraj studiowałem… (тільки недок.)","«studiować» не має доконаної форми; результат передають іншим дієсловом."]
+  ],
+  "drills": [
+    ["Скажи, коли в тебе день народження (котрого числа).","Mam urodziny + ...ego + місяць (np. piątego lipca)."],
+    ["Запитай подругу, чи хотіла б поїхати на уродини.","Czy chciałabyś pojechać na urodziny?"],
+    ["Подякуй за запрошення.","Dziękuję za zaproszenie."],
+    ["Заспівай / скажи привітання на день народження.","Sto lat! Wszystkiego najlepszego!"],
+    ["Привітай молодят на весіллі.","Wszystkiego najlepszego na nowej drodze życia!"],
+    ["Скажи рік 1989 словами «у… році».","w tysiąc dziewięćset osiemdziesiątym dziewiątym roku"],
+    ["Скажи: 2001 рік.","w dwa tysiące pierwszym roku"],
+    ["Скажи рік 2000 правильно.","w dwutysięcznym roku"],
+    ["Скажи: вчора я прибрала квартиру (результат є).","Wczoraj posprzątałam mieszkanie."],
+    ["Скажи: я прибирала, але ще не чисто (процес).","Sprzątałam, ale jeszcze nie jest czysto."],
+    ["Назви три етапи життя польською.","urodzić się, zdać maturę, przejść na emeryturę"],
+    ["Скажи: я народився 1973 року.","Urodziłem się w tysiąc dziewięćset siedemdziesiątym trzecim roku."]
+  ],
+  "quiz": [
+    {"topic":"data","q":"«Mam urodziny piątego lipca» — це означає:","o":["п’яте липня","п’ятого липня","п’ять років","о п’ятій"],"a":1},
+    {"topic":"data","q":"Котрого числа? Правильне закінчення числівника:","o":["piąty lipca","piątego lipca","piąte lipiec","piątym lipca"],"a":1},
+    {"topic":"rok","q":"Як сказати «1989 року»?","o":["w tysiąc dziewięćset osiemdziesiątym dziewiątym roku","w tysiąc dziewięćset osiemdziesiąt dziewięć roku","w osiemdziesiąt dziewięć roku","w roku osiemdziesiąt dziewięć"],"a":0},
+    {"topic":"rok","q":"Особлива форма для 2000 року:","o":["w dwa tysiące roku","w dwutysięcznym roku","w dwóch tysiącach roku","w dwa tysiące pierwszym roku"],"a":1},
+    {"topic":"rok","q":"«w dwa tysiące pierwszym roku» — це:","o":["2000","2001","2011","2021"],"a":1},
+    {"topic":"życzenia","q":"Що кажуть на день народження?","o":["Wesołych świąt!","Sto lat!","Udanych wakacji!","Smacznego!"],"a":1},
+    {"topic":"życzenia","q":"Молодятам на весіллі бажають:","o":["Szczęśliwego Nowego Roku!","Wesołego Alleluja!","Wszystkiego najlepszego na nowej drodze życia!","Udanych wakacji!"],"a":2},
+    {"topic":"świeto","q":"Чим іменини відрізняються від уродин?","o":["це день твого імені за календарем","це той самий день, що й уродини","їх можна мати кілька разів на рік","це лише в фірмах"],"a":0},
+    {"topic":"aspekt","q":"Результат досягнуто — який вид? «Wczoraj ___ mieszkanie i jest czysto.»","o":["sprzątałam","posprzątałam","sprzątam","będę sprzątać"],"a":1},
+    {"topic":"aspekt","q":"Яке дієслово має ЛИШЕ недоконану форму?","o":["robić","czytać","mieszkać","pisać"],"a":2}
+  ]
+}

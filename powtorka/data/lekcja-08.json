@@ -1,0 +1,207 @@
+{
+  "id": "08",
+  "title": "Mami, jesteś głodna?",
+  "goal": "Повторюємо: посилки (śniadanie · obiad · kolacja) · jedzenie · wolę… niż… · jem / piję + biernik · z + narzędnik · przymiotniki odrzeczownikowe (-owy) · narzędnik l. mn. (-ami / -ymi)",
+  "vocab": [
+    { "group": "Posiłki i jedzenie — посилки та їжа", "items": [
+      ["śniadanie","сніданок"],["obiad","обід"],["kolacja","вечеря"],
+      ["chleb (jasny / ciemny)","хліб (світлий / темний)"],["bułka","булочка"],["masło","масло"],
+      ["margaryna","маргарин"],["dżem","джем"],["miód","мед"],["jajko","яйце"],["szynka","шинка"],
+      ["kiełbasa","ковбаса"],["ser (biały / żółty)","сир (творог / твердий)"],["płatki śniadaniowe","пластівці"],
+      ["jogurt","йогурт"],["mleko","молоко"]
+    ]},
+    { "group": "Owoce, napoje, obiad — фрукти, напої, обід", "items": [
+      ["pomidor","помідор"],["ogórek","огірок"],["cytryna","лимон"],["jabłko","яблуко"],
+      ["truskawka","полуниця"],["malina","малина"],["pomarańcza","апельсин"],["banan","банан"],
+      ["kawa","кава"],["herbata","чай"],["sok pomarańczowy","апельсиновий сік"],["kakao","какао"],
+      ["zupa","суп"],["mięso","м’ясо"],["ziemniaki","картопля"],["sałatka","салат"]
+    ]},
+    { "group": "Nakrycie — посуд", "items": [
+      ["łyżka","ложка"],["łyżeczka","ложечка"],["nóż","ніж"],["widelec","виделка"],
+      ["talerz","тарілка"],["talerzyk","тарілочка"],["miska","миска"],["kubek","горнятко"],
+      ["filiżanka","чашка"],["kieliszek","келих"],["szklanka","склянка"],["serwetka","серветка"]
+    ]},
+    { "group": "Przydatne — корисні фрази", "items": [
+      ["głodny / głodna","голодний / голодна"],["Smacznego!","смачного!"],["Co lubisz jeść?","що ти любиш їсти?"],
+      ["Wolę… niż…","надаю перевагу… ніж…"],["Mam ochotę na…","маю бажання (хочу)…"],["Czy mogę prosić…?","можна попросити…?"],
+      ["chętnie","охоче / залюбки"],["Co pijesz?","що ти п’єш?"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"перевага", "title":"wolę… niż…", "formula":"wolę + biernik · niż + biernik", "ex":"Wolę kawę niż herbatę. · Wolę jasny chleb niż ciemny." },
+    { "badge":"їм / п’ю", "title":"jem / piję + biernik", "formula":"jem / jesz / je · piję / pijesz / pije + biernik (з + narzędnik)", "ex":"Jem chleb z masłem. · Piję kawę z mlekiem bez cukru." },
+    { "badge":"-owy", "title":"przymiotniki odrzeczownikowe", "formula":"rzeczownik + -owy / -owa / -owe", "ex":"sok pomarańczowy · herbata malinowa · ciasto jabłkowe" },
+    { "badge":"narzędnik l. mn.", "title":"z czym? — -ami / -ymi", "formula":"rzeczownik + -ami · przymiotnik + -ymi (k, g → -imi)", "ex":"z suszonymi pomidorami · z zielonymi oliwkami · ze słodkimi jabłkami" }
+  ],
+  "czytanie": [
+    { "block": "A. Mami je śniadanie", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 087", "lines":[
+        ["Karolina","Mami! Dzień dobry! Czy ty jeszcze śpisz?","Мамі! Добрий день! Ти ще спиш?"],
+        ["Mami","Nie, już nie śpię. Proszę wejść!","Ні, вже не сплю. Заходь, будь ласка!"],
+        ["Karolina","Mami, co chcesz na śniadanie?","Мамі, що ти хочеш на сніданок?"],
+        ["Mami","Na śniadanie?","На сніданок?"],
+        ["Karolina","Tak, dziś ja robię śniadanie. Mama i tata jeszcze śpią. Co lubisz jeść?","Так, сьогодні я роблю сніданок. Мама і тато ще сплять. Що ти любиш їсти?"],
+        ["Mami","Ja? Wszystko, nie ma problemu.","Я? Все, без проблем."],
+        ["Karolina","To fajnie.","Це класно."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 1 · śniadanie · трек 088",
+        "words":"chleb · bułka · biały ser · żółty ser · jogurt · mleko · masło · margaryna · dżem · miód · jajko · szynka · kiełbasa · płatki śniadaniowe · pomidor · ogórek · kawa · herbata · sok pomarańczowy · kakao · cukier · sól · pieprz · cytryna",
+        "note":"Прочитай назви продуктів уголос." },
+      { "type":"dia", "title":"Ćwiczenie 3 · wolisz jasny czy ciemny? · трек 089", "lines":[
+        ["Karolina","Mami, wolisz jasny czy ciemny chleb?","Мамі, тобі більше до вподоби світлий чи темний хліб?"],
+        ["Mami","Wolisz? Nie rozumiem.","«Wolisz»? Не розумію."],
+        ["Karolina","Wolisz… yyy, no preferujesz, bardziej lubisz.","«Wolisz»… ну, віддаєш перевагу, більше любиш."],
+        ["Mami","Aha. Wolę ciemny. A co to jest?","Ага. Надаю перевагу темному. А що це?"],
+        ["Karolina","To jest bułka. Może wolisz bułkę?","Це булочка. Може, хочеш булочку?"],
+        ["Mami","Tak, proszę bułkę.","Так, прошу булочку."],
+        ["Karolina","Ja jem ciemny chleb z margaryną, bo chcę być szczupła.","Я їм темний хліб з маргарином, бо хочу бути стрункою."],
+        ["Mami","Ja wolę masło. Czy mogę prosić widelec do masła?","Я надаю перевагу маслу. Можна попросити виделку для масла?"],
+        ["Karolina","Mami, to jest nóż, a to jest widelec.","Мамі, це ніж, а це виделка."],
+        ["Mami","Tak, tak, teraz pamiętam.","Так, так, тепер пам’ятаю."],
+        ["Karolina","Chcesz wędlinę czy ser?","Хочеш ковбасні вироби чи сир?"],
+        ["Mami","Co to jest wędlina?","Що таке «wędlina»?"],
+        ["Karolina","Wędlina to na przykład: szynka, kiełbasa, salami.","«Wędlina» — це, наприклад: шинка, ковбаса, салямі."],
+        ["Mami","Proszę kiełbasę, bardzo lubię polską kiełbasę.","Прошу ковбасу, дуже люблю польську ковбасу."],
+        ["Karolina","Kiełbasa jest tłusta. Ja zwykle jem biały albo żółty ser z pomidorem i z ogórkiem.","Ковбаса жирна. Я зазвичай їм творог або твердий сир із помідором і огірком."],
+        ["Mami","To bardzo zdrowe.","Це дуже корисно."],
+        ["Karolina","Tak, to prawda. Mami, masz ochotę na jajko? To jajko jest na miękko, a tamto na twardo.","Так, це правда. Мамі, хочеш яйце? Це яйце некруте, а те круте."],
+        ["Mami","Co to znaczy?","Що це означає?"],
+        ["Karolina","Na miękko gotujesz trzy minuty, a na twardo osiem.","Некруте вариш три хвилини, а круте — вісім."],
+        ["Mami","Aha, to poproszę na twardo.","Ага, тоді попрошу круте."],
+        ["Karolina","Z majonezem?","З майонезом?"],
+        ["Mami","Tak, chętnie.","Так, залюбки."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · malinowy · трек 090", "lines":[
+        ["Karol","(bardzo zaspany) Cześć, jecie już śniadanie?","(дуже заспаний) Привіт, ви вже снідаєте?"],
+        ["Karolina","Tak, jest już późno.","Так, уже пізно."],
+        ["Karol","Smacznego.","Смачного."],
+        ["Mami","Dziękujemy.","Дякуємо."],
+        ["Karol","Co macie dobrego? Mam ochotę na omlet albo jajecznicę.","Що смачного маєте? Маю бажання на омлет або яєчню."],
+        ["Karolina","(uśmiecha się ironicznie) Nie ma problemu, tam są jajka, a tam jest patelnia.","(іронічно усміхається) Без проблем, там яйця, а там сковорода."],
+        ["Karol","No, wiesz. To ja już wolę jogurt z płatkami.","Ну, знаєш. Тоді вже надаю перевагу йогурту з пластівцями."],
+        ["Mami","Wolę… moment, ja wolę, ty wolisz. Wolisz jogurt naturalny czy owocowy?","«Wolę»… момент, я надаю перевагу, ти надаєш перевагу. Хочеш йогурт натуральний чи фруктовий?"],
+        ["Karol","Brawo Mami! Wolę owocowy.","Браво, Мамі! Надаю перевагу фруктовому."],
+        ["Mami","Jogurt malinowy czy truskawkowy?","Йогурт малиновий чи полуничний?"],
+        ["Karol","Mami, mówimy: malinowy czy truskawkowy?","Мамі, кажемо: малиновий чи полуничний?"],
+        ["Mami","Nie mówimy jogurt malina?","Не кажемо «йогурт малина»?"],
+        ["Karol","Nie, mówimy jaki jogurt, mówimy… -owy.","Ні, кажемо який йогурт, кажемо… -owy."],
+        ["Mami","Owy?","Owy?"],
+        ["Karol","No, malina +owy, truskawka +owy. Rozumiesz?","Ну, malina +owy, truskawka +owy. Розумієш?"],
+        ["Mami","Myślę, że tak. Malina -owy.","Думаю, що так. Malina -owy."],
+        ["Karol","Nie, nie! Malinowy!","Ні, ні! Malinowy!"],
+        ["Mami","???","???"]
+      ]},
+      { "type":"dia", "title":"Dialog 3 · co pijecie? · трек 091", "lines":[
+        ["Karol","Co pijecie?","Що ви п’єте?"],
+        ["Karolina","Poproszę herbatę z cytryną.","Попрошу чай з лимоном."],
+        ["Karol","A ty Mami? Wolisz kawę czy herbatę?","А ти, Мамі? Надаєш перевагу каві чи чаю?"],
+        ["Mami","Poproszę kawę.","Попрошу каву."],
+        ["Karol","Jaką kawę? Białą czy czarną?","Яку каву? Білу чи чорну?"],
+        ["Mami","Białą? Kawa jest zawsze czarna. Tylko herbata jest czarna, zielona, biała.","Білу? Кава завжди чорна. Тільки чай буває чорний, зелений, білий."],
+        ["Karol","Biała – to znaczy z mlekiem.","Біла — означає з молоком."],
+        ["Mami","Teraz rozumiem. Poproszę białą kawę.","Тепер розумію. Попрошу білу каву."],
+        ["Karol","Pijesz kawę z cukrem czy bez cukru?","П’єш каву з цукром чи без цукру?"],
+        ["Mami","Z cukrem. Dziękuję bardzo.","З цукром. Дуже дякую."],
+        ["Karol","Proszę, herbata i kawa. Ja dziś piję kakao.","Прошу, чай і кава. Я сьогодні п’ю какао."],
+        ["Mami","Kakao z cukrem czy z cytryną?","Какао з цукром чи з лимоном?"],
+        ["Karol","Mami, kakao z cytryną?","Мамі, какао з лимоном?"],
+        ["Mami","Ja tylko ćwiczę narzędnik!","Я лише треную орудний відмінок!"]
+      ]}
+    ]},
+    { "block": "B. Co lubimy jeść?", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · pary i preferencje · трек 092",
+        "words":"jasny ≠ ciemny · mocny ≠ słaby · tłusty ≠ chudy · z cukrem ≠ bez cukru · z mlekiem ≠ bez mleka · z cytryną ≠ bez cytryny · z lodem ≠ bez lodu",
+        "note":"Na śniadanie jem grzankę z dżemem albo z masłem orzechowym. Piję kawę z mlekiem bez cukru." },
+      { "type":"dia", "title":"Ćwiczenie 4 · z czym jedzą kanapkę?", "lines":[
+        ["Uwe","Uwe je chleb z masłem, kiełbasą, musztardą, keczupem.","Уве їсть хліб з маслом, ковбасою, гірчицею, кетчупом."],
+        ["Angela","Angela je chleb z serem żółtym, pomidorem, szynką.","Анджела їсть хліб із твердим сиром, помідором, шинкою."],
+        ["Karolina","Karolina je bułkę z masłem, serem białym, dżemem i miodem.","Каролiна їсть булочку з маслом, творогом, джемом і медом."],
+        ["—","Ja jem bułkę z jajkiem, wędliną i musztardą.","Я їм булочку з яйцем, ковбасними виробами і гірчицею."]
+      ]}
+    ]},
+    { "block": "C. Obiad", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · obiad — schemat",
+        "words":"pierwsze danie: zupa · drugie danie: mięso, ziemniaki, kasza, sałatka · makaron · ryż · ryba · kotlet · surówka",
+        "note":"OBIAD = pierwsze danie + drugie danie." },
+      { "type":"dia", "title":"Dialog 1 · ryba z frytkami · трек 093", "lines":[
+        ["Mami","Angela, czy to prawda, że w Anglii zawsze jecie rybę z frytkami na obiad? A może to tylko stereotyp?","Анджело, чи правда, що в Англії ви завжди їсте рибу з картоплею фрі на обід? А може, це лише стереотип?"],
+        ["Angela","To jest i stereotyp, i prawda. Ja bardzo lubię rybę z frytkami. Lubię też spaghetti i pizzę. Moja mama gotuje świetne mięso z sosem gravy – to nasza ulubiona potrawa.","Це і стереотип, і правда. Я дуже люблю рибу з картоплею фрі. Люблю також спагеті й піцу. Моя мама готує чудове м’ясо із соусом ґрейві — це наша улюблена страва."],
+        ["Mami","Ja też jem często rybę na obiad. Bardzo lubię frutti di mare. Przepraszam, jak się mówi po polsku frutti di mare?","Я теж часто їм рибу на обід. Дуже люблю frutti di mare. Перепрошую, як сказати польською frutti di mare?"],
+        ["Nauczycielka","Owoce morza.","Морепродукти."],
+        ["Mami","Dziękuję.","Дякую."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · kto co je? · трек 094", "lines":[
+        ["—","ruskie pierogi","вареники по-руськи"],
+        ["—","pierogi z serem i śmietaną","вареники із сиром і сметаною"],
+        ["—","pizza i piwo","піца і пиво"],
+        ["—","kurczak, frytki i piwo","курка, картопля фрі і пиво"]
+      ]}
+    ]},
+    { "block": "D. Kolacja", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · kolacja", "lines":[
+        ["Pan Maj","Kochanie, co dziś jest na kolację?","Кохана, що сьогодні на вечерю?"],
+        ["Pani Maj","Robią sałatkę i zupę jarzynową.","Готують салат і овочевий суп."],
+        ["Pan Maj","To świetne. Gdzie Karol i Karolina?","Це чудово. Де Кароль і Каролiна?"],
+        ["Pani Maj","Idę! Tosty i herbatę.","Іду! Тости і чай."],
+        ["Karol","Gotowe! Mami, zapraszamy na kolację.","Готово! Мамі, запрошуємо на вечерю."],
+        ["Mami","Dziękuję bardzo, już idę.","Дуже дякую, вже йду."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · polska sałatka", "lines":[
+        ["Pani Maj","Smacznego.","Смачного."],
+        ["Karolina","Mami, to jest tradycyjna polska sałatka.","Мамі, це традиційний польський салат."],
+        ["Mami","Z czego ona jest?","З чого вона?"],
+        ["Karolina","Z ziemniaków, z marchewką, cebulą, z kiszonymi ogórkami, jabłkami i oczywiście z majonezem. Jest pyszna!","З картоплі, з морквою, цибулею, з квашеними огірками, яблуками і, звичайно, з майонезом. Вона смачнюща!"]
+      ]},
+      { "type":"ref", "title":"Powtórzenie · produkt czy potrawa?",
+        "words":"PRODUKT: ser, szynka, jajko, mięso, ryba · POTRAWA: spaghetti, zupa, kotlet schabowy, frytki, omlet, pizza, jajecznica, kebab, pierogi",
+        "note":"Розсортуй: продукт (сировина) vs потрава (готова страва)." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_08-1.pdf · Аудіо: 2_Main_book_audio_podręcznik/lekcja_08/ (087–094.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 2 · szwedzki stół · трек 037", "lines":[
+      ["—","Proszę, mamo, zapraszam. Dziś jest szwedzki stół.","Прошу, мамо, запрошую. Сьогодні шведський стіл."],
+      ["—","Szwedzki stół? Ze Szwecji? IKEA, tak?","Шведський стіл? Зі Швеції? IKEA, так?"],
+      ["—","Nie, nie! Mówimy „szwedzki stół”, kiedy jest wszystko i ty możesz sama wybierać.","Ні, ні! Кажемо «шведський стіл», коли є все і ти можеш сама вибирати."],
+      ["—","Dlaczego nie polski stół?","Чому не польський стіл?"],
+      ["—","No, nie wiem. Smacznego.","Ну, не знаю. Смачного."],
+      ["—","Dziękuję. Smacznego.","Дякую. Смачного."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 12 · nakrycie — посуд · трек 039",
+      "words":"łyżka · nóż · widelec · łyżeczka · serwetka · talerz · miska · talerzyk · kubek · filiżanka · kieliszek · szklanka · czajnik · garnek · patelnia · dzbanek · otwieracz do butelek",
+      "note":"Прочитай назви посуду уголос." }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L08.txt",
+  "mistakes": [
+    ["Wolę kawę jak herbatę","Wolę kawę niż herbatę","Порівняння перевагі — «niż», не «jak»."],
+    ["jogurt malina","jogurt malinowy","Який йогурт? → прикметник на -owy (malina → malinowy)."],
+    ["Jem chleb z masło","Jem chleb z masłem","«z» вимагає narzędnik: masło → masłem."],
+    ["sałatka z pomidory","sałatka z pomidorami","Narzędnik l. mn.: pomidory → z pomidorami (-ami)."]
+  ],
+  "drills": [
+    ["Спитай маму, чи вона голодна.","Mamo, jesteś głodna?"],
+    ["Скажи: я надаю перевагу каві, а не чаю.","Wolę kawę niż herbatę."],
+    ["Скажи: на сніданок їм хліб з маслом.","Na śniadanie jem chleb z masłem."],
+    ["Спитай: п’єш каву з цукром чи без цукру?","Pijesz kawę z cukrem czy bez cukru?"],
+    ["Утвори прикметник: сік з малини.","sok malinowy"],
+    ["Утвори прикметник: чай з апельсина.","herbata pomarańczowa"],
+    ["Скажи: я хочу омлет (вирази бажання).","Mam ochotę na omlet."],
+    ["Скажи: салат із помідорами й огірками.","sałatka z pomidorami i ogórkami"],
+    ["Спитай неформально: що ти любиш їсти?","Co lubisz jeść?"],
+    ["Скажи: ми п’ємо чай з лимоном.","Pijemy herbatę z cytryną."],
+    ["Назви три посилки дня.","śniadanie, obiad, kolacja"],
+    ["Побажай смачного.","Smacznego!"]
+  ],
+  "quiz": [
+    {"topic":"posiłki","q":"Який прийом їжі — «śniadanie»?","o":["обід","вечеря","сніданок","перекус"],"a":2},
+    {"topic":"preferencje","q":"«Wolę kawę ___ herbatę.» (надаю перевагу)","o":["jak","niż","czy","i"],"a":1},
+    {"topic":"jeść","q":"«Oni ___ chleb z szynką.» (jeść)","o":["jem","jesz","jedzą","jecie"],"a":2},
+    {"topic":"pić","q":"«Ja ___ kawę.» (pić)","o":["piję","pijesz","pije","piją"],"a":0},
+    {"topic":"narzędnik","q":"«Jem chleb z ___.» (masło)","o":["masło","masła","masłem","maśle"],"a":2},
+    {"topic":"przymiotnik","q":"Сік з малини — це sok…","o":["malina","malinowy","malinami","malinę"],"a":1},
+    {"topic":"narzędnik l. mn.","q":"«sałatka z ___» (pomidory)","o":["pomidory","pomidorami","pomidorów","pomidorem"],"a":1},
+    {"topic":"kawa","q":"«Biała kawa» — це кава:","o":["без цукру","з молоком","з лимоном","зелена"],"a":1},
+    {"topic":"słownictwo","q":"«widelec» — це:","o":["ложка","ніж","виделка","тарілка"],"a":2},
+    {"topic":"obiad","q":"«zupa» на обід — це:","o":["pierwsze danie","drugie danie","deser","napój"],"a":0}
+  ]
+}

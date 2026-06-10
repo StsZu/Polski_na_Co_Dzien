@@ -1,0 +1,168 @@
+{
+  "id": "22",
+  "title": "Dokąd pojedziemy na weekend?",
+  "goal": "Повторюємо: майбутній час (proste i złożone) · czas przeszły доконаний · weekend i wyjazdy · rozmowa przez telefon · zostawić wiadomość",
+  "vocab": [
+    { "group": "Weekend i wyjazd — вихідні та поїздка", "items": [
+      ["weekend","вихідні"],["długi weekend","довгі вихідні"],["zaplanować weekend","спланувати вихідні"],
+      ["pojechać do…","поїхати до…"],["zwiedzić","оглянути (місто)"],["zaprosić","запросити"],
+      ["impreza","вечірка"],["dyskoteka","дискотека"],["bagaż","багаж"],["paszport","паспорт"],
+      ["wiza","віза"],["Święto Pracy","День праці"],["Święto Konstytucji","День Конституції"],["dzień wolny","вихідний день"]
+    ]},
+    { "group": "Czynności / czasowniki — дії", "items": [
+      ["zrobić porządek","прибрати"],["napisać zadanie","написати завдання"],["ugotować zupę","зварити суп"],
+      ["obejrzeć film","подивитися фільм"],["przeczytać wiadomości","прочитати новини"],["poznać ludzi","познайомитися з людьми"],
+      ["porozmawiać","поспілкуватися"],["pospacerować","прогулятися"],["spotkać się","зустрітися"],
+      ["zadzwonić","зателефонувати"],["wrócić","повернутися"],["pójść spać","піти спати"]
+    ]},
+    { "group": "Telefon — телефонна розмова", "items": [
+      ["Halo?","Алло?"],["Czy mogę rozmawiać z…?","Можна поговорити з…?"],["Nie ma jej / go","Її / його немає"],
+      ["Czy coś przekazać?","Щось передати?"],["Proszę przekazać, że…","Передайте, що…"],["pomyłka","помилка (не туди)"],
+      ["Zaraz wróci","Зараз повернеться"],["oddzwonić","передзвонити"],["zostawić wiadomość","залишити повідомлення"],
+      ["poczta głosowa","голосова пошта"],["zajęte","зайнято"],["Do usłyszenia","До зв’язку"]
+    ]},
+    { "group": "Przydatne — корисні", "items": [
+      ["Dokąd?","Куди?"],["nigdy","ніколи"],["nigdzie","ніде"],["z nikim","ні з ким"],
+      ["wszyscy razem","усі разом"],["beze mnie","без мене"],["jak zwykle","як завжди"],
+      ["na pewno","напевно"],["w końcu","нарешті"],["od razu","відразу"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"майбутній простий", "title":"Czas przyszły prosty (доконаний)", "formula":"доконане дієслово в особовій формі → одне слово", "ex":"Zrobię porządek. · Napiszę zadanie. · Pojadę do Gdańska. · Zwiedzę Gdańsk." },
+    { "badge":"майбутній складений", "title":"Czas przyszły złożony (недоконаний)", "formula":"będę / będziesz / będzie… + bezokolicznik АБО + -ł/-ła", "ex":"Będę spacerować. · Będziesz pracować. · Będę czytać / czytał." },
+    { "badge":"минулий доконаний", "title":"Czas przeszły (доконаний)", "formula":"доконане дієслово: -łem / -łam / -liśmy…", "ex":"Zrobiłam porządek. · Pojechałam do Gdańska. · Spotkałem się z kolegą." }
+  ],
+  "czytanie": [
+    { "block": "A. Co robiłeś / co zrobisz na weekend?", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · czas przeszły · трек 206",
+        "words":"Zrobiłam porządek · napisałam zadanie domowe · skończyłam książkę · obejrzałam „Dzień świstaka” na DVD · przeczytałam wiadomości · ugotowałam zupę i zjadłam ją całą · zaplanowałam weekend w Toruniu · pojechałam do Gdańska · poznałam nowych ludzi · zwiedziłam Gdańsk · zobaczyłam Bałtyk · spotkałem się z kolegą · pospacerowaliśmy nad Wisłą · zaprosiliśmy dziewczyny na dyskotekę",
+        "note":"Усі дієслова — у минулому доконаному часі. Прочитай уголос." },
+      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 1 · трек 207", "lines":[
+        ["—","Ale jesteś zielony. Nie znalazłeś niczego do spania w Zakopanem?","Який же ти зелений. Не знайшов де переночувати в Закопаному?"],
+        ["—","Nie byłem w Tatrach. Nigdzie nie byłem. Imprezowałem na Kazimierzu. Nigdy nie wypiję ani kieliszka.","Я не був у Татрах. Ніде не був. Гуляв на Казимежі. Ніколи не вип’ю й чарки."],
+        ["—","Nigdy nie mów nigdy. Planujemy coś wszyscy razem na długi weekend?","Ніколи не кажи «ніколи». Плануємо щось усі разом на довгі вихідні?"],
+        ["—","Dlaczego długi?","Чому довгі?"],
+        ["—","Ponieważ pierwszego maja jest Święto Pracy. A trzeciego maja jest Święto Konstytucji. Więc mamy kilka dni wolnych.","Бо першого травня — День праці. А третього травня — День Конституції. Тож маємо кілька вихідних днів."],
+        ["—","No to impreza.","Ну то вечірка."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 2 · трек 208", "lines":[
+        ["—","Słyszałeś? Planujemy wspólny weekend.","Чув? Плануємо спільні вихідні."],
+        ["—","Przepraszam, ale beze mnie.","Вибач, але без мене."],
+        ["—","A co będziesz robić przez te kilka dni?","А що ти робитимеш ці кілька днів?"],
+        ["—","Jak to co? To co zawsze. Będę ciężko pracować.","Як це що? Те, що завжди. Буду важко працювати."],
+        ["—","Będziesz jak zwykle rozmawiać przez telefon, a nie pracować.","Будеш, як завжди, балакати по телефону, а не працювати."],
+        ["—","Mówisz jak moja żona.","Говориш як моя дружина."],
+        ["—","Tak. Będę spacerować. Czytać ambitną literaturę. Słuchać wiatru, tańczyć w deszczu, chodzić do kina, pić wino w parku, jak ten leń, Javier. A pieniądze będą zarabiać się same. Tak?","Так. Гулятиму. Читатиму амбітну літературу. Слухатиму вітер, танцюватиму під дощем, ходитиму в кіно, питиму вино в парку, як той ледар Хав’єр. А гроші будуть заробляти себе самі. Так?"],
+        ["—","No... nikt nie jest doskonały.","Ну... ніхто не ідеальний."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 6 · czas przyszły · трек 209",
+        "words":"Zrobię porządek · napiszę zadanie · skończę książkę · obejrzę „Dzień Świstaka” · przeczytam wiadomości · ugotuję zupę i zjem ją całą · zaplanuję weekend w Toruniu · pojadę do Gdańska · poznam nowych ludzi · porozmawiam z seniorem rodziny · zwiedzę Gdańsk · zobaczę Bałtyk · spotkam się z kolegą · pójdziemy na kawę · zaprosimy dziewczyny · wrócę rano i pójdę spać",
+        "note":"Ті самі дії, але в майбутньому простому (доконаному) часі. Порівняй із Ćwiczenie 1." }
+    ]},
+    { "block": "B. Rozmowa przez telefon", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 A · трек 210", "lines":[
+        ["—","Halo?","Алло?"],
+        ["Angela","Dzień dobry, mówi Angela. Czy mogę rozmawiać z Mami?","Добрий день, це Анджела. Можна поговорити з Мамі?"],
+        ["—","Dzień dobry. Nie ma jej. Poszły z Karoliną na zakupy. Czy coś przekazać?","Добрий день. Її немає. Пішли з Кароліною за покупками. Щось передати?"],
+        ["Angela","Proszę jej powiedzieć, że zadzwonię za godzinę.","Передайте їй, що я зателефоную за годину."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 B · poczta głosowa · трек 211", "lines":[
+        ["Automat","To numer 0 900 764 532. Po usłyszeniu sygnału proszę zostawić wiadomość.","Це номер 0 900 764 532. Після сигналу залиште повідомлення."],
+        ["Angela","Cześć, tu Angela. Pewnie masz jakieś spotkanie. Jak skończysz, to zadzwoń do mnie na komórkę. Do usłyszenia.","Привіт, це Анджела. Мабуть, ти на якійсь зустрічі. Як закінчиш, подзвони мені на мобільний. До зв’язку."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 C · pomyłka · трек 212", "lines":[
+        ["—","O cześć Javier. W końcu odebrałeś. Wiesz, dzwonię, bo...","О, привіт, Хав’єре. Нарешті взяв слухавку. Знаєш, дзвоню, бо..."],
+        ["—","Pomyłka.","Помилка (не туди)."],
+        ["—","Przepraszam.","Перепрошую."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 D · трек 213", "lines":[
+        ["—","Halo?","Алло?"],
+        ["Angela","E... Czy to numer 606 999 741?","Е... Це номер 606 999 741?"],
+        ["—","E... nie wiem. To komórka Javiera.","Е... не знаю. Це мобільний Хав’єра."],
+        ["Angela","Proszę mi go dać do telefonu.","Покличте його, будь ласка, до телефону."],
+        ["—","Zaraz wróci. Teraz jest w...","Зараз повернеться. Зараз він у..."],
+        ["Angela","Proszę mu przekazać, że dzwoniła Angela, koleżanka ze szkoły.","Передайте йому, що дзвонила Анджела, подруга зі школи."],
+        ["—","Na pewno do pani oddzwoni.","Він обов’язково Вам передзвонить."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 E · трек 214", "lines":[
+        ["—","No, w końcu odebrałaś. Cały czas było zajęte.","Ну, нарешті взяла слухавку. Весь час було зайнято."],
+        ["—","Ach, bo dzwoniłam do wszystkich w sprawie weekendu. Ale albo poczta głosowa, albo... nieważne. Z nikim nie porozmawiałam.","Ах, бо я обдзвонювала всіх щодо вихідних. Але або голосова пошта, або... неважливо. Ні з ким не поговорила."],
+        ["—","Zostawiłaś wiadomość? Odzwonią?","Залишила повідомлення? Передзвонять?"],
+        ["—","Ciekawe tylko kiedy. Wyślemy im SMS-a, kiedy coś zaplanujemy. Koniec, kropka.","Цікаво тільки коли. Надішлемо їм SMS, коли щось сплануємо. Кінець, крапка."]
+      ]}
+    ]},
+    { "block": "C. Lwów — tekst historyczny", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · czytanka · трек 216", "lines":[
+        ["Tekst","To miasto ma bardzo długą, skomplikowaną i tragiczną historię. W latach 1340–1772 należało do Królestwa Polskiego.","Це місто має дуже довгу, складну й трагічну історію. У 1340–1772 роках належало до Польського Королівства."],
+        ["Tekst","Od 1772 do 1918 było pod zaborem austriackim. W latach 1918–1945 należało do Polski. 1945–1991 do ZSRR. A od 1991 do Ukrainy.","Від 1772 до 1918 було під австрійською займанщиною. У 1918–1945 належало Польщі. 1945–1991 — СРСР. А від 1991 — Україні."],
+        ["Tekst","W okresie międzywojennym Lwów był trzecim pod względem liczby ludności, po Warszawie i Łodzi, miastem Polski oraz stolicą województwa.","У міжвоєнний період Львів був третім за кількістю населення містом Польщі, після Варшави й Лодзі, та столицею воєводства."],
+        ["Tekst","Był też drugim po Warszawie ośrodkiem nauki i kultury polskiej. Dziś znajduje się tu cenny zespół obiektów zabytkowych, wpisany na listę światowego dziedzictwa UNESCO w 1998 roku.","Був також другим після Варшави осередком польської науки й культури. Сьогодні тут цінний ансамбль пам’яток, внесений до списку світової спадщини ЮНЕСКО 1998 року."]
+      ]}
+    ]},
+    { "block": "D. Dokąd pojedziemy? — Lwów", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 215", "lines":[
+        ["—","Cześć Javier.","Привіт, Хав’єре."],
+        ["Javier","O, cześć dziewczyny. Zaraz przedstawię wam moją znajomą. To jest Majka. Studentka turystyki. A to moje koleżanki ze szkoły. Mami i Angela.","О, привіт, дівчата. Зараз познайомлю вас із моєю знайомою. Це Майка. Студентка туризму. А це мої подруги зі школи. Мамі й Анджела."],
+        ["—","Bardzo nam miło.","Дуже приємно."],
+        ["Majka","Bardzo. Javier mówił mi, że planujecie długi weekend. Chciałabym zaproponować wam coś interesującego.","Дуже. Хав’єр казав мені, що ви плануєте довгі вихідні. Хотіла б запропонувати вам щось цікаве."],
+        ["—","Posłuchamy z przyjemnością.","Послухаємо з приємністю."],
+        ["Majka","Ja i moi znajomi pojedziemy na te kilka dni do Lwowa. Zapraszam.","Я та мої знайомі поїдемо на ці кілька днів до Львова. Запрошую."],
+        ["Angela","Lwów? Słyszałyście? Weźmiemy paszporty, pieniądze, trochę bagażu i jedziemy.","Львів? Чули? Візьмемо паспорти, гроші, трохи багажу — і їдемо."],
+        ["Mami","Ja nie pojadę, bo... e... Japończycy na pewno potrzebują wizy. A nie mamy już czasu.","Я не поїду, бо... е... японцям напевно потрібна віза. А часу вже немає."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_22.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_22/ (206–216.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 11 · pomyłka", "lines":[
+      ["—","Słucham. Cześć, Andrzej, to ty?","Слухаю. Привіт, Анджею, це ти?"],
+      ["—","Nie, tu nie mieszka żaden Andrzej.","Ні, тут не живе жоден Анджей."],
+      ["—","Czy to mieszkanie państwa Leśniewskich?","Це квартира пана й пані Лесьневських?"],
+      ["—","Nie, pomyłka.","Ні, помилка."],
+      ["—","A czy to numer 364-7285?","А це номер 364-7285?"],
+      ["—","Nie, to numer 364-72858.","Ні, це номер 364-72858."],
+      ["—","W takim razie przepraszam bardzo. Do widzenia.","У такому разі перепрошую. До побачення."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 12 · przekazać wiadomość", "lines":[
+      ["—","Dzień dobry, czy to numer 36-12-345?","Добрий день, це номер 36-12-345?"],
+      ["—","Tak, dzień dobry.","Так, добрий день."],
+      ["Ewa","Mówi Ewa Jankowska. Czy mogę rozmawiać z Pawłem?","Говорить Ева Янковська. Можна поговорити з Павлом?"],
+      ["—","Niestety, nie ma go. Czy coś przekazać?","На жаль, його немає. Щось передати?"],
+      ["Ewa","Proszę mu powiedzieć, że dzwoniła Ewa, koleżanka ze studiów.","Передайте йому, що дзвонила Ева, подруга з університету."],
+      ["—","Dobrze, na pewno do pani oddzwoni. Dziękuję. Do widzenia.","Добре, він обов’язково Вам передзвонить. Дякую. До побачення."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L22.txt",
+  "mistakes": [
+    ["Będę zrobię porządek","Zrobię porządek АБО Będę robić porządek","«będę» поєднується лише з недоконаним дієсловом; доконане вже саме майбутнє."],
+    ["Będę napisać zadanie","Napiszę zadanie АБО Będę pisać zadanie","Після «będę» — недоконаний інфінітив (pisać), а не доконаний (napisać)."],
+    ["Pojechałam wczoraj będę do Gdańska","Pojechałam do Gdańska","Не змішуй часи: минула дія — лише в минулому часі."],
+    ["Czy mogę rozmawiać z Mami? — Nie ma ją.","…Nie ma jej.","Після «nie ma» — родовий відмінок: jej, go."]
+  ],
+  "drills": [
+    ["Скажи в майбутньому: «Я приберу і напишу завдання».","Zrobię porządek i napiszę zadanie."],
+    ["Скажи в минулому: «Я поїхала до Гданська».","Pojechałam do Gdańska."],
+    ["Майбутній складений: «Я буду гуляти й читати».","Będę spacerować i czytać."],
+    ["Запитай по телефону, чи можна поговорити з Мамі.","Czy mogę rozmawiać z Mami?"],
+    ["Скажи, що його зараз немає, і запропонуй передати.","Nie ma go. Czy coś przekazać?"],
+    ["Попроси передати, що дзвонила Анджела.","Proszę przekazać, że dzwoniła Angela."],
+    ["Скажи, що це помилка (не туди).","Pomyłka. Przepraszam."],
+    ["Скажи: «Я ніде не був».","Nigdzie nie byłem."],
+    ["Скажи: «Я ні з ким не поговорила».","Z nikim nie porozmawiałam."],
+    ["Запитай: «Куди поїдемо на вихідні?»","Dokąd pojedziemy na weekend?"],
+    ["Скажи: «Візьмемо паспорти й гроші та їдемо».","Weźmiemy paszporty, pieniądze i jedziemy."],
+    ["Залиш повідомлення: «Подзвони мені на мобільний».","Zadzwoń do mnie na komórkę."]
+  ],
+  "quiz": [
+    {"topic":"czas przyszły","q":"Майбутній простий від «pojechać» (я):","o":["pojadę","pojechałem","będę jechać","jadę"],"a":0},
+    {"topic":"czas przyszły","q":"Правильний майбутній складений:","o":["Będę napisać","Będę pisać","Będę napiszę","Napiszę będę"],"a":1},
+    {"topic":"czas przeszły","q":"«Я (ж.) поїхала до Гданська»:","o":["Pojadę do Gdańska","Pojechałam do Gdańska","Pojechałem do Gdańska","Jadę do Gdańska"],"a":1},
+    {"topic":"telefon","q":"Як спитати по телефону про людину?","o":["Gdzie jesteś?","Czy mogę rozmawiać z…?","Co robisz?","Kto to jest?"],"a":1},
+    {"topic":"telefon","q":"«Nie ma go» означає:","o":["він тут","його немає","він зайнятий","зачекайте"],"a":1},
+    {"topic":"telefon","q":"Подзвонив не туди. Кажеш:","o":["Do usłyszenia","Pomyłka","Zajęte","Oddzwonię"],"a":1},
+    {"topic":"przeczenie","q":"«Я ніде не був» по-польськи:","o":["Nigdy nie byłem","Nigdzie nie byłem","Nikt nie był","Nic nie było"],"a":1},
+    {"topic":"słownictwo","q":"«Dokąd?» означає:","o":["звідки?","коли?","куди?","чому?"],"a":2},
+    {"topic":"czas przyszły","q":"«Ugotuję zupę» — це час:","o":["минулий","теперішній","майбутній простий","майбутній складений"],"a":2},
+    {"topic":"telefon","q":"«Proszę zostawić wiadomość» — це про:","o":["голосову пошту","покупки","візу","вечірку"],"a":0}
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "09",
+  "title": "Lubisz marchewkę?",
+  "goal": "Повторюємо: овочі та фрукти · смак і форма · покупки на ринку · biernik (знахідний) · liczba mnoga (множина) · способи приготування їжі",
+  "vocab": [
+    { "group": "Owoce — фрукти", "items": [
+      ["banan","банан"],["jabłko","яблуко"],["gruszka","груша"],["śliwka","слива"],
+      ["pomarańcza","апельсин"],["brzoskwinia","персик"],["kiwi","ківі"],["cytryna","лимон"],
+      ["truskawka","полуниця"],["malina","малина"],["wiśnia","вишня"],["ananas","ананас"],
+      ["arbuz","кавун"],["winogrona","виноград"],["jagody","чорниця / ягоди"]
+    ]},
+    { "group": "Warzywa — овочі", "items": [
+      ["ziemniak","картопля"],["pomidor","помідор"],["ogórek","огірок"],["marchewka","морква"],
+      ["por","цибуля-порей"],["cebula","цибуля"],["czosnek","часник"],["papryka","перець (паприка)"],
+      ["pietruszka","петрушка"],["seler","селера"],["kalafior","цвітна капуста"],["brokuły","броколі"],
+      ["rzodkiewka","редиска"],["kapusta","капуста"],["fasola","квасоля"]
+    ]},
+    { "group": "Smak i kształt — смак і форма", "items": [
+      ["słodki","солодкий"],["kwaśny","кислий"],["słony","солоний"],["gorzki","гіркий"],
+      ["ostry","гострий"],["delikatny","ніжний (м’який смак)"],["okrągły","круглий"],
+      ["owalny","овальний"],["podłużny","видовжений"],["twardy","твердий"],["miękki","м’який"],
+      ["dojrzały","стиглий"],["świeży","свіжий"]
+    ]},
+    { "group": "Na targu i gotowanie — на ринку та готування", "items": [
+      ["Ile kosztują?","скільки коштують?"],["za kilogram","за кілограм"],["pół kilo","півкіло"],
+      ["Czy to wszystko?","це все?"],["drobne","дрібні (гроші)"],["mam ochotę na…","я хочу… (маю охоту)"],
+      ["gotowany","варений"],["pieczony","запечений"],["duszony","тушкований"],
+      ["wędzony","копчений"],["smażony","смажений"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"знахідний", "title":"Biernik: lubię / poproszę + co?", "formula":"lubię / poproszę / mam ochotę na + biernik · ż.: -a → -ę", "ex":"Lubisz marchewkę? · Poproszę pietruszkę. · Mam ochotę na sałatkę." },
+    { "badge":"множина", "title":"Liczba mnoga (ONE): -y / -e / -a", "formula":"k,g → -y · sz,cz,c,l,j,ś,ć… → -e · rodzaj nijaki → -a", "ex":"pomidor → pomidory · cebula → cebule · jabłko → jabłka" },
+    { "badge":"прикметник", "title":"To są + przymiotnik na -e + rzeczownik", "formula":"l.mn. (niemęskoosobowa): przymiotnik → -e", "ex":"To są dojrzałe pomidory. · To są smaczne owoce. · To są zielone jabłka." }
+  ],
+  "czytanie": [
+    { "block": "A. Owoce i warzywa. Jaki smak?", "items": [
+      { "type":"ref", "title":"Owoce i warzywa · трек 095",
+        "words":"banan · jabłko · gruszka · śliwka · pomarańcza · brzoskwinia · kiwi · ziemniak · pomidor · ogórek · marchewka · por · cebula · czosnek · papryka · truskawka · cytryna · kalafior · brokuły · ananas · arbuz · kapusta · winogrona · jagody" },
+      { "type":"ref", "title":"Uwaga! Porównania smaków — порівняння смаку",
+        "words":"słodki jak cukier · kwaśny jak cytryna · słony jak sól · ostry jak chili · gorzki jak kawa · bez cukru",
+        "note":"Опиши свій улюблений овоч і фрукт: kolor, kształt, smak." },
+      { "type":"dia", "title":"Ćwiczenie 5 · opis owoców i warzyw", "lines":[
+        ["Owoc","Jest mała, czerwona i słodka. Trochę podłużna i miękka. Jest dobra z cukrem i ze śmietaną.","Фрукт: вона мала, червона й солодка. Трохи видовжена та м’яка. Смачна з цукром і сметаною."],
+        ["?","Truskawka.","Полуниця."],
+        ["Warzywo","Jest czerwony i okrągły. Może być mały, duży albo średni. Jest miękki. Ma delikatny smak. Jest dobry z cebulą, czosnkiem, solą i oliwą.","Овоч: він червоний і круглий. Може бути малий, великий або середній. М’який. Має ніжний смак. Смачний із цибулею, часником, сіллю та олією."],
+        ["?","Pomidor.","Помідор."],
+        ["Owoc","Jest żółta i owalna. Nie jest ani twarda, ani miękka. Jest bardzo kwaśna. Pasuje do herbaty.","Фрукт: вона жовта й овальна. Не тверда й не м’яка. Дуже кисла. Підходить до чаю."],
+        ["?","Cytryna.","Лимон."],
+        ["Warzywo","Jest zielony i podłużny. Może być mały, duży albo średni. Jest twardy. Ma delikatny smak. Jest dobry z pomidorem, czosnkiem, solą i oliwą.","Овоч: він зелений і видовжений. Може бути малий, великий або середній. Твердий. Має ніжний смак. Смачний із помідором, часником, сіллю та олією."],
+        ["?","Ogórek.","Огірок."],
+        ["Warzywo","Jest mała i okrągła, czasem trochę podłużna. Jest czerwona, a w środku biała. Ma raczej ostry smak. Jest dobra z sałatą, ogórkiem albo białym serem.","Овоч: вона мала й кругла, інколи трохи видовжена. Червона, а всередині біла. Має радше гострий смак. Смачна з салатом, огірком або білим сиром."],
+        ["?","Rzodkiewka.","Редиска."],
+        ["Owoc","Są małe i owalne. Mogą być zielone, różowe albo fioletowe. Zwykle są słodkie. Mają delikatny smak.","Фрукт: вони малі й овальні. Можуть бути зелені, рожеві або фіолетові. Зазвичай солодкі. Мають ніжний смак."],
+        ["?","Winogrona.","Виноград."]
+      ]}
+    ]},
+    { "block": "B. Na targu", "items": [
+      { "type":"dia", "title":"Dialog 1 · co kupujemy? · трек 099", "lines":[
+        ["Angela","Mami, co kupujemy?","Мамі, що купуємо?"],
+        ["Mami","Coś na kolację, owoce i warzywa.","Щось на вечерю, фрукти й овочі."],
+        ["Angela","Mam ochotę na spaghetti i na sałatkę owocową.","Я хочу спагеті та фруктовий салат."],
+        ["Mami","A ja na zupę jarzynową i rybę.","А я — на овочевий суп і рибу."],
+        ["Angela","To może dziś zupa i spaghetti, a jutro ryba?","То, може, сьогодні суп і спагеті, а завтра риба?"],
+        ["Mami","W porządku. A co do picia? Może dwa piwa?","Гаразд. А що до пиття? Може, два пива?"],
+        ["Angela","Do spaghetti? Piwo? Jeśli chcesz, możesz kupić czerwone wino, ale jedno, nie dwa.","До спагеті? Пиво? Якщо хочеш, можеш купити червоне вино, але одне, не два."],
+        ["Mami","Dobrze, w takim razie kupujemy teraz owoce i warzywa, a rybę jutro.","Добре, тоді купуємо зараз фрукти й овочі, а рибу завтра."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · owoce i warzywa · трек 100", "lines":[
+        ["Angela","Poproszę czosnek, cztery pomidory, dwie żółte papryki i dwie cebule i świeżą bazylię.","Дайте, будь ласка, часник, чотири помідори, два жовті перці й дві цибулини та свіжий базилік."],
+        ["Sprzedawca","W doniczce, tak?","У горщику, так?"],
+        ["Angela","Tak.","Так."],
+        ["Sprzedawca","Proszę bardzo, co jeszcze?","Прошу, що ще?"],
+        ["Angela","Nie, proszę jeszcze cztery banany, ale nie te zielone, proszę te dojrzałe, bardziej żółte.","Ні, дайте ще чотири банани, але не ті зелені, дайте ці стиглі, жовтіші."],
+        ["Sprzedawca","Czy mogą być te?","Можуть бути ці?"],
+        ["Angela","Tak. Proszę jeszcze trzy kiwi, cztery brzoskwinie. Poproszę te duże brzoskwinie.","Так. Дайте ще три ківі, чотири персики. Дайте ці великі персики."],
+        ["Sprzedawca","Te są twarde.","Ці тверді."],
+        ["Angela","Dobrze, i jeszcze te ciemne winogrona.","Добре, і ще цей темний виноград."],
+        ["Sprzedawca","Te fioletowe są bardzo słodkie, a te różowe mniej.","Фіолетовий дуже солодкий, а рожевий менше."],
+        ["Angela","Mniej? Co to znaczy?","Менше? Що це означає?"],
+        ["Sprzedawca","Mniej to mniej! Mało słodkie. Nie tak bardzo słodkie. Rozumie pani?","Менше — це менше! Не дуже солодкий. Розумієте?"],
+        ["Angela","Aaa, rozumiem. W takim razie proszę te różowe i jeszcze dwie pomarańcze.","Аа, розумію. Тоді дайте цей рожевий і ще два апельсини."],
+        ["Sprzedawca","Teraz pomarańcze nie są bardzo dobre, bo to nie jest sezon. Śliwki są dobre. Może woli pani śliwki?","Зараз апельсини не дуже добрі, бо не сезон. Сливи добрі. Може, волієте сливи?"],
+        ["Angela","Dobrze, proszę pół kilo. Uff, to już wszystko.","Добре, дайте півкіло. Уф, це вже все."],
+        ["Sprzedawca","42 złote 70 groszy.","42 злотих 70 грошів."]
+      ]},
+      { "type":"dia", "title":"Dialog 3 · warzywa · трек 101", "lines":[
+        ["Mami","Poproszę marchewkę.","Дайте, будь ласка, моркву."],
+        ["Sprzedawca","Ile?","Скільки?"],
+        ["Mami","Trzy, albo nie, cztery marchewki.","Три, або ні, чотири морквини."],
+        ["Sprzedawca","I co jeszcze?","І що ще?"],
+        ["Mami","Poproszę pietruszkę.","Дайте петрушку."],
+        ["Sprzedawca","Natka czy korzeń?","Зелень чи корінь?"],
+        ["Mami","Nie rozumiem.","Не розумію."],
+        ["Sprzedawca","Natka jest zielona, a korzeń biały.","Зелень — зелена, а корінь — білий."],
+        ["Mami","Aha, to chcę to i to. I jeszcze por, brokuły, fasolę i ziemniaki.","Ага, то хочу і те, і те. І ще порей, броколі, квасолю та картоплю."],
+        ["Sprzedawca","Kilogram?","Кілограм?"],
+        ["Mami","Tak. A to? Nie pamiętam, jak to się nazywa.","Так. А це? Не пам’ятаю, як це називається."],
+        ["Sprzedawca","To jest kalafior.","Це цвітна капуста."],
+        ["Mami","A tak! To pół kilo poproszę.","А, так! То дайте півкіло."],
+        ["Sprzedawca","Proszę bardzo. Czy coś jeszcze?","Прошу. Чи ще щось?"],
+        ["Mami","Może jeszcze kapustę. Ten średni. To wszystko, dziękuję.","Може, ще капусту. Цю середню. Це все, дякую."],
+        ["Sprzedawca","Wszystko? Mam bardzo słodkie maliny, chce pani?","Усе? Маю дуже солодку малину, хочете?"],
+        ["Mami","O, chętnie.","О, охоче."],
+        ["Sprzedawca","19 złotych 32 grosze.","19 злотих 32 гроші."]
+      ]}
+    ]},
+    { "block": "C. Jakie? Liczba mnoga", "items": [
+      { "type":"ref", "title":"Liczba mnoga — приклади (To są…)",
+        "words":"To są dojrzałe pomidory. · To są pieczone ziemniaki. · To są smaczne owoce. · To są świeże ryby. · To są dobre śliwki. · To są słodkie pomarańcze. · To są zielone jabłka.",
+        "note":"Закінчення: -y (k, g), -e (sz, cz, c, l…), -a (рід nijaki)." },
+      { "type":"ref", "title":"Ćwiczenie 1 · l.poj. → l.mn. (групуй за закінченням)",
+        "words":"gruszka → gruszki · banan → banany · cebula → cebule · cytryna → cytryny · śliwka → śliwki · jabłko → jabłka · warzywo → warzywa · winogrono → winogrona · pomarańcza → pomarańcze · wiśnia → wiśnie" }
+    ]},
+    { "block": "D. Gotowanie", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · sposoby gotowania — способи приготування",
+        "words":"gotowana (варена) · pieczona (запечена) · duszona (тушкована) · wędzona (копчена) · smażona (смажена)" },
+      { "type":"dia", "title":"Ćwiczenie 2 · sos do spaghetti", "lines":[
+        ["Karolina","Cześć dziewczyny, co robicie? Coś dobrego?","Привіт, дівчата, що робите? Щось смачне?"],
+        ["Mami","Ja gotuję zupę jarzynową, a Angela robi sos do spaghetti.","Я варю овочевий суп, а Анджела робить соус до спагеті."],
+        ["Karolina","Mniam, to ten sos tak pięknie pachnie!","Ням, то це соус так гарно пахне!"],
+        ["Angela","Tak, cebula ze świeżą bazylią, oregano, czosnek i inne przyprawy.","Так, цибуля зі свіжим базиліком, орегано, часник та інші приправи."],
+        ["Karolina","Uwielbiam duszoną cebulę!","Обожнюю тушковану цибулю!"],
+        ["Mami","Duszoną? Co to znaczy?","Тушковану? Що це означає?"],
+        ["Karolina","No wiesz, najpierw cebula jest smażona z oliwą na patelni, a potem musisz dodać wodę i jeszcze smażyć. Wasz sos to duszona cebula.","Ну знаєш, спершу цибуля смажиться з олією на сковорідці, а потім треба додати воду й ще смажити. Ваш соус — це тушкована цибуля."],
+        ["Mami","Aha. Skomplikowane.","Ага. Складно."],
+        ["Karolina","Mama zawsze mówi, że duszone mięso jest zdrowsze niż smażone.","Мама завжди каже, що тушковане м’ясо корисніше за смажене."],
+        ["Angela","Zdrowsze to bardziej zdrowe?","«Zdrowsze» — це «більш корисне»?"],
+        ["Karolina","Tak, tak. Niestety, mama też mówi, że gotowany kurczak jest zdrowszy niż pieczony.","Так, так. На жаль, мама ще каже, що варена курка корисніша за запечену."],
+        ["Mami","A ja lubię gotowane ryby i zupę rybną.","А я люблю варену рибу й рибний суп."],
+        ["Angela","Ja wolę wędzone albo pieczone ryby.","Я волію копчену або запечену рибу."],
+        ["Karolina","Ja też!","Я теж!"]
+      ]}
+    ]},
+    { "block": "E. Supermarket", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · koszyki · треки 104–107",
+        "words":"1: chleb, ryby, wino · 2: ryby, cytryna, ser · 3: makaron, cytryna, sos · 4: piwo, paluszki, ogórki",
+        "note":"Послухай діалоги й добери ім’я (Angela, Mami, Javier, Tom) до кошика." },
+      { "type":"ref", "title":"Ćwiczenie 2 · kategorie produktów — групи продуктів",
+        "words":"nabiał (mleko, ser, jogurt) · słodycze (czekolada, cukierki) · alkohole (wino, piwo, wódka) · mięso i wędliny (szynka, kiełbasa, kurczak) · pieczywo (chleb, bułki, drożdżówka) · napoje (sok, woda mineralna, coca-cola) · owoce i warzywa (jabłka, pomidory, banany) · ryby (makrela, łosoś, śledzie, dorsz) · mrożonki (mrożone truskawki, frytki, mrożone pierogi) · produkty zbożowe (makaron, ryż, kasza, płatki)" }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_09.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_09/ (095–107.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 5 · opis owoców i warzyw", "lines":[
+      ["—","Owoc. Jest mała, czerwona i słodka. Trochę podłużna i miękka. Jest dobra z cukrem i ze śmietaną.","Фрукт. Вона мала, червона й солодка. Трохи видовжена та м’яка. Смачна з цукром і сметаною."],
+      ["—","Warzywo. Jest czerwony i okrągły. Jest miękki. Ma delikatny smak. Jest dobry z cebulą, czosnkiem, solą i oliwą.","Овоч. Він червоний і круглий. М’який. Має ніжний смак. Смачний із цибулею, часником, сіллю та олією."],
+      ["—","Owoc. Jest żółta i owalna. Jest bardzo kwaśna. Pasuje do herbaty.","Фрукт. Вона жовта й овальна. Дуже кисла. Підходить до чаю."],
+      ["—","Warzywo. Jest mała i okrągła. Jest czerwona, a w środku biała. Ma raczej ostry smak.","Овоч. Вона мала й кругла. Червона, а всередині біла. Має радше гострий смак."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 7 · na targu", "lines":[
+      ["Klient","Dzień dobry. Czy są jagody?","Добрий день. Чи є чорниця?"],
+      ["Sprzedawca","Niestety, nie ma, ale mamy bardzo smaczne truskawki.","На жаль, немає, але маємо дуже смачну полуницю."],
+      ["Klient","Ile kosztują?","Скільки коштує?"],
+      ["Sprzedawca","Piętnaście złotych za kilogram.","П’ятнадцять злотих за кілограм."],
+      ["Klient","O, są bardzo drogie. Ale dobrze, poproszę pół kilograma.","О, дуже дорого. Але добре, дайте півкілограма."],
+      ["Sprzedawca","Może być trochę więcej?","Може бути трохи більше?"],
+      ["Klient","Dobrze, może być. Poproszę jeszcze duży jogurt naturalny.","Добре, нехай буде. Дайте ще великий натуральний йогурт."],
+      ["Sprzedawca","Proszę bardzo. Czy to wszystko?","Прошу. Це все?"],
+      ["Klient","Tak, dziękuję.","Так, дякую."],
+      ["Sprzedawca","Jedenaście złotych pięćdziesiąt dwa grosze. Czy ma pani drobne?","Одинадцять злотих п’ятдесят два гроші. Маєте дрібні?"],
+      ["Klient","Niestety nie mam.","На жаль, не маю."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 12 · koszyk z zakupami", "lines":[
+      ["—","W koszyku z zakupami są owoce i warzywa: dojrzałe czerwone pomidory, zielone ogórki i trzy małe cebule. To są produkty na sałatkę na kolację.","У кошику з покупками є фрукти й овочі: стиглі червоні помідори, зелені огірки та три малі цибулини. Це продукти на салат на вечерю."],
+      ["—","Są też dwa średnie kalafiory, brokuły i młode ziemniaki. Mama lubi owoce: banany, pomarańcze, jabłka, ale dziś ma tylko ananasa i małego arbuza.","Є також дві середні цвітні капусти, броколі та молода картопля. Мама любить фрукти: банани, апельсини, яблука, але сьогодні має лише ананас і малий кавун."],
+      ["—","Koszyk jest już bardzo ciężki, a mama chce jeszcze kupić gruszki i wędzoną rybę. Obok stoi Javier, który chętnie pomaga. Mama dziękuje za pomoc i zaprasza Javiera na kolację.","Кошик уже дуже важкий, а мама хоче ще купити груші й копчену рибу. Поряд стоїть Хав’єр, який охоче допомагає. Мама дякує за допомогу й запрошує Хав’єра на вечерю."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L09.txt",
+  "mistakes": [
+    ["Lubisz marchewka?","Lubisz marchewkę?","Після «lubić» — biernik: ż.-a → -ę."],
+    ["Poproszę dwie cebula.","Poproszę dwie cebule.","Множина від «cebula» — «cebule» (-e)."],
+    ["To są dojrzały pomidory.","To są dojrzałe pomidory.","У множині (ONE) прикметник має закінчення -e."],
+    ["dwa jabłka są zielony","dwa jabłka są zielone","Узгодь прикметник у множині: zielone."]
+  ],
+  "drills": [
+    ["Спитай: «Любиш моркву?»","Lubisz marchewkę?"],
+    ["Скажи, що хочеш фруктовий салат.","Mam ochotę na sałatkę owocową."],
+    ["Попроси чотири помідори й дві цибулини.","Poproszę cztery pomidory i dwie cebule."],
+    ["Спитай, скільки коштує полуниця.","Ile kosztują truskawki?"],
+    ["Скажи: дайте, будь ласка, півкіло.","Poproszę pół kilo."],
+    ["Опиши лимон: жовтий, овальний, кислий.","Jest żółta, owalna i kwaśna."],
+    ["Постав у множину: pomidor, jabłko, cebula.","pomidory, jabłka, cebule"],
+    ["Скажи: це стиглі червоні помідори.","To są dojrzałe czerwone pomidory."],
+    ["Назви чотири способи приготування риби.","gotowana, pieczona, wędzona, smażona"],
+    ["Скажи продавцю, що це все, і подякуй.","To wszystko, dziękuję."],
+    ["Спитай, чи має продавець дрібні.","Czy ma pani drobne?"],
+    ["Скажи, що волієш копчену рибу.","Wolę wędzone ryby."]
+  ],
+  "quiz": [
+    {"topic":"biernik","q":"«Lubisz ___?» (marchewka)","o":["marchewka","marchewkę","marchewki","marchewką"],"a":1},
+    {"topic":"owoce","q":"«truskawka» — це:","o":["слива","полуниця","малина","вишня"],"a":1},
+    {"topic":"warzywa","q":"«czosnek» — це:","o":["цибуля","часник","петрушка","перець"],"a":1},
+    {"topic":"smak","q":"«kwaśny jak ___»:","o":["cukier","sól","cytryna","kawa"],"a":2},
+    {"topic":"liczba mnoga","q":"Множина від «jabłko»:","o":["jabłki","jabłka","jabłke","jabłky"],"a":1},
+    {"topic":"liczba mnoga","q":"Множина від «cebula»:","o":["cebuly","cebula","cebule","cebuli"],"a":2},
+    {"topic":"przymiotnik","q":"«To są ___ pomidory.» (dojrzały)","o":["dojrzały","dojrzała","dojrzałe","dojrzali"],"a":2},
+    {"topic":"zakupy","q":"Хочеш спитати про ціну. Кажеш:","o":["Czy to wszystko?","Ile kosztują?","Może być więcej?","Czy są drobne?"],"a":1},
+    {"topic":"gotowanie","q":"«wędzona ryba» — це риба:","o":["варена","смажена","копчена","тушкована"],"a":2},
+    {"topic":"kształt","q":"«owalny» — це форма:","o":["кругла","видовжена","овальна","квадратна"],"a":2}
+  ]
+}

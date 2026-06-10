@@ -1,0 +1,179 @@
+{
+  "id": "12",
+  "title": "Co robisz w poniedziałek o ósmej?",
+  "goal": "Повторюємо: запрошення й домовленість про зустріч · do / na (kino vs film) · котра година (офіційно й неофіційно) · дні тижня · щоденна рутина",
+  "vocab": [
+    { "group": "Umawianie się — домовляємось про зустріч", "items": [
+      ["Masz ochotę pójść...?","маєш бажання піти...?"],["Chcesz pójść...?","хочеш піти...?"],
+      ["Może pójdziemy...","може, підемо..."],["zaproszenie","запрошення"],
+      ["umówić się","домовитися"],["spotkanie","зустріч"],["randka","побачення"],
+      ["wystawa","виставка"],["spektakl","спектакль"],["koncert","концерт"]
+    ]},
+    { "group": "Reakcje — реакції на пропозицію", "items": [
+      ["Chętnie, dziękuję za zaproszenie.","залюбки, дякую за запрошення."],
+      ["Świetny pomysł!","чудова ідея!"],["Tak, dlaczego nie?","так, чому б ні?"],
+      ["Jasne!","ясно / звісно!"],["Niestety, nie mam czasu.","на жаль, не маю часу."],
+      ["Przepraszam, ale dziś nie mogę.","перепрошую, але сьогодні не можу."],
+      ["Dzięki, ale nie mogę.","дякую, але не можу."],["Jaka szkoda!","як шкода!"]
+    ]},
+    { "group": "Która godzina? — котра година", "items": [
+      ["pierwsza · o pierwszej","перша · о першій"],["ósma · o ósmej","восьма · о восьмій"],
+      ["trzynasta · o trzynastej","тринадцята · о тринадцятій"],
+      ["kwadrans po pierwszej","чверть по першій"],["wpół do drugiej","пів на другу"],
+      ["za piętnaście druga","за п’ятнадцять друга"],
+      ["O której godzinie?","о котрій годині?"],["Od której do której?","від котрої до котрої?"]
+    ]},
+    { "group": "Dni tygodnia i rutyna — дні тижня й рутина", "items": [
+      ["poniedziałek · w poniedziałek","понеділок · у понеділок"],["wtorek · we wtorek","вівторок · у вівторок"],
+      ["środa · w środę","середа · у середу"],["czwartek · w czwartek","четвер · у четвер"],
+      ["piątek · w piątek","п’ятниця · у п’ятницю"],["sobota · w sobotę","субота · у суботу"],
+      ["niedziela · w niedzielę","неділя · у неділю"],["wstawać · brać prysznic","вставати · приймати душ"],
+      ["jeść śniadanie · obiad · kolację","їсти сніданок · обід · вечерю"],["chodzić spać","лягати спати"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"запрошення", "title":"Masz ochotę pójść...?", "formula":"Masz ochotę / Chcesz pójść + na/do... → Chętnie / Niestety nie mogę", "ex":"Masz ochotę pójść na spektakl? · Chętnie, dziękuję za zaproszenie." },
+    { "badge":"do / na", "title":"do + dopełniacz · na + biernik", "formula":"do kina / teatru / kawiarni · na film / kawę / koncert", "ex":"Idę do kina na film. · Chcesz pójść na kawę do kawiarni?" },
+    { "badge":"котра година", "title":"O której godzinie?", "formula":"o + порядкове число (godzina): o pierwszej, o ósmej, o trzynastej", "ex":"o ósmej · o wpół do drugiej · za piętnaście trzecia" }
+  ],
+  "czytanie": [
+    { "block": "A. Co robisz w poniedziałek o ósmej? — zaproszenie", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · spektakl kabuki · трек 129", "lines":[
+        ["Mami","Wiecie, w Centrum Sztuki Japońskiej Manggha jest bardzo ciekawy spektakl kabuki. Macie ochotę pójść na spektakl?","Знаєте, у Центрі японського мистецтва «Манґґа» є дуже цікавий спектакль кабукі. Маєте бажання піти на спектакль?"],
+        ["Karol","A co to jest?","А що це?"],
+        ["Mami","To bardzo stary teatr japoński.","Це дуже старий японський театр."],
+        ["Karolina","Tak, a kiedy?","Так, а коли?"],
+        ["Mami","Dziś wieczorem. Mam trzy zaproszenia.","Сьогодні ввечері. Маю три запрошення."],
+        ["Karol","Niestety, ja dziś nie mogę, idę do kina.","На жаль, я сьогодні не можу, іду в кіно."],
+        ["Karolina","Oj, ja wiem: z koleżanką z klasy. Ale ja mam czas i mogę pójść na ten spektakl.","Ой, я знаю: з однокласницею. Але я маю час і можу піти на цей спектакль."],
+        ["Mami","A z kim? Pewnie idzie na komedię romantyczną.","А з ким? Напевно, іде на романтичну комедію."],
+        ["Karol","To nie wasza sprawa. I nie idziemy na komedię, ale na film psychologiczny.","Це не ваша справа. І ми йдемо не на комедію, а на психологічний фільм."],
+        ["Karolina","He, he, on ma randkę! Na pewno!","Хе-хе, у нього побачення! Точно!"],
+        ["Mami","Świetnie!","Чудово!"]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · telefon do mamy · трек 130", "lines":[
+        ["Karolina","Cześć, mamo. Idziemy z Tomem i Javierem na wystawę fotografii „Stary Kraków”. Czy masz ochotę pójść z nami?","Привіт, мамо. Ми йдемо з Томом і Хав’єром на виставку фотографій «Старий Краків». Маєш бажання піти з нами?"],
+        ["Mama","Oczywiście! Wiesz, że interesuję się fotografią. Kiedy idziecie?","Звісно! Ти ж знаєш, що я цікавлюся фотографією. Коли йдете?"],
+        ["Karolina","Dziś po południu.","Сьогодні після обіду."],
+        ["Mama","To świetnie! Jestem wolna. Czy Karol może pójść z nami?","Чудово! Я вільна. Чи може Кароль піти з нами?"],
+        ["Karolina","Naturalnie! A Uwe? Co z nim?","Авжеж! А Уве? Що з ним?"],
+        ["Mama","Jak zwykle. Mówi, że to dobry pomysł, a potem nie ma czasu.","Як завжди. Каже, що це гарна ідея, а потім не має часу."],
+        ["Karolina","Faktycznie, jak zwykle. Gdzie się spotykamy?","Справді, як завжди. Де зустрічаємось?"],
+        ["Mama","Przed muzeum. Dzięki za telefon i do zobaczenia!","Перед музеєм. Дякую за дзвінок і до зустрічі!"]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 6 · zaproszenie do filharmonii", "lines":[
+        ["Sąsiad","Dzień dobry, pani Ewo.","Добрий день, пані Ево."],
+        ["Pani Ewa","Dzień dobry panu. Co słychać?","Добрий день. Як справи?"],
+        ["Sąsiad","Nic nowego. Czy ma pani ochotę pójść na koncert? Do filharmonii?","Нічого нового. Чи маєте бажання піти на концерт? До філармонії?"],
+        ["Pani Ewa","Bardzo chętnie. Kiedy?","Дуже залюбки. Коли?"],
+        ["Sąsiad","Mam bilety na jutro.","Маю квитки на завтра."],
+        ["Pani Ewa","Niestety, jutro wieczorem nie mogę. Mam ważne rodzinne spotkanie.","На жаль, завтра ввечері не можу. Маю важливу родинну зустріч."],
+        ["Sąsiad","Jaka szkoda.","Як шкода."],
+        ["Pani Ewa","To prawda. Ale jeszcze raz dziękuję za zaproszenie.","Це правда. Але ще раз дякую за запрошення."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 3 · „do” czy „na”? — куди йдемо",
+        "words":"film · kino · spektakl · kawa · lunch · kawiarnia · restauracja · piwo · klub · koncert · dyskoteka · teatr · kolacja · pub · „Hamlet”",
+        "note":"do + dopełniacz (do kina, do teatru) · na + biernik (na film, na kawę)." }
+    ]},
+    { "block": "B. O której godzinie? — котра година", "items": [
+      { "type":"ref", "title":"Ćwiczenie 2 · godziny oficjalnie · трек 131",
+        "words":"1:00 pierwsza / o pierwszej · 2:00 druga / o drugiej · 3:00 trzecia / o trzeciej · 4:00 czwarta / o czwartej · 5:00 piąta / o piątej · 6:00 szósta / o szóstej · 7:00 siódma / o siódmej · 8:00 ósma / o ósmej · 9:00 dziewiąta / o dziewiątej · 10:00 dziesiąta / o dziesiątej · 11:00 jedenasta / o jedenastej · 12:00 dwunasta / o dwunastej",
+        "note":"Читай уголос: «Która godzina?» → «O której godzinie?»" },
+      { "type":"ref", "title":"Godziny oficjalne 13:00–24:00",
+        "words":"13:00 trzynasta · 14:00 czternasta · 15:00 piętnasta · 16:00 szesnasta · 17:00 siedemnasta · 18:00 osiemnasta · 19:00 dziewiętnasta · 20:00 dwudziesta · 21:00 dwudziesta pierwsza · 22:00 dwudziesta druga · 23:00 dwudziesta trzecia · 24:00 dwudziesta czwarta" },
+      { "type":"ref", "title":"Nieoficjalnie — кварти й половини",
+        "words":"13:15 — piętnaście (kwadrans) po pierwszej · 13:30 — wpół do drugiej · 13:45 — za piętnaście (kwadrans) druga · 8:15 — piętnaście po ósmej · 7:30 — wpół do ósmej",
+        "note":"Od której (godziny) do której (godziny)?" },
+      { "type":"dia", "title":"Ćwiczenie 6 · która to godzina?", "lines":[
+        ["—","Mam lekcje o jedenastej trzydzieści.","Маю уроки об одинадцятій тридцять. (11:30)"],
+        ["—","W „Glossie” mamy przerwę o dwunastej piętnaście.","У «Ґлоссі» в нас перерва о дванадцятій п’ятнадцять. (12:15)"],
+        ["—","Karolina ma zajęcia od dziesiątej do trzynastej.","У Кароліни заняття від десятої до тринадцятої. (10:00–13:00)"],
+        ["—","Robię i jem kolację o wpół do ósmej.","Готую і їм вечерю о пів на восьму. (19:30)"],
+        ["—","Karol idzie do kina z koleżanką o ósmej wieczorem.","Кароль іде в кіно з подругою о восьмій вечора. (20:00)"],
+        ["—","Mami pije kawę z Angelą po lekcjach, o wpół do pierwszej.","Мамі п’є каву з Анджелою після уроків, о пів на першу. (12:30)"]
+      ]}
+    ]},
+    { "block": "C. Dni tygodnia — дні тижня", "items": [
+      { "type":"ref", "title":"Tydzień — у який день?",
+        "words":"w poniedziałek · we wtorek · w środę · w czwartek · w piątek · w sobotę · w niedzielę",
+        "note":"Питання: «Co robisz w poniedziałek?»" },
+      { "type":"dia", "title":"Ćwiczenie 2 · program kulturalny w „Glossie” · трек 135", "lines":[
+        ["—","W tym tygodniu program kulturalny w „Glossie” jest bardzo interesujący.","Цього тижня культурна програма у «Ґлоссі» дуже цікава."],
+        ["—","W poniedziałek jest zaplanowany mały spacer po mieście.","У понеділок запланована невелика прогулянка містом."],
+        ["—","We wtorek są warsztaty fonetyczne i film.","У вівторок — фонетичні майстерні й фільм."],
+        ["—","W środę studenci jadą na wycieczkę do Wieliczki.","У середу студенти їдуть на екскурсію до Велічки."],
+        ["—","W czwartek mają wykład na temat polskiej kultury.","У четвер мають лекцію про польську культуру."],
+        ["—","W piątek jest duży spacer z przewodnikiem i pub z nauczycielkami.","У п’ятницю — велика прогулянка з гідом і паб із викладачками."],
+        ["—","W weekend można pojechać do Oświęcimia albo pójść na koncert lub do teatru.","На вихідних можна поїхати до Освенцима або піти на концерт чи до театру."]
+      ]}
+    ]},
+    { "block": "D. Rutyna — щоденний розпорядок", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · dzień pana Grzegorza", "lines":[
+        ["—","Najpierw wstaję i biorę prysznic.","Спочатку встаю і приймаю душ."],
+        ["—","Potem myję się, myję zęby i jadę do pracy.","Потім умиваюся, чищу зуби і їду на роботу."],
+        ["—","Pracuję i dzwonię do klientów.","Працюю і дзвоню клієнтам."],
+        ["—","W południe chodzę na lunch, później jem obiad w domu i wracam do biura.","Опівдні ходжу на ланч, пізніше їм обід удома і повертаюся в офіс."],
+        ["—","Wychodzę z biura o piątej i chodzę na basen.","Виходжу з офісу о п’ятій і ходжу в басейн."],
+        ["—","Wieczorem rozmawiam z żoną i dziećmi, jemy razem kolację.","Увечері розмовляю з дружиною і дітьми, ми разом вечеряємо."],
+        ["—","Oglądam wiadomości lub film o ósmej, a o jedenastej chodzę spać.","Дивлюся новини чи фільм о восьмій, а об одинадцятій лягаю спати."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 1 (powtórzenie) · połącz czasowniki",
+        "words":"wstawać wcześnie · jeść śniadanie · brać prysznic · iść na zakupy · robić zupę · mieć ochotę na kawę · wracać do domu · jechać na wycieczkę · gotować pierogi",
+        "note":"Розклад дня: rano · przed południem · w południe · po południu · wieczorem · w nocy." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_12.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_12/ (129–135.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 1–2 · telefon do mamy", "lines":[
+      ["—","Cześć, mamo. Idziemy z Tomem i Javierem na wystawę fotografii „Stary Kraków”. Czy masz ochotę pójść z nami?","Привіт, мамо. Ми йдемо з Томом і Хав’єром на виставку фотографій «Старий Краків». Маєш бажання піти з нами?"],
+      ["—","Oczywiście! Wiesz, że interesuję się fotografią. Kiedy idziecie?","Звісно! Ти ж знаєш, що я цікавлюся фотографією. Коли йдете?"],
+      ["—","Dziś po południu.","Сьогодні після обіду."],
+      ["—","To świetnie! Jestem wolna. Czy Karolina może pójść z nami?","Чудово! Я вільна. Чи може Кароліна піти з нами?"],
+      ["—","Naturalnie! A Uwe? Co z nim?","Авжеж! А Уве? Що з ним?"],
+      ["—","Jak zwykle. Mówi, że to dobry pomysł, a potem nie ma czasu.","Як завжди. Каже, що це гарна ідея, а потім не має часу."],
+      ["—","Faktycznie, jak zwykle. Gdzie się spotykamy? — Przed muzeum.","Справді, як завжди. Де зустрічаємось? — Перед музеєм."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 12 · dzień Pawła", "lines":[
+      ["—","Paweł wstaje o 9.30, pije mocną kawę i bierze prysznic.","Павел встає о 9:30, п’є міцну каву і приймає душ."],
+      ["—","O 10.30 je śniadanie i czyta gazetę. Potem myje zęby i ubiera się.","О 10:30 їсть сніданок і читає газету. Потім чистить зуби й одягається."],
+      ["—","Zwykle jeździ do szkoły tramwajem o 11.45. Przychodzi do szkoły o 12.00.","Зазвичай їде до школи трамваєм об 11:45. Приходить до школи о 12:00."],
+      ["—","Paweł uczy od 12.30 do 15.45. Je obiad o 16.00.","Павел навчає від 12:30 до 15:45. Обідає о 16:00."],
+      ["—","Później przygotowuje lekcje od 17.15 do 20.30.","Пізніше готує уроки від 17:15 до 20:30."],
+      ["—","O 21.00 chodzi na piwo ze znajomymi. Wraca do domu o 23.30.","О 21:00 ходить на пиво зі знайомими. Повертається додому о 23:30."],
+      ["—","Od 24.00 do 1.00 nad ranem sprawdza testy. Paweł chodzi spać o 1.30.","Від 24:00 до 1:00 над ранок перевіряє тести. Павел лягає спати о 1:30."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L12.txt",
+  "mistakes": [
+    ["Idę do film","Idę na film","«film / koncert / kawa» → na + biernik; do — лише про місце (do kina)."],
+    ["Idę na kino","Idę do kina","«kino / teatr / kawiarnia» — це місце → do + dopełniacz."],
+    ["o ósma godzina","o ósmej godzinie","Після «o» година стоїть у місцевому: o ósmej, o pierwszej."],
+    ["w niedziela","w niedzielę","Дні тижня після «w» — у знахідному: w niedzielę, w środę, w sobotę."]
+  ],
+  "drills": [
+    ["Запроси друга на спектакль.","Masz ochotę pójść na spektakl?"],
+    ["Погодься залюбки й подякуй за запрошення.","Chętnie, dziękuję za zaproszenie."],
+    ["Ввічливо відмов: сьогодні не можеш.","Niestety, dziś nie mogę."],
+    ["Скажи: я йду в кіно на фільм.","Idę do kina na film."],
+    ["Запропонуй піти на каву до кав’ярні.","Może pójdziemy na kawę do kawiarni?"],
+    ["Скажи, котра година: 8:00.","Jest ósma."],
+    ["Скажи: маю уроки о першій.","Mam lekcje o pierwszej."],
+    ["Скажи 13:30 неофіційно.","Wpół do drugiej."],
+    ["Скажи 13:45 неофіційно.","Za piętnaście druga."],
+    ["Скажи: у понеділок я працюю.","W poniedziałek pracuję."],
+    ["Опиши ранок: встаю і приймаю душ.","Wstaję i biorę prysznic."],
+    ["Спитай друга, що він робить о восьмій.","Co robisz o ósmej?"]
+  ],
+  "quiz": [
+    {"topic":"zaproszenie","q":"Як запросити: «Маєш бажання піти на спектакль?»","o":["Gdzie jest spektakl?","Masz ochotę pójść na spektakl?","Co to jest spektakl?","Lubisz spektakl?"],"a":1},
+    {"topic":"reakcja","q":"Ввічлива згода на запрошення:","o":["Niestety, nie mam czasu","Chętnie, dziękuję za zaproszenie","Nie wiem","Co to znaczy?"],"a":1},
+    {"topic":"do/na","q":"«Idę ___ kina ___ film.»","o":["na ... do","do ... na","do ... do","na ... na"],"a":1},
+    {"topic":"do/na","q":"Оберіть правильно: піти на каву —","o":["do kawy","na kawę","w kawę","o kawie"],"a":1},
+    {"topic":"godzina","q":"Котра година — «ósma»?","o":["6:00","7:00","8:00","18:00"],"a":2},
+    {"topic":"godzina","q":"«O której godzinie?» — після «o» година стоїть у формі:","o":["ósma","ósmej","ósmą","ósme"],"a":1},
+    {"topic":"godzina","q":"13:30 неофіційно — це:","o":["wpół do drugiej","za piętnaście druga","kwadrans po pierwszej","trzynasta trzydzieści"],"a":0},
+    {"topic":"godzina","q":"«Za piętnaście druga» — це котра година?","o":["1:15","1:45","2:15","2:45"],"a":1},
+    {"topic":"dni tygodnia","q":"Третій день тижня — це:","o":["wtorek","środa","czwartek","piątek"],"a":1},
+    {"topic":"dni tygodnia","q":"«У неділю» по-польськи —","o":["w niedziela","w niedzielę","na niedzielę","o niedzieli"],"a":1}
+  ]
+}

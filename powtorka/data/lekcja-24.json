@@ -1,0 +1,145 @@
+{
+  "id": "24",
+  "title": "Jak cię widzą, tak cię piszą",
+  "goal": "Повторюємо: вигляд і риси обличчя · фризура й перукарня · ступені порівняння прислівників (łatwiej, drożej) · частини тіла й гімнастика",
+  "vocab": [
+    { "group": "Twarz i wygląd — обличчя та вигляд", "items": [
+      ["twarz","обличчя"],["oczy","очі"],["nos","ніс"],["usta","губи / уста"],
+      ["brwi","брови"],["rzęsy","вії"],["czoło","чоло"],["broda","борода / підборіддя"],
+      ["wąsy","вуса"],["zmarszczki","зморшки"],["piegi","веснянки"],["uroda","краса"]
+    ]},
+    { "group": "Opis sylwetki — опис фігури", "items": [
+      ["szczupły","стрункий / худорлявий"],["chudy","худий"],["gruby","товстий"],
+      ["otyły","огрядний"],["zgrabny","ладний / стрункий"],["wysoki","високий"],
+      ["średniego wzrostu","середнього зросту"],["łysy","лисий"],["siwy","сивий"],["szatyn","шатен"]
+    ]},
+    { "group": "Fryzjer — перукарня", "items": [
+      ["fryzura","зачіска"],["fryzjer / fryzjerka","перукар / перукарка"],["strzyżenie","стрижка"],
+      ["obciąć włosy","підстригти волосся"],["grzywka","чубчик / гривка"],["odżywka","кондиціонер"],
+      ["mycie","миття"],["katalog","каталог"],["umówić się","записатися"],["zmienić kolor","змінити колір"]
+    ]},
+    { "group": "Ciało i gimnastyka — тіло та гімнастика", "items": [
+      ["stopy","стопи"],["kolana","коліна"],["ręce","руки"],["nogi","ноги"],
+      ["głowa","голова"],["szyja","шия"],["brzuch","живіт"],["plecy","спина"],
+      ["biodra","стегна / боки"],["pośladki","сідниці"],["uda","стегна (передні)"],["mięśnie","м’язи"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"вищий ступінь", "title":"Stopień wyższy przysłówka", "formula":"łatwo → łatwiej · drogo → drożej · bezpiecznie → najbezpieczniej", "ex":"Fryzurę zmienić najłatwiej. · Drożej niż w Londynie." },
+    { "badge":"опис вигляду", "title":"mieć + część ciała + przymiotnik", "formula":"Ma + (jaki) + nos / oczy / brwi…", "ex":"Ma niebieskie oczy. · Ma duży nos i wąskie usta." },
+    { "badge":"вираз", "title":"być do twarzy", "formula":"komuś jest do twarzy w czymś", "ex":"W krótkich włosach będzie pani do twarzy." }
+  ],
+  "czytanie": [
+    { "block": "A. U fryzjera — zmiana fryzury", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 224", "lines":[
+        ["Karolina","Chciałabym coś zmienić na wiosnę. Mama mówi, że nowa fryzura zawsze poprawia humor. A fryzurę zmienić najłatwiej.","Хотіла б щось змінити навесні. Мама каже, що нова зачіска завжди покращує настрій. А зачіску змінити найлегше."],
+        ["Mami","I najbezpieczniej. Włosy szybko rosną.","І найбезпечніше. Волосся швидко росте."],
+        ["Karolina","Ale to drogo. Drożej niż w Londynie.","Але це дорого. Дорожче, ніж у Лондоні."],
+        ["Mami","Ale może oryginalniej. Pamiętasz? Twoje londyńskie koleżanki wyglądały identycznie.","Зате, може, оригінальніше. Пам’ятаєш? Твої лондонські подруги виглядали однаково."],
+        ["Karolina","Spróbujemy?","Спробуємо?"],
+        ["Mami","Raz kozie śmierć.","Або пан, або пропав."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 · umówić się do fryzjera · трек 225", "lines":[
+        ["Karolina","Dzień dobry. Czy możemy umówić się do fryzjera?","Добрий день. Чи можемо записатися до перукаря?"],
+        ["Fryzjerka","A co będziemy robić? Strzyżenie, kolor?","А що робитимемо? Стрижку, колір?"],
+        ["Karolina","Ja chciałabym coś zmienić, ale nie radykalnie. Odświeżyć fryzurę na wiosnę. Rozumie pani?","Я хотіла б щось змінити, але не радикально. Освіжити зачіску навесні. Розумієте?"],
+        ["Fryzjerka","Oczywiście. Pan Olo będzie zaraz wolny. Poczeka pani kwadrans?","Звісно. Пан Оло скоро звільниться. Зачекаєте чверть години?"],
+        ["Karolina","Tak. Pooglądam w tym czasie katalogi. A moje koleżanki?","Так. Тим часом погляну каталоги. А мої подруги?"],
+        ["Fryzjerka","Mają panie szczęście. Pani Bożenka nie ma teraz klientów. A u pani Grażynki ktoś właśnie odwołał wizytę. Zapraszam.","Вам пощастило. Пані Боженка зараз без клієнтів. А в пані Ґражинки хтось щойно скасував візит. Прошу."]
+      ]}
+    ]},
+    { "block": "B. Wygląd — opisy osób", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · Mami · трек 226", "lines":[
+        ["Lektor","Mami, jak typowa Japonka, ma ciemne, skośne oczy. Jej twarz jest owalna. Ma wąskie usta i trochę zadarty nos. Jest trochę za chuda.","Мамі, як типова японка, має темні, розкосі очі. Її обличчя овальне. Має вузькі губи і трохи задертий ніс. Вона трохи занадто худа."],
+        ["Lektor","Tak mówi pani Maj. Mami jest czasem nieśmiała, więc chowa głowę w ramiona. Jej uroda jest bardzo oryginalna.","Так каже пані Май. Мамі іноді сором’язлива, тож ховає голову в плечі. Її краса дуже оригінальна."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 · Javier · трек 227", "lines":[
+        ["Lektor","Javier jest średniego wzrostu. Jest szczupły. Ma piwne oczy i szerokie czarne brwi. Nosi brodę i wąsy.","Хав’єр середнього зросту. Він стрункий. Має карі очі й широкі чорні брови. Носить бороду й вуса."],
+        ["Lektor","Na szyi często wiąże fantazyjny szalik. Jest bardzo zadowolony ze swojego wyglądu. No, może tylko ten wzrost...","На шиї часто пов’язує химерний шарф. Дуже задоволений своїм виглядом. Ну, хіба що цей зріст..."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 · Uwe · трек 228", "lines":[
+        ["Lektor","Uwe nie jest szczupły. Ale też nie jest gruby czy otyły. Po prostu ma mocną budowę ciała. Ma kwadratową brodę i duży nos.","Уве не стрункий. Але й не товстий чи огрядний. Просто має міцну будову тіла. Має квадратне підборіддя і великий ніс."],
+        ["Lektor","Kiedy był mały, miał z tego powodu kompleksy. Zawsze chciał wyglądać jak amerykański aktor, więc od wielu lat nosi długie włosy.","Коли був малим, через це мав комплекси. Завжди хотів виглядати, як американський актор, тож багато років носить довге волосся."],
+        ["Lektor","Ponieważ ma wysokie czoło, jego żona uważa, że to nie wygląda dobrze. Uwe najbardziej boi się, że kiedyś będzie łysy.","Оскільки має високе чоло, його дружина вважає, що це виглядає недобре. Уве найбільше боїться, що колись стане лисим."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 1 · Angela · трек 229", "lines":[
+        ["Lektor","Angela jest bardzo atrakcyjna, ładna i zgrabna. Ma niebieskie oczy i bardzo długie rzęsy, które codziennie maluje na czarno.","Анджела дуже приваблива, гарна й ладна. Має блакитні очі й дуже довгі вії, які щодня фарбує в чорний."],
+        ["Lektor","Od czasu do czasu nosi w uszach kolczyki. Zawsze dopasowane do ubrania.","Час від часу носить у вухах сережки. Завжди підібрані до одягу."],
+        ["Lektor","Angela boi się starości. Codziennie ogląda się w lustrze i szuka zmarszczek. Kiedy była mała, miała piegi.","Анджела боїться старості. Щодня роздивляється себе в дзеркалі й шукає зморшки. Коли була малою, мала веснянки."]
+      ]}
+    ]},
+    { "block": "C. Gimnastyka — ćwiczymy razem", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 230", "lines":[
+        ["Uwe","Co wy zrobiłyście?","Що ви накоїли?"],
+        ["Angela","Chciałyśmy coś zmienić na wiosnę.","Ми хотіли щось змінити навесні."],
+        ["Mami","Na szczęście włosy szybko rosną.","На щастя, волосся швидко росте."],
+        ["Karolina","Widzicie ten plakat? Jaka zgrabna dziewczyna.","Бачите цей плакат? Яка струнка дівчина."],
+        ["Mami","A, to reklama nowego studia fitness.","А, це реклама нової фітнес-студії."],
+        ["Karolina","A co to znaczy BPU?","А що означає BPU?"],
+        ["Angela","B jak brzuch. P jak pośladki. U jak uda. Gimnastyka odchudzająca. Rozumiesz?","B — це brzuch (живіт). P — pośladki (сідниці). U — uda (стегна). Гімнастика для схуднення. Розумієш?"],
+        ["Mami","Nie bardzo. Nigdy nie chodziłam ani na siłownię, ani do takiego klubu.","Не дуже. Я ніколи не ходила ні в спортзал, ні до такого клубу."],
+        ["Angela","Mam pomysł. Zrobimy sobie gimnastykę same.","Маю ідею. Зробимо гімнастику самі."],
+        ["Karolina","Proponuję u mnie, bo mam dużo miejsca na podłodze. I mogę być instruktorką.","Пропоную в мене, бо маю багато місця на підлозі. І можу бути інструкторкою."],
+        ["Angela","No i będziemy wyglądać szczuplej na wiosnę.","Ну і виглядатимемо стрункішими навесні."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 5 · komendy gimnastyczne · трек 231",
+        "words":"Stopy razem. · Kolana razem. · Obie ręce do góry. · Głowa do góry. · Położyć się na plecach. · Ręce wzdłuż ciała. · Ćwiczymy mięśnie brzucha. · Położyć się na brzuchu. · Ręce na karku. · Stopy szeroko. · Ręce na biodrach. · Długa szyja. · Lewa noga do góry. · Prawa noga ugięta w kolanie.",
+        "note":"Читай команди вголос і показуй рухи." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_24.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_24/ (224–231.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 7 · u fryzjera", "lines":[
+      ["Klientka","Dzień dobry, chciałabym obciąć włosy.","Добрий день, я хотіла б підстригти волосся."],
+      ["Fryzjerka","Musi pani zaczekać dziesięć minut. Proszę usiąść. Tutaj są katalogi, może pani sobie wybrać fryzurę.","Вам доведеться зачекати десять хвилин. Сідайте, будь ласка. Ось каталоги, можете обрати собі зачіску."],
+      ["Klientka","Dziękuję.","Дякую."],
+      ["Fryzjerka","Zapraszam tutaj. Najpierw mycie. Ojej, ma pani bardzo suche włosy. Musi pani częściej używać odżywki.","Прошу сюди. Спершу миття. Ой, у Вас дуже сухе волосся. Вам треба частіше користуватися кондиціонером."],
+      ["Klientka","Ale ja używam regularnie.","Але ж я користуюся регулярно."],
+      ["Fryzjerka","Prawdopodobnie stosuje pani złą odżywkę, nieodpowiednią do pani włosów.","Імовірно, Ви використовуєте неправильний кондиціонер, що не підходить Вашому волоссю."],
+      ["Klientka","Aha, czy może mi pani coś doradzić?","Ага, чи можете щось порадити?"],
+      ["Fryzjerka","Oczywiście. A teraz zapraszam na fotel. Co robimy?","Звісно. А тепер прошу в крісло. Що робимо?"],
+      ["Klientka","Chciałabym jakąś modną fryzurę. Najlepiej asymetryczną z grzywką.","Хотіла б якусь модну зачіску. Найкраще асиметричну з чубчиком."],
+      ["Fryzjerka","Myślę, że w krótkich włosach będzie pani do twarzy. I może warto zmienić kolor?","Думаю, з коротким волоссям Вам буде до лиця. І, можливо, варто змінити колір?"],
+      ["Klientka","Dlaczego nie? Możemy spróbować.","Чому б ні? Можемо спробувати."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 9 · opis twarzy", "lines":[
+      ["—","Ten mężczyzna ma miłą, szczupłą twarz, duży nos i wąskie usta. Ma niebieskie oczy i krzaczaste brwi.","Цей чоловік має приємне, худорляве обличчя, великий ніс і вузькі губи. Має блакитні очі й кущисті брови."],
+      ["—","Jest stary i siwy. Ma też dużo zmarszczek.","Він старий і сивий. Має також багато зморшок."],
+      ["—","Ten mężczyzna jest otyły. Zwykle mówimy po prostu, że jest gruby. Ma okrągłą twarz, wysokie czoło, mały, prosty nos i wąskie usta.","Цей чоловік огрядний. Зазвичай ми кажемо просто, що він товстий. Має кругле обличчя, високе чоло, малий прямий ніс і вузькі губи."],
+      ["—","Ma ciemne oczy i ciemne, szerokie brwi. Jest szatynem.","Має темні очі й темні, широкі брови. Він шатен."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L24.txt",
+  "mistakes": [
+    ["Ma niebieski oczy","Ma niebieskie oczy","«oczy» — множина: прикметник теж -ie (niebieskie)."],
+    ["bardziej łatwo","łatwiej","Короткі прислівники мають форму -ej: łatwo → łatwiej."],
+    ["drogo niż w Londynie","drożej niż w Londynie","У порівнянні потрібен вищий ступінь: drożej."],
+    ["Jest do twarzy w pani","Pani jest do twarzy w…","Вираз «być do twarzy»: komuś jest do twarzy w czymś."]
+  ],
+  "drills": [
+    ["Скажи, що хотіла б щось змінити навесні.","Chciałabym coś zmienić na wiosnę."],
+    ["Запишись до перукаря.","Czy możemy umówić się do fryzjera?"],
+    ["Скажи: волосся швидко росте.","Włosy szybko rosną."],
+    ["Утвори вищий ступінь: łatwo →","łatwiej"],
+    ["Скажи: дорожче, ніж у Лондоні.","Drożej niż w Londynie."],
+    ["Опиши: він має блакитні очі й великий ніс.","Ma niebieskie oczy i duży nos."],
+    ["Скажи, що боїшся, що станеш лисим.","Boję się, że będę łysy."],
+    ["Попроси підстригти волосся.","Chciałabym obciąć włosy."],
+    ["Назви три частини обличчя.","oczy, nos, usta"],
+    ["Скажи команду: руки вгору.","Ręce do góry."],
+    ["Скажи: ляж на спину.","Połóż się na plecach."],
+    ["Скажи: будемо виглядати стрункішими навесні.","Będziemy wyglądać szczuplej na wiosnę."]
+  ],
+  "quiz": [
+    {"topic":"wygląd","q":"«oczy» — це:","o":["очі","вуха","губи","брови"],"a":0},
+    {"topic":"wygląd","q":"«wąskie usta» означає:","o":["широкі губи","вузькі губи","великий ніс","тонкі вії"],"a":1},
+    {"topic":"stopień wyższy","q":"Вищий ступінь від «łatwo»:","o":["łatwiej","łatwo","łatwy","najłatwo"],"a":0},
+    {"topic":"stopień wyższy","q":"«drożej» — це вищий ступінь від:","o":["dobrze","drogo","długo","dużo"],"a":1},
+    {"topic":"fryzjer","q":"Як сказати «підстригти волосся»?","o":["umyć włosy","obciąć włosy","zapuścić włosy","czesać włosy"],"a":1},
+    {"topic":"fryzjer","q":"«grzywka» — це:","o":["борода","чубчик","коса","перука"],"a":1},
+    {"topic":"sylwetka","q":"«szczupły» означає:","o":["товстий","лисий","стрункий","високий"],"a":2},
+    {"topic":"sylwetka","q":"«łysy» — це людина:","o":["без волосся","з бородою","сива","веснянкувата"],"a":0},
+    {"topic":"ciało","q":"«brzuch» — це:","o":["спина","живіт","шия","коліно"],"a":1},
+    {"topic":"przymiotnik","q":"Прикметник до «oczy»: «niebieski___ oczy»","o":["niebieski","niebieska","niebieskie","niebiesko"],"a":2}
+  ]
+}

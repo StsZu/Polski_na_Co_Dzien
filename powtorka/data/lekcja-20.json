@@ -1,0 +1,160 @@
+{
+  "id": "20",
+  "title": "Podróże kształcą",
+  "goal": "Повторюємо: сторони світу й географію Польщі · атракції та забутки · dworzec PKP і квитки · przyimki gdzie? (miejscownik) ↔ dokąd? (biernik/dopełniacz)",
+  "vocab": [
+    { "group": "Kierunki geograficzne — сторони світу", "items": [
+      ["północ / na północy","північ / на півночі"],["południe / na południu","південь / на півдні"],
+      ["wschód / na wschodzie","схід / на сході"],["zachód / na zachodzie","захід / на заході"],
+      ["północny wschód","північний схід"],["północny zachód","північний захід"],
+      ["południowy wschód","південний схід"],["południowy zachód","південний захід"],
+      ["graniczyć z…","межувати з…"],["granica","кордон"]
+    ]},
+    { "group": "Geografia i zabytki — географія та забутки", "items": [
+      ["kraj / państwo","країна / держава"],["stolica","столиця"],["rzeka","ріка"],["morze","море"],
+      ["jezioro","озеро"],["góry","гори"],["wyspa","острів"],["las / puszcza","ліс / пуща"],
+      ["zabytek","пам’ятка"],["zamek","замок"],["kościół","костел"],["wieża","вежа"],
+      ["ratusz","ратуша"],["pomnik","пам’ятник"],["szczyt","вершина"]
+    ]},
+    { "group": "Dworzec PKP — вокзал і квитки", "items": [
+      ["bilet normalny","повний квиток"],["bilet ulgowy","пільговий квиток"],
+      ["bilet tam i z powrotem","квиток туди й назад"],["pociąg osobowy","приміський поїзд"],
+      ["pociąg pospieszny","швидкий поїзд"],["Intercity","Intercity"],["pociąg bezpośredni","прямий поїзд"],
+      ["przesiadka","пересадка"],["wagon","вагон"],["przedział","купе"],["miejscówka","місцева резервація"],
+      ["peron","перон"],["kasa / okienko","каса / віконце"]
+    ]},
+    { "group": "Przyimki ruchu — прийменники руху", "items": [
+      ["w (mieście)","у (місті) — де"],["do (Torunia)","до (Торуня) — куди"],
+      ["na (dworcu / dworzec)","на (вокзалі / вокзал)"],["nad (Wisłą / Wisłę)","над (Віслою / Віслу)"],
+      ["w (Tatrach / Tatry)","у (Татрах / Татри)"],["dokąd?","куди?"],["gdzie?","де?"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"де? (статика)", "title":"GDZIE? — miejscownik / narzędnik", "formula":"jestem + w / na + Msc · nad + Narz", "ex":"w Krakowie · w Tatrach · na Rynku · nad Bałtykiem" },
+    { "badge":"куди? (рух)", "title":"DOKĄD? — dopełniacz / biernik", "formula":"jadę + do + Dop · w / na + Biern · nad + Biern", "ex":"do Krakowa · w Tatry · na Rynek · nad Bałtyk" },
+    { "badge":"сторони світу", "title":"na + miejscownik", "formula":"leży na + (północy / południu / wschodzie / zachodzie)", "ex":"Mazury leżą na północnym wschodzie. · Sudety na południowym zachodzie." }
+  ],
+  "czytanie": [
+    { "block": "A. Dokąd można pojechać na weekend?", "items": [
+      { "type":"ref", "title":"Wstęp · plan wycieczki",
+        "words":"Javier marzył o podróżach weekendowych po Polsce. Grupa ma warsztaty geograficzne i zadanie domowe: zrobić plan wycieczki na weekend. Najlepszy projekt będzie zrealizowany!",
+        "note":"Прочитай вступ уголос." },
+      { "type":"ref", "title":"Kierunki geograficzne · mapa Polski",
+        "words":"na północy · na południu · na wschodzie · na zachodzie · na północnym wschodzie · na północnym zachodzie · na południowym wschodzie · na południowym zachodzie",
+        "note":"Міста: Szczecin, Gdańsk, Olsztyn, Poznań, Warszawa, Wrocław, Kielce, Lublin, Kraków, Rzeszów." },
+      { "type":"ref", "title":"Wielka encyklopedia Europy: Polska",
+        "words":"Rzeczpospolita Polska leży w Europie Środkowej. Graniczy z Niemcami na zachodzie, Czechami i Słowacją na południu, Ukrainą i Białorusią na wschodzie, z Litwą i Rosją na północy. Stolica to Warszawa, symbolem miasta jest syrena. Polska leży nad Morzem Bałtyckim, wpływa do niego Wisła – najdłuższa polska rzeka.",
+        "note":"Гори: Tatry (Zakopane), Beskidy, Sudety, Bieszczady. Регіон Mazury — «Kraina tysiąca jezior»." },
+      { "type":"ref", "title":"Ćwiczenie 6 · co to jest?",
+        "words":"skała · mur · szczyt · wyspa · brama · góry · las · cegła · morze · jezioro · schronisko · szlak · ziemia · most · kamienica" },
+      { "type":"ref", "title":"Ćwiczenie 7 · atrakcje turystyczne",
+        "words":"Morskie Oko · Wieliczka · Spływ Dunajcem · Zamość · Malbork · Toruń · Kanał Elbląski · Puszcza Białowieska",
+        "note":"Прочитай назви й добери до описів." }
+    ]},
+    { "block": "B. Dworzec PKP", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · bilety i pociągi",
+        "words":"bilet normalny (za 100% ceny) · bilet ulgowy (zniżka dla studentów, emerytów) · bilet tam i z powrotem (w obie strony) · pociąg osobowy (wolny, lokalny) · pociąg pospieszny (szybki, bez rezerwacji) · Intercity (bardzo szybki, z rezerwacją) · pociąg bezpośredni (jednym pociągiem na miejsce) · przesiadka (zmiana pociągu) · wagon (jedzie za lokomotywą) · przedział („pokój” w wagonie) · miejscówka (rezerwacja miejsca)" },
+      { "type":"dia", "title":"Ćwiczenie 2 · W informacji · трек 192–193", "lines":[
+        ["Mami","Dzień dobry. Przepraszam, o której godzinie odjeżdża pociąg z Krakowa do Torunia? Chcemy jechać w piątek po południu.","Добрий день. Перепрошую, о котрій годині відходить поїзд із Кракова до Торуня? Хочемо їхати в п’ятницю по обіді."],
+        ["Urzędnik","Niestety, nie ma bezpośredniego połączenia. Najpierw trzeba jechać Intercity do Warszawy o 14:00, a potem pospiesznym do Torunia. Na przesiadkę jest kwadrans.","На жаль, прямого сполучення немає. Спочатку треба їхати Intercity до Варшави о 14:00, а потім швидким до Торуня. На пересадку — чверть години."],
+        ["Mami","Może być, nie za późno. A ile kosztuje bilet? Jesteśmy studentami, ale obcokrajowcami i nie wiem, czy możemy kupić bilet ulgowy.","Підходить, не надто пізно. А скільки коштує квиток? Ми студенти, але іноземці, і не знаю, чи можемо купити пільговий квиток."],
+        ["Urzędnik","Niestety nie. A o cenę proszę pytać w kasie.","На жаль, ні. А про ціну питайте в касі."],
+        ["Mami","O której będziemy na miejscu?","О котрій будемо на місці?"],
+        ["Urzędnik","O 19:42.","О 19:42."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 3 · W kasie · трек 194", "lines":[
+        ["Kasjer","Słucham?","Слухаю?"],
+        ["Mami","Przepraszam, ile kosztuje bilet normalny do Torunia przez Warszawę?","Перепрошую, скільки коштує повний квиток до Торуня через Варшаву?"],
+        ["Kasjer","Intercity Kraków Główny – Warszawa Centralna z miejscówką kosztuje 107 zł. Pospieszny Warszawa – Toruń 42 zł.","Intercity Краків Головний – Варшава Центральна з місцевою резервацією коштує 107 зл. Швидкий Варшава – Торунь 42 зл."],
+        ["Mami","Czy można płacić kartą?","Чи можна платити карткою?"],
+        ["Kasjer","Tak, ale tylko w okienku obok.","Так, але лише в сусідньому віконці."],
+        ["Mami","Która klasa?","Який клас?"],
+        ["Kasjer","Druga. A z którego peronu odjeżdża ten pociąg? Z drugiego.","Другий. А з якого перону відходить цей поїзд? З другого."]
+      ]}
+    ]},
+    { "block": "C. Gdzie jesteś? Dokąd jedziesz?", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 195", "lines":[
+        ["Angela","Halo, Mami, gdzie jesteś?","Алло, Мамі, де ти?"],
+        ["Mami","Na dworcu.","На вокзалі."],
+        ["Angela","Po co poszłaś na dworzec? Jedziesz dokądś?","Чого ти пішла на вокзал? Кудись їдеш?"],
+        ["Mami","Nie, pytałam tylko jak dojechać do Torunia.","Ні, я лише питала, як доїхати до Торуня."],
+        ["Angela","Marzy ci się weekend w Toruniu? Ja wolałabym jechać do puszczy: natura, las, zwierzęta. Absolutnie nie do miasta!","Мрієш про вікенд у Торуні? Я б воліла поїхати до пущі: природа, ліс, тварини. Точно не до міста!"],
+        ["Mami","Ale w Toruniu nigdy nie byłam, a naturę wolę oglądać w telewizji.","Але в Торуні я ніколи не була, а природу волію дивитися по телевізору."],
+        ["Angela","A wiesz, że Javier chce jeszcze raz jechać w Tatry? Romantyczny weekend w Tatrach z Javierem, w Zakopanem...","А знаєш, що Хав’єр хоче ще раз поїхати в Татри? Романтичний вікенд у Татрах із Хав’єром, у Закопане..."],
+        ["Mami","Skąd wiesz?","Звідки знаєш?"],
+        ["Angela","Bo właśnie wszyscy spacerujemy nad Wisłą i rozmawiamy o tej wycieczce. Przyjedź, co?","Бо ми саме всі гуляємо над Віслою й говоримо про цю поїздку. Приїзди, га?"],
+        ["Mami","A jak dojadę z dworca nad Wisłę?","А як я доїду з вокзалу над Віслу?"]
+      ]},
+      { "type":"ref", "title":"Tabela · gdzie? ↔ dokąd?",
+        "words":"GDZIE? w Krakowie · w Tatrach · nad Bałtykiem · na Rynku — DOKĄD? do Krakowa · w Tatry · nad Bałtyk · na Rynek",
+        "note":"GDZIE? — miejscownik / narzędnik. DOKĄD? — dopełniacz / biernik." }
+    ]},
+    { "block": "D. Powtórzenie — dokąd planują wycieczkę?", "items": [
+      { "type":"ref", "title":"Wypowiedzi postaci",
+        "words":"1. Turyści z Zachodu rzadko zwiedzają wschód. No i ta natura! · 2. Uwielbiam wodę i sporty ekstremalne. I górskie powietrze! · 3. W Japonii nie mamy gotyku, a tam jest całe centrum w tym stylu! · 4. To miejsce leży na północy. Lubię zabytki techniki, a ten jest unikatowy. · 5. To niedaleko od Krakowa, ok. 100 km. Dużo ludzi, ale ja to lubię!",
+        "note":"Добери: Puszcza Białowieska · Tatry · Toruń · Kanał Elbląski · Wieliczka." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_20.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_20/ (192–195.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 7 · jak dojechać?", "lines":[
+      ["Pasażer","Przepraszam, jak dojechać do Białegostoku?","Перепрошую, як доїхати до Білостока?"],
+      ["Urzędnik","Chwileczkę, zaraz sprawdzę. Musi pan jechać najpierw do Warszawy i tam przesiąść się na pociąg do Białegostoku.","Хвилинку, зараз перевірю. Вам треба спершу їхати до Варшави й там пересісти на поїзд до Білостока."],
+      ["Pasażer","Czy nie ma bezpośredniego połączenia?","Прямого сполучення немає?"],
+      ["Urzędnik","Niestety nie. O 15:20 z drugiego peronu ma pan najbliższy pociąg do Warszawy.","На жаль, ні. О 15:20 з другого перону у Вас найближчий поїзд до Варшави."],
+      ["Pasażer","Dziękuję pani.","Дякую."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 8 · bilet do Łodzi", "lines":[
+      ["Kasjer","Słucham.","Слухаю."],
+      ["Pasażer","Poproszę bilet na pociąg pospieszny do Łodzi.","Прошу квиток на швидкий поїзд до Лодзі."],
+      ["Kasjer","Cały czy ze zniżką?","Повний чи зі знижкою?"],
+      ["Pasażer","Cały.","Повний."],
+      ["Kasjer","Która klasa? Proszę, to pana bilet.","Який клас? Прошу, це Ваш квиток."],
+      ["Pasażer","Druga.","Другий."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 10 · w pociągu", "lines":[
+      ["Pasażer","Czy to miejsce jest wolne?","Це місце вільне?"],
+      ["—","Tak.","Так."],
+      ["Pasażer","Czy to przedział dla palących?","Це купе для тих, хто палить?"],
+      ["—","Niestety nie.","На жаль, ні."],
+      ["Pasażer","Czy mogę otworzyć okno?","Чи можу відчинити вікно?"],
+      ["—","Tak, proszę.","Так, прошу."],
+      ["Konduktor","Dzień dobry, proszę bilety do kontroli. A pani ma bilet ulgowy — proszę pokazać legitymację. W porządku, dziękuję, do widzenia.","Добрий день, прошу квитки до контролю. А пані має пільговий квиток — покажіть, будь ласка, посвідчення. Усе гаразд, дякую, до побачення."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 4 · Wrocław",
+      "words":"Wrocław leży nad rzeką Odrą, na dwunastu wyspach połączonych aż stu siedemnastoma mostami. To piękne, zabytkowe miasto, którego dzieje liczą ponad tysiąc lat, dziś otwarte na nowe idee.",
+      "note":"Читай уголос — місто над Одрою, мости й острови." }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L20.txt",
+  "mistakes": [
+    ["Jadę do Tatr","Jadę w Tatry","Гори з рухом «куди» — biernik «w Tatry», не «do»."],
+    ["Mami poszła na dworcu","Mami poszła na dworzec","Рух «куди» вимагає biernika: na dworzec."],
+    ["Jestem w dworcu","Jestem na dworcu","З «dworzec» уживаємо «na» + miejscownik: na dworcu."],
+    ["Graniczy z Niemcy","Graniczy z Niemcami","Після «z» — narzędnik: z Niemcami."]
+  ],
+  "drills": [
+    ["Спитай у касі, скільки коштує повний квиток до Торуня.","Ile kosztuje bilet normalny do Torunia?"],
+    ["Спитай, о котрій відходить поїзд до Варшави.","O której odjeżdża pociąg do Warszawy?"],
+    ["Скажи, що прямого сполучення немає, треба пересадка.","Nie ma bezpośredniego połączenia, trzeba się przesiąść."],
+    ["Скажи: я їду в Татри на вікенд.","Jadę w Tatry na weekend."],
+    ["Скажи: я зараз на вокзалі.","Jestem teraz na dworcu."],
+    ["Скажи: Польща межує з Німеччиною на заході.","Polska graniczy z Niemcami na zachodzie."],
+    ["Назви чотири сторони світу польською.","północ, południe, wschód, zachód"],
+    ["Спитай, чи можна платити карткою.","Czy można płacić kartą?"],
+    ["Попроси пільговий квиток туди й назад.","Poproszę bilet ulgowy, tam i z powrotem."],
+    ["Скажи: Варшава — столиця Польщі, лежить над Віслою.","Warszawa to stolica Polski, leży nad Wisłą."],
+    ["Спитай, з якого перону відходить поїзд.","Z którego peronu odjeżdża pociąg?"]
+  ],
+  "quiz": [
+    {"topic":"kierunki","q":"«na zachodzie» — це:","o":["на півночі","на півдні","на сході","на заході"],"a":3},
+    {"topic":"geografia","q":"Найдовша річка Польщі — це:","o":["Odra","Wisła","Dunajec","Bałtyk"],"a":1},
+    {"topic":"geografia","q":"Столиця Польщі:","o":["Kraków","Wrocław","Warszawa","Gdańsk"],"a":2},
+    {"topic":"bilety","q":"«Bilet ulgowy» — це квиток:","o":["туди й назад","повний за 100%","зі знижкою","на Intercity"],"a":2},
+    {"topic":"pociągi","q":"Найшвидший поїзд із резервацією місць:","o":["osobowy","pospieszny","Intercity","bezpośredni"],"a":2},
+    {"topic":"przyimki","q":"«Jestem ___ Krakowie.» (де?)","o":["do","w","na","nad"],"a":1},
+    {"topic":"przyimki","q":"«Jadę ___ Tatry.» (куди?)","o":["w","do","na","nad"],"a":0},
+    {"topic":"przyimki","q":"«Mami jest ___ dworcu.»","o":["w","do","na","nad"],"a":2},
+    {"topic":"granice","q":"Polska graniczy ze Słowacją na:","o":["północy","południu","wschodzie","zachodzie"],"a":1},
+    {"topic":"dworzec","q":"«Miejscówka» — це:","o":["пересадка","пільга","резервація місця","купе"],"a":2}
+  ]
+}

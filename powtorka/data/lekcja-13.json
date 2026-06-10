@@ -1,0 +1,170 @@
+{
+  "id": "13",
+  "title": "Gdzie byłaś Mami? Byłam w kinie",
+  "goal": "Повторюємо: минулий час (czas przeszły) · дієслово być у минулому · -łem/-łam/-łeś/-łaś · rodzaj męskoosobowy / niemęskoosobowy · розповідь про вихідні",
+  "vocab": [
+    { "group": "BYĆ — czas przeszły — бути в минулому", "items": [
+      ["byłem / byłam","я був / була"],["byłeś / byłaś","ти був / була"],["był / była / było","він / вона / воно був(ло)"],
+      ["byliśmy / byłyśmy","ми були (ч. / ж.)"],["byliście / byłyście","ви були (ч. / ж.)"],["byli / były","вони були (ч. / неч.)"]
+    ]},
+    { "group": "Weekend — як минув weekend", "items": [
+      ["weekend był świetny","вихідні були чудові"],["była dobra impreza","була гарна вечірка"],["było wspaniale","було чудово"],
+      ["była świetna pogoda","була чудова погода"],["spokojny weekend","спокійні вихідні"],["co robiłaś?","що ти робила?"],
+      ["w piątek / w sobotę","у п’ятницю / у суботу"],["wczoraj / dzisiaj","учора / сьогодні"]
+    ]},
+    { "group": "Czasowniki w przeszłości — дієслова дій", "items": [
+      ["kupiłam","я купила"],["spotkałem","я зустрів"],["oglądałyśmy","ми (ж.) дивились"],["spacerowałyśmy","ми (ж.) гуляли"],
+      ["robiłyśmy zdjęcia","ми робили фото"],["uczyłem się","я вчився"],["piłem","я пив"],["jadłyście","ви (ж.) їли"],
+      ["poszliśmy","ми пішли"],["spędziłem","я провів (час)"]
+    ]},
+    { "group": "Przydatne — корисні", "items": [
+      ["martwiliśmy się","ми хвилювались"],["nie miałem zasięgu","я не мав зв’язку (мережі)"],["smakowała ci?","тобі смакувало?"],
+      ["pyszna / pyszne","смачна / смачне"],["nareszcie","нарешті"],["nic się nie stało","нічого не сталось"],
+      ["razem ze znajomymi","разом зі знайомими"],["w górach","у горах"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"być (минулий)", "title":"był / była / było", "formula":"on był · ona była · ono było · oni byli · one były", "ex":"Mami była w kinie. · Weekend był świetny. · Było wspaniale. · Byliśmy na treningu." },
+    { "badge":"-łem / -łam", "title":"Минулий час дієслова", "formula":"осн. + -ł- + рід/особа: -łem(ч.) / -łam(ж.) · -łeś / -łaś · -ł / -ła / -ło", "ex":"robić → robiłem / robiłam · kupić → kupiłem / kupiłam · pić → piłem / piłam" },
+    { "badge":"my / wy / oni", "title":"Множина: -śmy / -ście", "formula":"męskoosob.: byliśmy, byliście, byli · niemęskoosob.: byłyśmy, byłyście, były", "ex":"My byliśmy na wakacjach. · Dziewczyny były w kinie. · Oglądałyśmy film." }
+  ],
+  "czytanie": [
+    { "block": "A. Gdzie byłaś? — krótkie dialogi", "items": [
+      { "type":"dia", "title":"Ćwiczenie 1 · gdzie byłaś? · трек 136", "lines":[
+        ["—","Gdzie byłaś, Mami?","Де ти була, Мамі?"],
+        ["Mami","Byłam w kinie.","Я була в кіно."],
+        ["—","Byłeś już tu kiedyś?","Ти вже колись тут був?"],
+        ["—","Nie, nie byłem. Jestem pierwszy raz.","Ні, не був. Я тут уперше."],
+        ["—","Cześć Mami! Gdzie byłaś?","Привіт, Мамі! Де ти була?"],
+        ["Mami","Cześć Shige! Byłam w Centrum Sztuki i Kultury Japońskiej „Manggha”.","Привіт, Шіге! Я була в Центрі японського мистецтва й культури «Манґґа»."],
+        ["—","Czy one były na meczu?","Чи вони були на матчі?"],
+        ["—","A wczoraj było tak ładnie!","А вчора було так гарно!"],
+        ["—","O Boże! Jak wy wyglądacie!? Gdzie byliście?","О Боже! Який у вас вигляд!? Де ви були?"],
+        ["—","Byliśmy na treningu.","Ми були на тренуванні."],
+        ["—","On chyba był na dobrej imprezie!","Він, мабуть, був на гарній вечірці!"],
+        ["—","O tak! Na pewno było świetnie!","О так! Напевно було чудово!"]
+      ]}
+    ]},
+    { "block": "B. Jak weekend? — главний діалог", "items": [
+      { "type":"dia", "title":"Dialog 1 · korytarz · трек 137", "lines":[
+        ["—","(Jest poniedziałek. Mami i Angela są na korytarzu, piją herbatę. Wchodzi Uwe.)","(Понеділок. Мамі й Анджела в коридорі, п’ють чай. Заходить Уве.)"],
+        ["Uwe","Cześć dziewczyny! Co słychać? Jak weekend?","Привіт, дівчата! Як справи? Як вихідні?"],
+        ["Angela","Cześć Uwe! Weekend był świetny! W piątek w nocy byłam w Galerii Krakowskiej.","Привіт, Уве! Вихідні були чудові! У п’ятницю вночі я була в Galerii Krakowskiej."],
+        ["Uwe","W nocy?","Уночі?"],
+        ["Angela","Tak. To była specjalna „noc zakupów”, więc były duże rabaty. Kupiłam na przykład ten sweter! Wstyd, ale spędziłam tam kilka godzin.","Так. Це була особлива «ніч покупок», тож були великі знижки. Я купила, наприклад, цей светр! Соромно, але я провела там кілька годин."],
+        ["Angela","W sobotę wieczorem byłam ze znajomymi w klubie „Pauza”. Poznałam interesujących ludzi, rozmawiałam po polsku, tańczyłam i wróciłam do domu w niedzielę rano.","У суботу ввечері я була зі знайомими в клубі «Pauza». Познайомилась із цікавими людьми, говорила польською, танцювала і повернулась додому в неділю вранці."],
+        ["Uwe","Świetnie! To znaczy, że była dobra impreza!","Чудово! Тобто була гарна вечірка!"],
+        ["Angela","O tak! Było wspaniale!","О так! Було чудово!"],
+        ["Uwe","A ty Mami? Co robiłaś w weekend?","А ти, Мамі? Що ти робила на вихідних?"],
+        ["Mami","Ja byłam w kinie razem z Karoliną. Oglądałyśmy polski film! Rozumiałam tylko trochę, ale to nic, i tak było fajnie!","Я була в кіно разом із Кароліною. Ми дивились польський фільм! Розуміла лише трохи, але нічого — однаково було класно!"],
+        ["Mami","W sobotę była świetna pogoda, więc z Karoliną spacerowałyśmy po Kazimierzu i robiłyśmy zdjęcia.","У суботу була чудова погода, тож ми з Кароліною гуляли по Казімєжу й робили фото."],
+        ["Mami","W niedzielę byłam w domu, spałam, rysowałam, grałam na Nintendo, trochę uczyłam się i pomagałam pani Maj robić obiad. To był spokojny weekend.","У неділю я була вдома: спала, малювала, грала на Nintendo, трохи вчилась і допомагала пані Май готувати обід. Це були спокійні вихідні."],
+        ["Mami","A ty, Uwe, byłeś w Warszawie?","А ти, Уве, був у Варшаві?"],
+        ["Uwe","Tak! Cały weekend spędziłem w Warszawie. Pracowałem i uczyłem się polskiego, ale tylko, kiedy jechałem pociągiem. Spotkałem się ze znajomymi w pubie i piłem polskie piwo!","Так! Усі вихідні я провів у Варшаві. Працював і вчив польську, але лише коли їхав потягом. Зустрівся зі знайомими в пабі й пив польське пиво!"],
+        ["Uwe","I wiesz co, byłem w „Pijalni Czekolady” w Warszawie!","І знаєш що, я був у «Pijalnia Czekolady» у Варшаві!"],
+        ["Mami","I jak było? Smakowała ci czekolada?","І як було? Смакував тобі шоколад?"],
+        ["Uwe","Było bardzo miło, a czekolada była pyszna!","Було дуже приємно, а шоколад був смачнючий!"],
+        ["Angela","Nie spotkałeś się z Javierem?","Ти не зустрівся з Хав’єром?"],
+        ["Uwe","Nie. Nie wiem, gdzie on był.","Ні. Не знаю, де він був."],
+        ["Mami","Ja cały czas się martwię. W piątek nie było go w szkole. Może coś się stało?","Я весь час хвилююсь. У п’ятницю його не було в школі. Може, щось сталось?"]
+      ]}
+    ]},
+    { "block": "C. Gdzie byłeś, Javier? — поліція в музеї", "items": [
+      { "type":"dia", "title":"Dialog 1 · powitanie · трек 140", "lines":[
+        ["Javier","Cześć! Czekacie na mnie? Specjalne powitanie? A gdzie są kwiaty?","Привіт! Чекаєте на мене? Особлива зустріч? А де квіти?"],
+        ["—","Javier! Nareszcie jesteś! Gdzie byłeś?","Хав’єре! Нарешті ти тут! Де ти був?"],
+        ["Javier","Gdzie byłem? Detektywi! Wszystko chcecie wiedzieć! Zero prywatności!","Де я був? Детективи! Усе хочете знати! Нуль приватності!"],
+        ["—","Javier! To nie jest śmieszne, martwiliśmy się o ciebie. Nie było cię w piątek w szkole, nie odbierałeś telefonu, nie odpisywałeś na SMS-y!","Хав’єре! Це не смішно, ми хвилювались за тебе. Тебе не було в п’ятницю в школі, ти не брав слухавку, не відповідав на SMS!"],
+        ["Javier","Przepraszam, ale byłem w górach i nie miałem zasięgu.","Вибачте, але я був у горах і не мав зв’язку."],
+        ["—","Gdzie??? W górach???","Де??? У горах???"],
+        ["Javier","Tak. W Zakopanem.","Так. У Закопаному."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · w muzeum · трек 141", "lines":[
+        ["Javier","Kilka dni temu byłem w Muzeum Narodowym. Opowiadałaś mi tak dużo o Witkacym, więc musiałem zobaczyć obrazy.","Кілька днів тому я був у Національному музеї. Ти стільки розповідала про Віткаци, що я мусив побачити картини."],
+        ["Mami","No proszę! Nie wiedziałam, że to jest tak interesujące dla ciebie. Który obraz ci się podobał?","Ну треба ж! Я не знала, що тобі це так цікаво. Яка картина тобі сподобалась?"],
+        ["Javier","Tak naprawdę to nie pamiętam. Byłem w muzeum, widziałem obrazy, ale nie pamiętam nic!","Чесно кажучи, не пам’ятаю. Я був у музеї, бачив картини, але не пам’ятаю нічого!"],
+        ["Mami","Jak to?","Як це?"],
+        ["Javier","Mami! Spotkałem tam naprawdę piękną dziewczynę! Nie widziałem jeszcze tak pięknej kobiety!","Мамі! Я зустрів там справді красиву дівчину! Я ще не бачив такої вродливої жінки!"],
+        ["Mami","I co? Wolałeś randkę?","І що? Ти волів побачення?"],
+        ["Javier","Marzenie! Ona nie chciała ze mną rozmawiać! Proponowałem kawę, lody, obiad, kino, weekend w Zakopanem… prosiłem o numer telefonu, i nic!","Мрія! Вона не хотіла зі мною говорити! Я пропонував каву, морозиво, обід, кіно, вихідні в Закопаному… просив номер телефону — і нічого!"],
+        ["Mami","Zupełnie nic?","Зовсім нічого?"],
+        ["Javier","Najpierw mówiła „To miłe, ale dziękuję”, później „Nie mam czasu”, potem chciała dzwonić na policję, ale przyszła ochrona. Panowie musieli mnie wyprowadzić z muzeum!","Спершу казала «Це мило, але дякую», потім «Не маю часу», далі хотіла дзвонити в поліцію, але прийшла охорона. Чоловіки мусили вивести мене з музею!"]
+      ]}
+    ]},
+    { "block": "D. Mami w domu — co jedliście?", "items": [
+      { "type":"dia", "title":"Dialog · kuchnia · трек 138", "lines":[
+        ["Karolina","Mami, chodź! Mama ugotowała obiad.","Мамі, ходи! Мама зварила обід."],
+        ["Mami","Przepraszam, nie jestem głodna. Jadłam mniej więcej godzinę temu. Poszłyśmy dziś z Angelą do japońskiej restauracji.","Вибач, я не голодна. Я їла приблизно годину тому. Ми сьогодні з Анджелою ходили в японський ресторан."],
+        ["Karolina","O! I co jadłyście?","О! І що ви їли?"],
+        ["Mami","Tradycyjnie – zupę miso i sushi.","Традиційно — суп місо й суші."],
+        ["Karolina","A nie wiesz, czy tata i Karol jedli?","А не знаєш, чи тато й Кароль їли?"],
+        ["Mami","Nie wiem, ale spotkałam Karola przed domem, mówił, że zostawił kartkę dla mamy na stole.","Не знаю, але я зустріла Кароля перед домом, він казав, що залишив записку для мами на столі."],
+        ["Karolina","O, jest! „Poszliśmy z tatą na mecz. Nie jedliśmy zupy, ale kupimy pizzę. Karol.” Znowu poszli beze mnie!","О, ось! «Ми з татом пішли на матч. Зупу не їли, але купимо піцу. Кароль.» Знову пішли без мене!"]
+      ]}
+    ]},
+    { "block": "E. Odmiana — być w czasie przeszłym", "items": [
+      { "type":"ref", "title":"BYĆ · czas przeszły · трек 139",
+        "words":"ja byłem / byłam · ty byłeś / byłaś · on był · ona była · ono było · my byliśmy / byłyśmy · wy byliście / byłyście · oni byli · one były",
+        "note":"Звертай увагу на рід: -em/-eś/-ł (ч.) · -am/-aś/-ła (ж.)." },
+      { "type":"ref", "title":"Ćwiczenie 3 · był / była / było · трек 139",
+        "words":"Byliśmy na koncercie. · Pani Maj była rano na zakupach. · Karolina i Mami były w kinie. · Karol był na siłowni. · Karol i Karolina byli w szkole. · Czy byliście w Krakowie? · Wczoraj byłyśmy na wystawie. · Wczoraj było brzydko. · Gdzie był Javier?" }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_13.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_13/ (136–141.mp3)",
+  "zeszyt": [
+    { "type":"ref", "title":"Ćwiczenie 2 · robić — czas przeszły",
+      "words":"robiłem · robiłeś · robił · robiłam · robiłaś · robiła · robiło · robiliśmy · robiliście · robili · robiłyśmy · robiłyście · robiły",
+      "note":"Провідміняй уголос дієслово «robić» у минулому часі." },
+    { "type":"dia", "title":"Ćwiczenie 3 · pytania w przeszłości", "lines":[
+      ["—","Czy Szymon grał wczoraj z dziadkiem w brydża?","Чи Шимон учора грав із дідусем у бридж?"],
+      ["—","Nie, bo dziadek miał gości.","Ні, бо в дідуся були гості."],
+      ["—","Czy Paulina i Marta uczyły się do testu z gramatyki?","Чи Пауліна й Марта вчились до тесту з граматики?"],
+      ["—","Tak, do późna w nocy.","Так, до пізньої ночі."],
+      ["—","Czy jechałaś w piątek tramwajem do pracy?","Чи їхала ти в п’ятницю трамваєм на роботу?"],
+      ["—","Nie, autobusem.","Ні, автобусом."],
+      ["—","Czy Darek i Rafał ćwiczyli na siłowni w zeszły czwartek?","Чи Дарек і Рафал тренувались у залі минулого четверга?"],
+      ["—","Nie, oni grali w piłkę w parku.","Ні, вони грали у м’яч у парку."],
+      ["—","Czy Kasia i Tomek mieszkali kiedyś we Wrocławiu?","Чи Кася й Томек колись жили у Вроцлаві?"],
+      ["—","Nie, w Lublinie.","Ні, у Любліні."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 7 · weekend w Zakopanem", "lines":[
+      ["—","W ostatni weekend pojechaliśmy do Zakopanego. Dziewczyny mieszkały w góralskim domu, ja i Javier mieszkaliśmy w pensjonacie, a Uwe mieszkał w hotelu.","Минулих вихідних ми поїхали до Закопаного. Дівчата жили в гуральському домі, ми з Хав’єром — у пансіонаті, а Уве — в готелі."],
+      ["—","Chodziliśmy po górach. Javier i Uwe wspinali się na Orlą Perć po łańcuchach. My spacerowaliśmy i oglądaliśmy piękne widoki.","Ми ходили горами. Хав’єр і Уве дерлися на Орлю Перць по ланцюгах. Ми гуляли й милувалися краєвидами."],
+      ["—","Javier jadł pierwszy raz smalec. Angela nigdy nie jadła smalcu i nie chciała jeść, bo mówiła, że jest tłusty. Mami jadła wszystko z apetytem.","Хав’єр уперше їв смалець. Анджела ніколи не їла смальцю й не хотіла, бо казала, що він жирний. Мамі їла все з апетитом."],
+      ["—","Wieczorem oglądaliśmy spektakl w Teatrze Witkiewicza. Potem poszliśmy do góralskiej karczmy i było bardzo sympatycznie.","Увечері ми дивились виставу в Театрі Віткевича. Потім пішли в гуральську корчму, і було дуже приємно."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L13.txt",
+  "mistakes": [
+    ["Mami był w kinie","Mami była w kinie","Mami — жінка: форма «była», не «był»."],
+    ["Ja byłem (про жінку)","Ja byłam","Жіночий рід — закінчення -łam / -łaś / -ła."],
+    ["My byłem na treningu","My byliśmy na treningu","Множина «my» → -liśmy (ч.) / -łyśmy (ж.), не -łem."],
+    ["Dziewczyny byli w kinie","Dziewczyny były w kinie","Без чоловіків — форма «były» (niemęskoosobowy), не «byli»."]
+  ],
+  "drills": [
+    ["Спитай Мамі, де вона була.","Gdzie byłaś, Mami?"],
+    ["Відповідь Мамі: «Я була в кіно».","Byłam w kinie."],
+    ["Скажи (чол.): «Я був у Варшаві».","Byłem w Warszawie."],
+    ["Спитай хлопця: «Ти був на тренуванні?»","Byłeś na treningu?"],
+    ["Скажи: «Ми були на концерті» (мішана група).","Byliśmy na koncercie."],
+    ["Скажи (жінки): «Ми дивились польський фільм».","Oglądałyśmy polski film."],
+    ["Спитай: «Що ти робила на вихідних?»","Co robiłaś w weekend?"],
+    ["Скажи: «Вихідні були чудові».","Weekend był świetny."],
+    ["Скажи: «Учора була чудова погода».","Wczoraj była świetna pogoda."],
+    ["Скажи (чол.): «Я зустрів знайомих і пив пиво».","Spotkałem znajomych i piłem piwo."],
+    ["Скажи: «Дівчата були в кіно».","Dziewczyny były w kinie."],
+    ["Провідміняй «robić»: я (ч.), ти (ж.), ми (ч.).","robiłem, robiłaś, robiliśmy"]
+  ],
+  "quiz": [
+    {"topic":"być","q":"Mami каже про себе: «Я була в кіно». Як правильно?","o":["Byłem w kinie","Byłam w kinie","Był w kinie","Byliśmy w kinie"],"a":1},
+    {"topic":"być","q":"Чоловік про себе: «Я був у Варшаві»:","o":["Byłam","Byłeś","Byłem","Był"],"a":2},
+    {"topic":"rodzaj","q":"«Weekend ___ świetny.» (być, мин. час)","o":["była","było","byli","był"],"a":3},
+    {"topic":"liczba mnoga","q":"Мішана група: «Ми ___ na treningu.»","o":["byłem","byłyśmy","byliśmy","byliście"],"a":2},
+    {"topic":"rodzaj żeński","q":"Тільки дівчата: «Dziewczyny ___ w kinie.»","o":["byli","były","byliśmy","był"],"a":1},
+    {"topic":"czasownik","q":"«robić» у минулому, я (жінка):","o":["robiłem","robiłam","robiłaś","robił"],"a":1},
+    {"topic":"pytanie","q":"Як спитати хлопця «Де ти був?»","o":["Gdzie byłaś?","Gdzie byłeś?","Gdzie był?","Gdzie byliście?"],"a":1},
+    {"topic":"słownictwo","q":"«Smakowała ci czekolada?» — питання про:","o":["погоду","смак (чи смакувало)","ціну","час"],"a":1},
+    {"topic":"czasownik","q":"«My (kobiety) ___ zdjęcia.» (robić)","o":["robiliśmy","robiłyśmy","robili","robił"],"a":1},
+    {"topic":"być","q":"«Czy ___ w Krakowie?» (ви, мин. час)","o":["byliście","byłem","była","było"],"a":0}
+  ]
+}

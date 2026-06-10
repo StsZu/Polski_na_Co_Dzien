@@ -1,0 +1,185 @@
+{
+  "id": "19",
+  "title": "Wszędzie dobrze, ale w domu najlepiej",
+  "goal": "Повторюємо: пошук і винайм квартири · опис помешкання й меблів · локалізація предметів · статичні прийменники (na, w, przy, nad, pod, przed, za, między, obok, koło, na wprost) з місцевим і орудним відмінками",
+  "vocab": [
+    { "group": "Mieszkanie i pokoje — помешкання", "items": [
+      ["mieszkanie","квартира / помешкання"],["pokój","кімната"],["kuchnia","кухня"],
+      ["łazienka","ванна"],["przedpokój","передпокій"],["balkon","балкон"],
+      ["piętro","поверх"],["parter","перший поверх (партер)"],["ogrzewanie","опалення"],
+      ["czynsz","квартплата"],["wynajem","оренда"],["współlokator","сусід по житлу"],
+      ["jednoosobowy","одномісний"],["dwuosobowy","двомісний"],["umeblowany","мебльований"]
+    ]},
+    { "group": "Meble i rzeczy — меблі та речі", "items": [
+      ["kanapa","диван"],["fotel","крісло"],["szafa","шафа"],["komoda","комод"],
+      ["regał","стелаж"],["półka","полиця"],["biurko","письмовий стіл"],
+      ["stolik","столик"],["lampa","лампа"],["dywanik","килимок"],
+      ["łóżko","ліжко"],["lodówka","холодильник"],["pralka","пральна машина"],
+      ["telewizor","телевізор"],["wazon","ваза"]
+    ]},
+    { "group": "Przyimki statyczne — статичні прийменники", "items": [
+      ["na (+ Miejsc.)","на"],["w (+ Miejsc.)","у / в"],["przy (+ Miejsc.)","біля / при"],
+      ["nad (+ Narz.)","над"],["pod (+ Narz.)","під"],["przed (+ Narz.)","перед"],
+      ["za (+ Narz.)","за"],["między (+ Narz.)","між"],["obok / koło (+ Dop.)","поруч / коло"],
+      ["na wprost (+ Dop.)","навпроти"],["na środku","посередині"],
+      ["po lewej / prawej stronie","ліворуч / праворуч"],["na górze / na dole","угорі / внизу"]
+    ]},
+    { "group": "Szukanie mieszkania — пошук квартири", "items": [
+      ["dzwonię w sprawie...","телефоную щодо..."],["Czy oferta jest aktualna?","Чи пропозиція ще актуальна?"],
+      ["W jakiej cenie?","За якою ціною?"],["rezerwować","бронювати"],["doba hotelowa","готельна доба"],
+      ["przeprowadzać się","переїжджати"],["zaspać","проспати"],["zdarzać się","траплятися"],
+      ["jeśli chodzi o...","якщо йдеться про..."],["dostęp do Internetu","доступ до інтернету"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"Miejscownik", "title":"na / w / przy — де?", "formula":"na / w / przy + Miejscownik", "ex":"na stole · w butelce · przy lampie · na regale · w kuchni" },
+    { "badge":"Narzędnik", "title":"nad / pod / przed / za / między", "formula":"nad / pod / przed / za / między + Narzędnik", "ex":"nad rybką · pod krzesłem · przed domem · za drzewem · między butelkami" },
+    { "badge":"Dopełniacz", "title":"obok / koło / na wprost / wzdłuż", "formula":"obok = koło · na wprost · wzdłuż + Dopełniacz", "ex":"koło psa · na wprost psa · wzdłuż linii · obok wazonu" }
+  ],
+  "czytanie": [
+    { "block": "A. Nie mam gdzie mieszkać", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 181", "lines":[
+        ["Javier","Ty spóźniona?! Co się stało?","Ти спізнилась?! Що сталося?"],
+        ["Angela","Javier! O nic nie pytaj, bo zaraz eksploduję!","Хав'єре! Ні про що не питай, бо зараз вибухну!"],
+        ["Javier","Ho, ho, ho! To musi być coś poważnego! Słucham!","Ого-го! Це, мабуть, щось серйозне! Слухаю!"],
+        ["Angela","Poszłam spać o 5 rano, bo studenci, którzy mieszkają w mieszkaniu obok, znowu robili imprezę.","Я пішла спати о 5 ранку, бо студенти, що живуть у сусідній квартирі, знову влаштували вечірку."],
+        ["Javier","I to jest minus??? To idealna sytuacja! Nie musisz chodzić do pubu!","І це мінус??? Це ідеальна ситуація! Не треба ходити в паб!"],
+        ["Angela","Nie ironizuj, proszę. Dla mnie to nie jest śmieszne. Jestem wściekła! Spałam tylko 4 godziny. Jestem potwornie zmęczona. Zaspałam do szkoły! To mi się nie zdarza!","Не іронізуй, будь ласка. Для мене це не смішно. Я розлючена! Спала лише 4 години. Я страшенно втомлена. Проспала школу! Зі мною такого не буває!"],
+        ["Javier","To nie jest duży problem. Dam ci moje notatki z lekcji, a jeśli chodzi o sąsiadów, można poinformować policję i…","Це не велика проблема. Дам тобі свої конспекти з уроку, а щодо сусідів — можна повідомити поліцію і…"],
+        ["Angela","To nie pomaga! Już zdecydowałam, dzisiaj przeprowadzam się do hotelu.","Це не допомагає! Я вже вирішила: сьогодні переїжджаю в готель."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · rezerwacja · трек 182", "lines":[
+        ["Recepcja","Dzień dobry, „Hotel Smocza Jama”, słucham?","Добрий день, готель «Смоча Яма», слухаю?"],
+        ["Angela","Dzień dobry. Chciałabym zarezerwować pokój jednoosobowy z łazienką.","Добрий день. Я хотіла б забронювати одномісний номер із ванною."],
+        ["Recepcja","Od kiedy?","Від коли?"],
+        ["Angela","Od dziś, nawet od zaraz!","Від сьогодні, навіть прямо зараз!"],
+        ["Recepcja","Niestety dziś wszystkie pokoje jednoosobowe są zajęte. Mogę zrobić rezerwację od jutra.","На жаль, сьогодні всі одномісні номери зайняті. Можу зробити бронювання від завтра."],
+        ["Angela","Dobrze. Proszę zarezerwować pokój od jutra na cały tydzień.","Добре. Забронюйте, будь ласка, номер від завтра на цілий тиждень."],
+        ["Recepcja","Na jakie nazwisko będzie rezerwacja?","На яке прізвище буде бронювання?"],
+        ["Angela","Angela Brown.","Анджела Браун."],
+        ["Recepcja","Gotowe. Zapraszamy jutro. Doba hotelowa zaczyna się od godziny 13.00.","Готово. Запрошуємо завтра. Готельна доба починається з 13:00."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 4 · słowa o mieszkaniu — згрупуй",
+        "words":"jednoosobowy · dwuosobowy · trzyosobowy · czteroosobowy · klimatyzacją · widokiem na morze · dostępem do Internetu · łazienką · parterze · piątym · pierwszym · ostatnim · jutra · środy · piątku · dziś · tydzień · weekend · dwa dni · trzy noce · jedną noc",
+        "note":"Jaki? Z czym? Od kiedy? Na jak długo? Na którym piętrze?" }
+    ]},
+    { "block": "B. W poszukiwaniu mieszkania", "items": [
+      { "type":"dia", "title":"Ćwiczenie 3 · jakie mieszkanie? · трек 187", "lines":[
+        ["Javier","Podsumujmy, jakiego mieszkania szukamy.","Підсумуймо, яку квартиру шукаємо."],
+        ["Angela","Szukamy małego, jednopokojowego mieszkania, może mieć 30-40 metrów kwadratowych. Najlepiej w centrum, blisko szkoły. Musi być jasne, słoneczne i ciepłe, bo idą mrozy.","Шукаємо малу однокімнатну квартиру, може мати 30-40 квадратних метрів. Найкраще в центрі, близько до школи. Має бути світла, сонячна і тепла, бо йдуть морози."],
+        ["Mami","Pamiętaj żeby było centralne ogrzewanie, bo jeśli będzie elektryczne to zimą dużo zapłacisz. Wiem coś o tym od pani Maj.","Пам'ятай, щоб було центральне опалення, бо якщо буде електричне, то взимку багато заплатиш. Знаю дещо про це від пані Май."],
+        ["Angela","Nie pomyślałam o tym.","Я про це не подумала."],
+        ["Mami","A na którym piętrze chcesz mieszkać?","А на якому поверсі хочеш жити?"],
+        ["Angela","To nie ma znaczenia dla mnie, ale wolałabym, żeby to nie był parter.","Це для мене не має значення, але я воліла б, щоб це був не перший поверх."],
+        ["Uwe","A co z balkonem?","А що з балконом?"],
+        ["Angela","Może być, ale nie musi.","Може бути, але не обов'язково."],
+        ["Javier","Wolisz mieszkać w starym czy nowym budownictwie?","Волієш жити в старій чи новій забудові?"],
+        ["Angela","Nie zastanawiałam się nad tym. Raczej w nowym. A jeśli w starym, to mieszkanie koniecznie musi być po remoncie.","Я над цим не замислювалась. Радше в новій. А якщо в старій, то квартира конче має бути після ремонту."],
+        ["Uwe","A chcesz mieć współlokatorów?","А хочеш мати сусідів по житлу?"],
+        ["Angela","Wolałabym mieszkanie samodzielne, ale jeśli nie znajdę nic interesującego, będę szukała pokoju.","Я воліла б окрему квартиру, але якщо не знайду нічого цікавого, шукатиму кімнату."],
+        ["Javier","Jeszcze tylko cena. Ile maksymalnie możesz zapłacić?","Лишилася тільки ціна. Скільки максимум можеш заплатити?"],
+        ["Angela","Myślę, że 1200 - 1400 złotych miesięcznie. Mam tylko tydzień. Mam nadzieję, że znajdę coś fajnego.","Думаю, 1200-1400 злотих на місяць. Маю лише тиждень. Сподіваюся, знайду щось класне."],
+        ["Mami","Nie martw się. Wszyscy ci pomożemy.","Не хвилюйся. Ми всі тобі допоможемо."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 7 · dzwonię w sprawie ogłoszenia · трек 188", "lines":[
+        ["Pani","Słucham?","Слухаю?"],
+        ["Angela","Dzień dobry, dzwonię w sprawie ogłoszenia. Czy jest jeszcze aktualne?","Добрий день, телефоную щодо оголошення. Воно ще актуальне?"],
+        ["Pani","Dzień dobry. Tak, oferta jest jeszcze aktualna.","Добрий день. Так, пропозиція ще актуальна."],
+        ["Angela","Chcę zapytać o szczegóły. Czy mieszkanie jest jasne, słoneczne?","Хочу запитати про деталі. Чи квартира світла, сонячна?"],
+        ["Pani","Tak. Jest od strony południowej, więc słońce w mieszkaniu jest długo.","Так. Вона з південного боку, тож сонце в квартирі довго."],
+        ["Angela","Kiedy mogę przyjść obejrzeć mieszkanie?","Коли я можу прийти оглянути квартиру?"],
+        ["Pani","Zapraszam od zaraz.","Запрошую прямо зараз."],
+        ["Angela","A jakie są miesięczne koszty wynajmu?","А які щомісячні витрати на оренду?"],
+        ["Pani","Opłaty to 650 zł za wynajem, 220 zł czynsz. Za prąd, gaz, płaci pani tyle, ile pani zużyje.","Платежі — 650 зл за оренду, 220 зл квартплата. За електрику, газ платите стільки, скільки споживете."],
+        ["Angela","A jakie jest ogrzewanie?","А яке опалення?"],
+        ["Pani","Centralne, więc nie płaci pani dużo.","Центральне, тож платите небагато."],
+        ["Angela","Ile mniej więcej mogę płacić co miesiąc za media?","Скільки приблизно я можу платити щомісяця за комунальні послуги?"],
+        ["Pani","Myślę, że nie więcej niż 100 – 150 zł.","Думаю, не більше ніж 100-150 зл."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 6 · ogłoszenia — оголошення про оренду",
+        "words":"kawalerka 26 m² na Kazimierzu, ogrzewanie na prąd · kawalerka 23 m², parter w bloku czteropiętrowym, umeblowana · dwie studentki szukają spokojnej współlokatorki · jednopokojowe mieszkanie 35 m², osobna kuchnia i łazienka",
+        "note":"Прочитай оголошення вголос і вибери найкраще для Анджели." }
+    ]},
+    { "block": "C. Przeprowadzka", "items": [
+      { "type":"dia", "title":"Dialog 1 · przeprowadzka · трек 189", "lines":[
+        ["Angela","Bardzo wam dziękuję za pomoc!","Дуже вам дякую за допомогу!"],
+        ["Mami","Naprawdę nie ma za co! Cieszymy się, że wszystko dobrze się skończyło.","Справді нема за що! Раді, що все добре скінчилося."],
+        ["Javier","O tak! Teraz masz piękne mieszkanie w centrum, więc w weekendy, kiedy po imprezie spóźnimy się na nocny autobus, będziemy mogli wpaść do ciebie!!!","О так! Тепер маєш гарну квартиру в центрі, тож на вихідних, коли після вечірки спізнимося на нічний автобус, зможемо заскочити до тебе!!!"],
+        ["Angela","Jeśli to nie będzie w każdy weekend, to zapraszam.","Якщо це буде не щовихідних, то запрошую."],
+        ["Uwe","Macie rację! Mieszkanie jest naprawdę ładne! Małe, ale dobrze rozplanowane!","Маєте рацію! Квартира справді гарна! Мала, але добре спланована!"],
+        ["Mami","I ma piękne, ciepłe kolory. Pasują do ciebie.","І має гарні теплі кольори. Тобі пасують."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 2 · mieszkanie Angeli · трек 190", "lines":[
+        ["—","Mieszkanie Angeli jest małe. Ma tylko kuchnię, łazienkę i jeden duży pokój.","Квартира Анджели мала. Має лише кухню, ванну й одну велику кімнату."],
+        ["—","Kuchnia jest po lewej stronie, łazienka po prawej, a pokój jest na wprost wejścia.","Кухня ліворуч, ванна праворуч, а кімната навпроти входу."],
+        ["—","W pokoju są wszystkie najważniejsze meble. Na środku stoi kanapa, nad nią na ścianie wisi telewizor.","У кімнаті всі найважливіші меблі. Посередині стоїть диван, над ним на стіні висить телевізор."],
+        ["—","Między telewizorem a sofą, na dywaniku stoi mały, gustowny stolik.","Між телевізором і диваном, на килимку стоїть маленький, вишуканий столик."],
+        ["—","Po prawej stronie na ścianie stoi szafa, a obok szafy, w rogu łóżko.","Праворуч біля стіни стоїть шафа, а поруч із шафою, в кутку — ліжко."],
+        ["—","Obok łóżka stoi mała komoda, a w rogu przy oknie regał z książkami.","Біля ліжка стоїть маленький комод, а в кутку біля вікна — стелаж із книжками."],
+        ["—","Przed oknem stoi biurko. Po prawej stronie, między regałem a biurkiem stoi fotel, natomiast po lewej stronie między biurkiem a kanapą – lampa. Przy biurku jest krzesło.","Перед вікном стоїть письмовий стіл. Праворуч, між стелажем і столом, стоїть крісло, а ліворуч між столом і диваном — лампа. Біля столу стілець."]
+      ]},
+      { "type":"ref", "title":"Przyimki statyczne — статичні прийменники",
+        "words":"obok, koło, blisko, na wprost + DOPEŁNIACZ · na, w, przy + MIEJSCOWNIK · nad, pod, przed, za, między + NARZĘDNIK",
+        "note":"góra ≠ dół · na górze ≠ na dole" }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_19-1.pdf (txt відсутній) · Аудіо: 2_Main_book_audio_podręcznik/lekcja_19/ (181–191.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 8 · dzwonię w sprawie mieszkania", "lines":[
+      ["Angela","Dzień dobry, dzwonię w sprawie mieszkania. Czy oferta jest jeszcze aktualna?","Добрий день, телефоную щодо квартири. Чи пропозиція ще актуальна?"],
+      ["Pani","Tak.","Так."],
+      ["Angela","W jakiej cenie jest to mieszkanie?","За якою ціною ця квартира?"],
+      ["Pani","950 zł plus rachunki za światło i gaz.","950 зл плюс рахунки за світло і газ."],
+      ["Angela","Jak duże jest to mieszkanie?","Яка велика ця квартира?"],
+      ["Pani","Duży pokój z kuchnią i łazienką.","Велика кімната з кухнею і ванною."],
+      ["Angela","Czy jest umeblowane?","Чи вона мебльована?"],
+      ["Pani","Tak, proszę przyjechać i zobaczyć.","Так, приїжджайте і подивіться."],
+      ["Angela","Czym tam można dojechać?","Чим туди можна доїхати?"],
+      ["Pani","Tramwajem numer 13. Pięć przystanków od centrum.","Трамваєм номер 13. П'ять зупинок від центру."],
+      ["Angela","Jeszcze jedno pytanie. Czy jest telefon?","Ще одне питання. Чи є телефон?"],
+      ["Pani","Tak. Jest też dostęp do Internetu.","Так. Є також доступ до інтернету."],
+      ["Angela","Dziękuję bardzo. Przyjadę za godzinę.","Дуже дякую. Приїду за годину."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 12 · regał Angeli — опис полиць", "lines":[
+      ["—","Na regale Angela ma dużo rzeczy. Na samej górze, po lewej stronie, stoi wazon z kwiatkami. A obok wazonu pamiątka z Krakowa — Smok Wawelski.","На стелажі в Анджели багато речей. На самому верху, ліворуч, стоїть ваза з квітами. А поруч із вазою сувенір із Кракова — Вавельський дракон."],
+      ["—","Na środku półki siedzi stary, ale bardzo sympatyczny pluszowy pies. Koło psa leżą korale i inne drobiazgi.","Посередині полиці сидить старий, але дуже симпатичний плюшевий пес. Коло пса лежать намисто й інші дрібнички."],
+      ["—","Na drugiej półce od góry stoją zdjęcia, leżą okulary i stoi miska ze słodyczami. Zdjęcia przyjaciół są po lewej stronie, okulary na środku, a miska po prawej stronie.","На другій полиці згори стоять фотографії, лежать окуляри й стоїть миска зі солодощами. Фото друзів ліворуч, окуляри посередині, а миска праворуч."],
+      ["—","Szachy leżą na środkowej półce, dokładnie pod okularami, między aparatem fotograficznym a drewnianym konikiem. Obok konika leżą płyty, a na wprost konika stoi książka o modzie.","Шахи лежать на середній полиці, точно під окулярами, між фотоапаратом і дерев'яним коником. Поруч із коником лежать диски, а навпроти коника стоїть книжка про моду."],
+      ["—","Pod środkową półką stoją same książki. Między nimi jest oczywiście podręcznik do języka polskiego.","Під середньою полицею стоять самі книжки. Серед них, звісно, підручник із польської мови."],
+      ["—","Na dole, na pierwszej półce od dołu, po lewej stronie stoją rolki. Obok rolek leżą ciężarki, a po prawej stronie są książki.","Внизу, на першій полиці знизу, ліворуч стоять ролики. Поруч із роликами лежать гантелі, а праворуч — книжки."]
+    ]}
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L19.txt",
+  "mistakes": [
+    ["Stolik stoi na dywanik","Stolik stoi na dywaniku","Після «na» (де?) — Miejscownik: na dywaniku."],
+    ["Szafa stoi przy ściana","Szafa stoi przy ścianie","«przy» вимагає Miejscownika: przy ścianie."],
+    ["Telewizor wisi nad sofa","Telewizor wisi nad sofą","«nad» вимагає Narzędnika: nad sofą."],
+    ["Łóżko jest obok szafa","Łóżko jest obok szafy","«obok / koło» вимагають Dopełniacza: obok szafy."]
+  ],
+  "drills": [
+    ["Зателефонуй щодо квартири й спитай, чи актуальна пропозиція.","Dzień dobry, dzwonię w sprawie mieszkania. Czy oferta jest jeszcze aktualna?"],
+    ["Спитай, за якою ціною квартира.","W jakiej cenie jest to mieszkanie?"],
+    ["Забронюй одномісний номер із ванною від завтра.","Chciałabym zarezerwować pokój jednoosobowy z łazienką od jutra."],
+    ["Скажи, що шукаєш малу однокімнатну квартиру в центрі.","Szukam małego, jednopokojowego mieszkania w centrum."],
+    ["Спитай, на якому поверсі квартира.","Na którym piętrze jest mieszkanie?"],
+    ["Скажи: диван стоїть посередині кімнати.","Kanapa stoi na środku pokoju."],
+    ["Скажи: телевізор висить над диваном.","Telewizor wisi nad kanapą."],
+    ["Скажи: шафа стоїть праворуч біля стіни.","Szafa stoi po prawej stronie przy ścianie."],
+    ["Скажи: між столом і диваном стоїть лампа.","Między biurkiem a kanapą stoi lampa."],
+    ["Спитай, яке опалення (центральне чи електричне).","Jakie jest ogrzewanie, centralne czy elektryczne?"],
+    ["Скажи: книжки лежать на полиці внизу.","Książki leżą na półce na dole."],
+    ["Скажи: ваза стоїть на самому верху ліворуч.","Wazon stoi na samej górze po lewej stronie."]
+  ],
+  "quiz": [
+    {"topic":"przyimek","q":"«Kanapa stoi ___ środku pokoju.»","o":["na","w","przy","za"],"a":0},
+    {"topic":"przypadek","q":"«Telewizor wisi nad ___» (sofa). Який відмінок?","o":["sofa","sofą","sofie","sofy"],"a":1},
+    {"topic":"przyimek","q":"«Książki leżą ___ regale.» Який прийменник?","o":["na","nad","obok","przed"],"a":0},
+    {"topic":"przypadek","q":"«Szafa stoi przy ___» (ściana).","o":["ściana","ścianą","ścianie","ściany"],"a":2},
+    {"topic":"przyimek","q":"«obok» і «koło» вимагають відмінка:","o":["Mianownik","Dopełniacz","Miejscownik","Narzędnik"],"a":1},
+    {"topic":"słownictwo","q":"«kawalerka» — це:","o":["великий будинок","однокімнатна квартира","балкон","кухня"],"a":1},
+    {"topic":"szukanie","q":"Як спитати про ціну квартири?","o":["Czym można dojechać?","W jakiej cenie jest mieszkanie?","Od kiedy?","Czy jest umeblowane?"],"a":1},
+    {"topic":"słownictwo","q":"«parter» — це поверх:","o":["перший (наземний)","другий","останній","підвал"],"a":0},
+    {"topic":"przypadek","q":"«na, w, przy» вимагають відмінка:","o":["Dopełniacz","Narzędnik","Miejscownik","Biernik"],"a":2},
+    {"topic":"słownictwo","q":"«mieszkanie samodzielne» означає:","o":["з сусідами","окреме, без сусідів","з балконом","на першому поверсі"],"a":1}
+  ]
+}

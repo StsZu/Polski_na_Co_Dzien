@@ -1,0 +1,160 @@
+{
+  "id": "03",
+  "title": "Mami, kto to jest?",
+  "goal": "Повторюємо: kto / co to jest · речі в класі · ten / ta / to (роди) · jaki / jaka / jakie · кольори · mam / masz",
+  "vocab": [
+    { "group": "Rzeczy w klasie — речі", "items": [
+      ["książka","книжка"],["zeszyt","зошит"],["długopis","ручка"],["ołówek","олівець"],
+      ["gumka","гумка"],["krzesło","стілець"],["stół","стіл"],["tablica","дошка"],
+      ["okno","вікно"],["klucz","ключ"],["kubek","горнятко"],["komórka","мобільний"],
+      ["torba","сумка"],["mapa","мапа"],["segregator","папка"]
+    ]},
+    { "group": "Kolory — кольори", "items": [
+      ["czerwony","червоний"],["niebieski","синій"],["zielony","зелений"],["żółty","жовтий"],
+      ["czarny","чорний"],["biały","білий"],["brązowy","коричневий"],["różowy","рожевий"],
+      ["szary","сірий"],["fioletowy","фіолетовий"],["pomarańczowy","помаранчевий"]
+    ]},
+    { "group": "Rodzaj: ten / ta / to — рід", "items": [
+      ["ten (męski)","цей (чол.)"],["ta (żeński)","ця (жін.)"],["to (nijaki)","це (сер.)"],
+      ["jaki?","який?"],["jaka?","яка?"],["jakie?","яке?"]
+    ]},
+    { "group": "Przydatne — корисні", "items": [
+      ["Kto to jest?","хто це?"],["Co to jest?","що це?"],["Nie wiem","не знаю"],
+      ["Nie pamiętam","не пам’ятаю"],["mam / masz","маю / маєш"],["rzeczownik","іменник"]
+    ]}
+  ],
+  "formulas": [
+    { "badge":"хто / що", "title":"To jest…", "formula":"Kto to jest? · Co to jest? → To jest…", "ex":"To jest student. · To jest książka." },
+    { "badge":"три роди", "title":"ten / ta / to", "formula":"męski: ten · żeński: ta · nijaki: to", "ex":"ten słownik · ta torba · to radio" },
+    { "badge":"який?", "title":"jaki / jaka / jakie", "formula":"jaki (m) · jaka (ż) · jakie (n) + прикметник", "ex":"Ten słownik jest dobry. · Ta torba jest dobra. · To radio jest dobre." }
+  ],
+  "czytanie": [
+    { "block": "A. Kto to jest?", "items": [
+      { "type":"dia", "title":"Dialog 1 · трек 045", "lines":[
+        ["Angela","Mami, kto to jest?","Мамі, хто це?"],
+        ["Mami","Nie wiem. To jest nowy student.","Не знаю. Це новий студент."],
+        ["Angela","Jak masz na imię?","Як тебе звати?"],
+        ["Javier","Mam na imię Javier. Nazywam się Perez.","Моє ім’я Хав’єр. Прізвище Перес."],
+        ["Angela","Jestem Angela Brown. Skąd jesteś?","Я Анджела Браун. Звідки ти?"],
+        ["Javier","Jestem z Argentyny. A wy, skąd jesteście?","Я з Аргентини. А ви звідки?"],
+        ["Angela","Ja jestem z Anglii. A to jest Mami. Ona jest z Japonii. Mieszka w Tokio.","Я з Англії. А це Мамі. Вона з Японії. Живе в Токіо."]
+      ]},
+      { "type":"dia", "title":"Dialog 2 · słownik · трек 046", "lines":[
+        ["Javier","Cześć Mami. Co słychać?","Привіт, Мамі. Як справи?"],
+        ["Mami","Dziękuję, bardzo dobrze. Przepraszam, nie pamiętam, jak masz na imię.","Дякую, дуже добре. Перепрошую, не пам’ятаю, як тебе звати."],
+        ["Javier","Javier. J, A, V, I, E, R. Po hiszpańsku „J” czytamy „H”.","Хав’єр. По-іспанськи «J» читаємо «H»."],
+        ["Mami","Aha, rozumiem. A co to jest?","Ага, розумію. А що це?"],
+        ["Javier","To jest słownik polsko-hiszpański. Stary i duży, ale bardzo dobry.","Це польсько-іспанський словник. Старий і великий, але дуже добрий."],
+        ["Mami","Ja też mam. Słownik polsko-japoński. Nowy, ale nie bardzo dobry.","Я теж маю. Польсько-японський. Новий, але не дуже добрий."],
+        ["Javier","Dlaczego jest zły?","Чому він поганий?"],
+        ["Mami","Bo jest mały. Za mały.","Бо малий. Замалий."]
+      ]},
+      { "type":"ref", "title":"Ćwiczenie 1 · rzeczy · трек 047",
+        "words":"książka · zeszyt · długopis · tablica · krzesło · stół · ołówek · gumka · okno · klucz · kubek · komórka · płyta CD · torba · mapa · segregator" },
+      { "type":"dia", "title":"Ćwiczenie 3 · fotografie · трек 048", "lines":[
+        ["Angela","Co to jest?","Що це?"],
+        ["Javier","To jest komórka. W Argentynie model numer jeden.","Це мобільний. В Аргентині модель номер один."],
+        ["Angela","A kto to jest?","А хто це?"],
+        ["Javier","To jestem ja. Fajna fotografia, prawda?","Це я. Класне фото, правда?"],
+        ["Angela","A to? Kto to jest?","А це? Хто це?"],
+        ["Javier","To jest... hm... koleżanka. Ma na imię Maria Elena.","Це... хм... подруга. Її звати Марія Елена."],
+        ["Angela","A co tam jest?","А що там?"],
+        ["Javier","Tam jest palma. To jest fotografia z wakacji, z Brazylii.","Там пальма. Це фото з канікул, із Бразилії."]
+      ]},
+      { "type":"dia", "title":"Ćwiczenie 3 B · torba · трек 049", "lines":[
+        ["Mami","Angela, co to jest? Torba?","Анджело, що це? Сумка?"],
+        ["Angela","Tak, torba. Bardzo modna.","Так, сумка. Дуже модна."],
+        ["Mami","I co tam masz?","І що там маєш?"],
+        ["Angela","Nic specjalnego. Mam paszport, klucz, ołówek z gumką, zeszyt... A! Jest i mapa Krakowa.","Нічого особливого. Маю паспорт, ключ, олівець із гумкою, зошит... А! Є й мапа Кракова."],
+        ["Mami","Angela, masz długopis? Ja nie mam.","Анджело, маєш ручку? Я не маю."],
+        ["Angela","Przepraszam. Mam tylko jeden.","Перепрошую. Маю тільки одну."]
+      ]}
+    ]},
+    { "block": "B. Czy to jest...?", "items": [
+      { "type":"dia", "title":"Dialog 1–3 · трек 050", "lines":[
+        ["—","Mami, czy to jest książka?","Мамі, це книжка?"],
+        ["Mami","Tak. To jest książka.","Так. Це книжка."],
+        ["—","Angela, czy to jest ołówek?","Анджело, це олівець?"],
+        ["Angela","Nie, to nie jest ołówek. To jest długopis. Ołówek jest tam.","Ні, це не олівець. Це ручка. Олівець там."],
+        ["—","Javier, czy to jest zeszyt?","Хав’єре, це зошит?"],
+        ["Javier","Przepraszam, nie pamiętam, co to jest „zeszyt”.","Перепрошую, не пам’ятаю, що таке «zeszyt»."]
+      ]}
+    ]},
+    { "block": "C. Rzeczownik. Jaki? Jaka? Jakie?", "items": [
+      { "type":"dia", "title":"Dialog 1 · rodzaje · трек 051", "lines":[
+        ["Nauczyciel","Wiecie, co to jest rzeczownik?","Знаєте, що таке іменник?"],
+        ["—","Nie wiemy.","Не знаємо."],
+        ["Nauczyciel","Na przykład: mapa, klucz, okno, paszport.","Наприклад: мапа, ключ, вікно, паспорт."],
+        ["—","A „napisać” i „przeczytać”? To nie jest rzeczownik, prawda?","А «napisać» і «przeczytać»? Це не іменник, правда?"],
+        ["Nauczyciel","Prawda. Rzeczowniki mają trzy rodzaje: męski, żeński i nijaki.","Правда. Іменники мають три роди: чоловічий, жіночий і середній."],
+        ["—","Trzy rodzaje? Co to jest?","Три роди? Що це?"],
+        ["Nauczyciel","Trzy rodzaje to trzy grupy.","Три роди — це три групи."]
+      ]},
+      { "type":"dia", "title":"Dialog 2–4 · jaki/jaka/jakie · трек 052", "lines":[
+        ["—","Javier, jaki jest ten słownik?","Хав’єре, який цей словник?"],
+        ["Javier","Ten słownik jest dobry. Stary, ale dobry.","Цей словник добрий. Старий, але добрий."],
+        ["—","Jaka jest ta torba?","Яка ця сумка?"],
+        ["Angela","Ta torba jest bardzo dobra, bo jest duża.","Ця сумка дуже добра, бо велика."],
+        ["—","Mami, czy ta komórka ma radio? Jakie jest to radio?","Мамі, цей мобільний має радіо? Яке це радіо?"],
+        ["Mami","To radio nie jest bardzo dobre. Nie jest japońskie.","Це радіо не дуже добре. Воно не японське."]
+      ]}
+    ]},
+    { "block": "D. Kolory", "items": [
+      { "type":"ref", "title":"Ćwiczenie 1 · kolory · трек 053",
+        "words":"czerwony · niebieski · zielony · fioletowy · czarny · brązowy · żółty · różowy · szary · biały · pomarańczowy",
+        "note":"Прочитай кольори вголос." }
+    ]}
+  ],
+  "czytanieSource": "Текст: lekcja_03.txt · Аудіо: 2_Main_book_audio_podręcznik/lekcja_03/ (045–053.mp3)",
+  "zeszyt": [
+    { "type":"dia", "title":"Ćwiczenie 1 · co to jest?", "lines":[
+      ["—","Co to jest?","Що це?"],
+      ["—","Nie wiem.","Не знаю."],
+      ["—","Ja wiem, to jest książka.","Я знаю, це книжка."],
+      ["—","A co to jest? A to?","А що це? А це?"],
+      ["—","Nie pamiętam.","Не пам’ятаю."],
+      ["—","Ja pamiętam, to jest kubek.","Я пам’ятаю, це горнятко."]
+    ]},
+    { "type":"dia", "title":"Ćwiczenie 2 · czy pamiętacie?", "lines":[
+      ["—","Czy pamiętacie, co to jest?","Чи пам’ятаєте, що це?"],
+      ["—","Niestety nie.","На жаль, ні."],
+      ["—","Ja pamiętam, to jest krzesło.","Я пам’ятаю, це стілець."],
+      ["—","Bardzo dobrze. A co to jest?","Дуже добре. А що це?"],
+      ["—","To jest klucz. A to płyta CD.","Це ключ. А це CD-диск."]
+    ]},
+    { "type":"ref", "title":"Ćwiczenie 13 · kolory — читай уголос",
+      "words":"czerwony · niebieski · zielony · fioletowy · czarny · brązowy · żółty · różowy · szary · biały" }
+  ],
+  "zeszytSource": "Текст: 3_A1_zeszyt/krok_A1_aud_zeszyt/cleaned_lessons_mp3/L03.txt",
+  "mistakes": [
+    ["To jest dobry torba","To jest dobra torba","«torba» — жіночий рід: dobra, ta."],
+    ["Jaki jest ta komórka?","Jaka jest ta komórka?","Узгодь рід: ta komórka → jaka."],
+    ["ten radio","to radio","«radio» — середній рід: to radio."],
+    ["To nie ołówek","To nie jest ołówek","У запереченні теж потрібне «jest»."]
+  ],
+  "drills": [
+    ["Спитай, хто це.","Kto to jest?"],
+    ["Спитай, що це.","Co to jest?"],
+    ["Скажи: це книжка.","To jest książka."],
+    ["Скажи, що не пам’ятаєш, що це.","Nie pamiętam, co to jest."],
+    ["Спитай, який цей словник.","Jaki jest ten słownik?"],
+    ["Скажи: ця сумка велика.","Ta torba jest duża."],
+    ["Назви три кольори.","czerwony, zielony, niebieski"],
+    ["Спитай друга, чи має ручку.","Masz długopis?"],
+    ["Скажи: я маю паспорт і ключ.","Mam paszport i klucz."],
+    ["Назви три роди іменника.","męski, żeński, nijaki"],
+    ["Скажи: це не олівець, це ручка.","To nie jest ołówek, to jest długopis."]
+  ],
+  "quiz": [
+    {"topic":"kto/co","q":"Щоб спитати про річ, кажемо:","o":["Kto to jest?","Co to jest?","Gdzie to jest?","Jak to jest?"],"a":1},
+    {"topic":"rodzaj","q":"«torba» якого роду?","o":["męski (ten)","żeński (ta)","nijaki (to)","—"],"a":1},
+    {"topic":"rodzaj","q":"«radio» — який рід?","o":["ten","ta","to","ci"],"a":2},
+    {"topic":"przymiotnik","q":"«Ta torba jest ___» (duży):","o":["duży","duża","duże","dużo"],"a":1},
+    {"topic":"rzeczy","q":"«ołówek» — це:","o":["ручка","олівець","зошит","ключ"],"a":1},
+    {"topic":"kolory","q":"«zielony» — це колір:","o":["червоний","зелений","синій","жовтий"],"a":1},
+    {"topic":"kolory","q":"Як по-польськи «червоний»?","o":["czarny","czerwony","żółty","szary"],"a":1},
+    {"topic":"mieć","q":"«Ja ___ długopis.» (mieć)","o":["mam","masz","ma","mamy"],"a":0},
+    {"topic":"jaki","q":"Чоловічий іменник: «___ jest ten słownik?»","o":["Jaki","Jaka","Jakie","Jak"],"a":0},
+    {"topic":"rzeczownik","q":"Скільки родів має польський іменник?","o":["два","три","чотири","сім"],"a":1}
+  ]
+}
