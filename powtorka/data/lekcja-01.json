@@ -37,33 +37,33 @@
   ],
   "czytanie": [
     { "block": "A. Sekretariat — prezentacja", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 001", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 001", "audio":"audio/L01/L01-czytanie-01.mp3", "lines":[
         ["Agnieszka","Dzień dobry. Jestem Agnieszka Polańska.","Добрий день. Я Аґнєшка Поланська."],
         ["Mami","Dzień dobry. Nazywam się Mami Takada.","Добрий день. Мене звати Мамі Такада."],
         ["Agnieszka","Bardzo mi miło.","Дуже приємно."],
         ["Mami","Miło mi.","Мені приємно."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · трек 002", "lines":[
+      { "type":"dia", "title":"Dialog 2 · трек 002", "audio":"audio/L01/L01-czytanie-02.mp3", "lines":[
         ["Tom","Cześć. Jestem Tom. A ty?","Привіт. Я Том. А ти?"],
         ["Mami","Cześć. Jestem Mami.","Привіт. Я Мамі."],
         ["Tom","Miło mi.","Приємно."],
         ["Mami","Mnie również.","Мені теж."]
       ]},
-      { "type":"ref", "title":"Powitania – pożegnania · трек 005",
+      { "type":"ref", "title":"Powitania – pożegnania · трек 005", "audio":"audio/L01/L01-czytanie-03.mp3",
         "words":"Dzień dobry. Do widzenia. Dobry wieczór. Dobranoc. Cześć. Do jutra. Do zobaczenia. Na razie. Pa." }
     ]},
     { "block": "C. Klasa — prezentacja", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 012", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 012", "audio":"audio/L01/L01-czytanie-04.mp3", "lines":[
         ["Angela","Cześć, jestem Angela. A ty?","Привіт, я Анджела. А ти?"],
         ["Tom","Mam na imię Tom. Bardzo mi miło.","Моє ім’я Том. Дуже приємно."],
         ["Angela","Miło mi.","Приємно."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · трек 013", "lines":[
+      { "type":"dia", "title":"Dialog 2 · трек 013", "audio":"audio/L01/L01-czytanie-05.mp3", "lines":[
         ["Mami","Cześć. Jestem Mami Takada. Jak się nazywasz?","Привіт. Я Мамі Такада. Як тебе звати?"],
         ["Angela","Miło mi. Nazywam się Angela Brown.","Приємно. Мене звати Анджела Браун."],
         ["Mami","Bardzo mi miło.","Дуже приємно."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 · prezentacja", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · prezentacja", "audio":"audio/L01/L01-czytanie-06.mp3", "lines":[
         ["Nauczycielka","Dzień dobry. Nazywam się Iwona Stępek. Jestem nauczycielką. Proszę się przedstawić.","Добрий день. Мене звати Івона Стемпек. Я вчителька. Представтеся, будь ласка."],
         ["Angela","Prze... Prze... Ojej, nie rozumiem.","Пред... Пред... Ой, не розумію."],
         ["Nauczycielka","Przedstawić się, to znaczy: jak się pani nazywa? Prezentacja.","«Представитися» означає: як Ваше прізвище? Презентація."],
@@ -73,22 +73,22 @@
       ]}
     ]},
     { "block": "D. Przerwa — gdzie jest...?", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 016", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 016", "audio":"audio/L01/L01-czytanie-07.mp3", "lines":[
         ["Angela","Przepraszam, gdzie jest toaleta?","Перепрошую, де туалет?"],
         ["Kobieta","Toaleta jest tam, na prawo.","Туалет там, праворуч."],
         ["Angela","Dziękuję bardzo.","Дуже дякую."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · трек 017", "lines":[
+      { "type":"dia", "title":"Dialog 2 · трек 017", "audio":"audio/L01/L01-czytanie-08.mp3", "lines":[
         ["Angela","Przepraszam, gdzie jest internet?","Перепрошую, де інтернет?"],
         ["Kobieta","Komputery są tutaj. Internet jest gratis.","Комп’ютери тут. Інтернет безкоштовний."],
         ["Angela","Dziękuję panu bardzo.","Дуже Вам дякую."]
       ]},
-      { "type":"dia", "title":"Dialog 3 · трек 018", "lines":[
+      { "type":"dia", "title":"Dialog 3 · трек 018", "audio":"audio/L01/L01-czytanie-09.mp3", "lines":[
         ["Tom","Przepraszam, gdzie jest woda?","Перепрошую, де вода?"],
         ["Kobieta","Tu jest woda. Kawa, herbata i cukier są tam.","Тут вода. Кава, чай і цукор — там."],
         ["Tom","Dziękuję.","Дякую."]
       ]},
-      { "type":"dia", "title":"Dialog 4 · трек 019", "lines":[
+      { "type":"dia", "title":"Dialog 4 · трек 019", "audio":"audio/L01/L01-czytanie-10.mp3", "lines":[
         ["Angela","A co to jest?","А що це?"],
         ["Kobieta","To jest program kulturalny.","Це культурна програма."],
         ["Angela","Program kulturalny? Co to jest?","Культурна програма? Що це?"],
@@ -97,14 +97,14 @@
       ]}
     ]},
     { "block": "E. Nie rozumiem. Proszę powtórzyć!", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 020", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 020", "audio":"audio/L01/L01-czytanie-11.mp3", "lines":[
         ["Urzędniczka","Proszę przeliterować swoje imię i nazwisko.","Продиктуйте по літерах своє ім’я та прізвище."],
         ["Uwe","Nie rozumiem. Proszę powtórzyć.","Не розумію. Повторіть, будь ласка."],
         ["Urzędniczka","Proszę przeliterować imię i nazwisko.","Продиктуйте по літерах ім’я та прізвище."],
         ["Uwe","Aha, rozumiem. U-W-E. S-T-E-I-N.","Ага, розумію. У-В-Е. С-Т-Е-Й-Н."],
         ["Urzędniczka","Dziękuję.","Дякую."]
       ]},
-      { "type":"dia", "title":"Dialog 3 · mam pytanie", "lines":[
+      { "type":"dia", "title":"Dialog 3 · mam pytanie", "audio":"audio/L01/L01-czytanie-12.mp3", "lines":[
         ["Urzędniczka","Proszę przeczytać dialog i proszę napisać ćwiczenie.","Прочитайте діалог і напишіть вправу."],
         ["Uwe","Mam pytanie. Co to znaczy „szkoła”?","Маю питання. Що означає «szkoła»?"],
         ["Urzędniczka","School.","School (школа)."],
@@ -113,7 +113,7 @@
       ]}
     ]},
     { "block": "G. Powtórzenie — formularz", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 027", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 027", "audio":"audio/L01/L01-czytanie-13.mp3", "lines":[
         ["Urzędnik","Imię?","Ім’я?"],
         ["Mami","Mami.","Мамі."],
         ["Urzędnik","Nazwisko?","Прізвище?"],

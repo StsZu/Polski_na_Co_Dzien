@@ -45,6 +45,7 @@ section>.sub{color:var(--mut);font-size:14px;margin:0 0 16px;font-family:"Segoe 
 .line .who{color:var(--acc2);font-weight:600;display:inline-block;min-width:118px;font-family:"Segoe UI",sans-serif;font-size:15px;vertical-align:top}
 .tr{display:none;color:var(--mut);font-size:15px;padding-left:118px;font-style:italic}
 .dia.show .tr{display:block}
+.aud{width:100%;height:34px;margin-top:10px;display:block}
 .btn{font-family:Roboto,sans-serif;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 13px;font-size:12.5px;cursor:pointer}
 .btn:hover{border-color:var(--acc)}
 .reflist{background:var(--soft);border:1px solid var(--line);border-radius:13px;padding:14px 16px;margin-bottom:14px}
@@ -147,6 +148,7 @@ function section(tag,title){
 }
 function sub(s,t){s.appendChild($('p','sub',esc(t)));return s;}
 
+function audioEl(src){const a=$('audio','aud');a.controls=true;a.preload='none';a.src=src;return a;}
 function dialogEl(d){
   const el=$('div','dia');
   const h=$('div','h'); h.appendChild($('b',null,esc(d.title)));
@@ -156,6 +158,7 @@ function dialogEl(d){
     el.appendChild($('div','line',`<span class="who">${esc(who)}</span>${esc(pl)}`));
     if(uk) el.appendChild($('div','tr',esc(uk)));
   });
+  if(d.audio) el.appendChild(audioEl(d.audio));
   return el;
 }
 function refEl(r){
@@ -163,6 +166,7 @@ function refEl(r){
   el.appendChild($('b',null,esc(r.title)));
   el.appendChild($('div','words',esc(r.words)));
   if(r.note) el.appendChild($('div','uk',esc(r.note)));
+  if(r.audio) el.appendChild(audioEl(r.audio));
   return el;
 }
 
