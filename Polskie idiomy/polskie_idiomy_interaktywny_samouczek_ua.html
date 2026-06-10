@@ -1,0 +1,2678 @@
+<!--
+SUGGESTED FILENAME: polish-idioms-interactive-lesson.html
+INDEX CARD — paste this object into the MODULES array in index.html:
+{ cat: "vocab", tag: "Polish Idioms", title: "Polskie Idiomy — Interaktywny Samouczek", desc: "Вивчайте та практикуйте 30 корисних польських ідіом за допомогою перекладів, інтерактивних тестів і розмовних вправ.", href: "polish-idioms-interactive-lesson.html", cta: "Почати навчання" }
+-->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polskie Idiomy — Interaktywny Samouczek</title>
+    <style>
+        :root {
+            --bg-warm: #fcfcf9;
+            --slate-50: #f8fafc;
+            --slate-100: #f1f5f9;
+            --slate-200: #e2e8f0;
+            --slate-300: #cbd5e1;
+            --slate-700: #334155;
+            --slate-800: #1e293b;
+            --slate-900: #0f172a;
+            --crimson-50: #fff5f5;
+            --crimson-100: #ffe3e3;
+            --crimson-500: #dc2626;
+            --crimson-600: #b91c1c;
+            --crimson-700: #991b1b;
+            --green-50: #ecfdf5;
+            --green-100: #d1fae5;
+            --green-600: #059669;
+            --green-700: #047857;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-warm);
+            color: var(--slate-900);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            padding-top: 80px; /* offset for fixed top bar */
+        }
+
+        /* Fixed Navigation Back-link overrides */
+        .top-back-link {
+            transition: all 0.2s ease-in-out;
+        }
+        .top-back-link:hover {
+            transform: translateX(-3px);
+            background: #000 !important;
+        }
+
+        /* Container & Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header / Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #ffffff 0%, #fef2f2 100%);
+            border: 1px solid var(--slate-200);
+            border-radius: 24px;
+            padding: 60px 40px;
+            margin-bottom: 40px;
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(220, 38, 38, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background-color: var(--crimson-50);
+            border: 1px solid var(--crimson-100);
+            color: var(--crimson-700);
+            padding: 6px 16px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 24px;
+        }
+
+        .hero-title {
+            font-size: 42px;
+            font-weight: 950;
+            letter-spacing: -0.025em;
+            color: var(--slate-900);
+            line-height: 1.15;
+            margin-bottom: 16px;
+        }
+
+        .hero-title span {
+            color: var(--crimson-600);
+            background: linear-gradient(to right, var(--crimson-600), #f43f5e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--slate-700);
+            max-width: 700px;
+            margin-bottom: 32px;
+        }
+
+        .learning-outcomes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            border-top: 1px solid var(--slate-200);
+            padding-top: 32px;
+        }
+
+        .outcome-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .outcome-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background-color: var(--green-50);
+            color: var(--green-700);
+            border-radius: 50%;
+            font-size: 12px;
+            font-weight: bold;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .outcome-text {
+            font-size: 15px;
+            font-weight: 550;
+            color: var(--slate-800);
+        }
+
+        /* Global Statistics / Active Learning Progress Widget */
+        .progress-widget {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .progress-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .progress-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: conic-gradient(var(--crimson-500) 0% 0%, var(--slate-200) 0% 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 16px;
+            position: relative;
+        }
+
+        .progress-circle::after {
+            content: '';
+            position: absolute;
+            width: 48px;
+            height: 48px;
+            background-color: #fff;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .progress-circle span {
+            position: relative;
+            z-index: 2;
+            color: var(--slate-900);
+        }
+
+        .progress-text h4 {
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+
+        .progress-text p {
+            font-size: 14px;
+            color: var(--slate-700);
+        }
+
+        .progress-btn-reset {
+            background-color: var(--slate-100);
+            border: 1px solid var(--slate-200);
+            color: var(--slate-700);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .progress-btn-reset:hover {
+            background-color: var(--slate-200);
+            color: var(--slate-900);
+        }
+
+        /* Core Navigation / Tabs */
+        .nav-tabs {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            border-bottom: 1px solid var(--slate-200);
+            padding-bottom: 1px;
+            margin-bottom: 40px;
+            scrollbar-width: none;
+        }
+
+        .nav-tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab-btn {
+            background: none;
+            border: none;
+            outline: none;
+            font-family: var(--font-main);
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--slate-700);
+            padding: 12px 20px;
+            border-radius: 12px 12px 0 0;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .tab-btn:hover {
+            color: var(--slate-900);
+            background-color: var(--slate-100);
+        }
+
+        .tab-btn.active {
+            color: var(--crimson-600);
+            background-color: #fff;
+            box-shadow: 0 -1px 0 0 var(--slate-200) inset;
+        }
+
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+            right: 20px;
+            height: 3px;
+            background-color: var(--crimson-500);
+            border-radius: 999px;
+        }
+
+        /* Section Container */
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Section Title Block */
+        .section-header {
+            margin-bottom: 24px;
+        }
+
+        .section-title {
+            font-size: 26px;
+            font-weight: 850;
+            letter-spacing: -0.02em;
+            color: var(--slate-900);
+            margin-bottom: 8px;
+        }
+
+        .section-desc {
+            font-size: 15px;
+            color: var(--slate-700);
+        }
+
+        /* Core Theory Guide */
+        .theory-guide {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 32px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .theory-title {
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--crimson-700);
+        }
+
+        .theory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 16px;
+        }
+
+        .theory-card {
+            background-color: var(--slate-50);
+            border-radius: 12px;
+            padding: 16px;
+            border: 1px solid var(--slate-200);
+        }
+
+        .theory-card-title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--slate-900);
+        }
+
+        .theory-card-desc {
+            font-size: 14px;
+            color: var(--slate-700);
+        }
+
+        /* Filter Controls */
+        .filter-bar {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .filter-label {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--slate-700);
+        }
+
+        .select-filter {
+            background-color: var(--slate-50);
+            border: 1px solid var(--slate-200);
+            color: var(--slate-800);
+            font-family: var(--font-main);
+            font-size: 14px;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 8px;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .select-filter:focus {
+            border-color: var(--crimson-500);
+            background-color: #fff;
+        }
+
+        .search-input {
+            background-color: var(--slate-50);
+            border: 1px solid var(--slate-200);
+            color: var(--slate-900);
+            font-family: var(--font-main);
+            font-size: 14px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            outline: none;
+            width: 240px;
+            transition: all 0.2s ease;
+        }
+
+        .search-input:focus {
+            border-color: var(--crimson-500);
+            background-color: #fff;
+            width: 280px;
+        }
+
+        /* Explorer Grid & Cards */
+        .explorer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 24px;
+        }
+
+        .idiom-card {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+
+        .idiom-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--crimson-100);
+        }
+
+        .idiom-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .badge-chapter {
+            background-color: var(--slate-100);
+            color: var(--slate-700);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+
+        .badge-difficulty {
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+            text-transform: uppercase;
+        }
+
+        .diff-easy { background-color: var(--green-50); color: var(--green-700); }
+        .diff-medium { background-color: #fef3c7; color: #b45309; }
+        .diff-advanced { background-color: var(--crimson-50); color: var(--crimson-700); }
+
+        .idiom-polish {
+            font-size: 20px;
+            font-weight: 850;
+            color: var(--slate-900);
+            line-height: 1.25;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .btn-pronounce {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--slate-300);
+            padding: 2px;
+            border-radius: 50%;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 4px;
+        }
+
+        .btn-pronounce:hover {
+            color: var(--crimson-500);
+            background-color: var(--crimson-50);
+        }
+
+        .idiom-literal {
+            font-size: 13px;
+            color: var(--slate-700);
+            font-style: italic;
+            margin-bottom: 16px;
+            border-left: 2px solid var(--slate-200);
+            padding-left: 8px;
+        }
+
+        .idiom-meaning {
+            font-size: 15px;
+            font-weight: 750;
+            color: var(--crimson-700);
+            margin-bottom: 10px;
+        }
+
+        .idiom-desc {
+            font-size: 14px;
+            color: var(--slate-700);
+            margin-bottom: 18px;
+        }
+
+        .idiom-category-pill {
+            display: inline-flex;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: capitalize;
+            background-color: var(--slate-50);
+            border: 1px solid var(--slate-200);
+            color: var(--slate-700);
+            padding: 2px 8px;
+            border-radius: 6px;
+            align-self: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .idiom-actions {
+            border-top: 1px solid var(--slate-100);
+            padding-top: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: auto;
+        }
+
+        .btn-reveal {
+            background: none;
+            border: none;
+            font-family: var(--font-main);
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--crimson-600);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-reveal:hover {
+            color: var(--crimson-700);
+            text-decoration: underline;
+        }
+
+        .idiom-example {
+            display: none;
+            background-color: var(--slate-50);
+            border-top: 1px solid var(--slate-100);
+            margin-top: 16px;
+            padding: 16px;
+            border-radius: 12px;
+            font-size: 14px;
+            animation: fadeIn 0.25s ease-in-out;
+        }
+
+        .idiom-example.active {
+            display: block;
+        }
+
+        .example-title {
+            font-weight: 800;
+            color: var(--slate-900);
+            margin-bottom: 4px;
+        }
+
+        .example-pl {
+            color: var(--slate-800);
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        /* Practical Examples Categories Tab */
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        .category-block {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .category-title-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--slate-900);
+            margin-bottom: 16px;
+            border-bottom: 2px solid var(--slate-100);
+            padding-bottom: 10px;
+        }
+
+        .category-item {
+            margin-bottom: 14px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--slate-50);
+        }
+
+        .category-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .category-item-pl {
+            font-size: 15px;
+            font-weight: 750;
+            color: var(--slate-900);
+        }
+
+        .category-item-en {
+            font-size: 13px;
+            color: var(--slate-700);
+        }
+
+        /* Interactive Quiz Layout */
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .quiz-tabs {
+            display: flex;
+            gap: 8px;
+            background-color: var(--slate-100);
+            padding: 6px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+        }
+
+        .quiz-tab {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--slate-700);
+            border-radius: 8px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-tab.active {
+            background-color: #fff;
+            color: var(--slate-900);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .quiz-card {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: var(--shadow-sm);
+            margin-bottom: 24px;
+        }
+
+        .quiz-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--slate-100);
+            padding-bottom: 16px;
+        }
+
+        .quiz-counter {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--slate-700);
+        }
+
+        .quiz-score {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--green-700);
+            background-color: var(--green-50);
+            padding: 4px 12px;
+            border-radius: 6px;
+        }
+
+        .quiz-question {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--slate-900);
+            margin-bottom: 24px;
+            line-height: 1.35;
+        }
+
+        .quiz-options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .option-btn {
+            background-color: var(--slate-50);
+            border: 1px solid var(--slate-200);
+            color: var(--slate-800);
+            font-family: var(--font-main);
+            font-size: 15px;
+            font-weight: 600;
+            text-align: left;
+            padding: 16px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .option-btn:hover {
+            background-color: var(--slate-100);
+            border-color: var(--slate-300);
+        }
+
+        .option-btn.correct {
+            background-color: var(--green-50) !important;
+            border-color: var(--green-600) !important;
+            color: var(--green-700) !important;
+        }
+
+        .option-btn.incorrect {
+            background-color: var(--crimson-50) !important;
+            border-color: var(--crimson-500) !important;
+            color: var(--crimson-700) !important;
+        }
+
+        .option-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .option-icon.correct { background-color: var(--green-600); color: #fff; }
+        .option-icon.incorrect { background-color: var(--crimson-500); color: #fff; }
+
+        .quiz-feedback {
+            display: none;
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            font-size: 14px;
+            animation: fadeIn 0.2s ease-in-out;
+        }
+
+        .quiz-feedback.correct {
+            display: block;
+            background-color: var(--green-50);
+            color: var(--green-700);
+            border: 1px solid var(--green-100);
+        }
+
+        .quiz-feedback.incorrect {
+            display: block;
+            background-color: var(--crimson-50);
+            color: var(--crimson-700);
+            border: 1px solid var(--crimson-100);
+        }
+
+        .quiz-actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .quiz-next-btn {
+            background-color: var(--slate-900);
+            color: #fff;
+            font-family: var(--font-main);
+            font-size: 15px;
+            font-weight: 700;
+            padding: 12px 24px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-next-btn:hover {
+            background-color: #000;
+        }
+
+        /* Match Matching Game */
+        .matching-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+
+        .matching-col {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .match-card {
+            background-color: var(--slate-50);
+            border: 1px solid var(--slate-200);
+            padding: 14px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            user-select: none;
+            text-align: center;
+        }
+
+        .match-card:hover {
+            background-color: var(--slate-100);
+            border-color: var(--slate-300);
+        }
+
+        .match-card.selected {
+            background-color: var(--crimson-50);
+            border-color: var(--crimson-500);
+            color: var(--crimson-700);
+        }
+
+        .match-card.matched {
+            background-color: var(--green-50);
+            border-color: var(--green-600);
+            color: var(--green-700);
+            cursor: default;
+            opacity: 0.6;
+        }
+
+        /* Dialogues tab styling */
+        .dialogues-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .dialogue-card {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .dialogue-header-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--slate-100);
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+
+        .dialogue-title {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--slate-900);
+        }
+
+        .dialogue-bubble {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .bubble {
+            background-color: var(--slate-50);
+            border-radius: 12px;
+            padding: 12px 16px;
+            max-width: 80%;
+            position: relative;
+        }
+
+        .bubble-A {
+            align-self: flex-start;
+            border-bottom-left-radius: 2px;
+            border-left: 3px solid var(--crimson-500);
+        }
+
+        .bubble-B {
+            align-self: flex-end;
+            border-bottom-right-radius: 2px;
+            border-right: 3px solid var(--slate-900);
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+        }
+
+        .speaker-label {
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: var(--slate-700);
+            margin-bottom: 2px;
+        }
+
+        .bubble-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--slate-900);
+        }
+
+        .btn-toggle-translation {
+            background: none;
+            border: none;
+            color: var(--crimson-600);
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 4px;
+            align-self: flex-start;
+            outline: none;
+        }
+
+        .dialogue-translation {
+            display: none;
+            background-color: var(--slate-100);
+            border-radius: 8px;
+            padding: 10px 14px;
+            font-size: 13px;
+            color: var(--slate-700);
+            margin-top: 10px;
+        }
+
+        .dialogue-translation.active {
+            display: block;
+        }
+
+        /* Speaking / Pronunciation Drill Section */
+        .drill-deck {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .drill-card {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: var(--shadow-sm);
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .drill-badge {
+            display: inline-flex;
+            background-color: var(--crimson-50);
+            color: var(--crimson-700);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 999px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .drill-situation {
+            font-size: 18px;
+            font-weight: 750;
+            color: var(--slate-700);
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .drill-task {
+            font-size: 15px;
+            color: var(--slate-700);
+            margin-bottom: 24px;
+        }
+
+        .speech-btn-group {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .btn-record {
+            background-color: var(--crimson-500);
+            color: #fff;
+            border: none;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+        }
+
+        .btn-record:hover {
+            background-color: var(--crimson-600);
+            transform: scale(1.05);
+        }
+
+        .btn-record.recording {
+            animation: pulse-red 1.5s infinite;
+            background-color: var(--crimson-700);
+        }
+
+        @keyframes pulse-red {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(220, 38, 38, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+        }
+
+        .speech-feedback-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--slate-700);
+            min-height: 24px;
+            margin-bottom: 16px;
+        }
+
+        .drill-actions-reveal {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn-drill-show {
+            background-color: var(--slate-100);
+            color: var(--slate-800);
+            border: 1px solid var(--slate-200);
+            font-family: var(--font-main);
+            font-size: 14px;
+            font-weight: 700;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-drill-show:hover {
+            background-color: var(--slate-200);
+        }
+
+        .drill-model-answer {
+            display: none;
+            background-color: var(--green-50);
+            border: 1px solid var(--green-100);
+            color: var(--green-700);
+            padding: 16px;
+            border-radius: 12px;
+            width: 100%;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .drill-model-answer.active {
+            display: block;
+        }
+
+        .drill-answer-text {
+            font-size: 18px;
+            font-weight: 850;
+            margin-bottom: 6px;
+        }
+
+        /* Common Mistakes Split Layout */
+        .mistakes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 24px;
+        }
+
+        .mistake-card {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .mistake-header-line {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--slate-900);
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--slate-100);
+            padding-bottom: 10px;
+        }
+
+        .mistake-row {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .mistake-pill {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .pill-wrong {
+            background-color: var(--crimson-50);
+            border: 1px solid var(--crimson-100);
+            color: var(--crimson-700);
+        }
+
+        .pill-correct {
+            background-color: var(--green-50);
+            border: 1px solid var(--green-100);
+            color: var(--green-700);
+        }
+
+        .mistake-why {
+            font-size: 13px;
+            color: var(--slate-700);
+            background-color: var(--slate-50);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        /* Revision / Flashcard Module */
+        .revision-card-deck {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .flashcard-wrapper {
+            perspective: 1000px;
+            width: 100%;
+            height: 300px;
+            margin-bottom: 24px;
+            cursor: pointer;
+        }
+
+        .flashcard-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .flashcard-wrapper.flipped .flashcard-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-front, .flashcard-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 20px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--slate-200);
+        }
+
+        .flashcard-front {
+            background-color: #fff;
+            color: var(--slate-900);
+        }
+
+        .flashcard-back {
+            background-color: var(--slate-900);
+            color: #fff;
+            transform: rotateY(180deg);
+            border: none;
+        }
+
+        .flashcard-title {
+            font-size: 24px;
+            font-weight: 850;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .flashcard-instruction {
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--slate-300);
+            text-transform: uppercase;
+        }
+
+        .flashcard-meaning {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--crimson-500);
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .flashcard-example-box {
+            font-size: 13px;
+            color: var(--slate-300);
+            text-align: center;
+            font-style: italic;
+        }
+
+        .flashcard-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .flashcard-btn {
+            background-color: #fff;
+            border: 1px solid var(--slate-200);
+            color: var(--slate-700);
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: all 0.2s ease;
+        }
+
+        .flashcard-btn:hover {
+            background-color: var(--slate-100);
+        }
+
+        /* Responsive Utilities */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 40px 20px;
+            }
+
+            .hero-title {
+                font-size: 30px;
+            }
+
+            .hero-subtitle {
+                font-size: 15px;
+            }
+
+            .matching-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navigation Fixed Back-link -->
+    <a href="index.html" class="top-back-link" style="position:fixed;top:14px;left:14px;z-index:9999;display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:rgba(15,23,42,0.85);color:#fff;font-family:Arial,sans-serif;font-size:14px;font-weight:600;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,0.25);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);">&larr; Всі уроки</a>
+
+    <div class="container">
+
+        <!-- Hero Welcome Section -->
+        <header class="hero">
+            <div class="hero-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.886L3 12l7.088 3.114L12 21l1.912-5.886L21 12l-7.088-3.114z"/></svg>
+                Класика польської мови
+            </div>
+            <h1 class="hero-title">Опануйте <span>30 польських ідіом</span></h1>
+            <p class="hero-subtitle">Вивчайте найважливіші фразеологізми безпосередньо з оригінальних аудіоуроків. Практикуйте правильну вимову, тестуйте свої знання в інтерактивних іграх та вчіться природно використовувати вирази в житті.</p>
+            
+            <div class="learning-outcomes">
+                <div class="outcome-item">
+                    <span class="outcome-icon">✓</span>
+                    <span class="outcome-text">30 ключових ідіом</span>
+                </div>
+                <div class="outcome-item">
+                    <span class="outcome-icon">✓</span>
+                    <span class="outcome-text">Озвучення польською мовою</span>
+                </div>
+                <div class="outcome-item">
+                    <span class="outcome-icon">✓</span>
+                    <span class="outcome-text">Інтерактивні тести та сценарії</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Active Learning Progress Widget -->
+        <section class="progress-widget">
+            <div class="progress-info">
+                <div class="progress-circle" id="mastery-circle">
+                    <span id="mastery-pct">0%</span>
+                </div>
+                <div class="progress-text">
+                    <h4>Ваш прогрес навчання</h4>
+                    <p id="mastery-status">Ознайомлено з 0 із 30 ідіом</p>
+                </div>
+            </div>
+            <button class="progress-btn-reset" onclick="resetProgress()">Скинути прогрес</button>
+        </section>
+
+        <!-- Tabbed Interface Navigation -->
+        <nav class="nav-tabs">
+            <button class="tab-btn active" onclick="switchTab('explorer')">Провідник Ідіом</button>
+            <button class="tab-btn" onclick="switchTab('quiz')">Інтерактивний Квіз</button>
+            <button class="tab-btn" onclick="switchTab('drill')">Розмовне тренування</button>
+            <button class="tab-btn" onclick="switchTab('dialogues')">Діалоги / Сценки</button>
+            <button class="tab-btn" onclick="switchTab('revision')">Швидке повторення</button>
+            <button class="tab-btn" onclick="switchTab('mistakes')">Типові помилки</button>
+        </nav>
+
+        <!-- Tab Content: EXPLORER -->
+        <div id="explorer" class="tab-content active">
+            
+            <!-- Theory Guide -->
+            <div class="theory-guide">
+                <h3 class="theory-title">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                    Розуміння польських ідіом
+                </h3>
+                <p>Ідіоми — це стійкі словосполучення, значення яких не виводиться зі значень слів, що входять до їхнього складу. Їх у жодному разі не можна перекладати дослівно! Наприклад, "leje jak z cebra" описує сильну зливу, а не реальне відро.</p>
+                <div class="theory-grid">
+                    <div class="theory-card">
+                        <h4 class="theory-card-title">Принцип контексту</h4>
+                        <p class="theory-card-desc">Завжди запам'ятовуйте ідіоми в готових ситуативних реченнях. Слухайте та повторюйте приклади.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h4 class="theory-card-title">Емоційне забарвлення</h4>
+                        <p class="theory-card-desc">Деякі ідіоми є розмовними або сленговими, інші ж (як-от "cierpliwość popłaca") є універсальними мудрими висловами.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filter Controls -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <span class="filter-label">Розділ:</span>
+                    <select class="select-filter" id="filter-chapter" onchange="applyFilters()">
+                        <option value="all">Усі лекції (01-10)</option>
+                        <option value="01">Розділ 01</option>
+                        <option value="02">Розділ 02</option>
+                        <option value="03">Розділ 03</option>
+                        <option value="04">Rozdział 04</option>
+                        <option value="05">Rozdział 05</option>
+                        <option value="06">Rozdział 06</option>
+                        <option value="07">Rozdział 07</option>
+                        <option value="08">Rozdział 08</option>
+                        <option value="09">Rozdział 09</option>
+                        <option value="10">Rozdział 10</option>
+                    </select>
+
+                    <span class="filter-label">Категорія:</span>
+                    <select class="select-filter" id="filter-category" onchange="applyFilters()">
+                        <option value="all">Усі категорії</option>
+                        <option value="everyday">Буденне життя</option>
+                        <option value="work">Робота / Успіх</option>
+                        <option value="caution">Обережність / Попередження</option>
+                        <option value="attitude">Ставлення / Мудрість</option>
+                    </select>
+                </div>
+
+                <input type="text" class="search-input" id="search-idiom" placeholder="Пошук ідіоми..." oninput="applyFilters()">
+            </div>
+
+            <!-- Idioms Dynamic Grid -->
+            <div class="explorer-grid" id="explorer-grid">
+                <!-- Dynamic cards generated by script -->
+            </div>
+        </div>
+
+        <!-- Tab Content: QUIZ HUB -->
+        <div id="quiz" class="tab-content">
+            <div class="quiz-container">
+                <div class="quiz-tabs">
+                    <button class="quiz-tab active" id="quiz-tab-mc" onclick="switchQuizMode('mc')">Тест (Вільний вибір)</button>
+                    <button class="quiz-tab" id="quiz-tab-match" onclick="switchQuizMode('match')">Співставлення пар</button>
+                    <button class="quiz-tab" id="quiz-tab-blank" onclick="switchQuizMode('blank')">Заповни пропуск</button>
+                </div>
+
+                <!-- Multiple Choice Quiz Card -->
+                <div id="quiz-mc-view" class="quiz-card">
+                    <div class="quiz-header">
+                        <span class="quiz-counter" id="quiz-counter">Запитання 1 з 5</span>
+                        <span class="quiz-score" id="quiz-score">Бали: 0</span>
+                    </div>
+                    <div class="quiz-question" id="quiz-question">Завантаження запитання...</div>
+                    <div class="quiz-options" id="quiz-options">
+                        <!-- Options generated dynamically -->
+                    </div>
+                    <div class="quiz-feedback" id="quiz-feedback">Відгук</div>
+                    <div class="quiz-actions">
+                        <div></div>
+                        <button class="quiz-next-btn" id="quiz-next-btn" onclick="nextQuizQuestion()">Далі &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Match Cards Quiz View -->
+                <div id="quiz-match-view" class="quiz-card" style="display:none;">
+                    <div class="quiz-header">
+                        <span class="quiz-counter">З'єднайте польські ідіоми з їхнім українським відповідником</span>
+                        <button class="progress-btn-reset" onclick="initMatchQuiz()">Оновити пари</button>
+                    </div>
+                    <div class="matching-grid" id="matching-grid">
+                        <!-- Dynamic columns -->
+                    </div>
+                </div>
+
+                <!-- Fill in the blank Quiz Card -->
+                <div id="quiz-blank-view" class="quiz-card" style="display:none;">
+                    <div class="quiz-header">
+                        <span class="quiz-counter" id="quiz-blank-counter">Запитання 1 з 5</span>
+                    </div>
+                    <div class="quiz-question" id="quiz-blank-text">Доповніть пропущене слово в ідіомі.</div>
+                    <div style="margin-bottom: 24px;">
+                        <input type="text" class="search-input" id="quiz-blank-input" placeholder="Впишіть пропущене слово польською мовою..." style="width: 100%; padding: 14px; font-size: 16px;">
+                    </div>
+                    <div class="quiz-feedback" id="quiz-blank-feedback"></div>
+                    <div class="quiz-actions">
+                        <button class="btn-drill-show" onclick="checkBlankAnswer()">Перевірити</button>
+                        <button class="quiz-next-btn" onclick="nextBlankQuestion()">Далі &rarr;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Tab Content: DRILL -->
+        <div id="drill" class="tab-content">
+            <div class="drill-deck">
+                <div class="section-header">
+                    <h2 class="section-title">Тренуйте мовлення вголос</h2>
+                    <p class="section-desc">Прочитайте життєву ситуацію та спробуйте висловити думку за допомогою правильної польської ідіоми. Ви можете скористатися голосовим введенням!</p>
+                </div>
+
+                <div class="drill-card">
+                    <div class="drill-badge" id="drill-badge">Сценарій 1</div>
+                    <div class="drill-situation" id="drill-situation">Ситуація: ...</div>
+                    <div class="drill-task">Завдання: Скажіть це природною польською ідіомою.</div>
+
+                    <div class="speech-btn-group">
+                        <!-- Microphone Activator -->
+                        <button class="btn-record" id="btn-record" onclick="toggleRecording()" title="Записати вимову">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+                        </button>
+                        <!-- Speaker Voice Playback -->
+                        <button class="btn-pronounce" style="width:48px; height:48px; background-color: var(--slate-100); color: var(--slate-700);" id="btn-drill-play" onclick="playDrillTargetAudio()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                        </button>
+                    </div>
+
+                    <div class="speech-feedback-text" id="speech-feedback-text">Натисніть на мікрофон та вимовте ідіому польською мовою...</div>
+
+                    <div class="drill-actions-reveal">
+                        <button class="btn-drill-show" onclick="toggleDrillAnswer()">Показати еталонну відповідь</button>
+                        <div class="drill-model-answer" id="drill-model-answer">
+                            <div class="drill-answer-text" id="drill-answer-text">Ідіома</div>
+                            <div style="font-size:14px; color: var(--green-700);" id="drill-answer-desc">Значення</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flashcard-controls">
+                    <button class="flashcard-btn" onclick="prevDrill()">&larr; Попередня</button>
+                    <button class="flashcard-btn" onclick="nextDrill()">Наступна &rarr;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Content: DIALOGUES -->
+        <div id="dialogues" class="tab-content">
+            <div class="section-header">
+                <h2 class="section-title">Природні діалоги для спілкування</h2>
+                <p class="section-desc">Подивіться, як носії польської мови використовують ці фразеологізми в повсякденному спілкуванні. Натискайте кнопку, щоб перевірити переклад.</p>
+            </div>
+
+            <div class="dialogues-wrapper" id="dialogues-wrapper">
+                <!-- Dynamically built conversational scenes -->
+            </div>
+        </div>
+
+        <!-- Tab Content: REVISION / FLASHCARDS -->
+        <div id="revision" class="tab-content">
+            <div class="section-header" style="text-align: center;">
+                <h2 class="section-title">Швидке повторення за картками</h2>
+                <p class="section-desc">Використовуйте інтерактивні двосторонні картки для підсвідомої перевірки знань. Клацніть на картку, щоб перевернути її!</p>
+            </div>
+
+            <div class="revision-card-deck">
+                <div class="flashcard-wrapper" onclick="this.classList.toggle('flipped')">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <div class="flashcard-title" id="flash-pl">Leje jak z cebra</div>
+                            <div class="flashcard-instruction">Натисніть, щоб перевернути</div>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="flashcard-meaning" id="flash-en">Ллє як з відра</div>
+                            <div class="flashcard-example-box" id="flash-ex">„Dzisiaj leje jak z cebra, więc zostajemy w domu.”</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flashcard-controls">
+                    <button class="flashcard-btn" onclick="prevFlashcard()">&larr; Попередня</button>
+                    <button class="flashcard-btn" onclick="nextFlashcard()">Наступна &rarr;</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Content: COMMON MISTAKES -->
+        <div id="mistakes" class="tab-content">
+            <div class="section-header">
+                <h2 class="section-title">Найпоширеніші помилки учнів</h2>
+                <p class="section-desc">Дізнайтеся, як уникати неприродного, дослівного перекладу та граматичних помилок у польських ідіомах.</p>
+            </div>
+
+            <div class="mistakes-grid">
+                <div class="mistake-card">
+                    <div class="mistake-header-line">Буквальний переклад (калька)</div>
+                    <div class="mistake-row">
+                        <div class="mistake-pill pill-wrong">НЕПРАВИЛЬНО: "Poring z wiaderka." (Спроба перекласти "llę jak z widra" дослівно на інші мови або навпаки)</div>
+                        <div class="mistake-pill pill-correct">ПРАВИЛЬНО: "Leje jak z cebra."</div>
+                    </div>
+                    <p class="mistake-why"><strong>Пояснення:</strong> У кожній мові є свої сталі порівняння. Польське "z cebra" (з дерев'яного цебра) не замінюється іншими посудинами без втрати природності фразеологізму.</p>
+                </div>
+
+                <div class="mistake-card">
+                    <div class="mistake-header-line">Неправильне граматичне число</div>
+                    <div class="mistake-row">
+                        <div class="mistake-pill pill-wrong">НЕПРАВИЛЬНО: "Oni dzielą skóry na niedźwiedziu." (Зміна іменника на множину)</div>
+                        <div class="mistake-pill pill-correct">ПРАВИЛЬНО: "Oni dzielą skórę na niedźwiedziu." (Іменник завжди в однині)</div>
+                    </div>
+                    <p class="mistake-why"><strong>Пояснення:</strong> Стійкі фразеологічні звороти мають зафіксовану граматичну структуру. Будь-які довільні зміни граматичного числа руйнують ідіому.</p>
+                </div>
+
+                <div class="mistake-card">
+                    <div class="mistake-header-line">Змішування схожих за темою виразів</div>
+                    <div class="mistake-row">
+                        <div class="mistake-pill pill-wrong">НЕПРАВИЛЬНО: "Nie dziel wozu przed koniem." (Змішування "воза" та "шкури ведмедя")</div>
+                        <div class="mistake-pill pill-correct">ПРАВИЛЬНО: "Nie stawiaj wozu przed koniem" / "Nie dziel skóry na niedźwiedziu"</div>
+                    </div>
+                    <p class="mistake-why"><strong>Пояснення:</strong> Схожі побутові асоціації легко сплутати. "Віз перед конем" описує порушення логічного порядку дій, тоді як "шкура ведмедя" застерігає від передчасного розподілу майбутніх прибутків.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Database of 30 classical Polish idioms matching MP3 modules with Ukrainian translations
+        const idiomsData = [
+            {
+                id: "id_01_1",
+                chapter: "01",
+                polish: "leje jak z cebra",
+                literal: "ллє як з дерев'яного цебра",
+                meaning: "Ллє як з відра / дуже сильно дощить",
+                explanation: "Використовується, коли йде дуже сильний, проливний та раптовий дощ.",
+                difficulty: "easy",
+                category: "everyday",
+                example: "Dzisiaj leje jak z cebra, więc zostajemy w domu. Weź parasol! (Сьогодні ллє як з відра, тому ми залишаємося вдома. Візьми парасольку!)",
+                situation: "Надворі сильна гроза зі зливою, і ви не можете вийти на вулицю, щоб не промокнути до нитки.",
+                dialogue: {
+                    speakerA: "Idziemy dzisiaj na spacer do parku?",
+                    speakerB: "Oszalałeś? Spójrz za okno, leje jak z cebra! Zostańmy w domu.",
+                    translation: "А: Ми йдемо сьогодні на прогулянку в парк? Б: Ти збожеволів? Подивися за вікно, ллє як з відра! Залишаймося вдома."
+                }
+            },
+            {
+                id: "id_01_2",
+                chapter: "01",
+                polish: "nie wkładaj wszystkich jajek do jednego koszyka",
+                literal: "не клади всі яйця в один кошик",
+                meaning: "Не клади всі яйця в один кошик (не ризикуй усім одночасно)",
+                explanation: "Застереження від інвестування всіх ресурсів чи сподівань у єдину справу чи актив.",
+                difficulty: "medium",
+                category: "caution",
+                example: "Złożyłem dokumenty na kilka uczelni, bo nie chcę wkładać wszystkich jajek do jednego koszyka.",
+                situation: "Ви плануєте вкласти всі свої сімейні заощадження в одну сумнівну криптовалюту чи компанію.",
+                dialogue: {
+                    speakerA: "Chcę zainwestować wszystkie oszczędności w akcje tej nowej firmy.",
+                    speakerB: "Lepiej nie wkładaj wszystkich jajek do jednego koszyka. Podziel te pieniądze.",
+                    translation: "А: Я хочу інвестувати всі заощадження в акції цієї нової компанії. Б: Краще не клади всі яйця в один кошик. Розділи ці гроші."
+                }
+            },
+            {
+                id: "id_01_3",
+                chapter: "01",
+                polish: "nie oceniaj książki po okładce",
+                literal: "не оцінюй книгу за обкладинкою",
+                meaning: "Не суди про книгу за обкладинкою / зовнішність оманлива",
+                explanation: "Попередження про те, що не варто судити про цінність речей чи людей виключно за їхнім зовнішнім виглядом.",
+                difficulty: "easy",
+                category: "attitude",
+                example: "Ten hotel wygląda skromnie z zewnątrz, ale jest bardzo wygodny. Nie oceniaj książki po okładce!",
+                situation: "Ваш колега зустрів тихого та скромно вдягненого чоловіка і вирішив, що той не є професіоналом.",
+                dialogue: {
+                    speakerA: "Ten człowiek wydaje się bardzo cichy i niepozorny.",
+                    speakerB: "Nie oceniaj książki po okładce. On jest wybitnie inteligentnym inżynierem.",
+                    translation: "А: Ця людина здається дуже тихою та непомітною. Б: Не суди про книгу за обкладинкою. Він надзвичайно розумний інженер."
+                }
+            },
+            {
+                id: "id_02_1",
+                chapter: "02",
+                polish: "nie ma tego złego, co by na dobre nie wyszło",
+                literal: "немає нічого поганого, що не обернулося б на хороше",
+                meaning: "Немає лиха без добра / все на краще",
+                explanation: "Вказує на те, що неприємна подія може зрештою принести несподівану вигоду.",
+                difficulty: "medium",
+                category: "attitude",
+                example: "Spóźniłem się na autobus, ale spotkałem starego kolegę. Nie ma tego złego, co by na dobre nie wyszło!",
+                situation: "Ви раптово втратили роботу через скорочення, але через тиждень знайшли набагато кращу та перспективнішу вакансію.",
+                dialogue: {
+                    speakerA: "To straszne, że nie dostałam tej pracy!",
+                    speakerB: "Głowa do góry, nie ma tego złego, co by na dobre nie wyszło. Znajdziesz coś lepszego.",
+                    translation: "А: Це жахливо, що я не отримала цю роботу! Б: Вище голову, немає лиха без добра. Ти обов'язково знайдеш щось краще."
+                }
+            },
+            {
+                id: "id_02_2",
+                chapter: "02",
+                polish: "piłka jest po twojej stronie",
+                literal: "м'яч на твоєму боці",
+                meaning: "Твій хід / наступне рішення чи вибір за тобою",
+                explanation: "Означає, що черга діяти, відповідати чи ухвалювати рішення тепер за конкретною людиною.",
+                difficulty: "easy",
+                category: "everyday",
+                example: "Wysłałem ci wszystkie dokumenty, więc teraz piłka jest po twojej stronie.",
+                situation: "Ви детально описали клієнту умови контракту та надіслали прайс і тепер очікуєте на його остаточну відповідь.",
+                dialogue: {
+                    speakerA: "Ja już powiedziałem, co myślę i przedstawiłem ofertę.",
+                    speakerB: "Rozumiem. Teraz piłka jest po mojej stronie, muszę podjąć decyzję.",
+                    translation: "А: Я вже сказав свою думку та надав пропозицію. Б: Розумію. Тепер хід за мною, я маю прийняти рішення."
+                }
+            },
+            {
+                id: "id_02_3",
+                chapter: "02",
+                polish: "czyny mówią głośniej niż słowa",
+                literal: "вчинки говорять голосніше за слова",
+                meaning: "Вчинки говорять голосніше, ніж слова / не словом, а ділом",
+                explanation: "Реальна поведінка і дії людини є набагато переконливішими, ніж будь-які пусті обіцянки.",
+                difficulty: "easy",
+                category: "attitude",
+                example: "Obiecujesz, że pomożesz, ale nic nie robisz. Czyny mówią głośniej niż słowa.",
+                situation: "Хтось постійно обіцяє віддати борги та почати прибирати за собою, але ніколи не робить цього насправді.",
+                dialogue: {
+                    speakerA: "Przysięgam, że od jutra zacznę dbać o porządek w biurze.",
+                    speakerB: "Słyszę to co tydzień. Pamiętaj, że czyny mówią głośniej niż słowa.",
+                    translation: "А: Обіцяю, що з завтрашнього дня стежитиму за порядком в офісі. Б: Я чую це щотижня. Пам'ятай, що вчинки говорять переконливіше за слова."
+                }
+            },
+            {
+                id: "id_03_1",
+                chapter: "03",
+                polish: "gdy robi się trudno, twardzi biorą się do roboty",
+                literal: "коли стає важко, сильні беруться до роботи",
+                meaning: "Коли стає важко, за справу беруться справжні профі",
+                explanation: "У критичних та складних ситуаціях сильні духом люди виявляють стійкість та починають рішуче діяти.",
+                difficulty: "advanced",
+                category: "work",
+                example: "Projekt jest ciężki, ale właśnie wtedy trzeba działać. Gdy robi się trudno, twardzi biorą się do roboty!",
+                situation: "База даних впала за 10 хвилин до презентації інвесторам, і ваші досвідчені розробники без паніки почали виправляти помилку.",
+                dialogue: {
+                    speakerA: "Wszyscy panikują z powodu tego nowego terminu.",
+                    speakerB: "Nie my. Gdy robi się trudno, twardzi biorą się do roboty. Zaczynamy działać.",
+                    translation: "А: Усі панікують через цей новий дедлайн. Б: Тільки не ми. Коли стає важко, сильні беруться до роботи. Починаємо працювати."
+                }
+            },
+            {
+                id: "id_03_2",
+                chapter: "03",
+                polish: "kto rano wstaje, temu Pan Bóg daje",
+                literal: "хто вранці встає, тому Господь дає",
+                meaning: "Хто рано встає, тому Бог дає / рання пташка росу п'є",
+                explanation: "Старанність, ранній початок дня та працьовитість завжди приносять успіх у справах.",
+                difficulty: "easy",
+                category: "work",
+                example: "Wstałem dziś o szóstej i spokojnie wszystko załatwiłem. Kto rano wstaje, temu Pan Bóg daje.",
+                situation: "Ви прокинулися на світанку, виконали всі завдання та встигли випити кави до початку загального робочого хаосу.",
+                dialogue: {
+                    speakerA: "O rany, już skończyłeś raport? Dopiero dziewiąta rano!",
+                    speakerB: "Zacząłem o świcie. Kto rano wstaje, temu Pan Bóg daje.",
+                    translation: "А: Ого, ти вже завершив звіт? Тільки дев'ята ранку! Б: Я почав на світанку. Хто рано встає, тому Бог дає."
+                }
+            },
+            {
+                id: "id_03_3",
+                chapter: "03",
+                polish: "nie dziel skóry na niedźwiedziu",
+                literal: "не діли шкіру на ведмедеві",
+                meaning: "Не діли шкуру невбитого ведмедя",
+                explanation: "Застереження від передчасного планування прибутків від того, що ще не здобуто або не гарантовано.",
+                difficulty: "medium",
+                category: "caution",
+                example: "Jeszcze nie podpisałeś umowy, więc nie dziel skóry na niedźwiedziu i nie planuj wydatków.",
+                situation: "Програміст хоче придбати дорогий телефон у кредит, сподіваючись на бонус за проект, контракт на який ще навіть не підписано.",
+                dialogue: {
+                    speakerA: "Kupię nowy komputer, bo klient obiecał, że zapłaci mi podwójnie.",
+                    speakerB: "Najpierw otrzymaj przelew. Nie dziel skóry na niedźwiedziu.",
+                    translation: "А: Куплю новий комп'ютер, бо клієнт пообіцяв мені подвійну оплату. Б: Спочатку отримай гроші на рахунок. Не діли шкуру невбитого ведмедя."
+                }
+            },
+            {
+                id: "id_04_1",
+                chapter: "04",
+                polish: "nie ma nic za darmo",
+                literal: "немає нічого безкоштовного",
+                meaning: "Безкоштовного сиру не буває / безкоштовних обідів не існує",
+                explanation: "Будь-яка вигода вимагає зусиль, прихованої плати або має свої застереження; ніщо не дається задарма.",
+                difficulty: "easy",
+                category: "caution",
+                example: "Uważaj na tę ofertę. Ten kurs wygląda na darmowy, ale potem trzeba zapłacić. Nie ma nic za darmo.",
+                situation: "Сервіс пропонує абсолютно безкоштовну реєстрацію, але вимагає введення даних картки для подальшого автосписання грошей.",
+                dialogue: {
+                    speakerA: "Zaoferowano mi darmowy przelot w zamian za udział w prezentacji.",
+                    speakerB: "Bądź czujny, nie ma nic za darmo. Na pewno będą cię zmuszać do zakupu czegoś.",
+                    translation: "А: Мені запропонували безкоштовний авіаквиток в обмін на презентацію товарів. Б: Будь пильним, безкоштовного нічого не буває. Там точно змусять тебе щось купити."
+                }
+            },
+            {
+                id: "id_04_2",
+                chapter: "04",
+                polish: "pióro jest potężniejsze od miecza",
+                literal: "перо сильніше за меч",
+                meaning: "Перо сильніше за меч / сила слова сильніша за фізичну зброю",
+                explanation: "Ідеї, публікації та написане слово мають більший та триваліший вплив на світ, ніж груба сила.",
+                difficulty: "medium",
+                category: "attitude",
+                example: "Jego krytyczny artykuł zmienił opinię tysięcy ludzi. Pióro jest potężniejsze od miecza.",
+                situation: "Завдяки журналістському розслідуванню було скасовано незаконну забудову та врятовано міський парк.",
+                dialogue: {
+                    speakerA: "Myślisz, że pisanie bloga o ekologii cokolwiek zmieni?",
+                    speakerB: "Oczywiście. Pamiętaj, że pióro jest potężniejsze od miecza.",
+                    translation: "А: Думаєш, ведення екологічного блогу може щось змінити? Б: Безумовно. Пам'ятай, що слово буває міцнішим за зброю."
+                }
+            },
+            {
+                id: "id_04_3",
+                chapter: "04",
+                polish: "wilka ciągnie do lasu",
+                literal: "вовка тягне до лісу",
+                meaning: "Скільки вовка не годуй, він усе в ліс дивиться / старі звички важко змінити",
+                explanation: "Природні схильності людини чи її старі звички завжди виявляються, навіть після тривалих спроб змінитися.",
+                difficulty: "medium",
+                category: "caution",
+                example: "Mówił, że już nie będzie ryzykował, ale znów wrócił do kasyna. Wilka ciągnie do lasu.",
+                situation: "Вирішивши відпочити від комп'ютера у лісі, розробник у перший же вечір дістав ноутбук для редагування коду.",
+                dialogue: {
+                    speakerA: "Tomasz znowu spędził całą noc na debugowaniu, chociaż miał odpoczywać.",
+                    speakerB: "Cóż, wilka ciągnie do lasu. On kocha programowanie bardziej niż sen.",
+                    translation: "А: Томаш знову всю ніч виправляв помилки в коді, хоча обіцяв відпочити. Б: Ну що ж, вовка тягне до лісу. Він любить програмування більше за сон."
+                }
+            },
+            {
+                id: "id_05_1",
+                chapter: "05",
+                polish: "nie ma dymu bez ognia",
+                literal: "немає диму без вогню",
+                meaning: "Немає диму без вогню / плітки не виникають без причини",
+                explanation: "Будь-які чутки та припущення зазвичай мають реальне підґрунтя або хоча б якусь частку правди.",
+                difficulty: "easy",
+                category: "caution",
+                example: "Wszyscy mówią o problemach finansowych firmy. Jeśli tyle osób o tym wspomina, to nie ma dymu bez ognia.",
+                situation: "У команді поповзли стійкі чутки про можливе скасування проекту чи скорочення бюджетів.",
+                dialogue: {
+                    speakerA: "Czy to prawda, że nasz projekt zostanie zawieszony?",
+                    speakerB: "Oficjalnie zaprzeczają, ale nie ma dymu bez ognia. Lepiej zaktualizuj CV.",
+                    translation: "А: Це правда, що наш проект хочуть закрити? Б: Офіційно вони все заперечують, але диму без вогню не буває. Про всяк випадок онови резюме."
+                }
+            },
+            {
+                id: "id_05_2",
+                chapter: "05",
+                polish: "kto prosi, ten dostaje",
+                literal: "хто просить, той отримує",
+                meaning: "Хто просить, той отримує / просіть — і отримаєте",
+                explanation: "Сміливість і активне прохання про допомогу чи покращення умов часто призводять до позитивного результату.",
+                difficulty: "easy",
+                category: "work",
+                example: "Poprosiła szefa o podwyżkę i ją dostała. Kto prosi, ten dostaje.",
+                situation: "Співробітник звернувся до керівництва з проханням придбати професійний софт і несподівано отримав швидке схвалення.",
+                dialogue: {
+                    speakerA: "Myślisz, że dadzą nam budżet na to narzędzie AI?",
+                    speakerB: "Napisz podanie. Kto prosi, ten dostaje. Nic nie tracisz.",
+                    translation: "А: Як думаєш, чи погодять нам бюджет на цей інструмент ШІ? Б: Подай заявку. Хто просить, той отримує. Ти нічого не втратиш."
+                }
+            },
+            {
+                id: "id_05_3",
+                chapter: "05",
+                polish: "na brudnej robocie też można zarobić",
+                literal: "на брудній роботі також можна заробити",
+                meaning: "Брудна робота теж добре оплачується",
+                explanation: "Непрестижні, важкі чи непривабливі професії часто приносять відмінні фінансові результати через низьку конкуренцію.",
+                difficulty: "advanced",
+                category: "work",
+                example: "Otworzył firmę sprzątającą i dobrze mu idzie. Ta praca nie jest lekka, ale na brudnej robocie też można zarobić.",
+                situation: "Підприємець відкрив бізнес з очищення занедбаних горищ та утилізації сміття і швидко вийшов на великий прибуток.",
+                dialogue: {
+                    speakerA: "Dlaczego zdecydowałeś się na czyszczenie starych serwerów?",
+                    speakerB: "Mało kto chce to robić, więc stawki są wysokie. Na brudnej robocie też można zarobić.",
+                    translation: "А: Чому ти взявся за чищення старих пильних серверів? Б: Клієнтам важко знайти виконавців, тому платять щедро. На брудній роботі теж непогано заробляють."
+                }
+            },
+            {
+                id: "id_06_1",
+                chapter: "06",
+                polish: "upiec dwie pieczenie na jednym ogniu",
+                literal: "спекти дві печені на одному вогні",
+                meaning: "Вбити двох зайців одним пострілом / зробити дві справи водночас",
+                explanation: "Вдале вирішення двох різних завдань чи досягнення кількох цілей за допомогою однієї дії.",
+                difficulty: "easy",
+                category: "work",
+                example: "Pojechałem do centrum, zrobiłem zakupy i spotkałem kolegę. Upiekłem dwie pieczenie na jednym ogniu.",
+                situation: "Дорогою до офісу в метро ви слухаєте освітній польський подкаст і водночас вивчаєте нові слова.",
+                dialogue: {
+                    speakerA: "Kiedy znajdujesz czas na naukę języków przy tylu projektach?",
+                    speakerB: "Słucham dialogów w drodze do pracy. Piekę dwie pieczenie na jednym ogniu.",
+                    translation: "А: Як ти знаходиш вільний час для вивчення мови у такому напруженому графіку? Б: Я слухаю аудіоуроки по дорозі в офіс. Вбиваю двох зайців одним пострілом."
+                }
+            },
+            {
+                id: "id_06_2",
+                chapter: "06",
+                polish: "nie wywołuj wilka z lasu",
+                literal: "не клич вовка з лісу",
+                meaning: "Не буди лихо, поки воно тихе / не накликай біди передчасно",
+                explanation: "Застереження від передчасного обговорення проблем, суперечок чи дій, які можуть спровокувати неприємності.",
+                difficulty: "medium",
+                category: "caution",
+                example: "Nie przypominaj mu o starej kłótni, lepiej zostawić ten temat. Nie wywołuj wilka z lasu.",
+                situation: "Запитувати у виснаженого клієнта про дрібні зауваження до макету у п'ятницю о 18:00.",
+                dialogue: {
+                    speakerA: "Może przetestujemy dzisiaj odporność serwera na przeciążenia?",
+                    speakerB: "W piątek o 16:00? Nie wywołuj wilka z lasu, bo weekend spędzimy w pracy.",
+                    translation: "А: Може, перевіримо сьогодні стійкість сервера до навантажень? Б: У п'ятницю о 16:00? Не буди лихо, бо вихідні проведемо на роботі."
+                }
+            },
+            {
+                id: "id_06_3",
+                chapter: "06",
+                polish: "kto się raz sparzył, ten na zimne dmucha",
+                literal: "хто раз обпікся, той і на холодне дме",
+                meaning: "Хто обпікся на гарячому, на холодне дме",
+                explanation: "Людина, яка зазнала болючої невдачі чи втрати у минулому, стає надзвичайно обережною в аналогічних ситуаціях.",
+                difficulty: "advanced",
+                category: "caution",
+                example: "Po tamtej awarii systemu teraz robię kopie zapasowe co godzinę. Kto się raz sparzył, ten na zimne dmucha.",
+                situation: "Програміст, який колись випадково видалив базу даних, тепер перевіряє код міграцій перед деплоєм по десять разів.",
+                dialogue: {
+                    speakerA: "Dlaczego sprawdzasz ten kod aż trzy razy?",
+                    speakerB: "Rok temu popełniłem fatalny błąd w skrypcie. Kto się raz sparzył, ten na zimne dmucha.",
+                    translation: "А: Чому ти перевіряєш цей скрипт уже втретє? Б: Торік я наробив великих бід у коді. Хто раз обпікся, той і на холодне дме."
+                }
+            },
+            {
+                id: "id_07_1",
+                chapter: "07",
+                polish: "darowanemu koniowi nie zagląda się w zęby",
+                literal: "дарованому коневі не дивляться в зуби",
+                meaning: "Дарованому коневі в зуби не дивляться / не критикують те, що отримали задарма",
+                explanation: "Непристойно критикувати чи висловлювати невдоволення щодо отриманого безкоштовно подарунка.",
+                difficulty: "easy",
+                category: "attitude",
+                example: "Dostałeś ten telefon zupełnie za darmo, więc nie narzekaj. Darowanemu koniowi nie zagląda się w zęby.",
+                situation: "Колега скаржиться на колір брендованого блокнота, який безкоштовно отримав на конференції.",
+                dialogue: {
+                    speakerA: "Ta darmowa koszulka z konferencji ma okropny kolor.",
+                    speakerB: "Daj spokój, darowanemu koniowi nie zagląda się w zęby. Ciesz się, że ją masz.",
+                    translation: "А: Ця безкоштовна фірмова футболка має жахливий відтінок. Б: Ой, годі тобі, дарованому коневі в зуби не дивляться. Радій, що взагалі дали."
+                }
+            },
+            {
+                id: "id_07_2",
+                chapter: "07",
+                polish: "gdzie kucharek sześć, tam nie ma co jeść",
+                literal: "де кухарок шість, там немає що їсти",
+                meaning: "Де сім господинь, там хата неметена / у семи няньок дитя без ока",
+                explanation: "Коли занадто багато людей намагаються керувати одним простим процесом, це призводить до хаосу та відсутності результату.",
+                difficulty: "medium",
+                category: "work",
+                example: "Nad tą prostą stroną pracowało za dużo osób i nic z tego nie wyszło. Gdzie kucharek sześć, tam nie ma co jeść.",
+                situation: "П'ять менеджерів одночасно вносять протилежні правки в одну невелику таблицю, викликаючи загальну плутанину.",
+                dialogue: {
+                    speakerA: "Nasz projekt stoi w miejscu, mimo że zaangażowaliśmy pięciu nowych doradców.",
+                    speakerB: "W tym tkwi problem. Gdzie kucharek sześć, tam nie ma co jeść.",
+                    translation: "А: Наш проект не рухається, хоча ми додали п'ятьох нових консультантів. Б: У цьому й біда. У семи няньок дитя без ока."
+                }
+            },
+            {
+                id: "id_07_3",
+                chapter: "07",
+                polish: "diabeł tkwi w szczegółach",
+                literal: "диявол криється в деталях",
+                meaning: "Диявол криється в деталях",
+                explanation: "Справа, яка спочатку здається дуже простою, виявляється складною через дрібні та непомітні нюанси.",
+                difficulty: "easy",
+                category: "caution",
+                example: "Plan wygląda świetnie, ale diabeł tkwi w szczegółach. Umowa jest krótka, ale przeczytaj ją uważnie.",
+                situation: "Код працює бездоганно, але забутий символ двокрапки ламає всю систему при запуску на сервері.",
+                dialogue: {
+                    speakerA: "Integracja API wydaje się banalnie prosta, to tylko trzy linijki kodu.",
+                    speakerB: "Uważaj, diabeł tkwi w szczegółach. Konfiguracja zabezpieczeń zajmie godziny.",
+                    translation: "А: Інтеграція API здається елементарною, там усього три рядки коду. Б: Обережно, диявол завжди в деталях. Налаштування безпеки забере купу часу."
+                }
+            },
+            {
+                id: "id_08_1",
+                chapter: "08",
+                polish: "nie można mieć ciastka i zjeść ciastka",
+                literal: "не можна мати тістечко і з'їсти тістечко",
+                meaning: "І рибку з'їсти, і в воду не лізти / не можна поєднати дві взаємовиключні речі",
+                explanation: "Неможливо одночасно зберегти кошти чи ресурси і при цьому витратити їх; потрібно обрати один шлях.",
+                difficulty: "medium",
+                category: "attitude",
+                example: "Chcesz oszczędzać pieniądze i codziennie jeść w restauracjach? Nie można mieć ciastka i zjeść ciastka.",
+                situation: "Замовник вимагає найдешевшу розробку та унікальний дизайн, відмовляючись йти на будь-які компроміси.",
+                dialogue: {
+                    speakerA: "Chcę szybkiego systemu i taniej infrastruktury, bez poświęcania jakości.",
+                    speakerB: "Wybierz jedno. Nie można mieć ciastka i zjeść ciastka.",
+                    translation: "А: Я хочу і швидку систему, і найдешевшу інфраструктуру, без жодних компромісів щодо якості. Б: Визначся. Не можна поєднувати непоєднуване."
+                }
+            },
+            {
+                id: "id_08_2",
+                chapter: "08",
+                polish: "cierpliwość popłaca",
+                literal: "терпіння винагороджується",
+                meaning: "Терпіння дає плоди / терпіння та праця все перетруть",
+                explanation: "Наполегливість, стабільна робота та спокій у досягненні мети обов'язково приведуть до бажаного успіху.",
+                difficulty: "easy",
+                category: "attitude",
+                example: "Uczył się polskiego codziennie i po roku mówił już płynnie. Cierpliwość popłaca.",
+                situation: "Ви щодня приділяли навчанню польської хоча б 15 хвилин і за пів року почали вільно розуміти розмовні подкасти.",
+                dialogue: {
+                    speakerA: "Nie widzę szybkich efektów mojej nauki, to frustrujące.",
+                    speakerB: "Naukowa praca wymaga czasu. Cierpliwość popłaca, zobaczysz efekty po kilku miesiącach.",
+                    translation: "А: Я не бачу миттєвих результатів навчання, і це мене дратує. Б: Розумова праця вимагає часу. Терпіння дає плоди, ти побачиш прогрес за кілька місяців."
+                }
+            },
+            {
+                id: "id_08_3",
+                chapter: "08",
+                polish: "nie wszystko złoto, co się świeci",
+                literal: "не все золото, що блищить",
+                meaning: "Не все те золото, що блищить",
+                explanation: "Зовні привабливі пропозиції, красиві інтерфейси чи гарні слова часто виявляються порожніми чи неякісними.",
+                difficulty: "easy",
+                category: "caution",
+                example: "Ta oferta pracy wygląda wspaniale, ale uważaj, nie wszystko złoto, co się świeci.",
+                situation: "Додаток має неймовірно красивий дизайн сайту, але внутрішній код працює нестабільно і постійно зависає.",
+                dialogue: {
+                    speakerA: "Ten nowy framework ma przepiękną stronę główną i obiecujące animacje.",
+                    speakerB: "Uważaj, nie wszystko złoto, co się świeci. Poczytaj opinie programistów o błędach.",
+                    translation: "А: У цього нового фреймворка така чудова домашня сторінка та яскраві анімації. Б: Будь обережним, не все те золото, що блищить. Почитай спочатку відгуки розробників про помилки."
+                }
+            },
+            {
+                id: "id_09_1",
+                chapter: "09",
+                polish: "jeśli pasuje, przyjmij to do siebie",
+                literal: "якщо пасує, прийми це до себе",
+                meaning: "На злодії шапка горить / якщо критика справедлива, прийми її на свій рахунок",
+                explanation: "Якщо загальне критичне зауваження влучно описує ваші дії чи поведінку, варто визнати помилку та зробити висновки.",
+                difficulty: "advanced",
+                category: "attitude",
+                example: "Nie mówiłem konkretnie o tobie, krytykując spóźnienia, ale jeśli pasuje, przyjmij to do siebie.",
+                situation: "Керівник розповів на зборах про неприпустимість поганого коментування коду, і ви зрозуміли, що це стосується саме ваших занять.",
+                dialogue: {
+                    speakerA: "Czy ty piłeś do mnie, mówiąc o braku testów jednostkowych?",
+                    speakerB: "Mówiłem ogólnie o standardach, ale jeśli pasuje, przyjmij to do siebie.",
+                    translation: "А: Ти натякав на мене, коли говорив про відсутність юніт-тестів? Б: Я говорив про загальні правила, але якщо це про тебе, то зроби відповідні висновки."
+                }
+            },
+            {
+                id: "id_09_2",
+                chapter: "09",
+                polish: "nie stawiaj wozu przed koniem",
+                literal: "не став воза попереду коня",
+                meaning: "Не став воза попереду коня / не роби речі в неправильному порядку",
+                explanation: "Потреба дотримуватися логічного порядку дій; не починайте справу з другорядних чи завершальних етапів.",
+                difficulty: "medium",
+                category: "caution",
+                example: "Najpierw zdaj egzamin, a potem kupuj samochód. Nie stawiaj wozu przed koniem.",
+                situation: "Замовник купує преміум-сервер та домен, хоча розробники ще не написали жодного рядка коду бази даних.",
+                dialogue: {
+                    speakerA: "Kupiłem już subskrypcje na serwery dedykowane, chociaż nie zacząłem pisać aplikacji.",
+                    speakerB: "Nie stawiaj wozu przed koniem. Najpierw stwórz działający prototyp.",
+                    translation: "А: Я вже купив підписку на дорогі виділені сервери, хоча ще навіть не починав писати систему. Б: Не став воза попереду коня. Спочатку напиши хоча б працюючий прототип."
+                }
+            },
+            {
+                id: "id_09_3",
+                chapter: "09",
+                polish: "jest wiele dróg do celu",
+                literal: "є багато шляхів до цілі",
+                meaning: "Всі дороги ведуть до Риму / одну проблему можна вирішити багатьма способами",
+                explanation: "Не існує єдиного жорсткого рішення; складне завдання завжди можна вирішити альтернативними методами.",
+                difficulty: "easy",
+                category: "everyday",
+                example: "Jeśli ten sposób programowania nie działa, spróbujemy inaczej. Jest wiele dróg do celu.",
+                situation: "Замість тривалої оптимізації важкого алгоритму, розробник просто налаштував ефективне кешування запитів.",
+                dialogue: {
+                    speakerA: "Nie mogę zoptymalizować tego algorytmu w Pythonie.",
+                    speakerB: "Możesz napisać to w Go lub użyć bazy NoSQL. Jest wiele dróg do celu.",
+                    translation: "А: Не можу ніяк пришвидшити цей алгоритм на Python. Б: Напиши його на Go або додай кеш. Є багато шляхів для досягнення мети."
+                }
+            },
+            {
+                id: "id_10_1",
+                chapter: "10",
+                polish: "nie da się zrobić omletu bez rozbicia jajek",
+                literal: "неможливо зробити омлет, не розбивши яєць",
+                meaning: "Ліс рубають — тріски летять / не можна досягти результату без певних жертв або ризиків",
+                explanation: "Будь-які серйозні реформи чи досягнення великої мети вимагають готовності йти на неминучі втрати чи незручності.",
+                difficulty: "medium",
+                category: "work",
+                example: "Przebudowa bazy danych jest uciążliwa, ale nie da się zrobić omletu bez rozbicia jajek.",
+                situation: "Для того щоб осучаснити та очистити код, довелося зламати підтримку дуже старих версій браузерів.",
+                dialogue: {
+                    speakerA: "Klienci będą narzekać na zmiany w interfejsie tej aplikacji.",
+                    speakerB: "Musimy odświeżyć markę. Nie da się zrobić omletu bez rozbicia jajek.",
+                    translation: "А: Користувачі точно скаржитимуться на кардинальні зміни в інтерфейсі додатка. Б: Нам час оновити продукт. Не можна зробити омлет, не розбивши яєць."
+                }
+            },
+            {
+                id: "id_10_2",
+                chapter: "10",
+                polish: "lepiej zapobiegać niż leczyć",
+                literal: "краще запобігати, ніж лікувати",
+                meaning: "Краще запобігти, ніж лікувати / профілактика краща за лікування",
+                explanation: "Набагато простіше та раціональніше заздалегідь уникнути проблем за допомогою правил безпеки, ніж виправляти катастрофічні наслідки.",
+                difficulty: "easy",
+                category: "caution",
+                example: "Zrób kopię zapasową bazy danych już teraz. Lepiej zapobiegać niż leczyć.",
+                situation: "Впровадження автоматичного тестування коду на етапі розробки, щоб уникнути виходу критичних багів у реліз.",
+                dialogue: {
+                    speakerA: "Po co pisać testy jednostkowe na tak wczesnym etapie?",
+                    speakerB: "W przyszłości zaoszczędzi nam to debugowania. Lepiej zapobiegać niż leczyć.",
+                    translation: "А: Навіщо писати юніт-тести на такому ранньому етапі роботи? Б: Це збереже нам купу нервів на пошук багів у майбутньому. Простіше попередити проблему, ніж вирішувати її."
+                }
+            },
+            {
+                id: "id_10_3",
+                chapter: "10",
+                polish: "jak się nie ma, co się lubi, to się lubi, co się ma",
+                literal: "коли не маєш того, що любиш, то любиш те, що маєш",
+                meaning: "На безриб'ї і рак риба / за браком кращого пристосовуйся до наявного",
+                explanation: "Потреба приймати реальні обставини з вдячністю та навчитися цінувати ті можливості й ресурси, що вже є поруч.",
+                difficulty: "advanced",
+                category: "attitude",
+                example: "Ten komputer nie jest najszybszy, ale nie było innych na magazynie. Jak się nie ma, co się lubi, to się lubi, co się ma.",
+                situation: "Компанія не змогла закупити дорогі ергономічні столи через дефіцит, тому офіс облаштували стандартними якісними меблями.",
+                dialogue: {
+                    speakerA: "Szkoda, że nasza firma nie sfinansowała najdroższych foteli biurowych.",
+                    speakerB: "Te też są w porządku. Jak się nie ma, co się lubi, to się lubi, co się ma.",
+                    translation: "А: Прикро, що фірма не замовила для нас преміальні дизайнерські крісла. Б: Ці теж досить зручні. Коли немає того, що любиш, люби те, що маєш."
+                }
+            }
+        ];
+
+        let masteredIdioms = JSON.parse(localStorage.getItem('polish_mastered_idioms')) || [];
+        let currentQuizMode = 'mc'; 
+        let quizIndex = 0;
+        let quizScore = 0;
+        let quizQuestions = [];
+        let matchingPairs = [];
+        let selectedMatchCard = null;
+        let blankIndex = 0;
+        let blankQuestions = [];
+        let currentDrillIndex = 0;
+        let currentFlashcardIndex = 0;
+        let speechRecognitionActive = false;
+        let recognitionInstance = null;
+
+        window.onload = function() {
+            renderExplorer();
+            renderDialogues();
+            updateMasteryUI();
+            initQuiz();
+            initBlankQuiz();
+            initMatchQuiz();
+            updateFlashcard();
+            updateDrill();
+            initSpeechSynthesis();
+        };
+
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+
+            if (tabId === 'quiz') {
+                resetQuizGame();
+            } else if (tabId === 'drill') {
+                updateDrill();
+            } else if (tabId === 'revision') {
+                updateFlashcard();
+            }
+        }
+
+        // Speech Synthesis Init
+        function initSpeechSynthesis() {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.getVoices();
+                window.speechSynthesis.onvoiceschanged = function() {
+                    window.speechSynthesis.getVoices();
+                };
+            }
+        }
+
+        function playPronunciation(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'pl-PL';
+                const voices = window.speechSynthesis.getVoices();
+                const plVoice = voices.find(v => v.lang.startsWith('pl'));
+                if (plVoice) utterance.voice = plVoice;
+                utterance.rate = 0.85; 
+                window.speechSynthesis.speak(utterance);
+                
+                markAsMastered(text);
+            }
+        }
+
+        function markAsMastered(idiomText) {
+            const normalized = idiomText.toLowerCase().trim();
+            const idiom = idiomsData.find(i => i.polish.toLowerCase().trim() === normalized);
+            if (idiom && !masteredIdioms.includes(idiom.id)) {
+                masteredIdioms.push(idiom.id);
+                localStorage.setItem('polish_mastered_idioms', JSON.stringify(masteredIdioms));
+                updateMasteryUI();
+            }
+        }
+
+        function updateMasteryUI() {
+            const total = idiomsData.length;
+            const current = masteredIdioms.length;
+            const pct = Math.round((current / total) * 100);
+
+            const masteryCircle = document.getElementById('mastery-circle');
+            const masteryPct = document.getElementById('mastery-pct');
+            const masteryStatus = document.getElementById('mastery-status');
+
+            if (masteryCircle) {
+                masteryCircle.style.background = `conic-gradient(var(--crimson-500) ${pct}%, var(--slate-200) ${pct}% 100%)`;
+            }
+            if (masteryPct) {
+                masteryPct.innerText = `${pct}%`;
+            }
+            if (masteryStatus) {
+                masteryStatus.innerText = `Вивчено ${current} з ${total} ідіом`;
+            }
+        }
+
+        function resetProgress() {
+            masteredIdioms = [];
+            localStorage.removeItem('polish_mastered_idioms');
+            updateMasteryUI();
+            renderExplorer();
+        }
+
+        function renderExplorer() {
+            const grid = document.getElementById('explorer-grid');
+            if (!grid) return;
+            grid.innerHTML = '';
+
+            const chapterFilter = document.getElementById('filter-chapter').value;
+            const categoryFilter = document.getElementById('filter-category').value;
+            const searchQuery = document.getElementById('search-idiom').value.toLowerCase().trim();
+
+            const filtered = idiomsData.filter(idiom => {
+                const matchesChapter = (chapterFilter === 'all' || idiom.chapter === chapterFilter);
+                const matchesCategory = (categoryFilter === 'all' || idiom.category === categoryFilter);
+                const matchesSearch = (!searchQuery || 
+                    idiom.polish.toLowerCase().includes(searchQuery) || 
+                    idiom.meaning.toLowerCase().includes(searchQuery) ||
+                    idiom.explanation.toLowerCase().includes(searchQuery)
+                );
+                return matchesChapter && matchesCategory && matchesSearch;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 40px; border: 1px dashed var(--slate-300); border-radius: 16px; color: var(--slate-700);">
+                        Нічого не знайдено за вказаними фільтрами. Спробуйте змінити критерії пошуку.
+                    </div>
+                `;
+                return;
+            }
+
+            filtered.forEach(idiom => {
+                const isMastered = masteredIdioms.includes(idiom.id);
+                const card = document.createElement('div');
+                card.className = 'idiom-card';
+                card.innerHTML = `
+                    <div>
+                        <div class="idiom-header">
+                            <span class="badge-chapter">Розділ ${idiom.chapter}</span>
+                            <span class="badge-difficulty diff-${idiom.difficulty}">${idiom.difficulty}</span>
+                        </div>
+                        <h3 class="idiom-polish">
+                            ${idiom.polish}
+                            <button class="btn-pronounce" onclick="playPronunciation('${idiom.polish}')" title="Слухати вимову">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                            </button>
+                            ${isMastered ? '<span style="color:var(--green-700); font-size:14px; font-weight:bold; margin-left:auto;">✓ Вивчено</span>' : ''}
+                        </h3>
+                        <div class="idiom-literal">Дослівно: "${idiom.literal}"</div>
+                        <div class="idiom-meaning">${idiom.meaning}</div>
+                        <p class="idiom-desc">${idiom.explanation}</p>
+                        <span class="idiom-category-pill">${idiom.category}</span>
+                    </div>
+                    <div class="idiom-actions">
+                        <button class="btn-reveal" onclick="toggleExample('${idiom.id}')">
+                            Приклад вживання
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                    </div>
+                    <div class="idiom-example" id="example-${idiom.id}">
+                        <div class="example-title">Контекст:</div>
+                        <div class="example-pl">${idiom.example}</div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function toggleExample(id) {
+            const el = document.getElementById(`example-${id}`);
+            if (el) {
+                el.classList.toggle('active');
+            }
+        }
+
+        function applyFilters() {
+            renderExplorer();
+        }
+
+        function renderDialogues() {
+            const wrapper = document.getElementById('dialogues-wrapper');
+            if (!wrapper) return;
+            wrapper.innerHTML = '';
+
+            const sampleDialogues = idiomsData.filter(i => i.dialogue);
+            
+            sampleDialogues.slice(0, 6).forEach((idiom, idx) => {
+                const card = document.createElement('div');
+                card.className = 'dialogue-card';
+                card.innerHTML = `
+                    <div class="dialogue-header-bar">
+                        <span class="dialogue-title">Діалог #${idx + 1} &mdash; Тема: "${idiom.polish}"</span>
+                        <span class="badge-chapter">Розділ ${idiom.chapter}</span>
+                    </div>
+                    <div class="dialogue-bubble">
+                        <div class="bubble bubble-A">
+                            <div class="speaker-label">Співрозмовник А</div>
+                            <div class="bubble-text">${idiom.dialogue.speakerA}</div>
+                        </div>
+                        <div class="bubble bubble-B">
+                            <div class="speaker-label">Співрозмовник Б</div>
+                            <div class="bubble-text">${idiom.dialogue.speakerB}</div>
+                        </div>
+                    </div>
+                    <button class="btn-toggle-translation" onclick="toggleDialogueTranslation(${idx})">Показати переклад</button>
+                    <div class="dialogue-translation" id="dialogue-trans-${idx}">
+                        ${idiom.dialogue.translation}
+                    </div>
+                `;
+                wrapper.appendChild(card);
+            });
+        }
+
+        function toggleDialogueTranslation(idx) {
+            const trans = document.getElementById(`dialogue-trans-${idx}`);
+            if (trans) {
+                trans.classList.toggle('active');
+            }
+        }
+
+        function switchQuizMode(mode) {
+            currentQuizMode = mode;
+            document.querySelectorAll('.quiz-tab').forEach(el => el.classList.remove('active'));
+            
+            document.getElementById('quiz-mc-view').style.display = 'none';
+            document.getElementById('quiz-match-view').style.display = 'none';
+            document.getElementById('quiz-blank-view').style.display = 'none';
+
+            if (mode === 'mc') {
+                document.getElementById('quiz-tab-mc').classList.add('active');
+                document.getElementById('quiz-mc-view').style.display = 'block';
+                initQuiz();
+            } else if (mode === 'match') {
+                document.getElementById('quiz-tab-match').classList.add('active');
+                document.getElementById('quiz-match-view').style.display = 'block';
+                initMatchQuiz();
+            } else if (mode === 'blank') {
+                document.getElementById('quiz-tab-blank').classList.add('active');
+                document.getElementById('quiz-blank-view').style.display = 'block';
+                initBlankQuiz();
+            }
+        }
+
+        // Multiple Choice Quiz
+        function initQuiz() {
+            quizScore = 0;
+            quizIndex = 0;
+            document.getElementById('quiz-score').innerText = `Бали: ${quizScore}`;
+            quizQuestions = [...idiomsData].sort(() => 0.5 - Math.random()).slice(0, 5);
+            loadQuizQuestion();
+        }
+
+        function resetQuizGame() {
+            if (currentQuizMode === 'mc') {
+                initQuiz();
+            } else if (currentQuizMode === 'blank') {
+                initBlankQuiz();
+            } else if (currentQuizMode === 'match') {
+                initMatchQuiz();
+            }
+        }
+
+        function loadQuizQuestion() {
+            const feedback = document.getElementById('quiz-feedback');
+            feedback.style.display = 'none';
+            feedback.className = 'quiz-feedback';
+
+            const question = quizQuestions[quizIndex];
+            document.getElementById('quiz-counter').innerText = `Запитання ${quizIndex + 1} з 5`;
+            document.getElementById('quiz-question').innerHTML = `Що означає польський вираз: <br><strong style="color:var(--crimson-600); font-size: 22px;">"${question.polish}"</strong>?`;
+
+            const decoys = idiomsData
+                .filter(i => i.id !== question.id)
+                .sort(() => 0.5 - Math.random())
+                .slice(0, 3)
+                .map(i => i.meaning);
+
+            const options = [...decoys, question.meaning].sort(() => 0.5 - Math.random());
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+
+            options.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerHTML = `<span>${opt}</span>`;
+                btn.onclick = () => selectQuizOption(btn, opt, question);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function selectQuizOption(btn, val, question) {
+            document.querySelectorAll('.option-btn').forEach(el => el.disabled = true);
+            const feedback = document.getElementById('quiz-feedback');
+
+            if (val === question.meaning) {
+                btn.classList.add('correct');
+                feedback.innerHTML = `<strong>Правильно!</strong> Чудовий вибір.`;
+                feedback.classList.add('correct');
+                quizScore += 10;
+                document.getElementById('quiz-score').innerText = `Бали: ${quizScore}`;
+                markAsMastered(question.polish);
+            } else {
+                btn.classList.add('incorrect');
+                feedback.innerHTML = `<strong>Неправильно.</strong> Правильна відповідь: <strong>"${question.meaning}"</strong>.`;
+                feedback.classList.add('incorrect');
+
+                document.querySelectorAll('.option-btn').forEach(el => {
+                    if (el.innerText === question.meaning) {
+                        el.classList.add('correct');
+                    }
+                });
+            }
+        }
+
+        function nextQuizQuestion() {
+            quizIndex++;
+            if (quizIndex < quizQuestions.length) {
+                loadQuizQuestion();
+            } else {
+                showQuizEnd();
+            }
+        }
+
+        function showQuizEnd() {
+            const container = document.getElementById('quiz-options');
+            container.innerHTML = '';
+            document.getElementById('quiz-question').innerText = `Тест завершено!`;
+            document.getElementById('quiz-feedback').innerHTML = `Ваш результат: <strong>${quizScore}</strong> балів із 50 можливих. Так тримати!`;
+            document.getElementById('quiz-feedback').classList.add('correct');
+            document.getElementById('quiz-feedback').style.display = 'block';
+        }
+
+        // Fill in Blank Quiz
+        function initBlankQuiz() {
+            blankIndex = 0;
+            const blanksSet = [
+                { text: "leje jak z ______", ans: "cebra", hint: "leje jak z ... (сильний дощ)" },
+                { text: "nie oceniaj książki po ______", ans: "okładce", hint: "nie oceniaj książki po ... (зовнішній вигляд)" },
+                { text: "nie ma dymu bez ______", ans: "ognia", hint: "nie ma dymu bez ... (причина чуток)" },
+                { text: "cierpliwość ______", ans: "popłaca", hint: "cierpliwość ... (терпіння винагороджується)" },
+                { text: "diabeł tkwi w ______", ans: "szczegółach", hint: "diabeł tkwi w ... (деталі)" }
+            ];
+            blankQuestions = blanksSet.sort(() => 0.5 - Math.random());
+            loadBlankQuestion();
+        }
+
+        function loadBlankQuestion() {
+            const question = blankQuestions[blankIndex];
+            document.getElementById('quiz-blank-counter').innerText = `Запитання ${blankIndex + 1} з ${blankQuestions.length}`;
+            document.getElementById('quiz-blank-text').innerHTML = `Введіть пропущене слово польською мовою:<br><strong style="color:var(--crimson-600); font-size: 22px;">"${question.text}"</strong><br><span style="font-size:14px; color:var(--slate-700);">Підказка: ${question.hint}</span>`;
+            document.getElementById('quiz-blank-input').value = '';
+            document.getElementById('quiz-blank-feedback').style.display = 'none';
+        }
+
+        function checkBlankAnswer() {
+            const userAns = document.getElementById('quiz-blank-input').value.toLowerCase().trim();
+            const correctAns = blankQuestions[blankIndex].ans.toLowerCase().trim();
+            const feedback = document.getElementById('quiz-blank-feedback');
+            
+            feedback.style.display = 'block';
+            feedback.className = 'quiz-feedback';
+
+            if (userAns === correctAns) {
+                feedback.innerHTML = `<strong>Правильно!</strong> Ви вгадали слово!`;
+                feedback.classList.add('correct');
+                markAsMastered(blankQuestions[blankIndex].text.replace("______", correctAns));
+            } else {
+                feedback.innerHTML = `<strong>Не зовсім.</strong> Правильна відповідь: <strong>"${correctAns}"</strong>.`;
+                feedback.classList.add('incorrect');
+            }
+        }
+
+        function nextBlankQuestion() {
+            blankIndex++;
+            if (blankIndex < blankQuestions.length) {
+                loadBlankQuestion();
+            } else {
+                document.getElementById('quiz-blank-text').innerText = `Тренування завершено!`;
+                document.getElementById('quiz-blank-feedback').innerHTML = `Чудова повторна практика правопису! Спробуйте інші завдання.`;
+                document.getElementById('quiz-blank-feedback').style.display = 'block';
+                document.getElementById('quiz-blank-feedback').className = 'quiz-feedback correct';
+            }
+        }
+
+        // Match Card Quiz Game
+        function initMatchQuiz() {
+            const pool = [...idiomsData].sort(() => 0.5 - Math.random()).slice(0, 4);
+            const polishSet = pool.map(i => ({ text: i.polish, type: 'pl', matchId: i.id }));
+            const ukrainianSet = pool.map(i => ({ text: i.meaning, type: 'ua', matchId: i.id }));
+            
+            matchingPairs = [...polishSet, ...ukrainianSet].sort(() => 0.5 - Math.random());
+            selectedMatchCard = null;
+
+            const grid = document.getElementById('matching-grid');
+            grid.innerHTML = '';
+
+            matchingPairs.forEach((pair, idx) => {
+                const card = document.createElement('div');
+                card.className = 'match-card';
+                card.innerText = pair.text;
+                card.id = `match-card-${idx}`;
+                card.onclick = () => selectMatchCard(card, pair, idx);
+                grid.appendChild(card);
+            });
+        }
+
+        function selectMatchCard(card, pair, idx) {
+            if (card.classList.contains('matched')) return;
+
+            if (selectedMatchCard === null) {
+                selectedMatchCard = { card, pair, idx };
+                card.classList.add('selected');
+            } else {
+                if (selectedMatchCard.idx === idx) {
+                    card.classList.remove('selected');
+                    selectedMatchCard = null;
+                    return;
+                }
+
+                if (selectedMatchCard.pair.matchId === pair.matchId && selectedMatchCard.pair.type !== pair.type) {
+                    selectedMatchCard.card.classList.remove('selected');
+                    selectedMatchCard.card.classList.add('matched');
+                    card.classList.add('matched');
+                    selectedMatchCard = null;
+
+                    checkAllMatched();
+                } else {
+                    selectedMatchCard.card.classList.remove('selected');
+                    card.classList.add('selected');
+                    selectedMatchCard = { card, pair, idx };
+                }
+            }
+        }
+
+        function checkAllMatched() {
+            const unmatched = document.querySelectorAll('.match-card:not(.matched)');
+            if (unmatched.length === 0) {
+                setTimeout(() => {
+                    initMatchQuiz();
+                }, 1000);
+            }
+        }
+
+        function updateDrill() {
+            const list = idiomsData.filter(i => i.situation);
+            const drill = list[currentDrillIndex];
+
+            document.getElementById('drill-badge').innerText = `Сценарій ${currentDrillIndex + 1} з ${list.length}`;
+            document.getElementById('drill-situation').innerText = drill.situation;
+            document.getElementById('drill-answer-text').innerText = drill.polish;
+            document.getElementById('drill-answer-desc').innerText = drill.meaning;
+            
+            document.getElementById('drill-model-answer').classList.remove('active');
+            document.getElementById('speech-feedback-text').innerText = "Натисніть на мікрофон та вимовте ідіому польською мовою...";
+            document.getElementById('btn-record').classList.remove('recording');
+        }
+
+        function nextDrill() {
+            const list = idiomsData.filter(i => i.situation);
+            currentDrillIndex = (currentDrillIndex + 1) % list.length;
+            updateDrill();
+        }
+
+        function prevDrill() {
+            const list = idiomsData.filter(i => i.situation);
+            currentDrillIndex = (currentDrillIndex - 1 + list.length) % list.length;
+            updateDrill();
+        }
+
+        function toggleDrillAnswer() {
+            document.getElementById('drill-model-answer').classList.toggle('active');
+        }
+
+        function playDrillTargetAudio() {
+            const text = document.getElementById('drill-answer-text').innerText;
+            playPronunciation(text);
+        }
+
+        // Speech Recognition functionality (Web Speech API Wrapper)
+        function toggleRecording() {
+            const btn = document.getElementById('btn-record');
+            const feedback = document.getElementById('speech-feedback-text');
+            const target = document.getElementById('drill-answer-text').innerText.toLowerCase().trim();
+
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (!SpeechRecognition) {
+                feedback.innerText = "Ваш браузер не підтримує розпізнавання голосу. Спробуйте Google Chrome.";
+                return;
+            }
+
+            if (speechRecognitionActive) {
+                recognitionInstance.stop();
+                speechRecognitionActive = false;
+                btn.classList.remove('recording');
+            } else {
+                feedback.innerText = "Слухаю... Говоріть польською!";
+                btn.classList.add('recording');
+                speechRecognitionActive = true;
+
+                recognitionInstance = new SpeechRecognition();
+                recognitionInstance.lang = 'pl-PL';
+                recognitionInstance.interimResults = false;
+                recognitionInstance.maxAlternatives = 1;
+
+                recognitionInstance.onresult = function(event) {
+                    const speechResult = event.results[0][0].transcript.toLowerCase().trim();
+                    feedback.innerHTML = `Ви сказали: <strong style="color:var(--slate-900);">"${speechResult}"</strong>`;
+                    
+                    const cleanTarget = target.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
+                    const cleanSpeech = speechResult.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ");
+
+                    if (cleanSpeech.includes(cleanTarget) || cleanTarget.includes(cleanSpeech)) {
+                        feedback.innerHTML += `<br><span style="color:var(--green-700); font-weight:bold;">Чудово! Правильна вимова!</span>`;
+                        markAsMastered(target);
+                    } else {
+                        feedback.innerHTML += `<br><span style="color:var(--crimson-700);">Майже! Спробуйте ще раз чітко вимовити ідіому.</span>`;
+                    }
+                };
+
+                recognitionInstance.onerror = function() {
+                    feedback.innerText = "Помилка розпізнавання мовлення. Спробуйте ще раз.";
+                    btn.classList.remove('recording');
+                    speechRecognitionActive = false;
+                };
+
+                recognitionInstance.onend = function() {
+                    btn.classList.remove('recording');
+                    speechRecognitionActive = false;
+                };
+
+                recognitionInstance.start();
+            }
+        }
+
+        function updateFlashcard() {
+            const item = idiomsData[currentFlashcardIndex];
+            document.getElementById('flash-pl').innerText = item.polish;
+            document.getElementById('flash-en').innerText = item.meaning;
+            document.getElementById('flash-ex').innerText = `„${item.example}”`;
+            
+            document.querySelector('.flashcard-wrapper').classList.remove('flipped');
+        }
+
+        function nextFlashcard() {
+            currentFlashcardIndex = (currentFlashcardIndex + 1) % idiomsData.length;
+            updateFlashcard();
+        }
+
+        function prevFlashcard() {
+            currentFlashcardIndex = (currentFlashcardIndex - 1 + idiomsData.length) % idiomsData.length;
+            updateFlashcard();
+        }
+    </script>
+
+    <!-- Bottom Navigation Back-link -->
+    <footer style="text-align:center;padding:28px 16px;font-family:Arial,sans-serif;"><a href="index.html" style="color:#64748b;font-size:15px;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px;">&larr; Всі уроки</a></footer>
+
+</body>
+</html>
