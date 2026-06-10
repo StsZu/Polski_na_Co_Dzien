@@ -30,7 +30,7 @@
   ],
   "czytanie": [
     { "block": "A. Kto to jest?", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 045", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 045", "audio":"audio/L03/L03-czytanie-01.mp3", "lines":[
         ["Angela","Mami, kto to jest?","Мамі, хто це?"],
         ["Mami","Nie wiem. To jest nowy student.","Не знаю. Це новий студент."],
         ["Angela","Jak masz na imię?","Як тебе звати?"],
@@ -39,7 +39,7 @@
         ["Javier","Jestem z Argentyny. A wy, skąd jesteście?","Я з Аргентини. А ви звідки?"],
         ["Angela","Ja jestem z Anglii. A to jest Mami. Ona jest z Japonii. Mieszka w Tokio.","Я з Англії. А це Мамі. Вона з Японії. Живе в Токіо."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · słownik · трек 046", "lines":[
+      { "type":"dia", "title":"Dialog 2 · słownik · трек 046", "audio":"audio/L03/L03-czytanie-02.mp3", "lines":[
         ["Javier","Cześć Mami. Co słychać?","Привіт, Мамі. Як справи?"],
         ["Mami","Dziękuję, bardzo dobrze. Przepraszam, nie pamiętam, jak masz na imię.","Дякую, дуже добре. Перепрошую, не пам’ятаю, як тебе звати."],
         ["Javier","Javier. J, A, V, I, E, R. Po hiszpańsku „J” czytamy „H”.","Хав’єр. По-іспанськи «J» читаємо «H»."],
@@ -49,9 +49,9 @@
         ["Javier","Dlaczego jest zły?","Чому він поганий?"],
         ["Mami","Bo jest mały. Za mały.","Бо малий. Замалий."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 1 · rzeczy · трек 047",
+      { "type":"ref", "title":"Ćwiczenie 1 · rzeczy · трек 047", "audio":"audio/L03/L03-czytanie-03.mp3",
         "words":"książka · zeszyt · długopis · tablica · krzesło · stół · ołówek · gumka · okno · klucz · kubek · komórka · płyta CD · torba · mapa · segregator" },
-      { "type":"dia", "title":"Ćwiczenie 3 · fotografie · трек 048", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · fotografie · трек 048", "audio":"audio/L03/L03-czytanie-04.mp3", "lines":[
         ["Angela","Co to jest?","Що це?"],
         ["Javier","To jest komórka. W Argentynie model numer jeden.","Це мобільний. В Аргентині модель номер один."],
         ["Angela","A kto to jest?","А хто це?"],
@@ -61,7 +61,7 @@
         ["Angela","A co tam jest?","А що там?"],
         ["Javier","Tam jest palma. To jest fotografia z wakacji, z Brazylii.","Там пальма. Це фото з канікул, із Бразилії."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 3 B · torba · трек 049", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 B · torba · трек 049", "audio":"audio/L03/L03-czytanie-05.mp3", "lines":[
         ["Mami","Angela, co to jest? Torba?","Анджело, що це? Сумка?"],
         ["Angela","Tak, torba. Bardzo modna.","Так, сумка. Дуже модна."],
         ["Mami","I co tam masz?","І що там маєш?"],
@@ -71,7 +71,7 @@
       ]}
     ]},
     { "block": "B. Czy to jest...?", "items": [
-      { "type":"dia", "title":"Dialog 1–3 · трек 050", "lines":[
+      { "type":"dia", "title":"Dialog 1–3 · трек 050", "audio":"audio/L03/L03-czytanie-06.mp3", "lines":[
         ["—","Mami, czy to jest książka?","Мамі, це книжка?"],
         ["Mami","Tak. To jest książka.","Так. Це книжка."],
         ["—","Angela, czy to jest ołówek?","Анджело, це олівець?"],
@@ -81,7 +81,7 @@
       ]}
     ]},
     { "block": "C. Rzeczownik. Jaki? Jaka? Jakie?", "items": [
-      { "type":"dia", "title":"Dialog 1 · rodzaje · трек 051", "lines":[
+      { "type":"dia", "title":"Dialog 1 · rodzaje · трек 051", "audio":"audio/L03/L03-czytanie-07.mp3", "lines":[
         ["Nauczyciel","Wiecie, co to jest rzeczownik?","Знаєте, що таке іменник?"],
         ["—","Nie wiemy.","Не знаємо."],
         ["Nauczyciel","Na przykład: mapa, klucz, okno, paszport.","Наприклад: мапа, ключ, вікно, паспорт."],
@@ -90,7 +90,7 @@
         ["—","Trzy rodzaje? Co to jest?","Три роди? Що це?"],
         ["Nauczyciel","Trzy rodzaje to trzy grupy.","Три роди — це три групи."]
       ]},
-      { "type":"dia", "title":"Dialog 2–4 · jaki/jaka/jakie · трек 052", "lines":[
+      { "type":"dia", "title":"Dialog 2–4 · jaki/jaka/jakie · трек 052", "audio":"audio/L03/L03-czytanie-08.mp3", "lines":[
         ["—","Javier, jaki jest ten słownik?","Хав’єре, який цей словник?"],
         ["Javier","Ten słownik jest dobry. Stary, ale dobry.","Цей словник добрий. Старий, але добрий."],
         ["—","Jaka jest ta torba?","Яка ця сумка?"],
@@ -100,7 +100,7 @@
       ]}
     ]},
     { "block": "D. Kolory", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · kolory · трек 053",
+      { "type":"ref", "title":"Ćwiczenie 1 · kolory · трек 053", "audio":"audio/L03/L03-czytanie-09.mp3",
         "words":"czerwony · niebieski · zielony · fioletowy · czarny · brązowy · żółty · różowy · szary · biały · pomarańczowy",
         "note":"Прочитай кольори вголос." }
     ]}
