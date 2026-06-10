@@ -136,15 +136,15 @@
     ["Назви три об’єкти в місті.","kościół, pomnik, ratusz"]
   ],
   "quiz": [
-    {"topic":"droga","q":"Як спитати, як дійти до аптеки?","o":["Gdzie jest apteka?","Jak dojść do apteki?","Co to jest apteka?","Ile kosztuje apteka?"],"a":1},
-    {"topic":"kierunek","q":"«Skręcić w prawo» означає:","o":["іти прямо","повернути ліворуч","повернути праворуч","перейти дорогу"],"a":2},
-    {"topic":"obiekty","q":"«ratusz» — це:","o":["вежа","ратуша","перехрестя","зупинка"],"a":1},
+    {"topic":"droga","q":"Як спитати, як дійти до аптеки?","o":["Ile kosztuje apteka?","Gdzie jest apteka?","Jak dojść do apteki?","Co to jest apteka?"],"a":2},
+    {"topic":"kierunek","q":"«Skręcić w prawo» означає:","o":["перейти дорогу","іти прямо","повернути ліворуч","повернути праворуч"],"a":3},
+    {"topic":"obiekty","q":"«ratusz» — це:","o":["ратуша","перехрестя","зупинка","вежа"],"a":0},
     {"topic":"iść/chodzić","q":"«Zaraz ___ na quiz.» (один раз, зараз)","o":["chodzę","idę","jeżdżę","jadę"],"a":1},
-    {"topic":"iść/chodzić","q":"«Zwykle ___ na wykłady.» (часто, повторювано)","o":["idę","chodzę","jadę","jedziesz"],"a":1},
-    {"topic":"jechać/jeździć","q":"«Jutro ___ do Nowej Huty.» (один раз, завтра)","o":["jeżdżę","jadę","chodzę","idę"],"a":1},
-    {"topic":"transport","q":"«jechać tramwajem» — який це відмінок?","o":["mianownik","biernik","narzędnik","dopełniacz"],"a":2},
+    {"topic":"iść/chodzić","q":"«Zwykle ___ na wykłady.» (часто, повторювано)","o":["jedziesz","idę","chodzę","jadę"],"a":2},
+    {"topic":"jechać/jeździć","q":"«Jutro ___ do Nowej Huty.» (один раз, завтра)","o":["chodzę","idę","jeżdżę","jadę"],"a":3},
+    {"topic":"transport","q":"«jechać tramwajem» — який це відмінок?","o":["narzędnik","dopełniacz","mianownik","biernik"],"a":0},
     {"topic":"biernik","q":"«Czekam na ___.» (ty)","o":["ty","ciebie","tobie","twój"],"a":1},
     {"topic":"biernik","q":"«Czekamy na ___.» (on)","o":["go","jego","niego","jemu"],"a":2},
-    {"topic":"obiekty","q":"«kościół Mariacki ma dwie ___.»","o":["wieże","rzeki","schody","dzielnice"],"a":0}
+    {"topic":"obiekty","q":"«kościół Mariacki ma dwie ___.»","o":["rzeki","schody","dzielnice","wieże"],"a":3}
   ]
 }

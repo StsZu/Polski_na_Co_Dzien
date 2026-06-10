@@ -154,15 +154,15 @@
     ["Попроси рахунок.","Czy możemy prosić o rachunek?"]
   ],
   "quiz": [
-    {"topic":"замовлення","q":"Після «proszę» вживаємо:","o":["mianownik","biernik","dopełniacz","narzędnik"],"a":1},
+    {"topic":"замовлення","q":"Після «proszę» вживаємо:","o":["narzędnik","mianownik","biernik","dopełniacz"],"a":2},
     {"topic":"замовлення","q":"«Dla mnie ___ z mlekiem» (kawa):","o":["kawę","kawy","kawą","kawa"],"a":3},
-    {"topic":"заперечення","q":"«Lubię białą kawę» → «Nie lubię ___»:","o":["białą kawę","białej kawy","białą kawą","biała kawa"],"a":1},
-    {"topic":"заперечення","q":"Який відмінок після «nie lubię / nie mam»?","o":["biernik","mianownik","dopełniacz","narzędnik"],"a":2},
-    {"topic":"narzędnik","q":"«Idziesz ___ do kina?» (ja):","o":["z mną","ze mną","z mnie","ze mnie"],"a":1},
-    {"topic":"narzędnik","q":"«z tobą» — це форма займенника:","o":["ja","ty","on","wy"],"a":1},
-    {"topic":"narzędnik","q":"«Idę z ___ do szkoły» (oni):","o":["nim","nią","nimi","nami"],"a":2},
+    {"topic":"заперечення","q":"«Lubię białą kawę» → «Nie lubię ___»:","o":["białej kawy","białą kawą","biała kawa","białą kawę"],"a":0},
+    {"topic":"заперечення","q":"Який відмінок після «nie lubię / nie mam»?","o":["mianownik","dopełniacz","narzędnik","biernik"],"a":1},
+    {"topic":"narzędnik","q":"«Idziesz ___ do kina?» (ja):","o":["ze mnie","z mną","ze mną","z mnie"],"a":2},
+    {"topic":"narzędnik","q":"«z tobą» — це форма займенника:","o":["on","wy","ja","ty"],"a":3},
+    {"topic":"narzędnik","q":"«Idę z ___ do szkoły» (oni):","o":["nimi","nami","nim","nią"],"a":0},
     {"topic":"страви","q":"«żurek» — це:","o":["десерт","суп","напій","салат"],"a":1},
     {"topic":"смаки","q":"«Jest za tłusta» означає, що страва:","o":["солона","солодка","занадто жирна","холодна"],"a":2},
-    {"topic":"кав’ярня","q":"«szarlotka» — це:","o":["суп","яблучний пиріг","коктейль","ковбаса"],"a":1}
+    {"topic":"кав’ярня","q":"«szarlotka» — це:","o":["коктейль","ковбаса","суп","яблучний пиріг"],"a":3}
   ]
 }

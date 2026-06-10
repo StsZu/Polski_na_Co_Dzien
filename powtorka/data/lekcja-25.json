@@ -242,12 +242,12 @@
   ],
   "quiz": [
     {"topic":"boli","q":"«У мене болить голова» — це:","o":["Boli mi głowa","Boli mnie głowa","Bolę głowa","Głowa boli mi"],"a":1},
-    {"topic":"boli/bolą","q":"«___ mnie zęby» (множина):","o":["Boli","Bolą","Boleć","Boli się"],"a":1},
-    {"topic":"powinien","q":"Чоловік каже: «Я повинен відпочити»:","o":["Powinnam odpocząć","Powinieneś odpocząć","Powinienem odpocząć","Powinna odpocząć"],"a":2},
-    {"topic":"powinien","q":"«Ona ___ pić dużo wody»:","o":["powinien","powinna","powinienem","powinni"],"a":1},
-    {"topic":"u lekarza","q":"Офіційне питання лікаря:","o":["Co ci jest?","Co masz?","Co panu dolega?","Jak masz na imię?"],"a":2},
-    {"topic":"objawy","q":"«katar, kaszel i temperatura» — людина:","o":["złamała nogę","jest przeziębiona","ma dwie lewe ręce","leży do góry brzuchem"],"a":1},
-    {"topic":"idiomy","q":"«złota rączka» означає:","o":["лінивець","майстер на всі руки","багата людина","невмійко"],"a":1},
+    {"topic":"boli/bolą","q":"«___ mnie zęby» (множина):","o":["Boli się","Boli","Bolą","Boleć"],"a":2},
+    {"topic":"powinien","q":"Чоловік каже: «Я повинен відпочити»:","o":["Powinna odpocząć","Powinnam odpocząć","Powinieneś odpocząć","Powinienem odpocząć"],"a":3},
+    {"topic":"powinien","q":"«Ona ___ pić dużo wody»:","o":["powinna","powinienem","powinni","powinien"],"a":0},
+    {"topic":"u lekarza","q":"Офіційне питання лікаря:","o":["Co masz?","Co panu dolega?","Jak masz na imię?","Co ci jest?"],"a":1},
+    {"topic":"objawy","q":"«katar, kaszel i temperatura» — людина:","o":["leży do góry brzuchem","złamała nogę","jest przeziębiona","ma dwie lewe ręce"],"a":2},
+    {"topic":"idiomy","q":"«złota rączka» означає:","o":["багата людина","невмійко","лінивець","майстер на всі руки"],"a":3},
     {"topic":"idiomy","q":"«strach ma wielkie oczy» — це:","o":["у страху великі очі","око за око","віч-на-віч","догори ногами"],"a":0},
     {"topic":"specjaliści","q":"Хто лікує очі?","o":["kardiolog","okulista","laryngolog","ortopeda"],"a":1},
     {"topic":"u dentysty","q":"«ósemka» (ząb mądrości) — це зуб номер:","o":["6","7","8","9"],"a":2}

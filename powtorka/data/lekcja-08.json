@@ -220,15 +220,15 @@
     ["Побажай смачного.","Smacznego!"]
   ],
   "quiz": [
-    {"topic":"posiłki","q":"Який прийом їжі — «śniadanie»?","o":["обід","вечеря","сніданок","перекус"],"a":2},
+    {"topic":"posiłki","q":"Який прийом їжі — «śniadanie»?","o":["сніданок","перекус","обід","вечеря"],"a":0},
     {"topic":"preferencje","q":"«Wolę kawę ___ herbatę.» (надаю перевагу)","o":["jak","niż","czy","i"],"a":1},
     {"topic":"jeść","q":"«Oni ___ chleb z szynką.» (jeść)","o":["jem","jesz","jedzą","jecie"],"a":2},
-    {"topic":"pić","q":"«Ja ___ kawę.» (pić)","o":["piję","pijesz","pije","piją"],"a":0},
-    {"topic":"narzędnik","q":"«Jem chleb z ___.» (masło)","o":["masło","masła","masłem","maśle"],"a":2},
+    {"topic":"pić","q":"«Ja ___ kawę.» (pić)","o":["pijesz","pije","piją","piję"],"a":3},
+    {"topic":"narzędnik","q":"«Jem chleb z ___.» (masło)","o":["masłem","maśle","masło","masła"],"a":0},
     {"topic":"przymiotnik","q":"Сік з малини — це sok…","o":["malina","malinowy","malinami","malinę"],"a":1},
-    {"topic":"narzędnik l. mn.","q":"«sałatka z ___» (pomidory)","o":["pomidory","pomidorami","pomidorów","pomidorem"],"a":1},
-    {"topic":"kawa","q":"«Biała kawa» — це кава:","o":["без цукру","з молоком","з лимоном","зелена"],"a":1},
-    {"topic":"słownictwo","q":"«widelec» — це:","o":["ложка","ніж","виделка","тарілка"],"a":2},
-    {"topic":"obiad","q":"«zupa» на обід — це:","o":["pierwsze danie","drugie danie","deser","napój"],"a":0}
+    {"topic":"narzędnik l. mn.","q":"«sałatka z ___» (pomidory)","o":["pomidorem","pomidory","pomidorami","pomidorów"],"a":2},
+    {"topic":"kawa","q":"«Biała kawa» — це кава:","o":["з лимоном","зелена","без цукру","з молоком"],"a":3},
+    {"topic":"słownictwo","q":"«widelec» — це:","o":["виделка","тарілка","ложка","ніж"],"a":0},
+    {"topic":"obiad","q":"«zupa» на обід — це:","o":["napój","pierwsze danie","drugie danie","deser"],"a":1}
   ]
 }

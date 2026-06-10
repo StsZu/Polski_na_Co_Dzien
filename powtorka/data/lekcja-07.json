@@ -168,15 +168,15 @@
     ["Скажи: я готую томатний суп.","Gotuję zupę pomidorową."]
   ],
   "quiz": [
-    {"topic":"biernik","q":"«Mam ___ listę.» (długa) — який варіант?","o":["długa","długą","długi","długie"],"a":1},
-    {"topic":"biernik","q":"«Mam inteligentnego ___.» (brat)","o":["brat","bratem","brata","bracie"],"a":2},
-    {"topic":"biernik","q":"Чол. неживий рід у biernik: «Mam wolny ___» (czas)","o":["czasu","czasem","czas","czasie"],"a":2},
-    {"topic":"czasowniki","q":"«Czytam ___» (gazeta)","o":["gazeta","gazetą","gazety","gazetę"],"a":3},
-    {"topic":"czy jest","q":"У кіоску немає товару. Продавець каже:","o":["Tak, jest","Nie ma","Czy coś jeszcze?","Słucham"],"a":1},
-    {"topic":"ceny","q":"«2 ___ 50 groszy» — який варіант?","o":["złoty","złote","złotych","złotem"],"a":1},
-    {"topic":"ceny","q":"«99 złotych 99 ___» — після 99:","o":["grosz","grosze","groszy","groszem"],"a":2},
-    {"topic":"liczby","q":"Як по-польськи «700»?","o":["siedemset","sześćset","osiemset","siedemdziesiąt"],"a":0},
-    {"topic":"liczby","q":"«dwieście» — це число:","o":["100","200","300","2000"],"a":1},
-    {"topic":"zakupy","q":"Де Мамі може обміняти євро на злоті?","o":["w drogerii","w kantorze","w piekarni","w aptece"],"a":1}
+    {"topic":"biernik","q":"«Mam ___ listę.» (długa) — який варіант?","o":["długi","długie","długa","długą"],"a":3},
+    {"topic":"biernik","q":"«Mam inteligentnego ___.» (brat)","o":["brata","bracie","brat","bratem"],"a":0},
+    {"topic":"biernik","q":"Чол. неживий рід у biernik: «Mam wolny ___» (czas)","o":["czasem","czas","czasie","czasu"],"a":1},
+    {"topic":"czasowniki","q":"«Czytam ___» (gazeta)","o":["gazetą","gazety","gazetę","gazeta"],"a":2},
+    {"topic":"czy jest","q":"У кіоску немає товару. Продавець каже:","o":["Czy coś jeszcze?","Słucham","Tak, jest","Nie ma"],"a":3},
+    {"topic":"ceny","q":"«2 ___ 50 groszy» — який варіант?","o":["złote","złotych","złotem","złoty"],"a":0},
+    {"topic":"ceny","q":"«99 złotych 99 ___» — після 99:","o":["grosze","groszy","groszem","grosz"],"a":1},
+    {"topic":"liczby","q":"Як по-польськи «700»?","o":["osiemset","siedemdziesiąt","siedemset","sześćset"],"a":2},
+    {"topic":"liczby","q":"«dwieście» — це число:","o":["300","2000","100","200"],"a":3},
+    {"topic":"zakupy","q":"Де Мамі може обміняти євро на злоті?","o":["w kantorze","w piekarni","w aptece","w drogerii"],"a":0}
   ]
 }

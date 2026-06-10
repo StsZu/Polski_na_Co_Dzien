@@ -187,14 +187,14 @@
   ],
   "quiz": [
     {"topic":"koniugacja","q":"«Ja ___ książkę» (czytać):","o":["czytasz","czyta","czytam","czytacie"],"a":2},
-    {"topic":"koniugacja","q":"«Co ty ___?» (robić):","o":["robię","robisz","robi","robimy"],"a":1},
-    {"topic":"czasownik","q":"«Nudzę się» означає:","o":["я працюю","мені нудно","я готую","я подорожую"],"a":1},
+    {"topic":"koniugacja","q":"«Co ty ___?» (robić):","o":["robi","robimy","robię","robisz"],"a":3},
+    {"topic":"czasownik","q":"«Nudzę się» означає:","o":["мені нудно","я готую","я подорожую","я працюю"],"a":0},
     {"topic":"lubię","q":"Після «lubię» вживаємо:","o":["іменник у formie -ę","інфінітив (tańczyć)","минулий час","jest"],"a":1},
-    {"topic":"mój/moja","q":"«___ mama jest w Japonii»:","o":["Mój","Moja","Moje","Moi"],"a":1},
-    {"topic":"mój/moja","q":"«To jest ___ tata» (męski):","o":["moja","moje","mój","moi"],"a":2},
-    {"topic":"hobby","q":"«robić zakupy» — це:","o":["фотографувати","робити покупки","готувати","подорожувати"],"a":1},
+    {"topic":"mój/moja","q":"«___ mama jest w Japonii»:","o":["Moi","Mój","Moja","Moje"],"a":2},
+    {"topic":"mój/moja","q":"«To jest ___ tata» (męski):","o":["moi","moja","moje","mój"],"a":3},
+    {"topic":"hobby","q":"«robić zakupy» — це:","o":["робити покупки","готувати","подорожувати","фотографувати"],"a":0},
     {"topic":"umieć","q":"«Umiesz gotować?» питає:","o":["чи любиш готувати","чи вмієш готувати","чи готуєш зараз","де готуєш"],"a":1},
-    {"topic":"czasownik","q":"«piszę» — це від дієслова:","o":["pić","pisać","prosić","pływać"],"a":1},
-    {"topic":"koniugacja","q":"«On ___ stare zdjęcia» (oglądać):","o":["oglądam","oglądasz","ogląda","oglądają"],"a":2}
+    {"topic":"czasownik","q":"«piszę» — це від дієслова:","o":["pływać","pić","pisać","prosić"],"a":2},
+    {"topic":"koniugacja","q":"«On ___ stare zdjęcia» (oglądać):","o":["oglądają","oglądam","oglądasz","ogląda"],"a":3}
   ]
 }

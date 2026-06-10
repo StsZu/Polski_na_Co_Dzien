@@ -146,15 +146,15 @@
     ["Спитай, з якого перону відходить поїзд.","Z którego peronu odjeżdża pociąg?"]
   ],
   "quiz": [
-    {"topic":"kierunki","q":"«na zachodzie» — це:","o":["на півночі","на півдні","на сході","на заході"],"a":3},
+    {"topic":"kierunki","q":"«na zachodzie» — це:","o":["на заході","на півночі","на півдні","на сході"],"a":0},
     {"topic":"geografia","q":"Найдовша річка Польщі — це:","o":["Odra","Wisła","Dunajec","Bałtyk"],"a":1},
     {"topic":"geografia","q":"Столиця Польщі:","o":["Kraków","Wrocław","Warszawa","Gdańsk"],"a":2},
-    {"topic":"bilety","q":"«Bilet ulgowy» — це квиток:","o":["туди й назад","повний за 100%","зі знижкою","на Intercity"],"a":2},
-    {"topic":"pociągi","q":"Найшвидший поїзд із резервацією місць:","o":["osobowy","pospieszny","Intercity","bezpośredni"],"a":2},
+    {"topic":"bilety","q":"«Bilet ulgowy» — це квиток:","o":["на Intercity","туди й назад","повний за 100%","зі знижкою"],"a":3},
+    {"topic":"pociągi","q":"Найшвидший поїзд із резервацією місць:","o":["Intercity","bezpośredni","osobowy","pospieszny"],"a":0},
     {"topic":"przyimki","q":"«Jestem ___ Krakowie.» (де?)","o":["do","w","na","nad"],"a":1},
-    {"topic":"przyimki","q":"«Jadę ___ Tatry.» (куди?)","o":["w","do","na","nad"],"a":0},
-    {"topic":"przyimki","q":"«Mami jest ___ dworcu.»","o":["w","do","na","nad"],"a":2},
-    {"topic":"granice","q":"Polska graniczy ze Słowacją na:","o":["północy","południu","wschodzie","zachodzie"],"a":1},
-    {"topic":"dworzec","q":"«Miejscówka» — це:","o":["пересадка","пільга","резервація місця","купе"],"a":2}
+    {"topic":"przyimki","q":"«Jadę ___ Tatry.» (куди?)","o":["na","nad","w","do"],"a":2},
+    {"topic":"przyimki","q":"«Mami jest ___ dworcu.»","o":["nad","w","do","na"],"a":3},
+    {"topic":"granice","q":"Polska graniczy ze Słowacją na:","o":["południu","wschodzie","zachodzie","północy"],"a":0},
+    {"topic":"dworzec","q":"«Miejscówka» — це:","o":["пільга","резервація місця","купе","пересадка"],"a":1}
   ]
 }

@@ -159,12 +159,12 @@
     {"topic":"być","q":"Mami каже про себе: «Я була в кіно». Як правильно?","o":["Byłem w kinie","Byłam w kinie","Był w kinie","Byliśmy w kinie"],"a":1},
     {"topic":"być","q":"Чоловік про себе: «Я був у Варшаві»:","o":["Byłam","Byłeś","Byłem","Był"],"a":2},
     {"topic":"rodzaj","q":"«Weekend ___ świetny.» (być, мин. час)","o":["była","było","byli","był"],"a":3},
-    {"topic":"liczba mnoga","q":"Мішана група: «Ми ___ na treningu.»","o":["byłem","byłyśmy","byliśmy","byliście"],"a":2},
+    {"topic":"liczba mnoga","q":"Мішана група: «Ми ___ na treningu.»","o":["byliśmy","byliście","byłem","byłyśmy"],"a":0},
     {"topic":"rodzaj żeński","q":"Тільки дівчата: «Dziewczyny ___ w kinie.»","o":["byli","były","byliśmy","był"],"a":1},
-    {"topic":"czasownik","q":"«robić» у минулому, я (жінка):","o":["robiłem","robiłam","robiłaś","robił"],"a":1},
-    {"topic":"pytanie","q":"Як спитати хлопця «Де ти був?»","o":["Gdzie byłaś?","Gdzie byłeś?","Gdzie był?","Gdzie byliście?"],"a":1},
-    {"topic":"słownictwo","q":"«Smakowała ci czekolada?» — питання про:","o":["погоду","смак (чи смакувало)","ціну","час"],"a":1},
+    {"topic":"czasownik","q":"«robić» у минулому, я (жінка):","o":["robił","robiłem","robiłam","robiłaś"],"a":2},
+    {"topic":"pytanie","q":"Як спитати хлопця «Де ти був?»","o":["Gdzie był?","Gdzie byliście?","Gdzie byłaś?","Gdzie byłeś?"],"a":3},
+    {"topic":"słownictwo","q":"«Smakowała ci czekolada?» — питання про:","o":["смак (чи смакувало)","ціну","час","погоду"],"a":0},
     {"topic":"czasownik","q":"«My (kobiety) ___ zdjęcia.» (robić)","o":["robiliśmy","robiłyśmy","robili","robił"],"a":1},
-    {"topic":"być","q":"«Czy ___ w Krakowie?» (ви, мин. час)","o":["byliście","byłem","była","było"],"a":0}
+    {"topic":"być","q":"«Czy ___ w Krakowie?» (ви, мин. час)","o":["była","było","byliście","byłem"],"a":2}
   ]
 }

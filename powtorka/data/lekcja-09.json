@@ -190,14 +190,14 @@
   ],
   "quiz": [
     {"topic":"biernik","q":"«Lubisz ___?» (marchewka)","o":["marchewka","marchewkę","marchewki","marchewką"],"a":1},
-    {"topic":"owoce","q":"«truskawka» — це:","o":["слива","полуниця","малина","вишня"],"a":1},
-    {"topic":"warzywa","q":"«czosnek» — це:","o":["цибуля","часник","петрушка","перець"],"a":1},
-    {"topic":"smak","q":"«kwaśny jak ___»:","o":["cukier","sól","cytryna","kawa"],"a":2},
+    {"topic":"owoce","q":"«truskawka» — це:","o":["вишня","слива","полуниця","малина"],"a":2},
+    {"topic":"warzywa","q":"«czosnek» — це:","o":["петрушка","перець","цибуля","часник"],"a":3},
+    {"topic":"smak","q":"«kwaśny jak ___»:","o":["cytryna","kawa","cukier","sól"],"a":0},
     {"topic":"liczba mnoga","q":"Множина від «jabłko»:","o":["jabłki","jabłka","jabłke","jabłky"],"a":1},
     {"topic":"liczba mnoga","q":"Множина від «cebula»:","o":["cebuly","cebula","cebule","cebuli"],"a":2},
-    {"topic":"przymiotnik","q":"«To są ___ pomidory.» (dojrzały)","o":["dojrzały","dojrzała","dojrzałe","dojrzali"],"a":2},
-    {"topic":"zakupy","q":"Хочеш спитати про ціну. Кажеш:","o":["Czy to wszystko?","Ile kosztują?","Może być więcej?","Czy są drobne?"],"a":1},
-    {"topic":"gotowanie","q":"«wędzona ryba» — це риба:","o":["варена","смажена","копчена","тушкована"],"a":2},
+    {"topic":"przymiotnik","q":"«To są ___ pomidory.» (dojrzały)","o":["dojrzali","dojrzały","dojrzała","dojrzałe"],"a":3},
+    {"topic":"zakupy","q":"Хочеш спитати про ціну. Кажеш:","o":["Ile kosztują?","Może być więcej?","Czy są drobne?","Czy to wszystko?"],"a":0},
+    {"topic":"gotowanie","q":"«wędzona ryba» — це риба:","o":["смажена","копчена","тушкована","варена"],"a":1},
     {"topic":"kształt","q":"«owalny» — це форма:","o":["кругла","видовжена","овальна","квадратна"],"a":2}
   ]
 }

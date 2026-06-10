@@ -165,15 +165,15 @@
     ["Спитай друга, що він робить о восьмій.","Co robisz o ósmej?"]
   ],
   "quiz": [
-    {"topic":"zaproszenie","q":"Як запросити: «Маєш бажання піти на спектакль?»","o":["Gdzie jest spektakl?","Masz ochotę pójść na spektakl?","Co to jest spektakl?","Lubisz spektakl?"],"a":1},
+    {"topic":"zaproszenie","q":"Як запросити: «Маєш бажання піти на спектакль?»","o":["Masz ochotę pójść na spektakl?","Co to jest spektakl?","Lubisz spektakl?","Gdzie jest spektakl?"],"a":0},
     {"topic":"reakcja","q":"Ввічлива згода на запрошення:","o":["Niestety, nie mam czasu","Chętnie, dziękuję za zaproszenie","Nie wiem","Co to znaczy?"],"a":1},
-    {"topic":"do/na","q":"«Idę ___ kina ___ film.»","o":["na ... do","do ... na","do ... do","na ... na"],"a":1},
-    {"topic":"do/na","q":"Оберіть правильно: піти на каву —","o":["do kawy","na kawę","w kawę","o kawie"],"a":1},
-    {"topic":"godzina","q":"Котра година — «ósma»?","o":["6:00","7:00","8:00","18:00"],"a":2},
+    {"topic":"do/na","q":"«Idę ___ kina ___ film.»","o":["na ... na","na ... do","do ... na","do ... do"],"a":2},
+    {"topic":"do/na","q":"Оберіть правильно: піти на каву —","o":["w kawę","o kawie","do kawy","na kawę"],"a":3},
+    {"topic":"godzina","q":"Котра година — «ósma»?","o":["8:00","18:00","6:00","7:00"],"a":0},
     {"topic":"godzina","q":"«O której godzinie?» — після «o» година стоїть у формі:","o":["ósma","ósmej","ósmą","ósme"],"a":1},
-    {"topic":"godzina","q":"13:30 неофіційно — це:","o":["wpół do drugiej","za piętnaście druga","kwadrans po pierwszej","trzynasta trzydzieści"],"a":0},
-    {"topic":"godzina","q":"«Za piętnaście druga» — це котра година?","o":["1:15","1:45","2:15","2:45"],"a":1},
-    {"topic":"dni tygodnia","q":"Третій день тижня — це:","o":["wtorek","środa","czwartek","piątek"],"a":1},
+    {"topic":"godzina","q":"13:30 неофіційно — це:","o":["kwadrans po pierwszej","trzynasta trzydzieści","wpół do drugiej","za piętnaście druga"],"a":2},
+    {"topic":"godzina","q":"«Za piętnaście druga» — це котра година?","o":["2:15","2:45","1:15","1:45"],"a":3},
+    {"topic":"dni tygodnia","q":"Третій день тижня — це:","o":["środa","czwartek","piątek","wtorek"],"a":0},
     {"topic":"dni tygodnia","q":"«У неділю» по-польськи —","o":["w niedziela","w niedzielę","na niedzielę","o niedzieli"],"a":1}
   ]
 }

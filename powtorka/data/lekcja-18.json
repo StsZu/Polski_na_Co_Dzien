@@ -115,14 +115,14 @@
   ],
   "quiz": [
     {"topic":"mieszkanie","q":"На якому поверсі живе родина Май?","o":["на другому","на третьому","на четвертому","на п’ятому"],"a":2},
-    {"topic":"miejscownik","q":"«sklep» у місцевнику — це:","o":["w sklepu","w sklepie","w sklepy","na sklepie"],"a":1},
-    {"topic":"miejscownik","q":"«stół» у місцевнику:","o":["na stółe","na stole","na stołu","w stole"],"a":1},
+    {"topic":"miejscownik","q":"«sklep» у місцевнику — це:","o":["w sklepy","na sklepie","w sklepu","w sklepie"],"a":3},
+    {"topic":"miejscownik","q":"«stół» у місцевнику:","o":["na stole","na stołu","w stole","na stółe"],"a":0},
     {"topic":"miejscownik","q":"«Polska» у місцевнику:","o":["w Polsku","w Polsce","w Polski","na Polsce"],"a":1},
-    {"topic":"przyimki","q":"З якою категорією вживаємо «na»?","o":["країна","місто","будівля","площа / активність"],"a":3},
-    {"topic":"czasowniki","q":"«Obraz ___ w salonie.» (висить)","o":["stoi","leży","wisi","jest"],"a":2},
+    {"topic":"przyimki","q":"З якою категорією вживаємо «na»?","o":["місто","будівля","площа / активність","країна"],"a":2},
+    {"topic":"czasowniki","q":"«Obraz ___ w salonie.» (висить)","o":["jest","stoi","leży","wisi"],"a":3},
     {"topic":"czasowniki","q":"«Lodówka ___ w kuchni.» (стоїть)","o":["stoi","leży","wisi","siedzi"],"a":0},
-    {"topic":"o + czym","q":"«Mami myśli ___ Japonii.»","o":["w","na","o","po"],"a":2},
-    {"topic":"l.mnoga","q":"«góry» у місцевнику множини:","o":["w góry","w górach","na górze","w górów"],"a":1},
-    {"topic":"po + czym","q":"«Jeżdżą ___ Polsce.» (по)","o":["w","na","po","przy"],"a":2}
+    {"topic":"o + czym","q":"«Mami myśli ___ Japonii.»","o":["na","o","po","w"],"a":1},
+    {"topic":"l.mnoga","q":"«góry» у місцевнику множини:","o":["w górów","w góry","w górach","na górze"],"a":2},
+    {"topic":"po + czym","q":"«Jeżdżą ___ Polsce.» (по)","o":["przy","w","na","po"],"a":3}
   ]
 }

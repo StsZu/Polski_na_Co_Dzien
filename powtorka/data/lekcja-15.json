@@ -224,15 +224,15 @@
     ["Відмов ввічливо на прохання.","Przykro mi, ale nie. / Niestety, nie mam czasu."]
   ],
   "quiz": [
-    {"topic":"opakowania","q":"Як назвати скляну банку джему?","o":["puszka dżemu","słoik dżemu","karton dżemu","butelka dżemu"],"a":1},
-    {"topic":"dopełniacz mn.","q":"«pięć ___ wody» (butelka):","o":["butelka","butelki","butelek","butelką"],"a":2},
+    {"topic":"opakowania","q":"Як назвати скляну банку джему?","o":["karton dżemu","butelka dżemu","puszka dżemu","słoik dżemu"],"a":3},
+    {"topic":"dopełniacz mn.","q":"«pięć ___ wody» (butelka):","o":["butelek","butelką","butelka","butelki"],"a":0},
     {"topic":"liczebniki","q":"Правильно: «2 ___ soku»","o":["karton","kartony","kartonów","kartonami"],"a":1},
     {"topic":"liczebniki","q":"Правильно: «5 ___ soku»","o":["karton","kartony","kartonów","kartonem"],"a":2},
-    {"topic":"ile","q":"«dużo studentów» — слово «dużo» вимагає:","o":["mianownika","dopełniacza","biernika","narzędnika"],"a":1},
-    {"topic":"miary","q":"«pół kilo» сиру по-польськи:","o":["pół kilo ser","pół kilo sera","pół kilo serze","pół kilo serem"],"a":1},
+    {"topic":"ile","q":"«dużo studentów» — слово «dużo» вимагає:","o":["biernika","narzędnika","mianownika","dopełniacza"],"a":3},
+    {"topic":"miary","q":"«pół kilo» сиру по-польськи:","o":["pół kilo sera","pół kilo serze","pół kilo serem","pół kilo ser"],"a":0},
     {"topic":"poczta","q":"«list polecony» — це:","o":["авіалист","рекомендований лист","листівка","конверт"],"a":1},
-    {"topic":"poczta","q":"Хто розносить листи?","o":["urzędnik","listonosz","sprzedawca","sąsiad"],"a":1},
-    {"topic":"prośba","q":"Ввічлива відмова на прохання:","o":["Chętnie","Z przyjemnością","Przykro mi, ale nie","Nie ma sprawy"],"a":2},
+    {"topic":"poczta","q":"Хто розносить листи?","o":["sąsiad","urzędnik","listonosz","sprzedawca"],"a":2},
+    {"topic":"prośba","q":"Ввічлива відмова на прохання:","o":["Nie ma sprawy","Chętnie","Z przyjemnością","Przykro mi, ale nie"],"a":3},
     {"topic":"zaimki","q":"«Szukam ___ wszędzie» (on, телефон):","o":["go","jego","niego","mu"],"a":0}
   ]
 }

@@ -146,15 +146,15 @@
     ["Скажи: це не олівець, це ручка.","To nie jest ołówek, to jest długopis."]
   ],
   "quiz": [
-    {"topic":"kto/co","q":"Щоб спитати про річ, кажемо:","o":["Kto to jest?","Co to jest?","Gdzie to jest?","Jak to jest?"],"a":1},
-    {"topic":"rodzaj","q":"«torba» якого роду?","o":["męski (ten)","żeński (ta)","nijaki (to)","—"],"a":1},
-    {"topic":"rodzaj","q":"«radio» — який рід?","o":["ten","ta","to","ci"],"a":2},
-    {"topic":"przymiotnik","q":"«Ta torba jest ___» (duży):","o":["duży","duża","duże","dużo"],"a":1},
-    {"topic":"rzeczy","q":"«ołówek» — це:","o":["ручка","олівець","зошит","ключ"],"a":1},
-    {"topic":"kolory","q":"«zielony» — це колір:","o":["червоний","зелений","синій","жовтий"],"a":1},
+    {"topic":"kto/co","q":"Щоб спитати про річ, кажемо:","o":["Gdzie to jest?","Jak to jest?","Kto to jest?","Co to jest?"],"a":3},
+    {"topic":"rodzaj","q":"«torba» якого роду?","o":["żeński (ta)","nijaki (to)","—","męski (ten)"],"a":0},
+    {"topic":"rodzaj","q":"«radio» — який рід?","o":["ta","to","ci","ten"],"a":1},
+    {"topic":"przymiotnik","q":"«Ta torba jest ___» (duży):","o":["dużo","duży","duża","duże"],"a":2},
+    {"topic":"rzeczy","q":"«ołówek» — це:","o":["зошит","ключ","ручка","олівець"],"a":3},
+    {"topic":"kolory","q":"«zielony» — це колір:","o":["зелений","синій","жовтий","червоний"],"a":0},
     {"topic":"kolory","q":"Як по-польськи «червоний»?","o":["czarny","czerwony","żółty","szary"],"a":1},
-    {"topic":"mieć","q":"«Ja ___ długopis.» (mieć)","o":["mam","masz","ma","mamy"],"a":0},
-    {"topic":"jaki","q":"Чоловічий іменник: «___ jest ten słownik?»","o":["Jaki","Jaka","Jakie","Jak"],"a":0},
-    {"topic":"rzeczownik","q":"Скільки родів має польський іменник?","o":["два","три","чотири","сім"],"a":1}
+    {"topic":"mieć","q":"«Ja ___ długopis.» (mieć)","o":["ma","mamy","mam","masz"],"a":2},
+    {"topic":"jaki","q":"Чоловічий іменник: «___ jest ten słownik?»","o":["Jaka","Jakie","Jak","Jaki"],"a":3},
+    {"topic":"rzeczownik","q":"Скільки родів має польський іменник?","o":["три","чотири","сім","два"],"a":0}
   ]
 }

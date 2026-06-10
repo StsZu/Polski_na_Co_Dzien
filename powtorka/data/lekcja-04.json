@@ -120,15 +120,15 @@
     ["Скажи: я впевнений, що вона приваблива.","Jestem pewny, że ona jest atrakcyjna."]
   ],
   "quiz": [
-    {"topic":"przymiotnik","q":"«Mami jest ___» (sumna, жін. рід):","o":["smutny","smutna","smutne","smutni"],"a":1},
+    {"topic":"przymiotnik","q":"«Mami jest ___» (sumna, жін. рід):","o":["smutna","smutne","smutni","smutny"],"a":0},
     {"topic":"opis","q":"«wysportowany» означає:","o":["втомлений","спортивний","лінивий","хворий"],"a":1},
-    {"topic":"skąd","q":"«Skąd jesteś?» питає про:","o":["ім’я","звідки ти","вік","адресу"],"a":1},
-    {"topic":"odmiana","q":"«Jestem ___ Francji.» (з Франції)","o":["w","z","na","do"],"a":1},
-    {"topic":"mieszkać","q":"«Mieszkam ___ Krakowie.»","o":["z","w","po","na"],"a":1},
-    {"topic":"mówić","q":"«Mówię ___ polsku.»","o":["w","z","po","na"],"a":2},
-    {"topic":"frazy","q":"Хтось питає «Co słychać?». Відповідь:","o":["Wszystko w porządku","Do widzenia","Nie wiem","Gdzie jest?"],"a":0},
-    {"topic":"opis","q":"«leniwy» — це:","o":["працьовитий","лінивий","веселий","молодий"],"a":1},
-    {"topic":"internacjonalizmy","q":"«inteligentny» означає:","o":["агресивний","розумний","сумний","брудний"],"a":1},
+    {"topic":"skąd","q":"«Skąd jesteś?» питає про:","o":["адресу","ім’я","звідки ти","вік"],"a":2},
+    {"topic":"odmiana","q":"«Jestem ___ Francji.» (з Франції)","o":["na","do","w","z"],"a":3},
+    {"topic":"mieszkać","q":"«Mieszkam ___ Krakowie.»","o":["w","po","na","z"],"a":0},
+    {"topic":"mówić","q":"«Mówię ___ polsku.»","o":["z","po","na","w"],"a":1},
+    {"topic":"frazy","q":"Хтось питає «Co słychać?». Відповідь:","o":["Nie wiem","Gdzie jest?","Wszystko w porządku","Do widzenia"],"a":2},
+    {"topic":"opis","q":"«leniwy» — це:","o":["веселий","молодий","працьовитий","лінивий"],"a":3},
+    {"topic":"internacjonalizmy","q":"«inteligentny» означає:","o":["розумний","сумний","брудний","агресивний"],"a":0},
     {"topic":"rodzaj","q":"Чоловік: «Jaki jesteś?», жінка: «___ jesteś?»","o":["Jaki","Jaka","Jakie","Jak"],"a":1}
   ]
 }

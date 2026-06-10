@@ -171,15 +171,15 @@
     ["Скажи: ваза стоїть на самому верху ліворуч.","Wazon stoi na samej górze po lewej stronie."]
   ],
   "quiz": [
-    {"topic":"przyimek","q":"«Kanapa stoi ___ środku pokoju.»","o":["na","w","przy","za"],"a":0},
-    {"topic":"przypadek","q":"«Telewizor wisi nad ___» (sofa). Який відмінок?","o":["sofa","sofą","sofie","sofy"],"a":1},
-    {"topic":"przyimek","q":"«Książki leżą ___ regale.» Який прийменник?","o":["na","nad","obok","przed"],"a":0},
+    {"topic":"przyimek","q":"«Kanapa stoi ___ środku pokoju.»","o":["w","przy","za","na"],"a":3},
+    {"topic":"przypadek","q":"«Telewizor wisi nad ___» (sofa). Який відмінок?","o":["sofą","sofie","sofy","sofa"],"a":0},
+    {"topic":"przyimek","q":"«Książki leżą ___ regale.» Який прийменник?","o":["przed","na","nad","obok"],"a":1},
     {"topic":"przypadek","q":"«Szafa stoi przy ___» (ściana).","o":["ściana","ścianą","ścianie","ściany"],"a":2},
-    {"topic":"przyimek","q":"«obok» і «koło» вимагають відмінка:","o":["Mianownik","Dopełniacz","Miejscownik","Narzędnik"],"a":1},
-    {"topic":"słownictwo","q":"«kawalerka» — це:","o":["великий будинок","однокімнатна квартира","балкон","кухня"],"a":1},
+    {"topic":"przyimek","q":"«obok» і «koło» вимагають відмінка:","o":["Miejscownik","Narzędnik","Mianownik","Dopełniacz"],"a":3},
+    {"topic":"słownictwo","q":"«kawalerka» — це:","o":["однокімнатна квартира","балкон","кухня","великий будинок"],"a":0},
     {"topic":"szukanie","q":"Як спитати про ціну квартири?","o":["Czym można dojechać?","W jakiej cenie jest mieszkanie?","Od kiedy?","Czy jest umeblowane?"],"a":1},
-    {"topic":"słownictwo","q":"«parter» — це поверх:","o":["перший (наземний)","другий","останній","підвал"],"a":0},
-    {"topic":"przypadek","q":"«na, w, przy» вимагають відмінка:","o":["Dopełniacz","Narzędnik","Miejscownik","Biernik"],"a":2},
-    {"topic":"słownictwo","q":"«mieszkanie samodzielne» означає:","o":["з сусідами","окреме, без сусідів","з балконом","на першому поверсі"],"a":1}
+    {"topic":"słownictwo","q":"«parter» — це поверх:","o":["останній","підвал","перший (наземний)","другий"],"a":2},
+    {"topic":"przypadek","q":"«na, w, przy» вимагають відмінка:","o":["Biernik","Dopełniacz","Narzędnik","Miejscownik"],"a":3},
+    {"topic":"słownictwo","q":"«mieszkanie samodzielne» означає:","o":["окреме, без сусідів","з балконом","на першому поверсі","з сусідами"],"a":0}
   ]
 }

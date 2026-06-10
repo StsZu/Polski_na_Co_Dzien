@@ -159,15 +159,15 @@
     ["Опиши, що на тобі зараз: маю на собі сорочку й штани.","Mam na sobie koszulę i spodnie."]
   ],
   "quiz": [
-    {"topic":"stopniowanie","q":"Вищий ступінь від «gruby»:","o":["grubejszy","grubszy","najgrubszy","bardziej gruby"],"a":1},
-    {"topic":"stopniowanie","q":"Найвищий ступінь від «dobry»:","o":["lepszy","dobrszy","najlepszy","najdobrzejszy"],"a":2},
+    {"topic":"stopniowanie","q":"Вищий ступінь від «gruby»:","o":["najgrubszy","bardziej gruby","grubejszy","grubszy"],"a":3},
+    {"topic":"stopniowanie","q":"Найвищий ступінь від «dobry»:","o":["najlepszy","najdobrzejszy","lepszy","dobrszy"],"a":0},
     {"topic":"porównanie","q":"«Ten sweter jest grubszy ___ mój.» (порівняння через mianownik):","o":["od","niż","ze","jak"],"a":1},
     {"topic":"porównanie","q":"«Ten sweter jest najgrubszy ___ wszystkich.»","o":["niż","od","ze","do"],"a":2},
-    {"topic":"za+przymiotnik","q":"Туфлі тиснуть, вони замалі. Кажеш:","o":["Są w sam raz","Są za małe","Są za duże","Są idealne"],"a":1},
+    {"topic":"za+przymiotnik","q":"Туфлі тиснуть, вони замалі. Кажеш:","o":["Są za duże","Są idealne","Są w sam raz","Są za małe"],"a":3},
     {"topic":"zakupy","q":"Хочеш приміряти жакет. Кажеш:","o":["Chciałabym przymierzyć ten żakiet","Jaki rozmiar?","To za drogie","Wyglądam pięknie"],"a":0},
     {"topic":"wiedzieć/znać","q":"«Czy ___ panią Teresę?» (іменник-особа):","o":["wiesz","znasz","masz","jesteś"],"a":1},
-    {"topic":"wiedzieć/znać","q":"«Czy ___, jak nazywa się stolica Polski?»","o":["znasz","wiesz","masz","robisz"],"a":1},
-    {"topic":"ubrania","q":"Що таке «krawat»?","o":["шарф","краватка","ремінь","шапка"],"a":1},
-    {"topic":"wzory","q":"«w kratkę» — це візерунок:","o":["в смужку","в клітинку","в горошок","в квіти"],"a":1}
+    {"topic":"wiedzieć/znać","q":"«Czy ___, jak nazywa się stolica Polski?»","o":["robisz","znasz","wiesz","masz"],"a":2},
+    {"topic":"ubrania","q":"Що таке «krawat»?","o":["ремінь","шапка","шарф","краватка"],"a":3},
+    {"topic":"wzory","q":"«w kratkę» — це візерунок:","o":["в клітинку","в горошок","в квіти","в смужку"],"a":0}
   ]
 }

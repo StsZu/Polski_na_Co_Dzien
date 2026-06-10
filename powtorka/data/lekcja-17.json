@@ -154,14 +154,14 @@
   ],
   "quiz": [
     {"topic":"podoba/lubię","q":"«Podoba mi się ___» — який відмінок іде далі?","o":["biernik (kogo/co)","mianownik (kto/co)","celownik","dopełniacz"],"a":1},
-    {"topic":"podoba/lubię","q":"«Lubię ___ dziewczynę.» Обери правильну форму:","o":["ta","tę","tej","ten"],"a":1},
-    {"topic":"samopoczucie","q":"Як сказати «мені холодно»?","o":["Jestem zimno","Zimno mi","Mam zimno","Zimno jest mnie"],"a":1},
-    {"topic":"zaimki","q":"«Dziękuję ___» (ти → тобі):","o":["cię","ciebie","ci","tobą"],"a":2},
-    {"topic":"zaimki","q":"Celownik для «ona»:","o":["jej","ją","nią","niej"],"a":0},
+    {"topic":"podoba/lubię","q":"«Lubię ___ dziewczynę.» Обери правильну форму:","o":["ten","ta","tę","tej"],"a":2},
+    {"topic":"samopoczucie","q":"Як сказати «мені холодно»?","o":["Mam zimno","Zimno jest mnie","Jestem zimno","Zimno mi"],"a":3},
+    {"topic":"zaimki","q":"«Dziękuję ___» (ти → тобі):","o":["ci","tobą","cię","ciebie"],"a":0},
+    {"topic":"zaimki","q":"Celownik для «ona»:","o":["niej","jej","ją","nią"],"a":1},
     {"topic":"opinie","q":"«Nie mam zdania» означає:","o":["мені подобається","мені не подобається","не маю думки","я закоханий"],"a":2},
-    {"topic":"słownictwo","q":"«plotkować» — це:","o":["пліткувати","подобатися","червоніти","купувати"],"a":0},
-    {"topic":"samopoczucie","q":"«Chce mi się jeść» означає:","o":["мені холодно","мені хочеться їсти","мені сумно","мені жарко"],"a":1},
+    {"topic":"słownictwo","q":"«plotkować» — це:","o":["подобатися","червоніти","купувати","пліткувати"],"a":3},
+    {"topic":"samopoczucie","q":"«Chce mi się jeść» означає:","o":["мені хочеться їсти","мені сумно","мені жарко","мені холодно"],"a":0},
     {"topic":"zaimki","q":"«Czekam na ___» (вона, biernik):","o":["jej","ją","nią","niej"],"a":1},
-    {"topic":"słownictwo","q":"«Ładnie ci w tym kolorze» — це:","o":["критика","комплімент","питання","відмова"],"a":1}
+    {"topic":"słownictwo","q":"«Ładnie ci w tym kolorze» — це:","o":["відмова","критика","комплімент","питання"],"a":2}
   ]
 }

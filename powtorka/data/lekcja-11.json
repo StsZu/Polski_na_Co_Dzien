@@ -161,15 +161,15 @@
     ["Скажи: моя бабуся вже не живе.","Moja babcia już nie żyje."]
   ],
   "quiz": [
-    {"topic":"rodzina","q":"«rodzeństwo» — це:","o":["батьки","брати й сестри","дідусь і бабуся","подружжя"],"a":1},
-    {"topic":"stan cywilny","q":"Жінка, яка має чоловіка, це:","o":["panna","mężatka","żonaty","kawaler"],"a":1},
-    {"topic":"stan cywilny","q":"Чоловік, який ще не має дружини:","o":["mąż","żonaty","kawaler","wdowiec"],"a":2},
-    {"topic":"czyj","q":"«___ to książka?» (ta książka)","o":["Czyj","Czyja","Czyje","Czyi"],"a":1},
-    {"topic":"zaimki","q":"«To jest ___ brat.» (ja, чол. рід)","o":["moja","moje","mój","mojego"],"a":2},
-    {"topic":"zaimki","q":"Присвійний для «ona» (вона) — який?","o":["jego","jej","ich","jejej"],"a":1},
+    {"topic":"rodzina","q":"«rodzeństwo» — це:","o":["дідусь і бабуся","подружжя","батьки","брати й сестри"],"a":3},
+    {"topic":"stan cywilny","q":"Жінка, яка має чоловіка, це:","o":["mężatka","żonaty","kawaler","panna"],"a":0},
+    {"topic":"stan cywilny","q":"Чоловік, який ще не має дружини:","o":["żonaty","kawaler","wdowiec","mąż"],"a":1},
+    {"topic":"czyj","q":"«___ to książka?» (ta książka)","o":["Czyi","Czyj","Czyja","Czyje"],"a":2},
+    {"topic":"zaimki","q":"«To jest ___ brat.» (ja, чол. рід)","o":["mojego","moja","moje","mój"],"a":3},
+    {"topic":"zaimki","q":"Присвійний для «ona» (вона) — який?","o":["jej","ich","jejej","jego"],"a":0},
     {"topic":"rodzina","q":"«bratowa» — це:","o":["сестра брата","дружина брата","дочка брата","мати брата"],"a":1},
-    {"topic":"pory dnia","q":"Протилежність до «rano»:","o":["w południe","wieczorem","przed południem","o północy"],"a":1},
-    {"topic":"pory dnia","q":"«o północy» означає:","o":["опівдні","зранку","опівночі","увечері"],"a":2},
-    {"topic":"jak często","q":"Найвища частота (max) на шкалі:","o":["zwykle","często","zawsze","rzadko"],"a":2}
+    {"topic":"pory dnia","q":"Протилежність до «rano»:","o":["o północy","w południe","wieczorem","przed południem"],"a":2},
+    {"topic":"pory dnia","q":"«o północy» означає:","o":["увечері","опівдні","зранку","опівночі"],"a":3},
+    {"topic":"jak często","q":"Найвища частота (max) на шкалі:","o":["zawsze","rzadko","zwykle","często"],"a":0}
   ]
 }

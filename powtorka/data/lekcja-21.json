@@ -119,12 +119,12 @@
   ],
   "quiz": [
     {"topic":"data","q":"«Mam urodziny piątego lipca» — це означає:","o":["п’яте липня","п’ятого липня","п’ять років","о п’ятій"],"a":1},
-    {"topic":"data","q":"Котрого числа? Правильне закінчення числівника:","o":["piąty lipca","piątego lipca","piąte lipiec","piątym lipca"],"a":1},
-    {"topic":"rok","q":"Як сказати «1989 року»?","o":["w tysiąc dziewięćset osiemdziesiątym dziewiątym roku","w tysiąc dziewięćset osiemdziesiąt dziewięć roku","w osiemdziesiąt dziewięć roku","w roku osiemdziesiąt dziewięć"],"a":0},
-    {"topic":"rok","q":"Особлива форма для 2000 року:","o":["w dwa tysiące roku","w dwutysięcznym roku","w dwóch tysiącach roku","w dwa tysiące pierwszym roku"],"a":1},
+    {"topic":"data","q":"Котрого числа? Правильне закінчення числівника:","o":["piątym lipca","piąty lipca","piątego lipca","piąte lipiec"],"a":2},
+    {"topic":"rok","q":"Як сказати «1989 року»?","o":["w tysiąc dziewięćset osiemdziesiąt dziewięć roku","w osiemdziesiąt dziewięć roku","w roku osiemdziesiąt dziewięć","w tysiąc dziewięćset osiemdziesiątym dziewiątym roku"],"a":3},
+    {"topic":"rok","q":"Особлива форма для 2000 року:","o":["w dwutysięcznym roku","w dwóch tysiącach roku","w dwa tysiące pierwszym roku","w dwa tysiące roku"],"a":0},
     {"topic":"rok","q":"«w dwa tysiące pierwszym roku» — це:","o":["2000","2001","2011","2021"],"a":1},
-    {"topic":"życzenia","q":"Що кажуть на день народження?","o":["Wesołych świąt!","Sto lat!","Udanych wakacji!","Smacznego!"],"a":1},
-    {"topic":"życzenia","q":"Молодятам на весіллі бажають:","o":["Szczęśliwego Nowego Roku!","Wesołego Alleluja!","Wszystkiego najlepszego na nowej drodze życia!","Udanych wakacji!"],"a":2},
+    {"topic":"życzenia","q":"Що кажуть на день народження?","o":["Smacznego!","Wesołych świąt!","Sto lat!","Udanych wakacji!"],"a":2},
+    {"topic":"życzenia","q":"Молодятам на весіллі бажають:","o":["Udanych wakacji!","Szczęśliwego Nowego Roku!","Wesołego Alleluja!","Wszystkiego najlepszego na nowej drodze życia!"],"a":3},
     {"topic":"świeto","q":"Чим іменини відрізняються від уродин?","o":["це день твого імені за календарем","це той самий день, що й уродини","їх можна мати кілька разів на рік","це лише в фірмах"],"a":0},
     {"topic":"aspekt","q":"Результат досягнуто — який вид? «Wczoraj ___ mieszkanie i jest czysto.»","o":["sprzątałam","posprzątałam","sprzątam","będę sprzątać"],"a":1},
     {"topic":"aspekt","q":"Яке дієслово має ЛИШЕ недоконану форму?","o":["robić","czytać","mieszkać","pisać"],"a":2}

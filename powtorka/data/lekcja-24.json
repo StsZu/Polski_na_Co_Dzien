@@ -133,13 +133,13 @@
   "quiz": [
     {"topic":"wygląd","q":"«oczy» — це:","o":["очі","вуха","губи","брови"],"a":0},
     {"topic":"wygląd","q":"«wąskie usta» означає:","o":["широкі губи","вузькі губи","великий ніс","тонкі вії"],"a":1},
-    {"topic":"stopień wyższy","q":"Вищий ступінь від «łatwo»:","o":["łatwiej","łatwo","łatwy","najłatwo"],"a":0},
-    {"topic":"stopień wyższy","q":"«drożej» — це вищий ступінь від:","o":["dobrze","drogo","długo","dużo"],"a":1},
-    {"topic":"fryzjer","q":"Як сказати «підстригти волосся»?","o":["umyć włosy","obciąć włosy","zapuścić włosy","czesać włosy"],"a":1},
+    {"topic":"stopień wyższy","q":"Вищий ступінь від «łatwo»:","o":["łatwy","najłatwo","łatwiej","łatwo"],"a":2},
+    {"topic":"stopień wyższy","q":"«drożej» — це вищий ступінь від:","o":["długo","dużo","dobrze","drogo"],"a":3},
+    {"topic":"fryzjer","q":"Як сказати «підстригти волосся»?","o":["obciąć włosy","zapuścić włosy","czesać włosy","umyć włosy"],"a":0},
     {"topic":"fryzjer","q":"«grzywka» — це:","o":["борода","чубчик","коса","перука"],"a":1},
     {"topic":"sylwetka","q":"«szczupły» означає:","o":["товстий","лисий","стрункий","високий"],"a":2},
-    {"topic":"sylwetka","q":"«łysy» — це людина:","o":["без волосся","з бородою","сива","веснянкувата"],"a":0},
-    {"topic":"ciało","q":"«brzuch» — це:","o":["спина","живіт","шия","коліно"],"a":1},
-    {"topic":"przymiotnik","q":"Прикметник до «oczy»: «niebieski___ oczy»","o":["niebieski","niebieska","niebieskie","niebiesko"],"a":2}
+    {"topic":"sylwetka","q":"«łysy» — це людина:","o":["з бородою","сива","веснянкувата","без волосся"],"a":3},
+    {"topic":"ciało","q":"«brzuch» — це:","o":["живіт","шия","коліно","спина"],"a":0},
+    {"topic":"przymiotnik","q":"Прикметник до «oczy»: «niebieski___ oczy»","o":["niebieska","niebieskie","niebiesko","niebieski"],"a":1}
   ]
 }

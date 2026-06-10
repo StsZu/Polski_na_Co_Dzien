@@ -138,15 +138,15 @@
     ["Скажи: завтра я ворожитиму на андріївки.","Jutro będę wróżyć na andrzejki."]
   ],
   "quiz": [
-    {"topic":"pogoda","q":"«___ słońce» — яке дієслово?","o":["Pada","Świeci","Wieje","Jest"],"a":1},
-    {"topic":"pogoda","q":"«Pada ___» — що підходить?","o":["wiatr","słońce","śnieg","pochmurno"],"a":2},
+    {"topic":"pogoda","q":"«___ słońce» — яке дієслово?","o":["Świeci","Wieje","Jest","Pada"],"a":0},
+    {"topic":"pogoda","q":"«Pada ___» — що підходить?","o":["słońce","śnieg","pochmurno","wiatr"],"a":1},
     {"topic":"pory roku","q":"«Коли?» від «zima»:","o":["zima","zimno","zimą","w zimie"],"a":2},
-    {"topic":"miesiące","q":"«wrzesień» — як буде «у вересні»?","o":["w wrześniu","we wrześniu","w wrzesień","na wrześniu"],"a":1},
-    {"topic":"miesiące","q":"Який місяць п’ятий у році?","o":["marzec","kwiecień","maj","czerwiec"],"a":2},
-    {"topic":"czas przyszły","q":"«Jutro (ja) ___ robić» — форма «być»:","o":["będę","będziesz","będzie","będą"],"a":0},
+    {"topic":"miesiące","q":"«wrzesień» — як буде «у вересні»?","o":["w wrzesień","na wrześniu","w wrześniu","we wrześniu"],"a":3},
+    {"topic":"miesiące","q":"Який місяць п’ятий у році?","o":["maj","czerwiec","marzec","kwiecień"],"a":0},
+    {"topic":"czas przyszły","q":"«Jutro (ja) ___ robić» — форма «być»:","o":["będą","będę","będziesz","będzie"],"a":1},
     {"topic":"czas przyszły","q":"«Oni ___ pracować razem.»","o":["będę","będziecie","będą","będzie"],"a":2},
-    {"topic":"czas przyszły","q":"Жіночий рід: «Ja ___ czas» (mieć, минулий):","o":["będę miał","będę miała","będę mieć","będę miało"],"a":1},
-    {"topic":"modalne","q":"«Anna będzie ___ zapytać szefa.» (musieć)","o":["musieć","musiała","musi","musiał"],"a":1},
+    {"topic":"czas przyszły","q":"Жіночий рід: «Ja ___ czas» (mieć, минулий):","o":["będę mieć","będę miało","będę miał","będę miała"],"a":3},
+    {"topic":"modalne","q":"«Anna będzie ___ zapytać szefa.» (musieć)","o":["musiała","musi","musiał","musieć"],"a":0},
     {"topic":"andrzejki","q":"Що роблять на андріївки (andrzejki)?","o":["malują jajka","wróżą z wosku","tańczą poloneza","palą ognisko"],"a":1}
   ]
 }

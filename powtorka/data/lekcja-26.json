@@ -175,15 +175,15 @@
     ["Скажи, що не маєш чека.","Niestety nie mam paragonu."]
   ],
   "quiz": [
-    {"topic":"do załatwienia","q":"«Mam coś do ___» (załatwić):","o":["załatwić","załatwienia","załatwiam","załatwiony"],"a":1},
-    {"topic":"usługi","q":"Хто вкоротить штани?","o":["szewc","krawiec","fryzjer","mechanik"],"a":1},
-    {"topic":"usługi","q":"«od ręki» означає:","o":["вручну","відразу","дорого","завтра"],"a":1},
+    {"topic":"do załatwienia","q":"«Mam coś do ___» (załatwić):","o":["załatwiony","załatwić","załatwienia","załatwiam"],"a":2},
+    {"topic":"usługi","q":"Хто вкоротить штани?","o":["fryzjer","mechanik","szewc","krawiec"],"a":3},
+    {"topic":"usługi","q":"«od ręki» означає:","o":["відразу","дорого","завтра","вручну"],"a":0},
     {"topic":"reklamacja","q":"Йогурт прострочений. Що зробиш?","o":["wyrzucić","reklamować","zapłacić","schować"],"a":1},
-    {"topic":"reklamacja","q":"«Data ważności minęła» — це:","o":["знижка","термін придатності минув","немає чека","товар у наявності"],"a":1},
-    {"topic":"powinność","q":"«Nie ___ go wyrzucać, tylko reklamować» (ти, ж.р.):","o":["powinien","powinnaś","powinno","powinniśmy"],"a":1},
-    {"topic":"wypadek","q":"«Taksówkarz wymusił pierwszeństwo» — він:","o":["загальмував","не дав дорогу","перевищив швидкість","заснув"],"a":1},
+    {"topic":"reklamacja","q":"«Data ważności minęła» — це:","o":["товар у наявності","знижка","термін придатності минув","немає чека"],"a":2},
+    {"topic":"powinność","q":"«Nie ___ go wyrzucać, tylko reklamować» (ти, ж.р.):","o":["powinno","powinniśmy","powinien","powinnaś"],"a":3},
+    {"topic":"wypadek","q":"«Taksówkarz wymusił pierwszeństwo» — він:","o":["не дав дорогу","перевищив швидкість","заснув","загальмував"],"a":0},
     {"topic":"prośba","q":"Ввічливо попросити жінку: «Czy ___ poprowadzić lekcję?»","o":["możesz","mogłabyś","mogłeś","mogę"],"a":1},
-    {"topic":"kradzież","q":"Гаманець украли. Куди йдеш заявити?","o":["do szewca","na policję","do banku","do przychodni"],"a":1},
-    {"topic":"słownictwo","q":"«biuro rzeczy znalezionych» — це:","o":["автомайстерня","бюро знахідок","банк","поліклініка"],"a":1}
+    {"topic":"kradzież","q":"Гаманець украли. Куди йдеш заявити?","o":["do przychodni","do szewca","na policję","do banku"],"a":2},
+    {"topic":"słownictwo","q":"«biuro rzeczy znalezionych» — це:","o":["банк","поліклініка","автомайстерня","бюро знахідок"],"a":3}
   ]
 }

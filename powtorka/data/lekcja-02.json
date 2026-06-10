@@ -164,15 +164,15 @@
     ["Скажи: ми живемо в Європі.","Mieszkamy w Europie."]
   ],
   "quiz": [
-    {"topic":"країни","q":"«Jestem z Anglii» означає:","o":["Я з Англії","Я живу в Англії","Я вивчаю англійську","Мене звати Анджела"],"a":0},
-    {"topic":"граматика (skąd)","q":"Звідки? «Jestem z ___» (Німеччина):","o":["Niemcy","Niemiec","Niemcami","Niemczech"],"a":1},
-    {"topic":"граматика (gdzie)","q":"«Mieszkam ___ Krakowie.»","o":["z","w","do","na"],"a":1},
+    {"topic":"країни","q":"«Jestem z Anglii» означає:","o":["Я вивчаю англійську","Мене звати Анджела","Я з Англії","Я живу в Англії"],"a":2},
+    {"topic":"граматика (skąd)","q":"Звідки? «Jestem z ___» (Німеччина):","o":["Niemcami","Niemczech","Niemcy","Niemiec"],"a":3},
+    {"topic":"граматика (gdzie)","q":"«Mieszkam ___ Krakowie.»","o":["w","do","na","z"],"a":0},
     {"topic":"як справи","q":"Неформально спитати про самопочуття:","o":["Skąd jesteś?","Co u ciebie?","Gdzie mieszkasz?","Ile masz lat?"],"a":1},
     {"topic":"być","q":"«Oni ___ tam.» (być)","o":["jest","jesteś","są","jesteśmy"],"a":2},
-    {"topic":"числа","q":"Котре число — «piętnaście»?","o":["13","15","16","50"],"a":1},
-    {"topic":"числа","q":"Як по-польськи «20»?","o":["dwanaście","dwadzieścia","dziesięć","dwa"],"a":1},
+    {"topic":"числа","q":"Котре число — «piętnaście»?","o":["16","50","13","15"],"a":3},
+    {"topic":"числа","q":"Як по-польськи «20»?","o":["dwadzieścia","dziesięć","dwa","dwanaście"],"a":0},
     {"topic":"mieszkać","q":"«Gdzie ty ___?» (mieszkać)","o":["mieszkam","mieszkasz","mieszka","mieszkają"],"a":1},
-    {"topic":"мета (dlaczego)","q":"«Uczę się polskiego, ___ studiować w Polsce.»","o":["bo","żeby","ale","i"],"a":1},
-    {"topic":"країни","q":"«Tom jest z USA. Mieszka w ___.»","o":["Berlinie","Nowym Jorku","Barcelonie","Rzymie"],"a":1}
+    {"topic":"мета (dlaczego)","q":"«Uczę się polskiego, ___ studiować w Polsce.»","o":["i","bo","żeby","ale"],"a":2},
+    {"topic":"країни","q":"«Tom jest z USA. Mieszka w ___.»","o":["Barcelonie","Rzymie","Berlinie","Nowym Jorku"],"a":3}
   ]
 }

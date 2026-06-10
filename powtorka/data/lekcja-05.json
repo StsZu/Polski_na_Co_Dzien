@@ -165,15 +165,15 @@
     ["Назви п’ять професій.","aktor, lekarz, kelner, muzyk, nauczyciel"]
   ],
   "quiz": [
-    {"topic":"zawód","q":"«Jestem ___» (biznesmen). Який орудний?","o":["biznesmen","biznesmena","biznesmenem","biznesmenie"],"a":2},
-    {"topic":"narzędnik ż","q":"«Ona jest ___» (aktorka):","o":["aktorka","aktorką","aktorce","aktorki"],"a":1},
-    {"topic":"wiek","q":"«Mam 23 ___» — яке слово?","o":["rok","lat","lata","lato"],"a":2},
-    {"topic":"wiek","q":"«Mam 20 ___» — правильно:","o":["rok","lata","lat","roku"],"a":2},
+    {"topic":"zawód","q":"«Jestem ___» (biznesmen). Який орудний?","o":["biznesmena","biznesmenem","biznesmenie","biznesmen"],"a":1},
+    {"topic":"narzędnik ż","q":"«Ona jest ___» (aktorka):","o":["aktorki","aktorka","aktorką","aktorce"],"a":2},
+    {"topic":"wiek","q":"«Mam 23 ___» — яке слово?","o":["lato","rok","lat","lata"],"a":3},
+    {"topic":"wiek","q":"«Mam 20 ___» — правильно:","o":["lat","roku","rok","lata"],"a":0},
     {"topic":"liczebniki","q":"Як по-польськи «50»?","o":["czterdzieści","pięćdziesiąt","sześćdziesiąt","piętnaście"],"a":1},
-    {"topic":"liczebniki","q":"«dziewięćdziesiąt» — це:","o":["19","90","99","9"],"a":1},
-    {"topic":"zawody","q":"«lekarz» — це:","o":["вчитель","лікар","кухар","фермер"],"a":1},
-    {"topic":"zainteresowania","q":"Спитати про захоплення: «___ się interesujesz?»","o":["Kim","Czym","Kto","Jak"],"a":1},
-    {"topic":"narzędnik m","q":"«On jest ___ studentem» (dobry):","o":["dobry","dobra","dobrym","dobrego"],"a":2},
-    {"topic":"forma żeńska","q":"Жіноча форма від «nauczyciel»:","o":["nauczycielka","nauczycielowa","nauczycielnica","nauczyciela"],"a":0}
+    {"topic":"liczebniki","q":"«dziewięćdziesiąt» — це:","o":["9","19","90","99"],"a":2},
+    {"topic":"zawody","q":"«lekarz» — це:","o":["кухар","фермер","вчитель","лікар"],"a":3},
+    {"topic":"zainteresowania","q":"Спитати про захоплення: «___ się interesujesz?»","o":["Czym","Kto","Jak","Kim"],"a":0},
+    {"topic":"narzędnik m","q":"«On jest ___ studentem» (dobry):","o":["dobra","dobrym","dobrego","dobry"],"a":1},
+    {"topic":"forma żeńska","q":"Жіноча форма від «nauczyciel»:","o":["nauczycielnica","nauczyciela","nauczycielka","nauczycielowa"],"a":2}
   ]
 }

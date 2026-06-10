@@ -154,15 +154,15 @@
     ["Залиш повідомлення: «Подзвони мені на мобільний».","Zadzwoń do mnie na komórkę."]
   ],
   "quiz": [
-    {"topic":"czas przyszły","q":"Майбутній простий від «pojechać» (я):","o":["pojadę","pojechałem","będę jechać","jadę"],"a":0},
-    {"topic":"czas przyszły","q":"Правильний майбутній складений:","o":["Będę napisać","Będę pisać","Będę napiszę","Napiszę będę"],"a":1},
-    {"topic":"czas przeszły","q":"«Я (ж.) поїхала до Гданська»:","o":["Pojadę do Gdańska","Pojechałam do Gdańska","Pojechałem do Gdańska","Jadę do Gdańska"],"a":1},
+    {"topic":"czas przyszły","q":"Майбутній простий від «pojechać» (я):","o":["będę jechać","jadę","pojadę","pojechałem"],"a":2},
+    {"topic":"czas przyszły","q":"Правильний майбутній складений:","o":["Będę napiszę","Napiszę będę","Będę napisać","Będę pisać"],"a":3},
+    {"topic":"czas przeszły","q":"«Я (ж.) поїхала до Гданська»:","o":["Pojechałam do Gdańska","Pojechałem do Gdańska","Jadę do Gdańska","Pojadę do Gdańska"],"a":0},
     {"topic":"telefon","q":"Як спитати по телефону про людину?","o":["Gdzie jesteś?","Czy mogę rozmawiać z…?","Co robisz?","Kto to jest?"],"a":1},
-    {"topic":"telefon","q":"«Nie ma go» означає:","o":["він тут","його немає","він зайнятий","зачекайте"],"a":1},
-    {"topic":"telefon","q":"Подзвонив не туди. Кажеш:","o":["Do usłyszenia","Pomyłka","Zajęte","Oddzwonię"],"a":1},
-    {"topic":"przeczenie","q":"«Я ніде не був» по-польськи:","o":["Nigdy nie byłem","Nigdzie nie byłem","Nikt nie był","Nic nie było"],"a":1},
-    {"topic":"słownictwo","q":"«Dokąd?» означає:","o":["звідки?","коли?","куди?","чому?"],"a":2},
+    {"topic":"telefon","q":"«Nie ma go» означає:","o":["зачекайте","він тут","його немає","він зайнятий"],"a":2},
+    {"topic":"telefon","q":"Подзвонив не туди. Кажеш:","o":["Zajęte","Oddzwonię","Do usłyszenia","Pomyłka"],"a":3},
+    {"topic":"przeczenie","q":"«Я ніде не був» по-польськи:","o":["Nigdzie nie byłem","Nikt nie był","Nic nie było","Nigdy nie byłem"],"a":0},
+    {"topic":"słownictwo","q":"«Dokąd?» означає:","o":["коли?","куди?","чому?","звідки?"],"a":1},
     {"topic":"czas przyszły","q":"«Ugotuję zupę» — це час:","o":["минулий","теперішній","майбутній простий","майбутній складений"],"a":2},
-    {"topic":"telefon","q":"«Proszę zostawić wiadomość» — це про:","o":["голосову пошту","покупки","візу","вечірку"],"a":0}
+    {"topic":"telefon","q":"«Proszę zostawić wiadomość» — це про:","o":["покупки","візу","вечірку","голосову пошту"],"a":3}
   ]
 }
