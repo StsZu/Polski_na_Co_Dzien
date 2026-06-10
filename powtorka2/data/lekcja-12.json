@@ -2,48 +2,276 @@
   "id": "12",
   "title": "W jeździe",
   "goal": "Повторюємо: як запитати про дорогу · вираження невдоволення й рекламація · засоби транспорту і заправка · czasowniki ruchu (дієслова руху)",
-
   "vocab": [
-    { "group": "Na drodze — на дорозі", "items": [
-      ["zakaz wjazdu","заборона в’їзду"],["objazd","об’їзд"],["obwodnica","об’їзна (окружна) дорога"],
-      ["zjazd z autostrady","з’їзд з автостради"],["dojazd","під’їзд (доїзд)"],["wyjazd","виїзд"],
-      ["pobocze","узбіччя"],["przejazd kolejowy","залізничний переїзд"],["niestrzeżony","неохоронюваний"],
-      ["skrzyżowanie","перехрестя"],["rondo","кругова розв’язка"],["most","міст"],["korek","затор (пробка)"]
-    ]},
-    { "group": "Środki transportu — засоби транспорту", "items": [
-      ["autokar","автобус (туристичний)"],["tramwaj","трамвай"],["bus","маршрутка (мікроавтобус)"],
-      ["taksówka","таксі"],["statek","корабель"],["żaglówka","вітрильник (яхта)"],["dorożka","бричка"],
-      ["rakieta","ракета"],["helikopter","гелікоптер"],["przystanek","зупинка"],["dworzec","вокзал"]
-    ]},
-    { "group": "Stacja benzynowa — заправка", "items": [
-      ["do pełna","повний бак"],["benzyna","бензин"],["olej napędowy","дизельне пальне"],
-      ["zatankować","заправити (бак)"],["płyn do spryskiwaczy","рідина для омивача"],
-      ["szyby","скло (вікна авто)"],["opony","шини"],["bak","бак"],["zapłacić kartą","заплатити карткою"]
-    ]},
-    { "group": "Reklamacja — рекламація / скарга", "items": [
-      ["niezadowolenie","невдоволення"],["nierzetelność","недобросовісність"],["niedopuszczalne","неприпустиме"],
-      ["skandaliczne","скандальне"],["oburzony","обурений"],["domagać się","вимагати"],
-      ["rekompensata","компенсація"],["reklamacja","рекламація (скарга)"],["zaniedbany","занедбаний"],
-      ["odradzać","відмовляти (відраджувати)"],["zniechęcać","знеохочувати"]
-    ]},
-    { "group": "Nowe słowa — нові слова", "items": [
-      ["odcięty od","відрізаний від"],["okolica","околиця (місцевість)"],["dokonać formalności","залагодити формальності"],
-      ["uniknąć czegoś","уникнути чогось"],["ledwie","ледве"],["błoto","болото"],["szczyt wzgórza","вершина пагорба"],
-      ["żywa dusza","жива душа"],["koszmarny","жахливий (кошмарний)"]
-    ]}
+    {
+      "group": "Na drodze — на дорозі",
+      "items": [
+        [
+          "zakaz wjazdu",
+          "заборона в’їзду"
+        ],
+        [
+          "objazd",
+          "об’їзд"
+        ],
+        [
+          "obwodnica",
+          "об’їзна (окружна) дорога"
+        ],
+        [
+          "zjazd z autostrady",
+          "з’їзд з автостради"
+        ],
+        [
+          "dojazd",
+          "під’їзд (доїзд)"
+        ],
+        [
+          "wyjazd",
+          "виїзд"
+        ],
+        [
+          "pobocze",
+          "узбіччя"
+        ],
+        [
+          "przejazd kolejowy",
+          "залізничний переїзд"
+        ],
+        [
+          "niestrzeżony",
+          "неохоронюваний"
+        ],
+        [
+          "skrzyżowanie",
+          "перехрестя"
+        ],
+        [
+          "rondo",
+          "кругова розв’язка"
+        ],
+        [
+          "most",
+          "міст"
+        ],
+        [
+          "korek",
+          "затор (пробка)"
+        ]
+      ]
+    },
+    {
+      "group": "Środki transportu — засоби транспорту",
+      "items": [
+        [
+          "autokar",
+          "автобус (туристичний)"
+        ],
+        [
+          "tramwaj",
+          "трамвай"
+        ],
+        [
+          "bus",
+          "маршрутка (мікроавтобус)"
+        ],
+        [
+          "taksówka",
+          "таксі"
+        ],
+        [
+          "statek",
+          "корабель"
+        ],
+        [
+          "żaglówka",
+          "вітрильник (яхта)"
+        ],
+        [
+          "dorożka",
+          "бричка"
+        ],
+        [
+          "rakieta",
+          "ракета"
+        ],
+        [
+          "helikopter",
+          "гелікоптер"
+        ],
+        [
+          "przystanek",
+          "зупинка"
+        ],
+        [
+          "dworzec",
+          "вокзал"
+        ]
+      ]
+    },
+    {
+      "group": "Stacja benzynowa — заправка",
+      "items": [
+        [
+          "do pełna",
+          "повний бак"
+        ],
+        [
+          "benzyna",
+          "бензин"
+        ],
+        [
+          "olej napędowy",
+          "дизельне пальне"
+        ],
+        [
+          "zatankować",
+          "заправити (бак)"
+        ],
+        [
+          "płyn do spryskiwaczy",
+          "рідина для омивача"
+        ],
+        [
+          "szyby",
+          "скло (вікна авто)"
+        ],
+        [
+          "opony",
+          "шини"
+        ],
+        [
+          "bak",
+          "бак"
+        ],
+        [
+          "zapłacić kartą",
+          "заплатити карткою"
+        ]
+      ]
+    },
+    {
+      "group": "Reklamacja — рекламація / скарга",
+      "items": [
+        [
+          "niezadowolenie",
+          "невдоволення"
+        ],
+        [
+          "nierzetelność",
+          "недобросовісність"
+        ],
+        [
+          "niedopuszczalne",
+          "неприпустиме"
+        ],
+        [
+          "skandaliczne",
+          "скандальне"
+        ],
+        [
+          "oburzony",
+          "обурений"
+        ],
+        [
+          "domagać się",
+          "вимагати"
+        ],
+        [
+          "rekompensata",
+          "компенсація"
+        ],
+        [
+          "reklamacja",
+          "рекламація (скарга)"
+        ],
+        [
+          "zaniedbany",
+          "занедбаний"
+        ],
+        [
+          "odradzać",
+          "відмовляти (відраджувати)"
+        ],
+        [
+          "zniechęcać",
+          "знеохочувати"
+        ]
+      ]
+    },
+    {
+      "group": "Nowe słowa — нові слова",
+      "items": [
+        [
+          "odcięty od",
+          "відрізаний від"
+        ],
+        [
+          "okolica",
+          "околиця (місцевість)"
+        ],
+        [
+          "dokonać formalności",
+          "залагодити формальності"
+        ],
+        [
+          "uniknąć czegoś",
+          "уникнути чогось"
+        ],
+        [
+          "ledwie",
+          "ледве"
+        ],
+        [
+          "błoto",
+          "болото"
+        ],
+        [
+          "szczyt wzgórza",
+          "вершина пагорба"
+        ],
+        [
+          "żywa dusza",
+          "жива душа"
+        ],
+        [
+          "koszmarny",
+          "жахливий (кошмарний)"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Czasowniki ruchu: określone i nieokreślone — дієслова руху",
       "note": "Польські дієслова руху мають дві пари: nieokreślone (звичка, повторення) та określone (один конкретний раз / зараз). Як chodzić ↔ iść.",
       "table": {
-        "head": ["Często, zwykle (звичка)","Teraz, raz (один раз / зараз)","Znaczenie"],
+        "head": [
+          "Często, zwykle (звичка)",
+          "Teraz, raz (один раз / зараз)",
+          "Znaczenie"
+        ],
         "rows": [
-          ["chodzić","iść","ходити / іти (пішки)"],
-          ["jeździć","jechać","їздити / їхати (транспортом)"],
-          ["pływać","płynąć","плавати / пливти"],
-          ["latać","lecieć","літати / летіти"]
+          [
+            "chodzić",
+            "iść",
+            "ходити / іти (пішки)"
+          ],
+          [
+            "jeździć",
+            "jechać",
+            "їздити / їхати (транспортом)"
+          ],
+          [
+            "pływać",
+            "płynąć",
+            "плавати / пливти"
+          ],
+          [
+            "latać",
+            "lecieć",
+            "літати / летіти"
+          ]
         ]
       }
     },
@@ -51,12 +279,32 @@
       "title": "Forma dokonana z przedrostkiem po- — доконана форма",
       "note": "Доконану форму (одна завершена дія в майбутньому) часто утворюємо префіксом po-.",
       "table": {
-        "head": ["Niedokonany","Dokonany","Przykład"],
+        "head": [
+          "Niedokonany",
+          "Dokonany",
+          "Przykład"
+        ],
         "rows": [
-          ["iść","pójść","Jutro pój*dę* na basen."],
-          ["jechać","pojechać","W życiu tam nie po*jadę* drugi raz."],
-          ["płynąć","popłynąć","Jutro po*płynę* na drugi brzeg."],
-          ["lecieć","polecieć","Po*lecimy* na pierogi, bo umieram z głodu."]
+          [
+            "iść",
+            "pójść",
+            "Jutro pój*dę* na basen."
+          ],
+          [
+            "jechać",
+            "pojechać",
+            "W życiu tam nie po*jadę* drugi raz."
+          ],
+          [
+            "płynąć",
+            "popłynąć",
+            "Jutro po*płynę* na drugi brzeg."
+          ],
+          [
+            "lecieć",
+            "polecieć",
+            "Po*lecimy* na pierogi, bo umieram z głodu."
+          ]
         ]
       }
     },
@@ -64,16 +312,52 @@
       "title": "Czasowniki jechać z przedrostkami — префіксні дієслова руху",
       "note": "Від jechać/jeżdżać утворюємо багато дієслів, що описують напрямок руху на дорозі.",
       "table": {
-        "head": ["Czasownik","Znaczenie","Przykład"],
+        "head": [
+          "Czasownik",
+          "Znaczenie",
+          "Przykład"
+        ],
         "rows": [
-          ["wjechać","в’їхати (вгору / всередину)","Samochód ledwie tam wjech*ał*."],
-          ["zjechać","з’їхати (вниз / убік)","Zjechaliśmy na pobocz*e*."],
-          ["objechać","об’їхати","Objechaliśmy całą miejscowość dookoł*a*."],
-          ["dojechać","доїхати","Na miejsce dojechaliśmy po północ*y*."],
-          ["podjechać","під’їхати","Wreszcie podjechaliśmy pod domek."],
-          ["odjechać","від’їхати","Musieliśmy odjechać nieco dalej."],
-          ["przejechać","проїхати (через)","Musimy przejechać przez przejazd kolejow*y*."],
-          ["zawrócić","повернути назад","Zawróciliśmy do miasteczk*a*."]
+          [
+            "wjechać",
+            "в’їхати (вгору / всередину)",
+            "Samochód ledwie tam wjech*ał*."
+          ],
+          [
+            "zjechać",
+            "з’їхати (вниз / убік)",
+            "Zjechaliśmy na pobocz*e*."
+          ],
+          [
+            "objechać",
+            "об’їхати",
+            "Objechaliśmy całą miejscowość dookoł*a*."
+          ],
+          [
+            "dojechać",
+            "доїхати",
+            "Na miejsce dojechaliśmy po północ*y*."
+          ],
+          [
+            "podjechać",
+            "під’їхати",
+            "Wreszcie podjechaliśmy pod domek."
+          ],
+          [
+            "odjechać",
+            "від’їхати",
+            "Musieliśmy odjechać nieco dalej."
+          ],
+          [
+            "przejechać",
+            "проїхати (через)",
+            "Musimy przejechać przez przejazd kolejow*y*."
+          ],
+          [
+            "zawrócić",
+            "повернути назад",
+            "Zawróciliśmy do miasteczk*a*."
+          ]
         ]
       }
     },
@@ -81,134 +365,448 @@
       "title": "Wsiadać / wysiadać / przesiadać się — посадка й пересадка",
       "note": "Дієслова руху в транспорті. Уважно на прийменники.",
       "table": {
-        "head": ["Czasownik","Znaczenie","Przykład"],
+        "head": [
+          "Czasownik",
+          "Znaczenie",
+          "Przykład"
+        ],
         "rows": [
-          ["wsiąść do","сісти в (транспорт)","Wsiądzie pani do tramwaju numer dwa."],
-          ["wysiąść","вийти (з транспорту)","Na którym przystanku mam wysiąść?"],
-          ["przesiąść się na","пересісти на","Musi pani przesiąść się na tramwaj numer 18."],
-          ["dojechać do","доїхати до","Czy dojadę tym tramwajem do Muzeum Narodowego?"]
+          [
+            "wsiąść do",
+            "сісти в (транспорт)",
+            "Wsiądzie pani do tramwaju numer dwa."
+          ],
+          [
+            "wysiąść",
+            "вийти (з транспорту)",
+            "Na którym przystanku mam wysiąść?"
+          ],
+          [
+            "przesiąść się na",
+            "пересісти на",
+            "Musi pani przesiąść się na tramwaj numer 18."
+          ],
+          [
+            "dojechać do",
+            "доїхати до",
+            "Czy dojadę tym tramwajem do Muzeum Narodowego?"
+          ]
         ]
       }
     }
   ],
-
   "czytanie": [
-    { "block": "A. Mail z weekendu · трек 212A2", "items": [
-      { "type": "mono", "title": "Droga Aniu — relacja z wyjazdu", "audio": "audio/L12/L12-czytanie-01.mp3",
-        "text": "Droga Aniu, przepraszam, że nie odpisałam od razu na twojego maila, ale weekendowe przygody sprawiły, że byłam odcięta od internetu. Wyobraź sobie, że postanowiliśmy skorzystać z oferty biura turystycznego i wynająć mały domek w górach na kilka dni. Wszystko wyglądało idealnie. Miejsce piękne, okolica spokojna, a cena bardzo atrakcyjna. Po dokonaniu wszystkich formalności dostaliśmy klucze od domku i mapę, która miała nas tam doprowadzić. Już od początku nie mieliśmy szczęścia w tej podróży. Wyjechaliśmy z domu wcześniej, żeby uniknąć korków, ale ze względu na remonty musieliśmy zjechać z głównej drogi i jechać bocznymi, więc na miejsce dojechaliśmy po północy. Z naszej mapy wynikało, że musimy przejechać przez przejazd kolejowy i jechać do końca asfaltowej drogi. Tam powinien stać nasz domek. Za przejazdem droga szła ostro do góry, na szczyt wzgórza. Nasz samochód ledwie tam wjechał, a potem nie uwierzysz, skończyła się droga, a domku ani śladu. Zawróciliśmy do miasteczka. Objechaliśmy całą miejscowość dookoła, nigdzie żywej duszy. Zjechaliśmy na pobocze, zaparkowaliśmy auto i postanowiliśmy poszukać domku na piechotę. Był zupełnie gdzie indziej. Szczęśliwi, że się znalazł, wreszcie podjechaliśmy pod domek, ale natychmiast musieliśmy odjechać nieco dalej, bo Tomek bał się, że nie wyjedzie potem z tego błota. Lepiej nie wspominać, co zobaczyliśmy w środku. To był koszmarny weekend. Wyjechaliśmy stamtąd bez żalu. W życiu tam nie pojadę drugi raz. Iwona. P.S. Ewa miała rację, że zniechęcała mnie do korzystania z podejrzania tanich ofert. Ja też już będę odradzać to wszystkim. Nie powinno się korzystać z niesprawdzonych biur turystycznych. Po tych przygodach Tomasz kupił nawigację.",
-        "tr": "Дорога Аню, вибач, що не відповіла одразу на твій лист, але вихідні пригоди зробили так, що я була відрізана від інтернету. Уяви собі, що ми вирішили скористатися пропозицією турагенції й винайняти маленький будиночок у горах на кілька днів. Усе виглядало ідеально. Місце гарне, околиця спокійна, а ціна дуже приваблива. Уладнавши всі формальності, ми отримали ключі від будиночка й мапу, яка мала нас туди привести. Уже з самого початку нам не щастило в цій подорожі. Ми виїхали з дому раніше, щоб уникнути заторів, але через ремонти мусили з’їхати з головної дороги й їхати бічними, тож на місце доїхали після півночі. З нашої мапи виходило, що ми мусимо проїхати через залізничний переїзд і їхати до кінця асфальтованої дороги. Там мав стояти наш будиночок. За переїздом дорога йшла круто вгору, на вершину пагорба. Наша машина ледве туди в’їхала, а потім — не повіриш — дорога скінчилася, а будиночка й сліду немає. Ми повернули назад до містечка. Об’їхали всю місцевість довкола, ніде ні живої душі. З’їхали на узбіччя, припаркували авто й вирішили пошукати будиночок пішки. Він був зовсім в іншому місці. Щасливі, що він знайшовся, ми нарешті під’їхали до будиночка, але одразу мусили від’їхати трохи далі, бо Томек боявся, що потім не виїде з цього болота. Краще не згадувати, що ми побачили всередині. Це були жахливі вихідні. Ми виїхали звідти без жалю. Більше ніколи туди не поїду вдруге. Івона. P.S. Ева мала рацію, що відраджувала мене від користування підозріло дешевими пропозиціями. Я теж тепер буду всім це відраджувати. Не варто користуватися неперевіреними турагенціями. Після цих пригод Томаш купив навігацію." }
-    ]},
-    { "block": "B. Reklamacja · трек 212B1", "items": [
-      { "type": "mono", "title": "To skandaliczne! — list reklamacyjny", "audio": "audio/L12/L12-czytanie-02.mp3",
-        "text": "Szanowni Państwo, chciałem wyrazić swoje niezadowolenie w związku z nierzetelnością Państwa usług. W ubiegłym tygodniu skorzystałem z Państwa oferty domek na weekend. Niestety, niemal żaden punkt oferty nie był zgodny z rzeczywistością. To niedopuszczalne, żeby tak traktować klienta. Po pierwsze, mapa dojazdowa, którą otrzymałem od Państwa była niedokładna i zawierała błędne informacje, a instrukcje były niejasne. Uważam, iż to skandaliczne, że nikt tego nie sprawdził. Po drugie, domek był brudny i zaniedbany. Również sytuacja nie do przyjęcia. Po trzecie, kuchnia miała być w pełni wyposażona, natomiast były tam jedynie dwa talerze, stara przypalona patelnia i zepsuty czajnik. Pozostawiam to bez komentarza. Jestem oburzony Państwa postępowaniem i domagam się rekompensaty za nieudany urlop. Z poważaniem, Tomasz Skrzypek.",
-        "tr": "Шановне панство, я хотів би висловити своє невдоволення у зв’язку з недобросовісністю ваших послуг. Минулого тижня я скористався вашою пропозицією «будиночок на вихідні». На жаль, майже жоден пункт пропозиції не відповідав дійсності. Це неприпустимо — так ставитися до клієнта. По-перше, карта проїзду, яку я отримав від вас, була неточною й містила помилкову інформацію, а інструкції — незрозумілі. Вважаю, що це скандально, що ніхто цього не перевірив. По-друге, будиночок був брудний і занедбаний. Це теж ситуація, яку неможливо прийняти. По-третє, кухня мала бути повністю обладнана, натомість там було лише дві тарілки, стара пригоріла сковорода й зіпсований чайник. Залишаю це без коментарів. Я обурений вашою поведінкою й вимагаю компенсації за невдалу відпустку. З повагою, Томаш Скшипек." }
-    ]},
-    { "block": "C. Czym jedziesz · dialog · трек 212C2", "items": [
-      { "type": "dia", "title": "Tom i Mami — pływać czy płynąć?", "audio": "audio/L12/L12-czytanie-03.mp3", "lines": [
-        ["Mami","Czekaj, czekaj. Chyba rozumiem. Czyli lubię pływać. Codziennie pływam. Ale teraz płynę. A jutro popłynę na drugi brzeg, tak?","Зачекай, зачекай. Здається, розумію. Тобто я люблю плавати. Щодня плаваю. Але зараз пливу. А завтра попливу на другий берег, так?"],
-        ["Tom","Tak. Widzisz, to proste jak drut. Analogicznie zachowują się czasowniki latać, lecieć i polecieć.","Так. Бачиш, це просто, як двічі по два. Так само поводяться дієслова latać, lecieć і polecieć."],
-        ["Mami","Rzeczywiście. Wiesz, to nawet jest logiczne.","Справді. Знаєш, це навіть логічно."],
-        ["Tom","Pewnie. To teraz skończ szybko tę pracę domową, to polecimy na pierogi, bo umieram z głodu.","Звичайно. То тепер швидко закінчуй це домашнє завдання, і полетимо на вареники, бо я вмираю з голоду."],
-        ["Mami","Polecimy? Samolotem? Helikopterem?","Полетимо? Літаком? Гелікоптером?"],
-        ["Tom","Mami, nie żartuj sobie ze mnie. Tak się po prostu mówi.","Мамі, не жартуй з мене. Так просто кажуть."]
-      ]}
-    ]},
-    { "block": "C. Jak dojechać? · dialogi · трек 212C6", "items": [
-      { "type": "dia", "title": "Czy autobus jedzie na dworzec?", "audio": "audio/L12/L12-czytanie-04.mp3", "lines": [
-        ["Pasażer","Przepraszam pana, czy ten autobus jedzie na dworzec?","Перепрошую, чи цей автобус їде на вокзал?"],
-        ["Kierowca","Tak.","Так."],
-        ["Pasażer","Na którym przystanku mam wysiąść?","На якій зупинці мені виходити?"],
-        ["Kierowca","Na czwartym.","На четвертій."],
-        ["Pasażer","Dziękuję bardzo.","Дуже дякую."]
-      ]},
-      { "type": "dia", "title": "Tramwaj do Muzeum Narodowego", "audio": "audio/L12/L12-czytanie-05.mp3", "lines": [
-        ["Pasażerka","Czy dojadę tym tramwajem do Muzeum Narodowego?","Чи доїду цим трамваєм до Національного музею?"],
-        ["Przechodzień","Niestety nie. Musi pani wysiąść na następnym przystanku i przesiąść się na tramwaj numer 18.","На жаль, ні. Ви маєте вийти на наступній зупинці й пересісти на трамвай номер 18."]
-      ]},
-      { "type": "dia", "title": "Jeździsz do pracy autobusem?", "audio": "audio/L12/L12-czytanie-06.mp3", "lines": [
-        ["A","Jeździsz do pracy autobusem?","Ти їздиш на роботу автобусом?"],
-        ["B","Nie, najpierw wsiadam do busa, który dojeżdża do Krakowa, a potem przesiadam się na tramwaj.","Ні, спершу сідаю в маршрутку, яка доїжджає до Кракова, а потім пересідаю на трамвай."]
-      ]},
-      { "type": "dia", "title": "Wysiądę razem z tobą", "audio": "audio/L12/L12-czytanie-07.mp3", "lines": [
-        ["A","Wysiądę razem z tobą i pomogę ci nieść te zakupy.","Вийду разом з тобою і допоможу тобі нести ці покупки."],
-        ["B","Naprawdę wysiądziesz ze mną? Dziękuję ci bardzo.","Справді вийдеш зі мною? Дуже тобі дякую."]
-      ]},
-      { "type": "dia", "title": "Cmentarz Rakowicki", "audio": "audio/L12/L12-czytanie-08.mp3", "lines": [
-        ["Pasażerka","Czy cmentarz Rakowicki jest daleko stąd?","Чи Раковицький цвинтар далеко звідси?"],
-        ["Przechodzień","Dość daleko. Najlepiej jak pani pojedzie tramwajem. Przystanek jest po drugiej stronie ulicy. Wsiądzie pani do tramwaju numer dwa.","Досить далеко. Найкраще, якщо ви поїдете трамваєм. Зупинка з іншого боку вулиці. Сядете в трамвай номер два."]
-      ]}
-    ]},
-    { "block": "D. Na stacji benzynowej · dialog · трек 212D2", "items": [
-      { "type": "dia", "title": "Proszę do pełna", "audio": "audio/L12/L12-czytanie-09.mp3", "lines": [
-        ["Klient","Dzień dobry, proszę do pełna.","Добрий день, повний бак, будь ласка."],
-        ["Pracownik","Benzyna czy olej napędowy?","Бензин чи дизель?"],
-        ["Klient","Benzyna.","Бензин."],
-        ["Pracownik","95 czy 97?","95 чи 97?"],
-        ["Klient","Wezmę mocniejszą, dłużej pojeździ.","Візьму потужніший, довше протримається."],
-        ["Pracownik","Gotowe. Czy chciałby pan jeszcze płyn do spryskiwaczy? Mamy teraz promocję.","Готово. Чи бажаєте ще рідину для омивача? У нас зараз акція."],
-        ["Klient","Nie, dziękuję. Czy mogę zapłacić kartą?","Ні, дякую. Чи можу заплатити карткою?"],
-        ["Pracownik","Tak, ale tylko w środku, w kasie. Umyć w międzyczasie szyby?","Так, але тільки всередині, на касі. Помити тим часом скло?"],
-        ["Klient","Bardzo proszę.","Будь ласка."]
-      ]}
-    ]}
+    {
+      "block": "A. Mail z weekendu · трек 212A2",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Droga Aniu — relacja z wyjazdu",
+          "audio": "audio/L12/L12-czytanie-01.mp3",
+          "text": "Droga Aniu, przepraszam, że nie odpisałam od razu na twojego maila, ale weekendowe przygody sprawiły, że byłam odcięta od internetu. Wyobraź sobie, że postanowiliśmy skorzystać z oferty biura turystycznego i wynająć mały domek w górach na kilka dni. Wszystko wyglądało idealnie. Miejsce piękne, okolica spokojna, a cena bardzo atrakcyjna. Po dokonaniu wszystkich formalności dostaliśmy klucze od domku i mapę, która miała nas tam doprowadzić. Już od początku nie mieliśmy szczęścia w tej podróży. Wyjechaliśmy z domu wcześniej, żeby uniknąć korków, ale ze względu na remonty musieliśmy zjechać z głównej drogi i jechać bocznymi, więc na miejsce dojechaliśmy po północy. Z naszej mapy wynikało, że musimy przejechać przez przejazd kolejowy i jechać do końca asfaltowej drogi. Tam powinien stać nasz domek. Za przejazdem droga szła ostro do góry, na szczyt wzgórza. Nasz samochód ledwie tam wjechał, a potem nie uwierzysz, skończyła się droga, a domku ani śladu. Zawróciliśmy do miasteczka. Objechaliśmy całą miejscowość dookoła, nigdzie żywej duszy. Zjechaliśmy na pobocze, zaparkowaliśmy auto i postanowiliśmy poszukać domku na piechotę. Był zupełnie gdzie indziej. Szczęśliwi, że się znalazł, wreszcie podjechaliśmy pod domek, ale natychmiast musieliśmy odjechać nieco dalej, bo Tomek bał się, że nie wyjedzie potem z tego błota. Lepiej nie wspominać, co zobaczyliśmy w środku. To był koszmarny weekend. Wyjechaliśmy stamtąd bez żalu. W życiu tam nie pojadę drugi raz. Iwona. P.S. Ewa miała rację, że zniechęcała mnie do korzystania z podejrzania tanich ofert. Ja też już będę odradzać to wszystkim. Nie powinno się korzystać z niesprawdzonych biur turystycznych. Po tych przygodach Tomasz kupił nawigację.",
+          "tr": "Дорога Аню, вибач, що не відповіла одразу на твій лист, але вихідні пригоди зробили так, що я була відрізана від інтернету. Уяви собі, що ми вирішили скористатися пропозицією турагенції й винайняти маленький будиночок у горах на кілька днів. Усе виглядало ідеально. Місце гарне, околиця спокійна, а ціна дуже приваблива. Уладнавши всі формальності, ми отримали ключі від будиночка й мапу, яка мала нас туди привести. Уже з самого початку нам не щастило в цій подорожі. Ми виїхали з дому раніше, щоб уникнути заторів, але через ремонти мусили з’їхати з головної дороги й їхати бічними, тож на місце доїхали після півночі. З нашої мапи виходило, що ми мусимо проїхати через залізничний переїзд і їхати до кінця асфальтованої дороги. Там мав стояти наш будиночок. За переїздом дорога йшла круто вгору, на вершину пагорба. Наша машина ледве туди в’їхала, а потім — не повіриш — дорога скінчилася, а будиночка й сліду немає. Ми повернули назад до містечка. Об’їхали всю місцевість довкола, ніде ні живої душі. З’їхали на узбіччя, припаркували авто й вирішили пошукати будиночок пішки. Він був зовсім в іншому місці. Щасливі, що він знайшовся, ми нарешті під’їхали до будиночка, але одразу мусили від’їхати трохи далі, бо Томек боявся, що потім не виїде з цього болота. Краще не згадувати, що ми побачили всередині. Це були жахливі вихідні. Ми виїхали звідти без жалю. Більше ніколи туди не поїду вдруге. Івона. P.S. Ева мала рацію, що відраджувала мене від користування підозріло дешевими пропозиціями. Я теж тепер буду всім це відраджувати. Не варто користуватися неперевіреними турагенціями. Після цих пригод Томаш купив навігацію."
+        }
+      ]
+    },
+    {
+      "block": "B. Reklamacja · трек 212B1",
+      "items": [
+        {
+          "type": "mono",
+          "title": "To skandaliczne! — list reklamacyjny",
+          "audio": "audio/L12/L12-czytanie-02.mp3",
+          "text": "Szanowni Państwo, chciałem wyrazić swoje niezadowolenie w związku z nierzetelnością Państwa usług. W ubiegłym tygodniu skorzystałem z Państwa oferty domek na weekend. Niestety, niemal żaden punkt oferty nie był zgodny z rzeczywistością. To niedopuszczalne, żeby tak traktować klienta. Po pierwsze, mapa dojazdowa, którą otrzymałem od Państwa była niedokładna i zawierała błędne informacje, a instrukcje były niejasne. Uważam, iż to skandaliczne, że nikt tego nie sprawdził. Po drugie, domek był brudny i zaniedbany. Również sytuacja nie do przyjęcia. Po trzecie, kuchnia miała być w pełni wyposażona, natomiast były tam jedynie dwa talerze, stara przypalona patelnia i zepsuty czajnik. Pozostawiam to bez komentarza. Jestem oburzony Państwa postępowaniem i domagam się rekompensaty za nieudany urlop. Z poważaniem, Tomasz Skrzypek.",
+          "tr": "Шановне панство, я хотів би висловити своє невдоволення у зв’язку з недобросовісністю ваших послуг. Минулого тижня я скористався вашою пропозицією «будиночок на вихідні». На жаль, майже жоден пункт пропозиції не відповідав дійсності. Це неприпустимо — так ставитися до клієнта. По-перше, карта проїзду, яку я отримав від вас, була неточною й містила помилкову інформацію, а інструкції — незрозумілі. Вважаю, що це скандально, що ніхто цього не перевірив. По-друге, будиночок був брудний і занедбаний. Це теж ситуація, яку неможливо прийняти. По-третє, кухня мала бути повністю обладнана, натомість там було лише дві тарілки, стара пригоріла сковорода й зіпсований чайник. Залишаю це без коментарів. Я обурений вашою поведінкою й вимагаю компенсації за невдалу відпустку. З повагою, Томаш Скшипек."
+        }
+      ]
+    },
+    {
+      "block": "C. Czym jedziesz · dialog · трек 212C2",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Tom i Mami — pływać czy płynąć?",
+          "audio": "audio/L12/L12-czytanie-03.mp3",
+          "lines": [
+            [
+              "Mami",
+              "Czekaj, czekaj. Chyba rozumiem. Czyli lubię pływać. Codziennie pływam. Ale teraz płynę. A jutro popłynę na drugi brzeg, tak?",
+              "Зачекай, зачекай. Здається, розумію. Тобто я люблю плавати. Щодня плаваю. Але зараз пливу. А завтра попливу на другий берег, так?"
+            ],
+            [
+              "Tom",
+              "Tak. Widzisz, to proste jak drut. Analogicznie zachowują się czasowniki latać, lecieć i polecieć.",
+              "Так. Бачиш, це просто, як двічі по два. Так само поводяться дієслова latać, lecieć і polecieć."
+            ],
+            [
+              "Mami",
+              "Rzeczywiście. Wiesz, to nawet jest logiczne.",
+              "Справді. Знаєш, це навіть логічно."
+            ],
+            [
+              "Tom",
+              "Pewnie. To teraz skończ szybko tę pracę domową, to polecimy na pierogi, bo umieram z głodu.",
+              "Звичайно. То тепер швидко закінчуй це домашнє завдання, і полетимо на вареники, бо я вмираю з голоду."
+            ],
+            [
+              "Mami",
+              "Polecimy? Samolotem? Helikopterem?",
+              "Полетимо? Літаком? Гелікоптером?"
+            ],
+            [
+              "Tom",
+              "Mami, nie żartuj sobie ze mnie. Tak się po prostu mówi.",
+              "Мамі, не жартуй з мене. Так просто кажуть."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "C. Jak dojechać? · dialogi · трек 212C6",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Czy autobus jedzie na dworzec?",
+          "audio": "audio/L12/L12-czytanie-04.mp3",
+          "lines": [
+            [
+              "Pasażer",
+              "Przepraszam pana, czy ten autobus jedzie na dworzec?",
+              "Перепрошую, чи цей автобус їде на вокзал?"
+            ],
+            [
+              "Kierowca",
+              "Tak.",
+              "Так."
+            ],
+            [
+              "Pasażer",
+              "Na którym przystanku mam wysiąść?",
+              "На якій зупинці мені виходити?"
+            ],
+            [
+              "Kierowca",
+              "Na czwartym.",
+              "На четвертій."
+            ],
+            [
+              "Pasażer",
+              "Dziękuję bardzo.",
+              "Дуже дякую."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Tramwaj do Muzeum Narodowego",
+          "audio": "audio/L12/L12-czytanie-05.mp3",
+          "lines": [
+            [
+              "Pasażerka",
+              "Czy dojadę tym tramwajem do Muzeum Narodowego?",
+              "Чи доїду цим трамваєм до Національного музею?"
+            ],
+            [
+              "Przechodzień",
+              "Niestety nie. Musi pani wysiąść na następnym przystanku i przesiąść się na tramwaj numer 18.",
+              "На жаль, ні. Ви маєте вийти на наступній зупинці й пересісти на трамвай номер 18."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Jeździsz do pracy autobusem?",
+          "audio": "audio/L12/L12-czytanie-06.mp3",
+          "lines": [
+            [
+              "A",
+              "Jeździsz do pracy autobusem?",
+              "Ти їздиш на роботу автобусом?"
+            ],
+            [
+              "B",
+              "Nie, najpierw wsiadam do busa, który dojeżdża do Krakowa, a potem przesiadam się na tramwaj.",
+              "Ні, спершу сідаю в маршрутку, яка доїжджає до Кракова, а потім пересідаю на трамвай."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Wysiądę razem z tobą",
+          "audio": "audio/L12/L12-czytanie-07.mp3",
+          "lines": [
+            [
+              "A",
+              "Wysiądę razem z tobą i pomogę ci nieść te zakupy.",
+              "Вийду разом з тобою і допоможу тобі нести ці покупки."
+            ],
+            [
+              "B",
+              "Naprawdę wysiądziesz ze mną? Dziękuję ci bardzo.",
+              "Справді вийдеш зі мною? Дуже тобі дякую."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Cmentarz Rakowicki",
+          "audio": "audio/L12/L12-czytanie-08.mp3",
+          "lines": [
+            [
+              "Pasażerka",
+              "Czy cmentarz Rakowicki jest daleko stąd?",
+              "Чи Раковицький цвинтар далеко звідси?"
+            ],
+            [
+              "Przechodzień",
+              "Dość daleko. Najlepiej jak pani pojedzie tramwajem. Przystanek jest po drugiej stronie ulicy. Wsiądzie pani do tramwaju numer dwa.",
+              "Досить далеко. Найкраще, якщо ви поїдете трамваєм. Зупинка з іншого боку вулиці. Сядете в трамвай номер два."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "D. Na stacji benzynowej · dialog · трек 212D2",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Proszę do pełna",
+          "audio": "audio/L12/L12-czytanie-09.mp3",
+          "lines": [
+            [
+              "Klient",
+              "Dzień dobry, proszę do pełna.",
+              "Добрий день, повний бак, будь ласка."
+            ],
+            [
+              "Pracownik",
+              "Benzyna czy olej napędowy?",
+              "Бензин чи дизель?"
+            ],
+            [
+              "Klient",
+              "Benzyna.",
+              "Бензин."
+            ],
+            [
+              "Pracownik",
+              "95 czy 97?",
+              "95 чи 97?"
+            ],
+            [
+              "Klient",
+              "Wezmę mocniejszą, dłużej pojeździ.",
+              "Візьму потужніший, довше протримається."
+            ],
+            [
+              "Pracownik",
+              "Gotowe. Czy chciałby pan jeszcze płyn do spryskiwaczy? Mamy teraz promocję.",
+              "Готово. Чи бажаєте ще рідину для омивача? У нас зараз акція."
+            ],
+            [
+              "Klient",
+              "Nie, dziękuję. Czy mogę zapłacić kartą?",
+              "Ні, дякую. Чи можу заплатити карткою?"
+            ],
+            [
+              "Pracownik",
+              "Tak, ale tylko w środku, w kasie. Umyć w międzyczasie szyby?",
+              "Так, але тільки всередині, на касі. Помити тим часом скло?"
+            ],
+            [
+              "Klient",
+              "Bardzo proszę.",
+              "Будь ласка."
+            ]
+          ]
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 12 — треки 212A2, 212B1, 212C2, 212C6, 212D2. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "dia", "title": "Wskazówki na drodze (GPS) · zeszyt cw05", "audio": "audio/L12/L12-zeszyt-01.mp3", "lines": [
-      ["GPS","Proszę jechać ulicą Warszawską. Dojechać do drugiego skrzyżowania ze światłami i skręcić w lewo.","Їдьте Варшавською вулицею. Доїдьте до другого перехрестя зі світлофором і поверніть ліворуч."],
-      ["GPS","Następnie dojechać do placu Wolności. Objechać plac i jechać dalej prosto.","Далі доїдьте до площі Свободи. Об’їдьте площу й їдьте далі прямо."],
-      ["GPS","Potem proszę przejechać przez most i wyjechać z miasta.","Потім проїдьте через міст і виїдьте з міста."],
-      ["GPS","Po dwóch kilometrach proszę skręcić w prawo i wjechać na obwodnicę.","Через два кілометри поверніть праворуч і виїдьте на об’їзну дорогу."],
-      ["GPS","Po dwudziestu kilometrach proszę zjechać z obwodnicy.","Через двадцять кілометрів з’їдьте з об’їзної дороги."]
-    ]},
-    { "type": "mono", "title": "Stacja benzynowa — opisy · zeszyt cw13", "audio": "audio/L12/L12-zeszyt-02.mp3",
+    {
+      "type": "dia",
+      "title": "Wskazówki na drodze (GPS) · zeszyt cw05",
+      "audio": "audio/L12/L12-zeszyt-01.mp3",
+      "lines": [
+        [
+          "GPS",
+          "Proszę jechać ulicą Warszawską. Dojechać do drugiego skrzyżowania ze światłami i skręcić w lewo.",
+          "Їдьте Варшавською вулицею. Доїдьте до другого перехрестя зі світлофором і поверніть ліворуч."
+        ],
+        [
+          "GPS",
+          "Następnie dojechać do placu Wolności. Objechać plac i jechać dalej prosto.",
+          "Далі доїдьте до площі Свободи. Об’їдьте площу й їдьте далі прямо."
+        ],
+        [
+          "GPS",
+          "Potem proszę przejechać przez most i wyjechać z miasta.",
+          "Потім проїдьте через міст і виїдьте з міста."
+        ],
+        [
+          "GPS",
+          "Po dwóch kilometrach proszę skręcić w prawo i wjechać na obwodnicę.",
+          "Через два кілометри поверніть праворуч і виїдьте на об’їзну дорогу."
+        ],
+        [
+          "GPS",
+          "Po dwudziestu kilometrach proszę zjechać z obwodnicy.",
+          "Через двадцять кілометрів з’їдьте з об’їзної дороги."
+        ]
+      ]
+    },
+    {
+      "type": "mono",
+      "title": "Stacja benzynowa — opisy · zeszyt cw13",
+      "audio": "audio/L12/L12-zeszyt-02.mp3",
       "text": "A. Dobre opony są bardzo ważne dla bezpieczeństwa. W krajach takich jak Polska zmieniamy je jesienią na zimowe i wiosną na letnie. B. Jest tylko na niektórych stacjach. Ułatwia posprzątanie wnętrza samochodu. C. Na stacji samoobsługowej tankujemy sami. A potem, kiedy płacimy przy kasie za benzynę, podajemy jego numer. D. Są na nich oznaczenia rodzaju paliwa, czyli jaki rodzaj benzyny czy oleju napędowego będziemy wlewać do baku. E. Ułatwia on usuwanie brudu z szyb przy pomocy wycieraczek. Są dwie wersje. Letnia oraz zimowa, która zawiera więcej alkoholu. F. To miejsce, w którym możemy umyć samochód. Ręcznie lub automatycznie. G. Podjeżdżamy tam, żeby zatankować samochód, ale też żeby odpocząć, napić się kawy, zrobić zakupy czy napompować koła.",
-      "tr": "А. Хороші шини дуже важливі для безпеки. У країнах на кшталт Польщі ми міняємо їх восени на зимові, а навесні на літні. Б. Є лише на деяких заправках. Полегшує прибирання салону автомобіля. В. На заправці самообслуговування ми заправляємося самі. А потім, коли платимо на касі за бензин, називаємо її номер. Г. На них є позначення виду пального, тобто який вид бензину чи дизелю ми будемо заливати в бак. Ґ. Він полегшує усування бруду зі скла за допомогою двірників. Є дві версії. Літня й зимова, яка містить більше спирту. Д. Це місце, де ми можемо помити машину. Вручну або автоматично. Е. Під’їжджаємо туди, щоб заправити машину, а також щоб відпочити, випити кави, зробити покупки чи накачати колеса." },
-    { "type": "mono", "title": "Definicje — ruch drogowy · zeszyt cw15", "audio": "audio/L12/L12-zeszyt-03.mp3",
+      "tr": "А. Хороші шини дуже важливі для безпеки. У країнах на кшталт Польщі ми міняємо їх восени на зимові, а навесні на літні. Б. Є лише на деяких заправках. Полегшує прибирання салону автомобіля. В. На заправці самообслуговування ми заправляємося самі. А потім, коли платимо на касі за бензин, називаємо її номер. Г. На них є позначення виду пального, тобто який вид бензину чи дизелю ми будемо заливати в бак. Ґ. Він полегшує усування бруду зі скла за допомогою двірників. Є дві версії. Літня й зимова, яка містить більше спирту. Д. Це місце, де ми можемо помити машину. Вручну або автоматично. Е. Під’їжджаємо туди, щоб заправити машину, а також щоб відпочити, випити кави, зробити покупки чи накачати колеса."
+    },
+    {
+      "type": "mono",
+      "title": "Definicje — ruch drogowy · zeszyt cw15",
+      "audio": "audio/L12/L12-zeszyt-03.mp3",
       "text": "Dokument potwierdzający uprawnienia jego posiadacza do prowadzenia pojazdów silnikowych. Chroni dziecko, pasażera samochodu, przed skutkami gwałtownego hamowania lub zderzenia. Unikatowy numer, kombinacja liter i cyfr, umożliwiający identyfikację pojazdów. Formacja mundurowa odpowiedzialna za ochronę porządku publicznego i bezpieczeństwa ludzi. Element systemu bezpieczeństwa w samochodzie. Chroni przed uderzeniem w momencie zderzenia. Miejsce na drodze, gdzie dochodzi do wielu wypadków, oznaczane specjalnymi znakami drogowymi lub tablicami informacyjnymi. Kierowcy zostawiają auto na przedmieściach i dojeżdżają do centrum komunikacją zbiorową.",
-      "tr": "Документ, що підтверджує право його власника керувати моторними транспортними засобами (посвідчення водія). Захищає дитину, пасажира автомобіля, від наслідків різкого гальмування чи зіткнення (дитяче крісло). Унікальний номер, комбінація літер і цифр, що дає змогу ідентифікувати транспортні засоби (номерний знак). Формація в однострої, відповідальна за охорону громадського порядку й безпеки людей (поліція). Елемент системи безпеки в автомобілі. Захищає від удару в момент зіткнення (подушка безпеки). Місце на дорозі, де стається багато аварій, позначене спеціальними дорожніми знаками чи інформаційними табличками (аварійно небезпечна ділянка). Водії залишають авто на околицях і доїжджають до центру громадським транспортом (система «park and ride»)." }
+      "tr": "Документ, що підтверджує право його власника керувати моторними транспортними засобами (посвідчення водія). Захищає дитину, пасажира автомобіля, від наслідків різкого гальмування чи зіткнення (дитяче крісло). Унікальний номер, комбінація літер і цифр, що дає змогу ідентифікувати транспортні засоби (номерний знак). Формація в однострої, відповідальна за охорону громадського порядку й безпеки людей (поліція). Елемент системи безпеки в автомобілі. Захищає від удару в момент зіткнення (подушка безпеки). Місце на дорозі, де стається багато аварій, позначене спеціальними дорожніми знаками чи інформаційними табличками (аварійно небезпечна ділянка). Водії залишають авто на околицях і доїжджають до центру громадським транспортом (система «park and ride»)."
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 12 — ćw. 5 (трек 9164), ćw. 13 (трек 27408), ćw. 15 (треки 27023–27029). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "quiz": [
-    { "topic": "słownictwo", "q": "Що означає польське «objazd»?",
-      "o": ["об’їзд","виїзд","затор"], "a": 0,
-      "fb": "«Objazd» — об’їзд (об’їзний шлях), коли дорога перекрита. «Wyjazd» — виїзд, «korek» — затор." },
-    { "topic": "czasowniki ruchu", "q": "Mami каже: «Codziennie ___, ale teraz ___ na drugi brzeg». Які форми правильні?",
-      "o": ["płynę … pływam","pływam … płynę","pływam … pływam"], "a": 1,
-      "fb": "Звичка (codziennie) → pływam; конкретно зараз → płynę. Так само chodzić ↔ iść." },
-    { "topic": "czasowniki ruchu", "q": "Доконана форма дієслова «lecieć» (полетіти один раз)?",
-      "o": ["latać","polecieć","lecieć"], "a": 1,
-      "fb": "Доконану форму часто утворює префікс po-: lecieć → polecieć. Tom: «polecimy na pierogi»." },
-    { "topic": "czytanie", "q": "Чому Iwona та Tomek спершу мусили з’їхати з головної дороги?",
-      "o": ["через ремонти дороги","через затор","бо заблукали"], "a": 0,
-      "fb": "«Ze względu na remonty musieliśmy zjechać z głównej drogi i jechać bocznymi»." },
-    { "topic": "reklamacja", "q": "Що зробив Tomasz Skrzypek наприкінці листа рекламації?",
-      "o": ["подякував за послугу","зажадав компенсації","попросив знижку"], "a": 1,
-      "fb": "«Jestem oburzony… i domagam się rekompensaty za nieudany urlop». Domagać się = вимагати." },
-    { "topic": "słownictwo", "q": "Дієслово «odradzać» означає…",
-      "o": ["радити, заохочувати","відмовляти, відраджувати","повторювати"], "a": 1,
-      "fb": "«Odradzać» = відраджувати (радити НЕ робити). Iwona: «będę odradzać to wszystkim»." },
-    { "topic": "transport", "q": "На заправці працівник питає: «Benzyna czy ___?». Що пропущено?",
-      "o": ["olej napędowy","woda","powietrze"], "a": 0,
-      "fb": "Вибір пального: «Benzyna czy olej napędowy?» — бензин чи дизель." },
-    { "topic": "czasowniki ruchu", "q": "Доповніть: «Musi pani ___ na tramwaj numer 18» (пересісти).",
-      "o": ["wysiąść","przesiąść się","wsiąść"], "a": 1,
-      "fb": "Пересадка з одного транспорту на інший — «przesiąść się na». Wsiąść = сісти, wysiąść = вийти." },
-    { "topic": "czasowniki ruchu", "q": "Яка форма правильна: «Samochód ledwie tam ___» (в’їхав угору)?",
-      "o": ["wjechał","zjechał","odjechał"], "a": 0,
-      "fb": "Рух угору / всередину — «wjechać». Zjechać — з’їхати вниз/убік, odjechać — від’їхати." },
-    { "topic": "słownictwo", "q": "Як по-польськи сказати «вимагати компенсації»?",
-      "o": ["prosić o rekompensatę","domagać się rekompensaty","odradzać rekompensatę"], "a": 1,
-      "fb": "«Domagać się rekompensaty» — рішуче вимагати компенсації (сильніше за prosić)." }
+    {
+      "topic": "słownictwo",
+      "q": "Що означає польське «objazd»?",
+      "o": [
+        "виїзд",
+        "затор",
+        "об’їзд"
+      ],
+      "a": 2,
+      "fb": "«Objazd» — об’їзд (об’їзний шлях), коли дорога перекрита. «Wyjazd» — виїзд, «korek» — затор."
+    },
+    {
+      "topic": "czasowniki ruchu",
+      "q": "Mami каже: «Codziennie ___, ale teraz ___ na drugi brzeg». Які форми правильні?",
+      "o": [
+        "pływam … płynę",
+        "płynę … pływam",
+        "pływam … pływam"
+      ],
+      "a": 0,
+      "fb": "Звичка (codziennie) → pływam; конкретно зараз → płynę. Так само chodzić ↔ iść."
+    },
+    {
+      "topic": "czasowniki ruchu",
+      "q": "Доконана форма дієслова «lecieć» (полетіти один раз)?",
+      "o": [
+        "latać",
+        "polecieć",
+        "lecieć"
+      ],
+      "a": 1,
+      "fb": "Доконану форму часто утворює префікс po-: lecieć → polecieć. Tom: «polecimy na pierogi»."
+    },
+    {
+      "topic": "czytanie",
+      "q": "Чому Iwona та Tomek спершу мусили з’їхати з головної дороги?",
+      "o": [
+        "через затор",
+        "бо заблукали",
+        "через ремонти дороги"
+      ],
+      "a": 2,
+      "fb": "«Ze względu na remonty musieliśmy zjechać z głównej drogi i jechać bocznymi»."
+    },
+    {
+      "topic": "reklamacja",
+      "q": "Що зробив Tomasz Skrzypek наприкінці листа рекламації?",
+      "o": [
+        "зажадав компенсації",
+        "подякував за послугу",
+        "попросив знижку"
+      ],
+      "a": 0,
+      "fb": "«Jestem oburzony… i domagam się rekompensaty za nieudany urlop». Domagać się = вимагати."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Дієслово «odradzać» означає…",
+      "o": [
+        "радити, заохочувати",
+        "відмовляти, відраджувати",
+        "повторювати"
+      ],
+      "a": 1,
+      "fb": "«Odradzać» = відраджувати (радити НЕ робити). Iwona: «będę odradzać to wszystkim»."
+    },
+    {
+      "topic": "transport",
+      "q": "На заправці працівник питає: «Benzyna czy ___?». Що пропущено?",
+      "o": [
+        "woda",
+        "powietrze",
+        "olej napędowy"
+      ],
+      "a": 2,
+      "fb": "Вибір пального: «Benzyna czy olej napędowy?» — бензин чи дизель."
+    },
+    {
+      "topic": "czasowniki ruchu",
+      "q": "Доповніть: «Musi pani ___ na tramwaj numer 18» (пересісти).",
+      "o": [
+        "przesiąść się",
+        "wysiąść",
+        "wsiąść"
+      ],
+      "a": 0,
+      "fb": "Пересадка з одного транспорту на інший — «przesiąść się na». Wsiąść = сісти, wysiąść = вийти."
+    },
+    {
+      "topic": "czasowniki ruchu",
+      "q": "Яка форма правильна: «Samochód ledwie tam ___» (в’їхав угору)?",
+      "o": [
+        "zjechał",
+        "wjechał",
+        "odjechał"
+      ],
+      "a": 1,
+      "fb": "Рух угору / всередину — «wjechać». Zjechać — з’їхати вниз/убік, odjechać — від’їхати."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Як по-польськи сказати «вимагати компенсації»?",
+      "o": [
+        "prosić o rekompensatę",
+        "odradzać rekompensatę",
+        "domagać się rekompensaty"
+      ],
+      "a": 2,
+      "fb": "«Domagać się rekompensaty» — рішуче вимагати компенсації (сильніше за prosić)."
+    }
   ],
-
   "checklist": [
-    { "text": "Запитати про дорогу й зрозуміти вказівки", "sub": "Czy dojadę…? · Proszę skręcić / przejechać / objechać / zjechać" },
-    { "text": "Розрізняти дієслова руху: nieokreślone vs określone", "sub": "chodzić/iść, jeździć/jechać, pływać/płynąć, latać/lecieć" },
-    { "text": "Користуватися префіксними дієсловами руху", "sub": "wjechać, zjechać, objechać, dojechać, podjechać, odjechać, przejechać" },
-    { "text": "Орієнтуватися в транспорті: посадка й пересадка", "sub": "wsiąść do, wysiąść, przesiąść się na, dojechać do" },
-    { "text": "Висловити невдоволення й написати рекламацію", "sub": "To skandaliczne! · niedopuszczalne · domagać się rekompensaty" }
+    {
+      "text": "Запитати про дорогу й зрозуміти вказівки",
+      "sub": "Czy dojadę…? · Proszę skręcić / przejechać / objechać / zjechać"
+    },
+    {
+      "text": "Розрізняти дієслова руху: nieokreślone vs określone",
+      "sub": "chodzić/iść, jeździć/jechać, pływać/płynąć, latać/lecieć"
+    },
+    {
+      "text": "Користуватися префіксними дієсловами руху",
+      "sub": "wjechać, zjechać, objechać, dojechać, podjechać, odjechać, przejechać"
+    },
+    {
+      "text": "Орієнтуватися в транспорті: посадка й пересадка",
+      "sub": "wsiąść do, wysiąść, przesiąść się na, dojechać do"
+    },
+    {
+      "text": "Висловити невдоволення й написати рекламацію",
+      "sub": "To skandaliczne! · niedopuszczalne · domagać się rekompensaty"
+    }
   ]
 }

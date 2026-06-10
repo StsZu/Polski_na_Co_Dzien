@@ -2,63 +2,320 @@
   "id": "01",
   "title": "Przedstawmy się",
   "goal": "Повторюємо: представлення (хто я, який я) · зовнішність і характер · зацікавлення · narzędnik (орудний відмінок)",
-
   "vocab": [
-    { "group": "Wygląd — зовнішність", "items": [
-      ["wysoki","високий"],["niski","низький"],["średniego wzrostu","середнього зросту"],
-      ["szczupły","худорлявий"],["zgrabny","стрункий"],["chudy","худий"],["nadwaga","зайва вага"],
-      ["dobrze zbudowany","міцної статури"],["łysy","лисий"],["broda","борода"],["wąsy","вуса"],
-      ["kręcone włosy","кучеряве волосся"],["proste włosy","пряме волосся"],["szatyn","шатен"],
-      ["brunet","брюнет"],["piwne oczy","карі очі"],["niebieskie oczy","блакитні очі"],["piegi","веснянки"]
-    ]},
-    { "group": "Charakter — характер", "items": [
-      ["spontaniczny","спонтанний"],["systematyczny","систематичний"],["zdyscyplinowany","дисциплінований"],
-      ["nieśmiały","сором’язливий"],["spokojny","спокійний"],["tolerancyjny","толерантний"],
-      ["zdecydowany","рішучий"],["pewny siebie","упевнений у собі"],["towarzyski","товариський"],
-      ["arogancki","зарозумілий"],["cierpliwy","терплячий"],["gadatliwy","балакучий"]
-    ]},
-    { "group": "Stan cywilny — сімейний стан", "items": [
-      ["kawaler","неодружений (парубок)"],["mężatka","заміжня жінка"],["żonaty","одружений (чол.)"],
-      ["zamężna","заміжня"],["rozwiedziona","розлучена"],["bezdzietny","бездітний"],
-      ["jedynak","єдина дитина в сім’ї"],["wolny","вільний / неодружений"]
-    ]},
-    { "group": "Dane personalne — анкета", "items": [
-      ["płeć","стать"],["narodowość","національність"],["obywatelstwo","громадянство"],
-      ["nazwisko panieńskie","дівоче прізвище"],["miejsce zamieszkania","місце проживання"],
-      ["znaki szczególne","особливі прикмети"],["wniosek paszportowy","заява на паспорт"],
-      ["wypełnić formularz","заповнити бланк"],["agent ubezpieczeniowy","страховий агент"]
-    ]},
-    { "group": "Nowe słowa — нові слова", "items": [
-      ["własny","власний"],["przeprowadzić wywiad","взяти інтерв’ю"],["zanieść","віднести"],
-      ["zaznaczyć","позначити"],["owsianka","вівсянка"],["smycz","повідець"],["sterta","купа"],
-      ["korzenie","коріння (походження)"],["radzić sobie","давати раду / справлятися"]
-    ]}
+    {
+      "group": "Wygląd — зовнішність",
+      "items": [
+        [
+          "wysoki",
+          "високий"
+        ],
+        [
+          "niski",
+          "низький"
+        ],
+        [
+          "średniego wzrostu",
+          "середнього зросту"
+        ],
+        [
+          "szczupły",
+          "худорлявий"
+        ],
+        [
+          "zgrabny",
+          "стрункий"
+        ],
+        [
+          "chudy",
+          "худий"
+        ],
+        [
+          "nadwaga",
+          "зайва вага"
+        ],
+        [
+          "dobrze zbudowany",
+          "міцної статури"
+        ],
+        [
+          "łysy",
+          "лисий"
+        ],
+        [
+          "broda",
+          "борода"
+        ],
+        [
+          "wąsy",
+          "вуса"
+        ],
+        [
+          "kręcone włosy",
+          "кучеряве волосся"
+        ],
+        [
+          "proste włosy",
+          "пряме волосся"
+        ],
+        [
+          "szatyn",
+          "шатен"
+        ],
+        [
+          "brunet",
+          "брюнет"
+        ],
+        [
+          "piwne oczy",
+          "карі очі"
+        ],
+        [
+          "niebieskie oczy",
+          "блакитні очі"
+        ],
+        [
+          "piegi",
+          "веснянки"
+        ]
+      ]
+    },
+    {
+      "group": "Charakter — характер",
+      "items": [
+        [
+          "spontaniczny",
+          "спонтанний"
+        ],
+        [
+          "systematyczny",
+          "систематичний"
+        ],
+        [
+          "zdyscyplinowany",
+          "дисциплінований"
+        ],
+        [
+          "nieśmiały",
+          "сором’язливий"
+        ],
+        [
+          "spokojny",
+          "спокійний"
+        ],
+        [
+          "tolerancyjny",
+          "толерантний"
+        ],
+        [
+          "zdecydowany",
+          "рішучий"
+        ],
+        [
+          "pewny siebie",
+          "упевнений у собі"
+        ],
+        [
+          "towarzyski",
+          "товариський"
+        ],
+        [
+          "arogancki",
+          "зарозумілий"
+        ],
+        [
+          "cierpliwy",
+          "терплячий"
+        ],
+        [
+          "gadatliwy",
+          "балакучий"
+        ]
+      ]
+    },
+    {
+      "group": "Stan cywilny — сімейний стан",
+      "items": [
+        [
+          "kawaler",
+          "неодружений (парубок)"
+        ],
+        [
+          "mężatka",
+          "заміжня жінка"
+        ],
+        [
+          "żonaty",
+          "одружений (чол.)"
+        ],
+        [
+          "zamężna",
+          "заміжня"
+        ],
+        [
+          "rozwiedziona",
+          "розлучена"
+        ],
+        [
+          "bezdzietny",
+          "бездітний"
+        ],
+        [
+          "jedynak",
+          "єдина дитина в сім’ї"
+        ],
+        [
+          "wolny",
+          "вільний / неодружений"
+        ]
+      ]
+    },
+    {
+      "group": "Dane personalne — анкета",
+      "items": [
+        [
+          "płeć",
+          "стать"
+        ],
+        [
+          "narodowość",
+          "національність"
+        ],
+        [
+          "obywatelstwo",
+          "громадянство"
+        ],
+        [
+          "nazwisko panieńskie",
+          "дівоче прізвище"
+        ],
+        [
+          "miejsce zamieszkania",
+          "місце проживання"
+        ],
+        [
+          "znaki szczególne",
+          "особливі прикмети"
+        ],
+        [
+          "wniosek paszportowy",
+          "заява на паспорт"
+        ],
+        [
+          "wypełnić formularz",
+          "заповнити бланк"
+        ],
+        [
+          "agent ubezpieczeniowy",
+          "страховий агент"
+        ]
+      ]
+    },
+    {
+      "group": "Nowe słowa — нові слова",
+      "items": [
+        [
+          "własny",
+          "власний"
+        ],
+        [
+          "przeprowadzić wywiad",
+          "взяти інтерв’ю"
+        ],
+        [
+          "zanieść",
+          "віднести"
+        ],
+        [
+          "zaznaczyć",
+          "позначити"
+        ],
+        [
+          "owsianka",
+          "вівсянка"
+        ],
+        [
+          "smycz",
+          "повідець"
+        ],
+        [
+          "sterta",
+          "купа"
+        ],
+        [
+          "korzenie",
+          "коріння (походження)"
+        ],
+        [
+          "radzić sobie",
+          "давати раду / справлятися"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Końcówki narzędnika — закінчення орудного",
       "note": "Орудний відмінок (kim? czym?). Чоловічий/середній рід → -em, жіночий → -ą, множина → -ami (виняток: dziećmi, ludźmi).",
       "table": {
-        "head": ["Rodzaj","Mianownik","Narzędnik"],
+        "head": [
+          "Rodzaj",
+          "Mianownik",
+          "Narzędnik"
+        ],
         "rows": [
-          ["ч. істота","Polak, mąż, artysta","Polak*iem*, męż*em*, artyst*ą*"],
-          ["ч. неістота","autobus, nóż, długopis","autobus*em*, noż*em*, długopis*em*"],
-          ["жіночий","matka, ulica, wiadomość","matk*ą*, ulic*ą*, wiadomośc*ią*"],
-          ["середній","dziecko, imię","dzieck*iem*, imien*iem*"],
-          ["множина","dzieci, rodzice, przyjaciele","dzieć*mi*, rodzic*ami*, przyjaciół*mi*"]
+          [
+            "ч. істота",
+            "Polak, mąż, artysta",
+            "Polak*iem*, męż*em*, artyst*ą*"
+          ],
+          [
+            "ч. неістота",
+            "autobus, nóż, długopis",
+            "autobus*em*, noż*em*, długopis*em*"
+          ],
+          [
+            "жіночий",
+            "matka, ulica, wiadomość",
+            "matk*ą*, ulic*ą*, wiadomośc*ią*"
+          ],
+          [
+            "середній",
+            "dziecko, imię",
+            "dzieck*iem*, imien*iem*"
+          ],
+          [
+            "множина",
+            "dzieci, rodzice, przyjaciele",
+            "dzieć*mi*, rodzic*ami*, przyjaciół*mi*"
+          ]
         ]
       }
     },
     {
       "title": "Kiedy używamy narzędnika? — коли вживаємо",
       "table": {
-        "head": ["Pytanie","Przykład"],
+        "head": [
+          "Pytanie",
+          "Przykład"
+        ],
         "rows": [
-          ["Kim jestem?","Jestem Polakiem. Jestem nauczycielką. Jestem artystą."],
-          ["Czym się zajmuję?","Interesuję się literaturą. Pasjonuję się malarstwem."],
-          ["Jak? / Któredy?","Jadę autobusem. Idę ulicą Długą. Maszeruję szybkim krokiem."],
-          ["Kiedy?","Wróciłem wczesnym popołudniem. Pracuję całymi dniami."]
+          [
+            "Kim jestem?",
+            "Jestem Polakiem. Jestem nauczycielką. Jestem artystą."
+          ],
+          [
+            "Czym się zajmuję?",
+            "Interesuję się literaturą. Pasjonuję się malarstwem."
+          ],
+          [
+            "Jak? / Któredy?",
+            "Jadę autobusem. Idę ulicą Długą. Maszeruję szybkim krokiem."
+          ],
+          [
+            "Kiedy?",
+            "Wróciłem wczesnym popołudniem. Pracuję całymi dniami."
+          ]
         ]
       }
     },
@@ -70,125 +327,407 @@
     {
       "title": "Przyimki z narzędnikiem — прийменники з орудним",
       "table": {
-        "head": ["Przyimek","Przykład"],
+        "head": [
+          "Przyimek",
+          "Przykład"
+        ],
         "rows": [
-          ["z / ze","Jadę z Polakiem. Mieszkam ze znajomymi."],
-          ["za","Przepadam za bigosem."],
-          ["pod","Pies śpi pod stołem."],
-          ["nad","Gołębie lecą nad nami."],
-          ["przed","Siedzę przed telewizorem."],
-          ["między","Angela siedziała między Tomem a Karoliną."],
-          ["poza","Uwe jest poza domem."]
+          [
+            "z / ze",
+            "Jadę z Polakiem. Mieszkam ze znajomymi."
+          ],
+          [
+            "za",
+            "Przepadam za bigosem."
+          ],
+          [
+            "pod",
+            "Pies śpi pod stołem."
+          ],
+          [
+            "nad",
+            "Gołębie lecą nad nami."
+          ],
+          [
+            "przed",
+            "Siedzę przed telewizorem."
+          ],
+          [
+            "między",
+            "Angela siedziała między Tomem a Karoliną."
+          ],
+          [
+            "poza",
+            "Uwe jest poza domem."
+          ]
         ]
       }
     }
   ],
-
   "czytanie": [
-    { "block": "A. Prezentacje · трек 201A4", "items": [
-      { "type": "mono", "title": "Angela Brown · prezentacja", "audio": "audio/L01/L01-czytanie-01.mp3",
-        "text": "Czy możecie opowiedzieć coś o sobie? Dlaczego nie? Jestem Angela Brown. Jestem Angielką, ale mam też polskie korzenie. Mój dziadek był Polakiem. Moja matka świetnie mówi po polsku. Mam 28 lat. Pracuję jako lektorka języka angielskiego. Jestem wysoka i szczupła. Mam długie, jasne włosy i niebieskie oczy. Kiedy byłam mała, miałam piegi i rude loki. Jestem rozwiedziona, ale nie lubię tego słowa. Wolna brzmi o wiele lepiej. Interesuję się literaturą i współczesnym kinem. Mmm, co jeszcze? Lubię koty. Nie przepadam za bigosem. Marzę o dalekich podróżach. Mój charakter? Jestem zdecydowana i pewna siebie. Czasem zbyt pewna. To chyba wada.",
-        "tr": "Можете розповісти щось про себе? Чому б ні? Я Анджела Браун. Я англійка, але маю й польське коріння. Мій дідусь був поляком. Моя мама чудово говорить польською. Мені 28 років. Працюю викладачкою англійської мови. Я висока й худорлява. Маю довге світле волосся й блакитні очі. Коли була маленькою, мала веснянки й руді кучері. Я розлучена, але не люблю цього слова. «Вільна» звучить набагато краще. Цікавлюся літературою й сучасним кіно. Ммм, що ще? Люблю котів. Не дуже люблю бігос. Мрію про далекі подорожі. Мій характер? Я рішуча й упевнена в собі. Іноді занадто впевнена. Це, мабуть, вада." },
-      { "type": "mono", "title": "Mami Takada · prezentacja", "audio": "audio/L01/L01-czytanie-02.mp3",
-        "text": "Nazywam się Mami Takada. Jestem z Japonii. Mam 20 lat. Jak wyglądam? Jak typowa Japonka. Ciemne oczy, czarne, proste włosy. Nie jestem wysoka. Znajomi mówią, że jestem filigranowa, a moja mama, że za chuda. Nie lubię biegać, nie lubię też piwa z sokiem. Interesuję się sztuką. Bardzo lubię malować. Chciałabym studiować malarstwo na Akademii Sztuk Pięknych w Krakowie. To teraz moje największe marzenie. Jaka jestem? Nieśmiała. Aha, nie mam męża ani dzieci.",
-        "tr": "Мене звати Мамі Такада. Я з Японії. Мені 20 років. Як я виглядаю? Як типова японка. Темні очі, чорне пряме волосся. Я невисока. Знайомі кажуть, що я тендітна, а мама — що надто худа. Не люблю бігати, не люблю також пиво із соком. Цікавлюся мистецтвом. Дуже люблю малювати. Хотіла б вивчати живопис в Академії образотворчих мистецтв у Кракові. Це зараз моя найбільша мрія. Яка я? Сором’язлива. Ага, не маю ні чоловіка, ні дітей." },
-      { "type": "mono", "title": "Javier Perez · prezentacja", "audio": "audio/L01/L01-czytanie-03.mp3",
-        "text": "Jestem Javier. Javier Perez z Argentyny. Kawaler. Brunet. Oczy piwne. Noszę brodę i wąsy. Wzrost? Jak to się mówi po polsku? Jestem średniego wzrostu i raczej szczupły. Koleżanki mówią, że jestem przystojny. Trudno powiedzieć, kim jestem z zawodu. Przede wszystkim muzykiem, ale robiłem w życiu dużo różnych rzeczy. Chociaż mam dopiero 30 lat. Interesuję się wszystkim. Uwielbiam tańczyć, jestem bardzo spontaniczny, towarzyski i zawsze zadowolony z życia. Nie lubię tylko aroganckich ludzi. Marzę, żeby otworzyć w Krakowie szkołę tańca.",
-        "tr": "Я Хав’єр. Хав’єр Перес з Аргентини. Неодружений. Брюнет. Очі карі. Ношу бороду й вуса. Зріст? Як це сказати польською? Я середнього зросту й радше худорлявий. Подруги кажуть, що я гарний. Важко сказати, хто я за фахом. Передусім музикант, але робив у житті багато різного. Хоча мені лише 30 років. Цікавлюся всім. Обожнюю танцювати, я дуже спонтанний, товариський і завжди задоволений життям. Не люблю тільки зарозумілих людей. Мрію відкрити в Кракові школу танців." },
-      { "type": "mono", "title": "Tom Peterson · prezentacja", "audio": "audio/L01/L01-czytanie-04.mp3",
-        "text": "Mam się krótko przedstawić? Tom Peterson, Amerykanin. Wysoki szatyn, kręcone włosy, okulary. Z wykształcenia jestem historykiem. Piszę prace o przyczynach upadku komunizmu w Europie Środkowej. Dlatego teraz mieszkam w Krakowie, choć muszę przyznać, że mam jeszcze jeden bardzo ważny powód. Moja dziewczyna jest Polką. Interesuję się nie tylko historią, ale także bieżącą sytuacją polityczną na świecie. Kocham naturę. Fotografowanie przyrody to moja druga pasja. Marzę o własnym domu z dużym ogrodem. Jestem spokojny i tolerancyjny. Aha, nie znoszę ani gotowanej marchewki, ani owsianki.",
-        "tr": "Маю коротко представитися? Том Петерсон, американець. Високий шатен, кучеряве волосся, окуляри. За освітою я історик. Пишу праці про причини падіння комунізму в Центральній Європі. Тому зараз живу в Кракові, хоча мушу визнати, що маю ще одну дуже важливу причину. Моя дівчина — полька. Цікавлюся не лише історією, а й поточною політичною ситуацією у світі. Люблю природу. Фотографування природи — моє друге захоплення. Мрію про власний дім з великим садом. Я спокійний і толерантний. Ага, терпіти не можу ні вареної моркви, ні вівсянки." },
-      { "type": "mono", "title": "Uwe Stein · prezentacja", "audio": "audio/L01/L01-czytanie-05.mp3",
-        "text": "Kolej na mnie? A zatem Uwe Stein. Biznesmen z Niemiec. A konkretnie z Berlina. Od roku pracuję i mieszkam w Polsce. Prowadzę własną firmę, która zajmuje się dystrybucją produktów farmaceutycznych. Teraz intensywnie uczę się polskiego. To dość trudne kierować firmą i jednocześnie spędzać kilka godzin w szkole, ale radzę sobie nieźle. Pewnie dlatego, że jestem bardzo zdyscyplinowany i systematyczny. Jeśli chodzi o wygląd, to jestem raczej wysoki, dobrze zbudowany. Mam jasne włosy i niebieskie oczy. Zainteresowania? Typowe. Sport, kino. Lubię jeździć na nartach. Przepadam za polskim jedzeniem. Nie cierpię gadatliwych kobiet. Marzę o tym, żeby więcej czasu spędzać z moją rodziną, czyli żoną i dwójką dzieci.",
-        "tr": "Моя черга? Отже, Уве Штайн. Бізнесмен з Німеччини. А конкретно з Берліна. Уже рік працюю й живу в Польщі. Веду власну фірму, яка займається дистрибуцією фармацевтичних продуктів. Зараз інтенсивно вчу польську. Це досить важко — керувати фірмою й водночас проводити кілька годин у школі, але я непогано справляюся. Мабуть тому, що я дуже дисциплінований і систематичний. Щодо зовнішності — я радше високий, міцної статури. Маю світле волосся й блакитні очі. Захоплення? Типові. Спорт, кіно. Люблю кататися на лижах. Дуже люблю польську їжу. Терпіти не можу балакучих жінок. Мрію проводити більше часу з родиною, тобто з дружиною й двома дітьми." }
-    ]},
-    { "block": "B. Dane personalne · dialog · трек 201B5", "items": [
-      { "type": "dia", "title": "Mami i Karol — formularz", "audio": "audio/L01/L01-czytanie-06.mp3", "lines": [
-        ["Mami","Karol, czy mógłbyś mi pomóc wypełnić ten formularz?","Кароле, чи міг би ти допомогти мені заповнити цей бланк?"],
-        ["Karol","A co to jest?","А що це таке?"],
-        ["Mami","To dokument, który muszę zanieść na uniwersytet.","Це документ, який я маю віднести в університет."],
-        ["Karol","Aha, i co tam jest trudnego?","Ага, і що там складного?"],
-        ["Mami","Nie wiem na przykład, co to znaczy płeć. Co tu powinnam zaznaczyć?","Не знаю, наприклад, що означає «płeć» (стать). Що тут мені позначити?"],
-        ["Karol","K – jak kobieta, bo M to mężczyzna. Rozumiesz?","K — як «kobieta» (жінка), бо M — це «mężczyzna» (чоловік). Розумієш?"],
-        ["Mami","OK. A to? Nazwisko panieńskie…","Ок. А це? Дівоче прізвище…"],
-        ["Karol","Tu nic nie piszesz, bo nie jesteś mężatką i Takada to twoje pierwsze nazwisko.","Тут нічого не пишеш, бо ти не заміжня, і Такада — це твоє перше прізвище."],
-        ["Mami","A miejsce stałego zamieszkania?","А місце постійного проживання?"],
-        ["Karol","To twój adres, ale nie tu w Krakowie, tylko w Japonii. Jeszcze coś?","Це твоя адреса, але не тут у Кракові, а в Японії. Ще щось?"],
-        ["Mami","Chwileczkę, narodowość rozumiem, a obywatelstwo?","Хвилинку, «національність» розумію, а «громадянство»?"],
-        ["Karol","Piszesz „japońskie”. Jeśli kiedyś wyjdziesz za mąż za Polaka, to będziesz mogła mieć polskie obywatelstwo i polski paszport.","Пишеш «японське». Якщо колись вийдеш заміж за поляка, то зможеш мати польське громадянство й польський паспорт."],
-        ["Mami","Karol, nie żartuj ze mnie!","Кароле, не жартуй з мене!"]
-      ]}
-    ]},
-    { "block": "D. Narzędnik · tekst · трек 201D1", "items": [
-      { "type": "mono", "title": "Javier i kot", "audio": "audio/L01/L01-czytanie-07.mp3",
-        "text": "Javier wracał do domu późnym wieczorem. Szedł wąską i dość ciemną ulicą. Nie czuł się tu zbyt pewnie, więc maszerował szybkim krokiem. Nagle usłyszał za plecami dziwny hałas. Obejrzał się, ale nie było nikogo. Pod drzewem coś małego poruszyło się między stertami jesiennych liści. „Uf, to tylko kot, nie ma się czym stresować” — pomyślał Javier z ulgą. Chciał iść dalej, ale zwierzak już stał przed nim i miauczał żałośnie. „Aha, nie masz domu i nikt się tobą nie interesuje, co? Oho, ktoś cię skaleczył nad prawym okiem. Niedobrze.” Brudny i strasznie chudy kotek patrzył na Javiera z ufnością. „Rozumiem, chciałbyś iść ze mną, ale nie mogę cię wziąć. Jestem artystą, nie umiem zajmować się kotami” — powiedział zdecydowanie Javier i poszedł dalej. Kociak nie przejął się wcale tą odmową, tylko pobiegł za nim. Przed domem Javier stwierdził z rezygnacją: „Chyba mam kota.” Początkowo bał się dotknąć zwierzaka, żeby nie zarazić się jakąś chorobą, ale potem machnął ręką na wszystko i wziął go ze sobą. W domu umył kotka ciepłą wodą, wysuszył ręcznikiem i nakarmił mlekiem. „Kto będzie opiekować się tym kociakiem? Ja nie umiem radzić sobie ze zwierzętami. W dodatku ciągle jestem poza domem. Jednym słowem — mam problem.”",
-        "tr": "Хав’єр повертався додому пізнього вечора. Йшов вузькою й досить темною вулицею. Почувався тут не дуже впевнено, тож крокував швидким кроком. Раптом почув за спиною дивний шум. Озирнувся, але нікого не було. Під деревом щось маленьке заворушилося між купами осіннього листя. «Уф, це лише кіт, нема чого нервувати», — подумав Хав’єр з полегшенням. Хотів іти далі, але звірятко вже стояло перед ним і жалібно нявчало. «Ага, не маєш дому й ніхто тобою не цікавиться, так? Ого, хтось поранив тебе над правим оком. Недобре.» Брудне й страшенно худе котеня дивилося на Хав’єра з довірою. «Розумію, ти хотів би піти зі мною, але я не можу тебе взяти. Я артист, не вмію доглядати котів», — рішуче сказав Хав’єр і пішов далі. Котик зовсім не образився на цю відмову, а побіг за ним. Перед домом Хав’єр констатував з покорою: «Здається, я маю кота.» Спершу боявся торкнутися звірятка, щоб не заразитися якоюсь хворобою, але потім махнув на все рукою й узяв його з собою. Удома вимив котика теплою водою, висушив рушником і нагодував молоком. «Хто буде доглядати це котеня? Я не вмію давати раду тваринам. До того ж постійно не вдома. Одне слово — маю проблему.»" }
-    ]}
+    {
+      "block": "A. Prezentacje · трек 201A4",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Angela Brown · prezentacja",
+          "audio": "audio/L01/L01-czytanie-01.mp3",
+          "text": "Czy możecie opowiedzieć coś o sobie? Dlaczego nie? Jestem Angela Brown. Jestem Angielką, ale mam też polskie korzenie. Mój dziadek był Polakiem. Moja matka świetnie mówi po polsku. Mam 28 lat. Pracuję jako lektorka języka angielskiego. Jestem wysoka i szczupła. Mam długie, jasne włosy i niebieskie oczy. Kiedy byłam mała, miałam piegi i rude loki. Jestem rozwiedziona, ale nie lubię tego słowa. Wolna brzmi o wiele lepiej. Interesuję się literaturą i współczesnym kinem. Mmm, co jeszcze? Lubię koty. Nie przepadam za bigosem. Marzę o dalekich podróżach. Mój charakter? Jestem zdecydowana i pewna siebie. Czasem zbyt pewna. To chyba wada.",
+          "tr": "Можете розповісти щось про себе? Чому б ні? Я Анджела Браун. Я англійка, але маю й польське коріння. Мій дідусь був поляком. Моя мама чудово говорить польською. Мені 28 років. Працюю викладачкою англійської мови. Я висока й худорлява. Маю довге світле волосся й блакитні очі. Коли була маленькою, мала веснянки й руді кучері. Я розлучена, але не люблю цього слова. «Вільна» звучить набагато краще. Цікавлюся літературою й сучасним кіно. Ммм, що ще? Люблю котів. Не дуже люблю бігос. Мрію про далекі подорожі. Мій характер? Я рішуча й упевнена в собі. Іноді занадто впевнена. Це, мабуть, вада."
+        },
+        {
+          "type": "mono",
+          "title": "Mami Takada · prezentacja",
+          "audio": "audio/L01/L01-czytanie-02.mp3",
+          "text": "Nazywam się Mami Takada. Jestem z Japonii. Mam 20 lat. Jak wyglądam? Jak typowa Japonka. Ciemne oczy, czarne, proste włosy. Nie jestem wysoka. Znajomi mówią, że jestem filigranowa, a moja mama, że za chuda. Nie lubię biegać, nie lubię też piwa z sokiem. Interesuję się sztuką. Bardzo lubię malować. Chciałabym studiować malarstwo na Akademii Sztuk Pięknych w Krakowie. To teraz moje największe marzenie. Jaka jestem? Nieśmiała. Aha, nie mam męża ani dzieci.",
+          "tr": "Мене звати Мамі Такада. Я з Японії. Мені 20 років. Як я виглядаю? Як типова японка. Темні очі, чорне пряме волосся. Я невисока. Знайомі кажуть, що я тендітна, а мама — що надто худа. Не люблю бігати, не люблю також пиво із соком. Цікавлюся мистецтвом. Дуже люблю малювати. Хотіла б вивчати живопис в Академії образотворчих мистецтв у Кракові. Це зараз моя найбільша мрія. Яка я? Сором’язлива. Ага, не маю ні чоловіка, ні дітей."
+        },
+        {
+          "type": "mono",
+          "title": "Javier Perez · prezentacja",
+          "audio": "audio/L01/L01-czytanie-03.mp3",
+          "text": "Jestem Javier. Javier Perez z Argentyny. Kawaler. Brunet. Oczy piwne. Noszę brodę i wąsy. Wzrost? Jak to się mówi po polsku? Jestem średniego wzrostu i raczej szczupły. Koleżanki mówią, że jestem przystojny. Trudno powiedzieć, kim jestem z zawodu. Przede wszystkim muzykiem, ale robiłem w życiu dużo różnych rzeczy. Chociaż mam dopiero 30 lat. Interesuję się wszystkim. Uwielbiam tańczyć, jestem bardzo spontaniczny, towarzyski i zawsze zadowolony z życia. Nie lubię tylko aroganckich ludzi. Marzę, żeby otworzyć w Krakowie szkołę tańca.",
+          "tr": "Я Хав’єр. Хав’єр Перес з Аргентини. Неодружений. Брюнет. Очі карі. Ношу бороду й вуса. Зріст? Як це сказати польською? Я середнього зросту й радше худорлявий. Подруги кажуть, що я гарний. Важко сказати, хто я за фахом. Передусім музикант, але робив у житті багато різного. Хоча мені лише 30 років. Цікавлюся всім. Обожнюю танцювати, я дуже спонтанний, товариський і завжди задоволений життям. Не люблю тільки зарозумілих людей. Мрію відкрити в Кракові школу танців."
+        },
+        {
+          "type": "mono",
+          "title": "Tom Peterson · prezentacja",
+          "audio": "audio/L01/L01-czytanie-04.mp3",
+          "text": "Mam się krótko przedstawić? Tom Peterson, Amerykanin. Wysoki szatyn, kręcone włosy, okulary. Z wykształcenia jestem historykiem. Piszę prace o przyczynach upadku komunizmu w Europie Środkowej. Dlatego teraz mieszkam w Krakowie, choć muszę przyznać, że mam jeszcze jeden bardzo ważny powód. Moja dziewczyna jest Polką. Interesuję się nie tylko historią, ale także bieżącą sytuacją polityczną na świecie. Kocham naturę. Fotografowanie przyrody to moja druga pasja. Marzę o własnym domu z dużym ogrodem. Jestem spokojny i tolerancyjny. Aha, nie znoszę ani gotowanej marchewki, ani owsianki.",
+          "tr": "Маю коротко представитися? Том Петерсон, американець. Високий шатен, кучеряве волосся, окуляри. За освітою я історик. Пишу праці про причини падіння комунізму в Центральній Європі. Тому зараз живу в Кракові, хоча мушу визнати, що маю ще одну дуже важливу причину. Моя дівчина — полька. Цікавлюся не лише історією, а й поточною політичною ситуацією у світі. Люблю природу. Фотографування природи — моє друге захоплення. Мрію про власний дім з великим садом. Я спокійний і толерантний. Ага, терпіти не можу ні вареної моркви, ні вівсянки."
+        },
+        {
+          "type": "mono",
+          "title": "Uwe Stein · prezentacja",
+          "audio": "audio/L01/L01-czytanie-05.mp3",
+          "text": "Kolej na mnie? A zatem Uwe Stein. Biznesmen z Niemiec. A konkretnie z Berlina. Od roku pracuję i mieszkam w Polsce. Prowadzę własną firmę, która zajmuje się dystrybucją produktów farmaceutycznych. Teraz intensywnie uczę się polskiego. To dość trudne kierować firmą i jednocześnie spędzać kilka godzin w szkole, ale radzę sobie nieźle. Pewnie dlatego, że jestem bardzo zdyscyplinowany i systematyczny. Jeśli chodzi o wygląd, to jestem raczej wysoki, dobrze zbudowany. Mam jasne włosy i niebieskie oczy. Zainteresowania? Typowe. Sport, kino. Lubię jeździć na nartach. Przepadam za polskim jedzeniem. Nie cierpię gadatliwych kobiet. Marzę o tym, żeby więcej czasu spędzać z moją rodziną, czyli żoną i dwójką dzieci.",
+          "tr": "Моя черга? Отже, Уве Штайн. Бізнесмен з Німеччини. А конкретно з Берліна. Уже рік працюю й живу в Польщі. Веду власну фірму, яка займається дистрибуцією фармацевтичних продуктів. Зараз інтенсивно вчу польську. Це досить важко — керувати фірмою й водночас проводити кілька годин у школі, але я непогано справляюся. Мабуть тому, що я дуже дисциплінований і систематичний. Щодо зовнішності — я радше високий, міцної статури. Маю світле волосся й блакитні очі. Захоплення? Типові. Спорт, кіно. Люблю кататися на лижах. Дуже люблю польську їжу. Терпіти не можу балакучих жінок. Мрію проводити більше часу з родиною, тобто з дружиною й двома дітьми."
+        }
+      ]
+    },
+    {
+      "block": "B. Dane personalne · dialog · трек 201B5",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Mami i Karol — formularz",
+          "audio": "audio/L01/L01-czytanie-06.mp3",
+          "lines": [
+            [
+              "Mami",
+              "Karol, czy mógłbyś mi pomóc wypełnić ten formularz?",
+              "Кароле, чи міг би ти допомогти мені заповнити цей бланк?"
+            ],
+            [
+              "Karol",
+              "A co to jest?",
+              "А що це таке?"
+            ],
+            [
+              "Mami",
+              "To dokument, który muszę zanieść na uniwersytet.",
+              "Це документ, який я маю віднести в університет."
+            ],
+            [
+              "Karol",
+              "Aha, i co tam jest trudnego?",
+              "Ага, і що там складного?"
+            ],
+            [
+              "Mami",
+              "Nie wiem na przykład, co to znaczy płeć. Co tu powinnam zaznaczyć?",
+              "Не знаю, наприклад, що означає «płeć» (стать). Що тут мені позначити?"
+            ],
+            [
+              "Karol",
+              "K – jak kobieta, bo M to mężczyzna. Rozumiesz?",
+              "K — як «kobieta» (жінка), бо M — це «mężczyzna» (чоловік). Розумієш?"
+            ],
+            [
+              "Mami",
+              "OK. A to? Nazwisko panieńskie…",
+              "Ок. А це? Дівоче прізвище…"
+            ],
+            [
+              "Karol",
+              "Tu nic nie piszesz, bo nie jesteś mężatką i Takada to twoje pierwsze nazwisko.",
+              "Тут нічого не пишеш, бо ти не заміжня, і Такада — це твоє перше прізвище."
+            ],
+            [
+              "Mami",
+              "A miejsce stałego zamieszkania?",
+              "А місце постійного проживання?"
+            ],
+            [
+              "Karol",
+              "To twój adres, ale nie tu w Krakowie, tylko w Japonii. Jeszcze coś?",
+              "Це твоя адреса, але не тут у Кракові, а в Японії. Ще щось?"
+            ],
+            [
+              "Mami",
+              "Chwileczkę, narodowość rozumiem, a obywatelstwo?",
+              "Хвилинку, «національність» розумію, а «громадянство»?"
+            ],
+            [
+              "Karol",
+              "Piszesz „japońskie”. Jeśli kiedyś wyjdziesz za mąż za Polaka, to będziesz mogła mieć polskie obywatelstwo i polski paszport.",
+              "Пишеш «японське». Якщо колись вийдеш заміж за поляка, то зможеш мати польське громадянство й польський паспорт."
+            ],
+            [
+              "Mami",
+              "Karol, nie żartuj ze mnie!",
+              "Кароле, не жартуй з мене!"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "D. Narzędnik · tekst · трек 201D1",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Javier i kot",
+          "audio": "audio/L01/L01-czytanie-07.mp3",
+          "text": "Javier wracał do domu późnym wieczorem. Szedł wąską i dość ciemną ulicą. Nie czuł się tu zbyt pewnie, więc maszerował szybkim krokiem. Nagle usłyszał za plecami dziwny hałas. Obejrzał się, ale nie było nikogo. Pod drzewem coś małego poruszyło się między stertami jesiennych liści. „Uf, to tylko kot, nie ma się czym stresować” — pomyślał Javier z ulgą. Chciał iść dalej, ale zwierzak już stał przed nim i miauczał żałośnie. „Aha, nie masz domu i nikt się tobą nie interesuje, co? Oho, ktoś cię skaleczył nad prawym okiem. Niedobrze.” Brudny i strasznie chudy kotek patrzył na Javiera z ufnością. „Rozumiem, chciałbyś iść ze mną, ale nie mogę cię wziąć. Jestem artystą, nie umiem zajmować się kotami” — powiedział zdecydowanie Javier i poszedł dalej. Kociak nie przejął się wcale tą odmową, tylko pobiegł za nim. Przed domem Javier stwierdził z rezygnacją: „Chyba mam kota.” Początkowo bał się dotknąć zwierzaka, żeby nie zarazić się jakąś chorobą, ale potem machnął ręką na wszystko i wziął go ze sobą. W domu umył kotka ciepłą wodą, wysuszył ręcznikiem i nakarmił mlekiem. „Kto będzie opiekować się tym kociakiem? Ja nie umiem radzić sobie ze zwierzętami. W dodatku ciągle jestem poza domem. Jednym słowem — mam problem.”",
+          "tr": "Хав’єр повертався додому пізнього вечора. Йшов вузькою й досить темною вулицею. Почувався тут не дуже впевнено, тож крокував швидким кроком. Раптом почув за спиною дивний шум. Озирнувся, але нікого не було. Під деревом щось маленьке заворушилося між купами осіннього листя. «Уф, це лише кіт, нема чого нервувати», — подумав Хав’єр з полегшенням. Хотів іти далі, але звірятко вже стояло перед ним і жалібно нявчало. «Ага, не маєш дому й ніхто тобою не цікавиться, так? Ого, хтось поранив тебе над правим оком. Недобре.» Брудне й страшенно худе котеня дивилося на Хав’єра з довірою. «Розумію, ти хотів би піти зі мною, але я не можу тебе взяти. Я артист, не вмію доглядати котів», — рішуче сказав Хав’єр і пішов далі. Котик зовсім не образився на цю відмову, а побіг за ним. Перед домом Хав’єр констатував з покорою: «Здається, я маю кота.» Спершу боявся торкнутися звірятка, щоб не заразитися якоюсь хворобою, але потім махнув на все рукою й узяв його з собою. Удома вимив котика теплою водою, висушив рушником і нагодував молоком. «Хто буде доглядати це котеня? Я не вмію давати раду тваринам. До того ж постійно не вдома. Одне слово — маю проблему.»"
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 01 — треки 201A4, 201B5, 201D1. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "dia", "title": "Wywiad: pan Paweł (dentysta) · zeszyt cw03", "audio": "audio/L01/L01-zeszyt-01.mp3", "lines": [
-      ["Reporter","Panie Pawle, czy mogę zadać panu kilka pytań?","Пане Павле, чи можу поставити Вам кілька запитань?"],
-      ["Paweł","Oczywiście, proszę bardzo.","Звичайно, прошу."],
-      ["Reporter","Kim pan jest z zawodu?","Хто Ви за фахом?"],
-      ["Paweł","Jestem dentystą. Pracuję w przychodni i mam też prywatny gabinet.","Я стоматолог. Працюю в поліклініці й маю також приватний кабінет."],
-      ["Reporter","Czy lubi pan swoją pracę?","Чи подобається Вам Ваша робота?"],
-      ["Paweł","Tak, cieszy mnie, kiedy pacjenci po wizycie mają dobrze wyleczone i ładne zęby.","Так, мене тішить, коли пацієнти після візиту мають добре вилікувані й гарні зуби."],
-      ["Reporter","Jakie cechy swojego charakteru pan akceptuje, a jakie chciałby pan zmienić?","Які риси свого характеру Ви приймаєте, а які хотіли б змінити?"],
-      ["Paweł","Jestem systematyczny i cierpliwy. To moje zalety.","Я систематичний і терплячий. Це мої переваги."],
-      ["Reporter","A wady?","А вади?"],
-      ["Paweł","Chyba jestem zbyt nieśmiały. Muszę nad tym popracować.","Мабуть, я надто сором’язливий. Мушу над цим попрацювати."],
-      ["Reporter","Czy może nam pan opowiedzieć coś o swojej rodzinie?","Чи можете розповісти щось про свою родину?"],
-      ["Paweł","Jestem żonaty. Mam jednego syna. Teraz żona jest w ciąży, ale nie wiemy jeszcze, czy to chłopiec czy dziewczynka.","Я одружений. Маю одного сина. Зараз дружина вагітна, але ми ще не знаємо, хлопчик це чи дівчинка."],
-      ["Reporter","Gratuluję. A jak pan spędza wolny czas?","Вітаю. А як Ви проводите вільний час?"],
-      ["Paweł","Nie mam zbyt dużo wolnego czasu. Kiedy nie pracuję, staram się być z rodziną. Pomagam żonie w domu, bawię się z synem. Wieczorami oglądam telewizję albo surfuję po internecie.","Я не маю надто багато вільного часу. Коли не працюю, намагаюся бути з родиною. Допомагаю дружині вдома, граюся із сином. Вечорами дивлюся телевізор або сиджу в інтернеті."],
-      ["Reporter","Czy ma pan jakieś hobby?","Чи маєте якесь хобі?"],
-      ["Paweł","Kiedyś pasjonowałem się łowieniem ryb. Mam nadzieję, że kiedy syn będzie starszy, będziemy razem jeździć na ryby. Teraz on woli grać w piłkę albo budować modele samolotów.","Колись захоплювався риболовлею. Сподіваюся, що коли син підросте, будемо разом їздити на риболовлю. Зараз він радше грає у м’яч або будує моделі літаків."],
-      ["Reporter","Czy mogę zapytać o marzenia?","Чи можу запитати про мрії?"],
-      ["Paweł","Bardzo prozaiczne. Chciałbym mieć własny dom z ogrodem i dużego psa.","Дуже прозаїчні. Хотів би мати власний дім із садом і великого пса."]
-    ]}
+    {
+      "type": "dia",
+      "title": "Wywiad: pan Paweł (dentysta) · zeszyt cw03",
+      "audio": "audio/L01/L01-zeszyt-01.mp3",
+      "lines": [
+        [
+          "Reporter",
+          "Panie Pawle, czy mogę zadać panu kilka pytań?",
+          "Пане Павле, чи можу поставити Вам кілька запитань?"
+        ],
+        [
+          "Paweł",
+          "Oczywiście, proszę bardzo.",
+          "Звичайно, прошу."
+        ],
+        [
+          "Reporter",
+          "Kim pan jest z zawodu?",
+          "Хто Ви за фахом?"
+        ],
+        [
+          "Paweł",
+          "Jestem dentystą. Pracuję w przychodni i mam też prywatny gabinet.",
+          "Я стоматолог. Працюю в поліклініці й маю також приватний кабінет."
+        ],
+        [
+          "Reporter",
+          "Czy lubi pan swoją pracę?",
+          "Чи подобається Вам Ваша робота?"
+        ],
+        [
+          "Paweł",
+          "Tak, cieszy mnie, kiedy pacjenci po wizycie mają dobrze wyleczone i ładne zęby.",
+          "Так, мене тішить, коли пацієнти після візиту мають добре вилікувані й гарні зуби."
+        ],
+        [
+          "Reporter",
+          "Jakie cechy swojego charakteru pan akceptuje, a jakie chciałby pan zmienić?",
+          "Які риси свого характеру Ви приймаєте, а які хотіли б змінити?"
+        ],
+        [
+          "Paweł",
+          "Jestem systematyczny i cierpliwy. To moje zalety.",
+          "Я систематичний і терплячий. Це мої переваги."
+        ],
+        [
+          "Reporter",
+          "A wady?",
+          "А вади?"
+        ],
+        [
+          "Paweł",
+          "Chyba jestem zbyt nieśmiały. Muszę nad tym popracować.",
+          "Мабуть, я надто сором’язливий. Мушу над цим попрацювати."
+        ],
+        [
+          "Reporter",
+          "Czy może nam pan opowiedzieć coś o swojej rodzinie?",
+          "Чи можете розповісти щось про свою родину?"
+        ],
+        [
+          "Paweł",
+          "Jestem żonaty. Mam jednego syna. Teraz żona jest w ciąży, ale nie wiemy jeszcze, czy to chłopiec czy dziewczynka.",
+          "Я одружений. Маю одного сина. Зараз дружина вагітна, але ми ще не знаємо, хлопчик це чи дівчинка."
+        ],
+        [
+          "Reporter",
+          "Gratuluję. A jak pan spędza wolny czas?",
+          "Вітаю. А як Ви проводите вільний час?"
+        ],
+        [
+          "Paweł",
+          "Nie mam zbyt dużo wolnego czasu. Kiedy nie pracuję, staram się być z rodziną. Pomagam żonie w domu, bawię się z synem. Wieczorami oglądam telewizję albo surfuję po internecie.",
+          "Я не маю надто багато вільного часу. Коли не працюю, намагаюся бути з родиною. Допомагаю дружині вдома, граюся із сином. Вечорами дивлюся телевізор або сиджу в інтернеті."
+        ],
+        [
+          "Reporter",
+          "Czy ma pan jakieś hobby?",
+          "Чи маєте якесь хобі?"
+        ],
+        [
+          "Paweł",
+          "Kiedyś pasjonowałem się łowieniem ryb. Mam nadzieję, że kiedy syn będzie starszy, będziemy razem jeździć na ryby. Teraz on woli grać w piłkę albo budować modele samolotów.",
+          "Колись захоплювався риболовлею. Сподіваюся, що коли син підросте, будемо разом їздити на риболовлю. Зараз він радше грає у м’яч або будує моделі літаків."
+        ],
+        [
+          "Reporter",
+          "Czy mogę zapytać o marzenia?",
+          "Чи можу запитати про мрії?"
+        ],
+        [
+          "Paweł",
+          "Bardzo prozaiczne. Chciałbym mieć własny dom z ogrodem i dużego psa.",
+          "Дуже прозаїчні. Хотів би мати власний дім із садом і великого пса."
+        ]
+      ]
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 01, ćw. 3 (трек 26171). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "checklist": [
-    { "text": "Представити себе: хто я, який я, чим цікавлюся", "sub": "Jestem… / Interesuję się… / Mam na imię…" },
-    { "text": "Заповнити польську анкету", "sub": "płeć, narodowość, obywatelstwo, nazwisko panieńskie, stan cywilny" },
-    { "text": "Утворити орудний відмінок однини", "sub": "ч./с. → -em/-iem, ж. → -ą (Polakiem, matką)" },
-    { "text": "Вживати дієслова з narzędnikiem", "sub": "interesować się, zajmować się, pasjonować się + Czym?" },
-    { "text": "Правильно вживати прийменники з narzędnikiem", "sub": "z, za, pod, nad, przed, między, poza" }
+    {
+      "text": "Представити себе: хто я, який я, чим цікавлюся",
+      "sub": "Jestem… / Interesuję się… / Mam na imię…"
+    },
+    {
+      "text": "Заповнити польську анкету",
+      "sub": "płeć, narodowość, obywatelstwo, nazwisko panieńskie, stan cywilny"
+    },
+    {
+      "text": "Утворити орудний відмінок однини",
+      "sub": "ч./с. → -em/-iem, ж. → -ą (Polakiem, matką)"
+    },
+    {
+      "text": "Вживати дієслова з narzędnikiem",
+      "sub": "interesować się, zajmować się, pasjonować się + Czym?"
+    },
+    {
+      "text": "Правильно вживати прийменники з narzędnikiem",
+      "sub": "z, za, pod, nad, przed, między, poza"
+    }
   ],
-
   "quiz": [
-    { "topic": "prezentacja", "q": "Хто з персонажів цікавиться мистецтвом і хоче вивчати живопис у Кракові?",
-      "o": ["Angela","Mami","Tom"], "a": 1,
-      "fb": "Mami каже: «Interesuję się sztuką… Chciałabym studiować malarstwo na Akademii Sztuk Pięknych w Krakowie»." },
-    { "topic": "słownictwo", "q": "Що означає польське «kawaler»?",
-      "o": ["неодружений чоловік","удівець","наречений"], "a": 0,
-      "fb": "«Kawaler» — неодружений чоловік (парубок). Javier каже про себе: «Kawaler»." },
-    { "topic": "narzędnik", "q": "Доповніть: «Jestem ___» (про фах музиканта).",
-      "o": ["muzyk","muzykiem","muzyka"], "a": 1,
-      "fb": "Після «jestem» (хто я?) — narzędnik: muzyk → muzykiem. Так само: Polak → Polakiem." },
-    { "topic": "narzędnik", "q": "Правильна форма: «Interesuję się ___».",
-      "o": ["literatura","literaturę","literaturą"], "a": 2,
-      "fb": "Дієслово «interesować się» вимагає narzędnika: literatura → literaturą." },
-    { "topic": "narzędnik", "q": "Як буде «їду автобусом»?",
-      "o": ["Jadę autobus","Jadę autobusem","Jadę autobusu"], "a": 1,
-      "fb": "Засіб пересування (jak? czym?) — narzędnik: autobus → autobusem." },
-    { "topic": "prezentacja", "q": "Хто за фахом історик і пише про падіння комунізму?",
-      "o": ["Uwe","Tom","Javier"], "a": 1,
-      "fb": "Tom: «Z wykształcenia jestem historykiem. Piszę prace o przyczynach upadku komunizmu»." },
-    { "topic": "słownictwo", "q": "У дієслові «przepadam za czymś» це означає…",
-      "o": ["дуже люблю щось","не зношу щось","байдуже"], "a": 0,
-      "fb": "«Przepadać za» = дуже любити. Uwe: «Przepadam za polskim jedzeniem» — дуже люблю польську їжу." },
-    { "topic": "dialog", "q": "У бланку Mami проти «nazwisko panieńskie» Karol радить…",
-      "o": ["вписати Takada","нічого не писати","вписати ім’я матері"], "a": 1,
-      "fb": "Karol: «Tu nic nie piszesz, bo nie jesteś mężatką» — дівоче прізвище не пишемо, бо вона не заміжня." },
-    { "topic": "narzędnik", "q": "Множина в narzędniku: «opiekuję się ___» (діти).",
-      "o": ["dziećmi","dzieciami","dziecimi"], "a": 0,
-      "fb": "«Dzieci» в орудному — виняток: dziećmi (а не «dzieciami»)." },
-    { "topic": "narzędnik", "q": "Який прийменник вимагає narzędnika?",
-      "o": ["do","dla","pod"], "a": 2,
-      "fb": "З narzędnikiem: z/ze, za, pod, nad, przed, między, poza. «Do» і «dla» вимагають dopełniacza (родового)." }
+    {
+      "topic": "prezentacja",
+      "q": "Хто з персонажів цікавиться мистецтвом і хоче вивчати живопис у Кракові?",
+      "o": [
+        "Mami",
+        "Angela",
+        "Tom"
+      ],
+      "a": 0,
+      "fb": "Mami каже: «Interesuję się sztuką… Chciałabym studiować malarstwo na Akademii Sztuk Pięknych w Krakowie»."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що означає польське «kawaler»?",
+      "o": [
+        "удівець",
+        "неодружений чоловік",
+        "наречений"
+      ],
+      "a": 1,
+      "fb": "«Kawaler» — неодружений чоловік (парубок). Javier каже про себе: «Kawaler»."
+    },
+    {
+      "topic": "narzędnik",
+      "q": "Доповніть: «Jestem ___» (про фах музиканта).",
+      "o": [
+        "muzyk",
+        "muzyka",
+        "muzykiem"
+      ],
+      "a": 2,
+      "fb": "Після «jestem» (хто я?) — narzędnik: muzyk → muzykiem. Так само: Polak → Polakiem."
+    },
+    {
+      "topic": "narzędnik",
+      "q": "Правильна форма: «Interesuję się ___».",
+      "o": [
+        "literaturą",
+        "literatura",
+        "literaturę"
+      ],
+      "a": 0,
+      "fb": "Дієслово «interesować się» вимагає narzędnika: literatura → literaturą."
+    },
+    {
+      "topic": "narzędnik",
+      "q": "Як буде «їду автобусом»?",
+      "o": [
+        "Jadę autobus",
+        "Jadę autobusem",
+        "Jadę autobusu"
+      ],
+      "a": 1,
+      "fb": "Засіб пересування (jak? czym?) — narzędnik: autobus → autobusem."
+    },
+    {
+      "topic": "prezentacja",
+      "q": "Хто за фахом історик і пише про падіння комунізму?",
+      "o": [
+        "Uwe",
+        "Javier",
+        "Tom"
+      ],
+      "a": 2,
+      "fb": "Tom: «Z wykształcenia jestem historykiem. Piszę prace o przyczynach upadku komunizmu»."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "У дієслові «przepadam za czymś» це означає…",
+      "o": [
+        "дуже люблю щось",
+        "не зношу щось",
+        "байдуже"
+      ],
+      "a": 0,
+      "fb": "«Przepadać za» = дуже любити. Uwe: «Przepadam za polskim jedzeniem» — дуже люблю польську їжу."
+    },
+    {
+      "topic": "dialog",
+      "q": "У бланку Mami проти «nazwisko panieńskie» Karol радить…",
+      "o": [
+        "вписати Takada",
+        "нічого не писати",
+        "вписати ім’я матері"
+      ],
+      "a": 1,
+      "fb": "Karol: «Tu nic nie piszesz, bo nie jesteś mężatką» — дівоче прізвище не пишемо, бо вона не заміжня."
+    },
+    {
+      "topic": "narzędnik",
+      "q": "Множина в narzędniku: «opiekuję się ___» (діти).",
+      "o": [
+        "dzieciami",
+        "dziecimi",
+        "dziećmi"
+      ],
+      "a": 2,
+      "fb": "«Dzieci» в орудному — виняток: dziećmi (а не «dzieciami»)."
+    },
+    {
+      "topic": "narzędnik",
+      "q": "Який прийменник вимагає narzędnika?",
+      "o": [
+        "pod",
+        "do",
+        "dla"
+      ],
+      "a": 0,
+      "fb": "З narzędnikiem: z/ze, za, pod, nad, przed, między, poza. «Do» і «dla» вимагають dopełniacza (родового)."
+    }
   ]
 }

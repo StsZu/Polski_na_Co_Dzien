@@ -2,61 +2,300 @@
   "id": "07",
   "title": "Praca",
   "goal": "Повторюємо: розмова про роботу · кваліфікації та досвід · типи фірм і підприємств · життєпис (CV) і мотиваційний лист · скарги на роботу",
-
   "vocab": [
-    { "group": "Szukanie pracy — пошук роботи", "items": [
-      ["doświadczenie zawodowe","професійний досвід"],["zakres obowiązków","коло обов’язків"],
-      ["kwalifikacje","кваліфікація"],["umiejętności","уміння / навички"],
-      ["wymagania","вимоги"],["stanowisko","посада"],["zatrudnić","найняти на роботу"],
-      ["zatrudnienie","працевлаштування"],["etat","штатна посада (повна ставка)"],
-      ["na cały etat","на повну ставку"],["na pół etatu","на пів ставки"],
-      ["pracować na własny rachunek","працювати на себе"]
-    ]},
-    { "group": "Pieniądze i firma — гроші та фірма", "items": [
-      ["pensja","зарплата"],["wynagrodzenie","винагорода / оплата"],["zarobki","заробіток"],
-      ["honorarium","гонорар"],["premia","премія"],["utrzymanie","утримання (на життя)"],
-      ["zarabiać na utrzymanie","заробляти на життя"],["firma handlowa","торгова фірма"],
-      ["firma usługowa","фірма послуг"],["firma produkcyjna","виробнича фірма"],
-      ["przedsiębiorstwo budowlane","будівельне підприємство"],["branża","галузь"]
-    ]},
-    { "group": "Praca w biurze — робота в офісі", "items": [
-      ["pisać bezwzrokowo","друкувати наосліп"],["obsługa komputera","володіння комп’ютером"],
-      ["urządzenia biurowe","офісна техніка"],["oprogramowanie","програмне забезпечення"],
-      ["korzystać z czegoś","користуватися чимось"],["używać czegoś","використовувати щось"],
-      ["być odpowiedzialnym za coś","відповідати за щось"],["kontakty z klientami","контакти з клієнтами"],
-      ["znać biegle","знати вільно (мову)"],["nowe wyzwania","нові виклики"]
-    ]},
-    { "group": "Życiorys i list — CV та лист", "items": [
-      ["życiorys","життєпис"],["CV (curriculum vitae)","резюме"],
-      ["list motywacyjny","мотиваційний лист"],["wykształcenie","освіта"],
-      ["wykształcenie średnie","середня освіта"],["matura","матура (атестат зрілості)"],
-      ["technikum","технікум"],["absolwentka","випускниця"],
-      ["mocne strony","сильні сторони"],["referencje","рекомендації"]
-    ]},
-    { "group": "Problemy w pracy — проблеми на роботі", "items": [
-      ["mam już dość","мені вже набридло"],["rzucić pracę","кинути роботу"],
-      ["zostawać po godzinach","залишатися понаднормово"],["szef się wścieka","шеф лютує"],
-      ["wyścig szczurów","щурячі перегони (конкуренція)"],["niewolnik","раб"],
-      ["stres","стрес"],["rozwój zawodowy","професійний розвиток"],
-      ["zmienić pracę","змінити роботу"],["pogratulować","привітати"]
-    ]}
+    {
+      "group": "Szukanie pracy — пошук роботи",
+      "items": [
+        [
+          "doświadczenie zawodowe",
+          "професійний досвід"
+        ],
+        [
+          "zakres obowiązków",
+          "коло обов’язків"
+        ],
+        [
+          "kwalifikacje",
+          "кваліфікація"
+        ],
+        [
+          "umiejętności",
+          "уміння / навички"
+        ],
+        [
+          "wymagania",
+          "вимоги"
+        ],
+        [
+          "stanowisko",
+          "посада"
+        ],
+        [
+          "zatrudnić",
+          "найняти на роботу"
+        ],
+        [
+          "zatrudnienie",
+          "працевлаштування"
+        ],
+        [
+          "etat",
+          "штатна посада (повна ставка)"
+        ],
+        [
+          "na cały etat",
+          "на повну ставку"
+        ],
+        [
+          "na pół etatu",
+          "на пів ставки"
+        ],
+        [
+          "pracować na własny rachunek",
+          "працювати на себе"
+        ]
+      ]
+    },
+    {
+      "group": "Pieniądze i firma — гроші та фірма",
+      "items": [
+        [
+          "pensja",
+          "зарплата"
+        ],
+        [
+          "wynagrodzenie",
+          "винагорода / оплата"
+        ],
+        [
+          "zarobki",
+          "заробіток"
+        ],
+        [
+          "honorarium",
+          "гонорар"
+        ],
+        [
+          "premia",
+          "премія"
+        ],
+        [
+          "utrzymanie",
+          "утримання (на життя)"
+        ],
+        [
+          "zarabiać na utrzymanie",
+          "заробляти на життя"
+        ],
+        [
+          "firma handlowa",
+          "торгова фірма"
+        ],
+        [
+          "firma usługowa",
+          "фірма послуг"
+        ],
+        [
+          "firma produkcyjna",
+          "виробнича фірма"
+        ],
+        [
+          "przedsiębiorstwo budowlane",
+          "будівельне підприємство"
+        ],
+        [
+          "branża",
+          "галузь"
+        ]
+      ]
+    },
+    {
+      "group": "Praca w biurze — робота в офісі",
+      "items": [
+        [
+          "pisać bezwzrokowo",
+          "друкувати наосліп"
+        ],
+        [
+          "obsługa komputera",
+          "володіння комп’ютером"
+        ],
+        [
+          "urządzenia biurowe",
+          "офісна техніка"
+        ],
+        [
+          "oprogramowanie",
+          "програмне забезпечення"
+        ],
+        [
+          "korzystać z czegoś",
+          "користуватися чимось"
+        ],
+        [
+          "używać czegoś",
+          "використовувати щось"
+        ],
+        [
+          "być odpowiedzialnym za coś",
+          "відповідати за щось"
+        ],
+        [
+          "kontakty z klientami",
+          "контакти з клієнтами"
+        ],
+        [
+          "znać biegle",
+          "знати вільно (мову)"
+        ],
+        [
+          "nowe wyzwania",
+          "нові виклики"
+        ]
+      ]
+    },
+    {
+      "group": "Życiorys i list — CV та лист",
+      "items": [
+        [
+          "życiorys",
+          "життєпис"
+        ],
+        [
+          "CV (curriculum vitae)",
+          "резюме"
+        ],
+        [
+          "list motywacyjny",
+          "мотиваційний лист"
+        ],
+        [
+          "wykształcenie",
+          "освіта"
+        ],
+        [
+          "wykształcenie średnie",
+          "середня освіта"
+        ],
+        [
+          "matura",
+          "матура (атестат зрілості)"
+        ],
+        [
+          "technikum",
+          "технікум"
+        ],
+        [
+          "absolwentka",
+          "випускниця"
+        ],
+        [
+          "mocne strony",
+          "сильні сторони"
+        ],
+        [
+          "referencje",
+          "рекомендації"
+        ]
+      ]
+    },
+    {
+      "group": "Problemy w pracy — проблеми на роботі",
+      "items": [
+        [
+          "mam już dość",
+          "мені вже набридло"
+        ],
+        [
+          "rzucić pracę",
+          "кинути роботу"
+        ],
+        [
+          "zostawać po godzinach",
+          "залишатися понаднормово"
+        ],
+        [
+          "szef się wścieka",
+          "шеф лютує"
+        ],
+        [
+          "wyścig szczurów",
+          "щурячі перегони (конкуренція)"
+        ],
+        [
+          "niewolnik",
+          "раб"
+        ],
+        [
+          "stres",
+          "стрес"
+        ],
+        [
+          "rozwój zawodowy",
+          "професійний розвиток"
+        ],
+        [
+          "zmienić pracę",
+          "змінити роботу"
+        ],
+        [
+          "pogratulować",
+          "привітати"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Słownictwo o pracy — czasowniki «umieć» i «używać» — дієслова",
       "note": "Синоніми, що часто плутають у темі «Praca».",
       "table": {
-        "head": ["Słowo","Synonim","Znaczenie"],
+        "head": [
+          "Słowo",
+          "Synonim",
+          "Znaczenie"
+        ],
         "rows": [
-          ["potrafić","umieć","вміти (мати навичку)"],
-          ["korzystać z","używać","користуватися чимось"],
-          ["zarabiać","dostawać pensję","заробляти / отримувати платню"],
-          ["zatrudnić","dać pracę / przyjąć na stanowisko","найняти на роботу"],
-          ["firma","przedsiębiorstwo","фірма / підприємство"],
-          ["biegle","doskonale","вільно / досконало"],
-          ["poprzedni","ostatni","попередній / останній"],
-          ["utrzymanie","wydatki na życie","утримання / витрати на життя"]
+          [
+            "potrafić",
+            "umieć",
+            "вміти (мати навичку)"
+          ],
+          [
+            "korzystać z",
+            "używać",
+            "користуватися чимось"
+          ],
+          [
+            "zarabiać",
+            "dostawać pensję",
+            "заробляти / отримувати платню"
+          ],
+          [
+            "zatrudnić",
+            "dać pracę / przyjąć na stanowisko",
+            "найняти на роботу"
+          ],
+          [
+            "firma",
+            "przedsiębiorstwo",
+            "фірма / підприємство"
+          ],
+          [
+            "biegle",
+            "doskonale",
+            "вільно / досконало"
+          ],
+          [
+            "poprzedni",
+            "ostatni",
+            "попередній / останній"
+          ],
+          [
+            "utrzymanie",
+            "wydatki na życie",
+            "утримання / витрати на життя"
+          ]
         ]
       }
     },
@@ -64,13 +303,31 @@
       "title": "Czasowniki z narzędnikiem — дієслова з орудним",
       "note": "У темі «Praca» після цих дієслів іменник стоїть в орудному відмінку (*-em / -ą / -ami*).",
       "table": {
-        "head": ["Czasownik","Przykład"],
+        "head": [
+          "Czasownik",
+          "Przykład"
+        ],
         "rows": [
-          ["zajmować się","Zajmowałam się organizacj*ą* biura."],
-          ["interesować się","Interesuję się nowymi technologi*ami*."],
-          ["kierować","Ryszard kieruje zespoł*em* projektantów."],
-          ["być (kim?)","Jestem informatyk*iem*. Jestem absolwentk*ą*."],
-          ["radzić sobie z","Świetnie radzi sobie z problem*ami*."]
+          [
+            "zajmować się",
+            "Zajmowałam się organizacj*ą* biura."
+          ],
+          [
+            "interesować się",
+            "Interesuję się nowymi technologi*ami*."
+          ],
+          [
+            "kierować",
+            "Ryszard kieruje zespoł*em* projektantów."
+          ],
+          [
+            "być (kim?)",
+            "Jestem informatyk*iem*. Jestem absolwentk*ą*."
+          ],
+          [
+            "radzić sobie z",
+            "Świetnie radzi sobie z problem*ami*."
+          ]
         ]
       }
     },
@@ -82,116 +339,329 @@
     {
       "title": "Typy przedsiębiorstw — типи підприємств",
       "table": {
-        "head": ["Polski","Українською"],
+        "head": [
+          "Polski",
+          "Українською"
+        ],
         "rows": [
-          ["firma handlowa","торгова фірма"],
-          ["firma usługowa","фірма послуг"],
-          ["firma produkcyjna","виробнича фірма"],
-          ["firma reklamowa","рекламна фірма"],
-          ["przedsiębiorstwo budowlane","будівельне підприємство"],
-          ["firma usługowo-handlowa","торгово-сервісна фірма"]
+          [
+            "firma handlowa",
+            "торгова фірма"
+          ],
+          [
+            "firma usługowa",
+            "фірма послуг"
+          ],
+          [
+            "firma produkcyjna",
+            "виробнича фірма"
+          ],
+          [
+            "firma reklamowa",
+            "рекламна фірма"
+          ],
+          [
+            "przedsiębiorstwo budowlane",
+            "будівельне підприємство"
+          ],
+          [
+            "firma usługowo-handlowa",
+            "торгово-сервісна фірма"
+          ]
         ]
       }
     }
   ],
-
   "czytanie": [
-    { "block": "A. Rozmowa kwalifikacyjna · трек 207A2", "items": [
-      { "type": "mono", "title": "Joanna Szymańska — rozmowa o pracę", "audio": "audio/L07/L07-czytanie-01.mp3",
-        "text": "Witam Panią. Proszę się krótko zaprezentować. Nazywam się Joanna Szymańska. Niedawno ukończyłam studia na Uniwersytecie Ekonomicznym na kierunku Marketing i Zarządzanie. Czy ma Pani jakieś doświadczenie zawodowe? Tak. Już w czasie studiów podjęłam pracę na półetatu w polsko-hiszpańskiej firmie. Czym zajmowała się ta firma i co należało do Pani obowiązków? To była firma handlowa. Natomiast ja byłam odpowiedzialna za prowadzenie korespondencji, wystawianie faktur i organizację biura. Jakich aplikacji komputerowych Pani używała? Pakietu Open Office, przede wszystkim edytora tekstu i arkusza kalkulacyjnego. Na co dzień korzystałam z programu pocztowego Outlook i przeglądarek internetowych Firefox i Internet Explorer. Czy potrafi Pani pisać bezwzrokowo? Tak. Dlaczego teraz szuka Pani nowej pracy? Ponieważ poprzednia firma nie może mi zapewnić pracy na cały etat, a ja muszę się usamodzielnić i zarabiać na swoje utrzymanie, które, jak Państwo wiecie, nie jest teraz tanie. Rozumiem. Proszę nam powiedzieć, jakie języki obce Pani zna. Mówię biegle po hiszpańsku, znam bardzo dobrze angielski i podstawy niemieckiego. Jest Pani jedną z wielu kandydatek na to stanowisko. Jak nas Pani przekona, że jest Pani najlepsza? Jestem odpowiedzialna i dobrze zorganizowana. Szybko się uczę. Jestem osobą otwartą i umiem pracować w zespole. Dziękujemy Pani za spotkanie. Skontaktujemy się z Panią telefonicznie w najbliższym czasie.",
-        "tr": "Вітаю Вас. Прошу коротко представитися. Мене звати Йоанна Шиманська. Нещодавно я закінчила навчання в Економічному університеті за спеціальністю «Маркетинг і управління». Чи маєте Ви якийсь професійний досвід? Так. Ще під час навчання я взялася за роботу на пів ставки в польсько-іспанській фірмі. Чим займалася ця фірма і що входило до Ваших обов’язків? Це була торгова фірма. А я відповідала за ведення кореспонденції, виписування рахунків-фактур та організацію офісу. Якими комп’ютерними програмами Ви користувалися? Пакетом Open Office, насамперед текстовим редактором і електронною таблицею. Щодня користувалася поштовою програмою Outlook та інтернет-браузерами Firefox і Internet Explorer. Чи вмієте Ви друкувати наосліп? Так. Чому Ви тепер шукаєте нову роботу? Тому що попередня фірма не може забезпечити мене роботою на повну ставку, а я мушу стати самостійною і заробляти на своє утримання, яке, як Ви знаєте, тепер недешеве. Розумію. Скажіть нам, які іноземні мови Ви знаєте. Розмовляю вільно іспанською, дуже добре знаю англійську й основи німецької. Ви одна з багатьох кандидаток на цю посаду. Як Ви нас переконаєте, що Ви найкраща? Я відповідальна й добре організована. Швидко вчуся. Я відкрита людина й умію працювати в команді. Дякуємо Вам за зустріч. Зв’яжемося з Вами телефоном найближчим часом." }
-    ]},
-    { "block": "A. Prezentacje kandydatów · трек 207A4", "items": [
-      { "type": "mono", "title": "Joanna Szymańska", "audio": "audio/L07/L07-czytanie-02.mp3",
-        "text": "Nazywam się Joanna Szymańska. Jestem absolwentką marketingu i zarządzania. Już w czasie studiów zaczęłam pracować na pół etatu, żeby zarabiać na swoje utrzymanie. Zajmowałam się organizacją biura, prowadziłam korespondencję i wystawiałam faktury. Znam dobrze obsługę komputera. Mówię biegle po hiszpańsku, bardzo dobrze po angielsku i znam podstawy niemieckiego. Jestem odpowiedzialna, dobrze zorganizowana. Umiem pracować w zespole.",
-        "tr": "Мене звати Йоанна Шиманська. Я випускниця маркетингу та управління. Ще під час навчання почала працювати на пів ставки, щоб заробляти на своє утримання. Займалася організацією офісу, вела кореспонденцію й виписувала рахунки-фактури. Добре володію комп’ютером. Розмовляю вільно іспанською, дуже добре англійською і знаю основи німецької. Я відповідальна, добре організована. Умію працювати в команді." },
-      { "type": "mono", "title": "Piotr Leśniewski", "audio": "audio/L07/L07-czytanie-03.mp3",
-        "text": "Nazywam się Piotr Leśniewski, z wykształcenia jestem informatykiem, więc komputery nie mają dla mnie tajemnic. Po studiach pracowałem kilka lat w zawodzie. Zajmowałem się głównie pisaniem i testowaniem nowego oprogramowania, ale siedzenie w pracy po 8 godzin dziennie przed monitorem, to nie dla mnie. Wybrałem w końcu pracę na własny rachunek. Jestem aktywny, lubię kontakty z ludźmi i nowe wyzwania. Moją pasją są języki obce. Świetnie mówię po angielsku i niemiecku, znam włoski, a teraz chodzę na kurs hiszpańskiego.",
-        "tr": "Мене звати Пьотр Лесьневський, за освітою я програміст, тож комп’ютери не мають для мене таємниць. Після навчання кілька років працював за фахом. Займався головно написанням і тестуванням нового програмного забезпечення, але сидіти на роботі по 8 годин на день перед монітором — це не для мене. Зрештою обрав роботу на себе. Я активний, люблю контакти з людьми й нові виклики. Моя пристрасть — іноземні мови. Чудово розмовляю англійською й німецькою, знаю італійську, а зараз ходжу на курс іспанської." },
-      { "type": "mono", "title": "Ewa Dębska", "audio": "audio/L07/L07-czytanie-04.mp3",
-        "text": "Nazywam się Ewa Dębska, rok temu zdałam maturę, a potem skończyłam kurs dla sekretarek. Przez trzy miesiące pracowałam na cały etat w dużej firmie produkcyjnej, gdzie byłam odpowiedzialna za bieżącą obsługę klientów. Niestety, z powodu kryzysu zredukowano wiele stanowisk. Moje atuty to dobra znajomość obsługi komputera i urządzeń biurowych. Znam trochę język niemiecki, a teraz uczę się angielskiego. Jestem spokojna i zdyscyplinowana.",
-        "tr": "Мене звати Ева Дембська, рік тому я склала матуру, а потім закінчила курс для секретарок. Протягом трьох місяців працювала на повну ставку у великій виробничій фірмі, де відповідала за поточне обслуговування клієнтів. На жаль, через кризу скоротили багато посад. Мої переваги — добре володіння комп’ютером і офісною технікою. Трохи знаю німецьку мову, а зараз вчу англійську. Я спокійна й дисциплінована." },
-      { "type": "mono", "title": "Paulina Szuba", "audio": "audio/L07/L07-czytanie-05.mp3",
-        "text": "Paulina Szuba. Od czerwca posiadam dyplom filologii węgierskiej. Nie mam za dużo doświadczenia zawodowego, ale podczas studiów czasem pracowałam na zlecenia. Robiłam różne rzeczy. Od najprostszych, rozdawanie ulotek, do całkiem ambitnych. Praca przy organizacji festiwalu piosenki studenckiej oraz targów edukacyjnych w Krakowie. Moje kwalifikacje? Znajomość podstawowych aplikacji komputerowych, umiejętność szybkiego wyszukiwania informacji w internecie, biegła znajomość języka węgierskiego i angielskiego oraz komunikatywna francuskiego. Moje cechy? Kreatywność, spontaniczność i punktualność.",
-        "tr": "Пауліна Шуба. Із червня маю диплом угорської філології. Не маю надто багато професійного досвіду, але під час навчання іноді працювала за договорами підряду. Робила різні речі. Від найпростіших — роздавання листівок, до досить амбітних. Робота при організації фестивалю студентської пісні та освітніх ярмарків у Кракові. Моя кваліфікація? Володіння основними комп’ютерними програмами, уміння швидко шукати інформацію в інтернеті, вільне знання угорської та англійської мов, а також розмовний рівень французької. Мої риси? Креативність, спонтанність і пунктуальність." }
-    ]},
-    { "block": "A. Decyzja rekrutacyjna · dialog · трек 207A5", "items": [
-      { "type": "dia", "title": "Tomasz i Teresa — kogo zatrudnić?", "audio": "audio/L07/L07-czytanie-06.mp3", "lines": [
-        ["Tomasz","Kogo według Ciebie powinniśmy zatrudnić?","Кого, на твою думку, ми маємо найняти?"],
-        ["Teresa","To trudna decyzja. Mnie się najbardziej podoba kandydatka numer 4. Energiczna, ma dużo entuzjazmu i jest bardzo sympatyczna. A to ważne w kontaktach z klientami.","Це важке рішення. Мені найбільше подобається кандидатка номер 4. Енергійна, має багато ентузіазму й дуже симпатична. А це важливо в контактах із клієнтами."],
-        ["Tomasz","Paulina Szuba, tak? Zgadzam się, że jej otwartość to duży atut. Ale boję się, że ona jest za młoda i nie ma doświadczenia. Na tym stanowisku potrzebna jest osoba, która świetnie radzi sobie z problemami.","Пауліна Шуба, так? Погоджуюся, що її відкритість — велика перевага. Але боюся, що вона надто молода й не має досвіду. На цій посаді потрібна людина, яка чудово дає раду проблемам."],
-        ["Teresa","A co sądzisz o Piotrze? Spełnia wszystkie wymagania. Komputer, doświadczenie, języki, otwarta osobowość i lubi nowe wyzwania.","А що думаєш про Пьотра? Він відповідає всім вимогам. Комп’ютер, досвід, мови, відкрита особистість і любить нові виклики."],
-        ["Tomasz","Wydaje mi się, że ma za wysokie kwalifikacje na to stanowisko. A Ewa Dębska?","Мені здається, що в нього зависока кваліфікація для цієї посади. А Ева Дембська?"],
-        ["Teresa","Znajomość oprogramowania komputerowego i obsługa klienta to jej plus. Ale języki – duży minus.","Знання комп’ютерного програмного забезпечення та обслуговування клієнтів — це її плюс. Але мови — великий мінус."]
-      ]}
-    ]},
-    { "block": "B. Odpowiedź na mail · трек 207B2", "items": [
-      { "type": "mono", "title": "Andrzej do Ryśka — odpowiedź na mail", "audio": "audio/L07/L07-czytanie-07.mp3",
-        "text": "Cześć, Rysiek. Dobrze, że do mnie napisałeś. Nie możesz żyć w takim stresie. Zgadzam się z tobą w stu procentach. W życiu liczy się coś więcej niż pieniądze i kariera. Musimy się spotkać. Może być w sobotę? Czy rozmawiałeś już z Anią, że chcesz zmienić pracę? Co ona sądzi o tym wszystkim? Pozdrawiam, Andrzej.",
-        "tr": "Привіт, Риську. Добре, що ти мені написав. Ти не можеш жити в такому стресі. Погоджуюся з тобою на сто відсотків. У житті важить щось більше, ніж гроші й кар’єра. Мусимо зустрітися. Може, в суботу? Чи ти вже розмовляв з Анею, що хочеш змінити роботу? Що вона думає про все це? Вітаю, Анджей." }
-    ]},
-    { "block": "C. Dostałem pracę! · трек 207C4", "items": [
-      { "type": "dia", "title": "Rysiek i Ania — dobra wiadomość", "audio": "audio/L07/L07-czytanie-08.mp3", "lines": [
-        ["Rysiek","Witaj, Aniu. Możesz mi pogratulować. Dostałem tę pracę.","Привіт, Аню. Можеш мене привітати. Я отримав цю роботу."],
-        ["Ania","To wspaniale. Wiedziałam, że jesteś najlepszy.","Це чудово. Я знала, що ти найкращий."],
-        ["Rysiek","Chyba faktycznie dobrze wypadłem na rozmowie, bo wynegocjowałem niezłe warunki zatrudnienia i, co najważniejsze, w umowie o pracę mam zagwarantowane więcej urlopu niż dotąd.","Мабуть, я справді добре показав себе на співбесіді, бо виторгував непогані умови працевлаштування і, що найважливіше, у трудовому договорі маю гарантовано більше відпустки, ніж досі."],
-        ["Ania","Fantastyczna wiadomość. Więc dokąd pojedziemy na wakacje? Zawsze marzyłam o Maderze.","Фантастична новина. То куди поїдемо у відпустку? Я завжди мріяла про Мадейру."]
-      ]}
-    ]}
+    {
+      "block": "A. Rozmowa kwalifikacyjna · трек 207A2",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Joanna Szymańska — rozmowa o pracę",
+          "audio": "audio/L07/L07-czytanie-01.mp3",
+          "text": "Witam Panią. Proszę się krótko zaprezentować. Nazywam się Joanna Szymańska. Niedawno ukończyłam studia na Uniwersytecie Ekonomicznym na kierunku Marketing i Zarządzanie. Czy ma Pani jakieś doświadczenie zawodowe? Tak. Już w czasie studiów podjęłam pracę na półetatu w polsko-hiszpańskiej firmie. Czym zajmowała się ta firma i co należało do Pani obowiązków? To była firma handlowa. Natomiast ja byłam odpowiedzialna za prowadzenie korespondencji, wystawianie faktur i organizację biura. Jakich aplikacji komputerowych Pani używała? Pakietu Open Office, przede wszystkim edytora tekstu i arkusza kalkulacyjnego. Na co dzień korzystałam z programu pocztowego Outlook i przeglądarek internetowych Firefox i Internet Explorer. Czy potrafi Pani pisać bezwzrokowo? Tak. Dlaczego teraz szuka Pani nowej pracy? Ponieważ poprzednia firma nie może mi zapewnić pracy na cały etat, a ja muszę się usamodzielnić i zarabiać na swoje utrzymanie, które, jak Państwo wiecie, nie jest teraz tanie. Rozumiem. Proszę nam powiedzieć, jakie języki obce Pani zna. Mówię biegle po hiszpańsku, znam bardzo dobrze angielski i podstawy niemieckiego. Jest Pani jedną z wielu kandydatek na to stanowisko. Jak nas Pani przekona, że jest Pani najlepsza? Jestem odpowiedzialna i dobrze zorganizowana. Szybko się uczę. Jestem osobą otwartą i umiem pracować w zespole. Dziękujemy Pani za spotkanie. Skontaktujemy się z Panią telefonicznie w najbliższym czasie.",
+          "tr": "Вітаю Вас. Прошу коротко представитися. Мене звати Йоанна Шиманська. Нещодавно я закінчила навчання в Економічному університеті за спеціальністю «Маркетинг і управління». Чи маєте Ви якийсь професійний досвід? Так. Ще під час навчання я взялася за роботу на пів ставки в польсько-іспанській фірмі. Чим займалася ця фірма і що входило до Ваших обов’язків? Це була торгова фірма. А я відповідала за ведення кореспонденції, виписування рахунків-фактур та організацію офісу. Якими комп’ютерними програмами Ви користувалися? Пакетом Open Office, насамперед текстовим редактором і електронною таблицею. Щодня користувалася поштовою програмою Outlook та інтернет-браузерами Firefox і Internet Explorer. Чи вмієте Ви друкувати наосліп? Так. Чому Ви тепер шукаєте нову роботу? Тому що попередня фірма не може забезпечити мене роботою на повну ставку, а я мушу стати самостійною і заробляти на своє утримання, яке, як Ви знаєте, тепер недешеве. Розумію. Скажіть нам, які іноземні мови Ви знаєте. Розмовляю вільно іспанською, дуже добре знаю англійську й основи німецької. Ви одна з багатьох кандидаток на цю посаду. Як Ви нас переконаєте, що Ви найкраща? Я відповідальна й добре організована. Швидко вчуся. Я відкрита людина й умію працювати в команді. Дякуємо Вам за зустріч. Зв’яжемося з Вами телефоном найближчим часом."
+        }
+      ]
+    },
+    {
+      "block": "A. Prezentacje kandydatów · трек 207A4",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Joanna Szymańska",
+          "audio": "audio/L07/L07-czytanie-02.mp3",
+          "text": "Nazywam się Joanna Szymańska. Jestem absolwentką marketingu i zarządzania. Już w czasie studiów zaczęłam pracować na pół etatu, żeby zarabiać na swoje utrzymanie. Zajmowałam się organizacją biura, prowadziłam korespondencję i wystawiałam faktury. Znam dobrze obsługę komputera. Mówię biegle po hiszpańsku, bardzo dobrze po angielsku i znam podstawy niemieckiego. Jestem odpowiedzialna, dobrze zorganizowana. Umiem pracować w zespole.",
+          "tr": "Мене звати Йоанна Шиманська. Я випускниця маркетингу та управління. Ще під час навчання почала працювати на пів ставки, щоб заробляти на своє утримання. Займалася організацією офісу, вела кореспонденцію й виписувала рахунки-фактури. Добре володію комп’ютером. Розмовляю вільно іспанською, дуже добре англійською і знаю основи німецької. Я відповідальна, добре організована. Умію працювати в команді."
+        },
+        {
+          "type": "mono",
+          "title": "Piotr Leśniewski",
+          "audio": "audio/L07/L07-czytanie-03.mp3",
+          "text": "Nazywam się Piotr Leśniewski, z wykształcenia jestem informatykiem, więc komputery nie mają dla mnie tajemnic. Po studiach pracowałem kilka lat w zawodzie. Zajmowałem się głównie pisaniem i testowaniem nowego oprogramowania, ale siedzenie w pracy po 8 godzin dziennie przed monitorem, to nie dla mnie. Wybrałem w końcu pracę na własny rachunek. Jestem aktywny, lubię kontakty z ludźmi i nowe wyzwania. Moją pasją są języki obce. Świetnie mówię po angielsku i niemiecku, znam włoski, a teraz chodzę na kurs hiszpańskiego.",
+          "tr": "Мене звати Пьотр Лесьневський, за освітою я програміст, тож комп’ютери не мають для мене таємниць. Після навчання кілька років працював за фахом. Займався головно написанням і тестуванням нового програмного забезпечення, але сидіти на роботі по 8 годин на день перед монітором — це не для мене. Зрештою обрав роботу на себе. Я активний, люблю контакти з людьми й нові виклики. Моя пристрасть — іноземні мови. Чудово розмовляю англійською й німецькою, знаю італійську, а зараз ходжу на курс іспанської."
+        },
+        {
+          "type": "mono",
+          "title": "Ewa Dębska",
+          "audio": "audio/L07/L07-czytanie-04.mp3",
+          "text": "Nazywam się Ewa Dębska, rok temu zdałam maturę, a potem skończyłam kurs dla sekretarek. Przez trzy miesiące pracowałam na cały etat w dużej firmie produkcyjnej, gdzie byłam odpowiedzialna za bieżącą obsługę klientów. Niestety, z powodu kryzysu zredukowano wiele stanowisk. Moje atuty to dobra znajomość obsługi komputera i urządzeń biurowych. Znam trochę język niemiecki, a teraz uczę się angielskiego. Jestem spokojna i zdyscyplinowana.",
+          "tr": "Мене звати Ева Дембська, рік тому я склала матуру, а потім закінчила курс для секретарок. Протягом трьох місяців працювала на повну ставку у великій виробничій фірмі, де відповідала за поточне обслуговування клієнтів. На жаль, через кризу скоротили багато посад. Мої переваги — добре володіння комп’ютером і офісною технікою. Трохи знаю німецьку мову, а зараз вчу англійську. Я спокійна й дисциплінована."
+        },
+        {
+          "type": "mono",
+          "title": "Paulina Szuba",
+          "audio": "audio/L07/L07-czytanie-05.mp3",
+          "text": "Paulina Szuba. Od czerwca posiadam dyplom filologii węgierskiej. Nie mam za dużo doświadczenia zawodowego, ale podczas studiów czasem pracowałam na zlecenia. Robiłam różne rzeczy. Od najprostszych, rozdawanie ulotek, do całkiem ambitnych. Praca przy organizacji festiwalu piosenki studenckiej oraz targów edukacyjnych w Krakowie. Moje kwalifikacje? Znajomość podstawowych aplikacji komputerowych, umiejętność szybkiego wyszukiwania informacji w internecie, biegła znajomość języka węgierskiego i angielskiego oraz komunikatywna francuskiego. Moje cechy? Kreatywność, spontaniczność i punktualność.",
+          "tr": "Пауліна Шуба. Із червня маю диплом угорської філології. Не маю надто багато професійного досвіду, але під час навчання іноді працювала за договорами підряду. Робила різні речі. Від найпростіших — роздавання листівок, до досить амбітних. Робота при організації фестивалю студентської пісні та освітніх ярмарків у Кракові. Моя кваліфікація? Володіння основними комп’ютерними програмами, уміння швидко шукати інформацію в інтернеті, вільне знання угорської та англійської мов, а також розмовний рівень французької. Мої риси? Креативність, спонтанність і пунктуальність."
+        }
+      ]
+    },
+    {
+      "block": "A. Decyzja rekrutacyjna · dialog · трек 207A5",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Tomasz i Teresa — kogo zatrudnić?",
+          "audio": "audio/L07/L07-czytanie-06.mp3",
+          "lines": [
+            [
+              "Tomasz",
+              "Kogo według Ciebie powinniśmy zatrudnić?",
+              "Кого, на твою думку, ми маємо найняти?"
+            ],
+            [
+              "Teresa",
+              "To trudna decyzja. Mnie się najbardziej podoba kandydatka numer 4. Energiczna, ma dużo entuzjazmu i jest bardzo sympatyczna. A to ważne w kontaktach z klientami.",
+              "Це важке рішення. Мені найбільше подобається кандидатка номер 4. Енергійна, має багато ентузіазму й дуже симпатична. А це важливо в контактах із клієнтами."
+            ],
+            [
+              "Tomasz",
+              "Paulina Szuba, tak? Zgadzam się, że jej otwartość to duży atut. Ale boję się, że ona jest za młoda i nie ma doświadczenia. Na tym stanowisku potrzebna jest osoba, która świetnie radzi sobie z problemami.",
+              "Пауліна Шуба, так? Погоджуюся, що її відкритість — велика перевага. Але боюся, що вона надто молода й не має досвіду. На цій посаді потрібна людина, яка чудово дає раду проблемам."
+            ],
+            [
+              "Teresa",
+              "A co sądzisz o Piotrze? Spełnia wszystkie wymagania. Komputer, doświadczenie, języki, otwarta osobowość i lubi nowe wyzwania.",
+              "А що думаєш про Пьотра? Він відповідає всім вимогам. Комп’ютер, досвід, мови, відкрита особистість і любить нові виклики."
+            ],
+            [
+              "Tomasz",
+              "Wydaje mi się, że ma za wysokie kwalifikacje na to stanowisko. A Ewa Dębska?",
+              "Мені здається, що в нього зависока кваліфікація для цієї посади. А Ева Дембська?"
+            ],
+            [
+              "Teresa",
+              "Znajomość oprogramowania komputerowego i obsługa klienta to jej plus. Ale języki – duży minus.",
+              "Знання комп’ютерного програмного забезпечення та обслуговування клієнтів — це її плюс. Але мови — великий мінус."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "B. Odpowiedź na mail · трек 207B2",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Andrzej do Ryśka — odpowiedź na mail",
+          "audio": "audio/L07/L07-czytanie-07.mp3",
+          "text": "Cześć, Rysiek. Dobrze, że do mnie napisałeś. Nie możesz żyć w takim stresie. Zgadzam się z tobą w stu procentach. W życiu liczy się coś więcej niż pieniądze i kariera. Musimy się spotkać. Może być w sobotę? Czy rozmawiałeś już z Anią, że chcesz zmienić pracę? Co ona sądzi o tym wszystkim? Pozdrawiam, Andrzej.",
+          "tr": "Привіт, Риську. Добре, що ти мені написав. Ти не можеш жити в такому стресі. Погоджуюся з тобою на сто відсотків. У житті важить щось більше, ніж гроші й кар’єра. Мусимо зустрітися. Може, в суботу? Чи ти вже розмовляв з Анею, що хочеш змінити роботу? Що вона думає про все це? Вітаю, Анджей."
+        }
+      ]
+    },
+    {
+      "block": "C. Dostałem pracę! · трек 207C4",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Rysiek i Ania — dobra wiadomość",
+          "audio": "audio/L07/L07-czytanie-08.mp3",
+          "lines": [
+            [
+              "Rysiek",
+              "Witaj, Aniu. Możesz mi pogratulować. Dostałem tę pracę.",
+              "Привіт, Аню. Можеш мене привітати. Я отримав цю роботу."
+            ],
+            [
+              "Ania",
+              "To wspaniale. Wiedziałam, że jesteś najlepszy.",
+              "Це чудово. Я знала, що ти найкращий."
+            ],
+            [
+              "Rysiek",
+              "Chyba faktycznie dobrze wypadłem na rozmowie, bo wynegocjowałem niezłe warunki zatrudnienia i, co najważniejsze, w umowie o pracę mam zagwarantowane więcej urlopu niż dotąd.",
+              "Мабуть, я справді добре показав себе на співбесіді, бо виторгував непогані умови працевлаштування і, що найважливіше, у трудовому договорі маю гарантовано більше відпустки, ніж досі."
+            ],
+            [
+              "Ania",
+              "Fantastyczna wiadomość. Więc dokąd pojedziemy na wakacje? Zawsze marzyłam o Maderze.",
+              "Фантастична новина. То куди поїдемо у відпустку? Я завжди мріяла про Мадейру."
+            ]
+          ]
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 07 — треки 207A2, 207A4, 207A5, 207B2, 207C4. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "mono", "title": "Jolanta Łapińska — prezentacja · zeszyt cw06", "audio": "audio/L07/L07-zeszyt-01.mp3",
+    {
+      "type": "mono",
+      "title": "Jolanta Łapińska — prezentacja · zeszyt cw06",
+      "audio": "audio/L07/L07-zeszyt-01.mp3",
       "text": "Nazywam się Joanna Łapińska, mam średnie wykształcenie. Skończyłam technikum odzieżowe i zdałam maturę. Po maturze przez dwa lata pracowałam w sklepie z ubraniami. Potem zmieniłam pracę. Przez rok pracowałam w firmie produkcyjnej jako kontroler jakości. To znaczy sprawdzałam, czy uszyte ubrania są dobrej jakości, czy nie mają wad. Jeśli chodzi o komputer, to znam obsługę podstawowych programów. Nie jestem może w tym najlepsza, ale daję sobie radę. Poza tym szybko się uczę. Znam trochę język angielski. Jestem punktualna, pracowita i uczciwa.",
-      "tr": "Мене звати Йоанна Лапінська, маю середню освіту. Я закінчила швейний технікум і склала матуру. Після матури протягом двох років працювала в магазині одягу. Потім змінила роботу. Рік працювала у виробничій фірмі контролером якості. Тобто перевіряла, чи пошитий одяг доброї якості, чи не має вад. Щодо комп’ютера, то володію основними програмами. Може, я в цьому не найкраща, але даю собі раду. До того ж швидко вчуся. Трохи знаю англійську мову. Я пунктуальна, працьовита й чесна." },
-    { "type": "mono", "title": "Jerzy Kuc — prezentacja · zeszyt cw07", "audio": "audio/L07/L07-zeszyt-02.mp3",
+      "tr": "Мене звати Йоанна Лапінська, маю середню освіту. Я закінчила швейний технікум і склала матуру. Після матури протягом двох років працювала в магазині одягу. Потім змінила роботу. Рік працювала у виробничій фірмі контролером якості. Тобто перевіряла, чи пошитий одяг доброї якості, чи не має вад. Щодо комп’ютера, то володію основними програмами. Може, я в цьому не найкраща, але даю собі раду. До того ж швидко вчуся. Трохи знаю англійську мову. Я пунктуальна, працьовита й чесна."
+    },
+    {
+      "type": "mono",
+      "title": "Jerzy Kuc — prezentacja · zeszyt cw07",
+      "audio": "audio/L07/L07-zeszyt-02.mp3",
       "text": "Nazywam się Jerzy Kuc, jestem inżynierem. Kiedy skończyłem politechnikę, przez trzy lata pracowałem w przedsiębiorstwie budowlanym. Znam bardzo dobrze obsługę komputera, systemy operacyjne Windows i Linux. Doskonale mówię po niemiecku i dobrze po angielsku. Jestem operatywny, ambitny i pomysłowy.",
-      "tr": "Мене звати Єжи Куц, я інженер. Коли закінчив політехніку, протягом трьох років працював у будівельному підприємстві. Дуже добре володію комп’ютером, операційними системами Windows і Linux. Досконало розмовляю німецькою і добре англійською. Я ініціативний, амбітний і винахідливий." },
-    { "type": "mono", "title": "Ewa Szałdżyńska — prezentacja · zeszyt cw08", "audio": "audio/L07/L07-zeszyt-03.mp3",
+      "tr": "Мене звати Єжи Куц, я інженер. Коли закінчив політехніку, протягом трьох років працював у будівельному підприємстві. Дуже добре володію комп’ютером, операційними системами Windows і Linux. Досконало розмовляю німецькою і добре англійською. Я ініціативний, амбітний і винахідливий."
+    },
+    {
+      "type": "mono",
+      "title": "Ewa Szałdżyńska — prezentacja · zeszyt cw08",
+      "audio": "audio/L07/L07-zeszyt-03.mp3",
       "text": "Nazywam się Ewa Szałdżyńska. Z zawodu jestem ekonomistką. Skończyłam finanse i rachunkowość na Akademii Ekonomicznej. Przez 5 lat pracowałam jako główna księgowa w firmie usługowo-handlowej. Oczywiście znam dobrze obsługę komputera, zwłaszcza programów księgowych. Mówię świetnie po angielsku, bardzo dobrze po niemiecku i dobrze po włosku. Jestem odpowiedzialna i solidna.",
-      "tr": "Мене звати Ева Шалджинська. За фахом я економістка. Закінчила фінанси й бухгалтерський облік в Економічній академії. Протягом 5 років працювала головним бухгалтером у торгово-сервісній фірмі. Звісно, добре володію комп’ютером, особливо бухгалтерськими програмами. Розмовляю чудово англійською, дуже добре німецькою і добре італійською. Я відповідальна й надійна." }
+      "tr": "Мене звати Ева Шалджинська. За фахом я економістка. Закінчила фінанси й бухгалтерський облік в Економічній академії. Протягом 5 років працювала головним бухгалтером у торгово-сервісній фірмі. Звісно, добре володію комп’ютером, особливо бухгалтерськими програмами. Розмовляю чудово англійською, дуже добре німецькою і добре італійською. Я відповідальна й надійна."
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 07, ćw. 6/7/8 (треки 26200, 27453, 26206). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "quiz": [
-    { "topic": "słownictwo", "q": "Що означає польське «pisać bezwzrokowo»?",
-      "o": ["друкувати наосліп (не дивлячись на клавіатуру)","писати від руки","писати без помилок"], "a": 0,
-      "fb": "«Pisać bezwzrokowo» — друкувати наосліп, не дивлячись на клавіатуру. Важлива навичка для секретарки." },
-    { "topic": "kandydaci", "q": "Хто з кандидатів за освітою інформатик і обрав роботу на себе?",
-      "o": ["Piotr Leśniewski","Ewa Dębska","Joanna Szymańska"], "a": 0,
-      "fb": "Piotr: «z wykształcenia jestem informatykiem… Wybrałem w końcu pracę na własny rachunek»." },
-    { "topic": "narzędnik", "q": "Доповніть: «Z zawodu jestem ___» (економіст, жін. рід).",
-      "o": ["ekonomistka","ekonomistką","ekonomistce"], "a": 1,
-      "fb": "Після «jestem» (хто я?) — narzędnik: ekonomistka → ekonomistką. Так само: inżynier → inżynierem." },
-    { "topic": "słownictwo", "q": "Який синонім до дієслова «używać»?",
-      "o": ["zatrudnić","korzystać z","zarabiać"], "a": 1,
-      "fb": "«Korzystać z» = «używać» — користуватися чимось. Наприклад: korzystać z programu / używać programu." },
-    { "topic": "decyzja", "q": "Чому Tomasz і Teresa вагаються щодо Pauliny Szuby?",
-      "o": ["надто молода і не має досвіду","не знає мов","не вміє працювати на комп’ютері"], "a": 0,
-      "fb": "Tomasz: «boję się, że ona jest za młoda i nie ma doświadczenia»." },
-    { "topic": "słownictwo", "q": "Як називається фірма, що нічого не виробляє, а надає послуги?",
-      "o": ["firma produkcyjna","firma usługowa","firma handlowa"], "a": 1,
-      "fb": "«Firma usługowa» — фірма послуг. «Produkcyjna» виробляє, «handlowa» торгує." },
-    { "topic": "praca", "q": "Що означає вислів «wyścig szczurów»?",
-      "o": ["командна робота","нездорова конкуренція на роботі","спортивні змагання"], "a": 1,
-      "fb": "«Wyścig szczurów» (щурячі перегони) — нездорова, виснажлива конкуренція. Rysiek скаржиться на неї в мейлі." },
-    { "topic": "mail", "q": "Що радить Andrzej у відповіді на скаргу Ryśka?",
-      "o": ["щоб той більше працював","що не можна жити в такому стресі, треба зустрітися","щоб негайно звільнився"], "a": 1,
-      "fb": "Andrzej: «Nie możesz żyć w takim stresie… Musimy się spotkać»." },
-    { "topic": "narzędnik", "q": "Правильна форма: «Świetnie radzi sobie z ___» (проблеми).",
-      "o": ["problemy","problemami","problemów"], "a": 1,
-      "fb": "Після «radzić sobie z» — narzędnik множини: problemy → problemami." },
-    { "topic": "dialog", "q": "Що Rysiek виторгував на співбесіді як найважливіше?",
-      "o": ["більше відпустки в трудовому договорі","службове авто","вищу премію"], "a": 0,
-      "fb": "Rysiek: «w umowie o pracę mam zagwarantowane więcej urlopu niż dotąd»." }
+    {
+      "topic": "słownictwo",
+      "q": "Що означає польське «pisać bezwzrokowo»?",
+      "o": [
+        "друкувати наосліп (не дивлячись на клавіатуру)",
+        "писати від руки",
+        "писати без помилок"
+      ],
+      "a": 0,
+      "fb": "«Pisać bezwzrokowo» — друкувати наосліп, не дивлячись на клавіатуру. Важлива навичка для секретарки."
+    },
+    {
+      "topic": "kandydaci",
+      "q": "Хто з кандидатів за освітою інформатик і обрав роботу на себе?",
+      "o": [
+        "Ewa Dębska",
+        "Piotr Leśniewski",
+        "Joanna Szymańska"
+      ],
+      "a": 1,
+      "fb": "Piotr: «z wykształcenia jestem informatykiem… Wybrałem w końcu pracę na własny rachunek»."
+    },
+    {
+      "topic": "narzędnik",
+      "q": "Доповніть: «Z zawodu jestem ___» (економіст, жін. рід).",
+      "o": [
+        "ekonomistka",
+        "ekonomistce",
+        "ekonomistką"
+      ],
+      "a": 2,
+      "fb": "Після «jestem» (хто я?) — narzędnik: ekonomistka → ekonomistką. Так само: inżynier → inżynierem."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Який синонім до дієслова «używać»?",
+      "o": [
+        "korzystać z",
+        "zatrudnić",
+        "zarabiać"
+      ],
+      "a": 0,
+      "fb": "«Korzystać z» = «używać» — користуватися чимось. Наприклад: korzystać z programu / używać programu."
+    },
+    {
+      "topic": "decyzja",
+      "q": "Чому Tomasz і Teresa вагаються щодо Pauliny Szuby?",
+      "o": [
+        "не знає мов",
+        "надто молода і не має досвіду",
+        "не вміє працювати на комп’ютері"
+      ],
+      "a": 1,
+      "fb": "Tomasz: «boję się, że ona jest za młoda i nie ma doświadczenia»."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Як називається фірма, що нічого не виробляє, а надає послуги?",
+      "o": [
+        "firma produkcyjna",
+        "firma handlowa",
+        "firma usługowa"
+      ],
+      "a": 2,
+      "fb": "«Firma usługowa» — фірма послуг. «Produkcyjna» виробляє, «handlowa» торгує."
+    },
+    {
+      "topic": "praca",
+      "q": "Що означає вислів «wyścig szczurów»?",
+      "o": [
+        "нездорова конкуренція на роботі",
+        "командна робота",
+        "спортивні змагання"
+      ],
+      "a": 0,
+      "fb": "«Wyścig szczurów» (щурячі перегони) — нездорова, виснажлива конкуренція. Rysiek скаржиться на неї в мейлі."
+    },
+    {
+      "topic": "mail",
+      "q": "Що радить Andrzej у відповіді на скаргу Ryśka?",
+      "o": [
+        "щоб той більше працював",
+        "що не можна жити в такому стресі, треба зустрітися",
+        "щоб негайно звільнився"
+      ],
+      "a": 1,
+      "fb": "Andrzej: «Nie możesz żyć w takim stresie… Musimy się spotkać»."
+    },
+    {
+      "topic": "narzędnik",
+      "q": "Правильна форма: «Świetnie radzi sobie z ___» (проблеми).",
+      "o": [
+        "problemy",
+        "problemów",
+        "problemami"
+      ],
+      "a": 2,
+      "fb": "Після «radzić sobie z» — narzędnik множини: problemy → problemami."
+    },
+    {
+      "topic": "dialog",
+      "q": "Що Rysiek виторгував на співбесіді як найважливіше?",
+      "o": [
+        "більше відпустки в трудовому договорі",
+        "службове авто",
+        "вищу премію"
+      ],
+      "a": 0,
+      "fb": "Rysiek: «w umowie o pracę mam zagwarantowane więcej urlopu niż dotąd»."
+    }
   ],
-
   "checklist": [
-    { "text": "Розповісти про себе на співбесіді", "sub": "wykształcenie, doświadczenie zawodowe, kwalifikacje, mocne strony" },
-    { "text": "Назвати типи фірм і підприємств", "sub": "handlowa, usługowa, produkcyjna, budowlana, reklamowa" },
-    { "text": "Вживати дієслова «umieć/potrafić», «używać/korzystać z»", "sub": "synonimy w temacie pracy" },
-    { "text": "Написати CV і мотиваційний лист", "sub": "życiorys, list motywacyjny, Szanowni Państwo!, Z poważaniem" },
-    { "text": "Поскаржитися на роботу й порадити в мейлі", "sub": "Mam już dość!, stres, wyścig szczurów, zmienić pracę" }
+    {
+      "text": "Розповісти про себе на співбесіді",
+      "sub": "wykształcenie, doświadczenie zawodowe, kwalifikacje, mocne strony"
+    },
+    {
+      "text": "Назвати типи фірм і підприємств",
+      "sub": "handlowa, usługowa, produkcyjna, budowlana, reklamowa"
+    },
+    {
+      "text": "Вживати дієслова «umieć/potrafić», «używać/korzystać z»",
+      "sub": "synonimy w temacie pracy"
+    },
+    {
+      "text": "Написати CV і мотиваційний лист",
+      "sub": "życiorys, list motywacyjny, Szanowni Państwo!, Z poważaniem"
+    },
+    {
+      "text": "Поскаржитися на роботу й порадити в мейлі",
+      "sub": "Mam już dość!, stres, wyścig szczurów, zmienić pracę"
+    }
   ]
 }

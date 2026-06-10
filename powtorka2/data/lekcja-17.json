@@ -2,49 +2,273 @@
   "id": "17",
   "title": "Trochę historii",
   "goal": "Повторюємо: розповідь про минуле · стан воєнний у Польщі · аспект дієслова (доконаний/недоконаний) · аспект у наказовому способі · світ політики",
-
   "vocab": [
-    { "group": "Stan wojenny — воєнний стан", "items": [
-      ["stan wojenny","воєнний стан"],["godzina milicyjna","комендантська година"],
-      ["oddział wojska / policji","військовий / поліцейський підрозділ"],["uzbrojony","озброєний"],
-      ["czołg","танк"],["wóz pancerny","бронемашина"],["aresztowanie","арешт"],["nakaz","ордер / припис"],
-      ["łom","лом"],["wyważać drzwi","вибивати двері"],["represje","репресії"],["strajk","страйк"],
-      ["demonstracja","демонстрація"],["pacyfikacja","придушення (силове)"],["fala represji","хвиля репресій"]
-    ]},
-    { "group": "Polityka i społeczeństwo — політика й суспільство", "items": [
-      ["partia polityczna","політична партія"],["wybory","вибори"],["elektorat","електорат"],
-      ["świadomy wyborca","свідомий виборець"],["kampania wyborcza","виборча кампанія"],
-      ["cisza wyborcza","день тиші (перед виборами)"],["kandydat","кандидат"],["sondaż","опитування"],
-      ["prawica","праві (праве крило)"],["lewica","ліві (ліве крило)"],["obietnice wyborcze","передвиборчі обіцянки"],
-      ["kadencja","каденція (термін повноважень)"],["rząd","уряд"],["obywatel","громадянин"]
-    ]},
-    { "group": "Życie w PRL — життя за комунізму", "items": [
-      ["przepustka","перепустка"],["kartki na żywność","картки на продукти"],["kolejka","черга"],
-      ["talon","талон"],["towar","товар"],["brakować","бракувати / не вистачати"],
-      ["bibuła","самвидав (нелегальні листівки)"],["ulotka","листівка"],["cenzura","цензура"],
-      ["propaganda","пропаганда"],["internować","інтернувати (ув’язнити)"]
-    ]},
-    { "group": "Nowe słowa — нові слова", "items": [
-      ["działacz","діяч / активіст"],["ukrywać się","переховуватися"],["tryb doraźny","спрощена (термінова) процедура"],
-      ["przywilej","привілей"],["pamiętna data","пам’ятна дата"],["znaleźć się nad przepaścią","опинитися над прірвою"],
-      ["działać z zaskoczenia","діяти раптово / заскочити зненацька"],["ograniczenie wolności","обмеження свободи"],
-      ["do odwołania","до відкликання / до подальшого розпорядження"],["opór","спротив"],["niezgoda","незгода"]
-    ]}
+    {
+      "group": "Stan wojenny — воєнний стан",
+      "items": [
+        [
+          "stan wojenny",
+          "воєнний стан"
+        ],
+        [
+          "godzina milicyjna",
+          "комендантська година"
+        ],
+        [
+          "oddział wojska / policji",
+          "військовий / поліцейський підрозділ"
+        ],
+        [
+          "uzbrojony",
+          "озброєний"
+        ],
+        [
+          "czołg",
+          "танк"
+        ],
+        [
+          "wóz pancerny",
+          "бронемашина"
+        ],
+        [
+          "aresztowanie",
+          "арешт"
+        ],
+        [
+          "nakaz",
+          "ордер / припис"
+        ],
+        [
+          "łom",
+          "лом"
+        ],
+        [
+          "wyważać drzwi",
+          "вибивати двері"
+        ],
+        [
+          "represje",
+          "репресії"
+        ],
+        [
+          "strajk",
+          "страйк"
+        ],
+        [
+          "demonstracja",
+          "демонстрація"
+        ],
+        [
+          "pacyfikacja",
+          "придушення (силове)"
+        ],
+        [
+          "fala represji",
+          "хвиля репресій"
+        ]
+      ]
+    },
+    {
+      "group": "Polityka i społeczeństwo — політика й суспільство",
+      "items": [
+        [
+          "partia polityczna",
+          "політична партія"
+        ],
+        [
+          "wybory",
+          "вибори"
+        ],
+        [
+          "elektorat",
+          "електорат"
+        ],
+        [
+          "świadomy wyborca",
+          "свідомий виборець"
+        ],
+        [
+          "kampania wyborcza",
+          "виборча кампанія"
+        ],
+        [
+          "cisza wyborcza",
+          "день тиші (перед виборами)"
+        ],
+        [
+          "kandydat",
+          "кандидат"
+        ],
+        [
+          "sondaż",
+          "опитування"
+        ],
+        [
+          "prawica",
+          "праві (праве крило)"
+        ],
+        [
+          "lewica",
+          "ліві (ліве крило)"
+        ],
+        [
+          "obietnice wyborcze",
+          "передвиборчі обіцянки"
+        ],
+        [
+          "kadencja",
+          "каденція (термін повноважень)"
+        ],
+        [
+          "rząd",
+          "уряд"
+        ],
+        [
+          "obywatel",
+          "громадянин"
+        ]
+      ]
+    },
+    {
+      "group": "Życie w PRL — життя за комунізму",
+      "items": [
+        [
+          "przepustka",
+          "перепустка"
+        ],
+        [
+          "kartki na żywność",
+          "картки на продукти"
+        ],
+        [
+          "kolejka",
+          "черга"
+        ],
+        [
+          "talon",
+          "талон"
+        ],
+        [
+          "towar",
+          "товар"
+        ],
+        [
+          "brakować",
+          "бракувати / не вистачати"
+        ],
+        [
+          "bibuła",
+          "самвидав (нелегальні листівки)"
+        ],
+        [
+          "ulotka",
+          "листівка"
+        ],
+        [
+          "cenzura",
+          "цензура"
+        ],
+        [
+          "propaganda",
+          "пропаганда"
+        ],
+        [
+          "internować",
+          "інтернувати (ув’язнити)"
+        ]
+      ]
+    },
+    {
+      "group": "Nowe słowa — нові слова",
+      "items": [
+        [
+          "działacz",
+          "діяч / активіст"
+        ],
+        [
+          "ukrywać się",
+          "переховуватися"
+        ],
+        [
+          "tryb doraźny",
+          "спрощена (термінова) процедура"
+        ],
+        [
+          "przywilej",
+          "привілей"
+        ],
+        [
+          "pamiętna data",
+          "пам’ятна дата"
+        ],
+        [
+          "znaleźć się nad przepaścią",
+          "опинитися над прірвою"
+        ],
+        [
+          "działać z zaskoczenia",
+          "діяти раптово / заскочити зненацька"
+        ],
+        [
+          "ograniczenie wolności",
+          "обмеження свободи"
+        ],
+        [
+          "do odwołania",
+          "до відкликання / до подальшого розпорядження"
+        ],
+        [
+          "opór",
+          "спротив"
+        ],
+        [
+          "niezgoda",
+          "незгода"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Aspekt czasownika — вид дієслова (повторення)",
       "note": "Недоконаний вид (niedokonany) описує процес, тривання, повторення. Доконаний (dokonany) — результат, завершену або одноразову дію.",
       "table": {
-        "head": ["Aspekt","Znaczenie","Przykład"],
+        "head": [
+          "Aspekt",
+          "Znaczenie",
+          "Przykład"
+        ],
         "rows": [
-          ["niedokonany","процес, що триває","Pisałem list (писав).*…*"],
-          ["niedokonany","повторювана дія","Codziennie jeździliśmy do babci."],
-          ["niedokonany","відсутність результату","Czytałem tę książkę, ale nie skończyłem."],
-          ["dokonany","результат / завершення","Napisałem list (написав).*…*"],
-          ["dokonany","одноразова дія","Nagle usłyszał hałas."],
-          ["dokonany","хронологічні дії","Najpierw zjadł, potem wyszedł."]
+          [
+            "niedokonany",
+            "процес, що триває",
+            "Pisałem list (писав).*…*"
+          ],
+          [
+            "niedokonany",
+            "повторювана дія",
+            "Codziennie jeździliśmy do babci."
+          ],
+          [
+            "niedokonany",
+            "відсутність результату",
+            "Czytałem tę książkę, ale nie skończyłem."
+          ],
+          [
+            "dokonany",
+            "результат / завершення",
+            "Napisałem list (написав).*…*"
+          ],
+          [
+            "dokonany",
+            "одноразова дія",
+            "Nagle usłyszał hałas."
+          ],
+          [
+            "dokonany",
+            "хронологічні дії",
+            "Najpierw zjadł, potem wyszedł."
+          ]
         ]
       }
     },
@@ -52,12 +276,27 @@
       "title": "Określenia czasu — слова-підказки",
       "note": "Прислівники часу підказують вид. «Повторюваність» і «тривання» → niedokonany; «момент» і «послідовність» → dokonany.",
       "table": {
-        "head": ["Aspekt niedokonany","Aspekt dokonany"],
+        "head": [
+          "Aspekt niedokonany",
+          "Aspekt dokonany"
+        ],
         "rows": [
-          ["codziennie, zawsze, często, rzadko","nagle, raptem, w pewnej chwili"],
-          ["zwykle, zazwyczaj, dawniej","najpierw, potem, wreszcie, w końcu"],
-          ["cały dzień, przez godzinę, długo","natychmiast, od razu, naraz"],
-          ["co tydzień, raz na rok, jednocześnie","pewnego dnia, pewnego razu"]
+          [
+            "codziennie, zawsze, często, rzadko",
+            "nagle, raptem, w pewnej chwili"
+          ],
+          [
+            "zwykle, zazwyczaj, dawniej",
+            "najpierw, potem, wreszcie, w końcu"
+          ],
+          [
+            "cały dzień, przez godzinę, długo",
+            "natychmiast, od razu, naraz"
+          ],
+          [
+            "co tydzień, raz na rok, jednocześnie",
+            "pewnego dnia, pewnego razu"
+          ]
         ]
       }
     },
@@ -65,12 +304,32 @@
       "title": "Aspekt w trybie rozkazującym — у наказовому способі",
       "note": "У наказі результат → доконаний (Połóż to tam!). АЛЕ після заперечення зазвичай вживаємо недоконаний.",
       "table": {
-        "head": ["Forma","Przykład","Увага"],
+        "head": [
+          "Forma",
+          "Przykład",
+          "Увага"
+        ],
         "rows": [
-          ["доконаний (наказ зробити)","Połóż to tam! Pokaż mi to!","результат, одноразовість"],
-          ["недоконаний (заборона)","Nie kładź tego tutaj! Nie mów tak głośno!","після przeczenia → niedokonany"],
-          ["недоконаний (загальний досвід)","Czytałeś kiedyś Kapuścińskiego?","pytanie o doświadczenie"],
-          ["недоконаний (мовлення)","Mówiłam ci o tym wczoraj.","czasowniki mówienia / referowania"]
+          [
+            "доконаний (наказ зробити)",
+            "Połóż to tam! Pokaż mi to!",
+            "результат, одноразовість"
+          ],
+          [
+            "недоконаний (заборона)",
+            "Nie kładź tego tutaj! Nie mów tak głośno!",
+            "після przeczenia → niedokonany"
+          ],
+          [
+            "недоконаний (загальний досвід)",
+            "Czytałeś kiedyś Kapuścińskiego?",
+            "pytanie o doświadczenie"
+          ],
+          [
+            "недоконаний (мовлення)",
+            "Mówiłam ci o tym wczoraj.",
+            "czasowniki mówienia / referowania"
+          ]
         ]
       }
     },
@@ -80,116 +339,333 @@
       "words": "mówić → powiedzieć · odpowiadać → odpowiedzieć · brać → wziąć · kłaść → położyć · widzieć → zobaczyć · oglądać → obejrzeć · znajdować → znaleźć · gubić → zgubić · wracać → wrócić · dzwonić → zadzwonić"
     }
   ],
-
   "czytanie": [
-    { "block": "A. Stan wojenny · трек 217A2", "items": [
-      { "type": "mono", "title": "Stan wojenny — 13 grudnia 1981", "audio": "audio/L17/L17-czytanie-01.mp3",
-        "text": "Stan wojenny 13 grudnia 1981 roku to pamiętna dla Polaków data. O 6 rano generał Jaruzelski, szef rządu, w radiowo-telewizyjnym przemówieniu poinformował obywateli o wprowadzeniu stanu wojennego. Ale już przedtem, o godzinie 00, oddziały ZOMO rozpoczęły ogólnokrajową akcję aresztowań działaczy opozycyjnych. Nie potrzebowali już nakazów, nikt nie miał prawa do obrony, drzwi wyważano łomami. Nieco wcześniej, tuż przed północą, uzbrojone oddziały wojska i milicji wkroczyły do central telefonicznych na terenie całego kraju. Telefony cywilne zamilkły wszędzie, nawet w ambasadach i konsulatach. W tym samym czasie żołnierze obsadzili wszystkie stacje radiowe i telewizyjne. Na ulicach większych miast pojawiły się czołgi i wozy pancerne. Władza działała z zaskoczenia, żeby zdezorientować społeczeństwo, żeby nikt nie zdążył się zbuntować przeciw ograniczeniu wolności. Ojczyzna nasza znalazła się nad przepaścią, mówił w swoim przemówieniu generał, tłumacząc tak drastyczne ograniczenia swobód obywatelskich, jak wprowadzenie godziny milicyjnej, zakazu zmiany miejsca pobytu bez zgody władz, zakazu zgromadzeń publicznych, a nawet organizowania imprez artystycznych czy sportowych bez zezwolenia. Do odwołania zamknięto szkoły. Jedyny wyjątek od zakazu gromadzenia się miały stanowić nabożeństwa w kościołach i obrządki religijne. Generał poinformował także o wstrzymaniu wydawania prasy, wszelkich publikacji, biuletynów informacyjnych i o konieczności jawnej cenzury prywatnej korespondencji. Nakazem chwili Jaruzelski tłumaczył zawieszenie działalności wielu dotychczas legalnych organizacji robotniczych, studenckich, literackich, artystycznych czy dziennikarskich. Polacy dowiedzieli się również, że w czasie stanu wojennego sąd może w trybie doraźnym skazać oskarżonego na karę śmierci. Nic dziwnego, że reakcją na wprowadzenie stanu wojennego początkowo były strajki i demonstracje. Do najgłośniejszych należą te w Stoczni Gdańskiej, w Hucie im. Lenina w Krakowie oraz w kopalni Wujek, gdzie podczas pacyfikacji zastrzelono dziewięciu górników. Przez Polskę przeszła fala represji. Po brutalnych akcjach ZOMO ludzie próbowali innych form oporu, by zademonstrować niezgodę na nową rzeczywistość. Wprowadzenie stanu wojennego to jedno z najbardziej dramatycznych, a zarazem kontrowersyjnych wydarzeń we współczesnej historii Polski. Wciąż powraca kwestia, czy podjęta przez generała Jaruzelskiego decyzja uratowała Polskę przed sowiecką interwencją, czy też jej faktycznym celem było sterroryzowanie społeczeństwa, zniszczenie Solidarności i utrzymywanie władzy przez komunistów.",
-        "tr": "Воєнний стан 13 грудня 1981 року — пам’ятна для поляків дата. О 6 ранку генерал Ярузельський, голова уряду, у радіо-телевізійному зверненні повідомив громадян про запровадження воєнного стану. Але вже раніше, опівночі, підрозділи ЗОМО розпочали загальнонаціональну акцію арештів опозиційних діячів. Їм уже не потрібні були ордери, ніхто не мав права на захист, двері вибивали ломами. Дещо раніше, перед самою північчю, озброєні підрозділи війська й міліції увійшли до телефонних вузлів по всій країні. Цивільні телефони замовкли всюди, навіть у посольствах і консульствах. У той самий час солдати зайняли всі радіо- й телестанції. На вулицях більших міст з’явилися танки й бронемашини. Влада діяла раптово, щоб дезорієнтувати суспільство, щоб ніхто не встиг збунтуватися проти обмеження свободи. «Наша Вітчизна опинилася над прірвою», — казав у своєму зверненні генерал, пояснюючи такі жорсткі обмеження громадянських свобод, як запровадження комендантської години, заборони змінювати місце перебування без дозволу влади, заборони публічних зібрань, ба навіть організації мистецьких чи спортивних заходів без дозволу. До відкликання закрили школи. Єдиним винятком із заборони збиратися мали стати богослужіння в костелах і релігійні обряди. Генерал повідомив також про припинення видання преси, усіх публікацій, інформаційних бюлетенів та про необхідність відкритої цензури приватної кореспонденції. «Велінням часу» Ярузельський пояснював призупинення діяльності багатьох доти легальних робітничих, студентських, літературних, мистецьких чи журналістських організацій. Поляки дізналися також, що під час воєнного стану суд може за спрощеною процедурою засудити обвинуваченого до страти. Не дивно, що реакцією на запровадження воєнного стану спершу були страйки й демонстрації. До найгучніших належать ті на Гданській судноверфі, на Металургійному комбінаті ім. Леніна в Кракові та на шахті «Вуєк», де під час придушення застрелили дев’ятьох гірників. Польщею прокотилася хвиля репресій. Після брутальних акцій ЗОМО люди шукали інших форм спротиву, щоб продемонструвати незгоду з новою реальністю. Запровадження воєнного стану — одна з найдраматичніших і водночас найсуперечливіших подій у сучасній історії Польщі. Досі повертається питання, чи рішення, ухвалене генералом Ярузельським, врятувало Польщу від радянського втручання, чи насправді його метою було залякати суспільство, знищити «Солідарність» і втримати владу комуністами." }
-    ]},
-    { "block": "A. Wspomnienia · wywiad Toma · трек 217A8", "items": [
-      { "type": "mono", "title": "Edward — cisza w telefonie", "audio": "audio/L17/L17-czytanie-02.mp3",
-        "text": "Dla mnie najgorsza była głucha cisza w telefonie, kompletne odcięcie od świata. Część mojej rodziny mieszkała za granicą. Ja jako muzyk miałem wiele kontaktów zawodowych poza krajem. Wszystko się nagle urwało. A potem, gdy telekomunikacja znów działała, irytujący bezbarwny głos kobiecy powtarzający nagraną informację, rozmowa kontrolowana, rozmowa kontrolowana, wciąż przypominał nam o otaczającej nas beznadziei.",
-        "tr": "Для мене найгіршою була глуха тиша в телефоні, цілковите відрізання від світу. Частина моєї родини жила за кордоном. Я як музикант мав багато професійних контактів поза країною. Усе раптово урвалося. А потім, коли зв’язок знову працював, дратівливий безбарвний жіночий голос, що повторював записане повідомлення «розмова контролюється, розмова контролюється», постійно нагадував нам про безнадію, що нас оточувала." },
-      { "type": "mono", "title": "Irena — nakrycie dla taty", "audio": "audio/L17/L17-czytanie-03.mp3",
-        "text": "Na stole przy posiłkach zawsze stało nakrycie dla taty. Nikt nie mógł usiąść na jego krześle. A pod choinką leżał prezent dla najukochańszego tatusia.",
-        "tr": "На столі під час трапез завжди стояв прибор для тата. Ніхто не міг сісти на його стілець. А під ялинкою лежав подарунок для «найкоханішого татуся»." },
-      { "type": "mono", "title": "Marek — milicjant z kopalni", "audio": "audio/L17/L17-czytanie-04.mp3",
-        "text": "Siedziałem za odmowę, bo nie strzelałem do Michała. Chodziliśmy do jednej klasy, potem on poszedł jak jego ojciec i dziadek na górnika, a ja do milicji. Wiadomo, łatwiej było. Dodatkowe kartki były i specjalne sklepy. Wszystko można było załatwić. Ale kiedy nas posłali do pacyfikacji strajku w kopalni w Wujek, opamiętałem się. Tam był Michał. Tam byli inni znajomi, sąsiedzi. Nigdy nie żałowałem tej decyzji. Przynajmniej teraz mogę spokojnie ludziom patrzeć w oczy.",
-        "tr": "Я сидів за відмову, бо не стріляв у Міхала. Ми ходили до одного класу, потім він пішов, як його батько й дід, у шахтарі, а я — в міліцію. Зрозуміло, так було легше. Були додаткові картки й спеціальні магазини. Усе можна було залагодити. Але коли нас послали придушувати страйк на шахті «Вуєк», я отямився. Там був Міхал. Там були інші знайомі, сусіди. Я ніколи не шкодував про це рішення. Принаймні тепер можу спокійно дивитися людям в очі." },
-      { "type": "mono", "title": "Tadeusz — solidarni w kościele", "audio": "audio/L17/L17-czytanie-05.mp3",
-        "text": "Wielkie dziękowanie dla wszystkich zbieranych nocą bliskich. Tam wszyscy szukali pocieszenia, nadziei. Tam wciąż mogli być solidarni.",
-        "tr": "Велика подяка за всіх забраних уночі близьких. Там усі шукали втіхи, надії. Там вони все ще могли бути солідарними." },
-      { "type": "mono", "title": "Piotrek — znak oporu V", "audio": "audio/L17/L17-czytanie-06.mp3",
-        "text": "Ja miałem wtedy zaledwie 14 lat, ale biegałem z kolegami i wszędzie, gdzie się dało, na murach, na płotach, malowaliśmy znak oporu V, czyli Wiktoria. Czasem się udało wypisać wielkimi literami hasło Zima wasza, wiosna nasza. Dobrze, że mama nie wiedziała nic o tej mojej patriotyczno-artystycznej działalności.",
-        "tr": "Мені тоді було лише 14 років, але я бігав із друзями й усюди, де тільки можна було, на стінах, на парканах малював знак спротиву V, тобто «Вікторія». Іноді вдавалося написати великими літерами гасло «Зима ваша, весна наша». Добре, що мама нічого не знала про цю мою патріотично-мистецьку діяльність." },
-      { "type": "mono", "title": "Andrzej — Czas Apokalipsy", "audio": "audio/L17/L17-czytanie-07.mp3",
-        "text": "Znajomy pokazał mi zdjęcie. Na pierwszym planie czołg i grupa żołnierzy, w tle Kino Moskwa, a na nim ogromny napis Czas apokalipsy. Nic dodać, nic ująć.",
-        "tr": "Знайомий показав мені фото. На передньому плані танк і група солдатів, на задньому плані кінотеатр «Москва», а на ньому величезний напис «Час апокаліпсису». Ні додати, ні відняти." }
-    ]},
-    { "block": "C. Aspekt inaczej · dialogi · трек 217C1", "items": [
-      { "type": "dia", "title": "Mówiłam, a nie powiedziałam", "audio": "audio/L17/L17-czytanie-08.mp3", "lines": [
-        ["A","Wychodzisz? Mówiłam ci przecież wczoraj, że…","Виходиш? Я ж казала тобі вчора, що…"],
-        ["B","Dlaczego mówiłam, a nie powiedziałam? Przecież tylko raz.","Чому «казала», а не «сказала»? Адже лише раз."],
-        ["A","Hmm, nie wiem, ale tak jest.","Гмм, не знаю, але так уже є."]
-      ]},
-      { "type": "dia", "title": "Kto to pisał?", "audio": "audio/L17/L17-czytanie-09.mp3", "lines": [
-        ["A","Kto to pisał? Same bzdury.","Хто це писав? Сама нісенітниця."],
-        ["B","Faktycznie.","Справді."]
-      ]},
-      { "type": "dia", "title": "Oglądałeś już ten film?", "audio": "audio/L17/L17-czytanie-10.mp3", "lines": [
-        ["Tom","Tom, oglądałeś już ten film?","Томе, ти вже дивився цей фільм?"],
-        ["B","Nie, nie oglądałem.","Ні, не дивився."]
-      ]},
-      { "type": "dia", "title": "Państwo już zamawiali?", "audio": "audio/L17/L17-czytanie-11.mp3", "lines": [
-        ["Kelner","Państwo już zamawiali?","Ви вже замовляли?"],
-        ["Gość","Tak, zamawialiśmy już u pana kolegi.","Так, ми вже замовляли у вашого колеги."]
-      ]},
-      { "type": "dia", "title": "Nieaktualny adres", "audio": "audio/L17/L17-czytanie-12.mp3", "lines": [
-        ["A","Mam chyba nieaktualny adres Angeli Brown. Przesyłka do niej nie doszła.","Здається, у мене застаріла адреса Анджели Браун. Посилка до неї не дійшла."],
-        ["B","Możliwe. Angela się przeprowadzała, bo nie mogła wytrzymać z sąsiadami.","Можливо. Анджела переїжджала, бо не могла витримати із сусідами."]
-      ]}
-    ]}
+    {
+      "block": "A. Stan wojenny · трек 217A2",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Stan wojenny — 13 grudnia 1981",
+          "audio": "audio/L17/L17-czytanie-01.mp3",
+          "text": "Stan wojenny 13 grudnia 1981 roku to pamiętna dla Polaków data. O 6 rano generał Jaruzelski, szef rządu, w radiowo-telewizyjnym przemówieniu poinformował obywateli o wprowadzeniu stanu wojennego. Ale już przedtem, o godzinie 00, oddziały ZOMO rozpoczęły ogólnokrajową akcję aresztowań działaczy opozycyjnych. Nie potrzebowali już nakazów, nikt nie miał prawa do obrony, drzwi wyważano łomami. Nieco wcześniej, tuż przed północą, uzbrojone oddziały wojska i milicji wkroczyły do central telefonicznych na terenie całego kraju. Telefony cywilne zamilkły wszędzie, nawet w ambasadach i konsulatach. W tym samym czasie żołnierze obsadzili wszystkie stacje radiowe i telewizyjne. Na ulicach większych miast pojawiły się czołgi i wozy pancerne. Władza działała z zaskoczenia, żeby zdezorientować społeczeństwo, żeby nikt nie zdążył się zbuntować przeciw ograniczeniu wolności. Ojczyzna nasza znalazła się nad przepaścią, mówił w swoim przemówieniu generał, tłumacząc tak drastyczne ograniczenia swobód obywatelskich, jak wprowadzenie godziny milicyjnej, zakazu zmiany miejsca pobytu bez zgody władz, zakazu zgromadzeń publicznych, a nawet organizowania imprez artystycznych czy sportowych bez zezwolenia. Do odwołania zamknięto szkoły. Jedyny wyjątek od zakazu gromadzenia się miały stanowić nabożeństwa w kościołach i obrządki religijne. Generał poinformował także o wstrzymaniu wydawania prasy, wszelkich publikacji, biuletynów informacyjnych i o konieczności jawnej cenzury prywatnej korespondencji. Nakazem chwili Jaruzelski tłumaczył zawieszenie działalności wielu dotychczas legalnych organizacji robotniczych, studenckich, literackich, artystycznych czy dziennikarskich. Polacy dowiedzieli się również, że w czasie stanu wojennego sąd może w trybie doraźnym skazać oskarżonego na karę śmierci. Nic dziwnego, że reakcją na wprowadzenie stanu wojennego początkowo były strajki i demonstracje. Do najgłośniejszych należą te w Stoczni Gdańskiej, w Hucie im. Lenina w Krakowie oraz w kopalni Wujek, gdzie podczas pacyfikacji zastrzelono dziewięciu górników. Przez Polskę przeszła fala represji. Po brutalnych akcjach ZOMO ludzie próbowali innych form oporu, by zademonstrować niezgodę na nową rzeczywistość. Wprowadzenie stanu wojennego to jedno z najbardziej dramatycznych, a zarazem kontrowersyjnych wydarzeń we współczesnej historii Polski. Wciąż powraca kwestia, czy podjęta przez generała Jaruzelskiego decyzja uratowała Polskę przed sowiecką interwencją, czy też jej faktycznym celem było sterroryzowanie społeczeństwa, zniszczenie Solidarności i utrzymywanie władzy przez komunistów.",
+          "tr": "Воєнний стан 13 грудня 1981 року — пам’ятна для поляків дата. О 6 ранку генерал Ярузельський, голова уряду, у радіо-телевізійному зверненні повідомив громадян про запровадження воєнного стану. Але вже раніше, опівночі, підрозділи ЗОМО розпочали загальнонаціональну акцію арештів опозиційних діячів. Їм уже не потрібні були ордери, ніхто не мав права на захист, двері вибивали ломами. Дещо раніше, перед самою північчю, озброєні підрозділи війська й міліції увійшли до телефонних вузлів по всій країні. Цивільні телефони замовкли всюди, навіть у посольствах і консульствах. У той самий час солдати зайняли всі радіо- й телестанції. На вулицях більших міст з’явилися танки й бронемашини. Влада діяла раптово, щоб дезорієнтувати суспільство, щоб ніхто не встиг збунтуватися проти обмеження свободи. «Наша Вітчизна опинилася над прірвою», — казав у своєму зверненні генерал, пояснюючи такі жорсткі обмеження громадянських свобод, як запровадження комендантської години, заборони змінювати місце перебування без дозволу влади, заборони публічних зібрань, ба навіть організації мистецьких чи спортивних заходів без дозволу. До відкликання закрили школи. Єдиним винятком із заборони збиратися мали стати богослужіння в костелах і релігійні обряди. Генерал повідомив також про припинення видання преси, усіх публікацій, інформаційних бюлетенів та про необхідність відкритої цензури приватної кореспонденції. «Велінням часу» Ярузельський пояснював призупинення діяльності багатьох доти легальних робітничих, студентських, літературних, мистецьких чи журналістських організацій. Поляки дізналися також, що під час воєнного стану суд може за спрощеною процедурою засудити обвинуваченого до страти. Не дивно, що реакцією на запровадження воєнного стану спершу були страйки й демонстрації. До найгучніших належать ті на Гданській судноверфі, на Металургійному комбінаті ім. Леніна в Кракові та на шахті «Вуєк», де під час придушення застрелили дев’ятьох гірників. Польщею прокотилася хвиля репресій. Після брутальних акцій ЗОМО люди шукали інших форм спротиву, щоб продемонструвати незгоду з новою реальністю. Запровадження воєнного стану — одна з найдраматичніших і водночас найсуперечливіших подій у сучасній історії Польщі. Досі повертається питання, чи рішення, ухвалене генералом Ярузельським, врятувало Польщу від радянського втручання, чи насправді його метою було залякати суспільство, знищити «Солідарність» і втримати владу комуністами."
+        }
+      ]
+    },
+    {
+      "block": "A. Wspomnienia · wywiad Toma · трек 217A8",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Edward — cisza w telefonie",
+          "audio": "audio/L17/L17-czytanie-02.mp3",
+          "text": "Dla mnie najgorsza była głucha cisza w telefonie, kompletne odcięcie od świata. Część mojej rodziny mieszkała za granicą. Ja jako muzyk miałem wiele kontaktów zawodowych poza krajem. Wszystko się nagle urwało. A potem, gdy telekomunikacja znów działała, irytujący bezbarwny głos kobiecy powtarzający nagraną informację, rozmowa kontrolowana, rozmowa kontrolowana, wciąż przypominał nam o otaczającej nas beznadziei.",
+          "tr": "Для мене найгіршою була глуха тиша в телефоні, цілковите відрізання від світу. Частина моєї родини жила за кордоном. Я як музикант мав багато професійних контактів поза країною. Усе раптово урвалося. А потім, коли зв’язок знову працював, дратівливий безбарвний жіночий голос, що повторював записане повідомлення «розмова контролюється, розмова контролюється», постійно нагадував нам про безнадію, що нас оточувала."
+        },
+        {
+          "type": "mono",
+          "title": "Irena — nakrycie dla taty",
+          "audio": "audio/L17/L17-czytanie-03.mp3",
+          "text": "Na stole przy posiłkach zawsze stało nakrycie dla taty. Nikt nie mógł usiąść na jego krześle. A pod choinką leżał prezent dla najukochańszego tatusia.",
+          "tr": "На столі під час трапез завжди стояв прибор для тата. Ніхто не міг сісти на його стілець. А під ялинкою лежав подарунок для «найкоханішого татуся»."
+        },
+        {
+          "type": "mono",
+          "title": "Marek — milicjant z kopalni",
+          "audio": "audio/L17/L17-czytanie-04.mp3",
+          "text": "Siedziałem za odmowę, bo nie strzelałem do Michała. Chodziliśmy do jednej klasy, potem on poszedł jak jego ojciec i dziadek na górnika, a ja do milicji. Wiadomo, łatwiej było. Dodatkowe kartki były i specjalne sklepy. Wszystko można było załatwić. Ale kiedy nas posłali do pacyfikacji strajku w kopalni w Wujek, opamiętałem się. Tam był Michał. Tam byli inni znajomi, sąsiedzi. Nigdy nie żałowałem tej decyzji. Przynajmniej teraz mogę spokojnie ludziom patrzeć w oczy.",
+          "tr": "Я сидів за відмову, бо не стріляв у Міхала. Ми ходили до одного класу, потім він пішов, як його батько й дід, у шахтарі, а я — в міліцію. Зрозуміло, так було легше. Були додаткові картки й спеціальні магазини. Усе можна було залагодити. Але коли нас послали придушувати страйк на шахті «Вуєк», я отямився. Там був Міхал. Там були інші знайомі, сусіди. Я ніколи не шкодував про це рішення. Принаймні тепер можу спокійно дивитися людям в очі."
+        },
+        {
+          "type": "mono",
+          "title": "Tadeusz — solidarni w kościele",
+          "audio": "audio/L17/L17-czytanie-05.mp3",
+          "text": "Wielkie dziękowanie dla wszystkich zbieranych nocą bliskich. Tam wszyscy szukali pocieszenia, nadziei. Tam wciąż mogli być solidarni.",
+          "tr": "Велика подяка за всіх забраних уночі близьких. Там усі шукали втіхи, надії. Там вони все ще могли бути солідарними."
+        },
+        {
+          "type": "mono",
+          "title": "Piotrek — znak oporu V",
+          "audio": "audio/L17/L17-czytanie-06.mp3",
+          "text": "Ja miałem wtedy zaledwie 14 lat, ale biegałem z kolegami i wszędzie, gdzie się dało, na murach, na płotach, malowaliśmy znak oporu V, czyli Wiktoria. Czasem się udało wypisać wielkimi literami hasło Zima wasza, wiosna nasza. Dobrze, że mama nie wiedziała nic o tej mojej patriotyczno-artystycznej działalności.",
+          "tr": "Мені тоді було лише 14 років, але я бігав із друзями й усюди, де тільки можна було, на стінах, на парканах малював знак спротиву V, тобто «Вікторія». Іноді вдавалося написати великими літерами гасло «Зима ваша, весна наша». Добре, що мама нічого не знала про цю мою патріотично-мистецьку діяльність."
+        },
+        {
+          "type": "mono",
+          "title": "Andrzej — Czas Apokalipsy",
+          "audio": "audio/L17/L17-czytanie-07.mp3",
+          "text": "Znajomy pokazał mi zdjęcie. Na pierwszym planie czołg i grupa żołnierzy, w tle Kino Moskwa, a na nim ogromny napis Czas apokalipsy. Nic dodać, nic ująć.",
+          "tr": "Знайомий показав мені фото. На передньому плані танк і група солдатів, на задньому плані кінотеатр «Москва», а на ньому величезний напис «Час апокаліпсису». Ні додати, ні відняти."
+        }
+      ]
+    },
+    {
+      "block": "C. Aspekt inaczej · dialogi · трек 217C1",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Mówiłam, a nie powiedziałam",
+          "audio": "audio/L17/L17-czytanie-08.mp3",
+          "lines": [
+            [
+              "A",
+              "Wychodzisz? Mówiłam ci przecież wczoraj, że…",
+              "Виходиш? Я ж казала тобі вчора, що…"
+            ],
+            [
+              "B",
+              "Dlaczego mówiłam, a nie powiedziałam? Przecież tylko raz.",
+              "Чому «казала», а не «сказала»? Адже лише раз."
+            ],
+            [
+              "A",
+              "Hmm, nie wiem, ale tak jest.",
+              "Гмм, не знаю, але так уже є."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Kto to pisał?",
+          "audio": "audio/L17/L17-czytanie-09.mp3",
+          "lines": [
+            [
+              "A",
+              "Kto to pisał? Same bzdury.",
+              "Хто це писав? Сама нісенітниця."
+            ],
+            [
+              "B",
+              "Faktycznie.",
+              "Справді."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Oglądałeś już ten film?",
+          "audio": "audio/L17/L17-czytanie-10.mp3",
+          "lines": [
+            [
+              "Tom",
+              "Tom, oglądałeś już ten film?",
+              "Томе, ти вже дивився цей фільм?"
+            ],
+            [
+              "B",
+              "Nie, nie oglądałem.",
+              "Ні, не дивився."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Państwo już zamawiali?",
+          "audio": "audio/L17/L17-czytanie-11.mp3",
+          "lines": [
+            [
+              "Kelner",
+              "Państwo już zamawiali?",
+              "Ви вже замовляли?"
+            ],
+            [
+              "Gość",
+              "Tak, zamawialiśmy już u pana kolegi.",
+              "Так, ми вже замовляли у вашого колеги."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Nieaktualny adres",
+          "audio": "audio/L17/L17-czytanie-12.mp3",
+          "lines": [
+            [
+              "A",
+              "Mam chyba nieaktualny adres Angeli Brown. Przesyłka do niej nie doszła.",
+              "Здається, у мене застаріла адреса Анджели Браун. Посилка до неї не дійшла."
+            ],
+            [
+              "B",
+              "Możliwe. Angela się przeprowadzała, bo nie mogła wytrzymać z sąsiadami.",
+              "Можливо. Анджела переїжджала, бо не могла витримати із сусідами."
+            ]
+          ]
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 17 — треки 217A2, 217A8, 217C1. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "mono", "title": "Krystyna — ocenzurowane listy · zeszyt cw07", "audio": "audio/L17/L17-zeszyt-01.mp3",
+    {
+      "type": "mono",
+      "title": "Krystyna — ocenzurowane listy · zeszyt cw07",
+      "audio": "audio/L17/L17-zeszyt-01.mp3",
       "text": "Najbardziej oburzało mnie to, że moje prywatne listy zawsze przychodziły otwarte i ocenzurowane. Dlaczego obcy człowiek miał prawo czytać sobie o moich prywatnych sprawach? Dlaczego mógł wymazywać to, co mu się nie spodobało?",
-      "tr": "Найбільше мене обурювало те, що мої приватні листи завжди приходили розкриті й процензуровані. Чому чужа людина мала право читати про мої приватні справи? Чому могла викреслювати те, що їй не сподобалося?" },
-    { "type": "mono", "title": "Susan — świece w oknach · zeszyt cw07", "audio": "audio/L17/L17-zeszyt-02.mp3",
+      "tr": "Найбільше мене обурювало те, що мої приватні листи завжди приходили розкриті й процензуровані. Чому чужа людина мала право читати про мої приватні справи? Чому могла викреслювати те, що їй не сподобалося?"
+    },
+    {
+      "type": "mono",
+      "title": "Susan — świece w oknach · zeszyt cw07",
+      "audio": "audio/L17/L17-zeszyt-02.mp3",
       "text": "Jestem Angielką. Kiedy w Polsce ogłoszono stan wojenny, ja byłam studentką. Pamiętam, że zorganizowaliśmy akcję w ramach solidarności z represjonowanymi Polakami. W umówionym dniu, niemal we wszystkich oknach naszego domu studenckiego, zapaliły się świece.",
-      "tr": "Я англійка. Коли в Польщі оголосили воєнний стан, я була студенткою. Пам’ятаю, що ми організували акцію солідарності з репресованими поляками. У домовлений день майже в усіх вікнах нашого студентського гуртожитку засвітилися свічки." },
-    { "type": "mono", "title": "Jurek — bibuła i drugi obieg · zeszyt cw07", "audio": "audio/L17/L17-zeszyt-03.mp3",
+      "tr": "Я англійка. Коли в Польщі оголосили воєнний стан, я була студенткою. Пам’ятаю, що ми організували акцію солідарності з репресованими поляками. У домовлений день майже в усіх вікнах нашого студентського гуртожитку засвітилися свічки."
+    },
+    {
+      "type": "mono",
+      "title": "Jurek — bibuła i drugi obieg · zeszyt cw07",
+      "audio": "audio/L17/L17-zeszyt-03.mp3",
       "text": "Wie pan, co to była bibuła? Tak nazywaliśmy nielegalne ulotki, gazetki, odezwy wzywające do manifestacji. To nie były czasy komputerów i drukarek. To trzeba było pisać na maszynie do pisania. Zaledwie w kilku kopiach naraz. Potem w podziemiu pojawiły się nielegalne powielacze i w tak zwanym drugim obiegu mogły być drukowane większe rzeczy, nawet zakazana literatura.",
-      "tr": "Знаєте, що таке була «bibuła»? Так ми називали нелегальні листівки, газетки, відозви із закликом до маніфестацій. То не були часи комп’ютерів і принтерів. Це треба було друкувати на друкарській машинці. Лише в кількох копіях за раз. Потім у підпіллі з’явилися нелегальні розмножувачі, і в так званому «другому обігу» можна було друкувати більші речі, навіть заборонену літературу." },
-    { "type": "mono", "title": "Czesław — Nowa Huta i Rota · zeszyt cw07", "audio": "audio/L17/L17-zeszyt-04.mp3",
+      "tr": "Знаєте, що таке була «bibuła»? Так ми називали нелегальні листівки, газетки, відозви із закликом до маніфестацій. То не були часи комп’ютерів і принтерів. Це треба було друкувати на друкарській машинці. Лише в кількох копіях за раз. Потім у підпіллі з’явилися нелегальні розмножувачі, і в так званому «другому обігу» можна було друкувати більші речі, навіть заборонену літературу."
+    },
+    {
+      "type": "mono",
+      "title": "Czesław — Nowa Huta i Rota · zeszyt cw07",
+      "audio": "audio/L17/L17-zeszyt-04.mp3",
       "text": "W 81 mieszkałem w Nowej Hucie, mieście zbudowanym specjalnie dla robotników. Czy wie pan, czym miała być Nowa Huta? Wzorcowym, socjalistycznym miastem bez Boga, chlubą komunistów. Tylko że nam, robotnikom, nie żyło się tam jak w raju. Nieraz protestowaliśmy. Pamiętam wtedy, w grudniu, też wyszliśmy na ulicę. Szliśmy i śpiewaliśmy Rotę. Tak nam dopomóż Bóg. Potem skandowaliśmy: demonstracja pokojowa. I zaraz usłyszeliśmy pierwsze strzały. ZOMO brutalnie zaatakowało tłum. Zaczęły się uliczne walki.",
-      "tr": "У 81-му я жив у Новій Гуті, місті, збудованому спеціально для робітників. Знаєте, чим мала бути Нова Гута? Зразковим соціалістичним містом без Бога, гордістю комуністів. Тільки нам, робітникам, не жилося там як у раю. Ми не раз протестували. Пам’ятаю, тоді, у грудні, ми теж вийшли на вулицю. Ішли й співали «Роту». «Так нам дай, Боже». Потім скандували: «мирна демонстрація». І відразу почули перші постріли. ЗОМО брутально атакувало натовп. Почалися вуличні бої." },
-    { "type": "mono", "title": "Małgorzata — patrol w lesie · zeszyt cw07", "audio": "audio/L17/L17-zeszyt-05.mp3",
+      "tr": "У 81-му я жив у Новій Гуті, місті, збудованому спеціально для робітників. Знаєте, чим мала бути Нова Гута? Зразковим соціалістичним містом без Бога, гордістю комуністів. Тільки нам, робітникам, не жилося там як у раю. Ми не раз протестували. Пам’ятаю, тоді, у грудні, ми теж вийшли на вулицю. Ішли й співали «Роту». «Так нам дай, Боже». Потім скандували: «мирна демонстрація». І відразу почули перші постріли. ЗОМО брутально атакувало натовп. Почалися вуличні бої."
+    },
+    {
+      "type": "mono",
+      "title": "Małgorzata — patrol w lesie · zeszyt cw07",
+      "audio": "audio/L17/L17-zeszyt-05.mp3",
       "text": "Było zimowe popołudnie. Mama wzięła mnie i młodszego brata na spacer do lasu. W lesie było pusto. Na górce, z której zjeżdżałam na sankach, nie było innych dzieci. Nagle, nie wiadomo skąd, pojawił się patrol wojskowy. Żołnierze denerwowali się, że mama nie ma dokumentów. Szukali czegoś w wózku brata. Krzyczeli, chcieli nas zabrać na posterunek.",
-      "tr": "Був зимовий полудень. Мама взяла мене й молодшого брата на прогулянку до лісу. У лісі було порожньо. На гірці, з якої я з’їжджала на санках, не було інших дітей. Раптом, невідомо звідки, з’явився військовий патруль. Солдати нервували, що мама не має документів. Шукали чогось у братовому візочку. Кричали, хотіли забрати нас до відділку." }
+      "tr": "Був зимовий полудень. Мама взяла мене й молодшого брата на прогулянку до лісу. У лісі було порожньо. На гірці, з якої я з’їжджала на санках, не було інших дітей. Раптом, невідомо звідки, з’явився військовий патруль. Солдати нервували, що мама не має документів. Шукали чогось у братовому візочку. Кричали, хотіли забрати нас до відділку."
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 17, ćw. 7 (трек 27405). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "checklist": [
-    { "text": "Розрізняти доконаний і недоконаний вид", "sub": "процес/повтор → niedokonany; результат/одноразовість → dokonany" },
-    { "text": "Добирати вид за словами-підказками", "sub": "codziennie, zawsze → niedok.; nagle, wreszcie → dok." },
-    { "text": "Утворювати наказовий спосіб з урахуванням виду", "sub": "Połóż to tam! · але Nie kładź tego tutaj!" },
-    { "text": "Розповісти про подію з минулого / стан воєнний", "sub": "Pamiętam pierwszy dzień stanu wojennego… · wprowadzono, aresztowano" },
-    { "text": "Вживати лексику світу політики", "sub": "wybory, kampania wyborcza, prawica, lewica, kadencja, sondaż" }
+    {
+      "text": "Розрізняти доконаний і недоконаний вид",
+      "sub": "процес/повтор → niedokonany; результат/одноразовість → dokonany"
+    },
+    {
+      "text": "Добирати вид за словами-підказками",
+      "sub": "codziennie, zawsze → niedok.; nagle, wreszcie → dok."
+    },
+    {
+      "text": "Утворювати наказовий спосіб з урахуванням виду",
+      "sub": "Połóż to tam! · але Nie kładź tego tutaj!"
+    },
+    {
+      "text": "Розповісти про подію з минулого / стан воєнний",
+      "sub": "Pamiętam pierwszy dzień stanu wojennego… · wprowadzono, aresztowano"
+    },
+    {
+      "text": "Вживати лексику світу політики",
+      "sub": "wybory, kampania wyborcza, prawica, lewica, kadencja, sondaż"
+    }
   ],
-
   "quiz": [
-    { "topic": "stan wojenny", "q": "Якого дня в Польщі запровадили воєнний стан?",
-      "o": ["13 grudnia 1981","1 września 1939","4 czerwca 1989"], "a": 0,
-      "fb": "Текст: «Stan wojenny 13 grudnia 1981 roku to pamiętna dla Polaków data»." },
-    { "topic": "stan wojenny", "q": "Хто оголосив воєнний стан у телевізійному зверненні?",
-      "o": ["Lech Wałęsa","generał Jaruzelski","Jan Paweł II"], "a": 1,
-      "fb": "«Generał Jaruzelski, szef rządu… poinformował obywateli o wprowadzeniu stanu wojennego»." },
-    { "topic": "słownictwo", "q": "Що таке «godzina milicyjna»?",
-      "o": ["час прийому в міліції","комендантська година","зміна вартового"], "a": 1,
-      "fb": "«Godzina milicyjna» — комендантська година: заборона перебувати на вулиці в певні години." },
-    { "topic": "aspekt", "q": "Який вид підказує слово «codziennie» (щодня)?",
-      "o": ["niedokonany","dokonany","обидва однаково"], "a": 0,
-      "fb": "Повторювана дія → niedokonany: «Codziennie jeździliśmy do babci»." },
-    { "topic": "aspekt", "q": "Доповніть: «Nagle ___ dziwny hałas» (раптова одноразова дія).",
-      "o": ["słyszał","usłyszał","słyszę"], "a": 1,
-      "fb": "«Nagle» → одноразова дія → dokonany: słyszeć → usłyszeć." },
-    { "topic": "tryb rozkazujący", "q": "Як правильно наказати покласти щось на місце?",
-      "o": ["Kładź to tam!","Połóż to tam!","Kładziesz to tam!"], "a": 1,
-      "fb": "Наказ на результат → dokonany: kłaść → połóż. «Połóż to tam!»" },
-    { "topic": "tryb rozkazujący", "q": "Який вид вживаємо після заперечення в наказі: «Nie ___ tego tutaj!»?",
-      "o": ["kładź (niedokonany)","połóż (dokonany)","kładziesz"], "a": 0,
-      "fb": "Після przeczenia зазвичай niedokonany: «Nie kładź tego tutaj!»" },
-    { "topic": "aspekt", "q": "Чому кажуть «Mówiłam ci o tym wczoraj», а не «Powiedziałam»?",
-      "o": ["це помилка","при дієсловах мовлення часто вживають niedokonany","бо дія не сталася"], "a": 1,
-      "fb": "При czasownikach mówienia/referowania часто вживають недоконаний вид, навіть коли дія була одноразова." },
-    { "topic": "słownictwo", "q": "Що означало «bibuła» в часи стану воєнного?",
-      "o": ["офіційна газета уряду","нелегальні листівки й видання","папір для пакування"], "a": 1,
-      "fb": "Jurek: «Tak nazywaliśmy nielegalne ulotki, gazetki, odezwy» — підпільні видання." },
-    { "topic": "polityka", "q": "Що таке «cisza wyborcza»?",
-      "o": ["день тиші — заборона агітації перед виборами","перерва між каденціями","низька явка виборців"], "a": 0,
-      "fb": "«Cisza wyborcza» — день тиші: період, коли заборонено вести передвиборчу агітацію." }
+    {
+      "topic": "stan wojenny",
+      "q": "Якого дня в Польщі запровадили воєнний стан?",
+      "o": [
+        "1 września 1939",
+        "13 grudnia 1981",
+        "4 czerwca 1989"
+      ],
+      "a": 1,
+      "fb": "Текст: «Stan wojenny 13 grudnia 1981 roku to pamiętna dla Polaków data»."
+    },
+    {
+      "topic": "stan wojenny",
+      "q": "Хто оголосив воєнний стан у телевізійному зверненні?",
+      "o": [
+        "Lech Wałęsa",
+        "Jan Paweł II",
+        "generał Jaruzelski"
+      ],
+      "a": 2,
+      "fb": "«Generał Jaruzelski, szef rządu… poinformował obywateli o wprowadzeniu stanu wojennego»."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що таке «godzina milicyjna»?",
+      "o": [
+        "комендантська година",
+        "час прийому в міліції",
+        "зміна вартового"
+      ],
+      "a": 0,
+      "fb": "«Godzina milicyjna» — комендантська година: заборона перебувати на вулиці в певні години."
+    },
+    {
+      "topic": "aspekt",
+      "q": "Який вид підказує слово «codziennie» (щодня)?",
+      "o": [
+        "dokonany",
+        "niedokonany",
+        "обидва однаково"
+      ],
+      "a": 1,
+      "fb": "Повторювана дія → niedokonany: «Codziennie jeździliśmy do babci»."
+    },
+    {
+      "topic": "aspekt",
+      "q": "Доповніть: «Nagle ___ dziwny hałas» (раптова одноразова дія).",
+      "o": [
+        "słyszał",
+        "słyszę",
+        "usłyszał"
+      ],
+      "a": 2,
+      "fb": "«Nagle» → одноразова дія → dokonany: słyszeć → usłyszeć."
+    },
+    {
+      "topic": "tryb rozkazujący",
+      "q": "Як правильно наказати покласти щось на місце?",
+      "o": [
+        "Połóż to tam!",
+        "Kładź to tam!",
+        "Kładziesz to tam!"
+      ],
+      "a": 0,
+      "fb": "Наказ на результат → dokonany: kłaść → połóż. «Połóż to tam!»"
+    },
+    {
+      "topic": "tryb rozkazujący",
+      "q": "Який вид вживаємо після заперечення в наказі: «Nie ___ tego tutaj!»?",
+      "o": [
+        "połóż (dokonany)",
+        "kładź (niedokonany)",
+        "kładziesz"
+      ],
+      "a": 1,
+      "fb": "Після przeczenia зазвичай niedokonany: «Nie kładź tego tutaj!»"
+    },
+    {
+      "topic": "aspekt",
+      "q": "Чому кажуть «Mówiłam ci o tym wczoraj», а не «Powiedziałam»?",
+      "o": [
+        "це помилка",
+        "бо дія не сталася",
+        "при дієсловах мовлення часто вживають niedokonany"
+      ],
+      "a": 2,
+      "fb": "При czasownikach mówienia/referowania часто вживають недоконаний вид, навіть коли дія була одноразова."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що означало «bibuła» в часи стану воєнного?",
+      "o": [
+        "нелегальні листівки й видання",
+        "офіційна газета уряду",
+        "папір для пакування"
+      ],
+      "a": 0,
+      "fb": "Jurek: «Tak nazywaliśmy nielegalne ulotki, gazetki, odezwy» — підпільні видання."
+    },
+    {
+      "topic": "polityka",
+      "q": "Що таке «cisza wyborcza»?",
+      "o": [
+        "перерва між каденціями",
+        "день тиші — заборона агітації перед виборами",
+        "низька явка виборців"
+      ],
+      "a": 1,
+      "fb": "«Cisza wyborcza» — день тиші: період, коли заборонено вести передвиборчу агітацію."
+    }
   ]
 }

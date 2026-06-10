@@ -2,43 +2,187 @@
   "id": "08",
   "title": "Ja swoje wiem!",
   "goal": "Повторюємо: інтерв’ю та розповідь про себе · походження й родина · ідіоми зі словом swój · biernik (знахідний відмінок) · займенник swój",
-
   "vocab": [
-    { "group": "Pochodzenie i rodzina — походження й родина", "items": [
-      ["korzenie","коріння (походження)"],["pochodzić","походити"],["przodek","предок"],
-      ["utrzymywać kontakty","підтримувати контакти"],["wyemigrować","емігрувати"],
-      ["zachodnia granica","західний кордон"],["nazwisko","прізвище"],["facet","тип, чувак (про чоловіка)"]
-    ]},
-    { "group": "Wywiad — інтерв’ю", "items": [
-      ["przeprowadzić wywiad","взяти інтерв’ю"],["udzielić wywiadu","дати інтерв’ю"],
-      ["odmówić udzielenia wywiadu","відмовитися дати інтерв’ю"],["wywiad prasowy","інтерв’ю для преси"],
-      ["wywiad radiowy","радіоінтерв’ю"],["wywiad telewizyjny","телеінтерв’ю"],
-      ["dziennikarka","журналістка"],["wolny strzelec","фрилансер"],["obcokrajowiec","іноземець"]
-    ]},
-    { "group": "Czasowniki — дієслова", "items": [
-      ["przyzwyczajać się / przyzwyczaić się","звикати / звикнути"],
-      ["schylać się / schylić się","нахилятися / нахилитися"],
-      ["sięgać / sięgnąć","сягати / сягнути (тягнутися за чимось)"],
-      ["zdążyć","устигнути"],["zakochać się","закохатися"],["zgodzić się","погодитися"]
-    ]},
-    { "group": "Nowe słowa — нові слова", "items": [
-      ["sieć","мережа"],["zamieszanie","метушня, безлад"],["odtwarzacz","програвач (плеєр)"],
-      ["pobyt","перебування"],["niecierpliwość","нетерплячість"],["przyjemność","задоволення"],
-      ["rachunek","рахунок"],["paragon","чек"],["postawić na swoim","наполягти на своєму"]
-    ]}
+    {
+      "group": "Pochodzenie i rodzina — походження й родина",
+      "items": [
+        [
+          "korzenie",
+          "коріння (походження)"
+        ],
+        [
+          "pochodzić",
+          "походити"
+        ],
+        [
+          "przodek",
+          "предок"
+        ],
+        [
+          "utrzymywać kontakty",
+          "підтримувати контакти"
+        ],
+        [
+          "wyemigrować",
+          "емігрувати"
+        ],
+        [
+          "zachodnia granica",
+          "західний кордон"
+        ],
+        [
+          "nazwisko",
+          "прізвище"
+        ],
+        [
+          "facet",
+          "тип, чувак (про чоловіка)"
+        ]
+      ]
+    },
+    {
+      "group": "Wywiad — інтерв’ю",
+      "items": [
+        [
+          "przeprowadzić wywiad",
+          "взяти інтерв’ю"
+        ],
+        [
+          "udzielić wywiadu",
+          "дати інтерв’ю"
+        ],
+        [
+          "odmówić udzielenia wywiadu",
+          "відмовитися дати інтерв’ю"
+        ],
+        [
+          "wywiad prasowy",
+          "інтерв’ю для преси"
+        ],
+        [
+          "wywiad radiowy",
+          "радіоінтерв’ю"
+        ],
+        [
+          "wywiad telewizyjny",
+          "телеінтерв’ю"
+        ],
+        [
+          "dziennikarka",
+          "журналістка"
+        ],
+        [
+          "wolny strzelec",
+          "фрилансер"
+        ],
+        [
+          "obcokrajowiec",
+          "іноземець"
+        ]
+      ]
+    },
+    {
+      "group": "Czasowniki — дієслова",
+      "items": [
+        [
+          "przyzwyczajać się / przyzwyczaić się",
+          "звикати / звикнути"
+        ],
+        [
+          "schylać się / schylić się",
+          "нахилятися / нахилитися"
+        ],
+        [
+          "sięgać / sięgnąć",
+          "сягати / сягнути (тягнутися за чимось)"
+        ],
+        [
+          "zdążyć",
+          "устигнути"
+        ],
+        [
+          "zakochać się",
+          "закохатися"
+        ],
+        [
+          "zgodzić się",
+          "погодитися"
+        ]
+      ]
+    },
+    {
+      "group": "Nowe słowa — нові слова",
+      "items": [
+        [
+          "sieć",
+          "мережа"
+        ],
+        [
+          "zamieszanie",
+          "метушня, безлад"
+        ],
+        [
+          "odtwarzacz",
+          "програвач (плеєр)"
+        ],
+        [
+          "pobyt",
+          "перебування"
+        ],
+        [
+          "niecierpliwość",
+          "нетерплячість"
+        ],
+        [
+          "przyjemność",
+          "задоволення"
+        ],
+        [
+          "rachunek",
+          "рахунок"
+        ],
+        [
+          "paragon",
+          "чек"
+        ],
+        [
+          "postawić na swoim",
+          "наполягти на своєму"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Biernik liczby pojedynczej — знахідний однини",
       "note": "Знахідний відмінок (kogo? co?). Чоловічий неістота й середній рід = називний. Жіночий → -ę. Чоловічий істота (і деякі неживі, як «pomidora») = родовий.",
       "table": {
-        "head": ["Rodzaj","Mianownik","Biernik"],
+        "head": [
+          "Rodzaj",
+          "Mianownik",
+          "Biernik"
+        ],
         "rows": [
-          ["ч. істота","ten student, znany aktor","t*ego* student*a*, znan*ego* aktor*a*"],
-          ["ч. неістота","sok owocowy, list","sok owocow*y*, list (= mianownik)"],
-          ["жіночий","twoja koleżanka, ta książka","twoj*ą* koleżank*ę*, t*ę* książk*ę*"],
-          ["середній","twoje dziecko, włoskie miasto","twoj*e* dzieck*o*, włosk*ie* miast*o* (= mianownik)"]
+          [
+            "ч. істота",
+            "ten student, znany aktor",
+            "t*ego* student*a*, znan*ego* aktor*a*"
+          ],
+          [
+            "ч. неістота",
+            "sok owocowy, list",
+            "sok owocow*y*, list (= mianownik)"
+          ],
+          [
+            "жіночий",
+            "twoja koleżanka, ta książka",
+            "twoj*ą* koleżank*ę*, t*ę* książk*ę*"
+          ],
+          [
+            "середній",
+            "twoje dziecko, włoskie miasto",
+            "twoj*e* dzieck*o*, włosk*ie* miast*o* (= mianownik)"
+          ]
         ]
       }
     },
@@ -46,10 +190,22 @@
       "title": "Biernik liczby mnogiej — знахідний множини",
       "note": "У множині biernik залежить від роду в називному: чоловічоособові (męskoosobowe) = родовий, решта = називний.",
       "table": {
-        "head": ["Typ","Mianownik l. mn.","Biernik l. mn."],
+        "head": [
+          "Typ",
+          "Mianownik l. mn.",
+          "Biernik l. mn."
+        ],
         "rows": [
-          ["чоловічоособові","znani aktorzy, ci studenci","znan*ych* aktor*ów*, t*ych* student*ów*"],
-          ["нечоловічоособові","długie listy, twoje koleżanki","długi*e* list*y*, twoj*e* koleżank*i* (= mianownik)"]
+          [
+            "чоловічоособові",
+            "znani aktorzy, ci studenci",
+            "znan*ych* aktor*ów*, t*ych* student*ów*"
+          ],
+          [
+            "нечоловічоособові",
+            "długie listy, twoje koleżanki",
+            "długi*e* list*y*, twoj*e* koleżank*i* (= mianownik)"
+          ]
         ]
       }
     },
@@ -62,98 +218,332 @@
       "title": "Zaimek „swój” — займенник swój",
       "note": "«Swój» замінює мій/твій/його/її/наш/їхній, коли власник = підмет речення. Відмінюється як прикметник.",
       "table": {
-        "head": ["Przykład","Komentarz"],
+        "head": [
+          "Przykład",
+          "Komentarz"
+        ],
         "rows": [
-          ["Zrobię to na swój koszt.","підмет = ja → swój (а не «mój»)"],
-          ["On naprawdę kocha swoją żonę.","підмет = on → swoją"],
-          ["Każdy ptaszek swój ogonek chwali.","присл.: кожен хвалить власне"],
-          ["Adam i Ewa mają córkę. Ich córka ma na imię Ola.","другий рядок — новий підмет → ich, не swój"]
+          [
+            "Zrobię to na swój koszt.",
+            "підмет = ja → swój (а не «mój»)"
+          ],
+          [
+            "On naprawdę kocha swoją żonę.",
+            "підмет = on → swoją"
+          ],
+          [
+            "Każdy ptaszek swój ogonek chwali.",
+            "присл.: кожен хвалить власне"
+          ],
+          [
+            "Adam i Ewa mają córkę. Ich córka ma na imię Ola.",
+            "другий рядок — новий підмет → ich, не swój"
+          ]
         ]
       }
     }
   ],
-
   "czytanie": [
-    { "block": "A. Wywiad z Anną Siedlaczek · трек 208A1", "items": [
-      { "type": "dia", "title": "Proszę o kilka słów — wywiad", "audio": "audio/L08/L08-czytanie-01.mp3", "lines": [
-        ["Dziennikarka","Porozmawiajmy o tym, co robisz w Krakowie. Czy możesz się przedstawić?","Поговорімо про те, що ти робиш у Кракові. Чи можеш представитися?"],
-        ["Anna","Nazywam się Anna Siedlaczek. Urodziłam się w Niemczech, ale mam polskie korzenie. To znaczy, mój tata i jego rodzina pochodzą ze Śląska, ale część z nich wyemigrowała za zachodnią granicę w latach osiemdziesiątych. Nie utrzymywaliśmy kontaktów, nie odwiedzaliśmy Polski w wakacje, ani ja, ani moja siostra nie mówiłyśmy po polsku jako dzieci. Nie wiem dokładnie dlaczego, bo tata nie chce ze mną o tym rozmawiać.","Мене звати Анна Седлячек. Я народилася в Німеччині, але маю польське коріння. Тобто мій тато і його родина походять зі Сілезії, але частина з них емігрувала за західний кордон у вісімдесятих роках. Ми не підтримували контактів, не відвідували Польщу влітку, ні я, ні моя сестра не говорили польською в дитинстві. Не знаю точно чому, бо тато не хоче зі мною про це розмовляти."],
-        ["Dziennikarka","A rodzina ze strony twojej mamy?","А родина з боку твоєї мами?"],
-        ["Anna","Pochodzi z Niemiec, z Bawarii. My mieszkamy na północy, więc nie spotykaliśmy się za często. Zwykle na urodzinach babci. Niestety, od kilku lat choruje na Alzheimera. Można powiedzieć, że niewiele wiem o swoich przodkach. Proszę o następne pytanie.","Походить з Німеччини, з Баварії. Ми живемо на півночі, тож не зустрічалися надто часто. Зазвичай на дні народження бабусі. На жаль, кілька років вона хворіє на Альцгеймера. Можна сказати, що мало знаю про своїх предків. Прошу наступне запитання."],
-        ["Dziennikarka","Bardzo jestem ciekawa. Czy miałaś problemy z powodu swojego nazwiska?","Мені дуже цікаво. Чи мала ти проблеми через своє прізвище?"],
-        ["Anna","Miałaś? Ja je cały czas mam. Każdy je wymawia inaczej. Zawsze muszę sprawdzać, czy dobrze zapisali. Muszę wyjść za mąż za faceta o mniej skomplikowanym nazwisku. Absolutnie. Na szczęście imię mam łatwe do zapamiętania. Chociaż w Polsce wymawia się je przez dwa N. Na początku nie mogłam się przyzwyczaić.","«Мала»? Я їх постійно маю! Кожен вимовляє його по-різному. Завжди мушу перевіряти, чи правильно записали. Мушу вийти заміж за чувака з менш складним прізвищем. Однозначно. На щастя, ім’я в мене легко запам’ятати. Хоча в Польщі його вимовляють через два «н». Спершу я не могла звикнути."],
-        ["Dziennikarka","A co sprawiło, że zainteresowałaś się Polską i językiem polskim? Szukałaś swojego miejsca na ziemi?","А що спричинило, що ти зацікавилася Польщею і польською мовою? Шукала свого місця на землі?"],
-        ["Anna","Nikt nie wierzy w moją motywację, ale to z powodu muzyki. Zakochałam się po prostu. Słuchałam tylko polskiej muzyki. Chodziłam na koncerty. A potem chciałam zrozumieć, o czym śpiewają. Próbowałam sama, pytałam o różne słowa ojca, szukałam w sieci. Ale to na nic. Postanowiłam więc zapisać się na kilkutygodniowy kurs językowy. Rodzice się zgodzili na mój pobyt tutaj. Na szczęście tata za wszystko płaci, bo ja jestem tylko biedną studentką.","Ніхто не вірить у мою мотивацію, але це через музику. Я просто закохалася. Слухала лише польську музику. Ходила на концерти. А потім захотіла зрозуміти, про що співають. Пробувала сама, питала різні слова в батька, шукала в мережі. Але це даремно. Тож вирішила записатися на кількатижневий мовний курс. Батьки погодилися на моє перебування тут. На щастя, тато за все платить, бо я лише бідна студентка."],
-        ["Dziennikarka","Czy mogę zapytać, jak ci idzie nauka polskiego?","Чи можу запитати, як тобі йде вивчення польської?"],
-        ["Anna","Powoli, krok po kroku, poznawałam przypadki, koniugacje, struktury. Miałam momenty frustracji i złości. Po co mi to? Ale teraz widzę, że to miało sens. Przepraszam za moją niecierpliwość. Oczywiście, robię wiele błędów. Nie pamiętam niektórych słów. Na przykład to coś, co gra. CD albo MP3.","Повільно, крок за кроком, я опановувала відмінки, дієвідміни, конструкції. Мала моменти фрустрації та злості. Навіщо мені це? Але тепер бачу, що в цьому був сенс. Вибачте за мою нетерплячість. Звісно, роблю багато помилок. Не пам’ятаю деяких слів. Наприклад, оце щось, що грає. CD або MP3."],
-        ["Dziennikarka","Odtwarzacz?","Програвач?"],
-        ["Anna","No właśnie. Dziękuję za pomoc. Okropne słowo.","Саме так. Дякую за допомогу. Жахливе слово."],
-        ["Dziennikarka","Czy możesz powiedzieć, jakie masz plany na najbliższy czas?","Чи можеш сказати, які в тебе плани на найближчий час?"],
-        ["Anna","Dziś gram w tenisa. Potem muszę zdążyć na basen, który jest na drugim końcu miasta. Więc pewnie zadzwonię po taksówkę. A poważnie. Czekam na odpowiedź z Uniwersytetu z Kolonii, czy przyjęli mnie na studia. Od tego wszystko zależy. Więc na razie cieszę się, że mam czas na swoje przyjemności. Pobyt w Krakowie to dla mnie nauka, ale i relaks. No i prawie codziennie jest jakiś fajny koncert.","Сьогодні граю в теніс. Потім мушу встигнути на басейн, який на іншому кінці міста. Тож, мабуть, викличу таксі. А якщо серйозно. Чекаю на відповідь з університету в Кельні, чи прийняли мене на навчання. Від цього все залежить. Тож наразі тішуся, що маю час на свої задоволення. Перебування в Кракові — це для мене навчання, але і відпочинок. Ну і майже щодня є якийсь класний концерт."],
-        ["Dziennikarka","A propos Uniwersytetu. Co chciałabyś studiować?","До речі, про університет. Що хотіла б ти вивчати?"],
-        ["Anna","Dziennikarstwo. Może ja teraz zrobię wywiad z Panią?","Журналістику. Може, тепер я візьму інтерв’ю у Вас?"]
-      ]}
-    ]},
-    { "block": "B. Przygoda w samolocie · трек 208B4", "items": [
-      { "type": "mono", "title": "Moja pierwsza przygoda w Polsce", "audio": "audio/L08/L08-czytanie-02.mp3",
-        "text": "Moja pierwsza przygoda w Polsce? Zaczęło się tak. Leciałem do Krakowa przez Londyn. To był bardzo długi i męczący lot. Czytałem prasę może przez kwadrans, ale byłem zestresowany i szybko zasnąłem. Obudziła mnie pasażerka obok. Pytała o coś po polsku. – Przepraszam, mój długopis spadł pod pana fotel, – powtórzyła po angielsku. – Czy mógłby pan schylić się po niego? Zrobiłem to, o co mnie prosiła, ale niczego nie znalazłem. – Trudno. Nawet się nie zmartwiła. – Za pół godziny lądujemy, wtedy będzie łatwiej szukać. – A pan pierwszy raz w Polsce? – Tak, odpowiedziałem. – W przyszły poniedziałek zaczynam kurs polskiego. – Ach tak, i będzie pan chodzić na lekcje na uniwersytet? – Nie, to prywatna szkoła. Chciałem jechać na kurs nad morze, ale w końcu zdecydowałem się na Kraków. Czuję, że coś mnie tu fajnego spotka.",
-        "tr": "Моя перша пригода в Польщі? Почалося це так. Я летів до Кракова через Лондон. Це був дуже довгий і виснажливий політ. Читав пресу, може, з чверть години, але був у стресі й швидко заснув. Розбудила мене пасажирка поруч. Питала про щось польською. — Вибачте, моя ручка впала під Ваше крісло, — повторила вона англійською. — Чи могли б Ви нахилитися по неї? Я зробив те, про що вона мене просила, але нічого не знайшов. — Нічого. Вона навіть не засмутилася. — За півгодини приземляємося, тоді буде легше шукати. — А Ви вперше в Польщі? — Так, відповів я. — У наступний понеділок починаю курс польської. — Ах так, і Ви будете ходити на заняття до університету? — Ні, це приватна школа. Я хотів поїхати на курс на море, але врешті вирішив поїхати до Кракова. Відчуваю, що тут зі мною станеться щось класне." }
-    ]},
-    { "block": "B. Rozmowa po lądowaniu · dialog · трек 208B5", "items": [
-      { "type": "dia", "title": "Tom i dziewczyna — wymiana numerów", "audio": "audio/L08/L08-czytanie-03.mp3", "lines": [
-        ["Tom","A pani jest z Krakowa?","А Ви з Кракова?"],
-        ["Dziewczyna","I tak, i nie. To długa historia. Chętnie panu opowiem. Może pójdziemy kiedyś na kawę, albo na spacer. Na przykład nad Wisłę.","І так, і ні. Це довга історія. Охоче Вам розповім. Може, підемо колись на каву або на прогулянку. Наприклад, на Віслу."],
-        ["Tom","Fantastycznie. Może we wtorek. Szczegółowo umówimy się przez telefon, dobrze? Może zapiszę sobie pani numer, tylko schylę się jeszcze raz po ten długopis.","Чудово. Може, у вівторок. Детально домовимося телефоном, добре? Може, я запишу собі Ваш номер, тільки нахилюся ще раз по цю ручку."],
-        ["Dziewczyna","A to może ja poproszę pana o numer?","А, може, я попрошу у Вас номер?"],
-        ["Tom","Świetnie, ale za chwilę. Muszę poszukać telefonu, bo nie pamiętam numeru. Sięgnę tylko po torbę. O, to ten numer.","Чудово, але за мить. Мушу пошукати телефон, бо не пам’ятаю номера. Тільки потягнуся по сумку. О, ось цей номер."],
-        ["Dziewczyna","Proszę więc czekać na mój telefon. Powiedzmy w poniedziałek wieczorem. Mam nadzieję, że będzie pan mieć trochę czasu na relaks.","Тоді чекайте на мій дзвінок. Скажімо, у понеділок увечері. Сподіваюся, Ви матимете трохи часу на відпочинок."],
-        ["Tom","Oczywiście. Dziękuję za zaproszenie. Nikogo nie znam w Krakowie.","Звісно. Дякую за запрошення. Нікого не знаю в Кракові."],
-        ["Dziewczyna","A więc do zobaczenia. Zaraz po lądowaniu muszę biec, żeby zdążyć na pociąg. A pan?","Тож до побачення. Одразу після приземлення мушу бігти, щоб устигнути на потяг. А Ви?"],
-        ["Tom","Ja chyba zadzwonię po taksówkę.","Я, мабуть, викличу таксі."],
-        ["Dziewczyna","Proszę poprosić o rachunek albo paragon. I jeszcze raz przepraszam za to zamieszanie z długopisem.","Попросіть рахунок або чек. І ще раз перепрошую за цю метушню з ручкою."]
-      ]}
-    ]}
+    {
+      "block": "A. Wywiad z Anną Siedlaczek · трек 208A1",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Proszę o kilka słów — wywiad",
+          "audio": "audio/L08/L08-czytanie-01.mp3",
+          "lines": [
+            [
+              "Dziennikarka",
+              "Porozmawiajmy o tym, co robisz w Krakowie. Czy możesz się przedstawić?",
+              "Поговорімо про те, що ти робиш у Кракові. Чи можеш представитися?"
+            ],
+            [
+              "Anna",
+              "Nazywam się Anna Siedlaczek. Urodziłam się w Niemczech, ale mam polskie korzenie. To znaczy, mój tata i jego rodzina pochodzą ze Śląska, ale część z nich wyemigrowała za zachodnią granicę w latach osiemdziesiątych. Nie utrzymywaliśmy kontaktów, nie odwiedzaliśmy Polski w wakacje, ani ja, ani moja siostra nie mówiłyśmy po polsku jako dzieci. Nie wiem dokładnie dlaczego, bo tata nie chce ze mną o tym rozmawiać.",
+              "Мене звати Анна Седлячек. Я народилася в Німеччині, але маю польське коріння. Тобто мій тато і його родина походять зі Сілезії, але частина з них емігрувала за західний кордон у вісімдесятих роках. Ми не підтримували контактів, не відвідували Польщу влітку, ні я, ні моя сестра не говорили польською в дитинстві. Не знаю точно чому, бо тато не хоче зі мною про це розмовляти."
+            ],
+            [
+              "Dziennikarka",
+              "A rodzina ze strony twojej mamy?",
+              "А родина з боку твоєї мами?"
+            ],
+            [
+              "Anna",
+              "Pochodzi z Niemiec, z Bawarii. My mieszkamy na północy, więc nie spotykaliśmy się za często. Zwykle na urodzinach babci. Niestety, od kilku lat choruje na Alzheimera. Można powiedzieć, że niewiele wiem o swoich przodkach. Proszę o następne pytanie.",
+              "Походить з Німеччини, з Баварії. Ми живемо на півночі, тож не зустрічалися надто часто. Зазвичай на дні народження бабусі. На жаль, кілька років вона хворіє на Альцгеймера. Можна сказати, що мало знаю про своїх предків. Прошу наступне запитання."
+            ],
+            [
+              "Dziennikarka",
+              "Bardzo jestem ciekawa. Czy miałaś problemy z powodu swojego nazwiska?",
+              "Мені дуже цікаво. Чи мала ти проблеми через своє прізвище?"
+            ],
+            [
+              "Anna",
+              "Miałaś? Ja je cały czas mam. Każdy je wymawia inaczej. Zawsze muszę sprawdzać, czy dobrze zapisali. Muszę wyjść za mąż za faceta o mniej skomplikowanym nazwisku. Absolutnie. Na szczęście imię mam łatwe do zapamiętania. Chociaż w Polsce wymawia się je przez dwa N. Na początku nie mogłam się przyzwyczaić.",
+              "«Мала»? Я їх постійно маю! Кожен вимовляє його по-різному. Завжди мушу перевіряти, чи правильно записали. Мушу вийти заміж за чувака з менш складним прізвищем. Однозначно. На щастя, ім’я в мене легко запам’ятати. Хоча в Польщі його вимовляють через два «н». Спершу я не могла звикнути."
+            ],
+            [
+              "Dziennikarka",
+              "A co sprawiło, że zainteresowałaś się Polską i językiem polskim? Szukałaś swojego miejsca na ziemi?",
+              "А що спричинило, що ти зацікавилася Польщею і польською мовою? Шукала свого місця на землі?"
+            ],
+            [
+              "Anna",
+              "Nikt nie wierzy w moją motywację, ale to z powodu muzyki. Zakochałam się po prostu. Słuchałam tylko polskiej muzyki. Chodziłam na koncerty. A potem chciałam zrozumieć, o czym śpiewają. Próbowałam sama, pytałam o różne słowa ojca, szukałam w sieci. Ale to na nic. Postanowiłam więc zapisać się na kilkutygodniowy kurs językowy. Rodzice się zgodzili na mój pobyt tutaj. Na szczęście tata za wszystko płaci, bo ja jestem tylko biedną studentką.",
+              "Ніхто не вірить у мою мотивацію, але це через музику. Я просто закохалася. Слухала лише польську музику. Ходила на концерти. А потім захотіла зрозуміти, про що співають. Пробувала сама, питала різні слова в батька, шукала в мережі. Але це даремно. Тож вирішила записатися на кількатижневий мовний курс. Батьки погодилися на моє перебування тут. На щастя, тато за все платить, бо я лише бідна студентка."
+            ],
+            [
+              "Dziennikarka",
+              "Czy mogę zapytać, jak ci idzie nauka polskiego?",
+              "Чи можу запитати, як тобі йде вивчення польської?"
+            ],
+            [
+              "Anna",
+              "Powoli, krok po kroku, poznawałam przypadki, koniugacje, struktury. Miałam momenty frustracji i złości. Po co mi to? Ale teraz widzę, że to miało sens. Przepraszam za moją niecierpliwość. Oczywiście, robię wiele błędów. Nie pamiętam niektórych słów. Na przykład to coś, co gra. CD albo MP3.",
+              "Повільно, крок за кроком, я опановувала відмінки, дієвідміни, конструкції. Мала моменти фрустрації та злості. Навіщо мені це? Але тепер бачу, що в цьому був сенс. Вибачте за мою нетерплячість. Звісно, роблю багато помилок. Не пам’ятаю деяких слів. Наприклад, оце щось, що грає. CD або MP3."
+            ],
+            [
+              "Dziennikarka",
+              "Odtwarzacz?",
+              "Програвач?"
+            ],
+            [
+              "Anna",
+              "No właśnie. Dziękuję za pomoc. Okropne słowo.",
+              "Саме так. Дякую за допомогу. Жахливе слово."
+            ],
+            [
+              "Dziennikarka",
+              "Czy możesz powiedzieć, jakie masz plany na najbliższy czas?",
+              "Чи можеш сказати, які в тебе плани на найближчий час?"
+            ],
+            [
+              "Anna",
+              "Dziś gram w tenisa. Potem muszę zdążyć na basen, który jest na drugim końcu miasta. Więc pewnie zadzwonię po taksówkę. A poważnie. Czekam na odpowiedź z Uniwersytetu z Kolonii, czy przyjęli mnie na studia. Od tego wszystko zależy. Więc na razie cieszę się, że mam czas na swoje przyjemności. Pobyt w Krakowie to dla mnie nauka, ale i relaks. No i prawie codziennie jest jakiś fajny koncert.",
+              "Сьогодні граю в теніс. Потім мушу встигнути на басейн, який на іншому кінці міста. Тож, мабуть, викличу таксі. А якщо серйозно. Чекаю на відповідь з університету в Кельні, чи прийняли мене на навчання. Від цього все залежить. Тож наразі тішуся, що маю час на свої задоволення. Перебування в Кракові — це для мене навчання, але і відпочинок. Ну і майже щодня є якийсь класний концерт."
+            ],
+            [
+              "Dziennikarka",
+              "A propos Uniwersytetu. Co chciałabyś studiować?",
+              "До речі, про університет. Що хотіла б ти вивчати?"
+            ],
+            [
+              "Anna",
+              "Dziennikarstwo. Może ja teraz zrobię wywiad z Panią?",
+              "Журналістику. Може, тепер я візьму інтерв’ю у Вас?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "B. Przygoda w samolocie · трек 208B4",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Moja pierwsza przygoda w Polsce",
+          "audio": "audio/L08/L08-czytanie-02.mp3",
+          "text": "Moja pierwsza przygoda w Polsce? Zaczęło się tak. Leciałem do Krakowa przez Londyn. To był bardzo długi i męczący lot. Czytałem prasę może przez kwadrans, ale byłem zestresowany i szybko zasnąłem. Obudziła mnie pasażerka obok. Pytała o coś po polsku. – Przepraszam, mój długopis spadł pod pana fotel, – powtórzyła po angielsku. – Czy mógłby pan schylić się po niego? Zrobiłem to, o co mnie prosiła, ale niczego nie znalazłem. – Trudno. Nawet się nie zmartwiła. – Za pół godziny lądujemy, wtedy będzie łatwiej szukać. – A pan pierwszy raz w Polsce? – Tak, odpowiedziałem. – W przyszły poniedziałek zaczynam kurs polskiego. – Ach tak, i będzie pan chodzić na lekcje na uniwersytet? – Nie, to prywatna szkoła. Chciałem jechać na kurs nad morze, ale w końcu zdecydowałem się na Kraków. Czuję, że coś mnie tu fajnego spotka.",
+          "tr": "Моя перша пригода в Польщі? Почалося це так. Я летів до Кракова через Лондон. Це був дуже довгий і виснажливий політ. Читав пресу, може, з чверть години, але був у стресі й швидко заснув. Розбудила мене пасажирка поруч. Питала про щось польською. — Вибачте, моя ручка впала під Ваше крісло, — повторила вона англійською. — Чи могли б Ви нахилитися по неї? Я зробив те, про що вона мене просила, але нічого не знайшов. — Нічого. Вона навіть не засмутилася. — За півгодини приземляємося, тоді буде легше шукати. — А Ви вперше в Польщі? — Так, відповів я. — У наступний понеділок починаю курс польської. — Ах так, і Ви будете ходити на заняття до університету? — Ні, це приватна школа. Я хотів поїхати на курс на море, але врешті вирішив поїхати до Кракова. Відчуваю, що тут зі мною станеться щось класне."
+        }
+      ]
+    },
+    {
+      "block": "B. Rozmowa po lądowaniu · dialog · трек 208B5",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Tom i dziewczyna — wymiana numerów",
+          "audio": "audio/L08/L08-czytanie-03.mp3",
+          "lines": [
+            [
+              "Tom",
+              "A pani jest z Krakowa?",
+              "А Ви з Кракова?"
+            ],
+            [
+              "Dziewczyna",
+              "I tak, i nie. To długa historia. Chętnie panu opowiem. Może pójdziemy kiedyś na kawę, albo na spacer. Na przykład nad Wisłę.",
+              "І так, і ні. Це довга історія. Охоче Вам розповім. Може, підемо колись на каву або на прогулянку. Наприклад, на Віслу."
+            ],
+            [
+              "Tom",
+              "Fantastycznie. Może we wtorek. Szczegółowo umówimy się przez telefon, dobrze? Może zapiszę sobie pani numer, tylko schylę się jeszcze raz po ten długopis.",
+              "Чудово. Може, у вівторок. Детально домовимося телефоном, добре? Може, я запишу собі Ваш номер, тільки нахилюся ще раз по цю ручку."
+            ],
+            [
+              "Dziewczyna",
+              "A to może ja poproszę pana o numer?",
+              "А, може, я попрошу у Вас номер?"
+            ],
+            [
+              "Tom",
+              "Świetnie, ale za chwilę. Muszę poszukać telefonu, bo nie pamiętam numeru. Sięgnę tylko po torbę. O, to ten numer.",
+              "Чудово, але за мить. Мушу пошукати телефон, бо не пам’ятаю номера. Тільки потягнуся по сумку. О, ось цей номер."
+            ],
+            [
+              "Dziewczyna",
+              "Proszę więc czekać na mój telefon. Powiedzmy w poniedziałek wieczorem. Mam nadzieję, że będzie pan mieć trochę czasu na relaks.",
+              "Тоді чекайте на мій дзвінок. Скажімо, у понеділок увечері. Сподіваюся, Ви матимете трохи часу на відпочинок."
+            ],
+            [
+              "Tom",
+              "Oczywiście. Dziękuję za zaproszenie. Nikogo nie znam w Krakowie.",
+              "Звісно. Дякую за запрошення. Нікого не знаю в Кракові."
+            ],
+            [
+              "Dziewczyna",
+              "A więc do zobaczenia. Zaraz po lądowaniu muszę biec, żeby zdążyć na pociąg. A pan?",
+              "Тож до побачення. Одразу після приземлення мушу бігти, щоб устигнути на потяг. А Ви?"
+            ],
+            [
+              "Tom",
+              "Ja chyba zadzwonię po taksówkę.",
+              "Я, мабуть, викличу таксі."
+            ],
+            [
+              "Dziewczyna",
+              "Proszę poprosić o rachunek albo paragon. I jeszcze raz przepraszam za to zamieszanie z długopisem.",
+              "Попросіть рахунок або чек. І ще раз перепрошую за цю метушню з ручкою."
+            ]
+          ]
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 08 — треки 208A1, 208B4, 208B5. Аудіо — синтез ElevenLabs.",
-
   "checklist": [
-    { "text": "Узяти й дати інтерв’ю, поставити запитання про себе", "sub": "przeprowadzić / udzielić wywiadu, Czy możesz się przedstawić?" },
-    { "text": "Розповісти про походження й родину", "sub": "korzenie, pochodzić ze…, przodkowie, utrzymywać kontakty" },
-    { "text": "Утворити biernik однини", "sub": "ж. → -ę (koleżankę), ч. істота → = dopełniacz (studenta), неістота/с. → = mianownik" },
-    { "text": "Утворити biernik множини", "sub": "чоловічоособові = dopełniacz (aktorów), решта = mianownik (listy)" },
-    { "text": "Правильно вживати займенник swój", "sub": "власник = підмет → swój/swoją/swoich (kocham swoją żonę)" }
+    {
+      "text": "Узяти й дати інтерв’ю, поставити запитання про себе",
+      "sub": "przeprowadzić / udzielić wywiadu, Czy możesz się przedstawić?"
+    },
+    {
+      "text": "Розповісти про походження й родину",
+      "sub": "korzenie, pochodzić ze…, przodkowie, utrzymywać kontakty"
+    },
+    {
+      "text": "Утворити biernik однини",
+      "sub": "ж. → -ę (koleżankę), ч. істота → = dopełniacz (studenta), неістота/с. → = mianownik"
+    },
+    {
+      "text": "Утворити biernik множини",
+      "sub": "чоловічоособові = dopełniacz (aktorów), решта = mianownik (listy)"
+    },
+    {
+      "text": "Правильно вживати займенник swój",
+      "sub": "власник = підмет → swój/swoją/swoich (kocham swoją żonę)"
+    }
   ],
-
   "quiz": [
-    { "topic": "wywiad", "q": "Звідки походить родина тата Анни Седлячек?",
-      "o": ["зі Сілезії","з Баварії","з Кельна"], "a": 0,
-      "fb": "Anna: «mój tata i jego rodzina pochodzą ze Śląska». Родина мами — з Баварії." },
-    { "topic": "wywiad", "q": "Що, за словами Анни, спричинило її зацікавлення Польщею?",
-      "o": ["робота","музика","родина"], "a": 1,
-      "fb": "Anna: «to z powodu muzyki. Zakochałam się po prostu. Słuchałam tylko polskiej muzyki»." },
-    { "topic": "słownictwo", "q": "Що означає польське «odtwarzacz»?",
-      "o": ["диктофон","програвач (плеєр)","динамік"], "a": 1,
-      "fb": "Odtwarzacz — пристрій, що відтворює CD або MP3, тобто програвач." },
-    { "topic": "biernik", "q": "Правильна форма знахідного: «Lubię ___ studenta».",
-      "o": ["ten","tego","temu"], "a": 1,
-      "fb": "Чоловіча істота в biernik = dopełniacz: ten student → tego studenta." },
-    { "topic": "biernik", "q": "Доповніть: «Znam twoją ___».",
-      "o": ["koleżankę","koleżanka","koleżanką"], "a": 0,
-      "fb": "Жіночий рід у biernik має закінчення -ę: koleżanka → koleżankę." },
-    { "topic": "biernik", "q": "Множина (чоловічоособові): «Spotkaliśmy znanych ___».",
-      "o": ["aktorzy","aktorów","aktorami"], "a": 1,
-      "fb": "Чоловічоособові в biernik l. mn. = dopełniacz: znani aktorzy → znanych aktorów." },
-    { "topic": "przyimki", "q": "Який прийменник тут вимагає biernika: «Czekam ___ odpowiedź»?",
-      "o": ["na","o","za"], "a": 0,
-      "fb": "«Czekać na coś» + biernik: czekam na odpowiedź. Так само: czekać na telefon, na pociąg." },
-    { "topic": "przyimki", "q": "Доповніть: «Dziękuję ___ pomoc».",
-      "o": ["o","za","na"], "a": 1,
-      "fb": "«Dziękować za coś» + biernik: dziękuję za pomoc, dziękuję za zaproszenie." },
-    { "topic": "swój", "q": "Правильна форма: «On naprawdę kocha ___ żonę».",
-      "o": ["jego","swoją","swoję"], "a": 1,
-      "fb": "Власник = підмет (on), тож swój → swoją żonę. «Jego» означало б чиюсь чужу дружину." },
-    { "topic": "swój", "q": "У реченні «Adam i Ewa mają córkę. ___ córka ma na imię Ola» правильно вжити:",
-      "o": ["Swoja","Ich","Jej"], "a": 1,
-      "fb": "Другий рядок — нове речення з новим підметом (córka), тож власник позначаємо «Ich», а не «swoja»." }
+    {
+      "topic": "wywiad",
+      "q": "Звідки походить родина тата Анни Седлячек?",
+      "o": [
+        "з Баварії",
+        "зі Сілезії",
+        "з Кельна"
+      ],
+      "a": 1,
+      "fb": "Anna: «mój tata i jego rodzina pochodzą ze Śląska». Родина мами — з Баварії."
+    },
+    {
+      "topic": "wywiad",
+      "q": "Що, за словами Анни, спричинило її зацікавлення Польщею?",
+      "o": [
+        "робота",
+        "родина",
+        "музика"
+      ],
+      "a": 2,
+      "fb": "Anna: «to z powodu muzyki. Zakochałam się po prostu. Słuchałam tylko polskiej muzyki»."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що означає польське «odtwarzacz»?",
+      "o": [
+        "програвач (плеєр)",
+        "диктофон",
+        "динамік"
+      ],
+      "a": 0,
+      "fb": "Odtwarzacz — пристрій, що відтворює CD або MP3, тобто програвач."
+    },
+    {
+      "topic": "biernik",
+      "q": "Правильна форма знахідного: «Lubię ___ studenta».",
+      "o": [
+        "ten",
+        "tego",
+        "temu"
+      ],
+      "a": 1,
+      "fb": "Чоловіча істота в biernik = dopełniacz: ten student → tego studenta."
+    },
+    {
+      "topic": "biernik",
+      "q": "Доповніть: «Znam twoją ___».",
+      "o": [
+        "koleżanka",
+        "koleżanką",
+        "koleżankę"
+      ],
+      "a": 2,
+      "fb": "Жіночий рід у biernik має закінчення -ę: koleżanka → koleżankę."
+    },
+    {
+      "topic": "biernik",
+      "q": "Множина (чоловічоособові): «Spotkaliśmy znanych ___».",
+      "o": [
+        "aktorów",
+        "aktorzy",
+        "aktorami"
+      ],
+      "a": 0,
+      "fb": "Чоловічоособові в biernik l. mn. = dopełniacz: znani aktorzy → znanych aktorów."
+    },
+    {
+      "topic": "przyimki",
+      "q": "Який прийменник тут вимагає biernika: «Czekam ___ odpowiedź»?",
+      "o": [
+        "o",
+        "na",
+        "za"
+      ],
+      "a": 1,
+      "fb": "«Czekać na coś» + biernik: czekam na odpowiedź. Так само: czekać na telefon, na pociąg."
+    },
+    {
+      "topic": "przyimki",
+      "q": "Доповніть: «Dziękuję ___ pomoc».",
+      "o": [
+        "o",
+        "na",
+        "za"
+      ],
+      "a": 2,
+      "fb": "«Dziękować za coś» + biernik: dziękuję za pomoc, dziękuję za zaproszenie."
+    },
+    {
+      "topic": "swój",
+      "q": "Правильна форма: «On naprawdę kocha ___ żonę».",
+      "o": [
+        "swoją",
+        "jego",
+        "swoję"
+      ],
+      "a": 0,
+      "fb": "Власник = підмет (on), тож swój → swoją żonę. «Jego» означало б чиюсь чужу дружину."
+    },
+    {
+      "topic": "swój",
+      "q": "У реченні «Adam i Ewa mają córkę. ___ córka ma na imię Ola» правильно вжити:",
+      "o": [
+        "Swoja",
+        "Ich",
+        "Jej"
+      ],
+      "a": 1,
+      "fb": "Другий рядок — нове речення з новим підметом (córka), тож власник позначаємо «Ich», а не «swoja»."
+    }
   ]
 }

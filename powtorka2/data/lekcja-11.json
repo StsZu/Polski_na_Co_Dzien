@@ -2,55 +2,273 @@
   "id": "11",
   "title": "Wchodzisz czy wychodzisz?",
   "goal": "Повторюємо: дієслова руху (chodzić з префіксами) · доконаний і недоконаний вид · туризм, гори, нічліг · таблиці й написи (wejście, wyjście, przejście)",
-
   "vocab": [
-    { "group": "Czasowniki ruchu — дієслова руху", "items": [
-      ["wchodzić / wejść","входити / увійти"],["wychodzić / wyjść","виходити / вийти"],
-      ["przychodzić / przyjść","приходити / прийти"],["schodzić / zejść","сходити / зійти (вниз)"],
-      ["przechodzić / przejść","переходити / перейти"],["dochodzić / dojść","доходити / дійти"],
-      ["podchodzić / podejść","підходити / підійти"],["odchodzić / odejść","відходити / відійти"],
-      ["obchodzić / obejść","обходити / обійти"],["rozchodzić się / rozejść się","розходитися / розійтися"],
-      ["nadchodzić / nadejść","надходити / наближатися"]
-    ]},
-    { "group": "Turystyka i góry — туризм і гори", "items": [
-      ["schronisko","гірський притулок"],["kemping","кемпінг"],["namiot","намет"],
-      ["nocleg","нічліг"],["nocować","ночувати"],["polana","галявина"],
-      ["ognisko","багаття"],["szlak","туристичний маршрут / стежка"],
-      ["wzgórze","пагорб"],["stroma góra","крута гора"],["latarka","ліхтарик"],
-      ["plecak","рюкзак"],["szczyt sezonu","пік сезону"]
-    ]},
-    { "group": "Tablice i napisy — таблиці й написи", "items": [
-      ["wejście","вхід"],["wyjście","вихід"],["przejście dla pieszych","пішохідний перехід"],
-      ["dojście","підхід / прохід (до чогось)"],["podejście","підйом (вгору)"],
-      ["zejście","спуск"],["droga ewakuacyjna","евакуаційний вихід"],
-      ["tylko dla personelu","тільки для персоналу"],["wzbroniony","заборонений"]
-    ]},
-    { "group": "Nowe słowa — нові слова", "items": [
-      ["przygoda","пригода"],["potknąć się","спіткнутися"],["kałuża","калюжа"],
-      ["tłok","тиснява, натовп"],["podchody","гра на місцевості (квест)"],
-      ["schować","сховати"],["przechytrzyć","перехитрити"],["zapowiadać","провіщати, обіцяти"],
-      ["przesadzić","перебільшити; переборщити"],["przewidzieć","передбачити"],
-      ["zdążyć","устигнути"],["zmoknąć","змокнути"],["w razie czego","про всяк випадок"]
-    ]}
+    {
+      "group": "Czasowniki ruchu — дієслова руху",
+      "items": [
+        [
+          "wchodzić / wejść",
+          "входити / увійти"
+        ],
+        [
+          "wychodzić / wyjść",
+          "виходити / вийти"
+        ],
+        [
+          "przychodzić / przyjść",
+          "приходити / прийти"
+        ],
+        [
+          "schodzić / zejść",
+          "сходити / зійти (вниз)"
+        ],
+        [
+          "przechodzić / przejść",
+          "переходити / перейти"
+        ],
+        [
+          "dochodzić / dojść",
+          "доходити / дійти"
+        ],
+        [
+          "podchodzić / podejść",
+          "підходити / підійти"
+        ],
+        [
+          "odchodzić / odejść",
+          "відходити / відійти"
+        ],
+        [
+          "obchodzić / obejść",
+          "обходити / обійти"
+        ],
+        [
+          "rozchodzić się / rozejść się",
+          "розходитися / розійтися"
+        ],
+        [
+          "nadchodzić / nadejść",
+          "надходити / наближатися"
+        ]
+      ]
+    },
+    {
+      "group": "Turystyka i góry — туризм і гори",
+      "items": [
+        [
+          "schronisko",
+          "гірський притулок"
+        ],
+        [
+          "kemping",
+          "кемпінг"
+        ],
+        [
+          "namiot",
+          "намет"
+        ],
+        [
+          "nocleg",
+          "нічліг"
+        ],
+        [
+          "nocować",
+          "ночувати"
+        ],
+        [
+          "polana",
+          "галявина"
+        ],
+        [
+          "ognisko",
+          "багаття"
+        ],
+        [
+          "szlak",
+          "туристичний маршрут / стежка"
+        ],
+        [
+          "wzgórze",
+          "пагорб"
+        ],
+        [
+          "stroma góra",
+          "крута гора"
+        ],
+        [
+          "latarka",
+          "ліхтарик"
+        ],
+        [
+          "plecak",
+          "рюкзак"
+        ],
+        [
+          "szczyt sezonu",
+          "пік сезону"
+        ]
+      ]
+    },
+    {
+      "group": "Tablice i napisy — таблиці й написи",
+      "items": [
+        [
+          "wejście",
+          "вхід"
+        ],
+        [
+          "wyjście",
+          "вихід"
+        ],
+        [
+          "przejście dla pieszych",
+          "пішохідний перехід"
+        ],
+        [
+          "dojście",
+          "підхід / прохід (до чогось)"
+        ],
+        [
+          "podejście",
+          "підйом (вгору)"
+        ],
+        [
+          "zejście",
+          "спуск"
+        ],
+        [
+          "droga ewakuacyjna",
+          "евакуаційний вихід"
+        ],
+        [
+          "tylko dla personelu",
+          "тільки для персоналу"
+        ],
+        [
+          "wzbroniony",
+          "заборонений"
+        ]
+      ]
+    },
+    {
+      "group": "Nowe słowa — нові слова",
+      "items": [
+        [
+          "przygoda",
+          "пригода"
+        ],
+        [
+          "potknąć się",
+          "спіткнутися"
+        ],
+        [
+          "kałuża",
+          "калюжа"
+        ],
+        [
+          "tłok",
+          "тиснява, натовп"
+        ],
+        [
+          "podchody",
+          "гра на місцевості (квест)"
+        ],
+        [
+          "schować",
+          "сховати"
+        ],
+        [
+          "przechytrzyć",
+          "перехитрити"
+        ],
+        [
+          "zapowiadać",
+          "провіщати, обіцяти"
+        ],
+        [
+          "przesadzić",
+          "перебільшити; переборщити"
+        ],
+        [
+          "przewidzieć",
+          "передбачити"
+        ],
+        [
+          "zdążyć",
+          "устигнути"
+        ],
+        [
+          "zmoknąć",
+          "змокнути"
+        ],
+        [
+          "w razie czego",
+          "про всяк випадок"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Czasowniki ruchu z przedrostkami — дієслова руху з префіксами",
       "note": "База chodzić (недок.) / iść (док.). Префікс змінює напрямок руху. Зверни увагу на чергування: w-chodzić → w-*ejść*, s-chodzić → z-*ejść*.",
       "table": {
-        "head": ["Przedrostek","Niedokonany / Dokonany","Znaczenie"],
+        "head": [
+          "Przedrostek",
+          "Niedokonany / Dokonany",
+          "Znaczenie"
+        ],
         "rows": [
-          ["w- (всередину)","wchodzić / w*ejść*","входити"],
-          ["wy- (назовні)","wychodzić / wyj*ść*","виходити"],
-          ["przy- (прибуття)","przychodzić / przyj*ść*","приходити"],
-          ["s-/z- (вниз)","schodzić / z*ejść*","сходити вниз"],
-          ["prze- (крізь)","przechodzić / przej*ść*","переходити"],
-          ["do- (до межі)","dochodzić / doj*ść*","доходити"],
-          ["pod- (наближення)","podchodzić / podej*ść*","підходити"],
-          ["od- (віддалення)","odchodzić / odej*ść*","відходити"],
-          ["ob- (навколо)","obchodzić / obej*ść*","обходити"],
-          ["nad- (наближення часу)","nadchodzić / nadej*ść*","надходити (про бурю, зиму)"]
+          [
+            "w- (всередину)",
+            "wchodzić / w*ejść*",
+            "входити"
+          ],
+          [
+            "wy- (назовні)",
+            "wychodzić / wyj*ść*",
+            "виходити"
+          ],
+          [
+            "przy- (прибуття)",
+            "przychodzić / przyj*ść*",
+            "приходити"
+          ],
+          [
+            "s-/z- (вниз)",
+            "schodzić / z*ejść*",
+            "сходити вниз"
+          ],
+          [
+            "prze- (крізь)",
+            "przechodzić / przej*ść*",
+            "переходити"
+          ],
+          [
+            "do- (до межі)",
+            "dochodzić / doj*ść*",
+            "доходити"
+          ],
+          [
+            "pod- (наближення)",
+            "podchodzić / podej*ść*",
+            "підходити"
+          ],
+          [
+            "od- (віддалення)",
+            "odchodzić / odej*ść*",
+            "відходити"
+          ],
+          [
+            "ob- (навколо)",
+            "obchodzić / obej*ść*",
+            "обходити"
+          ],
+          [
+            "nad- (наближення часу)",
+            "nadchodzić / nadej*ść*",
+            "надходити (про бурю, зиму)"
+          ]
         ]
       }
     },
@@ -58,14 +276,42 @@
       "title": "Czas przeszły: szedł / szła — минулий час",
       "note": "У чоловічому роді однини з’являється -e- (редукція). Дивись чергування основи.",
       "table": {
-        "head": ["Osoba","Rodzaj męski","Rodzaj żeński"],
+        "head": [
+          "Osoba",
+          "Rodzaj męski",
+          "Rodzaj żeński"
+        ],
         "rows": [
-          ["ja","w*szedłem*","w*eszłam*"],
-          ["ty","w*szedłeś*","w*eszłaś*"],
-          ["on / ona","w*szedł*","w*eszła*"],
-          ["my","w*eszliśmy*","w*eszłyśmy*"],
-          ["wy","w*eszliście*","w*eszłyście*"],
-          ["oni / one","w*eszli*","w*eszły*"]
+          [
+            "ja",
+            "w*szedłem*",
+            "w*eszłam*"
+          ],
+          [
+            "ty",
+            "w*szedłeś*",
+            "w*eszłaś*"
+          ],
+          [
+            "on / ona",
+            "w*szedł*",
+            "w*eszła*"
+          ],
+          [
+            "my",
+            "w*eszliśmy*",
+            "w*eszłyśmy*"
+          ],
+          [
+            "wy",
+            "w*eszliście*",
+            "w*eszłyście*"
+          ],
+          [
+            "oni / one",
+            "w*eszli*",
+            "w*eszły*"
+          ]
         ]
       }
     },
@@ -73,134 +319,487 @@
       "title": "Przenośne znaczenia — переносні значення",
       "note": "Дієслова руху часто вживають образно.",
       "table": {
-        "head": ["Wyrażenie","Znaczenie"],
+        "head": [
+          "Wyrażenie",
+          "Znaczenie"
+        ],
         "rows": [
-          ["dochodzić do siebie","одужувати, приходити до тями"],
-          ["obchodzić (imieniny, rocznicę)","святкувати (іменини, річницю)"],
-          ["przechodzić coś (chorobę)","хворіти на щось, переносити хворобу"],
-          ["odejść od kogoś","покинути когось (дружину/чоловіка)"],
-          ["rozejść się (z żoną)","розлучитися, розійтися"],
-          ["nadchodzi burza / zima","наближається буря / зима"]
+          [
+            "dochodzić do siebie",
+            "одужувати, приходити до тями"
+          ],
+          [
+            "obchodzić (imieniny, rocznicę)",
+            "святкувати (іменини, річницю)"
+          ],
+          [
+            "przechodzić coś (chorobę)",
+            "хворіти на щось, переносити хворобу"
+          ],
+          [
+            "odejść od kogoś",
+            "покинути когось (дружину/чоловіка)"
+          ],
+          [
+            "rozejść się (z żoną)",
+            "розлучитися, розійтися"
+          ],
+          [
+            "nadchodzi burza / zima",
+            "наближається буря / зима"
+          ]
         ]
       }
     }
   ],
-
   "czytanie": [
-    { "block": "A. Czasowniki ruchu · трек 211A2", "items": [
-      { "type": "mono", "title": "Aspekt: niedokonany — dokonany", "audio": "audio/L11/L11-czytanie-01.mp3",
-        "text": "Wchodzić, wejść. Wychodzić, wyjść. Przychodzić, przyjść. Schodzić, zejść. Przechodzić, przejść. Dochodzić, dojść. Podchodzić, podejść. Odchodzić, odejść. Obchodzić, obejść. Rozchodzić się, rozejść się. Nadchodzić, nadejść.",
-        "tr": "Входити, увійти. Виходити, вийти. Приходити, прийти. Сходити, зійти. Переходити, перейти. Доходити, дійти. Підходити, підійти. Відходити, відійти. Обходити, обійти. Розходитися, розійтися. Надходити, надійти." }
-    ]},
-    { "block": "B. Weekend w górach · dialog · трек 211B2", "items": [
-      { "type": "dia", "title": "Noc w Bieszczadach — przy ognisku", "audio": "audio/L11/L11-czytanie-02.mp3", "lines": [
-        ["Narrator","Noc. Bieszczady. Dwaj chłopcy i dwie dziewczyny siedzą przy ognisku.","Ніч. Бещади. Двоє хлопців і двоє дівчат сидять біля багаття."],
-        ["Agnieszka","Ładna historia! I co my teraz zrobimy?","Гарна історія! І що ми тепер робитимемо?"],
-        ["Karol","Skąd mogłem wiedzieć, że kemping będzie zamknięty z powodu majowej powodzi?","Звідки я міг знати, що кемпінг буде закритий через травневу повінь?"],
-        ["Agnieszka","Trzeba było sprawdzić w Internecie!","Треба було перевірити в інтернеті!"],
-        ["Adam","Przesadziliśmy, że nie zarezerwowaliśmy miejsc w schronisku.","Ми переборщили, що не забронювали місць у притулку."],
-        ["Justyna","W sumie, jak już podeszliśmy z ciężkimi plecakami pod tę stromą górę, doszliśmy na miejsce, to mogliśmy tam zostać i spać w tej ogólnej sali.","Зрештою, якщо ми вже підійшли з важкими рюкзаками під цю круту гору, дійшли на місце, то могли там залишитися й спати в тій спільній залі."],
-        ["Karol","Spać w takim tłoku, może jeszcze pod stołem, za taką kasę?!","Спати в такій тисняві, може ще й під столом, за такі гроші?!"],
-        ["Adam","Poza tym w schronisku powiedzieli, że jest jeszcze wcześnie i że zdążymy zejść do najbliższej wsi.","Крім того, у притулку сказали, що ще рано й що ми встигнемо зійти до найближчого села."],
-        ["Justyna","Tylko nie przewidzieli, że nikt nie będzie chciał nas przyjąć na nocleg, bo wszędzie pełno.","Тільки не передбачили, що ніхто не захоче прийняти нас на нічліг, бо всюди повно."],
-        ["Karol","Szczyt sezonu, moja droga.","Пік сезону, моя люба."],
-        ["Justyna","No, zdaje się, że nadchodzi burza. To nie jest dobry pomysł, żeby nocować w lesie.","Ну, здається, наближається буря. Це не дуже гарна ідея — ночувати в лісі."],
-        ["Karol","Daj spokój, rozbijemy namiot tutaj na polanie, wszystko będzie dobrze.","Та годі, поставимо намет тут на галявині, усе буде добре."],
-        ["Agnieszka","Ja nie mam zamiaru spać w namiocie w czasie burzy i umierać ze strachu!","Я не маю наміру спати в наметі під час бурі й помирати зі страху!"],
-        ["Justyna","Nie panikuj, Aga! Pomyśl, że to przygoda. Mamy, tak modną ostatnio, szkołę przetrwania i to bez płacenia za specjalny obóz.","Не панікуй, Аґо! Подумай, що це пригода. У нас така модна останнім часом школа виживання — і без оплати за спеціальний табір."],
-        ["Adam","I co, będziemy siedzieć całą noc przy ognisku? Burza chyba przejdzie bokiem, ale robi się coraz zimniej.","І що, будемо сидіти цілу ніч біля багаття? Буря, мабуть, пройде стороною, але стає все холодніше."],
-        ["Justyna","Rozbijmy namiot, schowajmy do środka wszystkie rzeczy, żeby w razie czego nie zmokły, a my, hm… posiedźmy przy ognisku i zaplanujmy jutrzejsze podchody.","Поставмо намет, сховаймо всередину всі речі, щоб про всяк випадок не змокли, а ми, гм… посидьмо біля багаття й сплануймо завтрашні підходи (квест на місцевості)."],
-        ["Karol","Fiu, fiu! Podchody, czyli gry terenowe Justyny. Brawa dla koleżanki za inwencję!","Фʼю, фʼю! Підходи, тобто ігри на місцевості від Юстини. Оплески колезі за винахідливість!"]
-      ]}
-    ]}
+    {
+      "block": "A. Czasowniki ruchu · трек 211A2",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Aspekt: niedokonany — dokonany",
+          "audio": "audio/L11/L11-czytanie-01.mp3",
+          "text": "Wchodzić, wejść. Wychodzić, wyjść. Przychodzić, przyjść. Schodzić, zejść. Przechodzić, przejść. Dochodzić, dojść. Podchodzić, podejść. Odchodzić, odejść. Obchodzić, obejść. Rozchodzić się, rozejść się. Nadchodzić, nadejść.",
+          "tr": "Входити, увійти. Виходити, вийти. Приходити, прийти. Сходити, зійти. Переходити, перейти. Доходити, дійти. Підходити, підійти. Відходити, відійти. Обходити, обійти. Розходитися, розійтися. Надходити, надійти."
+        }
+      ]
+    },
+    {
+      "block": "B. Weekend w górach · dialog · трек 211B2",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Noc w Bieszczadach — przy ognisku",
+          "audio": "audio/L11/L11-czytanie-02.mp3",
+          "lines": [
+            [
+              "Narrator",
+              "Noc. Bieszczady. Dwaj chłopcy i dwie dziewczyny siedzą przy ognisku.",
+              "Ніч. Бещади. Двоє хлопців і двоє дівчат сидять біля багаття."
+            ],
+            [
+              "Agnieszka",
+              "Ładna historia! I co my teraz zrobimy?",
+              "Гарна історія! І що ми тепер робитимемо?"
+            ],
+            [
+              "Karol",
+              "Skąd mogłem wiedzieć, że kemping będzie zamknięty z powodu majowej powodzi?",
+              "Звідки я міг знати, що кемпінг буде закритий через травневу повінь?"
+            ],
+            [
+              "Agnieszka",
+              "Trzeba było sprawdzić w Internecie!",
+              "Треба було перевірити в інтернеті!"
+            ],
+            [
+              "Adam",
+              "Przesadziliśmy, że nie zarezerwowaliśmy miejsc w schronisku.",
+              "Ми переборщили, що не забронювали місць у притулку."
+            ],
+            [
+              "Justyna",
+              "W sumie, jak już podeszliśmy z ciężkimi plecakami pod tę stromą górę, doszliśmy na miejsce, to mogliśmy tam zostać i spać w tej ogólnej sali.",
+              "Зрештою, якщо ми вже підійшли з важкими рюкзаками під цю круту гору, дійшли на місце, то могли там залишитися й спати в тій спільній залі."
+            ],
+            [
+              "Karol",
+              "Spać w takim tłoku, może jeszcze pod stołem, za taką kasę?!",
+              "Спати в такій тисняві, може ще й під столом, за такі гроші?!"
+            ],
+            [
+              "Adam",
+              "Poza tym w schronisku powiedzieli, że jest jeszcze wcześnie i że zdążymy zejść do najbliższej wsi.",
+              "Крім того, у притулку сказали, що ще рано й що ми встигнемо зійти до найближчого села."
+            ],
+            [
+              "Justyna",
+              "Tylko nie przewidzieli, że nikt nie będzie chciał nas przyjąć na nocleg, bo wszędzie pełno.",
+              "Тільки не передбачили, що ніхто не захоче прийняти нас на нічліг, бо всюди повно."
+            ],
+            [
+              "Karol",
+              "Szczyt sezonu, moja droga.",
+              "Пік сезону, моя люба."
+            ],
+            [
+              "Justyna",
+              "No, zdaje się, że nadchodzi burza. To nie jest dobry pomysł, żeby nocować w lesie.",
+              "Ну, здається, наближається буря. Це не дуже гарна ідея — ночувати в лісі."
+            ],
+            [
+              "Karol",
+              "Daj spokój, rozbijemy namiot tutaj na polanie, wszystko będzie dobrze.",
+              "Та годі, поставимо намет тут на галявині, усе буде добре."
+            ],
+            [
+              "Agnieszka",
+              "Ja nie mam zamiaru spać w namiocie w czasie burzy i umierać ze strachu!",
+              "Я не маю наміру спати в наметі під час бурі й помирати зі страху!"
+            ],
+            [
+              "Justyna",
+              "Nie panikuj, Aga! Pomyśl, że to przygoda. Mamy, tak modną ostatnio, szkołę przetrwania i to bez płacenia za specjalny obóz.",
+              "Не панікуй, Аґо! Подумай, що це пригода. У нас така модна останнім часом школа виживання — і без оплати за спеціальний табір."
+            ],
+            [
+              "Adam",
+              "I co, będziemy siedzieć całą noc przy ognisku? Burza chyba przejdzie bokiem, ale robi się coraz zimniej.",
+              "І що, будемо сидіти цілу ніч біля багаття? Буря, мабуть, пройде стороною, але стає все холодніше."
+            ],
+            [
+              "Justyna",
+              "Rozbijmy namiot, schowajmy do środka wszystkie rzeczy, żeby w razie czego nie zmokły, a my, hm… posiedźmy przy ognisku i zaplanujmy jutrzejsze podchody.",
+              "Поставмо намет, сховаймо всередину всі речі, щоб про всяк випадок не змокли, а ми, гм… посидьмо біля багаття й сплануймо завтрашні підходи (квест на місцевості)."
+            ],
+            [
+              "Karol",
+              "Fiu, fiu! Podchody, czyli gry terenowe Justyny. Brawa dla koleżanki za inwencję!",
+              "Фʼю, фʼю! Підходи, тобто ігри на місцевості від Юстини. Оплески колезі за винахідливість!"
+            ]
+          ]
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 11 — треки 211A2, 211B2. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "dia", "title": "Szukamy noclegu we wsi · zeszyt cw10", "audio": "audio/L11/L11-zeszyt-01.mp3", "lines": [
-      ["Turyści","Dobry wieczór, szukamy noclegu. Czy są u pani wolne pokoje?","Добрий вечір, шукаємо нічліг. Чи є у Вас вільні кімнати?"],
-      ["Gospodyni","Wszystko zajęte. Sezon już się zaczął na dobre. Spytajcie u sąsiada.","Усе зайнято. Сезон уже як слід почався. Спитайте в сусіда."],
-      ["Turyści","A już byliśmy, też nie ma miejsca.","А ми вже були, теж немає місця."],
-      ["Gospodyni","A u sołtysa sprawdziliście? On też wynajmuje.","А в сільського голови перевіряли? Він теж здає."],
-      ["Turyści","Obeszliśmy już całą wieś. Nigdzie nie ma wolnych kwater. Pani była naszą ostatnią nadzieją.","Ми обійшли вже все село. Ніде немає вільних квартир. Ви були нашою останньою надією."],
-      ["Gospodyni","I co wy teraz zrobicie?","І що ви тепер робитимете?"],
-      ["Gospodyni","Zaprosiłabym was do stodoły na siano. Ale po tych powodziach to nawet siana nie ma.","Запросила б вас до клуні на сіно. Але після цих повеней навіть сіна немає."],
-      ["Gospodyni","A do schroniska nie dojdziecie, bo już się ciemno robi.","А до притулку не дійдете, бо вже темніє."],
-      ["Turyści","My w schronisku już byliśmy. Powiedzieli nam, że nie ma miejsc i kazali zejść do wsi.","Ми в притулку вже були. Сказали нам, що немає місць, і веліли зійти до села."],
-      ["Gospodyni","No coś takiego.","Ну треба ж таке."]
-    ]},
-    { "type": "dia", "title": "Tablice i napisy — co tu wolno? · zeszyt cw08", "audio": "audio/L11/L11-zeszyt-02.mp3", "lines": [
-      ["Osoba A","Dlaczego te drzwi są zamknięte?","Чому ці двері зачинені?"],
-      ["Osoba B","Jest mały remont. Te obok są otwarte. Proszę wyjść tamtędy.","Невеликий ремонт. Ті поруч відчинені. Прошу вийти тудою."],
-      ["Osoba A","Przepraszam. Czy mogę tędy przejść?","Перепрошую. Чи можу тут перейти?"],
-      ["Osoba B","Niestety nie, to teren budowy.","На жаль, ні, це територія будівництва."],
-      ["Osoba A","Co robisz? Nie widzisz tabliczki? Nie można schodzić ze ścieżki.","Що ти робиш? Не бачиш таблички? Не можна сходити зі стежки."],
-      ["Osoba B","Widzę, ale jestem zmęczony i chcę na moment usiąść na trawie.","Бачу, але я втомлений і хочу на мить присісти на траву."],
-      ["Strażnik","To tatrzański park narodowy. Możesz zapłacić mandat za nieprzestrzeganie przepisów.","Це Татранський національний парк. Можеш заплатити штраф за недотримання правил."],
-      ["Osoba A","Proszę pana, tu nie wolno wchodzić.","Перепрошую, сюди не можна заходити."],
-      ["Osoba B","Przecież są drzwi.","Але ж тут двері."],
-      ["Osoba A","Tak, ale tylko dla osób zatrudnionych.","Так, але тільки для працівників."],
-      ["Osoba A","Przepraszam, jak dojść do dworca?","Перепрошую, як дійти до вокзалу?"],
-      ["Osoba B","Musi pan zejść tymi schodami, pójść na prawo i wyjść po drugiej stronie.","Вам треба зійти цими сходами, піти праворуч і вийти з іншого боку."],
-      ["Osoba A","Dlaczego te drzwi są zablokowane?","Чому ці двері заблоковані?"],
-      ["Osoba B","No wie pan, żeby nikt nie wszedł z ulicy.","Ну знаєте, щоб ніхто не зайшов з вулиці."],
-      ["Dyrektor","Czy pan zwariował? Przecież to jest droga ewakuacyjna. Proszę natychmiast odblokować te drzwi.","Ви збожеволіли? Це ж евакуаційний вихід. Прошу негайно розблокувати ці двері."],
-      ["Osoba B","Naturalnie, panie dyrektorze.","Звичайно, пане директоре."],
-      ["Osoba A","Znowu remont. Pół ulicy rozkopane. Jak ja teraz dojdę do przychodni?","Знову ремонт. Пів вулиці розкопано. Як я тепер дійду до поліклініки?"],
-      ["Osoba B","Proszę się nie denerwować. Widzi pan, jest tabliczka, jak dojść.","Прошу не нервувати. Бачите, є табличка, як дійти."],
-      ["Osoba A","Ja chyba nie pójdę na szczyt.","Я, мабуть, не піду на вершину."],
-      ["Osoba B","Dlaczego? Popatrz na znak, będzie ostro do góry, a ja mam kiepskie buty.","Чому? Поглянь на знак, буде круто вгору, а в мене погане взуття."],
-      ["Strażnik","Tu nie wolno przechodzić. Chce pan zapłacić mandat?","Тут не можна переходити. Хочете заплатити штраф?"],
-      ["Osoba A","O, przepraszam, nie widziałem nigdzie pasów.","О, перепрошую, я ніде не бачив зебри."],
-      ["Strażnik","Są tam.","Вони он там."],
-      ["Osoba A","Chodzimy po tym sklepie już od godziny, obejrzeliśmy meble, akcesoria do kuchni, sypialni i łazienki. Mam dość, chcę do domu.","Ходимо цим магазином уже годину, оглянули меблі, аксесуари для кухні, спальні й ванної. З мене досить, хочу додому."],
-      ["Osoba B","Nie denerwuj się. To taki sklep, że trzeba obejść wszystko dookoła, zanim się wyjdzie.","Не нервуй. Це такий магазин, що треба обійти все довкола, перш ніж вийти."],
-      ["Osoba A","To niemożliwe. Gdzie są drzwi prowadzące na zewnątrz?","Це неможливо. Де двері, що ведуть назовні?"]
-    ]},
-    { "type": "mono", "title": "Studenci po zajęciach — opis trasy · zeszyt cw04", "audio": "audio/L11/L11-zeszyt-03.mp3",
+    {
+      "type": "dia",
+      "title": "Szukamy noclegu we wsi · zeszyt cw10",
+      "audio": "audio/L11/L11-zeszyt-01.mp3",
+      "lines": [
+        [
+          "Turyści",
+          "Dobry wieczór, szukamy noclegu. Czy są u pani wolne pokoje?",
+          "Добрий вечір, шукаємо нічліг. Чи є у Вас вільні кімнати?"
+        ],
+        [
+          "Gospodyni",
+          "Wszystko zajęte. Sezon już się zaczął na dobre. Spytajcie u sąsiada.",
+          "Усе зайнято. Сезон уже як слід почався. Спитайте в сусіда."
+        ],
+        [
+          "Turyści",
+          "A już byliśmy, też nie ma miejsca.",
+          "А ми вже були, теж немає місця."
+        ],
+        [
+          "Gospodyni",
+          "A u sołtysa sprawdziliście? On też wynajmuje.",
+          "А в сільського голови перевіряли? Він теж здає."
+        ],
+        [
+          "Turyści",
+          "Obeszliśmy już całą wieś. Nigdzie nie ma wolnych kwater. Pani była naszą ostatnią nadzieją.",
+          "Ми обійшли вже все село. Ніде немає вільних квартир. Ви були нашою останньою надією."
+        ],
+        [
+          "Gospodyni",
+          "I co wy teraz zrobicie?",
+          "І що ви тепер робитимете?"
+        ],
+        [
+          "Gospodyni",
+          "Zaprosiłabym was do stodoły na siano. Ale po tych powodziach to nawet siana nie ma.",
+          "Запросила б вас до клуні на сіно. Але після цих повеней навіть сіна немає."
+        ],
+        [
+          "Gospodyni",
+          "A do schroniska nie dojdziecie, bo już się ciemno robi.",
+          "А до притулку не дійдете, бо вже темніє."
+        ],
+        [
+          "Turyści",
+          "My w schronisku już byliśmy. Powiedzieli nam, że nie ma miejsc i kazali zejść do wsi.",
+          "Ми в притулку вже були. Сказали нам, що немає місць, і веліли зійти до села."
+        ],
+        [
+          "Gospodyni",
+          "No coś takiego.",
+          "Ну треба ж таке."
+        ]
+      ]
+    },
+    {
+      "type": "dia",
+      "title": "Tablice i napisy — co tu wolno? · zeszyt cw08",
+      "audio": "audio/L11/L11-zeszyt-02.mp3",
+      "lines": [
+        [
+          "Osoba A",
+          "Dlaczego te drzwi są zamknięte?",
+          "Чому ці двері зачинені?"
+        ],
+        [
+          "Osoba B",
+          "Jest mały remont. Te obok są otwarte. Proszę wyjść tamtędy.",
+          "Невеликий ремонт. Ті поруч відчинені. Прошу вийти тудою."
+        ],
+        [
+          "Osoba A",
+          "Przepraszam. Czy mogę tędy przejść?",
+          "Перепрошую. Чи можу тут перейти?"
+        ],
+        [
+          "Osoba B",
+          "Niestety nie, to teren budowy.",
+          "На жаль, ні, це територія будівництва."
+        ],
+        [
+          "Osoba A",
+          "Co robisz? Nie widzisz tabliczki? Nie można schodzić ze ścieżki.",
+          "Що ти робиш? Не бачиш таблички? Не можна сходити зі стежки."
+        ],
+        [
+          "Osoba B",
+          "Widzę, ale jestem zmęczony i chcę na moment usiąść na trawie.",
+          "Бачу, але я втомлений і хочу на мить присісти на траву."
+        ],
+        [
+          "Strażnik",
+          "To tatrzański park narodowy. Możesz zapłacić mandat za nieprzestrzeganie przepisów.",
+          "Це Татранський національний парк. Можеш заплатити штраф за недотримання правил."
+        ],
+        [
+          "Osoba A",
+          "Proszę pana, tu nie wolno wchodzić.",
+          "Перепрошую, сюди не можна заходити."
+        ],
+        [
+          "Osoba B",
+          "Przecież są drzwi.",
+          "Але ж тут двері."
+        ],
+        [
+          "Osoba A",
+          "Tak, ale tylko dla osób zatrudnionych.",
+          "Так, але тільки для працівників."
+        ],
+        [
+          "Osoba A",
+          "Przepraszam, jak dojść do dworca?",
+          "Перепрошую, як дійти до вокзалу?"
+        ],
+        [
+          "Osoba B",
+          "Musi pan zejść tymi schodami, pójść na prawo i wyjść po drugiej stronie.",
+          "Вам треба зійти цими сходами, піти праворуч і вийти з іншого боку."
+        ],
+        [
+          "Osoba A",
+          "Dlaczego te drzwi są zablokowane?",
+          "Чому ці двері заблоковані?"
+        ],
+        [
+          "Osoba B",
+          "No wie pan, żeby nikt nie wszedł z ulicy.",
+          "Ну знаєте, щоб ніхто не зайшов з вулиці."
+        ],
+        [
+          "Dyrektor",
+          "Czy pan zwariował? Przecież to jest droga ewakuacyjna. Proszę natychmiast odblokować te drzwi.",
+          "Ви збожеволіли? Це ж евакуаційний вихід. Прошу негайно розблокувати ці двері."
+        ],
+        [
+          "Osoba B",
+          "Naturalnie, panie dyrektorze.",
+          "Звичайно, пане директоре."
+        ],
+        [
+          "Osoba A",
+          "Znowu remont. Pół ulicy rozkopane. Jak ja teraz dojdę do przychodni?",
+          "Знову ремонт. Пів вулиці розкопано. Як я тепер дійду до поліклініки?"
+        ],
+        [
+          "Osoba B",
+          "Proszę się nie denerwować. Widzi pan, jest tabliczka, jak dojść.",
+          "Прошу не нервувати. Бачите, є табличка, як дійти."
+        ],
+        [
+          "Osoba A",
+          "Ja chyba nie pójdę na szczyt.",
+          "Я, мабуть, не піду на вершину."
+        ],
+        [
+          "Osoba B",
+          "Dlaczego? Popatrz na znak, będzie ostro do góry, a ja mam kiepskie buty.",
+          "Чому? Поглянь на знак, буде круто вгору, а в мене погане взуття."
+        ],
+        [
+          "Strażnik",
+          "Tu nie wolno przechodzić. Chce pan zapłacić mandat?",
+          "Тут не можна переходити. Хочете заплатити штраф?"
+        ],
+        [
+          "Osoba A",
+          "O, przepraszam, nie widziałem nigdzie pasów.",
+          "О, перепрошую, я ніде не бачив зебри."
+        ],
+        [
+          "Strażnik",
+          "Są tam.",
+          "Вони он там."
+        ],
+        [
+          "Osoba A",
+          "Chodzimy po tym sklepie już od godziny, obejrzeliśmy meble, akcesoria do kuchni, sypialni i łazienki. Mam dość, chcę do domu.",
+          "Ходимо цим магазином уже годину, оглянули меблі, аксесуари для кухні, спальні й ванної. З мене досить, хочу додому."
+        ],
+        [
+          "Osoba B",
+          "Nie denerwuj się. To taki sklep, że trzeba obejść wszystko dookoła, zanim się wyjdzie.",
+          "Не нервуй. Це такий магазин, що треба обійти все довкола, перш ніж вийти."
+        ],
+        [
+          "Osoba A",
+          "To niemożliwe. Gdzie są drzwi prowadzące na zewnątrz?",
+          "Це неможливо. Де двері, що ведуть назовні?"
+        ]
+      ]
+    },
+    {
+      "type": "mono",
+      "title": "Studenci po zajęciach — opis trasy · zeszyt cw04",
+      "audio": "audio/L11/L11-zeszyt-03.mp3",
       "text": "Kończą się zajęcia, studenci wychodzą z sali i rozchodzą się do domów. Javier i Uwe jeszcze siedzą w środku i rozmawiają, ale też wyjdą za moment. Angela i Mami planują pójść na spacer na kopiec Kościuszki, ale najpierw wchodzą na moment do biblioteki. Pożyczają książki i wychodzą na korytarz. Przechodzą przez hol i schodzą po schodach. Na dole widzą znajomych, podchodzą do nich na moment, ale zaraz muszą iść na tramwaj. Wychodzą ze szkoły, obchodzą źle zaparkowane auto i przechodzą na drugą stronę ulicy. Tam dochodzą do przystanku i sprawdzają, który tramwaj jedzie na kopiec. Tramwaj zaraz przyjedzie, ale dziewczyny nie są pewne, czy chcą jeszcze jechać na spacer. Dlaczego? Bo zrobiło się ciemno i zimno, chyba właśnie nadchodzi burza.",
-      "tr": "Закінчуються заняття, студенти виходять із зали й розходяться по домівках. Хавʼєр і Уве ще сидять усередині й розмовляють, але теж вийдуть за мить. Анджела і Мамі планують піти на прогулянку на курган Костюшка, але спершу заходять на хвилинку до бібліотеки. Беруть книжки й виходять у коридор. Проходять через хол і сходять сходами. Унизу бачать знайомих, підходять до них на хвилинку, але зараз мусять іти на трамвай. Виходять зі школи, обходять погано припарковане авто й переходять на інший бік вулиці. Там доходять до зупинки й перевіряють, який трамвай їде на курган. Трамвай зараз приїде, але дівчата не впевнені, чи хочуть ще їхати на прогулянку. Чому? Бо стало темно й холодно, мабуть, саме наближається буря." }
+      "tr": "Закінчуються заняття, студенти виходять із зали й розходяться по домівках. Хавʼєр і Уве ще сидять усередині й розмовляють, але теж вийдуть за мить. Анджела і Мамі планують піти на прогулянку на курган Костюшка, але спершу заходять на хвилинку до бібліотеки. Беруть книжки й виходять у коридор. Проходять через хол і сходять сходами. Унизу бачать знайомих, підходять до них на хвилинку, але зараз мусять іти на трамвай. Виходять зі школи, обходять погано припарковане авто й переходять на інший бік вулиці. Там доходять до зупинки й перевіряють, який трамвай їде на курган. Трамвай зараз приїде, але дівчата не впевнені, чи хочуть ще їхати на прогулянку. Чому? Бо стало темно й холодно, мабуть, саме наближається буря."
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 11, ćw. 10, ćw. 8, ćw. 4 (треки 26208, 26238, 27340). Транскрипти — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "checklist": [
-    { "text": "Розрізняти дієслова руху за префіксами", "sub": "wchodzić, wychodzić, przechodzić, dochodzić, podchodzić, obchodzić…" },
-    { "text": "Утворювати доконаний і недоконаний вид", "sub": "wchodzić → wejść, schodzić → zejść, przychodzić → przyjść" },
-    { "text": "Вживати минулий час: szedł / szła", "sub": "wszedłem, weszłam, weszliśmy, weszłyśmy (редукція -e-)" },
-    { "text": "Розуміти туристичні написи й таблиці", "sub": "wejście, wyjście, przejście dla pieszych, zejście ze szlaku wzbronione" },
-    { "text": "Користуватися переносними значеннями", "sub": "dochodzić do siebie, obchodzić imieniny, nadchodzi burza, rozejść się" }
+    {
+      "text": "Розрізняти дієслова руху за префіксами",
+      "sub": "wchodzić, wychodzić, przechodzić, dochodzić, podchodzić, obchodzić…"
+    },
+    {
+      "text": "Утворювати доконаний і недоконаний вид",
+      "sub": "wchodzić → wejść, schodzić → zejść, przychodzić → przyjść"
+    },
+    {
+      "text": "Вживати минулий час: szedł / szła",
+      "sub": "wszedłem, weszłam, weszliśmy, weszłyśmy (редукція -e-)"
+    },
+    {
+      "text": "Розуміти туристичні написи й таблиці",
+      "sub": "wejście, wyjście, przejście dla pieszych, zejście ze szlaku wzbronione"
+    },
+    {
+      "text": "Користуватися переносними значеннями",
+      "sub": "dochodzić do siebie, obchodzić imieniny, nadchodzi burza, rozejść się"
+    }
   ],
-
   "quiz": [
-    { "topic": "czasowniki ruchu", "q": "Який доконаний вид має дієслово «wchodzić»?",
-      "o": ["wejść","wychodzić","wszedać"], "a": 0,
-      "fb": "Пара: wchodzić (недок.) → wejść (док.). Так само schodzić → zejść." },
-    { "topic": "czasowniki ruchu", "q": "Що означає «schodzić / zejść»?",
-      "o": ["входити всередину","сходити вниз","обходити навколо"], "a": 1,
-      "fb": "Префікс s-/z- передає рух вниз: zejść do wsi — зійти до села." },
-    { "topic": "czas przeszły", "q": "Доповніть (r. żeński, ja): «___ do apteki».",
-      "o": ["wszedłem","weszłam","wszedł"], "a": 1,
-      "fb": "Жіночий рід, 1 особа: weszłam. Чоловічий — wszedłem (з редукцією -e-)." },
-    { "topic": "czas przeszły", "q": "Яка форма правильна для «my» (r. męskoosobowy)?",
-      "o": ["weszliśmy","weszłyśmy","wszedliśmy"], "a": 0,
-      "fb": "Чоловічо-особова множина: weszliśmy. Жіноча — weszłyśmy." },
-    { "topic": "słownictwo", "q": "Чому в діалозі група не змогла заночувати в селі?",
-      "o": ["було надто дорого","усі квартири були зайняті","було надто далеко"], "a": 1,
-      "fb": "«Obeszliśmy już całą wieś. Nigdzie nie ma wolnych kwater» — усе зайнято, пік сезону." },
-    { "topic": "słownictwo", "q": "Що означає «nadchodzi burza»?",
-      "o": ["буря минає","буря наближається","буря стихає"], "a": 1,
-      "fb": "Префікс nad- тут передає наближення в часі: nadchodzi burza / zima — наближається буря / зима." },
-    { "topic": "przenośne", "q": "Вираз «dochodzić do siebie» означає…",
-      "o": ["одужувати, приходити до тями","доходити пішки","знайомитися"], "a": 0,
-      "fb": "«Dochodzić do siebie» — повертатися до здоровʼя / рівноваги, одужувати." },
-    { "topic": "przenośne", "q": "Як сказати «святкувати іменини»?",
-      "o": ["przechodzić imieniny","obchodzić imieniny","wchodzić na imieniny"], "a": 1,
-      "fb": "«Obchodzić» у переносному значенні — святкувати (imieniny, rocznicę)." },
-    { "topic": "tablice", "q": "Що означає напис «ZEJŚCIE ZE SZLAKU WZBRONIONE»?",
-      "o": ["вхід заборонено","сходити зі стежки заборонено","вихід тільки для персоналу"], "a": 1,
-      "fb": "Zejście ze szlaku wzbronione — сходити з маркованого маршруту заборонено (часто в парках)." },
-    { "topic": "dialog", "q": "Чому Аґнєшка не хоче спати в наметі?",
-      "o": ["боїться бурі","хоче в притулок","їй холодно"], "a": 0,
-      "fb": "Agnieszka: «nie mam zamiaru spać w namiocie w czasie burzy i umierać ze strachu» — боїться бурі." }
+    {
+      "topic": "czasowniki ruchu",
+      "q": "Який доконаний вид має дієслово «wchodzić»?",
+      "o": [
+        "wychodzić",
+        "wejść",
+        "wszedać"
+      ],
+      "a": 1,
+      "fb": "Пара: wchodzić (недок.) → wejść (док.). Так само schodzić → zejść."
+    },
+    {
+      "topic": "czasowniki ruchu",
+      "q": "Що означає «schodzić / zejść»?",
+      "o": [
+        "входити всередину",
+        "обходити навколо",
+        "сходити вниз"
+      ],
+      "a": 2,
+      "fb": "Префікс s-/z- передає рух вниз: zejść do wsi — зійти до села."
+    },
+    {
+      "topic": "czas przeszły",
+      "q": "Доповніть (r. żeński, ja): «___ do apteki».",
+      "o": [
+        "weszłam",
+        "wszedłem",
+        "wszedł"
+      ],
+      "a": 0,
+      "fb": "Жіночий рід, 1 особа: weszłam. Чоловічий — wszedłem (з редукцією -e-)."
+    },
+    {
+      "topic": "czas przeszły",
+      "q": "Яка форма правильна для «my» (r. męskoosobowy)?",
+      "o": [
+        "weszłyśmy",
+        "weszliśmy",
+        "wszedliśmy"
+      ],
+      "a": 1,
+      "fb": "Чоловічо-особова множина: weszliśmy. Жіноча — weszłyśmy."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Чому в діалозі група не змогла заночувати в селі?",
+      "o": [
+        "було надто дорого",
+        "було надто далеко",
+        "усі квартири були зайняті"
+      ],
+      "a": 2,
+      "fb": "«Obeszliśmy już całą wieś. Nigdzie nie ma wolnych kwater» — усе зайнято, пік сезону."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що означає «nadchodzi burza»?",
+      "o": [
+        "буря наближається",
+        "буря минає",
+        "буря стихає"
+      ],
+      "a": 0,
+      "fb": "Префікс nad- тут передає наближення в часі: nadchodzi burza / zima — наближається буря / зима."
+    },
+    {
+      "topic": "przenośne",
+      "q": "Вираз «dochodzić do siebie» означає…",
+      "o": [
+        "доходити пішки",
+        "одужувати, приходити до тями",
+        "знайомитися"
+      ],
+      "a": 1,
+      "fb": "«Dochodzić do siebie» — повертатися до здоровʼя / рівноваги, одужувати."
+    },
+    {
+      "topic": "przenośne",
+      "q": "Як сказати «святкувати іменини»?",
+      "o": [
+        "przechodzić imieniny",
+        "wchodzić na imieniny",
+        "obchodzić imieniny"
+      ],
+      "a": 2,
+      "fb": "«Obchodzić» у переносному значенні — святкувати (imieniny, rocznicę)."
+    },
+    {
+      "topic": "tablice",
+      "q": "Що означає напис «ZEJŚCIE ZE SZLAKU WZBRONIONE»?",
+      "o": [
+        "сходити зі стежки заборонено",
+        "вхід заборонено",
+        "вихід тільки для персоналу"
+      ],
+      "a": 0,
+      "fb": "Zejście ze szlaku wzbronione — сходити з маркованого маршруту заборонено (часто в парках)."
+    },
+    {
+      "topic": "dialog",
+      "q": "Чому Аґнєшка не хоче спати в наметі?",
+      "o": [
+        "хоче в притулок",
+        "боїться бурі",
+        "їй холодно"
+      ],
+      "a": 1,
+      "fb": "Agnieszka: «nie mam zamiaru spać w namiocie w czasie burzy i umierać ze strachu» — боїться бурі."
+    }
   ]
 }

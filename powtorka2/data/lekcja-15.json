@@ -2,50 +2,281 @@
   "id": "15",
   "title": "Wesołych Świąt!",
   "goal": "Повторюємо: польські свята та традиції · Boże Narodzenie і Wielkanoc · повторення дат і наказового способу · безособові форми (III особа + się)",
-
   "vocab": [
-    { "group": "Święta i tradycje — свята і традиції", "items": [
-      ["dzień wolny od pracy","вихідний (неробочий) день"],["święto ruchome","перехідне свято"],
-      ["zmartwychwstanie","воскресіння"],["modlić się","молитися"],["świętować","святкувати"],
-      ["niewola","неволя"],["niepodległość","незалежність"],["pielgrzymować","паломничати"],
-      ["procesja","процесія"],["znicz","лампадка / свічка на могилі"],["cmentarz","цвинтар"]
-    ]},
-    { "group": "Boże Narodzenie — Різдво", "items": [
-      ["Wigilia","Святвечір"],["choinka","ялинка"],["prezenty","подарунки"],["bombki","ялинкові кулі"],
-      ["kolędy","колядки"],["opłatek","облатка (різдвяний хлібець)"],["karp","короп"],
-      ["Święty Mikołaj","Святий Миколай"],["żłóbek","ясла (вертеп)"],["pasterka","нічна різдвяна меса"],
-      ["postny","пісний"],["sianko","сінце (під скатертину)"]
-    ]},
-    { "group": "Wielkanoc — Великдень", "items": [
-      ["post","піст"],["śledź","оселедець"],["święconka","свячене (кошик)"],["pisanki","писанки"],
-      ["mazurki","мазурки (великодній пиріг)"],["baranek","баранчик"],["chrzan","хрін"],
-      ["lany poniedziałek","облитий понеділок (Великодній понеділок)"],["śmigus-dyngus","обливання водою"],
-      ["bukszpan","самшит (для прикрашання)"]
-    ]},
-    { "group": "Przepisy i jedzenie — рецепти й їжа", "items": [
-      ["przepis","рецепт"],["bigos","бігос"],["kapusta kiszona","квашена капуста"],["grzyby suszone","сушені гриби"],
-      ["włoszczyzna","коренеплоди для бульйону (зелень)"],["zrumienić","підрум’янити"],["doprawić","приправити"],
-      ["namoczyć","замочити"],["pokroić","нарізати"],["doprawić do smaku","приправити до смаку"]
-    ]},
-    { "group": "Nowe słowa — нові слова", "items": [
-      ["odliczanie","відлік"],["mędrcy ze Wschodu","мудреці зі Сходу"],["dary","дари"],
-      ["pełnia księżyca","повний місяць"],["ołtarz","вівтар"],["kiermasz","ярмарок"],
-      ["wolontariat","волонтерство"],["origami","орігамі"],["dochód","дохід"],["wózek inwalidzki","інвалідний візок"]
-    ]}
+    {
+      "group": "Święta i tradycje — свята і традиції",
+      "items": [
+        [
+          "dzień wolny od pracy",
+          "вихідний (неробочий) день"
+        ],
+        [
+          "święto ruchome",
+          "перехідне свято"
+        ],
+        [
+          "zmartwychwstanie",
+          "воскресіння"
+        ],
+        [
+          "modlić się",
+          "молитися"
+        ],
+        [
+          "świętować",
+          "святкувати"
+        ],
+        [
+          "niewola",
+          "неволя"
+        ],
+        [
+          "niepodległość",
+          "незалежність"
+        ],
+        [
+          "pielgrzymować",
+          "паломничати"
+        ],
+        [
+          "procesja",
+          "процесія"
+        ],
+        [
+          "znicz",
+          "лампадка / свічка на могилі"
+        ],
+        [
+          "cmentarz",
+          "цвинтар"
+        ]
+      ]
+    },
+    {
+      "group": "Boże Narodzenie — Різдво",
+      "items": [
+        [
+          "Wigilia",
+          "Святвечір"
+        ],
+        [
+          "choinka",
+          "ялинка"
+        ],
+        [
+          "prezenty",
+          "подарунки"
+        ],
+        [
+          "bombki",
+          "ялинкові кулі"
+        ],
+        [
+          "kolędy",
+          "колядки"
+        ],
+        [
+          "opłatek",
+          "облатка (різдвяний хлібець)"
+        ],
+        [
+          "karp",
+          "короп"
+        ],
+        [
+          "Święty Mikołaj",
+          "Святий Миколай"
+        ],
+        [
+          "żłóbek",
+          "ясла (вертеп)"
+        ],
+        [
+          "pasterka",
+          "нічна різдвяна меса"
+        ],
+        [
+          "postny",
+          "пісний"
+        ],
+        [
+          "sianko",
+          "сінце (під скатертину)"
+        ]
+      ]
+    },
+    {
+      "group": "Wielkanoc — Великдень",
+      "items": [
+        [
+          "post",
+          "піст"
+        ],
+        [
+          "śledź",
+          "оселедець"
+        ],
+        [
+          "święconka",
+          "свячене (кошик)"
+        ],
+        [
+          "pisanki",
+          "писанки"
+        ],
+        [
+          "mazurki",
+          "мазурки (великодній пиріг)"
+        ],
+        [
+          "baranek",
+          "баранчик"
+        ],
+        [
+          "chrzan",
+          "хрін"
+        ],
+        [
+          "lany poniedziałek",
+          "облитий понеділок (Великодній понеділок)"
+        ],
+        [
+          "śmigus-dyngus",
+          "обливання водою"
+        ],
+        [
+          "bukszpan",
+          "самшит (для прикрашання)"
+        ]
+      ]
+    },
+    {
+      "group": "Przepisy i jedzenie — рецепти й їжа",
+      "items": [
+        [
+          "przepis",
+          "рецепт"
+        ],
+        [
+          "bigos",
+          "бігос"
+        ],
+        [
+          "kapusta kiszona",
+          "квашена капуста"
+        ],
+        [
+          "grzyby suszone",
+          "сушені гриби"
+        ],
+        [
+          "włoszczyzna",
+          "коренеплоди для бульйону (зелень)"
+        ],
+        [
+          "zrumienić",
+          "підрум’янити"
+        ],
+        [
+          "doprawić",
+          "приправити"
+        ],
+        [
+          "namoczyć",
+          "замочити"
+        ],
+        [
+          "pokroić",
+          "нарізати"
+        ],
+        [
+          "doprawić do smaku",
+          "приправити до смаку"
+        ]
+      ]
+    },
+    {
+      "group": "Nowe słowa — нові слова",
+      "items": [
+        [
+          "odliczanie",
+          "відлік"
+        ],
+        [
+          "mędrcy ze Wschodu",
+          "мудреці зі Сходу"
+        ],
+        [
+          "dary",
+          "дари"
+        ],
+        [
+          "pełnia księżyca",
+          "повний місяць"
+        ],
+        [
+          "ołtarz",
+          "вівтар"
+        ],
+        [
+          "kiermasz",
+          "ярмарок"
+        ],
+        [
+          "wolontariat",
+          "волонтерство"
+        ],
+        [
+          "origami",
+          "орігамі"
+        ],
+        [
+          "dochód",
+          "дохід"
+        ],
+        [
+          "wózek inwalidzki",
+          "інвалідний візок"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Formy bezosobowe — безособові форми (III ос. одн. + się)",
       "note": "Безособова форма теперішнього часу: дієслово в III особі однини + się. Не вказує діяча («роблять / прийнято робити»). Утворюється від недоконаних дієслів.",
       "table": {
-        "head": ["Osobowo","Bezosobowo (się)","Tłumaczenie"],
+        "head": [
+          "Osobowo",
+          "Bezosobowo (się)",
+          "Tłumaczenie"
+        ],
         "rows": [
-          ["organizują procesje","organizuj*e się* procesje","влаштовують процесії"],
-          ["palą znicze","pal*i się* znicze","запалюють лампадки"],
-          ["nie jedzą mięsa","nie j*e się* mięsa","не їдять м’яса"],
-          ["gotują ziemniaki","gotuj*e się* ziemniaki","варять картоплю"],
-          ["śpiewają kolędy","śpiew*a się* kolędy","співають колядки"]
+          [
+            "organizują procesje",
+            "organizuj*e się* procesje",
+            "влаштовують процесії"
+          ],
+          [
+            "palą znicze",
+            "pal*i się* znicze",
+            "запалюють лампадки"
+          ],
+          [
+            "nie jedzą mięsa",
+            "nie j*e się* mięsa",
+            "не їдять м’яса"
+          ],
+          [
+            "gotują ziemniaki",
+            "gotuj*e się* ziemniaki",
+            "варять картоплю"
+          ],
+          [
+            "śpiewają kolędy",
+            "śpiew*a się* kolędy",
+            "співають колядки"
+          ]
         ]
       }
     },
@@ -53,13 +284,37 @@
       "title": "Bezosobowo w czasie przeszłym — безособова форма минулого часу",
       "note": "Минулий час безособової форми твориться інакше: основа дієслова + -no / -to (без się у цьому типі). Уживається в розповідях, інструкціях, історичних текстах.",
       "table": {
-        "head": ["Bezokolicznik","Forma -no / -to","Tłumaczenie"],
+        "head": [
+          "Bezokolicznik",
+          "Forma -no / -to",
+          "Tłumaczenie"
+        ],
         "rows": [
-          ["wykonać","wykona*no*","виконали"],
-          ["napisać","napisa*no*","написали"],
-          ["przetłumaczyć","przetłumaczo*no*","переклали"],
-          ["zorganizować","zorganizowa*no*","організували"],
-          ["wziąć","wzię*to*","узяли"]
+          [
+            "wykonać",
+            "wykona*no*",
+            "виконали"
+          ],
+          [
+            "napisać",
+            "napisa*no*",
+            "написали"
+          ],
+          [
+            "przetłumaczyć",
+            "przetłumaczo*no*",
+            "переклали"
+          ],
+          [
+            "zorganizować",
+            "zorganizowa*no*",
+            "організували"
+          ],
+          [
+            "wziąć",
+            "wzię*to*",
+            "узяли"
+          ]
         ]
       }
     },
@@ -67,13 +322,37 @@
       "title": "Tryb rozkazujący w przepisach — наказовий спосіб у рецептах",
       "note": "У рецептах часто вживають інфінітив як наказ (umyć, dodać). Можна теж класичний наказовий спосіб для «ty»: II особа без закінчення.",
       "table": {
-        "head": ["Bezokolicznik","Tryb rozkazujący (ty)","Przepis (bezokolicznik)"],
+        "head": [
+          "Bezokolicznik",
+          "Tryb rozkazujący (ty)",
+          "Przepis (bezokolicznik)"
+        ],
         "rows": [
-          ["kupić","ku*p*!","Kupić 5 dag grzybów."],
-          ["pokroić","pokr*ój*!","Pokroić włoszczyznę."],
-          ["dodać","do*daj*!","Dodać masło."],
-          ["doprawić","dopra*w*!","Doprawić solą i pieprzem."],
-          ["gotować","gotu*j*!","Gotować jeszcze 25 minut."]
+          [
+            "kupić",
+            "ku*p*!",
+            "Kupić 5 dag grzybów."
+          ],
+          [
+            "pokroić",
+            "pokr*ój*!",
+            "Pokroić włoszczyznę."
+          ],
+          [
+            "dodać",
+            "do*daj*!",
+            "Dodać masło."
+          ],
+          [
+            "doprawić",
+            "dopra*w*!",
+            "Doprawić solą i pieprzem."
+          ],
+          [
+            "gotować",
+            "gotu*j*!",
+            "Gotować jeszcze 25 minut."
+          ]
         ]
       }
     },
@@ -81,101 +360,303 @@
       "title": "Czasowniki na -ąć w czasie przeszłym — дієслова на -ąć у минулому",
       "note": "Дієслова типу wziąć, zacząć, zamknąć змінюють носовий: ł → ą (чол.), ę (жін./мн. неос.).",
       "table": {
-        "head": ["Bezokolicznik","On","Ona","Oni / One"],
+        "head": [
+          "Bezokolicznik",
+          "On",
+          "Ona",
+          "Oni / One"
+        ],
         "rows": [
-          ["wzi*ąć*","wzi*ął*","wzi*ęła*","wzi*ęli* / wzi*ęły*"],
-          ["zacz*ąć*","zacz*ął*","zacz*ęła*","zacz*ęli* / zacz*ęły*"],
-          ["zamkn*ąć*","zamkn*ął*","zamkn*ęła*","zamkn*ęli* / zamkn*ęły*"],
-          ["wyj*ąć*","wyj*ął*","wyj*ęła*","wyj*ęli* / wyj*ęły*"]
+          [
+            "wzi*ąć*",
+            "wzi*ął*",
+            "wzi*ęła*",
+            "wzi*ęli* / wzi*ęły*"
+          ],
+          [
+            "zacz*ąć*",
+            "zacz*ął*",
+            "zacz*ęła*",
+            "zacz*ęli* / zacz*ęły*"
+          ],
+          [
+            "zamkn*ąć*",
+            "zamkn*ął*",
+            "zamkn*ęła*",
+            "zamkn*ęli* / zamkn*ęły*"
+          ],
+          [
+            "wyj*ąć*",
+            "wyj*ął*",
+            "wyj*ęła*",
+            "wyj*ęli* / wyj*ęły*"
+          ]
         ]
       }
     }
   ],
-
   "czytanie": [
-    { "block": "A. Wolne od pracy · polskie święta · трек 215A2", "items": [
-      { "type": "mono", "title": "Polskie dni wolne od pracy", "audio": "audio/L15/L15-czytanie-01.mp3",
-        "text": "Nowy rok na prawie całym świecie zaczyna się 1 stycznia odliczaniem 3, 2, 1, północ i otwarciem butelki szampana. W ten dzień zwykle odpoczywa się po hucznej zabawie sylwestrowej. Od niedawna 6 stycznia jest znowu w Polsce wolnym dniem. To bardzo stare święto związane z Bożym Narodzeniem. Obchodzi się je na pamiątkę mędrców ze wschodu, którzy za gwiazdą przyszli do Betlejem i złożyli dary Jezusowi. Popularnie nazywani są Kacper, Melchior i Baltazar. Na drzwiach wejściowych pisze się kredą ich inicjały oraz aktualny rok. Wielkanoc to najważniejsze święto chrześcijańskie upamiętniające zmartwychwstanie Jezusa Chrystusa. To święto ruchome. Obchodzi się je w pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Najwcześniej 22 marca, a najpóźniej 25 kwietnia. Z datą tych świąt związane są też terminy innych uroczystości kościelnych. Boże Ciało, czyli Święto Ciała i Krwi Pańskiej wypada zawsze w czwartek 60 dni po Wielkanocy. Tradycyjnie organizuje się w tym dniu procesje po ulicach miasta zatrzymujące się na modlitwę kolejno przy czterech ołtarzach. Z kolei zielone świątki, czyli zesłanie Ducha Świętego są 7 tygodni po Wielkanocy. Obecnie tych świąt nie kultywuje się w jakiś szczególny sposób. Na początku maja mamy tak zwany długi weekend. 1 maja nie pracuje się z okazji Międzynarodowego Dnia Solidarności Ludzi Pracy. W PRL-u było to święto propagandowe, a uczestnictwo w pochodach było obowiązkowe. Natomiast 3 maja jest wolne na cześć ustawy z 1791 roku. Pierwszej w Europie, a drugi na świecie nowoczesnej, spisanej konstytucji. W niebowzięcie Najświętszej Maryi Panny, zwane też Matki Boskiej Zielnej, świętuje się 15 sierpnia. To w ten dzień pielgrzymuje się z całej Polski, i nie tylko, do Częstochowy. To sanktuarium na Jasnej Górze. W Dzień Wszystkich Świętych, 1 listopada, odwiedza się na cmentarzach groby bliskich i pali się znicze, aby w ten sposób wyrazić swoją pamięć o tych, którzy odeszli. 11 listopada 1918 roku to oficjalny I wojny światowej i arbitralna data odzyskania przez naród Polski niepodległości po 123 latach nieistnienia na mapie Europy. Boże Narodzenie jest 25 i 26 grudnia, ale w Polsce w sposób szczególny obchodzi się Wigilię, 24 grudnia.",
-        "tr": "Новий рік майже в усьому світі починається 1 січня відліком 3, 2, 1, північ і відкорковуванням пляшки шампанського. У цей день зазвичай відпочивають після гучної новорічної вечірки. Віднедавна 6 січня знову є в Польщі вихідним днем. Це дуже давнє свято, пов’язане з Різдвом. Святкують його на згадку про мудреців зі Сходу, які за зіркою прийшли до Вифлеєма й принесли дари Ісусові. У народі їх звуть Каспар, Мельхіор і Балтазар. На вхідних дверях пишуть крейдою їхні ініціали та поточний рік. Великдень — найважливіше християнське свято, що вшановує воскресіння Ісуса Христа. Це перехідне свято. Святкують його в першу неділю після першого весняного повного місяця. Найраніше 22 березня, а найпізніше 25 квітня. З датою цього свята пов’язані також терміни інших церковних урочистостей. Боже Тіло, тобто Свято Тіла й Крові Господньої, припадає завжди на четвер, 60 днів після Великодня. Традиційно влаштовують у цей день процесії вулицями міста, що зупиняються на молитву по черзі при чотирьох вівтарях. Своєю чергою Зелені свята, тобто Зіслання Святого Духа, святкують через 7 тижнів після Великодня. Нині цих свят якось особливо не відзначають. На початку травня маємо так звані довгі вихідні. 1 травня не працюють з нагоди Міжнародного дня солідарності трудящих. У ПНР це було пропагандистське свято, а участь у демонстраціях була обов’язковою. Натомість 3 травня — вихідний на честь конституції 1791 року. Першої в Європі та другої у світі сучасної писаної конституції. Внебовзяття Пресвятої Діви Марії, зване також Матері Божої Зільної, святкують 15 серпня. Саме в цей день паломничають з усієї Польщі, і не тільки, до Ченстохови. Це святиня на Ясній Горі. У День Усіх Святих, 1 листопада, відвідують на цвинтарях могили близьких і запалюють лампадки, щоб у такий спосіб виразити свою пам’ять про тих, хто відійшов. 11 листопада 1918 року — офіційний кінець Першої світової війни й умовна дата відновлення польським народом незалежності після 123 років неіснування на мапі Європи. Різдво — це 25 і 26 грудня, але в Польщі особливо святкують Святвечір, 24 грудня." }
-    ]},
-    { "block": "C. Bezosobowo · Wielkanoc · трек 215C3", "items": [
-      { "type": "dia", "title": "Mami i pani Maj — jak obchodzi się Wielkanoc", "audio": "audio/L15/L15-czytanie-02.mp3", "lines": [
-        ["Mami","A jak obchodzi się Wielkanoc w Waszej rodzinie?","А як святкують Великдень у вашій родині?"],
-        ["Pani Maj","Wielki Piątek to dzień zadumy. Jest post, a więc nie je się mięsa.","Велика п’ятниця — це день роздумів. Триває піст, тож не їдять м’яса."],
-        ["Mami","Tylko ryby, tak?","Тільки рибу, так?"],
-        ["Pani Maj","Tak, na przykład śledzie. Gotuje się też ziemniaki w mundurkach.","Так, наприклад оселедці. Варять також картоплю в мундирах."],
-        ["Mami","To niewiele. A co potem?","Це небагато. А що потім?"],
-        ["Pani Maj","W Wielką Sobotę szykuje się święconkę.","У Велику суботу готують свячене (кошик)."],
-        ["Mami","A co to takiego?","А що це таке?"],
-        ["Pani Maj","Do koszyka wkłada się symboliczne pokarmy. Jaja, chleb, wędlinę, sól, chrzan, ciasto, baranka. Czasami czekoladowe zajączki albo kurczaczki. Koszyczek dekoruje się bukszpanem.","До кошика кладуть символічні страви. Яйця, хліб, ковбасні вироби, сіль, хрін, випічку, баранчика. Іноді шоколадних зайчиків або курчат. Кошик прикрашають самшитом."],
-        ["Mami","Baranek, zajączek, kurczaczek, koszyczek. Tak mówią dzieci.","Баранчик, зайчик, курчатко, кошичок. Так говорять діти."],
-        ["Pani Maj","W święta wszyscy jesteśmy dziećmi. U nas nie ma małych dzieci, a co roku wspólnie maluje się pisanki. Piecze się mazurki i baby.","На свята всі ми діти. У нас немає малих дітей, але щороку разом розписують писанки. Печуть мазурки й баби."],
-        ["Mami","To ciasta czy ciasteczka?","Це пироги чи печиво?"],
-        ["Pani Maj","Ciasta. Wiem, po polsku często się zdrabnia. To pewnie śmieszne dla ciebie. No, w niedzielę robi się śniadanie wielkanocne. To oczywiście jajka, szynka, pasztety, chrzan, żurek z białą kiełbasą. Stół ubiera się na zielono, bo to już wiosna. A potem lany poniedziałek albo śmigus-dyngus. Poszukaj sama w internecie, jak obchodzi się ten dzień. Dobrze?","Пироги. Знаю, у польській часто вживають зменшувальні форми. Це, мабуть, смішно для тебе. Ну, у неділю готують великодній сніданок. Це, звісно, яйця, шинка, паштети, хрін, журек із білою ковбасою. Стіл прикрашають у зелене, бо це вже весна. А потім облитий понеділок, або śmigus-dyngus. Пошукай сама в інтернеті, як святкують цей день. Гаразд?"]
-      ]}
-    ]},
-    { "block": "E. Kolęda · «Cicha noc» · трек 215E1", "items": [
-      { "type": "mono", "title": "Cicha noc — kolęda", "audio": "audio/L15/L15-czytanie-03.mp3",
-        "text": "Cicha noc, święta noc, pokój niesie ludziom wszem, a u żółwka Matka Święta, czuwa sama, uśmiechnięta. Nad Dzieciątka snem, nad Dzieciątka snem. Cicha noc, święta noc, pastuszkowie do swych trzut biegną wiece zadziwieni, za anielskim głosem pieni, gdzie się spełni cud, gdzie się spełni cud. Cicha noc, święta noc, narodzony Boży Syn, Pan Wielkiego Majestatu niesie już całemu światu odkupienie win, odkupienie win. Cicha noc, święta noc, jak iż w Tobie dzisiaj cud wetlejem Dziecina Święta wznosi w górę Sferą Częta błogosławi lud, błogosławi lud.",
-        "tr": "Тиха ніч, свята ніч, мир несе всім людям, а біля немовляти Свята Мати, чуває сама, усміхнена. Над сном Дитятка, над сном Дитятка. Тиха ніч, свята ніч, пастушки до своїх отар біжать вельми здивовані, за ангельським голосом співу, де здійсниться диво, де здійсниться диво. Тиха ніч, свята ніч, народжений Божий Син, Пан Великої Величі несе вже всьому світу відкуплення провин, відкуплення провин. Тиха ніч, свята ніч, який же в Тобі сьогодні диво, у Вифлеємі Свята Дитина підносить угору рученята, благословляє люд, благословляє люд. (Текст подано за аудіозаписом синтезу; це найвідоміша різдвяна колядка «Cicha noc».)" }
-    ]}
+    {
+      "block": "A. Wolne od pracy · polskie święta · трек 215A2",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Polskie dni wolne od pracy",
+          "audio": "audio/L15/L15-czytanie-01.mp3",
+          "text": "Nowy rok na prawie całym świecie zaczyna się 1 stycznia odliczaniem 3, 2, 1, północ i otwarciem butelki szampana. W ten dzień zwykle odpoczywa się po hucznej zabawie sylwestrowej. Od niedawna 6 stycznia jest znowu w Polsce wolnym dniem. To bardzo stare święto związane z Bożym Narodzeniem. Obchodzi się je na pamiątkę mędrców ze wschodu, którzy za gwiazdą przyszli do Betlejem i złożyli dary Jezusowi. Popularnie nazywani są Kacper, Melchior i Baltazar. Na drzwiach wejściowych pisze się kredą ich inicjały oraz aktualny rok. Wielkanoc to najważniejsze święto chrześcijańskie upamiętniające zmartwychwstanie Jezusa Chrystusa. To święto ruchome. Obchodzi się je w pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Najwcześniej 22 marca, a najpóźniej 25 kwietnia. Z datą tych świąt związane są też terminy innych uroczystości kościelnych. Boże Ciało, czyli Święto Ciała i Krwi Pańskiej wypada zawsze w czwartek 60 dni po Wielkanocy. Tradycyjnie organizuje się w tym dniu procesje po ulicach miasta zatrzymujące się na modlitwę kolejno przy czterech ołtarzach. Z kolei zielone świątki, czyli zesłanie Ducha Świętego są 7 tygodni po Wielkanocy. Obecnie tych świąt nie kultywuje się w jakiś szczególny sposób. Na początku maja mamy tak zwany długi weekend. 1 maja nie pracuje się z okazji Międzynarodowego Dnia Solidarności Ludzi Pracy. W PRL-u było to święto propagandowe, a uczestnictwo w pochodach było obowiązkowe. Natomiast 3 maja jest wolne na cześć ustawy z 1791 roku. Pierwszej w Europie, a drugi na świecie nowoczesnej, spisanej konstytucji. W niebowzięcie Najświętszej Maryi Panny, zwane też Matki Boskiej Zielnej, świętuje się 15 sierpnia. To w ten dzień pielgrzymuje się z całej Polski, i nie tylko, do Częstochowy. To sanktuarium na Jasnej Górze. W Dzień Wszystkich Świętych, 1 listopada, odwiedza się na cmentarzach groby bliskich i pali się znicze, aby w ten sposób wyrazić swoją pamięć o tych, którzy odeszli. 11 listopada 1918 roku to oficjalny I wojny światowej i arbitralna data odzyskania przez naród Polski niepodległości po 123 latach nieistnienia na mapie Europy. Boże Narodzenie jest 25 i 26 grudnia, ale w Polsce w sposób szczególny obchodzi się Wigilię, 24 grudnia.",
+          "tr": "Новий рік майже в усьому світі починається 1 січня відліком 3, 2, 1, північ і відкорковуванням пляшки шампанського. У цей день зазвичай відпочивають після гучної новорічної вечірки. Віднедавна 6 січня знову є в Польщі вихідним днем. Це дуже давнє свято, пов’язане з Різдвом. Святкують його на згадку про мудреців зі Сходу, які за зіркою прийшли до Вифлеєма й принесли дари Ісусові. У народі їх звуть Каспар, Мельхіор і Балтазар. На вхідних дверях пишуть крейдою їхні ініціали та поточний рік. Великдень — найважливіше християнське свято, що вшановує воскресіння Ісуса Христа. Це перехідне свято. Святкують його в першу неділю після першого весняного повного місяця. Найраніше 22 березня, а найпізніше 25 квітня. З датою цього свята пов’язані також терміни інших церковних урочистостей. Боже Тіло, тобто Свято Тіла й Крові Господньої, припадає завжди на четвер, 60 днів після Великодня. Традиційно влаштовують у цей день процесії вулицями міста, що зупиняються на молитву по черзі при чотирьох вівтарях. Своєю чергою Зелені свята, тобто Зіслання Святого Духа, святкують через 7 тижнів після Великодня. Нині цих свят якось особливо не відзначають. На початку травня маємо так звані довгі вихідні. 1 травня не працюють з нагоди Міжнародного дня солідарності трудящих. У ПНР це було пропагандистське свято, а участь у демонстраціях була обов’язковою. Натомість 3 травня — вихідний на честь конституції 1791 року. Першої в Європі та другої у світі сучасної писаної конституції. Внебовзяття Пресвятої Діви Марії, зване також Матері Божої Зільної, святкують 15 серпня. Саме в цей день паломничають з усієї Польщі, і не тільки, до Ченстохови. Це святиня на Ясній Горі. У День Усіх Святих, 1 листопада, відвідують на цвинтарях могили близьких і запалюють лампадки, щоб у такий спосіб виразити свою пам’ять про тих, хто відійшов. 11 листопада 1918 року — офіційний кінець Першої світової війни й умовна дата відновлення польським народом незалежності після 123 років неіснування на мапі Європи. Різдво — це 25 і 26 грудня, але в Польщі особливо святкують Святвечір, 24 грудня."
+        }
+      ]
+    },
+    {
+      "block": "C. Bezosobowo · Wielkanoc · трек 215C3",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Mami i pani Maj — jak obchodzi się Wielkanoc",
+          "audio": "audio/L15/L15-czytanie-02.mp3",
+          "lines": [
+            [
+              "Mami",
+              "A jak obchodzi się Wielkanoc w Waszej rodzinie?",
+              "А як святкують Великдень у вашій родині?"
+            ],
+            [
+              "Pani Maj",
+              "Wielki Piątek to dzień zadumy. Jest post, a więc nie je się mięsa.",
+              "Велика п’ятниця — це день роздумів. Триває піст, тож не їдять м’яса."
+            ],
+            [
+              "Mami",
+              "Tylko ryby, tak?",
+              "Тільки рибу, так?"
+            ],
+            [
+              "Pani Maj",
+              "Tak, na przykład śledzie. Gotuje się też ziemniaki w mundurkach.",
+              "Так, наприклад оселедці. Варять також картоплю в мундирах."
+            ],
+            [
+              "Mami",
+              "To niewiele. A co potem?",
+              "Це небагато. А що потім?"
+            ],
+            [
+              "Pani Maj",
+              "W Wielką Sobotę szykuje się święconkę.",
+              "У Велику суботу готують свячене (кошик)."
+            ],
+            [
+              "Mami",
+              "A co to takiego?",
+              "А що це таке?"
+            ],
+            [
+              "Pani Maj",
+              "Do koszyka wkłada się symboliczne pokarmy. Jaja, chleb, wędlinę, sól, chrzan, ciasto, baranka. Czasami czekoladowe zajączki albo kurczaczki. Koszyczek dekoruje się bukszpanem.",
+              "До кошика кладуть символічні страви. Яйця, хліб, ковбасні вироби, сіль, хрін, випічку, баранчика. Іноді шоколадних зайчиків або курчат. Кошик прикрашають самшитом."
+            ],
+            [
+              "Mami",
+              "Baranek, zajączek, kurczaczek, koszyczek. Tak mówią dzieci.",
+              "Баранчик, зайчик, курчатко, кошичок. Так говорять діти."
+            ],
+            [
+              "Pani Maj",
+              "W święta wszyscy jesteśmy dziećmi. U nas nie ma małych dzieci, a co roku wspólnie maluje się pisanki. Piecze się mazurki i baby.",
+              "На свята всі ми діти. У нас немає малих дітей, але щороку разом розписують писанки. Печуть мазурки й баби."
+            ],
+            [
+              "Mami",
+              "To ciasta czy ciasteczka?",
+              "Це пироги чи печиво?"
+            ],
+            [
+              "Pani Maj",
+              "Ciasta. Wiem, po polsku często się zdrabnia. To pewnie śmieszne dla ciebie. No, w niedzielę robi się śniadanie wielkanocne. To oczywiście jajka, szynka, pasztety, chrzan, żurek z białą kiełbasą. Stół ubiera się na zielono, bo to już wiosna. A potem lany poniedziałek albo śmigus-dyngus. Poszukaj sama w internecie, jak obchodzi się ten dzień. Dobrze?",
+              "Пироги. Знаю, у польській часто вживають зменшувальні форми. Це, мабуть, смішно для тебе. Ну, у неділю готують великодній сніданок. Це, звісно, яйця, шинка, паштети, хрін, журек із білою ковбасою. Стіл прикрашають у зелене, бо це вже весна. А потім облитий понеділок, або śmigus-dyngus. Пошукай сама в інтернеті, як святкують цей день. Гаразд?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "E. Kolęda · «Cicha noc» · трек 215E1",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Cicha noc — kolęda",
+          "audio": "audio/L15/L15-czytanie-03.mp3",
+          "text": "Cicha noc, święta noc, pokój niesie ludziom wszem, a u żółwka Matka Święta, czuwa sama, uśmiechnięta. Nad Dzieciątka snem, nad Dzieciątka snem. Cicha noc, święta noc, pastuszkowie do swych trzut biegną wiece zadziwieni, za anielskim głosem pieni, gdzie się spełni cud, gdzie się spełni cud. Cicha noc, święta noc, narodzony Boży Syn, Pan Wielkiego Majestatu niesie już całemu światu odkupienie win, odkupienie win. Cicha noc, święta noc, jak iż w Tobie dzisiaj cud wetlejem Dziecina Święta wznosi w górę Sferą Częta błogosławi lud, błogosławi lud.",
+          "tr": "Тиха ніч, свята ніч, мир несе всім людям, а біля немовляти Свята Мати, чуває сама, усміхнена. Над сном Дитятка, над сном Дитятка. Тиха ніч, свята ніч, пастушки до своїх отар біжать вельми здивовані, за ангельським голосом співу, де здійсниться диво, де здійсниться диво. Тиха ніч, свята ніч, народжений Божий Син, Пан Великої Величі несе вже всьому світу відкуплення провин, відкуплення провин. Тиха ніч, свята ніч, який же в Тобі сьогодні диво, у Вифлеємі Свята Дитина підносить угору рученята, благословляє люд, благословляє люд. (Текст подано за аудіозаписом синтезу; це найвідоміша різдвяна колядка «Cicha noc».)"
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 15 — треки 215A2, 215C3, 215E1. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "mono", "title": "Steve: Boże Narodzenie w Polsce · zeszyt cw06", "audio": "audio/L15/L15-zeszyt-01.mp3",
+    {
+      "type": "mono",
+      "title": "Steve: Boże Narodzenie w Polsce · zeszyt cw06",
+      "audio": "audio/L15/L15-zeszyt-01.mp3",
       "text": "Steve. USA. Od pięciu lat spędzam święta Bożego Narodzenia z rodziną mojej żony w Polsce. Dla mnie największa różnica pomiędzy Polską a Stanami to Wigilia. Opłatek. To było coś nowego. I cała procedura. To znaczy, że ma być 12 potraw, a potem kolejność. To musi być pierwsze, a to następne. Osobiście nie przepadam za wigilijnymi potrawami. Szczególnie nie lubię karpia. Tak naprawdę najbardziej smakuje mi piernik. Takie specjalne ciasto, które robi ciocia Iza. Wigilię spędzałem oczywiście z rodziną, ale nie było takich reguł. W Stanach to Boże Narodzenie jest najważniejsze. U nas Wigilia to był czas z rodziną matki, a Boże Narodzenie z rodziną ojca. Kiedy byliśmy mali, to prezenty były ważne. Nie kolacja. W dodatku były dwa razy. Zawsze wiedzieliśmy, co dostaniemy od mamy i babci, ale na następny dzień to były niespodzianki. Prezenty od świętego Mikołaja. Mój najlepszy prezent? Nie pamiętam, ale pewnie jakiś samochód elektroniczny. Moja rodzina nie jest religijna, ale pamiętam, że kiedy miałem 8-9 lat pojechaliśmy do kościoła, bo był koncert kolęd. W ogóle to w Montanie, tam gdzie mieszkałem, pogoda jest podobna jak tutaj, tylko jest więcej śniegu. Tu ostatnio święta są deszczowe.",
-      "tr": "Стів. США. Уже п’ять років святкую Різдво з родиною моєї дружини в Польщі. Для мене найбільша різниця між Польщею і Штатами — це Святвечір. Облатка. Це було щось нове. І вся процедура. Тобто має бути 12 страв, а потім послідовність. Це має бути першим, а це наступним. Особисто я не дуже люблю святвечірні страви. Особливо не люблю коропа. Насправді найбільше мені смакує пряник. Такий особливий пиріг, який пече тітка Іза. Святвечір я, звісно, проводив із родиною, але таких правил не було. У Штатах найважливіше Різдво. У нас Святвечір був часом з родиною матері, а Різдво — з родиною батька. Коли ми були малі, важливими були подарунки. Не вечеря. До того ж їх було двічі. Ми завжди знали, що отримаємо від мами й бабусі, але наступного дня були сюрпризи. Подарунки від Святого Миколая. Мій найкращий подарунок? Не пам’ятаю, але, мабуть, якась електронна машинка. Моя родина не релігійна, але пам’ятаю, що коли мені було 8-9 років, ми поїхали до церкви, бо там був концерт колядок. Загалом у Монтані, де я жив, погода схожа на тутешню, тільки більше снігу. Тут останнім часом свята дощові." },
-    { "type": "mono", "title": "Tanabata: japońskie Święto Gwiazd · zeszyt cw07", "audio": "audio/L15/L15-zeszyt-02.mp3",
+      "tr": "Стів. США. Уже п’ять років святкую Різдво з родиною моєї дружини в Польщі. Для мене найбільша різниця між Польщею і Штатами — це Святвечір. Облатка. Це було щось нове. І вся процедура. Тобто має бути 12 страв, а потім послідовність. Це має бути першим, а це наступним. Особисто я не дуже люблю святвечірні страви. Особливо не люблю коропа. Насправді найбільше мені смакує пряник. Такий особливий пиріг, який пече тітка Іза. Святвечір я, звісно, проводив із родиною, але таких правил не було. У Штатах найважливіше Різдво. У нас Святвечір був часом з родиною матері, а Різдво — з родиною батька. Коли ми були малі, важливими були подарунки. Не вечеря. До того ж їх було двічі. Ми завжди знали, що отримаємо від мами й бабусі, але наступного дня були сюрпризи. Подарунки від Святого Миколая. Мій найкращий подарунок? Не пам’ятаю, але, мабуть, якась електронна машинка. Моя родина не релігійна, але пам’ятаю, що коли мені було 8-9 років, ми поїхали до церкви, бо там був концерт колядок. Загалом у Монтані, де я жив, погода схожа на тутешню, тільки більше снігу. Тут останнім часом свята дощові."
+    },
+    {
+      "type": "mono",
+      "title": "Tanabata: japońskie Święto Gwiazd · zeszyt cw07",
+      "audio": "audio/L15/L15-zeszyt-02.mp3",
       "text": "Każdego lata, 7 lipca, Japończycy obchodzą romantyczne święto gwiazd. Tanabata. Uroczystość ta wywodzi się z legendy o parze zakochanych gwiazd, prządce i pasterzu. Zostali oni rozdzieleni i mieszkają teraz po przeciwnych stronach Drogi Mlecznej. Mogą się spotkać tylko jeden raz w roku, 7 dnia, 7 miesiąca. W ten dzień dekoruje się domy i mieszkania bambusowymi gałązkami, do których przywiązuje się paski kolorowego papieru z wypisanymi życzeniami. Mówi się, że życzenia powinny mieć formę poematu zapisanego pismem kaligraficznym. Takie życzenia zawiesza się na gałązkach w pierwszych dniach lipca, a w dniu święta puszcza się je z nurtem rzeki, żeby mogły się spełnić. Święto Gwiazd jest dniem wyjątkowym, pełnym optymizmu i nadziei na spełnienie życzeń czy marzeń.",
-      "tr": "Щоліта, 7 липня, японці святкують романтичне свято зірок. Танабата. Це свято походить із легенди про пару закоханих зірок — ткалю й пастуха. Їх розділили, і вони живуть тепер по протилежних боках Чумацького Шляху. Зустрітися можуть лише раз на рік, 7-го дня 7-го місяця. У цей день прикрашають будинки й помешкання бамбуковими гілочками, до яких прив’язують смужки кольорового паперу з написаними побажаннями. Кажуть, що побажання мають мати форму вірша, записаного каліграфічним письмом. Такі побажання вішають на гілочках у перші дні липня, а в день свята пускають їх за течією річки, щоб вони могли здійснитися. Свято Зірок — день особливий, сповнений оптимізму й надії на здійснення бажань чи мрій." },
-    { "type": "mono", "title": "Halloween · zeszyt cw08", "audio": "audio/L15/L15-zeszyt-03.mp3",
+      "tr": "Щоліта, 7 липня, японці святкують романтичне свято зірок. Танабата. Це свято походить із легенди про пару закоханих зірок — ткалю й пастуха. Їх розділили, і вони живуть тепер по протилежних боках Чумацького Шляху. Зустрітися можуть лише раз на рік, 7-го дня 7-го місяця. У цей день прикрашають будинки й помешкання бамбуковими гілочками, до яких прив’язують смужки кольорового паперу з написаними побажаннями. Кажуть, що побажання мають мати форму вірша, записаного каліграфічним письмом. Такі побажання вішають на гілочках у перші дні липня, а в день свята пускають їх за течією річки, щоб вони могли здійснитися. Свято Зірок — день особливий, сповнений оптимізму й надії на здійснення бажань чи мрій."
+    },
+    {
+      "type": "mono",
+      "title": "Halloween · zeszyt cw08",
+      "audio": "audio/L15/L15-zeszyt-03.mp3",
       "text": "Halloween obchodzi się nocą 31 października, czyli przed dniem wszystkich świętych, przede wszystkim w Stanach Zjednoczonych, Kanadzie i Wielkiej Brytanii. Głównym symbolem tego święta jest świecąca dynia z wyszczerzonymi zębami. W Halloween przebiera się za potwory, wampiry, duchy, czarownice, różne postacie telewizyjne i organizuje się pochody przez ulice miast. Popularna zabawa dla dzieci to cukierek albo psikus, trick or treat. Chodzi się po okolicy i odwiedza się sąsiadów. Gdy nie dostaje się cukierka, robi się psikusa. Wiele elementów tej tradycji widzi się w kulturze popularnej, głównie amerykańskiej.",
-      "tr": "Гелловін святкують у ніч на 31 жовтня, тобто перед Днем усіх святих, передусім у Сполучених Штатах, Канаді й Великій Британії. Головний символ цього свята — світний гарбуз із вищиреними зубами. На Гелловін перевдягаються в монстрів, вампірів, привидів, відьом, різних телевізійних персонажів і влаштовують ходи вулицями міст. Популярна забава для дітей — «цукерка або витівка», trick or treat. Ходять околицею й відвідують сусідів. Коли не отримують цукерки, роблять витівку. Багато елементів цієї традиції можна побачити в популярній культурі, головно американській." },
-    { "type": "mono", "title": "Steve: Wielkanoc w Polsce · zeszyt cw09", "audio": "audio/L15/L15-zeszyt-04.mp3",
+      "tr": "Гелловін святкують у ніч на 31 жовтня, тобто перед Днем усіх святих, передусім у Сполучених Штатах, Канаді й Великій Британії. Головний символ цього свята — світний гарбуз із вищиреними зубами. На Гелловін перевдягаються в монстрів, вампірів, привидів, відьом, різних телевізійних персонажів і влаштовують ходи вулицями міст. Популярна забава для дітей — «цукерка або витівка», trick or treat. Ходять околицею й відвідують сусідів. Коли не отримують цукерки, роблять витівку. Багато елементів цієї традиції можна побачити в популярній культурі, головно американській."
+    },
+    {
+      "type": "mono",
+      "title": "Steve: Wielkanoc w Polsce · zeszyt cw09",
+      "audio": "audio/L15/L15-zeszyt-04.mp3",
       "text": "Steve. USA. Jak już mówiłem, moja amerykańska rodzina nie jest religijna, więc w Wielkanoc ten aspekt nie jest dla nas ważny. Inaczej niż tutaj, w Polsce. Ale mam wrażenie, że rodzina mojej żony jest bardziej tradycyjna niż religijna. Zawsze wspominają swoje święta z dzieciństwa i chcą, żeby było podobnie, jak u babci. Lubię Wielką Sobotę, kiedy święcimy pokarmy w kościele. Co roku jest zamieszanie i to samo pytanie, do której ksiądz święci. W kościele, razem z moim synem Antonim, oglądam grób Pana Jezusa. Dla mnie to egzotyczne, a dla niego interesujące, bo chce zostać strażakiem. A to właśnie miejscowi strażacy trzymają wartę przy grobie. W Stanach dla dzieci najważniejszy jest zając, który przynosi małe prezenty. Na przykład słodycze. Szukamy też jajek czekoladowych i ten zwyczaj chciałem tu wprowadzić. Zwłaszcza, że mieszkamy na wsi. Niestety mój teść źle mnie zrozumiał i wszystkie jajka schował pod jednym drzewem. Do dziś to świąteczna anegdota. Jako dziecko oczywiście też malowałem pisanki, ale nigdy nie farbowałem ich w łupinach cebuli. Pierwszy raz widziałem to tutaj. Podobnie jak lany poniedziałek. Bardzo się zdziwiłem parę lat temu, kiedy zostałem kilka razy oblany wodą, ale nikt mnie nie uprzedził, o co chodzi. Teraz mamy rywalizację. Kto pierwszy wstanie i zrobi reszcie rodziny śmigus-dyngus? Ja? Czy Antek? Na Wielkanoc lubię wszystko, tylko nie zimne nóżki. Sałatka jarzynowa jest super, żurek, kiełbasy i szynki, nawet świeży chrzan. Ale zimne nóżki zdecydowanie nie.",
-      "tr": "Стів. США. Як я вже казав, моя американська родина не релігійна, тож на Великдень цей аспект для нас не важливий. Інакше, ніж тут, у Польщі. Але маю враження, що родина моєї дружини радше традиційна, ніж релігійна. Вони завжди згадують свої свята з дитинства й хочуть, щоб було так, як у бабусі. Люблю Велику суботу, коли святимо страви в церкві. Щороку буває метушня й те саме питання — о котрій годині ксьондз святить. У церкві разом із моїм сином Антонієм оглядаю гріб Господа Ісуса. Для мене це екзотика, а для нього цікаво, бо він хоче стати пожежником. А саме місцеві пожежники тримають варту біля гробу. У Штатах для дітей найважливіший заєць, який приносить маленькі подарунки. Наприклад, солодощі. Ми також шукаємо шоколадні яйця, і цей звичай я хотів тут запровадити. Тим паче, що ми живемо на селі. На жаль, мій тесть мене не так зрозумів і всі яйця сховав під одним деревом. Досі це святкова анекдота. У дитинстві я, звісно, теж розписував писанки, але ніколи не фарбував їх у лушпинні цибулі. Уперше я побачив це тут. Так само як облитий понеділок. Я дуже здивувався кілька років тому, коли мене кілька разів облили водою, але ніхто не попередив, про що йдеться. Тепер у нас змагання. Хто перший устане й зробить решті родини śmigus-dyngus? Я? Чи Антек? На Великдень я люблю все, тільки не холодець. Овочевий салат — це супер, журек, ковбаси й шинки, навіть свіжий хрін. А от холодець — однозначно ні." }
+      "tr": "Стів. США. Як я вже казав, моя американська родина не релігійна, тож на Великдень цей аспект для нас не важливий. Інакше, ніж тут, у Польщі. Але маю враження, що родина моєї дружини радше традиційна, ніж релігійна. Вони завжди згадують свої свята з дитинства й хочуть, щоб було так, як у бабусі. Люблю Велику суботу, коли святимо страви в церкві. Щороку буває метушня й те саме питання — о котрій годині ксьондз святить. У церкві разом із моїм сином Антонієм оглядаю гріб Господа Ісуса. Для мене це екзотика, а для нього цікаво, бо він хоче стати пожежником. А саме місцеві пожежники тримають варту біля гробу. У Штатах для дітей найважливіший заєць, який приносить маленькі подарунки. Наприклад, солодощі. Ми також шукаємо шоколадні яйця, і цей звичай я хотів тут запровадити. Тим паче, що ми живемо на селі. На жаль, мій тесть мене не так зрозумів і всі яйця сховав під одним деревом. Досі це святкова анекдота. У дитинстві я, звісно, теж розписував писанки, але ніколи не фарбував їх у лушпинні цибулі. Уперше я побачив це тут. Так само як облитий понеділок. Я дуже здивувався кілька років тому, коли мене кілька разів облили водою, але ніхто не попередив, про що йдеться. Тепер у нас змагання. Хто перший устане й зробить решті родини śmigus-dyngus? Я? Чи Антек? На Великдень я люблю все, тільки не холодець. Овочевий салат — це супер, журек, ковбаси й шинки, навіть свіжий хрін. А от холодець — однозначно ні."
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 15, ćw. 6–9 (треки 26219, 28000, 27418, 26218). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "quiz": [
-    { "topic": "święta", "q": "Що означає, що Wielkanoc — це «święto ruchome»?",
-      "o": ["завжди припадає на 1 травня","має змінну дату щороку","святкують щомісяця"], "a": 1,
-      "fb": "«Święto ruchome» — перехідне свято зі змінною датою: перша неділя після першого весняного повного місяця (22.03–25.04)." },
-    { "topic": "bezosobowo", "q": "Безособова форма теперішнього часу від «organizować»:",
-      "o": ["organizuje się","organizowano","organizować się"], "a": 0,
-      "fb": "Безособова форма теп. часу: III ос. одн. + się → «organizuje się procesje»." },
-    { "topic": "bezosobowo", "q": "Доберіть безособову форму МИНУЛОГО часу: «Kolędę ___ w 1818 roku».",
-      "o": ["wykonuje się","wykonano","wykonywać"], "a": 1,
-      "fb": "Минулий час безособової форми: основа + -no/-to → «wykonano». Так само: napisano, przetłumaczono." },
-    { "topic": "słownictwo", "q": "Що таке «opłatek»?",
-      "o": ["різдвяна облатка, якою діляться у Святвечір","великодній пиріг","новорічний шампанське"], "a": 0,
-      "fb": "«Opłatek» — тонкий хлібець, яким діляться на Святвечір. Стів каже: «Opłatek. To było coś nowego»." },
-    { "topic": "Wielkanoc", "q": "Що НЕ їдять у Wielki Piątek (під час посту)?",
-      "o": ["śledzie","ziemniaki","mięso"], "a": 2,
-      "fb": "Pani Maj: «Jest post, a więc nie je się mięsa». Можна рибу (śledzie) і картоплю." },
-    { "topic": "tryb rozkazujący", "q": "Наказова форма «ty» від «pokroić»:",
-      "o": ["pokrój","pokroić","pokroję"], "a": 0,
-      "fb": "Наказовий спосіб для «ty»: pokroić → pokrój! У рецептах також інфінітив: «Pokroić włoszczyznę»." },
-    { "topic": "czasowniki -ąć", "q": "Доповніть: «Mami ___ z torby kartkę papieru» (wyjąć, ona).",
-      "o": ["wyjął","wyjęła","wyjęli"], "a": 1,
-      "fb": "Дієслова на -ąć у мин. часі: жіночий рід → -ęła. wyjąć → wyjęła." },
-    { "topic": "święta", "q": "Що роблять поляки 1 листопада (Wszystkich Świętych)?",
-      "o": ["відвідують могили й запалюють znicze","святкують Новий рік","печуть mazurki"], "a": 0,
-      "fb": "«Odwiedza się na cmentarzach groby bliskich i pali się znicze» — відвідують могили й запалюють лампадки." },
-    { "topic": "zeszyt", "q": "Яка японська традиція пов’язана з легендою про закоханих зірок?",
-      "o": ["Halloween","Tanabata","Wigilia"], "a": 1,
-      "fb": "Tanabata — японське свято зірок (7 липня) про закоханих: прядку й пастуха, розділених Чумацьким Шляхом." },
-    { "topic": "słownictwo", "q": "Як називається обливання водою у Великодній понеділок?",
-      "o": ["pasterka","śmigus-dyngus","święconka"], "a": 1,
-      "fb": "«Lany poniedziałek», або «śmigus-dyngus» — традиція обливання водою. Pasterka — нічна меса, święconka — свячений кошик." }
+    {
+      "topic": "święta",
+      "q": "Що означає, що Wielkanoc — це «święto ruchome»?",
+      "o": [
+        "завжди припадає на 1 травня",
+        "святкують щомісяця",
+        "має змінну дату щороку"
+      ],
+      "a": 2,
+      "fb": "«Święto ruchome» — перехідне свято зі змінною датою: перша неділя після першого весняного повного місяця (22.03–25.04)."
+    },
+    {
+      "topic": "bezosobowo",
+      "q": "Безособова форма теперішнього часу від «organizować»:",
+      "o": [
+        "organizuje się",
+        "organizowano",
+        "organizować się"
+      ],
+      "a": 0,
+      "fb": "Безособова форма теп. часу: III ос. одн. + się → «organizuje się procesje»."
+    },
+    {
+      "topic": "bezosobowo",
+      "q": "Доберіть безособову форму МИНУЛОГО часу: «Kolędę ___ w 1818 roku».",
+      "o": [
+        "wykonuje się",
+        "wykonano",
+        "wykonywać"
+      ],
+      "a": 1,
+      "fb": "Минулий час безособової форми: основа + -no/-to → «wykonano». Так само: napisano, przetłumaczono."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що таке «opłatek»?",
+      "o": [
+        "великодній пиріг",
+        "новорічний шампанське",
+        "різдвяна облатка, якою діляться у Святвечір"
+      ],
+      "a": 2,
+      "fb": "«Opłatek» — тонкий хлібець, яким діляться на Святвечір. Стів каже: «Opłatek. To było coś nowego»."
+    },
+    {
+      "topic": "Wielkanoc",
+      "q": "Що НЕ їдять у Wielki Piątek (під час посту)?",
+      "o": [
+        "mięso",
+        "śledzie",
+        "ziemniaki"
+      ],
+      "a": 0,
+      "fb": "Pani Maj: «Jest post, a więc nie je się mięsa». Можна рибу (śledzie) і картоплю."
+    },
+    {
+      "topic": "tryb rozkazujący",
+      "q": "Наказова форма «ty» від «pokroić»:",
+      "o": [
+        "pokroić",
+        "pokrój",
+        "pokroję"
+      ],
+      "a": 1,
+      "fb": "Наказовий спосіб для «ty»: pokroić → pokrój! У рецептах також інфінітив: «Pokroić włoszczyznę»."
+    },
+    {
+      "topic": "czasowniki -ąć",
+      "q": "Доповніть: «Mami ___ z torby kartkę papieru» (wyjąć, ona).",
+      "o": [
+        "wyjął",
+        "wyjęli",
+        "wyjęła"
+      ],
+      "a": 2,
+      "fb": "Дієслова на -ąć у мин. часі: жіночий рід → -ęła. wyjąć → wyjęła."
+    },
+    {
+      "topic": "święta",
+      "q": "Що роблять поляки 1 листопада (Wszystkich Świętych)?",
+      "o": [
+        "відвідують могили й запалюють znicze",
+        "святкують Новий рік",
+        "печуть mazurki"
+      ],
+      "a": 0,
+      "fb": "«Odwiedza się na cmentarzach groby bliskich i pali się znicze» — відвідують могили й запалюють лампадки."
+    },
+    {
+      "topic": "zeszyt",
+      "q": "Яка японська традиція пов’язана з легендою про закоханих зірок?",
+      "o": [
+        "Halloween",
+        "Tanabata",
+        "Wigilia"
+      ],
+      "a": 1,
+      "fb": "Tanabata — японське свято зірок (7 липня) про закоханих: прядку й пастуха, розділених Чумацьким Шляхом."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Як називається обливання водою у Великодній понеділок?",
+      "o": [
+        "pasterka",
+        "święconka",
+        "śmigus-dyngus"
+      ],
+      "a": 2,
+      "fb": "«Lany poniedziałek», або «śmigus-dyngus» — традиція обливання водою. Pasterka — нічна меса, święconka — свячений кошик."
+    }
   ],
-
   "checklist": [
-    { "text": "Розповісти про польські свята та дні, вільні від праці", "sub": "Nowy Rok, Trzech Króli, Wielkanoc, Boże Ciało, Wszystkich Świętych, Boże Narodzenie" },
-    { "text": "Описати традиції Wigilii та Bożego Narodzenia", "sub": "opłatek, choinka, 12 potraw, karp, pasterka, kolędy" },
-    { "text": "Описати традиції Wielkanocy", "sub": "post, święconka, pisanki, śmigus-dyngus, mazurki" },
-    { "text": "Уживати безособові форми (теп. і мин. час)", "sub": "obchodzi się, je się · wykonano, napisano, przetłumaczono" },
-    { "text": "Уживати наказовий спосіб у рецептах та форми дієслів на -ąć", "sub": "pokrój, dodaj, gotuj · wziąć → wziął/wzięła" }
+    {
+      "text": "Розповісти про польські свята та дні, вільні від праці",
+      "sub": "Nowy Rok, Trzech Króli, Wielkanoc, Boże Ciało, Wszystkich Świętych, Boże Narodzenie"
+    },
+    {
+      "text": "Описати традиції Wigilii та Bożego Narodzenia",
+      "sub": "opłatek, choinka, 12 potraw, karp, pasterka, kolędy"
+    },
+    {
+      "text": "Описати традиції Wielkanocy",
+      "sub": "post, święconka, pisanki, śmigus-dyngus, mazurki"
+    },
+    {
+      "text": "Уживати безособові форми (теп. і мин. час)",
+      "sub": "obchodzi się, je się · wykonano, napisano, przetłumaczono"
+    },
+    {
+      "text": "Уживати наказовий спосіб у рецептах та форми дієслів на -ąć",
+      "sub": "pokrój, dodaj, gotuj · wziąć → wziął/wzięła"
+    }
   ]
 }

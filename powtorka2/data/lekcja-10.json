@@ -2,51 +2,256 @@
   "id": "10",
   "title": "Kocham Cię, Polsko!",
   "goal": "Повторюємо: прохання про інформацію та написання повідомлень · туристичні принади Польщі · miejscownik (місцевий відмінок) · wołacz (кличний відмінок) однини й множини",
-
   "vocab": [
-    { "group": "Korespondencja — листування", "items": [
-      ["list","лист"],["mail","електронний лист"],["SMS","СМС"],
-      ["wiadomość","повідомлення"],["zapytanie","запит"],["oferta","пропозиція"],
-      ["odpowiedź","відповідь"],["załącznik / zdjęcie","зображення / фото"],
-      ["forma płatności","форма оплати"],["zaliczka","завдаток"],["przelew na konto","переказ на рахунок"]
-    ]},
-    { "group": "Sąsiedzi i podwórko — сусіди й подвір’я", "items": [
-      ["wścibski","допитливий / той, що пхає носа"],["sąsiadka","сусідка"],
-      ["podwórko","подвір’я"],["balkon","балкон"],["parapet","підвіконня"],
-      ["lornetka","бінокль"],["bałagan","безлад"],["porządek","порядок"],
-      ["zagracony","захаращений"],["karton","картонна коробка"]
-    ]},
-    { "group": "Kształty i opis — форми й опис", "items": [
-      ["prostokątny","прямокутний"],["trójkątny","трикутний"],
-      ["zachęcać","заохочувати"],["zniechęcać","відраджувати / відбивати охоту"],
-      ["wynajmować","орендувати / здавати в оренду"],["domek letniskowy","дачний будиночок"],
-      ["pensjonat","пансіонат"],["willa","вілла"]
-    ]},
-    { "group": "Atrakcje turystyczne — туристичні принади", "items": [
-      ["góry","гори"],["jezioro","озеро"],["las","ліс"],["szczyt","вершина"],
-      ["dolina","долина"],["cisza","тиша"],["krajobraz","краєвид"],
-      ["zabytek","пам’ятка"],["uzdrowisko","курорт / лікувальне місто"],
-      ["spływ kajakowy","сплав на каяках"],["schronisko","притулок / хатинка в горах"]
-    ]},
-    { "group": "Nowe słowa — нові слова", "items": [
-      ["obcokrajowiec","іноземець"],["po świętej pamięci","покійного (про померлого)"],
-      ["nabijać klienta w butelkę","обдурювати клієнта"],["z polecenia","за рекомендацією"],
-      ["nadbagaż","перевантаження багажу"],["rzeźba","скульптура"],
-      ["pofałdowany teren","горбиста місцевість"],["tożsamość","ідентичність"]
-    ]}
+    {
+      "group": "Korespondencja — листування",
+      "items": [
+        [
+          "list",
+          "лист"
+        ],
+        [
+          "mail",
+          "електронний лист"
+        ],
+        [
+          "SMS",
+          "СМС"
+        ],
+        [
+          "wiadomość",
+          "повідомлення"
+        ],
+        [
+          "zapytanie",
+          "запит"
+        ],
+        [
+          "oferta",
+          "пропозиція"
+        ],
+        [
+          "odpowiedź",
+          "відповідь"
+        ],
+        [
+          "załącznik / zdjęcie",
+          "зображення / фото"
+        ],
+        [
+          "forma płatności",
+          "форма оплати"
+        ],
+        [
+          "zaliczka",
+          "завдаток"
+        ],
+        [
+          "przelew na konto",
+          "переказ на рахунок"
+        ]
+      ]
+    },
+    {
+      "group": "Sąsiedzi i podwórko — сусіди й подвір’я",
+      "items": [
+        [
+          "wścibski",
+          "допитливий / той, що пхає носа"
+        ],
+        [
+          "sąsiadka",
+          "сусідка"
+        ],
+        [
+          "podwórko",
+          "подвір’я"
+        ],
+        [
+          "balkon",
+          "балкон"
+        ],
+        [
+          "parapet",
+          "підвіконня"
+        ],
+        [
+          "lornetka",
+          "бінокль"
+        ],
+        [
+          "bałagan",
+          "безлад"
+        ],
+        [
+          "porządek",
+          "порядок"
+        ],
+        [
+          "zagracony",
+          "захаращений"
+        ],
+        [
+          "karton",
+          "картонна коробка"
+        ]
+      ]
+    },
+    {
+      "group": "Kształty i opis — форми й опис",
+      "items": [
+        [
+          "prostokątny",
+          "прямокутний"
+        ],
+        [
+          "trójkątny",
+          "трикутний"
+        ],
+        [
+          "zachęcać",
+          "заохочувати"
+        ],
+        [
+          "zniechęcać",
+          "відраджувати / відбивати охоту"
+        ],
+        [
+          "wynajmować",
+          "орендувати / здавати в оренду"
+        ],
+        [
+          "domek letniskowy",
+          "дачний будиночок"
+        ],
+        [
+          "pensjonat",
+          "пансіонат"
+        ],
+        [
+          "willa",
+          "вілла"
+        ]
+      ]
+    },
+    {
+      "group": "Atrakcje turystyczne — туристичні принади",
+      "items": [
+        [
+          "góry",
+          "гори"
+        ],
+        [
+          "jezioro",
+          "озеро"
+        ],
+        [
+          "las",
+          "ліс"
+        ],
+        [
+          "szczyt",
+          "вершина"
+        ],
+        [
+          "dolina",
+          "долина"
+        ],
+        [
+          "cisza",
+          "тиша"
+        ],
+        [
+          "krajobraz",
+          "краєвид"
+        ],
+        [
+          "zabytek",
+          "пам’ятка"
+        ],
+        [
+          "uzdrowisko",
+          "курорт / лікувальне місто"
+        ],
+        [
+          "spływ kajakowy",
+          "сплав на каяках"
+        ],
+        [
+          "schronisko",
+          "притулок / хатинка в горах"
+        ]
+      ]
+    },
+    {
+      "group": "Nowe słowa — нові слова",
+      "items": [
+        [
+          "obcokrajowiec",
+          "іноземець"
+        ],
+        [
+          "po świętej pamięci",
+          "покійного (про померлого)"
+        ],
+        [
+          "nabijać klienta w butelkę",
+          "обдурювати клієнта"
+        ],
+        [
+          "z polecenia",
+          "за рекомендацією"
+        ],
+        [
+          "nadbagaż",
+          "перевантаження багажу"
+        ],
+        [
+          "rzeźba",
+          "скульптура"
+        ],
+        [
+          "pofałdowany teren",
+          "горбиста місцевість"
+        ],
+        [
+          "tożsamość",
+          "ідентичність"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Miejscownik — powtórzenie (місцевий відмінок)",
       "note": "Місцевий відмінок (o kim? o czym? gdzie?) вживається ТІЛЬКИ з прийменниками: w, na, o, przy, po. Часта зміна приголосної в основі.",
       "table": {
-        "head": ["Rodzaj","Mianownik","Miejscownik (w / na / o…)"],
+        "head": [
+          "Rodzaj",
+          "Mianownik",
+          "Miejscownik (w / na / o…)"
+        ],
         "rows": [
-          ["чол./сер. тверда","dom, miasto, las","w dom*u*, w mieśc*ie*, w les*ie*"],
-          ["чол. м’яка / -k, -g, -ch","Kraków, brzeg","w Krakow*ie*, na brzeg*u*"],
-          ["жіночий","Wisła, willa, cisza","nad Wisł*ą* → o Wiśl*e*, w will*i*, w cisz*y*"],
-          ["множина","góry, zdjęcia, książki","w gór*ach*, na zdjęci*ach*, w książk*ach*"]
+          [
+            "чол./сер. тверда",
+            "dom, miasto, las",
+            "w dom*u*, w mieśc*ie*, w les*ie*"
+          ],
+          [
+            "чол. м’яка / -k, -g, -ch",
+            "Kraków, brzeg",
+            "w Krakow*ie*, na brzeg*u*"
+          ],
+          [
+            "жіночий",
+            "Wisła, willa, cisza",
+            "nad Wisł*ą* → o Wiśl*e*, w will*i*, w cisz*y*"
+          ],
+          [
+            "множина",
+            "góry, zdjęcia, książki",
+            "w gór*ach*, na zdjęci*ach*, w książk*ach*"
+          ]
         ]
       }
     },
@@ -54,13 +259,37 @@
       "title": "Wołacz l. poj. — кличний відмінок однини",
       "note": "Wołacz — форма звертання. Жіночий рід найчастіше = як miejscownik (-o, -u), чоловічий = як miejscownik або як dopełniacz.",
       "table": {
-        "head": ["Rodzaj","Mianownik","Wołacz"],
+        "head": [
+          "Rodzaj",
+          "Mianownik",
+          "Wołacz"
+        ],
         "rows": [
-          ["ч. на тверду","Tomasz, pan","Tomasz*u*! pan*ie*!"],
-          ["ч. на м’яку","Ryszard, Bóg, ojciec","Ryszardz*ie*! Boż*e*! ojcz*e*!"],
-          ["ж. на -a","Anna, Ewcia, pani","Ann*o*! Ewci*u*! pani!"],
-          ["зменшені на -a","syneczek, egoista","syneczk*u*! egoist*o*!"],
-          ["середній = mianownik","dziecko","drogie dzieck*o*!"]
+          [
+            "ч. на тверду",
+            "Tomasz, pan",
+            "Tomasz*u*! pan*ie*!"
+          ],
+          [
+            "ч. на м’яку",
+            "Ryszard, Bóg, ojciec",
+            "Ryszardz*ie*! Boż*e*! ojcz*e*!"
+          ],
+          [
+            "ж. на -a",
+            "Anna, Ewcia, pani",
+            "Ann*o*! Ewci*u*! pani!"
+          ],
+          [
+            "зменшені на -a",
+            "syneczek, egoista",
+            "syneczk*u*! egoist*o*!"
+          ],
+          [
+            "середній = mianownik",
+            "dziecko",
+            "drogie dzieck*o*!"
+          ]
         ]
       }
     },
@@ -68,12 +297,27 @@
       "title": "Wołacz l. mn. = Mianownik l. mn. — кличний множини",
       "note": "У множині кличний відмінок завжди дорівнює називному множини.",
       "table": {
-        "head": ["Звертання","Приклад"],
+        "head": [
+          "Звертання",
+          "Приклад"
+        ],
         "rows": [
-          ["до чоловіків","Drodzy panowie!"],
-          ["до жінок","Drogie panie!"],
-          ["до дітей","Drogie dzieci!"],
-          ["до хлопців","Chłopaki! / Kochani!"]
+          [
+            "до чоловіків",
+            "Drodzy panowie!"
+          ],
+          [
+            "до жінок",
+            "Drogie panie!"
+          ],
+          [
+            "до дітей",
+            "Drogie dzieci!"
+          ],
+          [
+            "до хлопців",
+            "Chłopaki! / Kochani!"
+          ]
         ]
       }
     },
@@ -83,115 +327,369 @@
       "words": "Bóg → Boże! · pan → panie! · ojciec → ojcze! · chłopiec → chłopcze! · człowiek → człowieku! · syn → synu!"
     }
   ],
-
   "czytanie": [
-    { "block": "A. Plotkujące sąsiadki · трек 210A1", "items": [
-      { "type": "dia", "title": "Pani Krysia i pani Jasia — kartony", "audio": "audio/L10/L10-czytanie-01.mp3", "lines": [
-        ["Krysia","Sąsiadko, sąsiadko! Słyszała pani?","Сусідко, сусідко! Чули ви?"],
-        ["Jasia","Co, pani Krysiu, co się stało?","Що, пані Кристино, що сталося?"],
-        ["Krysia","No ten pan obcokrajowiec, ten co wynajmuje mieszkanie obok pani, wrócił z podróży i… Widziała pani, co przywiózł?","Ну той пан іноземець, той, що орендує квартиру біля вас, повернувся з подорожі і… Бачили ви, що привіз?"],
-        ["Jasia","Ten pan Ksawery, tak? Nie widziałam.","Той пан Ксаверій, так? Не бачила."],
-        ["Krysia","Jakoś tak, Hilary albo Ksawery. Właśnie, droga pani Jasiu, wracałam ze sklepu i widziałam, jak to wnosili.","Якось так, Гіларій або Ксаверій. Власне, дорога пані Ясю, я поверталася з магазину й бачила, як це заносили."],
-        ["Jasia","Ale co? Ale co?","Але що? Але що?"],
-        ["Krysia","No właśnie nie wiem. Widziałam tylko kartony. Ale może spróbujemy zobaczyć z pani balkonu? Ma pani jeszcze tę lornetkę? Tę po świętej pamięci mężu?","Ну власне не знаю. Бачила тільки коробки. Але, може, спробуємо подивитися з вашого балкона? Маєте ще той бінокль? Той, що залишився від покійного чоловіка?"],
-        ["Jasia","Gdzieś tam jest. Poszukam.","Десь там є. Пошукаю."]
-      ]}
-    ]},
-    { "block": "A. Javier dzwoni do Angeli · трек 210A4", "items": [
-      { "type": "dia", "title": "Javier i tukany", "audio": "audio/L10/L10-czytanie-02.mp3", "lines": [
-        ["Javier","Halo? Słyszysz mnie, piękna kobieto?","Алло? Чуєш мене, прекрасна жінко?"],
-        ["Angela","Javier, ty głupku! Wróciłeś? Jesteś już w Krakowie?","Хав’єре, ти дурнику! Повернувся? Ти вже в Кракові?"],
-        ["Javier","O tak! Tylko dwa tygodnie byłem w domu i już się stęskniłaś.","О так! Лише два тижні я був удома, а ти вже скучила."],
-        ["Angela","Cały ty! Ale opowiadaj, jak było?","Весь ти такий! Але розповідай, як було?"],
-        ["Javier","Wiesz, co to jest tukan?","Знаєш, що таке тукан?"],
-        ["Angela","Jakiś kolorowy ptak?","Якийсь барвистий птах?"],
-        ["Javier","Nie jakiś, tylko specjalny. Mieszkają tylko w Ameryce Południowej, w lasach tropikalnych, na przykład w Meksyku, Gujanie, Boliwii, Urugwaju, Wenezueli, Kolumbii, oczywiście w Argentynie.","Не якийсь, а особливий. Живуть лише в Південній Америці, у тропічних лісах, наприклад у Мексиці, Гаяні, Болівії, Уругваї, Венесуелі, Колумбії, звичайно ж в Аргентині."],
-        ["Angela","I? Po co mi to mówisz? To samo znajdę w encyklopedii.","І? Навіщо ти мені це кажеш? Те саме знайду в енциклопедії."],
-        ["Javier","Raczej w Wikipedii. No i chciałem mieć takiego ptaka, ale one nie żyją w Europie. Więc kupiłem trochę drewnianych rzeźb. Miałem delikatny nadbagaż. Mnóstwo problemów na lotnisku i w samolocie. No, ale teraz siedzę u siebie w mieszkaniu i tak myślę, gdzie je postawić. Pomożesz, droga koleżanko?","Радше у Вікіпедії. Ну і хотів я мати такого птаха, але вони не живуть у Європі. Тож купив трохи дерев’яних скульптур. Мав невелике перевантаження багажу. Купу проблем в аеропорту й у літаку. Ну, але тепер сиджу в себе в квартирі й думаю, де їх поставити. Допоможеш, дорога подруго?"],
-        ["Angela","Ile ich masz?","Скільки їх у тебе?"],
-        ["Javier","Drobiazg. Tylko 20 malutkich tukanów.","Дрібниця. Лише 20 маленьких туканів."]
-      ]}
-    ]},
-    { "block": "B. Atrakcje turystyczne Polski · трек 210B1", "items": [
-      { "type": "mono", "title": "Tadeusz — Kaszuby", "audio": "audio/L10/L10-czytanie-03.mp3",
-        "text": "Ja spędzam wakacje z wnukami na Kaszubach, w regionie zwanym Szwajcarią Kaszubską. Piękna kraina pełna pagórków, jezior, a wokół pola truskawkowe. Można posłuchać koncertów w amfiteatrze w kształcie odwróconej łodzi rybackiej lub zwiedzić słynny dom stojący na głowie. Z szacunkiem myślę o ludności kaszubskiej, która przez wieki zachowała swoją tożsamość, kulturę, a przede wszystkim język. Obowiązkowo trzeba też być w rezerwacie archeologicznym Kamienne Kręgi, gdzie jest cmentarzysko Gotów z II wieku naszej ery, drugie takie w Europie. Mój wnuk za to uwielbia muzeum parowozów, jak to chłopak.",
-        "tr": "Я проводжу канікули з онуками на Кашубах, у регіоні, що зветься Кашубською Швейцарією. Прекрасний край, повний пагорбів, озер, а навколо полуничні поля. Можна послухати концерти в амфітеатрі у формі перевернутого рибальського човна або відвідати славнозвісний будинок, що стоїть на голові. З повагою думаю про кашубський народ, який упродовж віків зберіг свою ідентичність, культуру, а передусім мову. Обов’язково треба також побувати в археологічному заповіднику «Кам’яні кола», де є цвинтар готів з II століття нашої ери, другий такий у Європі. А мій онук обожнює музей паровозів, як це у хлопців." },
-      { "type": "mono", "title": "Małgorzata — Suwalszczyzna", "audio": "audio/L10/L10-czytanie-04.mp3",
-        "text": "Mieszkam w dużym mieście, więc w lecie staram się uciekać od cywilizacji. Zwykle wybieram północno-wschodnią Polskę. Często bywam na Suwalszczyźnie. Oczywiście na kempingu, pod namiotem. Co można robić? Codziennie rano kąpać się w krystalicznie czystym jeziorze, łowić ryby, pływać łódką lub kajakiem, spacerować po lesie i zbierać jagody albo grzyby. Uwielbiam tamtejszy krajobraz. Pofałdowany teren, głazy, pola, bociany na łące. Warto spędzić przynajmniej jeden dzień na spływie kajakowym. Jedzenie, nawet to najprostsze, smakuje jak nigdzie indziej. Warto też pojechać na Litwę i spędzić weekend w Wilnie lub jego okolicach.",
-        "tr": "Я живу у великому місті, тож улітку намагаюся втекти від цивілізації. Зазвичай обираю північно-східну Польщу. Часто буваю на Сувальщині. Звичайно ж, у кемпінгу, під наметом. Що можна робити? Щоранку купатися в кристально чистому озері, ловити рибу, плавати човном або каяком, гуляти лісом і збирати ягоди чи гриби. Обожнюю тамтешній краєвид. Горбиста місцевість, валуни, поля, лелеки на луці. Варто провести хоча б один день на сплаві каяками. Їжа, навіть найпростіша, смакує як ніде інде. Варто також поїхати до Литви й провести вихідні у Вільнюсі чи його околицях." },
-      { "type": "mono", "title": "Marek — Kazimierz nad Wisłą", "audio": "audio/L10/L10-czytanie-05.mp3",
-        "text": "Na wiosnę i w lecie nie ma nic piękniejszego od Kazimierza nad Wisłą. Głównie z powodu jego bajkowej atmosfery. Spędzam w tym malowniczym miasteczku każdy długi weekend, zwiedzając również na rowerze jego okolice. Widok na Wisłę z wysokiego brzegu jest jedyny i niepowtarzalny, a dookoła mamy jeszcze do dyspozycji skałki do wspinaczki. Od lat nocuję w tym samym pensjonacie, w starej willi z pięknym ogrodem. Wiele czytałem o burzliwej historii Kazimierza. Utrwalam też na zdjęciach jego wyjątkową architekturę. W Kazimierzu jest wiele galerii. W końcu to miasto artystów. Tu też odbywa się znany festiwal filmowy Dwa Brzegi, a samo miasto wykorzystywane było jako plener w wielu filmach.",
-        "tr": "Навесні та влітку немає нічого красивішого за Казімеж-над-Віслою. Головним чином через його казкову атмосферу. Я проводжу в цьому мальовничому містечку кожні довгі вихідні, оглядаючи також на велосипеді його околиці. Краєвид на Віслу з високого берега єдиний і неповторний, а навколо ще маємо до диспозиції скелі для скелелазіння. Уже багато років ночую в тому самому пансіонаті, у старій віллі з гарним садом. Багато читав про бурхливу історію Казімежа. Закарбовую також на фотографіях його виняткову архітектуру. У Казімежі багато галерей. Зрештою це місто митців. Тут також відбувається відомий кінофестиваль «Два береги», а саме місто використовувалося як натура в багатьох фільмах." },
-      { "type": "mono", "title": "Antonina — Bieszczady", "audio": "audio/L10/L10-czytanie-06.mp3",
-        "text": "Którzy nie mogli sobie nigdzie znaleźć miejsca. To te tereny zamieszkiwali Łemkowie, po których zostały tylko drewniane cerkwie. Ich historie spisane są w wielu książkach, piosenkach, wierszach. Bieszczady nie są już tak dzikie jak kiedyś, ale wciąż można tu spotkać rysia, niedźwiedzia albo wilka.",
-        "tr": "…які не могли ніде знайти собі місця. Ці терени населяли лемки, по яких залишилися тільки дерев’яні церкви. Їхні історії записані в багатьох книжках, піснях, віршах. Бещади вже не такі дикі, як колись, але досі тут можна зустріти рись, ведмедя або вовка." },
-      { "type": "mono", "title": "Michał — Sudety i Dolny Śląsk", "audio": "audio/L10/L10-czytanie-07.mp3",
-        "text": "W Sudetach, jak w kalejdoskopie, znajdziemy wszystko. Cudowne krajobrazy, niezwykłe zjawiska geologiczne, zamki, stylowe uzdrowiska. Nad tym wszystkim unosi się duch dziedzictwa wielu kultur: niemieckiej, czeskiej, polskiej. Co wybrać? Wizytę w podziemnej kopalni czy kąpiel w wodach termalnych? Wycieczkę po górach czy po zabytkach sakralnych różnych epok i wyznań? A może poszukać śladów dawnych pogańskich kultów? Na Dolnym Śląsku jest wszystko, a ja mam szczególny sentyment do tego regionu, bo moja mama urodziła się we Wrocławiu i zawsze podróżowaliśmy po jego bliższych czy dalszych okolicach.",
-        "tr": "У Судетах, як у калейдоскопі, знайдемо все. Чудові краєвиди, незвичайні геологічні явища, замки, стильні курорти. Над усім цим витає дух спадщини багатьох культур: німецької, чеської, польської. Що обрати? Візит у підземну шахту чи купання в термальних водах? Прогулянку горами чи поміж сакральними пам’ятками різних епох і віросповідань? А може, пошукати слідів давніх язичницьких культів? У Нижній Сілезії є все, а я маю особливу прихильність до цього регіону, бо моя мама народилася у Вроцлаві, і ми завжди подорожували його ближчими чи дальшими околицями." },
-      { "type": "mono", "title": "Danuta — Zakopane i Tatry", "audio": "audio/L10/L10-czytanie-08.mp3",
-        "text": "Gdzie telefony nie mają zasięgu, a niebo w nocy jest tak blisko, że można dotknąć gwiazd. No i wszystko jest zatopione w absolutnej ciszy. Zawsze też, przynajmniej kwadrans, muszę pobyć na starym cmentarzu, gdzie między innymi w symbolicznym grobie leży Witkacy, który tu żył i tworzył.",
-        "tr": "…де телефони не мають зв’язку, а небо вночі так близько, що можна торкнутися зірок. Ну і все занурене в абсолютну тишу. Завжди також хоча б чверть години мушу побути на старому цвинтарі, де серед інших у символічній могилі лежить Віткаци, який тут жив і творив." }
-    ]},
-    { "block": "B. Ewa zaprasza Iwonę · трек 210B5", "items": [
-      { "type": "dia", "title": "Iwona i Ewa — telefon", "audio": "audio/L10/L10-czytanie-09.mp3", "lines": [
-        ["Iwona","Halo? A to ty, Ewciu, nie poznałam. Co u was? Wieki się nie słyszeliśmy.","Алло? А це ти, Евцю, не впізнала. Як у вас? Сто років не чулися."],
-        ["Ewa","Dzwonię z zaproszeniem. Może wpadniecie do nas w przyszłą niedzielę na grilla, na działkę? Zachęcam. Zbyszek serwuje swoją słynną karkówkę.","Дзвоню із запрошенням. Може, зазирнете до нас наступної неділі на гриль, на дачу? Заохочую. Збишек подає свою знамениту шию (свинячу)."],
-        ["Iwona","Dzięki, ale akurat w ten weekend jedziemy za miasto. Wiesz, znalazłam bardzo atrakcyjną ofertę na wynajem domku letniskowego w górach. Wszystko wygląda świetnie. Taras z widokiem na góry, drewniane meble, wyposażona kuchnia, kominek, cisza, spokój i tylko stówka za dobę.","Дякую, але якраз цими вихідними ми їдемо за місто. Знаєш, я знайшла дуже привабливу пропозицію оренди дачного будиночка в горах. Усе виглядає чудово. Тераса з видом на гори, дерев’яні меблі, обладнана кухня, камін, тиша, спокій і лише сотня за добу."],
-        ["Ewa","Zaraz, zaraz. Gdzie to znalazłaś? A może to z polecenia?","Стривай, стривай. Де ти це знайшла? А може, це за рекомендацією?"],
-        ["Iwona","Ach nie, ogłoszenie znalazłam na stronie jakiegoś biura. Nawet nie pamiętam, jak się nazywa.","Ах ні, оголошення знайшла на сайті якоїсь агенції. Навіть не пам’ятаю, як називається."],
-        ["Ewa","To trochę ryzykowne, nie uważasz? Niesprawdzone oferty, nawet super korzystne, to często nabijanie klienta w butelkę. Pamiętam, jak…","Це трохи ризиковано, не вважаєш? Неперевірені пропозиції, навіть надзвичайно вигідні, часто це обдурювання клієнта. Пам’ятаю, як…"],
-        ["Iwona","Nie kracz. Wszystko będzie dobrze. Jestem o tym przekonana, więc i tak mnie nie zniechęcisz.","Не каркай. Усе буде добре. Я в цьому переконана, тож і так мене не відмовиш."],
-        ["Ewa","Gdyby jednak coś było nie tak, pamiętaj. Ostrzegałam.","Якби все ж щось пішло не так, пам’ятай. Я попереджала."]
-      ]}
-    ]}
+    {
+      "block": "A. Plotkujące sąsiadki · трек 210A1",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Pani Krysia i pani Jasia — kartony",
+          "audio": "audio/L10/L10-czytanie-01.mp3",
+          "lines": [
+            [
+              "Krysia",
+              "Sąsiadko, sąsiadko! Słyszała pani?",
+              "Сусідко, сусідко! Чули ви?"
+            ],
+            [
+              "Jasia",
+              "Co, pani Krysiu, co się stało?",
+              "Що, пані Кристино, що сталося?"
+            ],
+            [
+              "Krysia",
+              "No ten pan obcokrajowiec, ten co wynajmuje mieszkanie obok pani, wrócił z podróży i… Widziała pani, co przywiózł?",
+              "Ну той пан іноземець, той, що орендує квартиру біля вас, повернувся з подорожі і… Бачили ви, що привіз?"
+            ],
+            [
+              "Jasia",
+              "Ten pan Ksawery, tak? Nie widziałam.",
+              "Той пан Ксаверій, так? Не бачила."
+            ],
+            [
+              "Krysia",
+              "Jakoś tak, Hilary albo Ksawery. Właśnie, droga pani Jasiu, wracałam ze sklepu i widziałam, jak to wnosili.",
+              "Якось так, Гіларій або Ксаверій. Власне, дорога пані Ясю, я поверталася з магазину й бачила, як це заносили."
+            ],
+            [
+              "Jasia",
+              "Ale co? Ale co?",
+              "Але що? Але що?"
+            ],
+            [
+              "Krysia",
+              "No właśnie nie wiem. Widziałam tylko kartony. Ale może spróbujemy zobaczyć z pani balkonu? Ma pani jeszcze tę lornetkę? Tę po świętej pamięci mężu?",
+              "Ну власне не знаю. Бачила тільки коробки. Але, може, спробуємо подивитися з вашого балкона? Маєте ще той бінокль? Той, що залишився від покійного чоловіка?"
+            ],
+            [
+              "Jasia",
+              "Gdzieś tam jest. Poszukam.",
+              "Десь там є. Пошукаю."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "A. Javier dzwoni do Angeli · трек 210A4",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Javier i tukany",
+          "audio": "audio/L10/L10-czytanie-02.mp3",
+          "lines": [
+            [
+              "Javier",
+              "Halo? Słyszysz mnie, piękna kobieto?",
+              "Алло? Чуєш мене, прекрасна жінко?"
+            ],
+            [
+              "Angela",
+              "Javier, ty głupku! Wróciłeś? Jesteś już w Krakowie?",
+              "Хав’єре, ти дурнику! Повернувся? Ти вже в Кракові?"
+            ],
+            [
+              "Javier",
+              "O tak! Tylko dwa tygodnie byłem w domu i już się stęskniłaś.",
+              "О так! Лише два тижні я був удома, а ти вже скучила."
+            ],
+            [
+              "Angela",
+              "Cały ty! Ale opowiadaj, jak było?",
+              "Весь ти такий! Але розповідай, як було?"
+            ],
+            [
+              "Javier",
+              "Wiesz, co to jest tukan?",
+              "Знаєш, що таке тукан?"
+            ],
+            [
+              "Angela",
+              "Jakiś kolorowy ptak?",
+              "Якийсь барвистий птах?"
+            ],
+            [
+              "Javier",
+              "Nie jakiś, tylko specjalny. Mieszkają tylko w Ameryce Południowej, w lasach tropikalnych, na przykład w Meksyku, Gujanie, Boliwii, Urugwaju, Wenezueli, Kolumbii, oczywiście w Argentynie.",
+              "Не якийсь, а особливий. Живуть лише в Південній Америці, у тропічних лісах, наприклад у Мексиці, Гаяні, Болівії, Уругваї, Венесуелі, Колумбії, звичайно ж в Аргентині."
+            ],
+            [
+              "Angela",
+              "I? Po co mi to mówisz? To samo znajdę w encyklopedii.",
+              "І? Навіщо ти мені це кажеш? Те саме знайду в енциклопедії."
+            ],
+            [
+              "Javier",
+              "Raczej w Wikipedii. No i chciałem mieć takiego ptaka, ale one nie żyją w Europie. Więc kupiłem trochę drewnianych rzeźb. Miałem delikatny nadbagaż. Mnóstwo problemów na lotnisku i w samolocie. No, ale teraz siedzę u siebie w mieszkaniu i tak myślę, gdzie je postawić. Pomożesz, droga koleżanko?",
+              "Радше у Вікіпедії. Ну і хотів я мати такого птаха, але вони не живуть у Європі. Тож купив трохи дерев’яних скульптур. Мав невелике перевантаження багажу. Купу проблем в аеропорту й у літаку. Ну, але тепер сиджу в себе в квартирі й думаю, де їх поставити. Допоможеш, дорога подруго?"
+            ],
+            [
+              "Angela",
+              "Ile ich masz?",
+              "Скільки їх у тебе?"
+            ],
+            [
+              "Javier",
+              "Drobiazg. Tylko 20 malutkich tukanów.",
+              "Дрібниця. Лише 20 маленьких туканів."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "B. Atrakcje turystyczne Polski · трек 210B1",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Tadeusz — Kaszuby",
+          "audio": "audio/L10/L10-czytanie-03.mp3",
+          "text": "Ja spędzam wakacje z wnukami na Kaszubach, w regionie zwanym Szwajcarią Kaszubską. Piękna kraina pełna pagórków, jezior, a wokół pola truskawkowe. Można posłuchać koncertów w amfiteatrze w kształcie odwróconej łodzi rybackiej lub zwiedzić słynny dom stojący na głowie. Z szacunkiem myślę o ludności kaszubskiej, która przez wieki zachowała swoją tożsamość, kulturę, a przede wszystkim język. Obowiązkowo trzeba też być w rezerwacie archeologicznym Kamienne Kręgi, gdzie jest cmentarzysko Gotów z II wieku naszej ery, drugie takie w Europie. Mój wnuk za to uwielbia muzeum parowozów, jak to chłopak.",
+          "tr": "Я проводжу канікули з онуками на Кашубах, у регіоні, що зветься Кашубською Швейцарією. Прекрасний край, повний пагорбів, озер, а навколо полуничні поля. Можна послухати концерти в амфітеатрі у формі перевернутого рибальського човна або відвідати славнозвісний будинок, що стоїть на голові. З повагою думаю про кашубський народ, який упродовж віків зберіг свою ідентичність, культуру, а передусім мову. Обов’язково треба також побувати в археологічному заповіднику «Кам’яні кола», де є цвинтар готів з II століття нашої ери, другий такий у Європі. А мій онук обожнює музей паровозів, як це у хлопців."
+        },
+        {
+          "type": "mono",
+          "title": "Małgorzata — Suwalszczyzna",
+          "audio": "audio/L10/L10-czytanie-04.mp3",
+          "text": "Mieszkam w dużym mieście, więc w lecie staram się uciekać od cywilizacji. Zwykle wybieram północno-wschodnią Polskę. Często bywam na Suwalszczyźnie. Oczywiście na kempingu, pod namiotem. Co można robić? Codziennie rano kąpać się w krystalicznie czystym jeziorze, łowić ryby, pływać łódką lub kajakiem, spacerować po lesie i zbierać jagody albo grzyby. Uwielbiam tamtejszy krajobraz. Pofałdowany teren, głazy, pola, bociany na łące. Warto spędzić przynajmniej jeden dzień na spływie kajakowym. Jedzenie, nawet to najprostsze, smakuje jak nigdzie indziej. Warto też pojechać na Litwę i spędzić weekend w Wilnie lub jego okolicach.",
+          "tr": "Я живу у великому місті, тож улітку намагаюся втекти від цивілізації. Зазвичай обираю північно-східну Польщу. Часто буваю на Сувальщині. Звичайно ж, у кемпінгу, під наметом. Що можна робити? Щоранку купатися в кристально чистому озері, ловити рибу, плавати човном або каяком, гуляти лісом і збирати ягоди чи гриби. Обожнюю тамтешній краєвид. Горбиста місцевість, валуни, поля, лелеки на луці. Варто провести хоча б один день на сплаві каяками. Їжа, навіть найпростіша, смакує як ніде інде. Варто також поїхати до Литви й провести вихідні у Вільнюсі чи його околицях."
+        },
+        {
+          "type": "mono",
+          "title": "Marek — Kazimierz nad Wisłą",
+          "audio": "audio/L10/L10-czytanie-05.mp3",
+          "text": "Na wiosnę i w lecie nie ma nic piękniejszego od Kazimierza nad Wisłą. Głównie z powodu jego bajkowej atmosfery. Spędzam w tym malowniczym miasteczku każdy długi weekend, zwiedzając również na rowerze jego okolice. Widok na Wisłę z wysokiego brzegu jest jedyny i niepowtarzalny, a dookoła mamy jeszcze do dyspozycji skałki do wspinaczki. Od lat nocuję w tym samym pensjonacie, w starej willi z pięknym ogrodem. Wiele czytałem o burzliwej historii Kazimierza. Utrwalam też na zdjęciach jego wyjątkową architekturę. W Kazimierzu jest wiele galerii. W końcu to miasto artystów. Tu też odbywa się znany festiwal filmowy Dwa Brzegi, a samo miasto wykorzystywane było jako plener w wielu filmach.",
+          "tr": "Навесні та влітку немає нічого красивішого за Казімеж-над-Віслою. Головним чином через його казкову атмосферу. Я проводжу в цьому мальовничому містечку кожні довгі вихідні, оглядаючи також на велосипеді його околиці. Краєвид на Віслу з високого берега єдиний і неповторний, а навколо ще маємо до диспозиції скелі для скелелазіння. Уже багато років ночую в тому самому пансіонаті, у старій віллі з гарним садом. Багато читав про бурхливу історію Казімежа. Закарбовую також на фотографіях його виняткову архітектуру. У Казімежі багато галерей. Зрештою це місто митців. Тут також відбувається відомий кінофестиваль «Два береги», а саме місто використовувалося як натура в багатьох фільмах."
+        },
+        {
+          "type": "mono",
+          "title": "Antonina — Bieszczady",
+          "audio": "audio/L10/L10-czytanie-06.mp3",
+          "text": "Którzy nie mogli sobie nigdzie znaleźć miejsca. To te tereny zamieszkiwali Łemkowie, po których zostały tylko drewniane cerkwie. Ich historie spisane są w wielu książkach, piosenkach, wierszach. Bieszczady nie są już tak dzikie jak kiedyś, ale wciąż można tu spotkać rysia, niedźwiedzia albo wilka.",
+          "tr": "…які не могли ніде знайти собі місця. Ці терени населяли лемки, по яких залишилися тільки дерев’яні церкви. Їхні історії записані в багатьох книжках, піснях, віршах. Бещади вже не такі дикі, як колись, але досі тут можна зустріти рись, ведмедя або вовка."
+        },
+        {
+          "type": "mono",
+          "title": "Michał — Sudety i Dolny Śląsk",
+          "audio": "audio/L10/L10-czytanie-07.mp3",
+          "text": "W Sudetach, jak w kalejdoskopie, znajdziemy wszystko. Cudowne krajobrazy, niezwykłe zjawiska geologiczne, zamki, stylowe uzdrowiska. Nad tym wszystkim unosi się duch dziedzictwa wielu kultur: niemieckiej, czeskiej, polskiej. Co wybrać? Wizytę w podziemnej kopalni czy kąpiel w wodach termalnych? Wycieczkę po górach czy po zabytkach sakralnych różnych epok i wyznań? A może poszukać śladów dawnych pogańskich kultów? Na Dolnym Śląsku jest wszystko, a ja mam szczególny sentyment do tego regionu, bo moja mama urodziła się we Wrocławiu i zawsze podróżowaliśmy po jego bliższych czy dalszych okolicach.",
+          "tr": "У Судетах, як у калейдоскопі, знайдемо все. Чудові краєвиди, незвичайні геологічні явища, замки, стильні курорти. Над усім цим витає дух спадщини багатьох культур: німецької, чеської, польської. Що обрати? Візит у підземну шахту чи купання в термальних водах? Прогулянку горами чи поміж сакральними пам’ятками різних епох і віросповідань? А може, пошукати слідів давніх язичницьких культів? У Нижній Сілезії є все, а я маю особливу прихильність до цього регіону, бо моя мама народилася у Вроцлаві, і ми завжди подорожували його ближчими чи дальшими околицями."
+        },
+        {
+          "type": "mono",
+          "title": "Danuta — Zakopane i Tatry",
+          "audio": "audio/L10/L10-czytanie-08.mp3",
+          "text": "Gdzie telefony nie mają zasięgu, a niebo w nocy jest tak blisko, że można dotknąć gwiazd. No i wszystko jest zatopione w absolutnej ciszy. Zawsze też, przynajmniej kwadrans, muszę pobyć na starym cmentarzu, gdzie między innymi w symbolicznym grobie leży Witkacy, który tu żył i tworzył.",
+          "tr": "…де телефони не мають зв’язку, а небо вночі так близько, що можна торкнутися зірок. Ну і все занурене в абсолютну тишу. Завжди також хоча б чверть години мушу побути на старому цвинтарі, де серед інших у символічній могилі лежить Віткаци, який тут жив і творив."
+        }
+      ]
+    },
+    {
+      "block": "B. Ewa zaprasza Iwonę · трек 210B5",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Iwona i Ewa — telefon",
+          "audio": "audio/L10/L10-czytanie-09.mp3",
+          "lines": [
+            [
+              "Iwona",
+              "Halo? A to ty, Ewciu, nie poznałam. Co u was? Wieki się nie słyszeliśmy.",
+              "Алло? А це ти, Евцю, не впізнала. Як у вас? Сто років не чулися."
+            ],
+            [
+              "Ewa",
+              "Dzwonię z zaproszeniem. Może wpadniecie do nas w przyszłą niedzielę na grilla, na działkę? Zachęcam. Zbyszek serwuje swoją słynną karkówkę.",
+              "Дзвоню із запрошенням. Може, зазирнете до нас наступної неділі на гриль, на дачу? Заохочую. Збишек подає свою знамениту шию (свинячу)."
+            ],
+            [
+              "Iwona",
+              "Dzięki, ale akurat w ten weekend jedziemy za miasto. Wiesz, znalazłam bardzo atrakcyjną ofertę na wynajem domku letniskowego w górach. Wszystko wygląda świetnie. Taras z widokiem na góry, drewniane meble, wyposażona kuchnia, kominek, cisza, spokój i tylko stówka za dobę.",
+              "Дякую, але якраз цими вихідними ми їдемо за місто. Знаєш, я знайшла дуже привабливу пропозицію оренди дачного будиночка в горах. Усе виглядає чудово. Тераса з видом на гори, дерев’яні меблі, обладнана кухня, камін, тиша, спокій і лише сотня за добу."
+            ],
+            [
+              "Ewa",
+              "Zaraz, zaraz. Gdzie to znalazłaś? A może to z polecenia?",
+              "Стривай, стривай. Де ти це знайшла? А може, це за рекомендацією?"
+            ],
+            [
+              "Iwona",
+              "Ach nie, ogłoszenie znalazłam na stronie jakiegoś biura. Nawet nie pamiętam, jak się nazywa.",
+              "Ах ні, оголошення знайшла на сайті якоїсь агенції. Навіть не пам’ятаю, як називається."
+            ],
+            [
+              "Ewa",
+              "To trochę ryzykowne, nie uważasz? Niesprawdzone oferty, nawet super korzystne, to często nabijanie klienta w butelkę. Pamiętam, jak…",
+              "Це трохи ризиковано, не вважаєш? Неперевірені пропозиції, навіть надзвичайно вигідні, часто це обдурювання клієнта. Пам’ятаю, як…"
+            ],
+            [
+              "Iwona",
+              "Nie kracz. Wszystko będzie dobrze. Jestem o tym przekonana, więc i tak mnie nie zniechęcisz.",
+              "Не каркай. Усе буде добре. Я в цьому переконана, тож і так мене не відмовиш."
+            ],
+            [
+              "Ewa",
+              "Gdyby jednak coś było nie tak, pamiętaj. Ostrzegałam.",
+              "Якби все ж щось пішло не так, пам’ятай. Я попереджала."
+            ]
+          ]
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 10 — треки 210A1, 210A4, 210B1, 210B5. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "mono", "title": "Regiony Polski — fakty · zeszyt cw09", "audio": "audio/L10/L10-zeszyt-01.mp3",
+    {
+      "type": "mono",
+      "title": "Regiony Polski — fakty · zeszyt cw09",
+      "audio": "audio/L10/L10-zeszyt-01.mp3",
       "text": "Kaszuby to region kulturowy w północnej Polsce. Suwalszczyzna jako kraina historyczna leży na terenie północno-wschodniej Polski i zachodniej Litwy. Tatry – najwyższe pasmo Karpat, z czego około 25% należy do Polski, a około 75% do Słowacji. Kazimierz Dolny – miasto nad Wisłą. Bieszczady znajdują się na terenie południowo-wschodniej Polski, Ukrainy i Słowacji. Sudety to łańcuch górski na obszarze południowo-zachodniej Polski i północnych Czech.",
-      "tr": "Кашуби — це культурний регіон у північній Польщі. Сувальщина як історичний край лежить на території північно-східної Польщі та західної Литви. Татри — найвище пасмо Карпат, з якого близько 25% належить Польщі, а близько 75% Словаччині. Казімеж-Дольний — місто над Віслою. Бещади розташовані на території південно-східної Польщі, України та Словаччини. Судети — це гірський ланцюг на території південно-західної Польщі та північної Чехії." }
+      "tr": "Кашуби — це культурний регіон у північній Польщі. Сувальщина як історичний край лежить на території північно-східної Польщі та західної Литви. Татри — найвище пасмо Карпат, з якого близько 25% належить Польщі, а близько 75% Словаччині. Казімеж-Дольний — місто над Віслою. Бещади розташовані на території південно-східної Польщі, України та Словаччини. Судети — це гірський ланцюг на території південно-західної Польщі та північної Чехії."
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 10, ćw. 9 (трек 27409). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "checklist": [
-    { "text": "Написати запит / mail з проханням про інформацію", "sub": "ofertę, terminy, formę płatności, zaliczkę, mapę dojazdu" },
-    { "text": "Утворити miejscownik після w / na / o / przy / po", "sub": "góra → w górach, Wisła → nad Wisłą, miasto → w mieście" },
-    { "text": "Утворити wołacz однини", "sub": "ж. -a → -o/-u (Anno! Ewciu!), ч. → -u/-e (Tomaszu! panie!)" },
-    { "text": "Знати, що wołacz l. mn. = mianownik l. mn.", "sub": "Drodzy panowie! Drogie panie! Drogie dzieci!" },
-    { "text": "Розповісти про туристичні принади регіонів Польщі", "sub": "Kaszuby, Suwalszczyzna, Tatry, Bieszczady, Sudety, Kazimierz" }
+    {
+      "text": "Написати запит / mail з проханням про інформацію",
+      "sub": "ofertę, terminy, formę płatności, zaliczkę, mapę dojazdu"
+    },
+    {
+      "text": "Утворити miejscownik після w / na / o / przy / po",
+      "sub": "góra → w górach, Wisła → nad Wisłą, miasto → w mieście"
+    },
+    {
+      "text": "Утворити wołacz однини",
+      "sub": "ж. -a → -o/-u (Anno! Ewciu!), ч. → -u/-e (Tomaszu! panie!)"
+    },
+    {
+      "text": "Знати, що wołacz l. mn. = mianownik l. mn.",
+      "sub": "Drodzy panowie! Drogie panie! Drogie dzieci!"
+    },
+    {
+      "text": "Розповісти про туристичні принади регіонів Польщі",
+      "sub": "Kaszuby, Suwalszczyzna, Tatry, Bieszczady, Sudety, Kazimierz"
+    }
   ],
-
   "quiz": [
-    { "topic": "słownictwo", "q": "Що означає польське «wścibski»?",
-      "o": ["щедрий","допитливий, що пхає носа","забудькуватий"], "a": 1,
-      "fb": "«Wścibski» — той, що пхає носа в чужі справи. Саме такі сусідки пані Крися й пані Ясю." },
-    { "topic": "dialog", "q": "Чим хочуть скористатися сусідки, щоб побачити, що привіз Javier?",
-      "o": ["lornetka (бінокль)","aparat","drabina"], "a": 0,
-      "fb": "Pani Krysia питає: «Ma pani jeszcze tę lornetkę? Tę po świętej pamięci mężu?»." },
-    { "topic": "dialog", "q": "Що насправді привіз Javier зі своєї подорожі?",
-      "o": ["żywe ptaki tukany","drewniane rzeźby tukanów","obrazy"], "a": 1,
-      "fb": "Javier: «kupiłem trochę drewnianych rzeźb… Tylko 20 malutkich tukanów» — це дерев’яні скульптури." },
-    { "topic": "miejscownik", "q": "Правильна форма: «Spędzam wakacje w ___» (góry).",
-      "o": ["górach","górami","góry"], "a": 0,
-      "fb": "Після прийменника «w» — miejscownik множини: góry → w górach." },
-    { "topic": "miejscownik", "q": "Доповніть: «Nocuję w starej ___» (willa).",
-      "o": ["willę","willi","willą"], "a": 1,
-      "fb": "Прийменник «w» + miejscownik: willa → w willi. Так само Marek: «w starej willi»." },
-    { "topic": "miejscownik", "q": "Як буде «nad Wisłą» у місцевому: «Myślę o ___»?",
-      "o": ["Wiśle","Wisłą","Wisły"], "a": 0,
-      "fb": "Miejscownik від «Wisła» — o Wiśle (зміна ł → l). Місто зветься Kazimierz nad Wisłą." },
-    { "topic": "wołacz", "q": "Кличний відмінок від «Ewcia»: «Cześć, ___!»",
-      "o": ["Ewcia","Ewciu","Ewcią"], "a": 1,
-      "fb": "Жіночі зменшені на -a у wołaczu мають -u: Ewcia → Ewciu! (як у діалозі: «A to ty, Ewciu»)." },
-    { "topic": "wołacz", "q": "Який wołacz від «pan»?",
-      "o": ["panie!","panu!","pana!"], "a": 0,
-      "fb": "«Pan» — виняток: wołacz → panie! Так само Bóg → Boże!, ojciec → ojcze!" },
-    { "topic": "wołacz", "q": "Wołacz множини «drogi pan» (до кількох чоловіків) — це…",
-      "o": ["Drodzy panowie!","Drogim panom!","Drogich panów!"], "a": 0,
-      "fb": "Wołacz l. mn. = mianownik l. mn.: Drodzy panowie! Drogie panie! Drogie dzieci!" },
-    { "topic": "słownictwo", "q": "Що означає вислів «nabijać klienta w butelkę»?",
-      "o": ["частувати клієнта","обдурювати клієнта","хвалити клієнта"], "a": 1,
-      "fb": "«Nabijać kogoś w butelkę» = обдурювати. Ewa попереджає Iwonę про неперевірені пропозиції." }
+    {
+      "topic": "słownictwo",
+      "q": "Що означає польське «wścibski»?",
+      "o": [
+        "допитливий, що пхає носа",
+        "щедрий",
+        "забудькуватий"
+      ],
+      "a": 0,
+      "fb": "«Wścibski» — той, що пхає носа в чужі справи. Саме такі сусідки пані Крися й пані Ясю."
+    },
+    {
+      "topic": "dialog",
+      "q": "Чим хочуть скористатися сусідки, щоб побачити, що привіз Javier?",
+      "o": [
+        "aparat",
+        "lornetka (бінокль)",
+        "drabina"
+      ],
+      "a": 1,
+      "fb": "Pani Krysia питає: «Ma pani jeszcze tę lornetkę? Tę po świętej pamięci mężu?»."
+    },
+    {
+      "topic": "dialog",
+      "q": "Що насправді привіз Javier зі своєї подорожі?",
+      "o": [
+        "żywe ptaki tukany",
+        "obrazy",
+        "drewniane rzeźby tukanów"
+      ],
+      "a": 2,
+      "fb": "Javier: «kupiłem trochę drewnianych rzeźb… Tylko 20 malutkich tukanów» — це дерев’яні скульптури."
+    },
+    {
+      "topic": "miejscownik",
+      "q": "Правильна форма: «Spędzam wakacje w ___» (góry).",
+      "o": [
+        "górach",
+        "górami",
+        "góry"
+      ],
+      "a": 0,
+      "fb": "Після прийменника «w» — miejscownik множини: góry → w górach."
+    },
+    {
+      "topic": "miejscownik",
+      "q": "Доповніть: «Nocuję w starej ___» (willa).",
+      "o": [
+        "willę",
+        "willi",
+        "willą"
+      ],
+      "a": 1,
+      "fb": "Прийменник «w» + miejscownik: willa → w willi. Так само Marek: «w starej willi»."
+    },
+    {
+      "topic": "miejscownik",
+      "q": "Як буде «nad Wisłą» у місцевому: «Myślę o ___»?",
+      "o": [
+        "Wisłą",
+        "Wisły",
+        "Wiśle"
+      ],
+      "a": 2,
+      "fb": "Miejscownik від «Wisła» — o Wiśle (зміна ł → l). Місто зветься Kazimierz nad Wisłą."
+    },
+    {
+      "topic": "wołacz",
+      "q": "Кличний відмінок від «Ewcia»: «Cześć, ___!»",
+      "o": [
+        "Ewciu",
+        "Ewcia",
+        "Ewcią"
+      ],
+      "a": 0,
+      "fb": "Жіночі зменшені на -a у wołaczu мають -u: Ewcia → Ewciu! (як у діалозі: «A to ty, Ewciu»)."
+    },
+    {
+      "topic": "wołacz",
+      "q": "Який wołacz від «pan»?",
+      "o": [
+        "panu!",
+        "panie!",
+        "pana!"
+      ],
+      "a": 1,
+      "fb": "«Pan» — виняток: wołacz → panie! Так само Bóg → Boże!, ojciec → ojcze!"
+    },
+    {
+      "topic": "wołacz",
+      "q": "Wołacz множини «drogi pan» (до кількох чоловіків) — це…",
+      "o": [
+        "Drogim panom!",
+        "Drogich panów!",
+        "Drodzy panowie!"
+      ],
+      "a": 2,
+      "fb": "Wołacz l. mn. = mianownik l. mn.: Drodzy panowie! Drogie panie! Drogie dzieci!"
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що означає вислів «nabijać klienta w butelkę»?",
+      "o": [
+        "обдурювати клієнта",
+        "частувати клієнта",
+        "хвалити клієнта"
+      ],
+      "a": 0,
+      "fb": "«Nabijać kogoś w butelkę» = обдурювати. Ewa попереджає Iwonę про неперевірені пропозиції."
+    }
   ]
 }

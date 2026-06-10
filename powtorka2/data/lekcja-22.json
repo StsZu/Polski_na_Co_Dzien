@@ -2,53 +2,289 @@
   "id": "22",
   "title": "Muzeum?",
   "goal": "Повторюємо: висловлення захоплення й критичної думки · розмови про мистецтво (малярство, фотографія, виставки, вернісажі) · іменники на -um",
-
   "vocab": [
-    { "group": "Sztuka i wystawy — мистецтво й виставки", "items": [
-      ["widowisko","видовище / вистава"],["wystawa","виставка"],["wernisaż","вернісаж"],
-      ["malarstwo","малярство / живопис"],["rzeźba","скульптура"],["fotografia","фотографія"],
-      ["dzieło sztuki","витвір мистецтва"],["arcydzieło","шедевр"],["ekspozycja","експозиція"],
-      ["obraz","картина"],["płótno","полотно"],["farby","фарби"],["sztaluga","мольберт"],
-      ["szkic","ескіз / нарис"],["rękodzieło artystyczne","художнє рукоділля"],
-      ["sztuka ludowa","народне мистецтво"],["sztuka użytkowa","ужиткове мистецтво"]
-    ]},
-    { "group": "Ocena i wrażenia — оцінка та враження", "items": [
-      ["być pod wrażeniem","бути під враженням"],["zachwycić","захопити"],
-      ["urzekający","чарівний / захопливий"],["niepowtarzalny","неповторний"],
-      ["przemawiać do kogoś","промовляти / зворушувати когось"],["podziwiać","захоплюватися"],
-      ["iskra twórcza","творча іскра"],["prowokacja","провокація"],["rewelacja","сенсація"],
-      ["przyciągać uwagę","привертати увагу"],["dawać do myślenia","спонукати до роздумів"],
-      ["jedyny w swoim rodzaju","єдиний у своєму роді"],["kunszt","майстерність"]
-    ]},
-    { "group": "Praca przy wystawie — робота над виставкою", "items": [
-      ["dochód","дохід"],["zwabić","заманити / привабити"],["ujęcie tematu","трактування теми"],
-      ["odważyć się","наважитися"],["ubiegły","минулий"],["kulisy","куліси"],
-      ["utrwalić","увічнити / зафіксувати"],["patrzeć w dal","дивитися вдалину"],
-      ["ujęcie fotograficzne","фотографічний кадр"],["sceneria","декорація / антураж"],
-      ["wybrukowany","брукований"],["cień","тінь"],["przedsięwzięcie","задум / починання"],
-      ["czasochłonny","затратний за часом"],["kosztowny","коштовний / дорогий"]
-    ]},
-    { "group": "Plan muzeum — план музею", "items": [
-      ["militaria","військові експонати"],["numizmatyka","нумізматика"],
-      ["ceramika","кераміка"],["ryciny","гравюри"],["rysunki","рисунки"],["szkice","ескізи"],
-      ["galeria plakatu","галерея плаката"],["na pierwszym planie","на передньому плані"],
-      ["na drugim planie","на задньому плані"],["tło / w tle","тло / на тлі"]
-    ]}
+    {
+      "group": "Sztuka i wystawy — мистецтво й виставки",
+      "items": [
+        [
+          "widowisko",
+          "видовище / вистава"
+        ],
+        [
+          "wystawa",
+          "виставка"
+        ],
+        [
+          "wernisaż",
+          "вернісаж"
+        ],
+        [
+          "malarstwo",
+          "малярство / живопис"
+        ],
+        [
+          "rzeźba",
+          "скульптура"
+        ],
+        [
+          "fotografia",
+          "фотографія"
+        ],
+        [
+          "dzieło sztuki",
+          "витвір мистецтва"
+        ],
+        [
+          "arcydzieło",
+          "шедевр"
+        ],
+        [
+          "ekspozycja",
+          "експозиція"
+        ],
+        [
+          "obraz",
+          "картина"
+        ],
+        [
+          "płótno",
+          "полотно"
+        ],
+        [
+          "farby",
+          "фарби"
+        ],
+        [
+          "sztaluga",
+          "мольберт"
+        ],
+        [
+          "szkic",
+          "ескіз / нарис"
+        ],
+        [
+          "rękodzieło artystyczne",
+          "художнє рукоділля"
+        ],
+        [
+          "sztuka ludowa",
+          "народне мистецтво"
+        ],
+        [
+          "sztuka użytkowa",
+          "ужиткове мистецтво"
+        ]
+      ]
+    },
+    {
+      "group": "Ocena i wrażenia — оцінка та враження",
+      "items": [
+        [
+          "być pod wrażeniem",
+          "бути під враженням"
+        ],
+        [
+          "zachwycić",
+          "захопити"
+        ],
+        [
+          "urzekający",
+          "чарівний / захопливий"
+        ],
+        [
+          "niepowtarzalny",
+          "неповторний"
+        ],
+        [
+          "przemawiać do kogoś",
+          "промовляти / зворушувати когось"
+        ],
+        [
+          "podziwiać",
+          "захоплюватися"
+        ],
+        [
+          "iskra twórcza",
+          "творча іскра"
+        ],
+        [
+          "prowokacja",
+          "провокація"
+        ],
+        [
+          "rewelacja",
+          "сенсація"
+        ],
+        [
+          "przyciągać uwagę",
+          "привертати увагу"
+        ],
+        [
+          "dawać do myślenia",
+          "спонукати до роздумів"
+        ],
+        [
+          "jedyny w swoim rodzaju",
+          "єдиний у своєму роді"
+        ],
+        [
+          "kunszt",
+          "майстерність"
+        ]
+      ]
+    },
+    {
+      "group": "Praca przy wystawie — робота над виставкою",
+      "items": [
+        [
+          "dochód",
+          "дохід"
+        ],
+        [
+          "zwabić",
+          "заманити / привабити"
+        ],
+        [
+          "ujęcie tematu",
+          "трактування теми"
+        ],
+        [
+          "odważyć się",
+          "наважитися"
+        ],
+        [
+          "ubiegły",
+          "минулий"
+        ],
+        [
+          "kulisy",
+          "куліси"
+        ],
+        [
+          "utrwalić",
+          "увічнити / зафіксувати"
+        ],
+        [
+          "patrzeć w dal",
+          "дивитися вдалину"
+        ],
+        [
+          "ujęcie fotograficzne",
+          "фотографічний кадр"
+        ],
+        [
+          "sceneria",
+          "декорація / антураж"
+        ],
+        [
+          "wybrukowany",
+          "брукований"
+        ],
+        [
+          "cień",
+          "тінь"
+        ],
+        [
+          "przedsięwzięcie",
+          "задум / починання"
+        ],
+        [
+          "czasochłonny",
+          "затратний за часом"
+        ],
+        [
+          "kosztowny",
+          "коштовний / дорогий"
+        ]
+      ]
+    },
+    {
+      "group": "Plan muzeum — план музею",
+      "items": [
+        [
+          "militaria",
+          "військові експонати"
+        ],
+        [
+          "numizmatyka",
+          "нумізматика"
+        ],
+        [
+          "ceramika",
+          "кераміка"
+        ],
+        [
+          "ryciny",
+          "гравюри"
+        ],
+        [
+          "rysunki",
+          "рисунки"
+        ],
+        [
+          "szkice",
+          "ескізи"
+        ],
+        [
+          "galeria plakatu",
+          "галерея плаката"
+        ],
+        [
+          "na pierwszym planie",
+          "на передньому плані"
+        ],
+        [
+          "na drugim planie",
+          "на задньому плані"
+        ],
+        [
+          "tło / w tle",
+          "тло / на тлі"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Rzeczowniki zakończone na -um — іменники на -um",
       "note": "Іменники латинського походження на -um (muzeum, centrum, laboratorium…) — середнього роду. В однині вони НЕ відмінюються (форма однакова в усіх відмінках). У множині відмінюються за зразком середнього роду: -a, -ów, -om, -ach, -ami.",
       "table": {
-        "head": ["Przypadek","L. poj.","L. mn."],
+        "head": [
+          "Przypadek",
+          "L. poj.",
+          "L. mn."
+        ],
         "rows": [
-          ["Mianownik (хто/що)","muzeum, centrum","muze*a*, centr*a*"],
-          ["Dopełniacz (кого/чого)","muzeum","muze*ów*, centr*ów*"],
-          ["Celownik (кому/чому)","muzeum","muze*om*, centr*om*"],
-          ["Biernik (кого/що)","muzeum","muze*a*, centr*a*"],
-          ["Narzędnik (ким/чим)","muzeum","muze*ami*, centr*ami*"],
-          ["Miejscownik (про кого/що)","muzeum","muze*ach*, centr*ach*"]
+          [
+            "Mianownik (хто/що)",
+            "muzeum, centrum",
+            "muze*a*, centr*a*"
+          ],
+          [
+            "Dopełniacz (кого/чого)",
+            "muzeum",
+            "muze*ów*, centr*ów*"
+          ],
+          [
+            "Celownik (кому/чому)",
+            "muzeum",
+            "muze*om*, centr*om*"
+          ],
+          [
+            "Biernik (кого/що)",
+            "muzeum",
+            "muze*a*, centr*a*"
+          ],
+          [
+            "Narzędnik (ким/чим)",
+            "muzeum",
+            "muze*ami*, centr*ami*"
+          ],
+          [
+            "Miejscownik (про кого/що)",
+            "muzeum",
+            "muze*ach*, centr*ach*"
+          ]
         ]
       }
     },
@@ -60,110 +296,282 @@
     {
       "title": "Wyrażanie podziwu i krytyki — захоплення та критика",
       "table": {
-        "head": ["Podziw — захоплення","Krytyka — критика"],
+        "head": [
+          "Podziw — захоплення",
+          "Krytyka — критика"
+        ],
         "rows": [
-          ["Jestem pod silnym wrażeniem.","Niezbyt do mnie przemawia ten typ malarstwa."],
-          ["Zachwyciły mnie te obrazy!","Nie podobają mi się ani jego prace, ani ujęcie tematu."],
-          ["To twórca jedyny w swoim rodzaju!","Brakuje mi tu jakiejś iskry twórczej."],
-          ["Wywiera niesamowite wrażenie.","Prowokacja to za mało, aby mówić o wartościach."],
-          ["Mistrzowska kompozycja!","Przyciąga uwagę, ale bez rewelacji."]
+          [
+            "Jestem pod silnym wrażeniem.",
+            "Niezbyt do mnie przemawia ten typ malarstwa."
+          ],
+          [
+            "Zachwyciły mnie te obrazy!",
+            "Nie podobają mi się ani jego prace, ani ujęcie tematu."
+          ],
+          [
+            "To twórca jedyny w swoim rodzaju!",
+            "Brakuje mi tu jakiejś iskry twórczej."
+          ],
+          [
+            "Wywiera niesamowite wrażenie.",
+            "Prowokacja to za mało, aby mówić o wartościach."
+          ],
+          [
+            "Mistrzowska kompozycja!",
+            "Przyciąga uwagę, ale bez rewelacji."
+          ]
         ]
       }
     }
   ],
-
   "czytanie": [
-    { "block": "A. Opinie o wystawie · трек 222A5", "items": [
-      { "type": "mono", "title": "Opinia 1 — zachwyt", "audio": "audio/L22/L22-czytanie-01.mp3",
-        "text": "Jeśli chodzi o mnie, to jestem pod silnym wrażeniem tej wystawy. Zachwyciły mnie te obrazy, fantastyczne, urzekające, niepowtarzalne!",
-        "tr": "Що стосується мене, то я під сильним враженням від цієї виставки. Мене захопили ці картини — фантастичні, чарівні, неповторні!" },
-      { "type": "mono", "title": "Opinia 2 — krytyka", "audio": "audio/L22/L22-czytanie-02.mp3",
-        "text": "Prawdę mówiąc, niezbyt do mnie przemawia taki typ malarstwa. Wiem, że to powszechnie uznany i podziwiany artysta, ale nie podobają mi się ani jego prace, ani sposób ujęcia tematu.",
-        "tr": "Правду кажучи, такий тип малярства мене не дуже зачіпає. Знаю, що це загальновизнаний і шанований митець, але мені не подобаються ні його роботи, ні спосіб трактування теми." },
-      { "type": "mono", "title": "Opinia 3 — prowokacja", "audio": "audio/L22/L22-czytanie-03.mp3",
-        "text": "Sztuka nie może jedynie szokować. Sztuka musi coś wyrażać. Brakuje mi tu jakiejś iskry twórczej. Artystce się wydaje, że jeśli złamie wszystkie tabu i pokaże coś, czego nikt inny nie odważyłby się pokazać, to już wystarczy, żeby nazwać to dziełem. Według mnie prowokacja to za mało, aby mówić o wartościach estetycznych tych prac.",
-        "tr": "Мистецтво не може лише шокувати. Мистецтво має щось виражати. Мені тут бракує якоїсь творчої іскри. Художниці здається, що коли вона зламає всі табу й покаже щось, чого ніхто інший не наважився б показати, то цього вже досить, аби назвати це витвором. На мою думку, провокація — це замало, щоб говорити про естетичну цінність цих робіт." },
-      { "type": "mono", "title": "Opinia 4 — arcydzieła", "audio": "audio/L22/L22-czytanie-04.mp3",
-        "text": "To twórca jedyny w swoim rodzaju! Tak się cieszę, że mogłem obejrzeć te arcydzieła. Zwłaszcza obraz otwierający ekspozycję wywiera niesamowite wrażenie. Mistrzowska kompozycja, doskonały rysunek postaci!",
-        "tr": "Це митець єдиний у своєму роді! Я такий радий, що зміг побачити ці шедеври. Особливо картина, що відкриває експозицію, справляє неймовірне враження. Майстерна композиція, досконалий рисунок постатей!" },
-      { "type": "mono", "title": "Opinia 5 — bez rewelacji", "audio": "audio/L22/L22-czytanie-05.mp3",
-        "text": "Owszem, przyciąga uwagę, daje do myślenia, ale bez rewelacji. Wolę tradycyjne formy ekspresji. Nie do końca odpowiada mi ten styl. Po prostu nie wiem, czy pisuar może być dziełem sztuki?",
-        "tr": "Так, привертає увагу, спонукає до роздумів, але без сенсації. Я надаю перевагу традиційним формам вираження. Цей стиль мені не зовсім підходить. Просто не знаю, чи може пісуар бути витвором мистецтва?" }
-    ]},
-    { "block": "B. Wywiad z Hannele Tilles · трек 222B1", "items": [
-      { "type": "mono", "title": "Część I — pomysł wystawy", "audio": "audio/L22/L22-czytanie-06.mp3",
-        "text": "Hannele Tyles jest częstym gościem w Polsce i, mimo iż jest osobą szalenie zajętą, zawsze znajduje czas na naukę polskiego. Nasze lekcje zwykle przekształcają się w inspirujące dyskusje na temat sztuki, filmu, literatury, jednym słowem szeroko pojętej kultury. Upiekłej jesieni Hannele zorganizowała w Helsinkach dużą wystawę prac swojego ojca, Alvara Kolanena, czołowego fińskiego fotografa z połowy XX wieku. Teraz zgodziła się podzielić z nami swoimi wrażeniami i opowiedzieć o pracy przy wystawie od kuchni. Kiedy zrodził się pomysł wystawy? To było dziesięć lat temu. Wraz z dwoma braćmi, Risto i Jarim, chcieliśmy zorganizować pokaz najważniejszych prac ojca, które byłyby podsumowaniem jego twórczości. Może powinnam zacząć od krótkiej prezentacji ojca, gdyż wiem, że nasza kultura jest dość hermetyczna i nazwiska istotne dla Finów pozostają znane tylko w naszym kręgu. Alvar Kolanen był oficjalnym fotografem od Public Relations, odpowiedzialnym za utrwalanie wizerunku znanych artystów, gwiazd estrady czy świata mody. Warto pamiętać, że to nie były czasy wielkich agencji prasowych, kiedy sławni ludzie przed fotoreporterami szczelnie zamykają drzwi. Wprost przeciwnie, wówczas fotograf to także był ktoś zza kulis. Ktoś, kto dzięki swojej rzetelnej, a jednocześnie twórczej pracy stawał się jednym z nich. Ojciec często przebywał wśród tak zwanych sław, był zapraszany na scenę, do garderoby, na prywatne przyjęcia. Artyści obdarzali go zaufaniem, a ten bezpośredni, personalny kontakt owocował świetnymi fotografiami, ukazującymi coś więcej niż wygląd zewnętrzny. To prawda, że każda z utrwalonych na zdjęciach twarzy skupia na sobie uwagę oglądającego. Z równym zainteresowaniem przyglądamy się fotografiom Pola Anki, Irwina Gudmana, Inger Nilsson, filmowej Pippi Langstrumpf, co tym, z których spoglądają na nas zupełnie nieznani ludzie. W tych portretach widać kunszt fotografa.",
-        "tr": "Ганнеле Тіллес — частий гість у Польщі, і, попри те що вона страшенно зайнята людина, завжди знаходить час на вивчення польської. Наші уроки зазвичай перетворюються на надихаючі дискусії про мистецтво, кіно, літературу — одним словом, про культуру в широкому розумінні. Минулої осені Ганнеле організувала в Гельсінкі велику виставку робіт свого батька, Альвара Коланена, провідного фінського фотографа середини XX століття. Тепер вона погодилася поділитися з нами своїми враженнями й розповісти про роботу над виставкою «з кухні». Коли народилася ідея виставки? Це було десять років тому. Разом із двома братами, Рісто та Ярі, ми хотіли організувати показ найважливіших робіт батька, які стали б підсумком його творчості. Можливо, мені варто почати з короткої презентації батька, бо знаю, що наша культура доволі герметична й важливі для фінів прізвища залишаються відомими лише у нашому колі. Альвар Коланен був офіційним фотографом із public relations, відповідальним за фіксацію образу відомих артистів, зірок естради чи світу моди. Варто пам'ятати, що то не були часи великих інформагентств, коли відомі люди щільно зачиняють двері перед фоторепортерами. Навпаки — тоді фотограф був також кимось із-за куліс. Кимось, хто завдяки своїй сумлінній і водночас творчій праці ставав «одним із них». Батько часто перебував серед так званих «знаменитостей», його запрошували на сцену, до гримерки, на приватні прийоми. Артисти обдаровували його довірою, і цей безпосередній, особистий контакт давав чудові фотографії, що показували щось більше, ніж зовнішній вигляд. Це правда, що кожне увічнене на знімках обличчя зосереджує на собі увагу глядача. З однаковою цікавістю ми розглядаємо фотографії Пола Анки, Ірвіна Ґудмана, Інґер Нільссон (кіношної Пеппі Довгапанчохи), як і ті, з яких на нас дивляться зовсім незнайомі люди. У цих портретах видно майстерність фотографа." }
-    ]},
-    { "block": "B. Warsztat fotografa · трек 222B5", "items": [
-      { "type": "mono", "title": "Część II — warsztat Alvara", "audio": "audio/L22/L22-czytanie-07.mp3",
-        "text": "Czy mogłaby nam Pani opowiedzieć o warsztacie Alvara Colanena? To były zupełnie inne czasy. Sprzęt fotograficzny nie był tak powszechnie dostępny. Jego obsługa była skomplikowana. Wymagała wiedzy i sporych umiejętności. Ojciec był zafascynowany fotografią. Miał studio w domu, uczył się wszystkiego sam. Im więcej robił zdjęć, tym wyżej stawiał sobie poprzeczkę, aż doszedł do momentu, kiedy osiągnął profesjonalizm. Fotografie ojca stały się cząstką naszego rodzinnego życia. Matka wywoływała zdjęcia, a wszyscy razem służyliśmy jako modele. Ojciec eksperymentował z ruchem i światłem. Próbował uchwycić przez obiektyw coś więcej niż statyczną scenerię. Jedno z moich ulubionych zdjęć to fotografia dwóch dziewczynek biegnących leśną drogą. To ja i kuzynka, ale nie my jesteśmy tu istotne, lecz efekt ruchu, nasz bieg, który udało się ojcu utrwalić. Wszystkie rodzinne fotografie są bardzo ujmujące. Prosta, ale przemyślana kompozycja daje im dużą siłę wyrazu. Do mnie najbardziej przemawia ta, przedstawiająca dwoje dzieci stojących nad brzegiem morza, zapatrzonych w dal. Gdzieś na drugim planie stoją dwie inne postacie, prawie niewidoczne, ale doskonale zamykające kompozycję kadru. Inna fotografia, która przychodzi mi na myśl, to ujęcie wąskiej, stromej, wybrukowanej uliczki. Idzie nią kobieta. W jej cieni gra świateł na kamieniach, różne odcienie szarości tworzą niesamowicie plastyczny efekt.",
-        "tr": "Чи могли б Ви розповісти нам про творчу майстерню Альвара Коланена? То були зовсім інші часи. Фотографічне обладнання не було таким загальнодоступним. Користуватися ним було складно. Воно вимагало знань і неабияких умінь. Батько був захоплений фотографією. Мав студію вдома, усього навчався сам. Що більше він робив знімків, то вище ставив собі планку, аж дійшов до моменту, коли досяг професіоналізму. Батькові фотографії стали частиною нашого родинного життя. Мама проявляла знімки, а всі ми разом слугували моделями. Батько експериментував із рухом і світлом. Намагався вловити через об'єктив щось більше, ніж статичну декорацію. Один із моїх улюблених знімків — це фотографія двох дівчаток, що біжать лісовою дорогою. Це я й двоюрідна сестра, але важливі тут не ми, а ефект руху — наш біг, який батькові вдалося увічнити. Усі родинні фотографії дуже зворушливі. Проста, але продумана композиція надає їм великої сили вираження. Мене найбільше зачіпає та, що зображує двох дітей, які стоять на березі моря, задивившись удалину. Десь на задньому плані стоять дві інші постаті — майже невидимі, але чудово замикають композицію кадру. Інша фотографія, що спадає мені на думку, — це кадр вузької, крутої, брукованої вулички. Нею йде жінка. У її тіні гра світла на каменях, різні відтінки сірого створюють надзвичайно пластичний ефект." }
-    ]},
-    { "block": "B. Przygotowanie wystawy · трек 222B7", "items": [
-      { "type": "mono", "title": "Część III — przygotowania", "audio": "audio/L22/L22-czytanie-08.mp3",
-        "text": "Długo można by wymieniać kolejne znakomite zdjęcia. Wróćmy jednak do wystawy. Dlaczego nie udało się zorganizować jej dziesięć lat temu? To było zbyt skomplikowane przedsięwzięcie z przyczyn technicznych. Dysponowaliśmy ogromną kolekcją zdjęć ojca, 35 tysięcy fotografii. Należało je zeskanować. Jednakże proces ten, ze względu na niższy poziom technologii, był wtedy bardzo kosztowny, a przede wszystkim zbyt czasochłonny. Do pomysłu wróciliśmy dwa lata temu. Zaczął się czas wytężonej pracy, skanowanie i obróbka techniczna zdjęć, wybieranie tych najciekawszych, czy z jakichś względów najważniejszych i klasyfikowanie ich. Wreszcie długie godziny spędzone w bibliotece, gdzie miałam dostęp do mikrofilmów zaprojektowanymi przez ojca okładkami czasopism i płyt. Alvar Kolanen pracował dla kilku wytwórni muzycznych i to w okresie złotego wieku fińskiej muzyki pop. Tam też przeglądałam artykuły sprzed lat ilustrowane jego fotografiami. Często pracowałam po 12 godzin. Starałam się maksymalnie wykorzystać każdy pobyt w Finlandii, gdzie w sumie spędzałam ponad dwa miesiące rocznie, jeżdżąc to na kilka dni, to na tydzień, to na dwa. Jednym słowem, przez te ostatnie lata siedziała Pani na walizkach. Tak, wciąż byłam w podróży między Londynem, gdzie teraz mieszkam, a Helsinkami. Warto jednak było włożyć w ten projekt tyle wysiłku.",
-        "tr": "Довго можна було б перелічувати наступні чудові знімки. Повернімося, однак, до виставки. Чому не вдалося організувати її десять років тому? Це був надто складний задум з технічних причин. Ми мали величезну колекцію батькових знімків — 35 тисяч фотографій. Їх треба було відсканувати. Однак цей процес, через нижчий рівень технологій, був тоді дуже коштовним, а передусім надто затратним за часом. До ідеї ми повернулися два роки тому. Почався час напруженої праці — сканування й технічна обробка знімків, вибір найцікавіших чи з якихось причин найважливіших і класифікація їх. Нарешті — довгі години, проведені в бібліотеці, де я мала доступ до мікрофільмів із заспроектованими батьком обкладинками часописів і платівок. Альвар Коланен працював для кількох музичних студій, і то в період золотого віку фінської поп-музики. Там я також переглядала статті багаторічної давнини, ілюстровані його фотографіями. Часто я працювала по 12 годин. Намагалася максимально використати кожне перебування у Фінляндії, де загалом проводила понад два місяці на рік, їздячи то на кілька днів, то на тиждень, то на два. Одним словом, ці останні роки Ви провели «на валізах». Так, я постійно була в дорозі між Лондоном, де тепер живу, і Гельсінкі. Однак варто було вкласти в цей проєкт стільки зусиль." }
-    ]},
-    { "block": "B. Wernisaż · трек 222B9", "items": [
-      { "type": "mono", "title": "Część IV — wernisaż i sukces", "audio": "audio/L22/L22-czytanie-09.mp3",
-        "text": "Wystawa otwarta w październiku 2010 roku cieszyła się wielką popularnością. Ponoć żadna z wystaw w galerii Laterna Madzika nie odniosła jeszcze takiego sukcesu. Na sam wernisaż przybyło 150 osób. Wśród nich pięć naprawdę ważnych osobistości. Goście mogli podziwiać 75 zdjęć wyeksponowanych w bardzo nowoczesny sposób, bezpośrednio na murze. Fotografie podzielone były na osiem kategorii. Promocja, politycy i artyści, piosenkarze na scenie, świat mody, film i telewizja, ojciec dokumentował początki telewizji w Finlandii, za kulisami, Helsinki, rodzina i wreszcie okładki płyt i czasopism. Dodatkowo atmosferę budowała muzyka. To muzyka z czasów naszej młodości, mówili zwiedzający. Dla niejednego z nich wystawa była wzruszającym powrotem do przeszłości. Trzeba pamiętać, że wiele ze zdjęć Alvara Kolanena stało się kultowymi fotografiami, wręcz ikonami tamtych lat, które promowały i wzbogacały naszą fińską kulturę. Miło było w czasie wernisażu słuchać ciepłych komentarzy, odczuwać serdeczną reakcję ludzi. Nic dziwnego, że potem w prasie ukazało się aż 11 artykułów dotyczących zarówno ojca, jak i samej ekspozycji. Zaproponowano nam także zaprezentowanie wystawy w trzech innych miastach. Również przygotowana przez nas książka z fotografiami Alvara Kolanena i krótkimi komentarzami rozeszła się bardzo szybko. Planujemy teraz wydanie wywiadów z ówczesnymi gwiazdami Estrady, które opowiedziałyby jak z perspektywy czasu patrzą na tamte lata. Pozostaje mi pogratulować serdecznie sukcesu i życzyć powodzenia w realizacji kolejnych przedsięwzięć. Dziękuję za rozmowę, która przybliżyła nam tak ciekawą twórczość Alvara Kolanena.",
-        "tr": "Виставка, відкрита в жовтні 2010 року, мала велику популярність. Кажуть, жодна з виставок у галереї «Laterna Magica» ще не мала такого успіху. На сам вернісаж прийшло 150 осіб. Серед них п'ять справді важливих особистостей. Гості могли милуватися 75 знімками, експонованими в дуже сучасний спосіб — безпосередньо на стіні. Фотографії були поділені на вісім категорій: промоція (політики й артисти), співаки на сцені, світ моди, кіно й телебачення (батько документував початки телебачення у Фінляндії), за кулісами, Гельсінкі, родина і нарешті обкладинки платівок та часописів. Додатково атмосферу створювала музика. «Це музика часів нашої молодості», — казали відвідувачі. Для багатьох із них виставка була зворушливим поверненням у минуле. Треба пам'ятати, що багато знімків Альвара Коланена стали культовими фотографіями, чи не іконами тих років, які промували й збагачували нашу фінську культуру. Приємно було під час вернісажу слухати теплі коментарі, відчувати щиру реакцію людей. Не дивно, що потім у пресі з'явилося аж 11 статей, що стосувалися як батька, так і самої експозиції. Нам також запропонували презентувати виставку в трьох інших містах. Також підготовлена нами книжка з фотографіями Альвара Коланена й короткими коментарями розійшлася дуже швидко. Тепер ми плануємо видати інтерв'ю з тодішніми зірками естради, які розповіли б, як з перспективи часу дивляться на ті роки. Мені залишається щиро привітати з успіхом і побажати успіхів у реалізації наступних починань. Дякую за розмову, яка наблизила нам таку цікаву творчість Альвара Коланена." }
-    ]}
+    {
+      "block": "A. Opinie o wystawie · трек 222A5",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Opinia 1 — zachwyt",
+          "audio": "audio/L22/L22-czytanie-01.mp3",
+          "text": "Jeśli chodzi o mnie, to jestem pod silnym wrażeniem tej wystawy. Zachwyciły mnie te obrazy, fantastyczne, urzekające, niepowtarzalne!",
+          "tr": "Що стосується мене, то я під сильним враженням від цієї виставки. Мене захопили ці картини — фантастичні, чарівні, неповторні!"
+        },
+        {
+          "type": "mono",
+          "title": "Opinia 2 — krytyka",
+          "audio": "audio/L22/L22-czytanie-02.mp3",
+          "text": "Prawdę mówiąc, niezbyt do mnie przemawia taki typ malarstwa. Wiem, że to powszechnie uznany i podziwiany artysta, ale nie podobają mi się ani jego prace, ani sposób ujęcia tematu.",
+          "tr": "Правду кажучи, такий тип малярства мене не дуже зачіпає. Знаю, що це загальновизнаний і шанований митець, але мені не подобаються ні його роботи, ні спосіб трактування теми."
+        },
+        {
+          "type": "mono",
+          "title": "Opinia 3 — prowokacja",
+          "audio": "audio/L22/L22-czytanie-03.mp3",
+          "text": "Sztuka nie może jedynie szokować. Sztuka musi coś wyrażać. Brakuje mi tu jakiejś iskry twórczej. Artystce się wydaje, że jeśli złamie wszystkie tabu i pokaże coś, czego nikt inny nie odważyłby się pokazać, to już wystarczy, żeby nazwać to dziełem. Według mnie prowokacja to za mało, aby mówić o wartościach estetycznych tych prac.",
+          "tr": "Мистецтво не може лише шокувати. Мистецтво має щось виражати. Мені тут бракує якоїсь творчої іскри. Художниці здається, що коли вона зламає всі табу й покаже щось, чого ніхто інший не наважився б показати, то цього вже досить, аби назвати це витвором. На мою думку, провокація — це замало, щоб говорити про естетичну цінність цих робіт."
+        },
+        {
+          "type": "mono",
+          "title": "Opinia 4 — arcydzieła",
+          "audio": "audio/L22/L22-czytanie-04.mp3",
+          "text": "To twórca jedyny w swoim rodzaju! Tak się cieszę, że mogłem obejrzeć te arcydzieła. Zwłaszcza obraz otwierający ekspozycję wywiera niesamowite wrażenie. Mistrzowska kompozycja, doskonały rysunek postaci!",
+          "tr": "Це митець єдиний у своєму роді! Я такий радий, що зміг побачити ці шедеври. Особливо картина, що відкриває експозицію, справляє неймовірне враження. Майстерна композиція, досконалий рисунок постатей!"
+        },
+        {
+          "type": "mono",
+          "title": "Opinia 5 — bez rewelacji",
+          "audio": "audio/L22/L22-czytanie-05.mp3",
+          "text": "Owszem, przyciąga uwagę, daje do myślenia, ale bez rewelacji. Wolę tradycyjne formy ekspresji. Nie do końca odpowiada mi ten styl. Po prostu nie wiem, czy pisuar może być dziełem sztuki?",
+          "tr": "Так, привертає увагу, спонукає до роздумів, але без сенсації. Я надаю перевагу традиційним формам вираження. Цей стиль мені не зовсім підходить. Просто не знаю, чи може пісуар бути витвором мистецтва?"
+        }
+      ]
+    },
+    {
+      "block": "B. Wywiad z Hannele Tilles · трек 222B1",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Część I — pomysł wystawy",
+          "audio": "audio/L22/L22-czytanie-06.mp3",
+          "text": "Hannele Tyles jest częstym gościem w Polsce i, mimo iż jest osobą szalenie zajętą, zawsze znajduje czas na naukę polskiego. Nasze lekcje zwykle przekształcają się w inspirujące dyskusje na temat sztuki, filmu, literatury, jednym słowem szeroko pojętej kultury. Upiekłej jesieni Hannele zorganizowała w Helsinkach dużą wystawę prac swojego ojca, Alvara Kolanena, czołowego fińskiego fotografa z połowy XX wieku. Teraz zgodziła się podzielić z nami swoimi wrażeniami i opowiedzieć o pracy przy wystawie od kuchni. Kiedy zrodził się pomysł wystawy? To było dziesięć lat temu. Wraz z dwoma braćmi, Risto i Jarim, chcieliśmy zorganizować pokaz najważniejszych prac ojca, które byłyby podsumowaniem jego twórczości. Może powinnam zacząć od krótkiej prezentacji ojca, gdyż wiem, że nasza kultura jest dość hermetyczna i nazwiska istotne dla Finów pozostają znane tylko w naszym kręgu. Alvar Kolanen był oficjalnym fotografem od Public Relations, odpowiedzialnym za utrwalanie wizerunku znanych artystów, gwiazd estrady czy świata mody. Warto pamiętać, że to nie były czasy wielkich agencji prasowych, kiedy sławni ludzie przed fotoreporterami szczelnie zamykają drzwi. Wprost przeciwnie, wówczas fotograf to także był ktoś zza kulis. Ktoś, kto dzięki swojej rzetelnej, a jednocześnie twórczej pracy stawał się jednym z nich. Ojciec często przebywał wśród tak zwanych sław, był zapraszany na scenę, do garderoby, na prywatne przyjęcia. Artyści obdarzali go zaufaniem, a ten bezpośredni, personalny kontakt owocował świetnymi fotografiami, ukazującymi coś więcej niż wygląd zewnętrzny. To prawda, że każda z utrwalonych na zdjęciach twarzy skupia na sobie uwagę oglądającego. Z równym zainteresowaniem przyglądamy się fotografiom Pola Anki, Irwina Gudmana, Inger Nilsson, filmowej Pippi Langstrumpf, co tym, z których spoglądają na nas zupełnie nieznani ludzie. W tych portretach widać kunszt fotografa.",
+          "tr": "Ганнеле Тіллес — частий гість у Польщі, і, попри те що вона страшенно зайнята людина, завжди знаходить час на вивчення польської. Наші уроки зазвичай перетворюються на надихаючі дискусії про мистецтво, кіно, літературу — одним словом, про культуру в широкому розумінні. Минулої осені Ганнеле організувала в Гельсінкі велику виставку робіт свого батька, Альвара Коланена, провідного фінського фотографа середини XX століття. Тепер вона погодилася поділитися з нами своїми враженнями й розповісти про роботу над виставкою «з кухні». Коли народилася ідея виставки? Це було десять років тому. Разом із двома братами, Рісто та Ярі, ми хотіли організувати показ найважливіших робіт батька, які стали б підсумком його творчості. Можливо, мені варто почати з короткої презентації батька, бо знаю, що наша культура доволі герметична й важливі для фінів прізвища залишаються відомими лише у нашому колі. Альвар Коланен був офіційним фотографом із public relations, відповідальним за фіксацію образу відомих артистів, зірок естради чи світу моди. Варто пам'ятати, що то не були часи великих інформагентств, коли відомі люди щільно зачиняють двері перед фоторепортерами. Навпаки — тоді фотограф був також кимось із-за куліс. Кимось, хто завдяки своїй сумлінній і водночас творчій праці ставав «одним із них». Батько часто перебував серед так званих «знаменитостей», його запрошували на сцену, до гримерки, на приватні прийоми. Артисти обдаровували його довірою, і цей безпосередній, особистий контакт давав чудові фотографії, що показували щось більше, ніж зовнішній вигляд. Це правда, що кожне увічнене на знімках обличчя зосереджує на собі увагу глядача. З однаковою цікавістю ми розглядаємо фотографії Пола Анки, Ірвіна Ґудмана, Інґер Нільссон (кіношної Пеппі Довгапанчохи), як і ті, з яких на нас дивляться зовсім незнайомі люди. У цих портретах видно майстерність фотографа."
+        }
+      ]
+    },
+    {
+      "block": "B. Warsztat fotografa · трек 222B5",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Część II — warsztat Alvara",
+          "audio": "audio/L22/L22-czytanie-07.mp3",
+          "text": "Czy mogłaby nam Pani opowiedzieć o warsztacie Alvara Colanena? To były zupełnie inne czasy. Sprzęt fotograficzny nie był tak powszechnie dostępny. Jego obsługa była skomplikowana. Wymagała wiedzy i sporych umiejętności. Ojciec był zafascynowany fotografią. Miał studio w domu, uczył się wszystkiego sam. Im więcej robił zdjęć, tym wyżej stawiał sobie poprzeczkę, aż doszedł do momentu, kiedy osiągnął profesjonalizm. Fotografie ojca stały się cząstką naszego rodzinnego życia. Matka wywoływała zdjęcia, a wszyscy razem służyliśmy jako modele. Ojciec eksperymentował z ruchem i światłem. Próbował uchwycić przez obiektyw coś więcej niż statyczną scenerię. Jedno z moich ulubionych zdjęć to fotografia dwóch dziewczynek biegnących leśną drogą. To ja i kuzynka, ale nie my jesteśmy tu istotne, lecz efekt ruchu, nasz bieg, który udało się ojcu utrwalić. Wszystkie rodzinne fotografie są bardzo ujmujące. Prosta, ale przemyślana kompozycja daje im dużą siłę wyrazu. Do mnie najbardziej przemawia ta, przedstawiająca dwoje dzieci stojących nad brzegiem morza, zapatrzonych w dal. Gdzieś na drugim planie stoją dwie inne postacie, prawie niewidoczne, ale doskonale zamykające kompozycję kadru. Inna fotografia, która przychodzi mi na myśl, to ujęcie wąskiej, stromej, wybrukowanej uliczki. Idzie nią kobieta. W jej cieni gra świateł na kamieniach, różne odcienie szarości tworzą niesamowicie plastyczny efekt.",
+          "tr": "Чи могли б Ви розповісти нам про творчу майстерню Альвара Коланена? То були зовсім інші часи. Фотографічне обладнання не було таким загальнодоступним. Користуватися ним було складно. Воно вимагало знань і неабияких умінь. Батько був захоплений фотографією. Мав студію вдома, усього навчався сам. Що більше він робив знімків, то вище ставив собі планку, аж дійшов до моменту, коли досяг професіоналізму. Батькові фотографії стали частиною нашого родинного життя. Мама проявляла знімки, а всі ми разом слугували моделями. Батько експериментував із рухом і світлом. Намагався вловити через об'єктив щось більше, ніж статичну декорацію. Один із моїх улюблених знімків — це фотографія двох дівчаток, що біжать лісовою дорогою. Це я й двоюрідна сестра, але важливі тут не ми, а ефект руху — наш біг, який батькові вдалося увічнити. Усі родинні фотографії дуже зворушливі. Проста, але продумана композиція надає їм великої сили вираження. Мене найбільше зачіпає та, що зображує двох дітей, які стоять на березі моря, задивившись удалину. Десь на задньому плані стоять дві інші постаті — майже невидимі, але чудово замикають композицію кадру. Інша фотографія, що спадає мені на думку, — це кадр вузької, крутої, брукованої вулички. Нею йде жінка. У її тіні гра світла на каменях, різні відтінки сірого створюють надзвичайно пластичний ефект."
+        }
+      ]
+    },
+    {
+      "block": "B. Przygotowanie wystawy · трек 222B7",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Część III — przygotowania",
+          "audio": "audio/L22/L22-czytanie-08.mp3",
+          "text": "Długo można by wymieniać kolejne znakomite zdjęcia. Wróćmy jednak do wystawy. Dlaczego nie udało się zorganizować jej dziesięć lat temu? To było zbyt skomplikowane przedsięwzięcie z przyczyn technicznych. Dysponowaliśmy ogromną kolekcją zdjęć ojca, 35 tysięcy fotografii. Należało je zeskanować. Jednakże proces ten, ze względu na niższy poziom technologii, był wtedy bardzo kosztowny, a przede wszystkim zbyt czasochłonny. Do pomysłu wróciliśmy dwa lata temu. Zaczął się czas wytężonej pracy, skanowanie i obróbka techniczna zdjęć, wybieranie tych najciekawszych, czy z jakichś względów najważniejszych i klasyfikowanie ich. Wreszcie długie godziny spędzone w bibliotece, gdzie miałam dostęp do mikrofilmów zaprojektowanymi przez ojca okładkami czasopism i płyt. Alvar Kolanen pracował dla kilku wytwórni muzycznych i to w okresie złotego wieku fińskiej muzyki pop. Tam też przeglądałam artykuły sprzed lat ilustrowane jego fotografiami. Często pracowałam po 12 godzin. Starałam się maksymalnie wykorzystać każdy pobyt w Finlandii, gdzie w sumie spędzałam ponad dwa miesiące rocznie, jeżdżąc to na kilka dni, to na tydzień, to na dwa. Jednym słowem, przez te ostatnie lata siedziała Pani na walizkach. Tak, wciąż byłam w podróży między Londynem, gdzie teraz mieszkam, a Helsinkami. Warto jednak było włożyć w ten projekt tyle wysiłku.",
+          "tr": "Довго можна було б перелічувати наступні чудові знімки. Повернімося, однак, до виставки. Чому не вдалося організувати її десять років тому? Це був надто складний задум з технічних причин. Ми мали величезну колекцію батькових знімків — 35 тисяч фотографій. Їх треба було відсканувати. Однак цей процес, через нижчий рівень технологій, був тоді дуже коштовним, а передусім надто затратним за часом. До ідеї ми повернулися два роки тому. Почався час напруженої праці — сканування й технічна обробка знімків, вибір найцікавіших чи з якихось причин найважливіших і класифікація їх. Нарешті — довгі години, проведені в бібліотеці, де я мала доступ до мікрофільмів із заспроектованими батьком обкладинками часописів і платівок. Альвар Коланен працював для кількох музичних студій, і то в період золотого віку фінської поп-музики. Там я також переглядала статті багаторічної давнини, ілюстровані його фотографіями. Часто я працювала по 12 годин. Намагалася максимально використати кожне перебування у Фінляндії, де загалом проводила понад два місяці на рік, їздячи то на кілька днів, то на тиждень, то на два. Одним словом, ці останні роки Ви провели «на валізах». Так, я постійно була в дорозі між Лондоном, де тепер живу, і Гельсінкі. Однак варто було вкласти в цей проєкт стільки зусиль."
+        }
+      ]
+    },
+    {
+      "block": "B. Wernisaż · трек 222B9",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Część IV — wernisaż i sukces",
+          "audio": "audio/L22/L22-czytanie-09.mp3",
+          "text": "Wystawa otwarta w październiku 2010 roku cieszyła się wielką popularnością. Ponoć żadna z wystaw w galerii Laterna Madzika nie odniosła jeszcze takiego sukcesu. Na sam wernisaż przybyło 150 osób. Wśród nich pięć naprawdę ważnych osobistości. Goście mogli podziwiać 75 zdjęć wyeksponowanych w bardzo nowoczesny sposób, bezpośrednio na murze. Fotografie podzielone były na osiem kategorii. Promocja, politycy i artyści, piosenkarze na scenie, świat mody, film i telewizja, ojciec dokumentował początki telewizji w Finlandii, za kulisami, Helsinki, rodzina i wreszcie okładki płyt i czasopism. Dodatkowo atmosferę budowała muzyka. To muzyka z czasów naszej młodości, mówili zwiedzający. Dla niejednego z nich wystawa była wzruszającym powrotem do przeszłości. Trzeba pamiętać, że wiele ze zdjęć Alvara Kolanena stało się kultowymi fotografiami, wręcz ikonami tamtych lat, które promowały i wzbogacały naszą fińską kulturę. Miło było w czasie wernisażu słuchać ciepłych komentarzy, odczuwać serdeczną reakcję ludzi. Nic dziwnego, że potem w prasie ukazało się aż 11 artykułów dotyczących zarówno ojca, jak i samej ekspozycji. Zaproponowano nam także zaprezentowanie wystawy w trzech innych miastach. Również przygotowana przez nas książka z fotografiami Alvara Kolanena i krótkimi komentarzami rozeszła się bardzo szybko. Planujemy teraz wydanie wywiadów z ówczesnymi gwiazdami Estrady, które opowiedziałyby jak z perspektywy czasu patrzą na tamte lata. Pozostaje mi pogratulować serdecznie sukcesu i życzyć powodzenia w realizacji kolejnych przedsięwzięć. Dziękuję za rozmowę, która przybliżyła nam tak ciekawą twórczość Alvara Kolanena.",
+          "tr": "Виставка, відкрита в жовтні 2010 року, мала велику популярність. Кажуть, жодна з виставок у галереї «Laterna Magica» ще не мала такого успіху. На сам вернісаж прийшло 150 осіб. Серед них п'ять справді важливих особистостей. Гості могли милуватися 75 знімками, експонованими в дуже сучасний спосіб — безпосередньо на стіні. Фотографії були поділені на вісім категорій: промоція (політики й артисти), співаки на сцені, світ моди, кіно й телебачення (батько документував початки телебачення у Фінляндії), за кулісами, Гельсінкі, родина і нарешті обкладинки платівок та часописів. Додатково атмосферу створювала музика. «Це музика часів нашої молодості», — казали відвідувачі. Для багатьох із них виставка була зворушливим поверненням у минуле. Треба пам'ятати, що багато знімків Альвара Коланена стали культовими фотографіями, чи не іконами тих років, які промували й збагачували нашу фінську культуру. Приємно було під час вернісажу слухати теплі коментарі, відчувати щиру реакцію людей. Не дивно, що потім у пресі з'явилося аж 11 статей, що стосувалися як батька, так і самої експозиції. Нам також запропонували презентувати виставку в трьох інших містах. Також підготовлена нами книжка з фотографіями Альвара Коланена й короткими коментарями розійшлася дуже швидко. Тепер ми плануємо видати інтерв'ю з тодішніми зірками естради, які розповіли б, як з перспективи часу дивляться на ті роки. Мені залишається щиро привітати з успіхом і побажати успіхів у реалізації наступних починань. Дякую за розмову, яка наблизила нам таку цікаву творчість Альвара Коланена."
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 22 — треки 222A5, 222B1, 222B5, 222B7, 222B9. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "mono", "title": "Aukcja charytatywna · zeszyt cw09", "audio": "audio/L22/L22-zeszyt-01.mp3",
+    {
+      "type": "mono",
+      "title": "Aukcja charytatywna · zeszyt cw09",
+      "audio": "audio/L22/L22-zeszyt-01.mp3",
       "text": "Szanowni Państwo, rozpoczynamy trzecią edycję wielkiej aukcji charytatywnej. Serdecznie zapraszam na licytację obrazów młodocianych artystów. Przypominam Państwu, że tegoroczny dochód z aukcji będzie przeznaczony na zakup leków dla podopiecznych hospicjum Dziecięce Marzenia. Całą aukcję można będzie również śledzić na żywo na stronie www.dzieciecemarzenia.pl i telefonicznie brać udział w licytacji. W czasie dzisiejszej aukcji będziemy licytować 80 prac. Obraz numer jeden został namalowany przez 8-letnią Łucję. Na pierwszym planie jasnoniebieska woda, być może jezioro w lesie. W centrum kompozycji kolczasty krzew i wysmukła palma odcinające się ciemną plamą od złocistych, widocznych w tle, piaskowych wydm. Nad wydmami niebo, zamykające całość klamrą błękitu. Chcę zwrócić uwagę na ciepłą kolorystykę tej pracy i promieniującą z niej dobrą energię. Cena wyjściowa obrazu 100 zł. Kto da więcej? Proszę, pan z numerem 3 — 120 zł. 120 po raz pierwszy.",
-      "tr": "Шановне панство, розпочинаємо третій випуск великого благодійного аукціону. Щиро запрошую на торги картин юних художників. Нагадую вам, що цьогорічний дохід від аукціону буде призначений на купівлю ліків для підопічних хоспісу «Дитячі Мрії». За всім аукціоном можна буде також стежити наживо на сторінці www.dzieciecemarzenia.pl і брати участь у торгах телефоном. Під час сьогоднішнього аукціону ми торгуватимемо 80 робіт. Картину номер один намалювала 8-річна Люція. На передньому плані світло-блакитна вода, можливо озеро в лісі. У центрі композиції колючий кущ і струнка пальма, що темною плямою вирізняються на тлі золотистих, видимих позаду, піщаних дюн. Над дюнами небо, що замикає все дугою блакиті. Хочу звернути увагу на теплу кольорову гаму цієї роботи й добру енергію, що випромінюється з неї. Стартова ціна картини — 100 злотих. Хто дасть більше? Прошу, пан із номером 3 — 120 злотих. 120 уперше." },
-    { "type": "mono", "title": "Lekarz-malarz · wywiad radiowy · zeszyt cw11", "audio": "audio/L22/L22-zeszyt-02.mp3",
+      "tr": "Шановне панство, розпочинаємо третій випуск великого благодійного аукціону. Щиро запрошую на торги картин юних художників. Нагадую вам, що цьогорічний дохід від аукціону буде призначений на купівлю ліків для підопічних хоспісу «Дитячі Мрії». За всім аукціоном можна буде також стежити наживо на сторінці www.dzieciecemarzenia.pl і брати участь у торгах телефоном. Під час сьогоднішнього аукціону ми торгуватимемо 80 робіт. Картину номер один намалювала 8-річна Люція. На передньому плані світло-блакитна вода, можливо озеро в лісі. У центрі композиції колючий кущ і струнка пальма, що темною плямою вирізняються на тлі золотистих, видимих позаду, піщаних дюн. Над дюнами небо, що замикає все дугою блакиті. Хочу звернути увагу на теплу кольорову гаму цієї роботи й добру енергію, що випромінюється з неї. Стартова ціна картини — 100 злотих. Хто дасть більше? Прошу, пан із номером 3 — 120 злотих. 120 уперше."
+    },
+    {
+      "type": "mono",
+      "title": "Lekarz-malarz · wywiad radiowy · zeszyt cw11",
+      "audio": "audio/L22/L22-zeszyt-02.mp3",
       "text": "Andrzej Morawski jest znanym lekarzem. Dziś gościem na antenie radiowej, by opowiedzieć Państwu o swojej największej pasji — malarstwie — oraz wiążących się z nią perypetiach. Panie Andrzeju, proszę zdradzić słuchaczom, jak powstały wszystkie te świetne prace, które można teraz obejrzeć w galerii Nowa Sztuka. Witam Państwa serdecznie. Zacznę od tego, że nie mam żadnego wykształcenia artystycznego i nigdy nie uczyłem się sztuki malowania. Jak powstały moje obrazy? Cóż, jestem kardiochirurgiem, to wyjątkowo stresująca praca. Czasem, kiedy odchodzę od stołu operacyjnego, wydaje mi się, że jestem o parę lat starszy. Malowanie było zawsze moją pasją. Potem stało się ucieczką od zawodowych stresów. Czy tak od razu stanął Pan przy sztalugach? Nie. Na początku moje emocje przelewałem na to, co było pod ręką. Szkicowałem na luźnych kartkach, brzegach gazet, ulotkach reklamujących leki. Kiedyś, dyskutując z kolegami w gabinecie, narysowałem coś na dokumentacji pacjenta. Wtedy zirytowany ordynator zapytał, czy mnie nie stać na blok rysunkowy, czy zawsze muszę wszystko pokrywać swoimi bazgrołami. Poczuł się Pan urażony? Wprost przeciwnie. Do tej pory rysowałem automatycznie. Rozumie Pani — jedni sięgają po papierosa, inni obgryzają paznokcie, a ja brałem do ręki ołówek lub długopis. Dzięki ordynatorowi doznałem olśnienia i kupiłem szkicownik. Na wystawie można podziwiać kilka pańskich szkiców, ale dominują obrazy olejne. Kiedy zaczął się kolejny etap? Wtedy, gdy pokazałem moje rysunki pięcioletniemu synkowi. Pooglądał, popytał o to i owo, a potem stwierdził, że fajne, ale lepsze by były kolorowe i takie jak na ścianie — prawdziwe, a nie papierowe. I tak zaczęła się Pana przygoda z malowaniem? Mniej więcej tak. Kupiłem pierwsze płótna i farby. Najpierw traktowałem to tylko jako zabawę. Nie przejmowałem się, czy mi coś wychodzi. Pokoik na poddaszu, gdzie ustawiłem sztalugi, to było przede wszystkim miejsce wytchnienia. Czasem nie brałem nawet pędzla do ręki, tylko oglądałem stare szkice. Jednak coś kazało mi malować. Próbowałem, próbowałem. Jak to się stało, że Pana obrazy trafiły do galerii? Wszyscy koledzy wiedzieli o mojej pasji. Raz ktoś powiedział mi o jakimś konkursie, sugerował, że powinienem wysłać jeden ze swoich obrazów. I? Nie wysłałem, ale zrobiła to żona. I tak się zaczęło. Czy teraz jest Pan bardziej lekarzem czy bardziej artystą? Lekarzem. Kiedy okazało się, że w dniu wernisażu wypadła nieplanowana operacja, nie miałem wątpliwości, gdzie jest moje miejsce. Pojechałem na blok operacyjny. Czego Panu życzyć na przyszłość? Dobrego oka i sprawnych rąk. Bo jedno i drugie jest nieodzowne zarówno w moim zawodzie, jak i w realizowaniu moich pasji.",
-      "tr": "Анджей Моравський — відомий лікар. Сьогодні він гість у радіоефірі, щоб розповісти вам про своє найбільше захоплення — малярство — та пов'язані з ним перипетії. Пане Анджею, розкрийте слухачам, як постали всі ці чудові роботи, які тепер можна побачити в галереї «Нове Мистецтво». Щиро вітаю вас. Почну з того, що не маю жодної художньої освіти й ніколи не вчився мистецтва малювання. Як постали мої картини? Що ж, я кардіохірург, це винятково стресова робота. Іноді, коли відходжу від операційного столу, мені здається, що я на кілька років старший. Малювання завжди було моїм захопленням. Потім стало втечею від професійних стресів. Чи Ви одразу стали за мольберт? Ні. Спочатку я виливав свої емоції на те, що було під рукою. Робив ескізи на окремих аркушах, краях газет, листівках із рекламою ліків. Якось, дискутуючи з колегами в кабінеті, я щось намалював на документації пацієнта. Тоді роздратований завідувач відділення запитав, чи мені не по кишені альбом для малювання, чи я завжди мушу все вкривати своїми каракулями. Ви почулися ображеним? Навпаки. Доти я малював автоматично. Розумієте — одні беруться за сигарету, інші гризуть нігті, а я брав до руки олівець чи ручку. Завдяки завідувачу мене осяяло, і я купив альбом для ескізів. На виставці можна милуватися кількома Вашими ескізами, але переважають олійні картини. Коли почався наступний етап? Тоді, коли я показав свої рисунки п'ятирічному синочкові. Він подивився, розпитав про те й се, а потім сказав, що класно, але краще були б кольорові й такі, як на стіні — справжні, а не паперові. І так почалася Ваша пригода з малюванням? Більш-менш так. Я купив перші полотна й фарби. Спершу ставився до цього лише як до забавки. Не переймався, чи мені щось виходить. Кімнатка на горищі, де я поставив мольберт, була передусім місцем відпочинку. Іноді я навіть не брав пензля до руки, а лише розглядав старі ескізи. Однак щось наказувало мені малювати. Я пробував, пробував. Як сталося, що Ваші картини потрапили до галереї? Усі колеги знали про моє захоплення. Якось хтось розповів мені про якийсь конкурс, натякнув, що я мав би надіслати одну зі своїх картин. І? Я не надіслав, але це зробила дружина. І так усе почалося. Чи тепер Ви більше лікар, чи більше митець? Лікар. Коли виявилося, що в день вернісажу випала позапланова операція, я не мав сумнівів, де моє місце. Поїхав до операційної. Чого Вам побажати на майбутнє? Доброго ока й вправних рук. Бо й те, й інше необхідне як у моїй професії, так і в реалізації моїх захоплень." },
-    { "type": "mono", "title": "Trzy opinie o wystawie · zeszyt cw07", "audio": "audio/L22/L22-zeszyt-03.mp3",
+      "tr": "Анджей Моравський — відомий лікар. Сьогодні він гість у радіоефірі, щоб розповісти вам про своє найбільше захоплення — малярство — та пов'язані з ним перипетії. Пане Анджею, розкрийте слухачам, як постали всі ці чудові роботи, які тепер можна побачити в галереї «Нове Мистецтво». Щиро вітаю вас. Почну з того, що не маю жодної художньої освіти й ніколи не вчився мистецтва малювання. Як постали мої картини? Що ж, я кардіохірург, це винятково стресова робота. Іноді, коли відходжу від операційного столу, мені здається, що я на кілька років старший. Малювання завжди було моїм захопленням. Потім стало втечею від професійних стресів. Чи Ви одразу стали за мольберт? Ні. Спочатку я виливав свої емоції на те, що було під рукою. Робив ескізи на окремих аркушах, краях газет, листівках із рекламою ліків. Якось, дискутуючи з колегами в кабінеті, я щось намалював на документації пацієнта. Тоді роздратований завідувач відділення запитав, чи мені не по кишені альбом для малювання, чи я завжди мушу все вкривати своїми каракулями. Ви почулися ображеним? Навпаки. Доти я малював автоматично. Розумієте — одні беруться за сигарету, інші гризуть нігті, а я брав до руки олівець чи ручку. Завдяки завідувачу мене осяяло, і я купив альбом для ескізів. На виставці можна милуватися кількома Вашими ескізами, але переважають олійні картини. Коли почався наступний етап? Тоді, коли я показав свої рисунки п'ятирічному синочкові. Він подивився, розпитав про те й се, а потім сказав, що класно, але краще були б кольорові й такі, як на стіні — справжні, а не паперові. І так почалася Ваша пригода з малюванням? Більш-менш так. Я купив перші полотна й фарби. Спершу ставився до цього лише як до забавки. Не переймався, чи мені щось виходить. Кімнатка на горищі, де я поставив мольберт, була передусім місцем відпочинку. Іноді я навіть не брав пензля до руки, а лише розглядав старі ескізи. Однак щось наказувало мені малювати. Я пробував, пробував. Як сталося, що Ваші картини потрапили до галереї? Усі колеги знали про моє захоплення. Якось хтось розповів мені про якийсь конкурс, натякнув, що я мав би надіслати одну зі своїх картин. І? Я не надіслав, але це зробила дружина. І так усе почалося. Чи тепер Ви більше лікар, чи більше митець? Лікар. Коли виявилося, що в день вернісажу випала позапланова операція, я не мав сумнівів, де моє місце. Поїхав до операційної. Чого Вам побажати на майбутнє? Доброго ока й вправних рук. Бо й те, й інше необхідне як у моїй професії, так і в реалізації моїх захоплень."
+    },
+    {
+      "type": "mono",
+      "title": "Trzy opinie o wystawie · zeszyt cw07",
+      "audio": "audio/L22/L22-zeszyt-03.mp3",
       "text": "Naprawdę cieszę się, że namówiłaś mnie na tę wystawę. Jestem pod dużym wrażeniem tej ekspozycji. Rewelacyjna, olśniewająca. Nie spodziewałam się tak wysokiego poziomu artystycznego. Zwłaszcza ta ostatnia praca. Przemówiła do mnie najsilniej. A mnie zdecydowanie nie podobała się ta wystawa. Uważam, że była kiepska. Te prace są naprawdę marne. Ktoś nie umie dobrze malować, więc próbuje zaskakiwać odbiorców. Najbardziej nie lubię słabych artystów, którzy udają, że są wybitni. Sam nie wiem, co o tym myśleć. Z jednej strony pomysł fajny, ale z drugiej… To nic szczególnego. Owszem, wystawa przyciąga uwagę, ale nie zachwyciła mnie żadna z tych prac. Wolę tradycyjną sztukę.",
-      "tr": "Я справді рада, що ти вмовила мене піти на цю виставку. Я під великим враженням від цієї експозиції. Сенсаційна, приголомшлива. Не очікувала такого високого мистецького рівня. Особливо ця остання робота. Вона зворушила мене найсильніше. А мені ця виставка рішуче не сподобалася. Вважаю, що вона була слабенька. Ці роботи справді нікудишні. Хтось не вміє добре малювати, тому намагається здивувати глядачів. Найбільше не люблю слабких митців, які вдають, ніби вони видатні. Сам не знаю, що про це думати. З одного боку, ідея цікава, але з іншого… Це нічого особливого. Так, виставка привертає увагу, але жодна з цих робіт мене не захопила. Я надаю перевагу традиційному мистецтву." }
+      "tr": "Я справді рада, що ти вмовила мене піти на цю виставку. Я під великим враженням від цієї експозиції. Сенсаційна, приголомшлива. Не очікувала такого високого мистецького рівня. Особливо ця остання робота. Вона зворушила мене найсильніше. А мені ця виставка рішуче не сподобалася. Вважаю, що вона була слабенька. Ці роботи справді нікудишні. Хтось не вміє добре малювати, тому намагається здивувати глядачів. Найбільше не люблю слабких митців, які вдають, ніби вони видатні. Сам не знаю, що про це думати. З одного боку, ідея цікава, але з іншого… Це нічого особливого. Так, виставка привертає увагу, але жодна з цих робіт мене не захопила. Я надаю перевагу традиційному мистецтву."
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 22 — ćw. 7 (трек 27420), ćw. 9 (трек 26767), ćw. 11 (трек 26798). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "quiz": [
-    { "topic": "gramatyka", "q": "Який рід мають іменники на -um (muzeum, centrum)?",
-      "o": ["чоловічий","жіночий","середній"], "a": 2,
-      "fb": "Іменники латинського походження на -um — середнього роду: to muzeum, to centrum." },
-    { "topic": "gramatyka", "q": "Як зміниться «muzeum» у множині (мн.) в називному відмінку?",
-      "o": ["muzeumy","muzea","muzeua"], "a": 1,
-      "fb": "У множині -um → -a: muzeum → muzea, centrum → centra, liceum → licea." },
-    { "topic": "gramatyka", "q": "Чи відмінюється «laboratorium» в однині?",
-      "o": ["ні, форма однакова в усіх відмінках","так, як звичайний іменник","тільки в орудному"], "a": 0,
-      "fb": "В однині іменники на -um НЕ відмінюються — форма залишається незмінною. Відмінюються лише у множині." },
-    { "topic": "słownictwo", "q": "Що означає «być pod wrażeniem»?",
-      "o": ["бути розчарованим","бути під враженням","нудьгувати"], "a": 1,
-      "fb": "«Być pod wrażeniem» = бути під враженням. У тексті: «Jestem pod silnym wrażeniem tej wystawy»." },
-    { "topic": "opinia", "q": "Яка фраза виражає КРИТИКУ виставки?",
-      "o": ["Zachwyciły mnie te obrazy!","To arcydzieło!","Brakuje mi tu iskry twórczej."], "a": 2,
-      "fb": "«Brakuje mi iskry twórczej» — критика. Інші дві фрази виражають захоплення." },
-    { "topic": "słownictwo", "q": "Хто такий Alvar Kolanen за фахом?",
-      "o": ["malarz","fotograf","rzeźbiarz"], "a": 1,
-      "fb": "Alvar Kolanen — «czołowy fiński fotograf», офіційний фотограф із public relations." },
-    { "topic": "tekst", "q": "Чому виставку не вдалося організувати 10 років тому?",
-      "o": ["бракувало фотографій","процес був надто коштовним і затратним за часом","батько був проти"], "a": 1,
-      "fb": "Сканування 35 тисяч фотографій було тоді «bardzo kosztowne, a przede wszystkim zbyt czasochłonne»." },
-    { "topic": "słownictwo", "q": "Що означає вираз «utrwalić»?",
-      "o": ["знищити","увічнити / зафіксувати","продати"], "a": 1,
-      "fb": "«Utrwalić» = увічнити, зафіксувати. Батько на знімках «utrwalał wizerunek znanych artystów»." },
-    { "topic": "zeszyt", "q": "Ким за основним фахом є Andrzej Morawski з радіоінтерв'ю?",
-      "o": ["lekarzem (kardiochirurgiem)","zawodowym malarzem","nauczycielem"], "a": 0,
-      "fb": "Andrzej Morawski каже: «jestem kardiochirurgiem». Малярство — це його пасія, а не фах." },
-    { "topic": "słownictwo", "q": "Куди йде дохід (dochód) з благодійного аукціону картин?",
-      "o": ["na zakup leków dla hospicjum","na nową galerię","dla artystów"], "a": 0,
-      "fb": "«Dochód z aukcji będzie przeznaczony na zakup leków dla podopiecznych hospicjum Dziecięce Marzenia»." }
+    {
+      "topic": "gramatyka",
+      "q": "Який рід мають іменники на -um (muzeum, centrum)?",
+      "o": [
+        "середній",
+        "чоловічий",
+        "жіночий"
+      ],
+      "a": 0,
+      "fb": "Іменники латинського походження на -um — середнього роду: to muzeum, to centrum."
+    },
+    {
+      "topic": "gramatyka",
+      "q": "Як зміниться «muzeum» у множині (мн.) в називному відмінку?",
+      "o": [
+        "muzeumy",
+        "muzea",
+        "muzeua"
+      ],
+      "a": 1,
+      "fb": "У множині -um → -a: muzeum → muzea, centrum → centra, liceum → licea."
+    },
+    {
+      "topic": "gramatyka",
+      "q": "Чи відмінюється «laboratorium» в однині?",
+      "o": [
+        "так, як звичайний іменник",
+        "тільки в орудному",
+        "ні, форма однакова в усіх відмінках"
+      ],
+      "a": 2,
+      "fb": "В однині іменники на -um НЕ відмінюються — форма залишається незмінною. Відмінюються лише у множині."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що означає «być pod wrażeniem»?",
+      "o": [
+        "бути під враженням",
+        "бути розчарованим",
+        "нудьгувати"
+      ],
+      "a": 0,
+      "fb": "«Być pod wrażeniem» = бути під враженням. У тексті: «Jestem pod silnym wrażeniem tej wystawy»."
+    },
+    {
+      "topic": "opinia",
+      "q": "Яка фраза виражає КРИТИКУ виставки?",
+      "o": [
+        "Zachwyciły mnie te obrazy!",
+        "Brakuje mi tu iskry twórczej.",
+        "To arcydzieło!"
+      ],
+      "a": 1,
+      "fb": "«Brakuje mi iskry twórczej» — критика. Інші дві фрази виражають захоплення."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Хто такий Alvar Kolanen за фахом?",
+      "o": [
+        "malarz",
+        "rzeźbiarz",
+        "fotograf"
+      ],
+      "a": 2,
+      "fb": "Alvar Kolanen — «czołowy fiński fotograf», офіційний фотограф із public relations."
+    },
+    {
+      "topic": "tekst",
+      "q": "Чому виставку не вдалося організувати 10 років тому?",
+      "o": [
+        "процес був надто коштовним і затратним за часом",
+        "бракувало фотографій",
+        "батько був проти"
+      ],
+      "a": 0,
+      "fb": "Сканування 35 тисяч фотографій було тоді «bardzo kosztowne, a przede wszystkim zbyt czasochłonne»."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що означає вираз «utrwalić»?",
+      "o": [
+        "знищити",
+        "увічнити / зафіксувати",
+        "продати"
+      ],
+      "a": 1,
+      "fb": "«Utrwalić» = увічнити, зафіксувати. Батько на знімках «utrwalał wizerunek znanych artystów»."
+    },
+    {
+      "topic": "zeszyt",
+      "q": "Ким за основним фахом є Andrzej Morawski з радіоінтерв'ю?",
+      "o": [
+        "zawodowym malarzem",
+        "nauczycielem",
+        "lekarzem (kardiochirurgiem)"
+      ],
+      "a": 2,
+      "fb": "Andrzej Morawski каже: «jestem kardiochirurgiem». Малярство — це його пасія, а не фах."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Куди йде дохід (dochód) з благодійного аукціону картин?",
+      "o": [
+        "na zakup leków dla hospicjum",
+        "na nową galerię",
+        "dla artystów"
+      ],
+      "a": 0,
+      "fb": "«Dochód z aukcji będzie przeznaczony na zakup leków dla podopiecznych hospicjum Dziecięce Marzenia»."
+    }
   ],
-
   "checklist": [
-    { "text": "Відмінювати іменники на -um", "sub": "однина незмінна; мн. → muzea, centra, laboratoria" },
-    { "text": "Висловлювати захоплення мистецтвом", "sub": "Jestem pod wrażeniem… / Zachwyciły mnie… / To arcydzieło!" },
-    { "text": "Висловлювати критичну думку про твір", "sub": "Niezbyt do mnie przemawia… / Brakuje mi iskry twórczej…" },
-    { "text": "Описувати картину чи фотографію", "sub": "na pierwszym/drugim planie, w tle, kompozycja, ujęcie tematu" },
-    { "text": "Знати лексику виставок і музею", "sub": "wernisaż, ekspozycja, malarstwo, rzeźba, kunszt, kulisy" }
+    {
+      "text": "Відмінювати іменники на -um",
+      "sub": "однина незмінна; мн. → muzea, centra, laboratoria"
+    },
+    {
+      "text": "Висловлювати захоплення мистецтвом",
+      "sub": "Jestem pod wrażeniem… / Zachwyciły mnie… / To arcydzieło!"
+    },
+    {
+      "text": "Висловлювати критичну думку про твір",
+      "sub": "Niezbyt do mnie przemawia… / Brakuje mi iskry twórczej…"
+    },
+    {
+      "text": "Описувати картину чи фотографію",
+      "sub": "na pierwszym/drugim planie, w tle, kompozycja, ujęcie tematu"
+    },
+    {
+      "text": "Знати лексику виставок і музею",
+      "sub": "wernisaż, ekspozycja, malarstwo, rzeźba, kunszt, kulisy"
+    }
   ]
 }

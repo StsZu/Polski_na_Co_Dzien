@@ -2,58 +2,323 @@
   "id": "20",
   "title": "Rysopis Polaka konsumenta",
   "goal": "Повторюємо: покупки й рекламації · порівнювання · запитання про думку й вираження думки · побутова техніка та магазини · підрядні складні речення й частка byle",
-
   "vocab": [
-    { "group": "Zakupy — покупки", "items": [
-      ["robić zakupy","робити покупки"],["osiedlowy sklep","магазин у мікрорайоні"],
-      ["sklep specjalistyczny","спеціалізований магазин"],["supermarket","супермаркет"],
-      ["centrum handlowe","торговельний центр"],["galeria handlowa","торговельна галерея"],
-      ["towar","товар"],["promocja","акція / знижка"],["niskie ceny","низькі ціни"],
-      ["wyprzedaż","розпродаж"],["kieszonkowe","кишенькові гроші"],["targ","ринок"],
-      ["stragan","ятка / прилавок"],["koszyk","кошик"]
-    ]},
-    { "group": "Sklepy — магазини", "items": [
-      ["piekarnia","пекарня"],["cukiernia","кондитерська"],["sklep spożywczy","продуктовий магазин"],
-      ["sklep mięsny","м’ясний магазин"],["warzywniak","овочевий магазин"],["apteka","аптека"],
-      ["księgarnia","книгарня"],["drogeria","магазин косметики й побутової хімії"],
-      ["kwiaciarnia","квітковий магазин"],["sklep papierniczy","канцелярський магазин"],
-      ["sklep obuwniczy","взуттєвий магазин"],["sklep odzieżowy","магазин одягу"],
-      ["jubiler","ювелірний магазин"],["masarnia","ковбасна крамниця"]
-    ]},
-    { "group": "Sprzęty domowe — побутова техніка", "items": [
-      ["lodówka","холодильник"],["pralka","пральна машина"],["pralko-suszarka","пральна машина із сушкою"],
-      ["zmywarka","посудомийна машина"],["telewizor","телевізор"],["komputer","комп’ютер"],
-      ["odkurzacz","пилосос"],["czajnik","електрочайник"],["żelazko","праска"],
-      ["suszarka do włosów","фен"],["maszynka do golenia","електробритва"],["urządzenie","пристрій"]
-    ]},
-    { "group": "Reklamacja — рекламація", "items": [
-      ["reklamacja","рекламація"],["paragon","чек"],["gwarancja","гарантія"],
-      ["zwrot pieniędzy","повернення грошей"],["wymienić","обміняти"],["naprawić","відремонтувати"],
-      ["popsuć się","зламатися"],["zepsuty","зламаний"],["uszkodzony","пошкоджений"],
-      ["nie działać","не працювати"],["byle jaki","абиякий"],["bylejakość","абиякість"]
-    ]},
-    { "group": "Nowe słowa — нові слова", "items": [
-      ["obejść się bez czegoś","обійтися без чогось"],["troszczyć się","піклуватися"],
-      ["unikać","уникати"],["oszustwo","шахрайство"],["kusić","спокушати"],
-      ["tracić","втрачати"],["pułapka","пастка"],["wpaść w coś","потрапити в щось"],
-      ["znikać","зникати"],["oszczędzać","заощаджувати"],["odkładać pieniądze","відкладати гроші"],
-      ["na czarną godzinę","на чорний день"]
-    ]}
+    {
+      "group": "Zakupy — покупки",
+      "items": [
+        [
+          "robić zakupy",
+          "робити покупки"
+        ],
+        [
+          "osiedlowy sklep",
+          "магазин у мікрорайоні"
+        ],
+        [
+          "sklep specjalistyczny",
+          "спеціалізований магазин"
+        ],
+        [
+          "supermarket",
+          "супермаркет"
+        ],
+        [
+          "centrum handlowe",
+          "торговельний центр"
+        ],
+        [
+          "galeria handlowa",
+          "торговельна галерея"
+        ],
+        [
+          "towar",
+          "товар"
+        ],
+        [
+          "promocja",
+          "акція / знижка"
+        ],
+        [
+          "niskie ceny",
+          "низькі ціни"
+        ],
+        [
+          "wyprzedaż",
+          "розпродаж"
+        ],
+        [
+          "kieszonkowe",
+          "кишенькові гроші"
+        ],
+        [
+          "targ",
+          "ринок"
+        ],
+        [
+          "stragan",
+          "ятка / прилавок"
+        ],
+        [
+          "koszyk",
+          "кошик"
+        ]
+      ]
+    },
+    {
+      "group": "Sklepy — магазини",
+      "items": [
+        [
+          "piekarnia",
+          "пекарня"
+        ],
+        [
+          "cukiernia",
+          "кондитерська"
+        ],
+        [
+          "sklep spożywczy",
+          "продуктовий магазин"
+        ],
+        [
+          "sklep mięsny",
+          "м’ясний магазин"
+        ],
+        [
+          "warzywniak",
+          "овочевий магазин"
+        ],
+        [
+          "apteka",
+          "аптека"
+        ],
+        [
+          "księgarnia",
+          "книгарня"
+        ],
+        [
+          "drogeria",
+          "магазин косметики й побутової хімії"
+        ],
+        [
+          "kwiaciarnia",
+          "квітковий магазин"
+        ],
+        [
+          "sklep papierniczy",
+          "канцелярський магазин"
+        ],
+        [
+          "sklep obuwniczy",
+          "взуттєвий магазин"
+        ],
+        [
+          "sklep odzieżowy",
+          "магазин одягу"
+        ],
+        [
+          "jubiler",
+          "ювелірний магазин"
+        ],
+        [
+          "masarnia",
+          "ковбасна крамниця"
+        ]
+      ]
+    },
+    {
+      "group": "Sprzęty domowe — побутова техніка",
+      "items": [
+        [
+          "lodówka",
+          "холодильник"
+        ],
+        [
+          "pralka",
+          "пральна машина"
+        ],
+        [
+          "pralko-suszarka",
+          "пральна машина із сушкою"
+        ],
+        [
+          "zmywarka",
+          "посудомийна машина"
+        ],
+        [
+          "telewizor",
+          "телевізор"
+        ],
+        [
+          "komputer",
+          "комп’ютер"
+        ],
+        [
+          "odkurzacz",
+          "пилосос"
+        ],
+        [
+          "czajnik",
+          "електрочайник"
+        ],
+        [
+          "żelazko",
+          "праска"
+        ],
+        [
+          "suszarka do włosów",
+          "фен"
+        ],
+        [
+          "maszynka do golenia",
+          "електробритва"
+        ],
+        [
+          "urządzenie",
+          "пристрій"
+        ]
+      ]
+    },
+    {
+      "group": "Reklamacja — рекламація",
+      "items": [
+        [
+          "reklamacja",
+          "рекламація"
+        ],
+        [
+          "paragon",
+          "чек"
+        ],
+        [
+          "gwarancja",
+          "гарантія"
+        ],
+        [
+          "zwrot pieniędzy",
+          "повернення грошей"
+        ],
+        [
+          "wymienić",
+          "обміняти"
+        ],
+        [
+          "naprawić",
+          "відремонтувати"
+        ],
+        [
+          "popsuć się",
+          "зламатися"
+        ],
+        [
+          "zepsuty",
+          "зламаний"
+        ],
+        [
+          "uszkodzony",
+          "пошкоджений"
+        ],
+        [
+          "nie działać",
+          "не працювати"
+        ],
+        [
+          "byle jaki",
+          "абиякий"
+        ],
+        [
+          "bylejakość",
+          "абиякість"
+        ]
+      ]
+    },
+    {
+      "group": "Nowe słowa — нові слова",
+      "items": [
+        [
+          "obejść się bez czegoś",
+          "обійтися без чогось"
+        ],
+        [
+          "troszczyć się",
+          "піклуватися"
+        ],
+        [
+          "unikać",
+          "уникати"
+        ],
+        [
+          "oszustwo",
+          "шахрайство"
+        ],
+        [
+          "kusić",
+          "спокушати"
+        ],
+        [
+          "tracić",
+          "втрачати"
+        ],
+        [
+          "pułapka",
+          "пастка"
+        ],
+        [
+          "wpaść w coś",
+          "потрапити в щось"
+        ],
+        [
+          "znikać",
+          "зникати"
+        ],
+        [
+          "oszczędzać",
+          "заощаджувати"
+        ],
+        [
+          "odkładać pieniądze",
+          "відкладати гроші"
+        ],
+        [
+          "na czarną godzinę",
+          "на чорний день"
+        ]
+      ]
+    }
   ],
-
   "gramatyka": [
     {
       "title": "Zdania podrzędnie złożone — підрядні складні речення",
       "note": "Підрядне речення приєднується сполучником або питальним словом. Після головного речення часто стоять коми. Питальні слова в непрямому питанні: gdzie, kiedy, ile, kto, co, dlaczego, jak, jaki.",
       "table": {
-        "head": ["Spójnik / pytanie","Przykład"],
+        "head": [
+          "Spójnik / pytanie",
+          "Przykład"
+        ],
         "rows": [
-          ["że","Zdaję sobie sprawę, *że* mam wady."],
-          ["żeby","Pragnąłby, *żeby* na stole leżały świeże produkty."],
-          ["bo","Kupił lodówkę, *bo* bez niej życie jest udręką."],
-          ["ile","Czy może mi pani powiedzieć, *ile* miesięcznie wydaje pani na zakupy?"],
-          ["gdzie","Czy mógłby mi pan doradzić, *gdzie* najlepiej kupić części do samochodu?"],
-          ["dlaczego","Nie rozumiem, *dlaczego* kupiłeś nową pralkę."]
+          [
+            "że",
+            "Zdaję sobie sprawę, *że* mam wady."
+          ],
+          [
+            "żeby",
+            "Pragnąłby, *żeby* na stole leżały świeże produkty."
+          ],
+          [
+            "bo",
+            "Kupił lodówkę, *bo* bez niej życie jest udręką."
+          ],
+          [
+            "ile",
+            "Czy może mi pani powiedzieć, *ile* miesięcznie wydaje pani na zakupy?"
+          ],
+          [
+            "gdzie",
+            "Czy mógłby mi pan doradzić, *gdzie* najlepiej kupić części do samochodu?"
+          ],
+          [
+            "dlaczego",
+            "Nie rozumiem, *dlaczego* kupiłeś nową pralkę."
+          ]
         ]
       }
     },
@@ -61,13 +326,31 @@
       "title": "Partykuła byle — частка byle",
       "note": "Частка *byle* виражає невибагливість, абияк зроблену дію або достатню умову («аби лише»). У сполученні з прикметником/іменником часто має негативний відтінок.",
       "table": {
-        "head": ["Wyrażenie","Znaczenie"],
+        "head": [
+          "Wyrażenie",
+          "Znaczenie"
+        ],
         "rows": [
-          ["byle jaki","абиякий, низької якості"],
-          ["bylejakość","абиякість, низька якість"],
-          ["byle był szczęśliwy","аби лише був щасливий"],
-          ["byle jak","абияк, недбало"],
-          ["byle co","будь-що, абищо"]
+          [
+            "byle jaki",
+            "абиякий, низької якості"
+          ],
+          [
+            "bylejakość",
+            "абиякість, низька якість"
+          ],
+          [
+            "byle był szczęśliwy",
+            "аби лише був щасливий"
+          ],
+          [
+            "byle jak",
+            "абияк, недбало"
+          ],
+          [
+            "byle co",
+            "будь-що, абищо"
+          ]
         ]
       }
     },
@@ -79,160 +362,495 @@
     {
       "title": "Pytanie o opinię — запитання про думку",
       "table": {
-        "head": ["Pytanie","Odpowiedź"],
+        "head": [
+          "Pytanie",
+          "Odpowiedź"
+        ],
         "rows": [
-          ["Jaka jest pańska opinia na ten temat?","Wydaje mi się, że…"],
-          ["Czy uważa pan, że…?","Zgadzam się z panem co do tego."],
-          ["Ma pani rację, że…","Nie jestem przekonana, czy…"],
-          ["Co pan sądzi o tym haśle?","Według mnie… / Zdecydowanie wolę…"]
+          [
+            "Jaka jest pańska opinia na ten temat?",
+            "Wydaje mi się, że…"
+          ],
+          [
+            "Czy uważa pan, że…?",
+            "Zgadzam się z panem co do tego."
+          ],
+          [
+            "Ma pani rację, że…",
+            "Nie jestem przekonana, czy…"
+          ],
+          [
+            "Co pan sądzi o tym haśle?",
+            "Według mnie… / Zdecydowanie wolę…"
+          ]
         ]
       }
     }
   ],
-
   "czytanie": [
-    { "block": "A. Polak konsument · raport · трек 220A1-2", "items": [
-      { "type": "mono", "title": "Polak konsument — początek XXI wieku", "audio": "audio/L20/L20-czytanie-01.mp3",
-        "text": "Raport. Polak konsument. Początek XXI wieku. Lubi robić zakupy. Codziennie z przyjemnością zagląda do osiedlowego sklepu, a jeśli potrzebuje czegoś szczególnego, wybiera się do sklepu specjalistycznego, ale też raczej małego, bo zależy mu na tym, żeby ktoś się o niego zatroszczył. Wypytał o potrzeby i pomógł wybrać najlepszą rzecz, taką w sam raz dla niego. Co jakiś czas jeździ do supermarketów, ale czuje się w nich obco i gdyby niewielki wybór towarów i niskie ceny, w ogóle by tam nie zaglądał. Stara się unikać sprzedaży wysyłkowej, a jak ognia, boi się internetu i akwizytorów. Zwykle podejrzewa ich o oszustwo i podstęp, więc woli nie ryzykować. W najważniejsze sprzęty swoje mieszkanie prawie wyposażył. Najpierw kupił lodówkę, bo bez niej życie jest udręką, podobnie jak bez kolorowego telewizora. Nie mógł nabyć wszystkiego od razu, więc wolał zrezygnować z pralki niż z telewizora. Pralkę kupi nieco później, może na kredyt. Pralkosuszarkę uznaje za zbyteczny luksus, tak samo zmywarkę. Coraz częściej myśli o komputerze. Na razie ma go co piąty Polak. Kupując jedzenie szuka wyrobów krajowych. Mrożonki odrzuca, mimo ich dużych wartości odżywczych. Pragnąłby, żeby na stole leżały wyłącznie świeże produkty ekologiczne, a w żadnym razie żywność genetycznie modyfikowana. Wprawdzie nie wie dokładnie co to takiego, ale na wszelki wypadek woli nie jeść. O comiesięcznym odkładaniu pieniędzy nie ma mowy. Czasem się uda, ale albo są to niewielkie sumy, albo szybko się rozchodzą. Bogatsi wydają oszczędności na wycieczki, domy, samochody. Biedniejsi myślą o tym, żeby zainwestować w dzieci, wnuki lub odłożyć na czarną godzinę. W wolnej chwili siada nad krzyżówkami i ćwiczy umysł. Deklaruje, że lubi też poczytać. Gotuje nie z obowiązku, ale dla przyjemności. Chętnie chodzi na spacery i pracuje na działce. Czasem oddaje się grom losowym lub bierze udział w loteriach. Zdaje sobie sprawę, że ma wady. Ale tylko dwie. Alkohol i papierosy.",
-        "tr": "Звіт. Поляк-споживач. Початок XXI століття. Любить робити покупки. Щодня із задоволенням заглядає до магазину в мікрорайоні, а якщо потребує чогось особливого, вибирається до спеціалізованого магазину, але теж радше невеликого, бо йому залежить на тому, щоб хтось про нього подбав. Розпитав про потреби й допоміг вибрати найкращу річ, саме таку для нього. Час від часу їздить до супермаркетів, але почувається в них чужо, і якби не великий вибір товарів і низькі ціни, узагалі б туди не заглядав. Намагається уникати посилкового продажу, а інтернету й торгових агентів боїться як вогню. Зазвичай підозрює їх у шахрайстві й підступі, тож воліє не ризикувати. Найважливішою технікою своє помешкання майже обладнав. Спершу купив холодильник, бо без нього життя — мука, так само як без кольорового телевізора. Не міг придбати все одразу, тож волів відмовитися від пральної машини, ніж від телевізора. Пральну машину купить трохи пізніше, може, у кредит. Пральну машину із сушкою вважає зайвою розкішшю, так само й посудомийну. Дедалі частіше думає про комп’ютер. Поки що його має кожен п’ятий поляк. Купуючи їжу, шукає вітчизняних виробів. Заморожені продукти відкидає, попри їхню високу поживну цінність. Хотів би, щоб на столі лежали виключно свіжі екологічні продукти, а в жодному разі не генетично модифікована їжа. Щоправда, не знає точно, що це таке, але про всяк випадок воліє не їсти. Про щомісячне відкладання грошей не може бути й мови. Іноді вдається, але це або невеликі суми, або вони швидко розходяться. Багатші витрачають заощадження на подорожі, будинки, автомобілі. Бідніші думають про те, щоб інвестувати в дітей, онуків, або відкласти на чорний день. У вільну хвилину сідає над кросвордами й тренує розум. Заявляє, що любить також почитати. Готує не з обов’язку, а для задоволення. Охоче ходить на прогулянки й працює на дачі. Іноді віддається азартним іграм або бере участь у лотереях. Усвідомлює, що має вади. Але тільки дві. Алкоголь і цигарки." }
-    ]},
-    { "block": "A. Polak konsument dziś · трек 220A8", "items": [
-      { "type": "mono", "title": "Polak-konsument dziś", "audio": "audio/L20/L20-czytanie-02.mp3",
-        "text": "Polak-konsument dziś. Czas małych sklepików przeminął bezpowrotnie. Wielkie supermarkety i centra handlowe rosną wszędzie jak grzyby po deszczu. I co ciekawe, w każdym z nich tłumy kupujących. Skąd aż takie zapotrzebowanie na wszelkiego rodzaju towary, zapytacie? To nie potrzeba, lecz moda. Dla wielu osób zakupy stały się sposobem na spędzanie czasu. Kupują, choć nie muszą. Kusi ich promocja, niskie ceny, łatwo dają się przekonać reklamom, że coś jest im niezbędne. Ludzie coraz częściej wpadają w zakupową pułapkę. Wchodząc do galerii, często tracą poczucie czasu. Na miejscu mają bary, cukiernie, pijalnie czekolady. Mogą się szybko posilić i ruszyć w dalszy kurs po stoiskach i sklepach. Zjawisko nadmiernej konsumpcji powoli staje się faktem także w Polsce. Nic dziwnego, że ustanowiony w USA Światowy Dzień Bez Zakupów zawitał także tutaj. Kiedy na początku lat 90. ogłoszono taki dzień jako znak protestu przeciwko zbędnym sprawunkom i stylowi życia, podporządkowanemu konsumpcji, w Polsce taki problem nie istniał. Dziś i Polakom warto przypomnieć, że zamiast zakupów można wybrać kino, koncert lub inne wydarzenie kulturalne. A zamiast w sklepach warto aktywnie spędzić czas z rodziną czy znajomymi i to najlepiej na świeżym powietrzu.",
-        "tr": "Поляк-споживач сьогодні. Час маленьких крамничок безповоротно минув. Великі супермаркети й торговельні центри ростуть усюди як гриби після дощу. І що цікаво, у кожному з них натовпи покупців. Звідки така потреба у всіляких товарах, запитаєте? Це не потреба, а мода. Для багатьох людей покупки стали способом проведення часу. Купують, хоча не мусять. Їх спокушає акція, низькі ціни, легко дають себе переконати рекламі, що щось їм необхідне. Люди дедалі частіше потрапляють у купівельну пастку. Заходячи до галереї, часто втрачають відчуття часу. На місці мають бари, кондитерські, шоколадні бари. Можуть швидко перекусити й рушити далі курсом по ятках і магазинах. Явище надмірного споживання поволі стає фактом також у Польщі. Не дивно, що встановлений у США Всесвітній день без покупок завітав і сюди. Коли на початку 90-х років оголосили такий день як знак протесту проти зайвих покупок і способу життя, підпорядкованого споживанню, у Польщі такої проблеми не існувало. Сьогодні й полякам варто нагадати, що замість покупок можна вибрати кіно, концерт чи іншу культурну подію. А замість магазинів варто активно провести час із родиною чи знайомими, і то найкраще на свіжому повітрі." }
-    ]},
-    { "block": "B. Sonda · opinie o zakupach · трек 220B2", "items": [
-      { "type": "dia", "title": "Wielkie markety", "audio": "audio/L20/L20-czytanie-03.mp3", "lines": [
-        ["Reporter","Co Pana zdaniem zachęca ludzi do kupowania w wielkich marketach?","Що, на Вашу думку, заохочує людей купувати у великих маркетах?"],
-        ["Mężczyzna","Wydaje mi się, że przede wszystkim stosunkowo niskie ceny i to, że wszystko jest w jednym miejscu. Nie trzeba ganiać z jednego końca miasta na drugi.","Мені здається, що передусім відносно низькі ціни й те, що все в одному місці. Не треба бігати з одного кінця міста на інший."]
-      ]},
-      { "type": "dia", "title": "Owoce i warzywa w supermarkecie", "audio": "audio/L20/L20-czytanie-04.mp3", "lines": [
-        ["Reporter","Jak Pani sądzi, czy warto kupować owoce i warzywa w supermarketach?","Як Ви вважаєте, чи варто купувати фрукти й овочі в супермаркетах?"],
-        ["Kobieta","Trudno mi jednoznacznie odpowiedzieć na to pytanie. Duże sklepy na ogół oferują nam tańsze produkty i niekoniecznie jest prawdą często powtarzana opinia, że są one nieświeże. Jednak muszę przyznać, że sama wolę kupować jarzyny i owoce na targu. Te ze straganu smakują mi lepiej. Dziękuję za uwagę i do zobaczenia w kolejnym odcinku.","Мені важко однозначно відповісти на це питання. Великі магазини зазвичай пропонують нам дешевші продукти, і не обов’язково правдива часто повторювана думка, що вони несвіжі. Проте мушу визнати, що сама волію купувати овочі та фрукти на ринку. Ті з ятки смакують мені краще. Дякую за увагу й до зустрічі в наступному випуску."]
-      ]},
-      { "type": "dia", "title": "Tradycyjne nazwy sklepów", "audio": "audio/L20/L20-czytanie-05.mp3", "lines": [
-        ["Reporter","Dlaczego według pana znikają tradycyjne nazwy sklepów?","Чому, на Вашу думку, зникають традиційні назви магазинів?"],
-        ["Mężczyzna","Język się zmienia. Tak jak świat wokół nas. Już nikt nie mówi sklep obuwniczy. Teraz się kupuje buty w zebrze, uryłki i tak dalej. Czasem jeszcze gdzieś na osiedlu można spotkać masarnię czy sklep odzieżowy. Ale te nazwy powoli odchodzą do lamusa.","Мова змінюється. Так само як світ навколо нас. Уже ніхто не каже «взуттєвий магазин». Тепер купують взуття в «Zebra», у «Ryłko» і так далі. Іноді ще десь у мікрорайоні можна зустріти ковбасну крамницю чи магазин одягу. Але ці назви поволі відходять у минуле."]
-      ]},
-      { "type": "dia", "title": "Kieszonkowe", "audio": "audio/L20/L20-czytanie-06.mp3", "lines": [
-        ["Reporter","Mam do Was pytanie, na co zwykle wydajecie swoje kieszonkowe?","Маю до вас питання: на що зазвичай витрачаєте свої кишенькові гроші?"],
-        ["Nastolatka","Najczęściej na słodycze. Lubimy chodzić do tej małej cukierni koło szkoły. Czasem kupujemy gazetki dla nastolatków, ale nie wydajemy na nie aż tak dużo pieniędzy jak nasze koleżanki. Ja często wydaję pieniądze w sklepie papierniczym. Na kredki, farby, zeszyty i kolorowe naklejki.","Найчастіше на солодощі. Любимо ходити до тієї маленької кондитерської біля школи. Іноді купуємо журнали для підлітків, але не витрачаємо на них аж так багато грошей, як наші подруги. Я часто витрачаю гроші в канцелярському магазині. На олівці, фарби, зошити й кольорові наклейки."]
-      ]},
-      { "type": "dia", "title": "Wpływ reklam", "audio": "audio/L20/L20-czytanie-07.mp3", "lines": [
-        ["Reporter","Czy mógłby Pan podzielić się z nami opinią na temat wpływu reklam na nasze życie?","Чи могли б Ви поділитися з нами думкою про вплив реклами на наше життя?"],
-        ["Mężczyzna","To trudny temat do omówienia w dwóch słowach. Najpierw należy zadać sobie kilka pytań. Czym jest reklama? Czemu ją wymyślono? Dlaczego ma taką siłę oddziaływania?","Це складна тема, щоб обговорити її у двох словах. Спершу слід поставити собі кілька запитань. Що таке реклама? Навіщо її придумали? Чому вона має таку силу впливу?"]
-      ]},
-      { "type": "dia", "title": "Zakupy w weekend", "audio": "audio/L20/L20-czytanie-08.mp3", "lines": [
-        ["Reporter","Czy według Ciebie zakupy w weekend to dobry pomysł?","Чи, на твою думку, покупки у вихідні — хороша ідея?"],
-        ["Młody człowiek","Według mnie fatalny, choć muszę przyznać, że moi rówieśnicy uwielbiają takie wyprawy na zakupy. Na szczęście moi rodzice nie należą do tych, którzy spędzają całe dnie w galeriach handlowych. My raczej wolimy wycieczki w góry, jazdę konną albo po prostu długi spacer.","На мою думку, жахлива, хоча мушу визнати, що мої однолітки обожнюють такі «походи» за покупками. На щастя, мої батьки не належать до тих, хто проводить цілі дні в торгових галереях. Ми радше воліємо поїздки в гори, верхову їзду або просто довгу прогулянку."]
-      ]},
-      { "type": "dia", "title": "Im więcej kupujesz, tym mniej żyjesz", "audio": "audio/L20/L20-czytanie-09.mp3", "lines": [
-        ["Reporter","Im więcej kupujesz, tym mniej żyjesz. Proszę mi powiedzieć, co pan sądzi o tym haśle?","Чим більше купуєш, тим менше живеш. Скажіть, будь ласка, що Ви думаєте про це гасло?"],
-        ["Mężczyzna","Cóż, to chyba prawda. Kiedy byłem mały, sklepy świeciły pustkami. Nasze mamy musiały biegać po całym mieście, żeby kupić podstawowe produkty. Mimo to było więcej czasu na życie rodzinne, wspólną zabawę. Może na stole było mniej, chodziliśmy gorzej ubrani, ale żyliśmy pełniej. A teraz wszystkiego jest pod dostatkiem. Tylko ludzie często nie mają czasu korzystać z tego, czego nakupili.","Що ж, це, мабуть, правда. Коли я був малий, магазини світили порожнечею. Наші мами мусили бігати по всьому місту, щоб купити основні продукти. Попри це було більше часу на родинне життя, спільні розваги. Може, на столі було менше, ми гірше вдягалися, але жили повніше. А тепер усього вдосталь. Тільки люди часто не мають часу користуватися тим, чого накупили."]
-      ]}
-    ]},
-    { "block": "C. Reklamacja · dialog · трек 220C2", "items": [
-      { "type": "dia", "title": "Reklamacja suszarki do włosów", "audio": "audio/L20/L20-czytanie-10.mp3", "lines": [
-        ["Sprzedawca","Dzień dobry. Czym mogę służyć?","Доброго дня. Чим можу допомогти?"],
-        ["Klientka","Dzień dobry panu. Wczoraj kupiłam u państwa suszarkę do włosów. Niestety dziś okazało się, że nie działa.","Доброго дня. Учора я купила у вас фен. На жаль, сьогодні виявилося, що він не працює."],
-        ["Sprzedawca","Czy sprawdzała pani towar przed kupieniem?","Чи перевіряли Ви товар перед покупкою?"],
-        ["Klientka","Nie. Po prostu wzięłam z półki.","Ні. Просто взяла з полиці."],
-        ["Sprzedawca","Rozumiem. Proszę uzupełnić ten druk, a następnie iść do tamtego stanowiska i złożyć reklamację.","Розумію. Заповніть цей бланк, а потім підійдіть до того стенда й подайте рекламацію."],
-        ["Klientka","Aha.","Ага."],
-        ["Sprzedawca","Reklamować towar może pani tylko, jeśli posiada pani paragon.","Рекламувати товар Ви можете лише, якщо маєте чек."],
-        ["Klientka","To oczywiste. Czy dostanę zwrot pieniędzy, czy nową suszarkę?","Це зрозуміло. Я отримаю повернення грошей чи новий фен?"],
-        ["Sprzedawca","Decyzja należy do pani.","Рішення за Вами."],
-        ["Klientka","W takim razie wezmę inną. Jednak tym razem sprawdzę, czy nie jest uszkodzona.","У такому разі візьму інший. Але цього разу перевірю, чи він не пошкоджений."]
-      ]},
-      { "type": "dia", "title": "Czasy bylejakości", "audio": "audio/L20/L20-czytanie-11.mp3", "lines": [
-        ["Sąsiadka","Dzień dobry panu, panie Górecki. Co tam słychać?","Доброго дня, пане Гурецький. Що чути?"],
-        ["Sąsiad","Dzień dobry pani. Wracam właśnie z centrum handlowego.","Доброго дня. Якраз повертаюся з торгового центру."],
-        ["Sąsiadka","I co? Kupił pan coś ciekawego?","І що? Купили щось цікаве?"],
-        ["Sąsiad","E tam, pojechałem tylko oddać odkurzacz. Dopiero co kupiłem, a już nie działa. Co za czasy. Wszystko tanie, ale byle jakie.","Та ні, поїхав лише повернути пилосос. Щойно купив, а вже не працює. Що за часи. Усе дешеве, але абияке."],
-        ["Sąsiadka","Ano właśnie, wszędzie panuje byle jakość.","Отож-бо, скрізь панує абиякість."]
-      ]}
-    ]}
+    {
+      "block": "A. Polak konsument · raport · трек 220A1-2",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Polak konsument — początek XXI wieku",
+          "audio": "audio/L20/L20-czytanie-01.mp3",
+          "text": "Raport. Polak konsument. Początek XXI wieku. Lubi robić zakupy. Codziennie z przyjemnością zagląda do osiedlowego sklepu, a jeśli potrzebuje czegoś szczególnego, wybiera się do sklepu specjalistycznego, ale też raczej małego, bo zależy mu na tym, żeby ktoś się o niego zatroszczył. Wypytał o potrzeby i pomógł wybrać najlepszą rzecz, taką w sam raz dla niego. Co jakiś czas jeździ do supermarketów, ale czuje się w nich obco i gdyby niewielki wybór towarów i niskie ceny, w ogóle by tam nie zaglądał. Stara się unikać sprzedaży wysyłkowej, a jak ognia, boi się internetu i akwizytorów. Zwykle podejrzewa ich o oszustwo i podstęp, więc woli nie ryzykować. W najważniejsze sprzęty swoje mieszkanie prawie wyposażył. Najpierw kupił lodówkę, bo bez niej życie jest udręką, podobnie jak bez kolorowego telewizora. Nie mógł nabyć wszystkiego od razu, więc wolał zrezygnować z pralki niż z telewizora. Pralkę kupi nieco później, może na kredyt. Pralkosuszarkę uznaje za zbyteczny luksus, tak samo zmywarkę. Coraz częściej myśli o komputerze. Na razie ma go co piąty Polak. Kupując jedzenie szuka wyrobów krajowych. Mrożonki odrzuca, mimo ich dużych wartości odżywczych. Pragnąłby, żeby na stole leżały wyłącznie świeże produkty ekologiczne, a w żadnym razie żywność genetycznie modyfikowana. Wprawdzie nie wie dokładnie co to takiego, ale na wszelki wypadek woli nie jeść. O comiesięcznym odkładaniu pieniędzy nie ma mowy. Czasem się uda, ale albo są to niewielkie sumy, albo szybko się rozchodzą. Bogatsi wydają oszczędności na wycieczki, domy, samochody. Biedniejsi myślą o tym, żeby zainwestować w dzieci, wnuki lub odłożyć na czarną godzinę. W wolnej chwili siada nad krzyżówkami i ćwiczy umysł. Deklaruje, że lubi też poczytać. Gotuje nie z obowiązku, ale dla przyjemności. Chętnie chodzi na spacery i pracuje na działce. Czasem oddaje się grom losowym lub bierze udział w loteriach. Zdaje sobie sprawę, że ma wady. Ale tylko dwie. Alkohol i papierosy.",
+          "tr": "Звіт. Поляк-споживач. Початок XXI століття. Любить робити покупки. Щодня із задоволенням заглядає до магазину в мікрорайоні, а якщо потребує чогось особливого, вибирається до спеціалізованого магазину, але теж радше невеликого, бо йому залежить на тому, щоб хтось про нього подбав. Розпитав про потреби й допоміг вибрати найкращу річ, саме таку для нього. Час від часу їздить до супермаркетів, але почувається в них чужо, і якби не великий вибір товарів і низькі ціни, узагалі б туди не заглядав. Намагається уникати посилкового продажу, а інтернету й торгових агентів боїться як вогню. Зазвичай підозрює їх у шахрайстві й підступі, тож воліє не ризикувати. Найважливішою технікою своє помешкання майже обладнав. Спершу купив холодильник, бо без нього життя — мука, так само як без кольорового телевізора. Не міг придбати все одразу, тож волів відмовитися від пральної машини, ніж від телевізора. Пральну машину купить трохи пізніше, може, у кредит. Пральну машину із сушкою вважає зайвою розкішшю, так само й посудомийну. Дедалі частіше думає про комп’ютер. Поки що його має кожен п’ятий поляк. Купуючи їжу, шукає вітчизняних виробів. Заморожені продукти відкидає, попри їхню високу поживну цінність. Хотів би, щоб на столі лежали виключно свіжі екологічні продукти, а в жодному разі не генетично модифікована їжа. Щоправда, не знає точно, що це таке, але про всяк випадок воліє не їсти. Про щомісячне відкладання грошей не може бути й мови. Іноді вдається, але це або невеликі суми, або вони швидко розходяться. Багатші витрачають заощадження на подорожі, будинки, автомобілі. Бідніші думають про те, щоб інвестувати в дітей, онуків, або відкласти на чорний день. У вільну хвилину сідає над кросвордами й тренує розум. Заявляє, що любить також почитати. Готує не з обов’язку, а для задоволення. Охоче ходить на прогулянки й працює на дачі. Іноді віддається азартним іграм або бере участь у лотереях. Усвідомлює, що має вади. Але тільки дві. Алкоголь і цигарки."
+        }
+      ]
+    },
+    {
+      "block": "A. Polak konsument dziś · трек 220A8",
+      "items": [
+        {
+          "type": "mono",
+          "title": "Polak-konsument dziś",
+          "audio": "audio/L20/L20-czytanie-02.mp3",
+          "text": "Polak-konsument dziś. Czas małych sklepików przeminął bezpowrotnie. Wielkie supermarkety i centra handlowe rosną wszędzie jak grzyby po deszczu. I co ciekawe, w każdym z nich tłumy kupujących. Skąd aż takie zapotrzebowanie na wszelkiego rodzaju towary, zapytacie? To nie potrzeba, lecz moda. Dla wielu osób zakupy stały się sposobem na spędzanie czasu. Kupują, choć nie muszą. Kusi ich promocja, niskie ceny, łatwo dają się przekonać reklamom, że coś jest im niezbędne. Ludzie coraz częściej wpadają w zakupową pułapkę. Wchodząc do galerii, często tracą poczucie czasu. Na miejscu mają bary, cukiernie, pijalnie czekolady. Mogą się szybko posilić i ruszyć w dalszy kurs po stoiskach i sklepach. Zjawisko nadmiernej konsumpcji powoli staje się faktem także w Polsce. Nic dziwnego, że ustanowiony w USA Światowy Dzień Bez Zakupów zawitał także tutaj. Kiedy na początku lat 90. ogłoszono taki dzień jako znak protestu przeciwko zbędnym sprawunkom i stylowi życia, podporządkowanemu konsumpcji, w Polsce taki problem nie istniał. Dziś i Polakom warto przypomnieć, że zamiast zakupów można wybrać kino, koncert lub inne wydarzenie kulturalne. A zamiast w sklepach warto aktywnie spędzić czas z rodziną czy znajomymi i to najlepiej na świeżym powietrzu.",
+          "tr": "Поляк-споживач сьогодні. Час маленьких крамничок безповоротно минув. Великі супермаркети й торговельні центри ростуть усюди як гриби після дощу. І що цікаво, у кожному з них натовпи покупців. Звідки така потреба у всіляких товарах, запитаєте? Це не потреба, а мода. Для багатьох людей покупки стали способом проведення часу. Купують, хоча не мусять. Їх спокушає акція, низькі ціни, легко дають себе переконати рекламі, що щось їм необхідне. Люди дедалі частіше потрапляють у купівельну пастку. Заходячи до галереї, часто втрачають відчуття часу. На місці мають бари, кондитерські, шоколадні бари. Можуть швидко перекусити й рушити далі курсом по ятках і магазинах. Явище надмірного споживання поволі стає фактом також у Польщі. Не дивно, що встановлений у США Всесвітній день без покупок завітав і сюди. Коли на початку 90-х років оголосили такий день як знак протесту проти зайвих покупок і способу життя, підпорядкованого споживанню, у Польщі такої проблеми не існувало. Сьогодні й полякам варто нагадати, що замість покупок можна вибрати кіно, концерт чи іншу культурну подію. А замість магазинів варто активно провести час із родиною чи знайомими, і то найкраще на свіжому повітрі."
+        }
+      ]
+    },
+    {
+      "block": "B. Sonda · opinie o zakupach · трек 220B2",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Wielkie markety",
+          "audio": "audio/L20/L20-czytanie-03.mp3",
+          "lines": [
+            [
+              "Reporter",
+              "Co Pana zdaniem zachęca ludzi do kupowania w wielkich marketach?",
+              "Що, на Вашу думку, заохочує людей купувати у великих маркетах?"
+            ],
+            [
+              "Mężczyzna",
+              "Wydaje mi się, że przede wszystkim stosunkowo niskie ceny i to, że wszystko jest w jednym miejscu. Nie trzeba ganiać z jednego końca miasta na drugi.",
+              "Мені здається, що передусім відносно низькі ціни й те, що все в одному місці. Не треба бігати з одного кінця міста на інший."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Owoce i warzywa w supermarkecie",
+          "audio": "audio/L20/L20-czytanie-04.mp3",
+          "lines": [
+            [
+              "Reporter",
+              "Jak Pani sądzi, czy warto kupować owoce i warzywa w supermarketach?",
+              "Як Ви вважаєте, чи варто купувати фрукти й овочі в супермаркетах?"
+            ],
+            [
+              "Kobieta",
+              "Trudno mi jednoznacznie odpowiedzieć na to pytanie. Duże sklepy na ogół oferują nam tańsze produkty i niekoniecznie jest prawdą często powtarzana opinia, że są one nieświeże. Jednak muszę przyznać, że sama wolę kupować jarzyny i owoce na targu. Te ze straganu smakują mi lepiej. Dziękuję za uwagę i do zobaczenia w kolejnym odcinku.",
+              "Мені важко однозначно відповісти на це питання. Великі магазини зазвичай пропонують нам дешевші продукти, і не обов’язково правдива часто повторювана думка, що вони несвіжі. Проте мушу визнати, що сама волію купувати овочі та фрукти на ринку. Ті з ятки смакують мені краще. Дякую за увагу й до зустрічі в наступному випуску."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Tradycyjne nazwy sklepów",
+          "audio": "audio/L20/L20-czytanie-05.mp3",
+          "lines": [
+            [
+              "Reporter",
+              "Dlaczego według pana znikają tradycyjne nazwy sklepów?",
+              "Чому, на Вашу думку, зникають традиційні назви магазинів?"
+            ],
+            [
+              "Mężczyzna",
+              "Język się zmienia. Tak jak świat wokół nas. Już nikt nie mówi sklep obuwniczy. Teraz się kupuje buty w zebrze, uryłki i tak dalej. Czasem jeszcze gdzieś na osiedlu można spotkać masarnię czy sklep odzieżowy. Ale te nazwy powoli odchodzą do lamusa.",
+              "Мова змінюється. Так само як світ навколо нас. Уже ніхто не каже «взуттєвий магазин». Тепер купують взуття в «Zebra», у «Ryłko» і так далі. Іноді ще десь у мікрорайоні можна зустріти ковбасну крамницю чи магазин одягу. Але ці назви поволі відходять у минуле."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Kieszonkowe",
+          "audio": "audio/L20/L20-czytanie-06.mp3",
+          "lines": [
+            [
+              "Reporter",
+              "Mam do Was pytanie, na co zwykle wydajecie swoje kieszonkowe?",
+              "Маю до вас питання: на що зазвичай витрачаєте свої кишенькові гроші?"
+            ],
+            [
+              "Nastolatka",
+              "Najczęściej na słodycze. Lubimy chodzić do tej małej cukierni koło szkoły. Czasem kupujemy gazetki dla nastolatków, ale nie wydajemy na nie aż tak dużo pieniędzy jak nasze koleżanki. Ja często wydaję pieniądze w sklepie papierniczym. Na kredki, farby, zeszyty i kolorowe naklejki.",
+              "Найчастіше на солодощі. Любимо ходити до тієї маленької кондитерської біля школи. Іноді купуємо журнали для підлітків, але не витрачаємо на них аж так багато грошей, як наші подруги. Я часто витрачаю гроші в канцелярському магазині. На олівці, фарби, зошити й кольорові наклейки."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Wpływ reklam",
+          "audio": "audio/L20/L20-czytanie-07.mp3",
+          "lines": [
+            [
+              "Reporter",
+              "Czy mógłby Pan podzielić się z nami opinią na temat wpływu reklam na nasze życie?",
+              "Чи могли б Ви поділитися з нами думкою про вплив реклами на наше життя?"
+            ],
+            [
+              "Mężczyzna",
+              "To trudny temat do omówienia w dwóch słowach. Najpierw należy zadać sobie kilka pytań. Czym jest reklama? Czemu ją wymyślono? Dlaczego ma taką siłę oddziaływania?",
+              "Це складна тема, щоб обговорити її у двох словах. Спершу слід поставити собі кілька запитань. Що таке реклама? Навіщо її придумали? Чому вона має таку силу впливу?"
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Zakupy w weekend",
+          "audio": "audio/L20/L20-czytanie-08.mp3",
+          "lines": [
+            [
+              "Reporter",
+              "Czy według Ciebie zakupy w weekend to dobry pomysł?",
+              "Чи, на твою думку, покупки у вихідні — хороша ідея?"
+            ],
+            [
+              "Młody człowiek",
+              "Według mnie fatalny, choć muszę przyznać, że moi rówieśnicy uwielbiają takie wyprawy na zakupy. Na szczęście moi rodzice nie należą do tych, którzy spędzają całe dnie w galeriach handlowych. My raczej wolimy wycieczki w góry, jazdę konną albo po prostu długi spacer.",
+              "На мою думку, жахлива, хоча мушу визнати, що мої однолітки обожнюють такі «походи» за покупками. На щастя, мої батьки не належать до тих, хто проводить цілі дні в торгових галереях. Ми радше воліємо поїздки в гори, верхову їзду або просто довгу прогулянку."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Im więcej kupujesz, tym mniej żyjesz",
+          "audio": "audio/L20/L20-czytanie-09.mp3",
+          "lines": [
+            [
+              "Reporter",
+              "Im więcej kupujesz, tym mniej żyjesz. Proszę mi powiedzieć, co pan sądzi o tym haśle?",
+              "Чим більше купуєш, тим менше живеш. Скажіть, будь ласка, що Ви думаєте про це гасло?"
+            ],
+            [
+              "Mężczyzna",
+              "Cóż, to chyba prawda. Kiedy byłem mały, sklepy świeciły pustkami. Nasze mamy musiały biegać po całym mieście, żeby kupić podstawowe produkty. Mimo to było więcej czasu na życie rodzinne, wspólną zabawę. Może na stole było mniej, chodziliśmy gorzej ubrani, ale żyliśmy pełniej. A teraz wszystkiego jest pod dostatkiem. Tylko ludzie często nie mają czasu korzystać z tego, czego nakupili.",
+              "Що ж, це, мабуть, правда. Коли я був малий, магазини світили порожнечею. Наші мами мусили бігати по всьому місту, щоб купити основні продукти. Попри це було більше часу на родинне життя, спільні розваги. Може, на столі було менше, ми гірше вдягалися, але жили повніше. А тепер усього вдосталь. Тільки люди часто не мають часу користуватися тим, чого накупили."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block": "C. Reklamacja · dialog · трек 220C2",
+      "items": [
+        {
+          "type": "dia",
+          "title": "Reklamacja suszarki do włosów",
+          "audio": "audio/L20/L20-czytanie-10.mp3",
+          "lines": [
+            [
+              "Sprzedawca",
+              "Dzień dobry. Czym mogę służyć?",
+              "Доброго дня. Чим можу допомогти?"
+            ],
+            [
+              "Klientka",
+              "Dzień dobry panu. Wczoraj kupiłam u państwa suszarkę do włosów. Niestety dziś okazało się, że nie działa.",
+              "Доброго дня. Учора я купила у вас фен. На жаль, сьогодні виявилося, що він не працює."
+            ],
+            [
+              "Sprzedawca",
+              "Czy sprawdzała pani towar przed kupieniem?",
+              "Чи перевіряли Ви товар перед покупкою?"
+            ],
+            [
+              "Klientka",
+              "Nie. Po prostu wzięłam z półki.",
+              "Ні. Просто взяла з полиці."
+            ],
+            [
+              "Sprzedawca",
+              "Rozumiem. Proszę uzupełnić ten druk, a następnie iść do tamtego stanowiska i złożyć reklamację.",
+              "Розумію. Заповніть цей бланк, а потім підійдіть до того стенда й подайте рекламацію."
+            ],
+            [
+              "Klientka",
+              "Aha.",
+              "Ага."
+            ],
+            [
+              "Sprzedawca",
+              "Reklamować towar może pani tylko, jeśli posiada pani paragon.",
+              "Рекламувати товар Ви можете лише, якщо маєте чек."
+            ],
+            [
+              "Klientka",
+              "To oczywiste. Czy dostanę zwrot pieniędzy, czy nową suszarkę?",
+              "Це зрозуміло. Я отримаю повернення грошей чи новий фен?"
+            ],
+            [
+              "Sprzedawca",
+              "Decyzja należy do pani.",
+              "Рішення за Вами."
+            ],
+            [
+              "Klientka",
+              "W takim razie wezmę inną. Jednak tym razem sprawdzę, czy nie jest uszkodzona.",
+              "У такому разі візьму інший. Але цього разу перевірю, чи він не пошкоджений."
+            ]
+          ]
+        },
+        {
+          "type": "dia",
+          "title": "Czasy bylejakości",
+          "audio": "audio/L20/L20-czytanie-11.mp3",
+          "lines": [
+            [
+              "Sąsiadka",
+              "Dzień dobry panu, panie Górecki. Co tam słychać?",
+              "Доброго дня, пане Гурецький. Що чути?"
+            ],
+            [
+              "Sąsiad",
+              "Dzień dobry pani. Wracam właśnie z centrum handlowego.",
+              "Доброго дня. Якраз повертаюся з торгового центру."
+            ],
+            [
+              "Sąsiadka",
+              "I co? Kupił pan coś ciekawego?",
+              "І що? Купили щось цікаве?"
+            ],
+            [
+              "Sąsiad",
+              "E tam, pojechałem tylko oddać odkurzacz. Dopiero co kupiłem, a już nie działa. Co za czasy. Wszystko tanie, ale byle jakie.",
+              "Та ні, поїхав лише повернути пилосос. Щойно купив, а вже не працює. Що за часи. Усе дешеве, але абияке."
+            ],
+            [
+              "Sąsiadka",
+              "Ano właśnie, wszędzie panuje byle jakość.",
+              "Отож-бо, скрізь панує абиякість."
+            ]
+          ]
+        }
+      ]
+    }
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 20 — треки 220A1-2, 220A8, 220B2, 220C2, 220C5. Аудіо — синтез ElevenLabs.",
-
   "zeszyt": [
-    { "type": "mono", "title": "Pani Helenka i lista zakupów · zeszyt cw08", "audio": "audio/L20/L20-zeszyt-01.mp3",
+    {
+      "type": "mono",
+      "title": "Pani Helenka i lista zakupów · zeszyt cw08",
+      "audio": "audio/L20/L20-zeszyt-01.mp3",
       "text": "Pani Helenka ma dziś mnóstwo spraw do załatwienia. W sobotę będą 64-te urodziny jej męża. Musi mu kupić jakiś specjalny prezent. Może skórzany portfel albo rękawiczki. Przydałby mu się też nowy krawat i elegancka koszula. Ona także chciałaby ładnie wyglądać na przyjęciu, a stara sukienka nie prezentuje się już zbyt dobrze. Trzeba pomyśleć o czymś nowym. Do tego jeszcze jakiś dobry krem przeciwzmarszczkowy i maseczka regenerująca. Koniecznie musi zamówić tort czekoladowy, bo jej nigdy nie wychodzi tak dobrze. Kupi też makowiec, szarlotkę i trochę ciastek na wagę, a sama upiecze babeczki z owocami, które wszyscy uwielbiają. Dlatego musi też kupić mąkę, masło, śmietanę, jajka, proszek do pieczenia. Na kolację jakieś dobre sery i wędliny. A, jeszcze schab, karczek i boczek do upieczenia. Nie może też zapomnieć o pieczywie. Ciemny chleb dla synowej, pszenny dla zięcia, bułki i rogale dla wnuków. Po drodze musi wstąpić po leki na nadciśnienie, magnez i witaminy. Dobrze by było przy okazji wymienić baterię w zegarku. Chciałaby też od razu wybrać łańcuszek z serduszkiem na urodziny wnuczki, bo to przecież już w przyszłym tygodniu. A wnuczek dał jej całą listę sprawunków. Zeszyty, blok techniczny, kredki, segregator. Mogłaby też wstąpić do księgarni po jakąś dobrą książkę do poduszki, bo ostatnio źle sypia. O, i kartka urodzinowa dla wnuczki. Trzeba by też zamówić bukiet urodzinowy i może jakieś kwiaty na stół. Na koniec bakłażany i czosnek na ulubioną sałatkę. Zaraz, zaraz. Jeszcze kapcie dla wnuka, a dla niej wygodne buty, bo stare ją cisną i w nich na pewno nie da rady zrobić tych wszystkich zakupów.",
-      "tr": "Пані Геленка має сьогодні безліч справ. У суботу буде 64-й день народження її чоловіка. Мусить купити йому якийсь особливий подарунок. Може, шкіряний гаманець або рукавички. Знадобилася б йому також нова краватка й елегантна сорочка. Вона також хотіла б гарно виглядати на святі, а стара сукня вже не дуже добре виглядає. Треба подумати про щось нове. До того ж якийсь добрий крем проти зморшок і відновлювальна маска. Конче мусить замовити шоколадний торт, бо в неї ніколи не виходить так добре. Купить також рулет з маком, яблучний пиріг і трохи тістечок на вагу, а сама спече кексики з фруктами, які всі обожнюють. Тому мусить також купити борошно, масло, сметану, яйця, розпушувач. На вечерю якісь добрі сири й ковбаси. А, ще свинячу корейку, шию та грудинку для запікання. Не може також забути про випічку. Темний хліб для невістки, пшеничний для зятя, булочки й рогалики для онуків. По дорозі мусить зайти по ліки від тиску, магній і вітаміни. Добре було б при нагоді замінити батарейку в годиннику. Хотіла б також одразу вибрати ланцюжок із сердечком на день народження онучки, бо це ж уже наступного тижня. А онук дав їй цілий список покупок. Зошити, альбом для креслення, олівці, папку. Могла б також зайти до книгарні по якусь добру книжку на ніч, бо останнім часом погано спить. О, і вітальна листівка для онучки. Треба було б також замовити святковий букет і, може, якісь квіти на стіл. Наостанок баклажани й часник на улюблений салат. Стривай, стривай. Ще капці для онука, а для неї зручне взуття, бо старе її тисне і в ньому вона напевно не зможе зробити всіх цих покупок." },
-    { "type": "mono", "title": "Reportaż: Dzień Bez Zakupów · zeszyt cw06 (D)", "audio": "audio/L20/L20-zeszyt-02.mp3",
+      "tr": "Пані Геленка має сьогодні безліч справ. У суботу буде 64-й день народження її чоловіка. Мусить купити йому якийсь особливий подарунок. Може, шкіряний гаманець або рукавички. Знадобилася б йому також нова краватка й елегантна сорочка. Вона також хотіла б гарно виглядати на святі, а стара сукня вже не дуже добре виглядає. Треба подумати про щось нове. До того ж якийсь добрий крем проти зморшок і відновлювальна маска. Конче мусить замовити шоколадний торт, бо в неї ніколи не виходить так добре. Купить також рулет з маком, яблучний пиріг і трохи тістечок на вагу, а сама спече кексики з фруктами, які всі обожнюють. Тому мусить також купити борошно, масло, сметану, яйця, розпушувач. На вечерю якісь добрі сири й ковбаси. А, ще свинячу корейку, шию та грудинку для запікання. Не може також забути про випічку. Темний хліб для невістки, пшеничний для зятя, булочки й рогалики для онуків. По дорозі мусить зайти по ліки від тиску, магній і вітаміни. Добре було б при нагоді замінити батарейку в годиннику. Хотіла б також одразу вибрати ланцюжок із сердечком на день народження онучки, бо це ж уже наступного тижня. А онук дав їй цілий список покупок. Зошити, альбом для креслення, олівці, папку. Могла б також зайти до книгарні по якусь добру книжку на ніч, бо останнім часом погано спить. О, і вітальна листівка для онучки. Треба було б також замовити святковий букет і, може, якісь квіти на стіл. Наостанок баклажани й часник на улюблений салат. Стривай, стривай. Ще капці для онука, а для неї зручне взуття, бо старе її тисне і в ньому вона напевно не зможе зробити всіх цих покупок."
+    },
+    {
+      "type": "mono",
+      "title": "Reportaż: Dzień Bez Zakupów · zeszyt cw06 (D)",
+      "audio": "audio/L20/L20-zeszyt-02.mp3",
       "text": "Zainteresowaniem czytają wypisane na tablicach hasła, po czym omijając plakat z sugestywnie przekreślonym koszykiem z supermarketu idą na zakupy. Z Krakowa dla wiadomości Łukasz Międzyrzecki.",
-      "tr": "Із зацікавленням читають виписані на табличках гасла, після чого, обминаючи плакат із промовисто перекресленим супермаркетним кошиком, ідуть за покупками. З Кракова для новин Лукаш Мендзижецький." },
-    { "type": "mono", "title": "Marnowanie zakupów · zeszyt cw06 (O)", "audio": "audio/L20/L20-zeszyt-03.mp3",
+      "tr": "Із зацікавленням читають виписані на табличках гасла, після чого, обминаючи плакат із промовисто перекресленим супермаркетним кошиком, ідуть за покупками. З Кракова для новин Лукаш Мендзижецький."
+    },
+    {
+      "type": "mono",
+      "title": "Marnowanie zakupów · zeszyt cw06 (O)",
+      "audio": "audio/L20/L20-zeszyt-03.mp3",
       "text": "W naszym domu ciągle był ten sam problem. Kupowało się za dużo, wszystkiego. Jak już rodzinka się raz na dwa tygodnie wybrała do supermarketu, to każdy zapełniał koszyk mnóstwem produktów. Dodatkowo kusiły wszelkie promocje i w koszyku lądowały kolejne, nieprzemyślane zakupy. Część artykułów spożywczych miała krótkie daty ważności i niestety połowa z tego się marnowała. Zawsze mnie to oburzało i dlatego ja w swoim domu staram się planować zakupy tak, żeby niczego nie marnować.",
-      "tr": "У нашому домі постійно була та сама проблема. Купувалося забагато, усього. Коли вже родина раз на два тижні вибиралася до супермаркету, то кожен наповнював кошик безліччю продуктів. Додатково спокушали всілякі акції, і в кошику опинялися чергові непродумані покупки. Частина продуктів мала короткі терміни придатності, і, на жаль, половина з цього псувалася. Мене це завжди обурювало, і тому я у своєму домі намагаюся планувати покупки так, щоб нічого не марнувати." },
-    { "type": "mono", "title": "Dawniej szanowało się rzeczy · zeszyt cw06 (B)", "audio": "audio/L20/L20-zeszyt-04.mp3",
+      "tr": "У нашому домі постійно була та сама проблема. Купувалося забагато, усього. Коли вже родина раз на два тижні вибиралася до супермаркету, то кожен наповнював кошик безліччю продуктів. Додатково спокушали всілякі акції, і в кошику опинялися чергові непродумані покупки. Частина продуктів мала короткі терміни придатності, і, на жаль, половина з цього псувалася. Мене це завжди обурювало, і тому я у своєму домі намагаюся планувати покупки так, щоб нічого не марнувати."
+    },
+    {
+      "type": "mono",
+      "title": "Dawniej szanowało się rzeczy · zeszyt cw06 (B)",
+      "audio": "audio/L20/L20-zeszyt-04.mp3",
       "text": "Co za czasy proszę pani, dawniej jak człowiek coś miał, to to szanował, żeby służyło mu jak najdłużej. Dziś liczy się tylko, żeby ciągle mieć coś nowego. Mój wnuk co roku zmienia komórkę, a starą przynosi mnie z pytaniem, czy czasem nie chcę nowszego modelu.",
-      "tr": "Що за часи, шановна, колись коли людина щось мала, то берегла це, щоб служило їй якнайдовше. Сьогодні важливо лише постійно мати щось нове. Мій онук щороку міняє мобільний, а старий приносить мені із запитанням, чи я часом не хочу новішої моделі." },
-    { "type": "mono", "title": "Styl vintage · zeszyt cw06 (C)", "audio": "audio/L20/L20-zeszyt-05.mp3",
+      "tr": "Що за часи, шановна, колись коли людина щось мала, то берегла це, щоб служило їй якнайдовше. Сьогодні важливо лише постійно мати щось нове. Мій онук щороку міняє мобільний, а старий приносить мені із запитанням, чи я часом не хочу новішої моделі."
+    },
+    {
+      "type": "mono",
+      "title": "Styl vintage · zeszyt cw06 (C)",
+      "audio": "audio/L20/L20-zeszyt-05.mp3",
       "text": "Moje koleżanki ze studiów chodzą wyłącznie w markowych ciuchach i muszą mieć wszystko nowe. Ja lubię styl vintage. Swoje ubrania często przerabiam lub szukam inspiracji w sklepach z tanią odzieżą.",
-      "tr": "Мої подруги з університету ходять виключно в брендовому одязі й мусять мати все нове. Я люблю стиль вінтаж. Свій одяг часто переробляю або шукаю натхнення в магазинах дешевого одягу." },
-    { "type": "mono", "title": "Uwaga na promocje · zeszyt cw06", "audio": "audio/L20/L20-zeszyt-06.mp3",
+      "tr": "Мої подруги з університету ходять виключно в брендовому одязі й мусять мати все нове. Я люблю стиль вінтаж. Свій одяг часто переробляю або шукаю натхнення в магазинах дешевого одягу."
+    },
+    {
+      "type": "mono",
+      "title": "Uwaga na promocje · zeszyt cw06",
+      "audio": "audio/L20/L20-zeszyt-06.mp3",
       "text": "Mam wrażenie, że winy za większość naszych nieprzemyślanych zakupów ponoszą promocje. Sama nie jeden raz dawałam się skusić i wracałam do domu z czymś, czego absolutnie nie potrzebowałam. Odkąd zaczęłam robić zakupy przez internet, kupuję tylko to, co sobie wcześniej zaplanowałam. A pieniądze nie rozchodzą mi się tak szybko. Jednym słowem – uwaga na promocje.",
-      "tr": "Маю враження, що провину за більшість наших непродуманих покупок несуть акції. Я сама не раз давала себе спокусити й поверталася додому з чимось, чого абсолютно не потребувала. Відколи почала робити покупки через інтернет, купую лише те, що собі заздалегідь запланувала. А гроші не розходяться мені так швидко. Одне слово — обережно з акціями." },
-    { "type": "mono", "title": "Galeria po pracy · zeszyt cw14 (O)", "audio": "audio/L20/L20-zeszyt-07.mp3",
+      "tr": "Маю враження, що провину за більшість наших непродуманих покупок несуть акції. Я сама не раз давала себе спокусити й поверталася додому з чимось, чого абсолютно не потребувала. Відколи почала робити покупки через інтернет, купую лише те, що собі заздалегідь запланувала. А гроші не розходяться мені так швидко. Одне слово — обережно з акціями."
+    },
+    {
+      "type": "mono",
+      "title": "Galeria po pracy · zeszyt cw14 (O)",
+      "audio": "audio/L20/L20-zeszyt-07.mp3",
       "text": "Mam bardzo odpowiedzialną i stresującą pracę. Często muszę zostawać po godzinach. Kiedy wychodzę, jest już za późno, żeby iść na spacer. Chcę się jakoś rozładować po całym dniu i niestety najprostszym sposobem jest wejście do sąsiadującej z naszym biurowcem galerii handlowej. Sklepy są czynne do 22, więc bez problemu mogę się po nich powłóczyć. Nigdzie się już nie śpieszę, bo obiad zjadam w jednym z barów i mogę sobie dowoli poprzymierzać najróżniejsze bluzki, spódnice, ładną bieliznę. Szkoda tylko, że zawsze chodzę sama i nie mam się kogo zapytać, czy coś mi pasuje.",
-      "tr": "Маю дуже відповідальну й стресову роботу. Часто мушу залишатися понаднормово. Коли виходжу, уже надто пізно, щоб іти на прогулянку. Хочу якось розрядитися після цілого дня, і, на жаль, найпростіший спосіб — зайти до сусідньої з нашим офісним будинком торгової галереї. Магазини відчинені до 22-ї, тож без проблем можу по них поблукати. Уже нікуди не поспішаю, бо обід з’їдаю в одному з барів і можу досхочу поприміряти найрізноманітніші блузки, спідниці, гарну білизну. Шкода лише, що завжди ходжу сама й не маю кого запитати, чи щось мені пасує." },
-    { "type": "mono", "title": "Poniedziałkowe zakupy · zeszyt cw14 (B)", "audio": "audio/L20/L20-zeszyt-08.mp3",
+      "tr": "Маю дуже відповідальну й стресову роботу. Часто мушу залишатися понаднормово. Коли виходжу, уже надто пізно, щоб іти на прогулянку. Хочу якось розрядитися після цілого дня, і, на жаль, найпростіший спосіб — зайти до сусідньої з нашим офісним будинком торгової галереї. Магазини відчинені до 22-ї, тож без проблем можу по них поблукати. Уже нікуди не поспішаю, бо обід з’їдаю в одному з барів і можу досхочу поприміряти найрізноманітніші блузки, спідниці, гарну білизну. Шкода лише, що завжди ходжу сама й не маю кого запитати, чи щось мені пасує."
+    },
+    {
+      "type": "mono",
+      "title": "Poniedziałkowe zakupy · zeszyt cw14 (B)",
+      "audio": "audio/L20/L20-zeszyt-08.mp3",
       "text": "Jesteśmy rodziną, która zdecydowanie woli spędzać weekend aktywnie na świeżym powietrzu, niż marnować czas na zakupach. Niestety jest nas pięcioro i jedzenia w lodówce ubywa szybko. Dlatego mój mąż wymyślił system poniedziałkowych zakupów. Po pierwsze, w supermarketach nie ma wtedy tłumów. Po drugie, kiedy masz mniej czasu, nie włóczysz się po sklepie, tylko wkładasz do koszyka to, co jest wypisane na liście. Po trzecie, nie chodzimy na zakupy całą rodzinką, tylko na zmianę. Ja, mąż i najstarsza córka. Muszę przyznać, że ten system sprawdza się nieźle.",
-      "tr": "Ми родина, яка однозначно воліє проводити вихідні активно на свіжому повітрі, ніж марнувати час на покупки. На жаль, нас п’ятеро, і їжа в холодильнику швидко закінчується. Тому мій чоловік придумав систему понеділкових покупок. По-перше, у супермаркетах тоді немає натовпів. По-друге, коли маєш менше часу, не блукаєш магазином, а кладеш у кошик те, що виписане в списку. По-третє, не ходимо за покупками всією родиною, а по черзі. Я, чоловік і найстарша донька. Мушу визнати, що ця система непогано працює." },
-    { "type": "mono", "title": "Życzliwi sąsiedzi · zeszyt cw14 (C)", "audio": "audio/L20/L20-zeszyt-09.mp3",
+      "tr": "Ми родина, яка однозначно воліє проводити вихідні активно на свіжому повітрі, ніж марнувати час на покупки. На жаль, нас п’ятеро, і їжа в холодильнику швидко закінчується. Тому мій чоловік придумав систему понеділкових покупок. По-перше, у супермаркетах тоді немає натовпів. По-друге, коли маєш менше часу, не блукаєш магазином, а кладеш у кошик те, що виписане в списку. По-третє, не ходимо за покупками всією родиною, а по черзі. Я, чоловік і найстарша донька. Мушу визнати, що ця система непогано працює."
+    },
+    {
+      "type": "mono",
+      "title": "Życzliwi sąsiedzi · zeszyt cw14 (C)",
+      "audio": "audio/L20/L20-zeszyt-09.mp3",
       "text": "Zakupy to dla mnie duży problem. Dobrze, że moi sąsiedzi są bardzo życzliwi i raz na dwa tygodnie robią mi większe zakupy w jakimś supermarkecie. Dzięki temu nie muszę dźwigać ciężkich siatek ani przepłacać w naszym osiedlowym sklepie. Na co dzień kupuję tylko chleb, wędliny, jakieś owoce, czasem warzywa. Nie wiem, co bym zrobiła bez moich sąsiadów.",
-      "tr": "Покупки — це для мене велика проблема. Добре, що мої сусіди дуже доброзичливі й раз на два тижні роблять мені більші закупи в якомусь супермаркеті. Завдяки цьому я не мушу тягати важкі сумки ані переплачувати в нашому магазині в мікрорайоні. Щодня купую лише хліб, ковбаси, якісь фрукти, іноді овочі. Не знаю, що б я робила без моїх сусідів." },
-    { "type": "mono", "title": "Zakupy z żoną · zeszyt cw14 (D)", "audio": "audio/L20/L20-zeszyt-10.mp3",
+      "tr": "Покупки — це для мене велика проблема. Добре, що мої сусіди дуже доброзичливі й раз на два тижні роблять мені більші закупи в якомусь супермаркеті. Завдяки цьому я не мушу тягати важкі сумки ані переплачувати в нашому магазині в мікрорайоні. Щодня купую лише хліб, ковбаси, якісь фрукти, іноді овочі. Не знаю, що б я робила без моїх сусідів."
+    },
+    {
+      "type": "mono",
+      "title": "Zakupy z żoną · zeszyt cw14 (D)",
+      "audio": "audio/L20/L20-zeszyt-10.mp3",
       "text": "Na większe zakupy jeżdżę zawsze z żoną. Wcześniej przygotowujemy wspólnie listę zakupów. Czasem spieramy się przy tym o różne drobiazgi. Żona mówi, że przydałoby się jeszcze to i owo, a ja na to, że większa emerytura też by się przydała. Mimo to oboje dobrze wiemy, że jak się trafi jakaś promocja, to wrócimy z dodatkowymi sprawunkami. Zresztą, co tu dużo mówić, lubimy zakupy. W centrach handlowych niczego nie brakuje i ten wyjazd do miasta raz na miesiąc to dla nas atrakcja.",
-      "tr": "На більші покупки їжджу завжди з дружиною. Заздалегідь готуємо разом список покупок. Іноді при цьому сперечаємося через різні дрібниці. Дружина каже, що знадобилося б ще те й те, а я на це, що більша пенсія теж би знадобилася. Попри це ми обоє добре знаємо, що як трапиться якась акція, то повернемося з додатковими покупками. Зрештою, що тут багато говорити, ми любимо покупки. У торгових центрах нічого не бракує, і ця поїздка до міста раз на місяць — для нас розвага." },
-    { "type": "mono", "title": "Sklep z artykułami plastycznymi · zeszyt cw14 (E)", "audio": "audio/L20/L20-zeszyt-11.mp3",
+      "tr": "На більші покупки їжджу завжди з дружиною. Заздалегідь готуємо разом список покупок. Іноді при цьому сперечаємося через різні дрібниці. Дружина каже, що знадобилося б ще те й те, а я на це, що більша пенсія теж би знадобилася. Попри це ми обоє добре знаємо, що як трапиться якась акція, то повернемося з додатковими покупками. Зрештою, що тут багато говорити, ми любимо покупки. У торгових центрах нічого не бракує, і ця поїздка до міста раз на місяць — для нас розвага."
+    },
+    {
+      "type": "mono",
+      "title": "Sklep z artykułami plastycznymi · zeszyt cw14 (E)",
+      "audio": "audio/L20/L20-zeszyt-11.mp3",
       "text": "Zwykle wracam stamtąd z nowym szkicownikiem, farbami do szkła i ceramiki, modeliną. Ostatnio kupiłam sobie farby do tkanin. Mam kawałek jedwabiu i zrobię mamie chustę na imieniny.",
-      "tr": "Зазвичай повертаюся звідти з новим альбомом для ескізів, фарбами для скла й кераміки, пластиліном. Нещодавно купила собі фарби для тканин. Маю шматок шовку й зроблю мамі хустку на іменини." },
-    { "type": "mono", "title": "Remont zamiast ciuchów · zeszyt cw14 (F)", "audio": "audio/L20/L20-zeszyt-12.mp3",
+      "tr": "Зазвичай повертаюся звідти з новим альбомом для ескізів, фарбами для скла й кераміки, пластиліном. Нещодавно купила собі фарби для тканин. Маю шматок шовку й зроблю мамі хустку на іменини."
+    },
+    {
+      "type": "mono",
+      "title": "Remont zamiast ciuchów · zeszyt cw14 (F)",
+      "audio": "audio/L20/L20-zeszyt-12.mp3",
       "text": "Kiedyś uwielbiałam zakupy. Całe godziny spędzałyśmy z koleżankami w sklepach. Zawsze wracałyśmy z torbami pełnymi kolorowych ciuchów. Gdy brakowało nam pieniędzy, chodziłyśmy do sklepów z tanią odzieżą. Tam często można było znaleźć naprawdę fajne rzeczy. Teraz urządzamy z mężem mieszkanie, spłacamy kredyt. I nie ma mowy o żadnych wyprawach na ciuchy. Za to bez przerwy muszę jeździć po sklepach z farbami, płytkami, akcesoriami łazienkowymi i kuchennymi, oświetleniem. Chwilami mam już dość. Natomiast mój mąż z dużym zapałem wybiera śrubki, klamki, uchwyty, kontakty i tysiące innych rzeczy.",
-      "tr": "Колись я обожнювала покупки. Цілими годинами ми з подругами проводили в магазинах. Завжди поверталися із сумками, повними кольорового одягу. Коли бракувало грошей, ходили до магазинів дешевого одягу. Там часто можна було знайти справді класні речі. Тепер ми з чоловіком облаштовуємо квартиру, виплачуємо кредит. І не може бути й мови про жодні походи за одягом. Натомість я без упину мушу їздити по магазинах із фарбами, плиткою, аксесуарами для ванної та кухні, освітленням. Часом я вже маю цього досить. А мій чоловік із великим запалом вибирає шурупи, ручки, держаки, розетки й тисячі інших речей." }
+      "tr": "Колись я обожнювала покупки. Цілими годинами ми з подругами проводили в магазинах. Завжди поверталися із сумками, повними кольорового одягу. Коли бракувало грошей, ходили до магазинів дешевого одягу. Там часто можна було знайти справді класні речі. Тепер ми з чоловіком облаштовуємо квартиру, виплачуємо кредит. І не може бути й мови про жодні походи за одягом. Натомість я без упину мушу їздити по магазинах із фарбами, плиткою, аксесуарами для ванної та кухні, освітленням. Часом я вже маю цього досить. А мій чоловік із великим запалом вибирає шурупи, ручки, держаки, розетки й тисячі інших речей."
+    }
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 20, ćw. 6, 8, 14 (треки 26216, 27395–27398, 27403, 27411–27416). Транскрипти — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
-
   "quiz": [
-    { "topic": "czytanie", "q": "Який побутовий прилад поляк-споживач купує найперше?",
-      "o": ["pralkę","lodówkę","zmywarkę"], "a": 1,
-      "fb": "У звіті: «Najpierw kupił lodówkę, bo bez niej życie jest udręką» — без холодильника життя мука." },
-    { "topic": "słownictwo", "q": "Що означає вираз «odłożyć na czarną godzinę»?",
-      "o": ["відкласти гроші про запас","купити щось темне","працювати вночі"], "a": 0,
-      "fb": "«Odłożyć na czarną godzinę» — відкласти гроші на чорний день, про запас." },
-    { "topic": "byle", "q": "Що означає польське «byle jaki»?",
-      "o": ["найкращий","абиякий, низької якості","дуже дорогий"], "a": 1,
-      "fb": "«Byle jaki» = абиякий. Sąsiad: «Wszystko tanie, ale byle jakie»." },
-    { "topic": "reklamacja", "q": "Що потрібно мати, щоб подати рекламацію в магазині?",
-      "o": ["paragon","wizytówkę","umowę"], "a": 0,
-      "fb": "Sprzedawca: «Reklamować towar może pani tylko, jeśli posiada pani paragon» — потрібен чек." },
-    { "topic": "zdania złożone", "q": "Доповніть: «Nie rozumiem, ___ kupiłeś nową pralkę».",
-      "o": ["dlaczego","który","ile"], "a": 0,
-      "fb": "Питальне слово причини — «dlaczego» (чому). Воно вводить підрядне речення." },
-    { "topic": "sklepy", "q": "Де пані Гелена купить ліки від тиску?",
-      "o": ["w kwiaciarni","w aptece","w księgarni"], "a": 1,
-      "fb": "Ліки купують в аптеці (apteka). У cw08 вона йде «po leki na nadciśnienie»." },
-    { "topic": "słownictwo", "q": "Синонім до слова «defekt» (з вправи на синоніми)?",
-      "o": ["promocja","wada","towar"], "a": 1,
-      "fb": "«Defekt» = «wada» — недолік, дефект." },
-    { "topic": "czytanie", "q": "Чому, за текстом «Polak-konsument dziś», люди стільки купують?",
-      "o": ["bo to potrzeba","bo to moda","bo nie mają jedzenia"], "a": 1,
-      "fb": "«To nie potrzeba, lecz moda» — це не потреба, а мода." },
-    { "topic": "porównywanie", "q": "Який вираз НЕ використовують для порівняння?",
-      "o": ["podobnie jak","w przeciwieństwie do","na wszelki wypadek"], "a": 2,
-      "fb": "«Na wszelki wypadek» означає «про всяк випадок». Решта — вирази порівняння." },
-    { "topic": "zeszyt", "q": "Який «system zakupów» придумав чоловік багатодітної родини (cw14)?",
-      "o": ["zakupy w niedzielę","zakupy poniedziałkowe","zakupy przez internet"], "a": 1,
-      "fb": "«Mój mąż wymyślił system poniedziałkowych zakupów» — у понеділок немає натовпів." }
+    {
+      "topic": "czytanie",
+      "q": "Який побутовий прилад поляк-споживач купує найперше?",
+      "o": [
+        "pralkę",
+        "lodówkę",
+        "zmywarkę"
+      ],
+      "a": 1,
+      "fb": "У звіті: «Najpierw kupił lodówkę, bo bez niej życie jest udręką» — без холодильника життя мука."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Що означає вираз «odłożyć na czarną godzinę»?",
+      "o": [
+        "купити щось темне",
+        "працювати вночі",
+        "відкласти гроші про запас"
+      ],
+      "a": 2,
+      "fb": "«Odłożyć na czarną godzinę» — відкласти гроші на чорний день, про запас."
+    },
+    {
+      "topic": "byle",
+      "q": "Що означає польське «byle jaki»?",
+      "o": [
+        "абиякий, низької якості",
+        "найкращий",
+        "дуже дорогий"
+      ],
+      "a": 0,
+      "fb": "«Byle jaki» = абиякий. Sąsiad: «Wszystko tanie, ale byle jakie»."
+    },
+    {
+      "topic": "reklamacja",
+      "q": "Що потрібно мати, щоб подати рекламацію в магазині?",
+      "o": [
+        "wizytówkę",
+        "paragon",
+        "umowę"
+      ],
+      "a": 1,
+      "fb": "Sprzedawca: «Reklamować towar może pani tylko, jeśli posiada pani paragon» — потрібен чек."
+    },
+    {
+      "topic": "zdania złożone",
+      "q": "Доповніть: «Nie rozumiem, ___ kupiłeś nową pralkę».",
+      "o": [
+        "który",
+        "ile",
+        "dlaczego"
+      ],
+      "a": 2,
+      "fb": "Питальне слово причини — «dlaczego» (чому). Воно вводить підрядне речення."
+    },
+    {
+      "topic": "sklepy",
+      "q": "Де пані Гелена купить ліки від тиску?",
+      "o": [
+        "w aptece",
+        "w kwiaciarni",
+        "w księgarni"
+      ],
+      "a": 0,
+      "fb": "Ліки купують в аптеці (apteka). У cw08 вона йде «po leki na nadciśnienie»."
+    },
+    {
+      "topic": "słownictwo",
+      "q": "Синонім до слова «defekt» (з вправи на синоніми)?",
+      "o": [
+        "promocja",
+        "wada",
+        "towar"
+      ],
+      "a": 1,
+      "fb": "«Defekt» = «wada» — недолік, дефект."
+    },
+    {
+      "topic": "czytanie",
+      "q": "Чому, за текстом «Polak-konsument dziś», люди стільки купують?",
+      "o": [
+        "bo to potrzeba",
+        "bo nie mają jedzenia",
+        "bo to moda"
+      ],
+      "a": 2,
+      "fb": "«To nie potrzeba, lecz moda» — це не потреба, а мода."
+    },
+    {
+      "topic": "porównywanie",
+      "q": "Який вираз НЕ використовують для порівняння?",
+      "o": [
+        "na wszelki wypadek",
+        "podobnie jak",
+        "w przeciwieństwie do"
+      ],
+      "a": 0,
+      "fb": "«Na wszelki wypadek» означає «про всяк випадок». Решта — вирази порівняння."
+    },
+    {
+      "topic": "zeszyt",
+      "q": "Який «system zakupów» придумав чоловік багатодітної родини (cw14)?",
+      "o": [
+        "zakupy w niedzielę",
+        "zakupy poniedziałkowe",
+        "zakupy przez internet"
+      ],
+      "a": 1,
+      "fb": "«Mój mąż wymyślił system poniedziałkowych zakupów» — у понеділок немає натовпів."
+    }
   ],
-
   "checklist": [
-    { "text": "Розповісти про свої покупки й уподобання", "sub": "Gdzie robisz zakupy? · Lubię / wolę kupować…" },
-    { "text": "Запитати про думку й висловити власну", "sub": "Jaka jest pańska opinia…? · Wydaje mi się, że… / Według mnie…" },
-    { "text": "Подати рекламацію в магазині", "sub": "paragon, gwarancja, zwrot pieniędzy, wymienić, naprawić" },
-    { "text": "Будувати підрядні складні речення", "sub": "że, żeby, bo + питальні слова: gdzie, ile, dlaczego, jaki" },
-    { "text": "Вживати частку byle", "sub": "byle jaki, bylejakość, byle był szczęśliwy" }
+    {
+      "text": "Розповісти про свої покупки й уподобання",
+      "sub": "Gdzie robisz zakupy? · Lubię / wolę kupować…"
+    },
+    {
+      "text": "Запитати про думку й висловити власну",
+      "sub": "Jaka jest pańska opinia…? · Wydaje mi się, że… / Według mnie…"
+    },
+    {
+      "text": "Подати рекламацію в магазині",
+      "sub": "paragon, gwarancja, zwrot pieniędzy, wymienić, naprawić"
+    },
+    {
+      "text": "Будувати підрядні складні речення",
+      "sub": "że, żeby, bo + питальні слова: gdzie, ile, dlaczego, jaki"
+    },
+    {
+      "text": "Вживати частку byle",
+      "sub": "byle jaki, bylejakość, byle był szczęśliwy"
+    }
   ]
 }
