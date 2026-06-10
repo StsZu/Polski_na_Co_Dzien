@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polski na Co Dzień — Polskie idiomy</title>
+  <style>
+    :root {
+      --bg-body: #e7dfd2;
+      --bg-card: #f8f3e9;
+      --bg-card-hover: #faf7f2;
+      --border-color: #d4c7b3;
+      --border-hover: #b8a891;
+      --text-main: #2f2822;
+      --text-muted: #7a6858;
+      --text-descr: #4a3e34;
+      --btn-bg: rgba(255, 251, 244, 0.9);
+      --btn-hover: #efe6d8;
+      --accent: #8d2930;
+      --accent-light: rgba(141, 41, 48, 0.08);
+      --accent-glow: rgba(141, 41, 48, 0.15);
+      --accent-success: #3e6b48;
+      --accent-success-light: rgba(62, 107, 72, 0.1);
+      --accent-error: #9a3434;
+      --accent-error-light: rgba(154, 52, 52, 0.1);
+      --shadow-sm: 0 2px 8px rgba(74, 62, 52, 0.04);
+      --shadow-md: 0 6px 20px rgba(74, 62, 52, 0.06);
+      --transition-speed: 0.3s;
+      --font-serif: Georgia, "Palatino Linotype", serif;
+      --font-sans: "SF Pro Text", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    }
+    .night-mode {
+      --bg-body: #14110f;
+      --bg-card: #1f1b18;
+      --bg-card-hover: #26211d;
+      --border-color: #38302b;
+      --border-hover: #52473f;
+      --text-main: #f3eae1;
+      --text-muted: #9e8d80;
+      --text-descr: #cfc2b6;
+      --btn-bg: #2b2420;
+      --btn-hover: #3b322c;
+      --accent: #ff4d5a;
+      --accent-light: rgba(255, 77, 90, 0.15);
+      --accent-glow: rgba(255, 77, 90, 0.35);
+      --accent-success: #5ca36b;
+      --accent-success-light: rgba(92, 163, 107, 0.15);
+      --accent-error: #e55c5c;
+      --accent-error-light: rgba(229, 92, 92, 0.15);
+      --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.25);
+      --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-serif);
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 40px 20px;
+      line-height: 1.55;
+      transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+    }
+    button, a, audio, input, textarea, select { font-family: var(--font-sans); }
+    .module { width: 100%; max-width: 1000px; margin: 0 auto; }
+
+    .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; padding: 0 4px; }
+    .back { display: inline-flex; align-items: center; gap: 6px; color: var(--text-muted); text-decoration: none; font-size: 14px; font-weight: 600; }
+    .back:hover { color: var(--accent); }
+    .theme-toggle-btn {
+      background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-main);
+      padding: 9px 15px; border-radius: 30px; cursor: pointer; display: inline-flex; align-items: center;
+      gap: 8px; font-size: 13px; font-weight: 600; box-shadow: var(--shadow-sm); transition: all var(--transition-speed) ease;
+    }
+    .theme-toggle-btn:hover { border-color: var(--border-hover); background: var(--bg-card-hover); transform: translateY(-1px); }
+    .theme-toggle-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; }
+
+    /* HERO */
+    .header {
+      background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 22px;
+      padding: 36px 40px; margin-bottom: 14px; box-shadow: var(--shadow-md); position: relative; overflow: hidden;
+    }
+    .header::before { content: ''; position: absolute; top: 0; left: 0; width: 5px; height: 100%; background: var(--accent); }
+    .title { font-size: 34px; line-height: 1.15; margin-bottom: 8px; font-weight: 800; letter-spacing: -0.02em; }
+    .subtitle { font-size: 18px; color: var(--text-muted); font-style: italic; margin-bottom: 14px; }
+    .header-en { font-size: 15px; color: var(--text-descr); line-height: 1.6; max-width: 640px; margin-bottom: 20px; }
+    .outcomes { display: flex; flex-wrap: wrap; gap: 10px; }
+    .outcome {
+      display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-sans); font-size: 12.5px;
+      font-weight: 600; color: var(--text-descr); background: var(--btn-bg); border: 1px solid var(--border-color);
+      border-radius: 100px; padding: 7px 14px;
+    }
+    .outcome svg { width: 14px; height: 14px; color: var(--accent-success); flex-shrink: 0; }
+
+    /* STICKY NAV */
+    .mininav {
+      position: sticky; top: 0; z-index: 30; display: flex; flex-wrap: wrap; gap: 6px;
+      background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 14px;
+      padding: 8px; margin-bottom: 18px; box-shadow: var(--shadow-sm);
+    }
+    .mininav a {
+      font-family: var(--font-sans); font-size: 12.5px; font-weight: 700; text-decoration: none;
+      color: var(--text-muted); padding: 7px 12px; border-radius: 9px; transition: all 0.15s ease;
+    }
+    .mininav a:hover { background: var(--btn-hover); color: var(--accent); }
+
+    /* SECTION SHELL */
+    .section {
+      background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 20px;
+      padding: 26px 28px; margin-bottom: 18px; box-shadow: var(--shadow-sm); scroll-margin-top: 64px;
+    }
+    .section-head { margin-bottom: 18px; }
+    .section-kicker {
+      font-family: var(--font-sans); font-size: 12px; font-weight: 800; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--accent); margin-bottom: 4px;
+    }
+    .section-title { font-size: 23px; font-weight: 800; letter-spacing: -0.01em; }
+    .section-sub { font-size: 14px; color: var(--text-muted); margin-top: 4px; }
+
+    /* FILTER BAR */
+    .filterbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 18px; }
+    .search-input {
+      flex: 1; min-width: 200px; padding: 11px 14px; font-size: 14px; border-radius: 11px;
+      border: 2px solid var(--border-color); background: var(--bg-card); color: var(--text-main); outline: none;
+      transition: border-color 0.15s ease;
+    }
+    .search-input:focus { border-color: var(--accent); }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      font-family: var(--font-sans); font-size: 12.5px; font-weight: 700; padding: 8px 13px; border-radius: 100px;
+      border: 1px solid var(--border-color); background: var(--btn-bg); color: var(--text-muted); cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .chip:hover { border-color: var(--border-hover); }
+    .chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    /* IDIOM CARDS */
+    .idiom-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .idiom {
+      background: var(--bg-card-hover); border: 1px solid var(--border-color); border-radius: 16px;
+      padding: 20px; display: flex; flex-direction: column; transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .idiom:hover { border-color: var(--border-hover); box-shadow: var(--shadow-md); }
+    .idiom-pills { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
+    .pill {
+      font-family: var(--font-sans); font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.05em; padding: 4px 10px; border-radius: 100px;
+    }
+    .pill-cat { background: var(--accent-light); color: var(--accent); }
+    .pill-diff { background: var(--btn-hover); color: var(--text-muted); }
+    .idiom-pl { font-size: 19px; font-weight: 700; line-height: 1.3; margin-bottom: 8px; color: var(--text-main); }
+    .idiom-quick { font-size: 14px; color: var(--text-muted); font-style: italic; margin-bottom: 14px; }
+    .idiom-toggle {
+      margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px;
+      background: var(--btn-bg); border: 1px solid var(--border-color); border-radius: 10px; color: var(--text-main);
+      padding: 9px 14px; font-size: 13px; font-weight: 700; cursor: pointer; transition: all 0.15s ease;
+    }
+    .idiom-toggle:hover { background: var(--btn-hover); border-color: var(--border-hover); }
+    .idiom-body { display: none; margin-top: 14px; padding-top: 14px; border-top: 1px dashed var(--border-color); }
+    .idiom-body.is-open { display: block; }
+    .ib-row { margin-bottom: 12px; }
+    .ib-label {
+      font-family: var(--font-sans); font-size: 10.5px; font-weight: 800; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--accent); display: block; margin-bottom: 3px;
+    }
+    .ib-text { font-size: 14px; color: var(--text-descr); line-height: 1.55; }
+    .ib-text .pl { color: var(--text-main); font-weight: 600; }
+    .ib-dialog { background: var(--btn-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px 14px; font-size: 13.5px; }
+    .ib-dialog p { margin-bottom: 4px; }
+    .ib-dialog .tr { color: var(--text-muted); font-style: italic; margin-top: 6px; }
+
+    /* AUDIO PRACTICE */
+    .audio-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .track {
+      background: var(--bg-card-hover); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease; scroll-margin-top: 64px;
+    }
+    .track:hover { border-color: var(--border-hover); box-shadow: var(--shadow-md); }
+    .track.practiced { border-color: var(--accent-success); box-shadow: 0 0 0 1px var(--accent-success); }
+    .track-head { display: flex; gap: 14px; align-items: flex-start; }
+    .track-cover { width: 78px; height: 78px; flex-shrink: 0; border-radius: 13px; object-fit: cover; border: 1px solid var(--border-color); background: #fff; }
+    .track-meta { flex: 1; min-width: 0; }
+    .track-num { font-family: var(--font-sans); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+    .track-theme { font-size: 17px; font-weight: 700; line-height: 1.25; margin-top: 2px; }
+    .track audio { width: 100%; margin-top: 14px; }
+    .track-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .mini-btn {
+      display: inline-flex; align-items: center; gap: 6px; background: var(--btn-bg); border: 1px solid var(--border-color);
+      border-radius: 10px; color: var(--text-main); padding: 8px 13px; font-size: 12.5px; font-weight: 700; cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .mini-btn:hover { background: var(--btn-hover); border-color: var(--border-hover); }
+    .mini-btn.done { background: var(--accent-success-light); color: var(--accent-success); border-color: var(--accent-success); }
+    .track-lyrics {
+      display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border-color);
+      white-space: pre-wrap; font-family: var(--font-serif); font-size: 13.5px; line-height: 1.55; color: var(--text-descr);
+      max-height: 260px; overflow-y: auto;
+    }
+    .track-lyrics.is-open { display: block; }
+    .track-note {
+      display: none; width: 100%; margin-top: 10px; padding: 10px; font-size: 13px; min-height: 60px; resize: vertical;
+      border-radius: 10px; border: 2px solid var(--border-color); background: var(--bg-card); color: var(--text-main); outline: none;
+    }
+    .track-note.is-open { display: block; }
+    .track-note:focus { border-color: var(--accent); }
+
+    /* QUIZ */
+    .quiz-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+    .quiz-counter { font-family: var(--font-sans); font-size: 13px; font-weight: 700; color: var(--text-muted); }
+    .quiz-score { font-family: var(--font-sans); font-size: 13px; font-weight: 800; color: var(--accent); }
+    .progress-bar { background: var(--btn-hover); border-radius: 100px; height: 8px; overflow: hidden; width: 100%; margin-bottom: 18px; }
+    .progress-fill { background: var(--accent-success); height: 100%; width: 0%; transition: width 0.35s ease; }
+    .quiz-q { font-size: 18px; font-weight: 700; line-height: 1.4; margin-bottom: 6px; }
+    .quiz-q .typ { font-family: var(--font-sans); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); display: block; margin-bottom: 8px; }
+    .quiz-opts { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+    .quiz-opt {
+      text-align: left; padding: 13px 16px; font-size: 14.5px; border-radius: 12px; border: 2px solid var(--border-color);
+      background: var(--bg-card); color: var(--text-main); cursor: pointer; transition: all 0.15s ease; font-family: var(--font-serif);
+    }
+    .quiz-opt:hover:not(:disabled) { border-color: var(--border-hover); background: var(--bg-card-hover); }
+    .quiz-opt.correct { border-color: var(--accent-success); background: var(--accent-success-light); color: var(--accent-success); font-weight: 700; }
+    .quiz-opt.wrong { border-color: var(--accent-error); background: var(--accent-error-light); color: var(--accent-error); }
+    .quiz-opt:disabled { cursor: default; }
+    .quiz-blank-input { width: 100%; padding: 13px 16px; font-size: 15px; border-radius: 12px; border: 2px solid var(--border-color); background: var(--bg-card); color: var(--text-main); outline: none; margin-top: 14px; }
+    .quiz-blank-input:focus { border-color: var(--accent); }
+    .quiz-feedback { display: none; font-family: var(--font-sans); font-size: 13.5px; font-weight: 600; padding: 12px 14px; border-radius: 10px; margin-top: 14px; line-height: 1.5; }
+    .quiz-feedback.ok { display: block; background: var(--accent-success-light); color: var(--accent-success); }
+    .quiz-feedback.no { display: block; background: var(--accent-error-light); color: var(--accent-error); }
+    .quiz-actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+    .btn-primary { padding: 11px 20px; font-size: 14px; font-weight: 700; border-radius: 11px; border: none; background: var(--accent); color: #fff; cursor: pointer; transition: opacity 0.15s ease; }
+    .btn-primary:hover { opacity: 0.9; }
+    .btn-ghost { padding: 11px 20px; font-size: 14px; font-weight: 700; border-radius: 11px; border: 1px solid var(--border-color); background: var(--btn-bg); color: var(--text-main); cursor: pointer; transition: all 0.15s ease; }
+    .btn-ghost:hover { background: var(--btn-hover); border-color: var(--border-hover); }
+    .quiz-done { text-align: center; padding: 16px 0; }
+    .quiz-done .big { font-size: 30px; font-weight: 800; color: var(--accent); margin-bottom: 6px; }
+
+    /* FLASHCARDS */
+    .fc-stage { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+    .flashcard { width: 100%; max-width: 520px; height: 230px; perspective: 1200px; cursor: pointer; }
+    .fc-inner { position: relative; width: 100%; height: 100%; transition: transform 0.5s; transform-style: preserve-3d; }
+    .flashcard.flipped .fc-inner { transform: rotateY(180deg); }
+    .fc-face {
+      position: absolute; inset: 0; backface-visibility: hidden; border-radius: 18px; border: 1px solid var(--border-color);
+      display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 24px; gap: 10px;
+    }
+    .fc-front { background: var(--bg-card-hover); }
+    .fc-front .fc-pl { font-size: 24px; font-weight: 800; line-height: 1.3; color: var(--text-main); }
+    .fc-front .fc-hint { font-family: var(--font-sans); font-size: 12px; color: var(--text-muted); }
+    .fc-back { background: var(--accent-light); transform: rotateY(180deg); }
+    .fc-back .fc-ua { font-size: 17px; font-weight: 700; color: var(--text-main); }
+    .fc-back .fc-en { font-size: 15px; color: var(--text-descr); font-style: italic; }
+    .fc-controls { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 12px; }
+    .fc-progress { font-family: var(--font-sans); font-size: 13px; font-weight: 700; color: var(--text-muted); min-width: 64px; text-align: center; }
+
+    /* SPEAKING DRILL */
+    .drill-card { background: var(--bg-card-hover); border: 1px solid var(--border-color); border-radius: 16px; padding: 20px; }
+    .drill-situ { font-size: 15.5px; line-height: 1.55; color: var(--text-main); margin-bottom: 6px; }
+    .drill-situ-en { font-size: 14px; color: var(--text-muted); font-style: italic; margin-bottom: 14px; }
+    .drill-task { font-family: var(--font-sans); font-size: 13px; font-weight: 700; color: var(--accent); margin-bottom: 14px; }
+    .drill-model { display: none; background: var(--btn-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 14px; margin-bottom: 14px; }
+    .drill-model.is-open { display: block; }
+    .drill-model .pl { font-size: 16px; font-weight: 700; color: var(--text-main); margin-bottom: 6px; }
+    .drill-model .tr { font-size: 13.5px; color: var(--text-muted); font-style: italic; }
+    .drill-controls { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+
+    /* MISTAKES TABLE */
+    .mistakes-wrap { overflow-x: auto; }
+    .mistakes { width: 100%; border-collapse: collapse; font-family: var(--font-sans); font-size: 13px; }
+    .mistakes th { border-bottom: 2px solid var(--border-color); padding: 10px 8px; color: var(--text-muted); font-weight: 700; text-transform: uppercase; font-size: 11px; letter-spacing: 0.05em; text-align: left; }
+    .mistakes td { border-bottom: 1px solid var(--border-color); padding: 11px 8px; vertical-align: top; }
+    .text-bad { color: var(--accent-error); font-weight: 700; }
+    .text-good { color: var(--accent-success); font-weight: 700; }
+    .mistakes .note { color: var(--text-muted); font-size: 12.5px; }
+
+    /* FINAL REVISION */
+    .rev-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .rev-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .rev-list li { font-size: 14px; color: var(--text-descr); padding-left: 18px; position: relative; }
+    .rev-list li::before { content: '◆'; position: absolute; left: 0; color: var(--accent); font-size: 10px; top: 4px; }
+    .check-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+    .check-item { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; user-select: none; }
+    .check-box { appearance: none; width: 20px; height: 20px; flex-shrink: 0; border: 2px solid var(--border-color); border-radius: 6px; cursor: pointer; display: grid; place-content: center; transition: all 0.15s ease; margin-top: 1px; }
+    .check-box:checked { background: var(--accent-success); border-color: var(--accent-success); }
+    .check-box:checked::before { content: ""; width: 10px; height: 6px; border-left: 2px solid #fff; border-bottom: 2px solid #fff; transform: rotate(-45deg) translateY(-1px); }
+    .check-text { font-family: var(--font-sans); font-size: 13.5px; font-weight: 600; color: var(--text-descr); }
+    .check-box:checked + .check-text { text-decoration: line-through; color: var(--text-muted); }
+
+    footer.note { background: var(--bg-card); border: 1px dashed var(--border-color); border-radius: 18px; padding: 22px 26px; font-size: 14px; color: var(--text-descr); line-height: 1.6; }
+    footer.note b { color: var(--text-main); }
+
+    @media (max-width: 760px) {
+      .idiom-grid, .audio-grid, .rev-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+      body { padding: 24px 12px; }
+      .header { padding: 26px 22px; }
+      .title { font-size: 27px; }
+      .section { padding: 22px 18px; }
+      .track-cover { width: 64px; height: 64px; }
+      .flashcard { height: 200px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="module">
+    <nav class="top-bar" aria-label="Nawigacja">
+      <a href="index.html" class="back">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+        Wszystkie materiały
+      </a>
+      <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Przełącz motyw dzień/noc" onclick="toggleTheme()">
+        <svg class="sun-icon" id="sunIcon" viewBox="0 0 24 24" style="display: block;">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" id="moonIcon" viewBox="0 0 24 24" style="display: none;">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <span id="themeBtnText">Night Ops</span>
+      </button>
+    </nav>
+
+    <!-- HERO -->
+    <header class="header">
+      <h1 class="title">Polskie idiomy</h1>
+      <p class="subtitle">Вивчай польські ідіоми через приклади, пояснення, аудіо та інтерактивні вправи.</p>
+      <p class="header-en">Learn 30 essential Polish idioms through living examples, Ukrainian and English explanations, 20 audio tracks, quizzes, flashcards and speaking practice.</p>
+      <div class="outcomes">
+        <span class="outcome"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>30 ідіом з прикладами</span>
+        <span class="outcome"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>UA + EN пояснення</span>
+        <span class="outcome"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>20 аудіотреків</span>
+        <span class="outcome"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>Quiz · Flashcards · Speaking</span>
+      </div>
+    </header>
+
+    <!-- STICKY MINI-NAV -->
+    <nav class="mininav" aria-label="Sekcje">
+      <a href="#idiomy">Ідіоми</a>
+      <a href="#audio">Audio practice</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#flashcards">Flashcards</a>
+      <a href="#drill">Speaking</a>
+      <a href="#mistakes">Помилки</a>
+      <a href="#revision">Повторення</a>
+    </nav>
+
+    <!-- 1. IDIOM CARDS -->
+    <section class="section" id="idiomy">
+      <div class="section-head">
+        <div class="section-kicker">Słownik · Картки ідіом</div>
+        <h2 class="section-title">Польські ідіоми</h2>
+        <p class="section-sub">Натисни «Показати пояснення», щоб побачити значення, дослівний переклад, приклад і діалог.</p>
+      </div>
+      <div class="filterbar">
+        <input type="text" class="search-input" id="idiomSearch" placeholder="Пошук ідіоми або значення..." oninput="renderIdioms()">
+        <div class="chips" id="catChips"></div>
+      </div>
+      <div class="idiom-grid" id="idiomGrid"></div>
+    </section>
+
+    <!-- 2. AUDIO PRACTICE -->
+    <section class="section" id="audio">
+      <div class="section-head">
+        <div class="section-kicker">Słuchanie · Практика аудіювання</div>
+        <h2 class="section-title">Audio practice</h2>
+        <p class="section-sub">20 пісень-треків (SUNO). Слухай, читай текст, додавай нотатки та відмічай прослухане.</p>
+      </div>
+      <div class="audio-grid" id="audioGrid"></div>
+    </section>
+
+    <!-- 3. QUIZ -->
+    <section class="section" id="quiz">
+      <div class="section-head">
+        <div class="section-kicker">Quiz · Перевірка знань</div>
+        <h2 class="section-title">Інтерактивний quiz</h2>
+        <p class="section-sub">Вибір варіанта, ситуація → ідіома, заповни пропуск, правда / неправда.</p>
+      </div>
+      <div class="quiz-top">
+        <span class="quiz-counter" id="quizCounter">Запитання 1 з 10</span>
+        <span class="quiz-score" id="quizScore">Бали: 0</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="quizProgress"></div></div>
+      <div id="quizBody"></div>
+    </section>
+
+    <!-- 4. FLASHCARDS -->
+    <section class="section" id="flashcards">
+      <div class="section-head">
+        <div class="section-kicker">Flashcards · Картки для повторення</div>
+        <h2 class="section-title">Flashcards</h2>
+        <p class="section-sub">Натисни картку, щоб перевернути: польська ідіома ⇄ значення UA + EN.</p>
+      </div>
+      <div class="fc-stage">
+        <div class="flashcard" id="flashcard" onclick="flipCard()">
+          <div class="fc-inner">
+            <div class="fc-face fc-front"><div class="fc-pl" id="fcPl"></div><div class="fc-hint">Натисни, щоб перевернути</div></div>
+            <div class="fc-face fc-back"><div class="fc-ua" id="fcUa"></div><div class="fc-en" id="fcEn"></div></div>
+          </div>
+        </div>
+        <div class="fc-controls">
+          <button class="btn-ghost" onclick="prevCard(event)">← Назад</button>
+          <span class="fc-progress" id="fcProgress">1 / 30</span>
+          <button class="btn-ghost" onclick="nextCard(event)">Далі →</button>
+          <button class="btn-primary" onclick="shuffleCards(event)">Перемішати</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SPEAKING DRILL -->
+    <section class="section" id="drill">
+      <div class="section-head">
+        <div class="section-kicker">Mówienie · Тренування мовлення</div>
+        <h2 class="section-title">Speaking drill</h2>
+        <p class="section-sub">Прочитай ситуацію та склади відповідь з ідіомою. Потім перевір модельну відповідь.</p>
+      </div>
+      <div class="drill-card">
+        <p class="drill-situ" id="drillSitu"></p>
+        <p class="drill-situ-en" id="drillSituEn"></p>
+        <p class="drill-task" id="drillTask"></p>
+        <div class="drill-model" id="drillModel"><p class="pl" id="drillModelPl"></p><p class="tr" id="drillModelTr"></p></div>
+        <div class="drill-controls">
+          <button class="btn-ghost" onclick="prevDrill()">← Назад</button>
+          <span class="fc-progress" id="drillProgress">1 / 30</span>
+          <button class="btn-ghost" onclick="nextDrill()">Далі →</button>
+          <button class="btn-primary" id="drillReveal" onclick="toggleModel()">Показати відповідь</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. COMMON MISTAKES -->
+    <section class="section" id="mistakes">
+      <div class="section-head">
+        <div class="section-kicker">Uwaga · Типові помилки</div>
+        <h2 class="section-title">Common mistakes</h2>
+        <p class="section-sub">Не перекладай ідіому дослівно — вивчай готову польську форму.</p>
+      </div>
+      <div class="mistakes-wrap">
+        <table class="mistakes">
+          <thead><tr><th>Дослівно ✗ / Literal</th><th>Правильно ✓ / Polish</th><th>Значення / Meaning</th></tr></thead>
+          <tbody id="mistakesBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 7. FINAL REVISION -->
+    <section class="section" id="revision">
+      <div class="section-head">
+        <div class="section-kicker">Powtórka · Фінальне повторення</div>
+        <h2 class="section-title">Final revision</h2>
+        <p class="section-sub">Швидко пройдись по ключових ідіомах, відміть пройдене та запусти короткий quiz.</p>
+      </div>
+      <div class="rev-grid">
+        <div>
+          <div class="section-kicker" style="color:var(--text-muted)">Ключові ідіоми</div>
+          <ul class="rev-list" id="revList"></ul>
+        </div>
+        <div>
+          <div class="section-kicker" style="color:var(--text-muted)">Чек-лист самоперевірки</div>
+          <div class="check-list" id="checkList"></div>
+          <button class="btn-primary" onclick="startQuickRevision()">Start quick revision ↓</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="note">
+      <p><b>Рекомендований трек:</b> почни з карток <b>Ідіом</b>, послухай <b>Audio practice</b>, закріпи через <b>Flashcards</b> і <b>Speaking</b>, а тоді перевір себе у <b>Quiz</b>. <span lang="en">Repeat the audio out loud — Polish idioms stick faster when you say them.</span></p>
+    </footer>
+  </main>
+
+  <script>
+    const IDIOMS = [{"polish": "leje jak z cebra", "category": "everyday", "difficulty": "easy", "examplePL": "Dzisiaj leje jak z cebra, więc zostajemy w domu. Weź parasol!", "literalUA": "ллє як з дерев'яного цебра", "meaningUA": "Ллє як з відра / дуже сильно дощить", "explanationUA": "Використовується, коли йде дуже сильний, проливний та раптовий дощ.", "situationUA": "Надворі сильна гроза зі зливою, і ви не можете вийти на вулицю, щоб не промокнути до нитки.", "literalEN": "it pours like from a bucket", "meaningEN": "It's raining cats and dogs / pouring down in buckets", "explanationEN": "Używane, gdy pada bardzo silny, gwałtowny deszcz.", "situationEN": "It is storming outside and you cannot go out without getting soaked.", "dialogue": {"a": "Idziemy dzisiaj na spacer do parku?", "b": "Oszalałeś? Spójrz za okno, leje jak z cebra! Zostańmy w domu.", "ua": "А: Ми йдемо сьогодні на прогулянку в парк? Б: Ти збожеволів? Подивися за вікно, ллє як з відра! Залишаймося вдома.", "en": "A: Are we going for a walk in the park today? B: Are you crazy? Look out the window, it's pouring in buckets! Let's stay home."}}, {"polish": "nie wkładaj wszystkich jajek do jednego koszyka", "category": "caution", "difficulty": "medium", "examplePL": "Złożyłem dokumenty na kilka uczelni, bo nie chcę wkładać wszystkich jajek do jednego koszyka.", "literalUA": "не клади всі яйця в один кошик", "meaningUA": "Не клади всі яйця в один кошик (не ризикуй усім одночасно)", "explanationUA": "Застереження від інвестування всіх ресурсів чи сподівань у єдину справу чи актив.", "situationUA": "Ви плануєте вкласти всі свої сімейні заощадження в одну сумнівну криптовалюту чи компанію.", "literalEN": "don't put all eggs into one basket", "meaningEN": "Don't put all your eggs in one basket", "explanationEN": "Ostrzeżenie przed ryzykowaniem wszystkiego w jednej sprawie/inwestycji.", "situationEN": "You are planning to invest all your savings into a single high-risk asset.", "dialogue": {"a": "Chcę zainwestować wszystkie oszczędności w akcje tej nowej firmy.", "b": "Lepiej nie wkładaj wszystkich jajek do jednego koszyka. Podziel te pieniądze.", "ua": "А: Я хочу інвестувати всі заощадження в акції цієї нової компанії. Б: Краще не клади всі яйця в один кошик. Розділи ці гроші.", "en": "A: I want to invest all my savings in the shares of this new company. B: Better not put all your eggs in one basket. Split the money."}}, {"polish": "nie oceniaj książki po okładce", "category": "attitude", "difficulty": "easy", "examplePL": "Ten hotel wygląda skromnie z zewnątrz, ale jest bardzo wygodny. Nie oceniaj książki po okładce!", "literalUA": "не оцінюй книгу за обкладинкою", "meaningUA": "Не суди про книгу за обкладинкою / зовнішність оманлива", "explanationUA": "Попередження про те, що не варто судити про цінність речей чи людей виключно за їхнім зовнішнім виглядом.", "situationUA": "Ваш колега зустрів тихого та скромно вдягненого чоловіка і вирішив, що той не є професіоналом.", "literalEN": "don't judge a book by its cover", "meaningEN": "Don't judge a book by its cover / Appearances can be deceiving", "explanationEN": "Ostrzeżenie przed ocenianiem wartości ludzi lub rzeczy wyłącznie na podstawie ich wyglądu zewnętrznego.", "situationEN": "Someone meets a quiet person and assumes they are not intelligent.", "dialogue": {"a": "Ten człowiek wydaje się bardzo cichy i niepozorny.", "b": "Nie oceniaj książki po okładce. On jest wybitnie inteligentnym inżynierem.", "ua": "А: Ця людина здається дуже тихою та непомітною. Б: Не суди про книгу за обкладинкою. Він надзвичайно розумний інженер.", "en": "A: This person seems very quiet and unassuming. B: Don't judge a book by its cover. He is an extremely intelligent engineer."}}, {"polish": "nie ma tego złego, co by na dobre nie wyszło", "category": "attitude", "difficulty": "medium", "examplePL": "Spóźniłem się na autobus, ale spotkałem starego kolegę. Nie ma tego złego, co by na dobre nie wyszło!", "literalUA": "немає нічого поганого, що не обернулося б на хороше", "meaningUA": "Немає лиха без добра / все на краще", "explanationUA": "Вказує на те, що неприємна подія може зрештою принести несподівану вигоду.", "situationUA": "Ви раптово втратили роботу через скорочення, але через тиждень знайшли набагато кращу та перспективнішу вакансію.", "literalEN": "there is nothing bad that wouldn't turn into good", "meaningEN": "Every cloud has a silver lining", "explanationEN": "Wskazuje, że nieszczęśliwe wydarzenie może w efekcie przynieść niespodziewane korzyści.", "situationEN": "You lose your job but find a much better and higher-paying one soon after.", "dialogue": {"a": "To straszne, że nie dostałam tej pracy!", "b": "Głowa do góry, nie ma tego złego, co by na dobre nie wyszło. Znajdziesz coś lepszego.", "ua": "А: Це жахливо, що я не отримала цю роботу! Б: Вище голову, немає лиха без добра. Ти обов'язково знайдеш щось краще.", "en": "A: It's terrible that I didn't get this job! B: Chin up, every cloud has a silver lining. You'll find something better."}}, {"polish": "piłka jest po twojej stronie", "category": "everyday", "difficulty": "easy", "examplePL": "Wysłałem ci wszystkie dokumenty, więc teraz piłka jest po twojej stronie.", "literalUA": "м'яч на твоєму боці", "meaningUA": "Твій хід / наступне рішення чи вибір за тобою", "explanationUA": "Означає, що черга діяти, відповідати чи ухвалювати рішення тепер за конкретною людиною.", "situationUA": "Ви детально описали клієнту умови контракту та надіслали прайс і тепер очікуєте на його остаточну відповідь.", "literalEN": "the ball is on your side", "meaningEN": "The ball is in your court", "explanationEN": "Oznacza, że kolejny ruch lub decyzja należy teraz do danej osoby.", "situationEN": "You have explained your terms and are waiting for the client to reply.", "dialogue": {"a": "Ja już powiedziałem, co myślę i przedstawiłem ofertę.", "b": "Rozumiem. Teraz piłka jest po mojej stronie, muszę podjąć decyzję.", "ua": "А: Я вже сказав свою думку та надав пропозицію. Б: Розумію. Тепер хід за мною, я маю прийняти рішення.", "en": "A: I have already said what I think and presented the offer. B: I understand. Now the ball is in my court, I have to make a decision."}}, {"polish": "czyny mówią głośniej niż słowa", "category": "attitude", "difficulty": "easy", "examplePL": "Obiecujesz, że pomożesz, ale nic nie robisz. Czyny mówią głośniej niż słowa.", "literalUA": "вчинки говорять голосніше за слова", "meaningUA": "Вчинки говорять голосніше, ніж слова / не словом, а ділом", "explanationUA": "Реальна поведінка і дії людини є набагато переконливішими, ніж будь-які пусті обіцянки.", "situationUA": "Хтось постійно обіцяє віддати борги та почати прибирати за собою, але ніколи не робить цього насправді.", "literalEN": "actions speak louder than words", "meaningEN": "Actions speak louder than words", "explanationEN": "Ludzkie zachowania i czyny są bardziej wiarygodne niż same puste obietnice.", "situationEN": "Someone keeps promising to start a project but never actually does any work.", "dialogue": {"a": "Przysięgam, że od jutra zacznę dbać o porządek w biurze.", "b": "Słyszę to co tydzień. Pamiętaj, że czyny mówią głośniej niż słowa.", "ua": "А: Обіцяю, що з завтрашнього дня стежитиму за порядком в офісі. Б: Я чую це щотижня. Пам'ятай, що вчинки говорять переконливіше за слова.", "en": "A: I swear that starting tomorrow I will keep the office tidy. B: I hear that every week. Remember, actions speak louder than words."}}, {"polish": "gdy robi się trudno, twardzi biorą się do roboty", "category": "work", "difficulty": "advanced", "examplePL": "Projekt jest ciężki, ale właśnie wtedy trzeba działać. Gdy robi się trudno, twardzi biorą się do roboty!", "literalUA": "коли стає важко, сильні беруться до роботи", "meaningUA": "Коли стає важко, за справу беруться справжні профі", "explanationUA": "У критичних та складних ситуаціях сильні духом люди виявляють стійкість та починають рішуче діяти.", "situationUA": "База даних впала за 10 хвилин до презентації інвесторам, і ваші досвідчені розробники без паніки почали виправляти помилку.", "literalEN": "when it gets tough, the tough get to work", "meaningEN": "When the going gets tough, the tough get going", "explanationEN": "W trudnych sytuacjach silni ludzie wykazują się determinacją i zaczynają działać.", "situationEN": "The system crashed right before launch, and the development team started coding instantly.", "dialogue": {"a": "Wszyscy panikują z powodu tego nowego terminu.", "b": "Nie my. Gdy robi się trudno, twardzi biorą się do roboty. Zaczynamy działać.", "ua": "А: Усі панікують через цей новий дедлайн. Б: Тільки не ми. Коли стає важко, сильні беруться до роботи. Починаємо працювати.", "en": "A: Everyone is panicking because of this new deadline. B: Not us. When the going gets tough, the tough get going. Let's start working."}}, {"polish": "kto rano wstaje, temu Pan Bóg daje", "category": "work", "difficulty": "easy", "examplePL": "Wstałem dziś o szóstej i spokojnie wszystko załatwiłem. Kto rano wstaje, temu Pan Bóg daje.", "literalUA": "хто вранці встає, тому Господь дає", "meaningUA": "Хто рано встає, тому Бог дає / рання пташка росу п'є", "explanationUA": "Старанність, ранній початок дня та працьовитість завжди приносять успіх у справах.", "situationUA": "Ви прокинулися на світанку, виконали всі завдання та встигли випити кави до початку загального робочого хаосу.", "literalEN": "he who wakes up early, to him God gives", "meaningEN": "The early bird catches the worm", "explanationEN": "Wczesne wstawanie i pracowitość przynoszą pomyślność i ułatwiają realizację celów.", "situationEN": "You got to the office early and finished all tasks before your colleagues arrived.", "dialogue": {"a": "O rany, już skończyłeś raport? Dopiero dziewiąta rano!", "b": "Zacząłem o świcie. Kto rano wstaje, temu Pan Bóg daje.", "ua": "А: Ого, ти вже завершив звіт? Тільки дев'ята ранку! Б: Я почав на світанку. Хто рано встає, тому Бог дає.", "en": "A: Oh my, you finished the report already? It's only 9 AM! B: I started at dawn. The early bird catches the worm."}}, {"polish": "nie dziel skóry na niedźwiedziu", "category": "caution", "difficulty": "medium", "examplePL": "Jeszcze nie podpisałeś umowy, więc nie dziel skóry na niedźwiedziu i nie planuj wydatków.", "literalUA": "не діли шкіру на ведмедеві", "meaningUA": "Не діли шкуру невбитого ведмедя", "explanationUA": "Застереження від передчасного планування прибутків від того, що ще не здобуто або не гарантовано.", "situationUA": "Програміст хоче придбати дорогий телефон у кредит, сподіваючись на бонус за проект, контракт на який ще навіть не підписано.", "literalEN": "don't divide the skin on the bear", "meaningEN": "Don't count your chickens before they hatch", "explanationEN": "Ostrzeżenie przed planowaniem korzyści z czegoś, co nie zostało jeszcze ostatecznie zdobyte.", "situationEN": "A freelancer plans a luxury vacation using money from a project that isn't confirmed.", "dialogue": {"a": "Kupię nowy komputer, bo klient obiecał, że zapłaci mi podwójnie.", "b": "Najpierw otrzymaj przelew. Nie dziel skóry na niedźwiedziu.", "ua": "А: Куплю новий комп'ютер, бо клієнт пообіцяв мені подвійну оплату. Б: Спочатку отримай гроші на рахунок. Не діли шкуру невбитого ведмедя.", "en": "A: I will buy a new computer because the client promised to pay me double. B: First get the bank transfer. Don't count your chickens before they hatch."}}, {"polish": "nie ma nic za darmo", "category": "caution", "difficulty": "easy", "examplePL": "Uważaj na tę ofertę. Ten kurs wygląda na darmowy, ale potem trzeba zapłacić. Nie ma nic za darmo.", "literalUA": "немає нічого безкоштовного", "meaningUA": "Безкоштовного сиру не буває / безкоштовних обідів не існує", "explanationUA": "Будь-яка вигода вимагає зусиль, прихованої плати або має свої застереження; ніщо не дається задарма.", "situationUA": "Сервіс пропонує абсолютно безкоштовну реєстрацію, але вимагає введення даних картки для подальшого автосписання грошей.", "literalEN": "there is nothing for free", "meaningEN": "There's no such thing as a free lunch", "explanationEN": "Wszystko wymaga wysiłku, kosztu lub ma ukryty haczyk; nie ma darmowych korzyści.", "situationEN": "An online platform offers a 'free' premium trial but automatically bills your credit card.", "dialogue": {"a": "Zaoferowano mi darmowy przelot w zamian za udział w prezentacji.", "b": "Bądź czujny, nie ma nic za darmo. Na pewno będą cię zmuszać do zakupu czegoś.", "ua": "А: Мені запропонували безкоштовний авіаквиток в обмін на презентацію товарів. Б: Будь пильним, безкоштовного нічого не буває. Там точно змусять тебе щось купити.", "en": "A: I was offered a free flight in exchange for attending a presentation. B: Be alert, there's no such thing as a free lunch. They will surely pressure you to buy."}}, {"polish": "pióro jest potężniejsze od miecza", "category": "attitude", "difficulty": "medium", "examplePL": "Jego krytyczny artykuł zmienił opinię tysięcy ludzi. Pióro jest potężniejsze od miecza.", "literalUA": "перо сильніше за меч", "meaningUA": "Перо сильніше за меч / сила слова сильніша за фізичну зброю", "explanationUA": "Ідеї, публікації та написане слово мають більший та триваліший вплив на світ, ніж груба сила.", "situationUA": "Завдяки журналістському розслідуванню було скасовано незаконну забудову та врятовано міський парк.", "literalEN": "the pen is mightier than the sword", "meaningEN": "The pen is mightier than the sword", "explanationEN": "Słowo pisane i idee mają większy wpływ na bieg historii niż siła fizyczna i walka.", "situationEN": "An investigative reporter exposes corruption, leading to political reforms.", "dialogue": {"a": "Myślisz, że pisanie bloga o ekologii cokolwiek zmieni?", "b": "Oczywiście. Pamiętaj, że pióro jest potężniejsze od miecza.", "ua": "А: Думаєш, ведення екологічного блогу може щось змінити? Б: Безумовно. Пам'ятай, що слово буває міцнішим за зброю.", "en": "A: Do you think writing a blog about ecology will change anything? B: Of course. Remember, the pen is mightier than the sword."}}, {"polish": "wilka ciągnie do lasu", "category": "caution", "difficulty": "medium", "examplePL": "Mówił, że już nie będzie ryzykował, ale znów wrócił do kasyna. Wilka ciągnie do lasu.", "literalUA": "вовка тягне до лісу", "meaningUA": "Скільки вовка не годуй, він усе в ліс дивиться / старі звички важко змінити", "explanationUA": "Природні схильності людини чи її старі звички завжди виявляються, навіть після тривалих спроб змінитися.", "situationUA": "Вирішивши відпочити від комп'ютера у лісі, розробник у перший же вечір дістав ноутбук для редагування коду.", "literalEN": "the wolf is drawn to the forest", "meaningEN": "Old habits die hard", "explanationEN": "Ludzka natura i dawne przyzwyczajenia zawsze dają o sobie znać, mimo prób zmian.", "situationEN": "An engineer promises to stop micro-managing, but immediately starts refactoring a junior's code.", "dialogue": {"a": "Tomasz znowu spędził całą noc na debugowaniu, chociaż miał odpoczywać.", "b": "Cóż, wilka ciągnie do lasu. On kocha programowanie bardziej niż sen.", "ua": "А: Томаш знову всю ніч виправляв помилки в коді, хоча обіцяв відпочити. Б: Ну що ж, вовка тягне до лісу. Він любить програмування більше за сон.", "en": "A: Tomasz spent the whole night debugging again, even though he was supposed to rest. B: Well, old habits die hard. He loves coding more than sleep."}}, {"polish": "nie ma dymu bez ognia", "category": "caution", "difficulty": "easy", "examplePL": "Wszyscy mówią o problemach finansowych firmy. Jeśli tyle osób o tym wspomina, to nie ma dymu bez ognia.", "literalUA": "немає диму без вогню", "meaningUA": "Немає диму без вогню / плітки не виникають без причини", "explanationUA": "Будь-які чутки та припущення зазвичай мають реальне підґрунтя або хоча б якусь частку правди.", "situationUA": "У команді поповзли стійкі чутки про можливе скасування проекту чи скорочення бюджетів.", "literalEN": "there is no smoke without fire", "meaningEN": "There is no smoke without fire", "explanationEN": "Plotki i domysły zazwyczaj mają jakieś realne podłoże lub ziarno prawdy.", "situationEN": "Rumors are spreading that a popular software library is going deprecated.", "dialogue": {"a": "Czy to prawda, że nasz projekt zostanie zawieszony?", "b": "Oficjalnie zaprzeczają, ale nie ma dymu bez ognia. Lepiej zaktualizuj CV.", "ua": "А: Це правда, що наш проект хочуть закрити? Б: Офіційно вони все заперечують, але диму без вогню не буває. Про всяк випадок онови резюме.", "en": "A: Is it true that our project will be suspended? B: Officially they deny it, but there is no smoke without fire. Better update your CV."}}, {"polish": "kto prosi, ten dostaje", "category": "work", "difficulty": "easy", "examplePL": "Poprosiła szefa o podwyżkę i ją dostała. Kto prosi, ten dostaje.", "literalUA": "хто просить, той отримує", "meaningUA": "Хто просить, той отримує / просіть — і отримаєте", "explanationUA": "Сміливість і активне прохання про допомогу чи покращення умов часто призводять до позитивного результату.", "situationUA": "Співробітник звернувся до керівництва з проханням придбати професійний софт і несподівано отримав швидке схвалення.", "literalEN": "who asks, gets", "meaningEN": "Ask and you shall receive", "explanationEN": "Aktywna postawa i proszenie o pomoc lub korzyści często kończą się sukcesem.", "situationEN": "A team member asks for more resources for an automation pipeline and gets approval.", "dialogue": {"a": "Myślisz, że dadzą nam budżet na to narzędzie AI?", "b": "Napisz podanie. Kto prosi, ten dostaje. Nic nie tracisz.", "ua": "А: Як думаєш, чи погодять нам бюджет на цей інструмент ШІ? Б: Подай заявку. Хто просить, той отримує. Ти нічого не втратиш.", "en": "A: Do you think they'll give us a budget for this AI tool? B: Write an application. Ask and you shall receive. You have nothing to lose."}}, {"polish": "na brudnej robocie też można zarobić", "category": "work", "difficulty": "advanced", "examplePL": "Otworzył firmę sprzątającą i dobrze mu idzie. Ta praca nie jest lekka, ale na brudnej robocie też można zarobić.", "literalUA": "на брудній роботі також можна заробити", "meaningUA": "Брудна робота теж добре оплачується", "explanationUA": "Непрестижні, важкі чи непривабливі професії часто приносять відмінні фінансові результати через низьку конкуренцію.", "situationUA": "Підприємець відкрив бізнес з очищення занедбаних горищ та утилізації сміття і швидко вийшов на великий прибуток.", "literalEN": "on dirty work one can also earn", "meaningEN": "Dirty work pays well", "explanationEN": "Prace nieprzyjemne, trudne lub mało prestiżowe bywają bardzo opłacalne.", "situationEN": "You start a business removing legacy database bloat for ancient systems.", "dialogue": {"a": "Dlaczego zdecydowałeś się na czyszczenie starych serwerów?", "b": "Mało kto chce to robić, więc stawki są wysokie. Na brudnej robocie też można zarobić.", "ua": "А: Чому ти взявся за чищення старих пильних серверів? Б: Клієнтам важко знайти виконавців, тому платять щедро. На брудній роботі теж непогано заробляють.", "en": "A: Why did you decide to clean old servers? B: Hardly anyone wants to do it, so the rates are huge. Dirty work pays well."}}, {"polish": "upiec dwie pieczenie na jednym ogniu", "category": "work", "difficulty": "easy", "examplePL": "Pojechałem do centrum, zrobiłem zakupy i spotkałem kolegę. Upiekłem dwie pieczenie na jednym ogniu.", "literalUA": "спекти дві печені на одному вогні", "meaningUA": "Вбити двох зайців одним пострілом / зробити дві справи водночас", "explanationUA": "Вдале вирішення двох різних завдань чи досягнення кількох цілей за допомогою однієї дії.", "situationUA": "Дорогою до офісу в метро ви слухаєте освітній польський подкаст і водночас вивчаєте нові слова.", "literalEN": "to bake two roasts on one fire", "meaningEN": "Kill two birds with one stone", "explanationEN": "Załatwić dwie sprawy lub osiągnąć dwa cele za pomocą jednego działania.", "situationEN": "You listen to an educational Polish podcast while commuting to work.", "dialogue": {"a": "Kiedy znajdujesz czas na naukę języków przy tylu projektach?", "b": "Słucham dialogów w drodze do pracy. Piekę dwie pieczenie na jednym ogniu.", "ua": "А: Як ти знаходиш вільний час для вивчення мови у такому напруженому графіку? Б: Я слухаю аудіоуроки по дорозі в офіс. Вбиваю двох зайців одним пострілом.", "en": "A: When do you find time for language learning with so many projects? B: I listen to dialogues on the way to work. I kill two birds with one stone."}}, {"polish": "nie wywołuj wilka z lasu", "category": "caution", "difficulty": "medium", "examplePL": "Nie przypominaj mu o starej kłótni, lepiej zostawić ten temat. Nie wywołuj wilka z lasu.", "literalUA": "не клич вовка з лісу", "meaningUA": "Не буди лихо, поки воно тихе / не накликай біди передчасно", "explanationUA": "Застереження від передчасного обговорення проблем, суперечок чи дій, які можуть спровокувати неприємності.", "situationUA": "Запитувати у виснаженого клієнта про дрібні зауваження до макету у п'ятницю о 18:00.", "literalEN": "don't call the wolf out of the forest", "meaningEN": "Don't trouble trouble until trouble troubles you", "explanationEN": "Nie prowokuj niepotrzebnych problemów ani nie poruszaj tematów, które mogą wywołać konflikt.", "situationEN": "Talking about system vulnerability testing on a Friday afternoon.", "dialogue": {"a": "Może przetestujemy dzisiaj odporność serwera na przeciążenia?", "b": "W piątek o 16:00? Nie wywołuj wilka z lasu, bo weekend spędzimy w pracy.", "ua": "А: Може, перевіримо сьогодні стійкість сервера до навантажень? Б: У п'ятницю о 16:00? Не буди лихо, бо вихідні проведемо на роботі.", "en": "A: Maybe we should test the server's overload resistance today? B: On Friday at 4 PM? Don't trouble trouble, or we'll spend the weekend at work."}}, {"polish": "kto się raz sparzył, ten na zimne dmucha", "category": "caution", "difficulty": "advanced", "examplePL": "Po tamtej awarii systemu teraz robię kopie zapasowe co godzinę. Kto się raz sparzył, ten na zimne dmucha.", "literalUA": "хто раз обпікся, той і на холодне дме", "meaningUA": "Хто обпікся на гарячому, на холодне дме", "explanationUA": "Людина, яка зазнала болючої невдачі чи втрати у минулому, стає надзвичайно обережною в аналогічних ситуаціях.", "situationUA": "Програміст, який колись випадково видалив базу даних, тепер перевіряє код міграцій перед деплоєм по десять разів.", "literalEN": "who burned himself once, blows on cold", "meaningEN": "Once bitten, twice shy", "explanationEN": "Osoba, która doznała jakiejś szkody, staje się przesadnie ostrożna w podobnych sytuacjach.", "situationEN": "A programmer who accidentally dropped a production database now checks his queries 10 times.", "dialogue": {"a": "Dlaczego sprawdzasz ten kod aż trzy razy?", "b": "Rok temu popełniłem fatalny błąd w skrypcie. Kto się raz sparzył, ten na zimne dmucha.", "ua": "А: Чому ти перевіряєш цей скрипт уже втретє? Б: Торік я наробив великих бід у коді. Хто раз обпікся, той і на холодне дме.", "en": "A: Why are you checking this code three times? B: A year ago I made a fatal script error. Once bitten, twice shy."}}, {"polish": "darowanemu koniowi nie zagląda się w zęby", "category": "attitude", "difficulty": "easy", "examplePL": "Dostałeś ten telefon zupełnie za darmo, więc nie narzekaj. Darowanemu koniowi nie zagląda się w zęby.", "literalUA": "дарованому коневі не дивляться в зуби", "meaningUA": "Дарованому коневі в зуби не дивляться / не критикують те, що отримали задарма", "explanationUA": "Непристойно критикувати чи висловлювати невдоволення щодо отриманого безкоштовно подарунка.", "situationUA": "Колега скаржиться на колір брендованого блокнота, який безкоштовно отримав на конференції.", "literalEN": "to a gifted horse one doesn't look into teeth", "meaningEN": "Don't look a gift horse in the mouth", "explanationEN": "Nie powinno się krytykować ani grymasić na otrzymany prezent.", "situationEN": "You receive a free laptop bag from an event but complain about its style.", "dialogue": {"a": "Ta darmowa koszulka z konferencji ma okropny kolor.", "b": "Daj spokój, darowanemu koniowi nie zagląda się w zęby. Ciesz się, że ją masz.", "ua": "А: Ця безкоштовна фірмова футболка має жахливий відтінок. Б: Ой, годі тобі, дарованому коневі в зуби не дивляться. Радій, що взагалі дали.", "en": "A: This free shirt from the conference has a terrible color. B: Come on, don't look a gift horse in the mouth. Just be glad you got it."}}, {"polish": "gdzie kucharek sześć, tam nie ma co jeść", "category": "work", "difficulty": "medium", "examplePL": "Nad tą prostą stroną pracowało za dużo osób i nic z tego nie wyszło. Gdzie kucharek sześć, tam nie ma co jeść.", "literalUA": "де кухарок шість, там немає що їсти", "meaningUA": "Де сім господинь, там хата неметена / у семи няньок дитя без ока", "explanationUA": "Коли занадто багато людей намагаються керувати одним простим процесом, це призводить до хаосу та відсутності результату.", "situationUA": "П'ять менеджерів одночасно вносять протилежні правки в одну невелику таблицю, викликаючи загальну плутанину.", "literalEN": "where cooks are six, there is nothing to eat", "meaningEN": "Too many cooks spoil the broth", "explanationEN": "Gdy zbyt wiele osób próbuje zarządzać jedną sprawą, dochodzi do chaosu i braku efektów.", "situationEN": "Six managers are giving conflicting directions on how to design a simple dashboard.", "dialogue": {"a": "Nasz projekt stoi w miejscu, mimo że zaangażowaliśmy pięciu nowych doradców.", "b": "W tym tkwi problem. Gdzie kucharek sześć, tam nie ma co jeść.", "ua": "А: Наш проект не рухається, хоча ми додали п'ятьох нових консультантів. Б: У цьому й біда. У семи няньок дитя без ока.", "en": "A: Our project is stalled, even though we involved five new advisors. B: That's the problem. Too many cooks spoil the broth."}}, {"polish": "diabeł tkwi w szczegółach", "category": "caution", "difficulty": "easy", "examplePL": "Plan wygląda świetnie, ale diabeł tkwi w szczegółach. Umowa jest krótka, ale przeczytaj ją uważnie.", "literalUA": "диявол криється в деталях", "meaningUA": "Диявол криється в деталях", "explanationUA": "Справа, яка спочатку здається дуже простою, виявляється складною через дрібні та непомітні нюанси.", "situationUA": "Код працює бездоганно, але забутий символ двокрапки ламає всю систему при запуску на сервері.", "literalEN": "the devil lies in details", "meaningEN": "The devil is in the detail", "explanationEN": "Pozornie prosta sprawa okazuje się trudna ze względu na drobne, łatwe do przeoczenia elementy.", "situationEN": "Your script works theoretically, but failing to escape a single slash crashes it.", "dialogue": {"a": "Integracja API wydaje się banalnie prosta, to tylko trzy linijki kodu.", "b": "Uważaj, diabeł tkwi w szczegółach. Konfiguracja zabezpieczeń zajmie godziny.", "ua": "А: Інтеграція API здається елементарною, там усього три рядки коду. Б: Обережно, диявол завжди в деталях. Налаштування безпеки забере купу часу.", "en": "A: The API integration seems ridiculously simple, just three lines of code. B: Watch out, the devil is in the detail. Configuring security will take hours."}}, {"polish": "nie można mieć ciastka i zjeść ciastka", "category": "attitude", "difficulty": "medium", "examplePL": "Chcesz oszczędzać pieniądze i codziennie jeść w restauracjach? Nie można mieć ciastka i zjeść ciastka.", "literalUA": "не можна мати тістечко і з'їсти тістечко", "meaningUA": "І рибку з'їсти, і в воду не лізти / не можна поєднати дві взаємовиключні речі", "explanationUA": "Неможливо одночасно зберегти кошти чи ресурси і при цьому витратити їх; потрібно обрати один шлях.", "situationUA": "Замовник вимагає найдешевшу розробку та унікальний дизайн, відмовляючись йти на будь-які компроміси.", "literalEN": "one cannot have a cookie and eat a cookie", "meaningEN": "You can't have your cake and eat it too", "explanationEN": "Nie da się pogodzić dwóch sprzecznych opcji; musisz dokonać wyboru.", "situationEN": "You want a fully customized, ultra-secure app but refuse to spend more than $50 on it.", "dialogue": {"a": "Chcę szybkiego systemu i taniej infrastruktury, bez poświęcania jakości.", "b": "Wybierz jedno. Nie można mieć ciastka i zjeść ciastka.", "ua": "А: Я хочу і швидку систему, і найдешевшу інфраструктуру, без жодних компромісів щодо якості. Б: Визначся. Не можна поєднувати непоєднуване.", "en": "A: I want a fast system and cheap infrastructure without sacrificing quality. B: Choose one. You can't have your cake and eat it too."}}, {"polish": "cierpliwość popłaca", "category": "attitude", "difficulty": "easy", "examplePL": "Uczył się polskiego codziennie i po roku mówił już płynnie. Cierpliwość popłaca.", "literalUA": "терпіння винагороджується", "meaningUA": "Терпіння дає плоди / терпіння та праця все перетруть", "explanationUA": "Наполегливість, стабільна робота та спокій у досягненні мети обов'язково приведуть до бажаного успіху.", "situationUA": "Ви щодня приділяли навчанню польської хоча б 15 хвилин і за пів року почали вільно розуміти розмовні подкасти.", "literalEN": "patience pays off", "meaningEN": "Patience pays off", "explanationEN": "Wytrwałość i spokój w dążeniu do celu ostatecznie przynoszą pożądane rezultaty.", "situationEN": "Waiting for machine learning model training to complete for weeks, resulting in amazing accuracy.", "dialogue": {"a": "Nie widzę szybkich efektów mojej nauki, to frustrujące.", "b": "Naukowa praca wymaga czasu. Cierpliwość popłaca, zobaczysz efekty po kilku miesiącach.", "ua": "А: Я не бачу миттєвих результатів навчання, і це мене дратує. Б: Розумова праця вимагає часу. Терпіння дає плоди, ти побачиш прогрес за кілька місяців.", "en": "A: I'm not seeing fast results from my learning, it's frustrating. B: Scientific work takes time. Patience pays off, you will see results in a few months."}}, {"polish": "nie wszystko złoto, co się świeci", "category": "caution", "difficulty": "easy", "examplePL": "Ta oferta pracy wygląda wspaniale, ale uważaj, nie wszystko złoto, co się świeci.", "literalUA": "не все золото, що блищить", "meaningUA": "Не все те золото, що блищить", "explanationUA": "Зовні привабливі пропозиції, красиві інтерфейси чи гарні слова часто виявляються порожніми чи неякісними.", "situationUA": "Додаток має неймовірно красивий дизайн сайту, але внутрішній код працює нестабільно і постійно зависає.", "literalEN": "not everything is gold that shines", "meaningEN": "All that glitters is not gold", "explanationEN": "Rzeczy atrakcyjne z wyglądu mogą w rzeczywistości okazać się bezużyteczne lub wadliwe.", "situationEN": "An elegant-looking app UI hides spaghetti code that crashes constantly.", "dialogue": {"a": "Ten nowy framework ma przepiękną stronę główną i obiecujące animacje.", "b": "Uważaj, nie wszystko złoto, co się świeci. Poczytaj opinie programistów o błędach.", "ua": "А: У цього нового фреймворка така чудова домашня сторінка та яскраві анімації. Б: Будь обережним, не все те золото, що блищить. Почитай спочатку відгуки розробників про помилки.", "en": "A: This new framework has a gorgeous homepage and promising animations. B: Watch out, all that glitters is not gold. Read programmers' reviews about bugs."}}, {"polish": "jeśli pasuje, przyjmij to do siebie", "category": "attitude", "difficulty": "advanced", "examplePL": "Nie mówiłem konkretnie o tobie, krytykując spóźnienia, ale jeśli pasuje, przyjmij to do siebie.", "literalUA": "якщо пасує, прийми це до себе", "meaningUA": "На злодії шапка горить / якщо критика справедлива, прийми її на свій рахунок", "explanationUA": "Якщо загальне критичне зауваження влучно описує ваші дії чи поведінку, варто визнати помилку та зробити висновки.", "situationUA": "Керівник розповів на зборах про неприпустимість поганого коментування коду, і ви зрозуміли, що це стосується саме ваших занять.", "literalEN": "if it fits, accept it to yourself", "meaningEN": "If the shoe fits, wear it", "explanationEN": "Jeśli krytyczna uwaga odnosi się do twojego zachowania, zaakceptuj ją i wyciągnij wnioski.", "situationEN": "A team leader complains about messy commit messages, and a dev realizes they are guilty of it.", "dialogue": {"a": "Czy ty piłeś do mnie, mówiąc o braku testów jednostkowych?", "b": "Mówiłem ogólnie o standardach, ale jeśli pasuje, przyjmij to do siebie.", "ua": "А: Ти натякав на мене, коли говорив про відсутність юніт-тестів? Б: Я говорив про загальні правила, але якщо це про тебе, то зроби відповідні висновки.", "en": "A: Were you pointing at me when talking about the lack of unit tests? B: I was speaking generally about standards, but if the shoe fits, wear it."}}, {"polish": "nie stawiaj wozu przed koniem", "category": "caution", "difficulty": "medium", "examplePL": "Najpierw zdaj egzamin, a potem kupuj samochód. Nie stawiaj wozu przed koniem.", "literalUA": "не став воза попереду коня", "meaningUA": "Не став воза попереду коня / не роби речі в неправильному порядку", "explanationUA": "Потреба дотримуватися логічного порядку дій; не починайте справу з другорядних чи завершальних етапів.", "situationUA": "Замовник купує преміум-сервер та домен, хоча розробники ще не написали жодного рядка коду бази даних.", "literalEN": "don't place the cart in front of the horse", "meaningEN": "Don't put the cart before the horse", "explanationEN": "Zachowaj właściwą kolejność działań; nie zaczynaj od rzeczy wtórnych.", "situationEN": "Buying domain names and building premium landing pages before writing any core backend code.", "dialogue": {"a": "Kupiłem już subskrypcje na serwery dedykowane, chociaż nie zacząłem pisać aplikacji.", "b": "Nie stawiaj wozu przed koniem. Najpierw stwórz działający prototyp.", "ua": "А: Я вже купив підписку на дорогі виділені сервери, хоча ще навіть не починав писати систему. Б: Не став воза попереду коня. Спочатку напиши хоча б працюючий прототип.", "en": "A: I already bought subscriptions for dedicated servers, even though I haven't started writing the app. B: Don't put the cart before the horse. First create a working prototype."}}, {"polish": "jest wiele dróg do celu", "category": "everyday", "difficulty": "easy", "examplePL": "Jeśli ten sposób programowania nie działa, spróbujemy inaczej. Jest wiele dróg do celu.", "literalUA": "є багато шляхів до цілі", "meaningUA": "Всі дороги ведуть до Риму / одну проблему можна вирішити багатьма способами", "explanationUA": "Не існує єдиного жорсткого рішення; складне завдання завжди можна вирішити альтернативними методами.", "situationUA": "Замість тривалої оптимізації важкого алгоритму, розробник просто налаштував ефективне кешування запитів.", "literalEN": "there are many ways to the goal", "meaningEN": "There are many ways to reach a goal", "explanationEN": "Jeden problem można rozwiązać na różne sposoby; istnieje wiele alternatywnych metod.", "situationEN": "Finding a solution to speed up database queries by indexing, caching, or rewriting.", "dialogue": {"a": "Nie mogę zoptymalizować tego algorytmu w Pythonie.", "b": "Możesz napisać to w Go lub użyć bazy NoSQL. Jest wiele dróg do celu.", "ua": "А: Не можу ніяк пришвидшити цей алгоритм на Python. Б: Напиши його на Go або додай кеш. Є багато шляхів для досягнення мети.", "en": "A: I cannot optimize this algorithm in Python. B: You can write it in Go or use a NoSQL database. There are many ways to reach a goal."}}, {"polish": "nie da się zrobić omletu bez rozbicia jajek", "category": "work", "difficulty": "medium", "examplePL": "Przebudowa bazy danych jest uciążliwa, ale nie da się zrobić omletu bez rozbicia jajek.", "literalUA": "неможливо зробити омлет, не розбивши яєць", "meaningUA": "Ліс рубають — тріски летять / не можна досягти результату без певних жертв або ризиків", "explanationUA": "Будь-які серйозні реформи чи досягнення великої мети вимагають готовності йти на неминучі втрати чи незручності.", "situationUA": "Для того щоб осучаснити та очистити код, довелося зламати підтримку дуже старих версій браузерів.", "literalEN": "it's impossible to make an omelette without breaking eggs", "meaningEN": "You can't make an omelette without breaking eggs", "explanationEN": "Osiągnięcie celu wymaga pewnych wyrzeczeń, strat lub znoszenia trudności.", "situationEN": "Breaking backward compatibility to modernize a massive software engine.", "dialogue": {"a": "Klienci będą narzekać na zmiany w interfejsie tej aplikacji.", "b": "Musimy odświeżyć markę. Nie da się zrobić omletu bez rozbicia jajek.", "ua": "А: Користувачі точно скаржитимуться на кардинальні зміни в інтерфейсі додатка. Б: Нам час оновити продукт. Не можна зробити омлет, не розбивши яєць.", "en": "A: Customers will complain about changes to this app's interface. B: We have to refresh the brand. You can't make an omelette without breaking eggs."}}, {"polish": "lepiej zapobiegać niż leczyć", "category": "caution", "difficulty": "easy", "examplePL": "Zrób kopię zapasową bazy danych już teraz. Lepiej zapobiegać niż leczyć.", "literalUA": "краще запобігати, ніж лікувати", "meaningUA": "Краще запобігти, ніж лікувати / профілактика краща за лікування", "explanationUA": "Набагато простіше та раціональніше заздалегідь уникнути проблем за допомогою правил безпеки, ніж виправляти катастрофічні наслідки.", "situationUA": "Впровадження автоматичного тестування коду на етапі розробки, щоб уникнути виходу критичних багів у реліз.", "literalEN": "better to prevent than to treat", "meaningEN": "Prevention is better than cure", "explanationEN": "Łatwiej i mądrzej jest przeciwdziałać problemom, zanim się pojawią, niż usuwać ich skutki.", "situationEN": "Adding a linter and automated tests to your repository to prevent bugs in production.", "dialogue": {"a": "Po co pisać testy jednostkowe na tak wczesnym etapie?", "b": "W przyszłości zaoszczędzi nam to debugowania. Lepiej zapobiegać niż leczyć.", "ua": "А: Навіщо писати юніт-тести на такому ранньому етапі роботи? Б: Це збереже нам купу нервів на пошук багів у майбутньому. Простіше попередити проблему, ніж вирішувати її.", "en": "A: Why write unit tests at such an early stage? B: In the future it will save us debugging. Prevention is better than cure."}}, {"polish": "jak się nie ma, co się lubi, to się lubi, co się ma", "category": "attitude", "difficulty": "advanced", "examplePL": "Ten komputer nie jest najszybszy, ale nie było innych na magazynie. Jak się nie ma, co się lubi, to się lubi, co się ma.", "literalUA": "коли не маєш того, що любиш, то любиш те, що маєш", "meaningUA": "На безриб'ї і рак риба / за браком кращого пристосовуйся до наявного", "explanationUA": "Потреба приймати реальні обставини з вдячністю та навчитися цінувати ті можливості й ресурси, що вже є поруч.", "situationUA": "Компанія не змогла закупити дорогі ергономічні столи через дефіцит, тому офіс облаштували стандартними якісними меблями.", "literalEN": "when one doesn't have what they like, they like what they have", "meaningEN": "Make the best of a bad situation / Beggars can't be choosers", "explanationEN": "Należy pogodzić się z trudną sytuacją i cieszyć się tym, co jest dostępne.", "situationEN": "Being forced to use older server architecture because the brand-new clouds are out of stock.", "dialogue": {"a": "Szkoda, że nasza firma nie sfinansowała najdroższych foteli biurowych.", "b": "Te też są w porządku. Jak się nie ma, co się lubi, to się lubi, co się ma.", "ua": "А: Прикро, що фірма не замовила для нас преміальні дизайнерські крісла. Б: Ці теж досить зручні. Коли немає того, що любиш, люби те, що маєш.", "en": "A: Too bad our company didn't fund the most expensive office chairs. B: These are fine too. Beggars can't be choosers."}}];
+    const TRACKS = [{"n": "01", "theme": "Deszcz, ryzyko, wygląd", "lyrics": "[Title]\nPolskie idiomy 01 — Deszcz, ryzyko, wygląd\n\n[Intro]\nPolskie idiomy, raz, dwa, trzy,\nsłuchaj uważnie, powtarzaj ty.\nJedno zdanie, potem dwa,\npolski w głowie miejsce ma.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nLeje jak z cebra.\nDzisiaj leje jak z cebra,\nwięc zostajemy w domu.\nWeź parasol,\nbo za oknem leje jak z cebra.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 2]\nNie wkładaj wszystkich jajek\ndo jednego koszyka.\nNie inwestuj wszystkich pieniędzy\nw jedną firmę —\nnie wkładaj wszystkich jajek\ndo jednego koszyka.\nZłożyłem dokumenty\nna kilka uczelni,\nbo nie chcę wkładać wszystkich jajek\ndo jednego koszyka.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 3]\nNie oceniaj książki po okładce.\nTen hotel wygląda skromnie,\nale jest bardzo wygodny —\nnie oceniaj książki po okładce.\nOn wydaje się cichy,\nale jest bardzo inteligentny.\nNie oceniaj książki po okładce.\n\n[Repeat Practice]\nLeje jak z cebra.\nPowtórz: leje jak z cebra.\nDzisiaj leje jak z cebra.\nWeź parasol,\nbo leje jak z cebra.\n\nNie wkładaj wszystkich jajek\ndo jednego koszyka.\nPowtórz: nie wkładaj wszystkich jajek\ndo jednego koszyka.\nNie inwestuj wszystkich pieniędzy\nw jedną firmę.\nZłożyłem dokumenty\nna kilka uczelni.\nNie wkładaj wszystkich jajek\ndo jednego koszyka.\n\nNie oceniaj książki po okładce.\nPowtórz: nie oceniaj książki po okładce.\nTen hotel wygląda skromnie,\nale jest bardzo wygodny.\nOn wydaje się cichy,\nale jest bardzo inteligentny.\nNie oceniaj książki po okładce.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "02", "theme": "Szansa, decyzja, działanie", "lyrics": "[Title]\nPolskie idiomy 02 — Szansa, decyzja, działanie\n\n[Intro]\nPolskie idiomy, część numer dwa,\nsłuchaj uważnie, powtarzaj raz.\nSzansa, decyzja, prosty znak,\npolski w głowie zostaje tak.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nNie ma tego złego,\nco by na dobre nie wyszło.\nSpóźniłem się na autobus,\nale spotkałem starego kolegę —\nnie ma tego złego,\nco by na dobre nie wyszło.\n\nNie dostała tej pracy,\nale potem znalazła lepszą.\nNie ma tego złego,\nco by na dobre nie wyszło.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 2]\nTeraz piłka jest po twojej stronie.\nJa już powiedziałem,\nco myślę.\nTeraz piłka jest po twojej stronie.\n\nWysłałem ci wszystkie dokumenty,\nwięc teraz piłka jest po twojej stronie.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 3]\nCzyny mówią głośniej niż słowa.\nObiecujesz, że pomożesz,\nale nic nie robisz —\nczyny mówią głośniej niż słowa.\n\nNie musisz dużo mówić.\nCzyny mówią głośniej niż słowa.\n\n[Repeat Practice]\nNie ma tego złego,\nco by na dobre nie wyszło.\nPowtórz: nie ma tego złego,\nco by na dobre nie wyszło.\nSpóźniłem się na autobus.\nSpotkałem starego kolegę.\nNie ma tego złego,\nco by na dobre nie wyszło.\n\nTeraz piłka jest po twojej stronie.\nPowtórz: teraz piłka jest po twojej stronie.\nJa już powiedziałem,\nco myślę.\nWysłałem ci dokumenty.\nTeraz piłka jest po twojej stronie.\n\nCzyny mówią głośniej niż słowa.\nPowtórz: czyny mówią głośniej niż słowa.\nObiecujesz,\nale nic nie robisz.\nNie musisz dużo mówić.\nCzyny mówią głośniej niż słowa.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "03", "theme": "Trudność, poranek, ostrożność", "lyrics": "[Title]\nPolskie idiomy 03 — Trudność, poranek, ostrożność\n\n[Intro]\nPolskie idiomy, część numer trzy,\nsłuchaj uważnie, powtarzasz ty.\nTrudny moment, dobry start,\npolski rytm ma swoją wartość.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nGdy robi się trudno,\ntwardzi biorą się do roboty.\nMamy dużo problemów,\nale gdy robi się trudno,\ntwardzi biorą się do roboty.\n\nProjekt jest ciężki,\nale właśnie wtedy trzeba działać —\ngdy robi się trudno,\ntwardzi biorą się do roboty.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 2]\nKto rano wstaje,\ntemu Pan Bóg daje.\nWstałem o szóstej\ni spokojnie wszystko załatwiłem —\nkto rano wstaje,\ntemu Pan Bóg daje.\n\nOna zawsze zaczyna pracę wcześnie,\nbo wie, że kto rano wstaje,\ntemu Pan Bóg daje.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 3]\nNie dziel skóry na niedźwiedziu.\nJeszcze nie podpisałeś umowy,\nwięc nie dziel skóry na niedźwiedziu.\n\nNie planuj wydatków,\nzanim dostaniesz premię —\nnie dziel skóry na niedźwiedziu.\n\n[Repeat Practice]\nGdy robi się trudno,\ntwardzi biorą się do roboty.\nPowtórz: gdy robi się trudno,\ntwardzi biorą się do roboty.\nMamy dużo problemów.\nWłaśnie wtedy trzeba działać.\nGdy robi się trudno,\ntwardzi biorą się do roboty.\n\nKto rano wstaje,\ntemu Pan Bóg daje.\nPowtórz: kto rano wstaje,\ntemu Pan Bóg daje.\nWstałem o szóstej.\nWszystko załatwiłem.\nKto rano wstaje,\ntemu Pan Bóg daje.\n\nNie dziel skóry na niedźwiedziu.\nPowtórz: nie dziel skóry na niedźwiedziu.\nJeszcze nie podpisałeś umowy.\nNie planuj wydatków za wcześnie.\nNie dziel skóry na niedźwiedziu.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "04", "theme": "Pieniądze, słowa, charakter", "lyrics": "[Title]\nPolskie idiomy 04 — Pieniądze, słowa, charakter\n\n[Intro]\nPolskie idiomy, część numer cztery,\nsłuchaj spokojnie, bez żadnej bariery.\nPieniądze, słowa i charakter też,\npowtarzaj rytm i łapiesz sens.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nNie ma nic za darmo.\nTen kurs wygląda na darmowy,\nale potem trzeba zapłacić —\nnie ma nic za darmo.\nDostałeś świetną ofertę?\nUważaj, nie ma nic za darmo.\n\n[Verse 2]\nPióro jest potężniejsze od miecza.\nJego artykuł zmienił opinię ludzi —\npióro jest potężniejsze od miecza.\nJedno dobre zdanie\nmoże mieć wielką siłę.\n\n[Verse 3]\nWilka ciągnie do lasu.\nObiecał, że przestanie kłamać,\nale znów oszukał wszystkich —\nwilka ciągnie do lasu.\nMówił, że już nie będzie ryzykował,\nale wilka ciągnie do lasu.\n\n[Repeat Practice]\nNie ma nic za darmo.\nPowtórz: nie ma nic za darmo.\nUważaj na świetne oferty.\nNie ma nic za darmo.\n\nPióro jest potężniejsze od miecza.\nPowtórz: pióro jest potężniejsze od miecza.\nSłowa mają wielką siłę.\nPióro jest potężniejsze od miecza.\n\nWilka ciągnie do lasu.\nPowtórz: wilka ciągnie do lasu.\nStare nawyki wracają.\nWilka ciągnie do lasu.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "05", "theme": "Plotki, prośby, praca", "lyrics": "[Title]\nPolskie idiomy 05 — Plotki, prośby, praca\n\n[Intro]\nPolskie idiomy, część numer pięć,\nsłuchaj i mów, jeśli masz chęć.\nPlotki, prośby i ciężka praca,\npolski rytm do ciebie wraca.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nNie ma dymu bez ognia.\nWszyscy mówią o problemach w firmie —\nnie ma dymu bez ognia.\nJeśli tyle osób o tym mówi,\nto może coś w tym jest.\n\n[Verse 2]\nKto prosi, ten dostaje.\nPoprosiła szefa o podwyżkę\ni ją dostała —\nkto prosi, ten dostaje.\nNie bój się zapytać.\nKto prosi, ten dostaje.\n\n[Verse 3]\nNa brudnej robocie też można zarobić.\nOtworzył firmę sprzątającą\ni dobrze mu idzie —\nna brudnej robocie też można zarobić.\nTa praca nie jest przyjemna,\nale dobrze płatna.\n\n[Repeat Practice]\nNie ma dymu bez ognia.\nPowtórz: nie ma dymu bez ognia.\nPlotki czasem mają powód.\nNie ma dymu bez ognia.\n\nKto prosi, ten dostaje.\nPowtórz: kto prosi, ten dostaje.\nNie bój się zapytać.\nKto prosi, ten dostaje.\n\nNa brudnej robocie też można zarobić.\nPowtórz: na brudnej robocie też można zarobić.\nPraca bywa trudna.\nAle można zarobić.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "06", "theme": "Spryt, spokój, ostrożność", "lyrics": "[Title]\nPolskie idiomy 06 — Spryt, spokój, ostrożność\n\n[Intro]\nPolskie idiomy, część numer sześć,\ntu każda fraza ma swoją treść.\nSpryt i spokój, dobry znak,\npowtarzaj głośno właśnie tak.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nUpiec dwie pieczenie na jednym ogniu.\nPojechałem do centrum,\nzrobiłem zakupy i spotkałem kolegę —\nupiekłem dwie pieczenie na jednym ogniu.\nPodczas spaceru słuchałem podcastu,\nwięc upiekłem dwie pieczenie na jednym ogniu.\n\n[Verse 2]\nNie wywołuj wilka z lasu.\nNie przypominaj mu o starej kłótni —\nnie wywołuj wilka z lasu.\nLepiej zostawić ten temat.\nNie wywołuj wilka z lasu.\n\n[Verse 3]\nKto się raz sparzył,\nten na zimne dmucha.\nPo złym doświadczeniu\ndokładnie czyta umowy —\nkto się raz sparzył,\nten na zimne dmucha.\n\n[Repeat Practice]\nUpiec dwie pieczenie na jednym ogniu.\nPowtórz: upiec dwie pieczenie na jednym ogniu.\nJedna rzecz, dwa efekty.\nUpiec dwie pieczenie na jednym ogniu.\n\nNie wywołuj wilka z lasu.\nPowtórz: nie wywołuj wilka z lasu.\nNie zaczynaj starego problemu.\nNie wywołuj wilka z lasu.\n\nKto się raz sparzył,\nten na zimne dmucha.\nPowtórz: kto się raz sparzył,\nten na zimne dmucha.\nByłem ostrożny.\nNa zimne dmucha.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "07", "theme": "Prezent, zespół, szczegóły", "lyrics": "[Title]\nPolskie idiomy 07 — Prezent, zespół, szczegóły\n\n[Intro]\nPolskie idiomy, część numer siedem,\nkażde zdanie prowadzi cię przed siebie.\nPrezent, zespół i szczegóły,\npolski rytm jest dziś szczególny.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nDarowanemu koniowi\nnie zagląda się w zęby.\nDostałeś telefon za darmo,\nwięc nie narzekaj —\ndarowanemu koniowi\nnie zagląda się w zęby.\n\n[Verse 2]\nGdzie kucharek sześć,\ntam nie ma co jeść.\nNad projektem pracowało za dużo osób\ni nic z tego nie wyszło —\ngdzie kucharek sześć,\ntam nie ma co jeść.\n\n[Verse 3]\nDiabeł tkwi w szczegółach.\nPlan wygląda dobrze,\nale diabeł tkwi w szczegółach.\nUmowa jest krótka,\nale przeczytaj ją uważnie —\ndiabeł tkwi w szczegółach.\n\n[Repeat Practice]\nDarowanemu koniowi\nnie zagląda się w zęby.\nPowtórz: darowanemu koniowi\nnie zagląda się w zęby.\nTo jest prezent.\nNie narzekaj.\n\nGdzie kucharek sześć,\ntam nie ma co jeść.\nPowtórz: gdzie kucharek sześć,\ntam nie ma co jeść.\nZa dużo osób.\nZa dużo chaosu.\n\nDiabeł tkwi w szczegółach.\nPowtórz: diabeł tkwi w szczegółach.\nCzytaj uważnie.\nDiabeł tkwi w szczegółach.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "08", "theme": "Wybór, cierpliwość, pozory", "lyrics": "[Title]\nPolskie idiomy 08 — Wybór, cierpliwość, pozory\n\n[Intro]\nPolskie idiomy, część numer osiem,\npowiedz je głośno, prostym głosem.\nWybór, cierpliwość i pozory,\nuczysz się dzisiaj bez oporu.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nNie można mieć ciastka\ni zjeść ciastka.\nChcesz oszczędzać\ni codziennie jeść w restauracji?\nNie można mieć ciastka\ni zjeść ciastka.\n\n[Verse 2]\nCierpliwość popłaca.\nUczył się polskiego codziennie\ni po roku mówił dużo lepiej —\ncierpliwość popłaca.\nNie widzisz efektów od razu,\nale cierpliwość popłaca.\n\n[Verse 3]\nNie wszystko złoto,\nco się świeci.\nTa oferta wygląda świetnie,\nale uważaj —\nnie wszystko złoto,\nco się świeci.\n\n[Repeat Practice]\nNie można mieć ciastka\ni zjeść ciastka.\nPowtórz: nie można mieć ciastka\ni zjeść ciastka.\nNie można mieć wszystkiego.\nNie można mieć ciastka i zjeść ciastka.\n\nCierpliwość popłaca.\nPowtórz: cierpliwość popłaca.\nUcz się codziennie.\nCierpliwość popłaca.\n\nNie wszystko złoto,\nco się świeci.\nPowtórz: nie wszystko złoto,\nco się świeci.\nPozory mylą.\nNie wszystko złoto, co się świeci.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "09", "theme": "Odpowiedzialność, kolejność, droga", "lyrics": "[Title]\nPolskie idiomy 09 — Odpowiedzialność, kolejność, droga\n\n[Intro]\nPolskie idiomy, część numer dziewięć,\nsłuchaj uważnie, ucz się pewnie.\nKolejność, droga i odpowiedzialność,\npolski rytm ma dziś realność.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nJeśli pasuje,\nprzyjmij to do siebie.\nNie mówiłem konkretnie o tobie,\nale jeśli pasuje,\nprzyjmij to do siebie.\n\n[Verse 2]\nNie stawiaj wozu przed koniem.\nNajpierw zdaj egzamin,\na potem kupuj samochód —\nnie stawiaj wozu przed koniem.\nNie planuj wesela,\njeśli jeszcze się nie oświadczyłeś.\n\n[Verse 3]\nJest wiele dróg do celu.\nJeśli ten sposób nie działa,\nspróbujemy inaczej —\njest wiele dróg do celu.\nNie musisz uczyć się tylko z książki.\nJest wiele dróg do celu.\n\n[Repeat Practice]\nJeśli pasuje,\nprzyjmij to do siebie.\nPowtórz: jeśli pasuje,\nprzyjmij to do siebie.\nTo jest o tobie?\nPrzyjmij to do siebie.\n\nNie stawiaj wozu przed koniem.\nPowtórz: nie stawiaj wozu przed koniem.\nNajpierw pierwszy krok.\nPotem następny krok.\n\nJest wiele dróg do celu.\nPowtórz: jest wiele dróg do celu.\nSpróbuj inaczej.\nJest wiele dróg do celu.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "10", "theme": "Zmiana, zdrowy rozsądek, akceptacja", "lyrics": "[Title]\nPolskie idiomy 10 — Zmiana, zdrowy rozsądek, akceptacja\n\n[Intro]\nPolskie idiomy, część numer dziesięć,\nsłowa w rytmie łatwiej nieść.\nZmiana, rozsądek i akceptacja,\nto językowa dziś lekcja.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nNie da się zrobić omletu\nbez rozbicia jajek.\nRemont jest uciążliwy,\nale nie da się zrobić omletu\nbez rozbicia jajek.\n\n[Verse 2]\nLepiej zapobiegać niż leczyć.\nZrób kopię zapasową teraz —\nlepiej zapobiegać niż leczyć.\nIdź do lekarza wcześniej,\nbo lepiej zapobiegać niż leczyć.\n\n[Verse 3]\nJak się nie ma, co się lubi,\nto się lubi, co się ma.\nHotel nie jest idealny,\nale nie było innych miejsc —\njak się nie ma, co się lubi,\nto się lubi, co się ma.\n\n[Repeat Practice]\nNie da się zrobić omletu\nbez rozbicia jajek.\nPowtórz: nie da się zrobić omletu\nbez rozbicia jajek.\nZmiana bywa trudna.\nAle czasem potrzebna.\n\nLepiej zapobiegać niż leczyć.\nPowtórz: lepiej zapobiegać niż leczyć.\nZrób to wcześniej.\nLepiej zapobiegać niż leczyć.\n\nJak się nie ma, co się lubi,\nto się lubi, co się ma.\nPowtórz: jak się nie ma, co się lubi,\nto się lubi, co się ma.\nNie idealnie, ale dobrze.\nLubi się, co się ma.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "11", "theme": "Czekanie, wiedza, ruch", "lyrics": "[Title]\nPolskie idiomy 11 — Czekanie, wiedza, ruch\n\n[Intro]\nPolskie idiomy, część jedenaście,\nmówisz coraz lepiej, właśnie.\nCzekanie, wiedza i ciągły ruch,\npolski wpada prosto w słuch.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nKto czeka,\ntemu czas się dłuży.\nNie patrz ciągle na telefon —\nkto czeka,\ntemu czas się dłuży.\n\n[Verse 2]\nCzego oczy nie widzą,\ntego sercu nie żal.\nNie chcę znać szczegółów tej sprawy —\nczego oczy nie widzą,\ntego sercu nie żal.\n\n[Verse 3]\nToczący się kamień\nmchem nie obrasta.\nOn ciągle zmienia miasta i pracę —\ntoczący się kamień\nmchem nie obrasta.\nLubię nowe doświadczenia.\nToczący się kamień mchem nie obrasta.\n\n[Repeat Practice]\nKto czeka,\ntemu czas się dłuży.\nPowtórz: kto czeka,\ntemu czas się dłuży.\nNie patrz na zegarek.\nCzas się dłuży.\n\nCzego oczy nie widzą,\ntego sercu nie żal.\nPowtórz: czego oczy nie widzą,\ntego sercu nie żal.\nNie wiem i jest mi lżej.\nCzego oczy nie widzą.\n\nToczący się kamień\nmchem nie obrasta.\nPowtórz: toczący się kamień\nmchem nie obrasta.\nRuch i zmiana.\nKamień mchem nie obrasta.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "12", "theme": "Rodzina, czas, podobieństwo", "lyrics": "[Title]\nPolskie idiomy 12 — Rodzina, czas, podobieństwo\n\n[Intro]\nPolskie idiomy, część numer dwanaście,\npowtarzaj zdania jasno i właśnie.\nRodzina, czas i ludzie podobni,\npolski dziś brzmi bardzo wygodnie.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nNiedaleko pada jabłko od jabłoni.\nMasz taki sam charakter jak ojciec —\nniedaleko pada jabłko od jabłoni.\nOna pięknie śpiewa,\ntak jak jej mama.\n\n[Verse 2]\nCzas leczy rany.\nTeraz jest ci trudno,\nale czas leczy rany.\nPo rozstaniu długo cierpiała,\nale czas leczy rany.\n\n[Verse 3]\nSwój ciągnie do swego.\nWszyscy w tej grupie lubią sport —\nswój ciągnie do swego.\nArtyści często trzymają się razem.\nSwój ciągnie do swego.\n\n[Repeat Practice]\nNiedaleko pada jabłko od jabłoni.\nPowtórz: niedaleko pada jabłko od jabłoni.\nOjciec i syn.\nMama i córka.\nNiedaleko pada jabłko od jabłoni.\n\nCzas leczy rany.\nPowtórz: czas leczy rany.\nDzisiaj boli.\nJutro mniej.\nCzas leczy rany.\n\nSwój ciągnie do swego.\nPowtórz: swój ciągnie do swego.\nPodobni ludzie są razem.\nSwój ciągnie do swego.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "13", "theme": "Rozłąka, wolność, nawyki", "lyrics": "[Title]\nPolskie idiomy 13 — Rozłąka, wolność, nawyki\n\n[Intro]\nPolskie idiomy, część trzynasta,\nkażda fraza trochę narasta.\nRozłąka, wolność i stare zwyczaje,\npolski rytm z tobą zostaje.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nRozłąka wzmaga miłość.\nOd kiedy wyjechał,\njeszcze bardziej za nim tęskni —\nrozłąka wzmaga miłość.\nNie widzieli się miesiąc\ni zrozumieli, jak są sobie bliscy.\n\n[Verse 2]\nGdy kota nie ma,\nmyszy harcują.\nSzef wyszedł z biura\ni wszyscy zaczęli rozmawiać —\ngdy kota nie ma,\nmyszy harcują.\n\n[Verse 3]\nStarego psa\nnowych sztuczek nie nauczysz.\nDziadek nie chce używać smartfona —\nstarego psa\nnowych sztuczek nie nauczysz.\nOn od lat pracuje tak samo.\n\n[Repeat Practice]\nRozłąka wzmaga miłość.\nPowtórz: rozłąka wzmaga miłość.\nDaleko, ale blisko.\nRozłąka wzmaga miłość.\n\nGdy kota nie ma,\nmyszy harcują.\nPowtórz: gdy kota nie ma,\nmyszy harcują.\nNie ma szefa.\nMyszy harcują.\n\nStarego psa\nnowych sztuczek nie nauczysz.\nPowtórz: starego psa\nnowych sztuczek nie nauczysz.\nStary nawyk.\nTrudna zmiana.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "14", "theme": "Wady, plotki, śmiech", "lyrics": "[Title]\nPolskie idiomy 14 — Wady, plotki, śmiech\n\n[Intro]\nPolskie idiomy, część czternasta,\njedna fraza, druga fraza.\nWady, plotki i dobry śmiech,\npolski daje lekki oddech.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nNie ma róży bez kolców.\nTa praca jest dobrze płatna,\nale bardzo stresująca —\nnie ma róży bez kolców.\nMieszkanie jest piękne,\nale daleko od centrum.\n\n[Verse 2]\nGdzie dym, tam ogień.\nKrążą plotki o problemach w firmie —\ngdzie dym, tam ogień.\nJeśli wszyscy o tym mówią,\nto może coś jest na rzeczy.\n\n[Verse 3]\nŚmiech to zdrowie.\nObejrzyj komedię i odpocznij —\nśmiech to zdrowie.\nPo spotkaniu z przyjaciółmi\npoczułem się lepiej.\n\n[Repeat Practice]\nNie ma róży bez kolców.\nPowtórz: nie ma róży bez kolców.\nCoś pięknego.\nAle ma wady.\n\nGdzie dym, tam ogień.\nPowtórz: gdzie dym, tam ogień.\nPlotka i powód.\nGdzie dym, tam ogień.\n\nŚmiech to zdrowie.\nPowtórz: śmiech to zdrowie.\nUśmiechnij się.\nŚmiech to zdrowie.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "15", "theme": "Rywale, zespół, okazja", "lyrics": "[Title]\nPolskie idiomy 15 — Rywale, zespół, okazja\n\n[Intro]\nPolskie idiomy, część piętnasta,\ndobry rytm tu ciągle wzrasta.\nRywale, zespół i dobra chwila,\npolski znowu cię zasila.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nPrzyjaciół trzymaj blisko,\na wrogów jeszcze bliżej.\nW biznesie warto wiedzieć,\nco robi konkurencja —\nprzyjaciół trzymaj blisko,\na wrogów jeszcze bliżej.\n\n[Verse 2]\nCo dwie głowy,\nto nie jedna.\nZróbmy to razem,\nbo co dwie głowy,\nto nie jedna.\nPoprosiłem kolegę o pomoc\nprzy projekcie.\n\n[Verse 3]\nKuj żelazo,\npóki gorące.\nMasz dobrą okazję,\nwięc działaj —\nkuj żelazo,\npóki gorące.\n\n[Repeat Practice]\nPrzyjaciół trzymaj blisko,\na wrogów jeszcze bliżej.\nPowtórz: przyjaciół trzymaj blisko,\na wrogów jeszcze bliżej.\nObserwuj rywali.\nWrogów jeszcze bliżej.\n\nCo dwie głowy,\nto nie jedna.\nPowtórz: co dwie głowy,\nto nie jedna.\nRazem łatwiej.\nCo dwie głowy.\n\nKuj żelazo,\npóki gorące.\nPowtórz: kuj żelazo,\npóki gorące.\nJest okazja.\nDziałaj teraz.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "16", "theme": "Test, myśli, spóźnienie", "lyrics": "[Title]\nPolskie idiomy 16 — Test, myśli, spóźnienie\n\n[Intro]\nPolskie idiomy, część szesnasta,\ntutaj praktyka ciągle wzrasta.\nTest i myśli, późny start,\nkażdy idiom jest coś wart.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nW praktyce wszystko się okaże.\nPomysł wygląda dobrze,\nale w praktyce wszystko się okaże.\nNowa metoda może być skuteczna,\njednak w praktyce wszystko się okaże.\n\n[Verse 2]\nCo ci chodzi po głowie?\nJesteś dziś bardzo cichy.\nCo ci chodzi po głowie?\nPatrzysz przez okno\nod dziesięciu minut.\nCo ci chodzi po głowie?\n\n[Verse 3]\nLepiej późno niż wcale.\nPrzeprosił dopiero po tygodniu,\nale lepiej późno niż wcale.\nZacząłem uczyć się polskiego\njako dorosły —\nlepiej późno niż wcale.\n\n[Repeat Practice]\nW praktyce wszystko się okaże.\nPowtórz: w praktyce wszystko się okaże.\nTrzeba sprawdzić.\nW praktyce wszystko się okaże.\n\nCo ci chodzi po głowie?\nPowtórz: co ci chodzi po głowie?\nO czym myślisz?\nCo ci chodzi po głowie?\n\nLepiej późno niż wcale.\nPowtórz: lepiej późno niż wcale.\nZacznij teraz.\nLepiej późno niż wcale.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "17", "theme": "Problem, praktyka, czas", "lyrics": "[Title]\nPolskie idiomy 17 — Problem, praktyka, czas\n\n[Intro]\nPolskie idiomy, część siedemnasta,\ntwoja pamięć powoli wzrasta.\nProblem, praktyka i wielki plan,\npolski rytm prowadzi sam.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nZ deszczu pod rynnę.\nZmienił pracę na jeszcze gorszą —\ntrafił z deszczu pod rynnę.\nUciekła od jednego problemu\ni wpadła w drugi.\n\n[Verse 2]\nĆwiczenie czyni mistrza.\nCzytaj codziennie po polsku,\nbo ćwiczenie czyni mistrza.\nNa początku było trudno,\nale ćwiczenie czyni mistrza.\n\n[Verse 3]\nNie od razu Kraków zbudowano.\nNie nauczysz się języka w tydzień —\nnie od razu Kraków zbudowano.\nProjekt wymaga czasu i cierpliwości.\nNie od razu Kraków zbudowano.\n\n[Repeat Practice]\nZ deszczu pod rynnę.\nPowtórz: z deszczu pod rynnę.\nZ problemu w problem.\nZ deszczu pod rynnę.\n\nĆwiczenie czyni mistrza.\nPowtórz: ćwiczenie czyni mistrza.\nPowtarzaj codziennie.\nĆwiczenie czyni mistrza.\n\nNie od razu Kraków zbudowano.\nPowtórz: nie od razu Kraków zbudowano.\nDaj sobie czas.\nNie od razu Kraków zbudowano.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "18", "theme": "Zwyczaje, pieniądze, uprzejmość", "lyrics": "[Title]\nPolskie idiomy 18 — Zwyczaje, pieniądze, uprzejmość\n\n[Intro]\nPolskie idiomy, część osiemnasta,\nkażda fraza sens swój ma.\nZwyczaje, pieniądze i miły ton,\npolski rytm to dobry dom.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nKiedy wejdziesz między wrony,\nmusisz krakać jak i one.\nW nowej firmie trzeba poznać zasady —\nkiedy wejdziesz między wrony,\nmusisz krakać jak i one.\n\n[Verse 2]\nŁatwo przyszło,\nłatwo poszło.\nWygrał pieniądze\ni szybko je wydał —\nłatwo przyszło,\nłatwo poszło.\n\n[Verse 3]\nNa miód złapiesz więcej much\nniż na ocet.\nPorozmawiaj z nim spokojnie —\nna miód złapiesz więcej much\nniż na ocet.\nJeśli chcesz pomocy,\nbądź uprzejmy.\n\n[Repeat Practice]\nKiedy wejdziesz między wrony,\nmusisz krakać jak i one.\nPowtórz: kiedy wejdziesz między wrony,\nmusisz krakać jak i one.\nNowe miejsce.\nNowe zasady.\n\nŁatwo przyszło,\nłatwo poszło.\nPowtórz: łatwo przyszło,\nłatwo poszło.\nSzybko dostał.\nSzybko stracił.\n\nNa miód złapiesz więcej much\nniż na ocet.\nPowtórz: na miód złapiesz więcej much\nniż na ocet.\nBądź uprzejmy.\nMiód, nie ocet.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "19", "theme": "Spokój, błąd, pewność", "lyrics": "[Title]\nPolskie idiomy 19 — Spokój, błąd, pewność\n\n[Intro]\nPolskie idiomy, część dziewiętnasta,\nspokojna woda mocno wzrasta.\nBłąd i pewność, dobry wybór,\npolski rytm ma prosty wymiar.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nCicha woda brzegi rwie.\nOna jest spokojna,\nale bardzo ambitna —\ncicha woda brzegi rwie.\nNa początku nic nie mówił,\na potem wszystkich zaskoczył.\n\n[Verse 2]\nNie ma co płakać\nnad rozlanym mlekiem.\nPopełniłeś błąd,\nale nie ma co płakać\nnad rozlanym mlekiem.\nNie wygraliśmy, trudno.\n\n[Verse 3]\nLepszy wróbel w garści\nniż gołąb na dachu.\nWeź tę dobrą ofertę,\nzamiast czekać na idealną —\nlepszy wróbel w garści\nniż gołąb na dachu.\n\n[Repeat Practice]\nCicha woda brzegi rwie.\nPowtórz: cicha woda brzegi rwie.\nSpokojna osoba.\nDuża siła.\n\nNie ma co płakać\nnad rozlanym mlekiem.\nPowtórz: nie ma co płakać\nnad rozlanym mlekiem.\nBłąd już był.\nIdziemy dalej.\n\nLepszy wróbel w garści\nniż gołąb na dachu.\nPowtórz: lepszy wróbel w garści\nniż gołąb na dachu.\nPewna rzecz.\nLepsza niż marzenie.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz."}, {"n": "20", "theme": "Czas, obraz, wdzięczność", "lyrics": "[Title]\nPolskie idiomy 20 — Czas, obraz, wdzięczność\n\n[Intro]\nPolskie idiomy, część numer dwadzieścia,\nto już konkretna językowa ścieżka.\nCzas i obraz, wdzięczny ton,\npolski rytm to dobry plon.\n\n[Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\n\n[Verse 1]\nCzas to pieniądz.\nNie traćmy czasu\nna długie dyskusje —\nczas to pieniądz.\nW biznesie każda minuta jest ważna,\nbo czas to pieniądz.\n\n[Verse 2]\nJeden obraz wart jest więcej\nniż tysiąc słów.\nZamiast długo opowiadać,\npokaż zdjęcie —\njeden obraz wart jest więcej\nniż tysiąc słów.\n\n[Verse 3]\nNie gryź ręki,\nktóra cię karmi.\nNie krytykuj publicznie osoby,\nktóra ci pomaga —\nnie gryź ręki,\nktóra cię karmi.\n\n[Repeat Practice]\nCzas to pieniądz.\nPowtórz: czas to pieniądz.\nNie trać czasu.\nCzas to pieniądz.\n\nJeden obraz wart jest więcej\nniż tysiąc słów.\nPowtórz: jeden obraz wart jest więcej\nniż tysiąc słów.\nPokaż zdjęcie.\nObraz mówi więcej.\n\nNie gryź ręki,\nktóra cię karmi.\nPowtórz: nie gryź ręki,\nktóra cię karmi.\nKto pomaga?\nTego nie gryź.\n\n[Final Chorus]\nPolskie idiomy, polski rytm,\nsłuchaj, powtarzaj, łapiesz sens.\nPolskie idiomy, polski rytm,\nmówisz po polsku coraz lepiej dziś.\n\n[Outro]\nSłuchaj, powtarzaj, jeszcze raz,\npolski idiom już dobrze znasz.\nTo już dwadzieścia piosenek masz,\npolskie idiomy dobrze znasz."}];
+
+    const CAT = {
+      everyday: { ua: 'Побут', pl: 'Codzienność' },
+      caution:  { ua: 'Обережність', pl: 'Ostrożność' },
+      attitude: { ua: 'Ставлення', pl: 'Postawa' },
+      work:     { ua: 'Робота', pl: 'Praca' }
+    };
+    const DIFF = { easy: 'Łatwy', medium: 'Średni', advanced: 'Zaawansowany' };
+    const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+    /* ---------- 1. IDIOM CARDS ---------- */
+    let activeCat = 'all';
+    function renderCatChips() {
+      const cats = ['all', ...Object.keys(CAT)];
+      document.getElementById('catChips').innerHTML = cats.map(c =>
+        `<button class="chip ${c === activeCat ? 'active' : ''}" onclick="setCat('${c}')">${c === 'all' ? 'Усі' : esc(CAT[c].ua)}</button>`
+      ).join('');
+    }
+    function setCat(c) { activeCat = c; renderCatChips(); renderIdioms(); }
+    function renderIdioms() {
+      const q = document.getElementById('idiomSearch').value.trim().toLowerCase();
+      const grid = document.getElementById('idiomGrid');
+      const items = IDIOMS.filter(it => {
+        if (activeCat !== 'all' && it.category !== activeCat) return false;
+        if (!q) return true;
+        return (it.polish + ' ' + it.meaningUA + ' ' + it.meaningEN).toLowerCase().includes(q);
+      });
+      if (!items.length) { grid.innerHTML = `<p style="color:var(--text-muted)">Нічого не знайдено.</p>`; return; }
+      grid.innerHTML = items.map(it => {
+        const i = IDIOMS.indexOf(it);
+        const cat = CAT[it.category] || { ua: it.category };
+        return `
+        <article class="idiom">
+          <div class="idiom-pills">
+            <span class="pill pill-cat">${esc(cat.ua)}</span>
+            <span class="pill pill-diff">${esc(DIFF[it.difficulty] || it.difficulty)}</span>
+          </div>
+          <h3 class="idiom-pl">${esc(it.polish)}</h3>
+          <p class="idiom-quick">${esc(it.meaningUA)}</p>
+          <button class="idiom-toggle" data-i="${i}" aria-expanded="false">Показати пояснення</button>
+          <div class="idiom-body" id="ibody-${i}">
+            <div class="ib-row"><span class="ib-label">Значення / Meaning</span><div class="ib-text">${esc(it.meaningUA)}<br><span style="color:var(--text-muted)">${esc(it.meaningEN)}</span></div></div>
+            <div class="ib-row"><span class="ib-label">Дослівно / Literal</span><div class="ib-text">${esc(it.literalUA)} · <span style="color:var(--text-muted)">${esc(it.literalEN)}</span></div></div>
+            ${it.explanationUA ? `<div class="ib-row"><span class="ib-label">Пояснення</span><div class="ib-text">${esc(it.explanationUA)}</div></div>` : ''}
+            <div class="ib-row"><span class="ib-label">Przykład / Приклад</span><div class="ib-text pl"><span class="pl">${esc(it.examplePL)}</span></div></div>
+            ${it.dialogue && it.dialogue.a ? `<div class="ib-row"><span class="ib-label">Dialog</span><div class="ib-dialog"><p>— ${esc(it.dialogue.a)}</p><p>— ${esc(it.dialogue.b)}</p><p class="tr">${esc(it.dialogue.ua)}</p></div></div>` : ''}
+          </div>
+        </article>`;
+      }).join('');
+    }
+    document.getElementById('idiomGrid').addEventListener('click', e => {
+      const btn = e.target.closest('.idiom-toggle'); if (!btn) return;
+      const body = document.getElementById('ibody-' + btn.dataset.i);
+      const open = body.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', String(open));
+      btn.textContent = open ? 'Сховати пояснення' : 'Показати пояснення';
+    });
+
+    /* ---------- 2. AUDIO PRACTICE ---------- */
+    function pad(n){ return String(n).padStart(2,'0'); }
+    function renderAudio() {
+      const grid = document.getElementById('audioGrid');
+      grid.innerHTML = TRACKS.map(t => {
+        const n = t.n;
+        const practiced = localStorage.getItem('idiomy-practiced-' + n) === '1';
+        const note = localStorage.getItem('idiomy-note-' + n) || '';
+        return `
+        <article class="track ${practiced ? 'practiced' : ''}" id="track-${n}">
+          <div class="track-head">
+            <img class="track-cover" src="img/idiomy/idiomy-${n}.jpg" alt="Okładka ${n}" loading="lazy">
+            <div class="track-meta">
+              <div class="track-num">Lekcja ${n}</div>
+              <div class="track-theme">${esc(t.theme)}</div>
+            </div>
+          </div>
+          <audio controls preload="none" src="audio/idiomy/idiomy-${n}.mp3"></audio>
+          <div class="track-actions">
+            <button class="mini-btn" data-lyr="${n}" aria-expanded="false">Pokaż tekst</button>
+            <button class="mini-btn" data-note="${n}">Нотатки</button>
+            <button class="mini-btn ${practiced ? 'done' : ''}" data-prac="${n}">${practiced ? '✓ Прослухано' : 'Mark as practiced'}</button>
+          </div>
+          <div class="track-lyrics" id="lyr-${n}">${esc(t.lyrics)}</div>
+          <textarea class="track-note ${note ? '' : ''}" id="note-${n}" placeholder="Твої нотатки до треку...">${esc(note)}</textarea>
+        </article>`;
+      }).join('');
+    }
+    document.getElementById('audioGrid').addEventListener('click', e => {
+      const lyr = e.target.closest('[data-lyr]');
+      if (lyr) { const box = document.getElementById('lyr-' + lyr.dataset.lyr); const o = box.classList.toggle('is-open'); lyr.setAttribute('aria-expanded', String(o)); lyr.textContent = o ? 'Ukryj tekst' : 'Pokaż tekst'; return; }
+      const note = e.target.closest('[data-note]');
+      if (note) { const box = document.getElementById('note-' + note.dataset.note); box.classList.toggle('is-open'); if (box.classList.contains('is-open')) box.focus(); return; }
+      const prac = e.target.closest('[data-prac]');
+      if (prac) {
+        const n = prac.dataset.prac, key = 'idiomy-practiced-' + n;
+        const now = localStorage.getItem(key) === '1';
+        const card = document.getElementById('track-' + n);
+        if (now) { localStorage.removeItem(key); prac.classList.remove('done'); prac.textContent = 'Mark as practiced'; card.classList.remove('practiced'); }
+        else { localStorage.setItem(key, '1'); prac.classList.add('done'); prac.textContent = '✓ Прослухано'; card.classList.add('practiced'); }
+      }
+    });
+    document.getElementById('audioGrid').addEventListener('input', e => {
+      const ta = e.target.closest('textarea[id^="note-"]'); if (!ta) return;
+      const n = ta.id.replace('note-', '');
+      if (ta.value.trim()) localStorage.setItem('idiomy-note-' + n, ta.value); else localStorage.removeItem('idiomy-note-' + n);
+    });
+
+    /* ---------- 3. QUIZ ---------- */
+    function shuffle(a){ a = a.slice(); for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+    function sample(arr, n, exclude){ return shuffle(arr.filter(x => x !== exclude)).slice(0, n); }
+
+    function buildQuestions(count) {
+      const pool = [];
+      const pickType = i => i % 5;
+      shuffle(IDIOMS).forEach((it, idx) => {
+        const t = pickType(idx);
+        if (t === 0) { // meaning -> idiom
+          const opts = shuffle([it, ...sample(IDIOMS, 3, it)]);
+          pool.push({ type: 'mc', typeLabel: 'Обери ідіому за значенням', q: it.meaningUA, opts: opts.map(o => o.polish), correct: it.polish, fb: it.examplePL });
+        } else if (t === 1) { // idiom -> meaning (match)
+          const opts = shuffle([it, ...sample(IDIOMS, 3, it)]);
+          pool.push({ type: 'mc', typeLabel: 'Match: значення ідіоми', q: it.polish, opts: opts.map(o => o.meaningUA), correct: it.meaningUA, fb: it.examplePL });
+        } else if (t === 2 && it.situationUA) { // situation -> idiom
+          const opts = shuffle([it, ...sample(IDIOMS, 3, it)]);
+          pool.push({ type: 'mc', typeLabel: 'Яка ідіома пасує ситуації?', q: it.situationUA, opts: opts.map(o => o.polish), correct: it.polish, fb: it.meaningUA });
+        } else if (t === 3) { // fill the blank
+          const words = it.polish.split(' ');
+          const wi = words.length - 1;
+          const answer = words[wi];
+          const blanked = it.examplePL.replace(new RegExp(answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i'), '______');
+          pool.push({ type: 'blank', typeLabel: 'Заповни пропуск', q: blanked, correct: answer, fb: it.polish + ' — ' + it.meaningUA });
+        } else { // true / false
+          const flip = Math.random() < 0.5;
+          const shown = flip ? sample(IDIOMS, 1, it)[0].meaningUA : it.meaningUA;
+          pool.push({ type: 'tf', typeLabel: 'Правда чи неправда?', q: `«${it.polish}» означає: ${shown}`, correct: flip ? 'Неправда' : 'Правда', opts: ['Правда', 'Неправда'], fb: it.polish + ' = ' + it.meaningUA });
+        }
+      });
+      return shuffle(pool).slice(0, count);
+    }
+
+    let quizQs = [], qIndex = 0, qScore = 0, qAnswered = false;
+    function startQuiz(count) {
+      quizQs = buildQuestions(count); qIndex = 0; qScore = 0; renderQuestion();
+    }
+    function renderQuestion() {
+      qAnswered = false;
+      const total = quizQs.length;
+      document.getElementById('quizCounter').textContent = `Запитання ${qIndex + 1} з ${total}`;
+      document.getElementById('quizScore').textContent = `Бали: ${qScore}`;
+      document.getElementById('quizProgress').style.width = (qIndex / total * 100) + '%';
+      const q = quizQs[qIndex];
+      const body = document.getElementById('quizBody');
+      let inner = `<p class="quiz-q"><span class="typ">${esc(q.typeLabel)}</span>${esc(q.q)}</p>`;
+      if (q.type === 'blank') {
+        inner += `<input class="quiz-blank-input" id="blankInput" placeholder="Впиши слово..." autocomplete="off">`;
+        inner += `<div class="quiz-feedback" id="quizFb"></div>`;
+        inner += `<div class="quiz-actions"><button class="btn-primary" onclick="checkBlank()">Перевірити</button><button class="btn-ghost" id="nextBtn" onclick="nextQuestion()" style="display:none">Далі →</button></div>`;
+      } else {
+        inner += `<div class="quiz-opts">` + q.opts.map((o, k) => `<button class="quiz-opt" data-opt="${k}" onclick="answer(this,'${encodeURIComponent(o)}')">${esc(o)}</button>`).join('') + `</div>`;
+        inner += `<div class="quiz-feedback" id="quizFb"></div>`;
+        inner += `<div class="quiz-actions"><button class="btn-ghost" id="nextBtn" onclick="nextQuestion()" style="display:none">Далі →</button></div>`;
+      }
+      body.innerHTML = inner;
+    }
+    function finishMark(correct, fbHtml) {
+      const fb = document.getElementById('quizFb');
+      if (correct) { qScore++; fb.className = 'quiz-feedback ok'; fb.innerHTML = '✓ Правильно! ' + fbHtml; }
+      else { fb.className = 'quiz-feedback no'; fb.innerHTML = fbHtml; }
+      document.getElementById('quizScore').textContent = `Бали: ${qScore}`;
+      document.getElementById('nextBtn').style.display = 'inline-flex';
+      if (qIndex === quizQs.length - 1) document.getElementById('nextBtn').textContent = 'Підсумок →';
+    }
+    function answer(btn, encoded) {
+      if (qAnswered) return; qAnswered = true;
+      const chosen = decodeURIComponent(encoded);
+      const q = quizQs[qIndex];
+      document.querySelectorAll('.quiz-opt').forEach(b => {
+        b.disabled = true;
+        if (b.textContent === q.correct) b.classList.add('correct');
+        else if (b.textContent === chosen) b.classList.add('wrong');
+      });
+      const ok = chosen === q.correct;
+      finishMark(ok, ok ? esc(q.fb) : `Правильно: <b>${esc(q.correct)}</b>. ${esc(q.fb)}`);
+    }
+    function checkBlank() {
+      if (qAnswered) return; qAnswered = true;
+      const q = quizQs[qIndex];
+      const val = (document.getElementById('blankInput').value || '').trim().toLowerCase();
+      const ok = val === q.correct.toLowerCase();
+      document.getElementById('blankInput').disabled = true;
+      finishMark(ok, ok ? esc(q.fb) : `Правильно: <b>${esc(q.correct)}</b>. ${esc(q.fb)}`);
+    }
+    function nextQuestion() {
+      if (qIndex < quizQs.length - 1) { qIndex++; renderQuestion(); document.getElementById('quiz').scrollIntoView(); }
+      else showQuizResult();
+    }
+    function showQuizResult() {
+      document.getElementById('quizProgress').style.width = '100%';
+      document.getElementById('quizCounter').textContent = 'Завершено';
+      const pct = Math.round(qScore / quizQs.length * 100);
+      document.getElementById('quizBody').innerHTML = `
+        <div class="quiz-done">
+          <div class="big">${qScore} / ${quizQs.length}</div>
+          <p style="color:var(--text-muted);margin-bottom:16px">Результат: ${pct}%</p>
+          <button class="btn-primary" onclick="startQuiz(10)">Пройти ще раз</button>
+        </div>`;
+      document.getElementById('quiz').scrollIntoView();
+    }
+
+    /* ---------- 4. FLASHCARDS ---------- */
+    let fcOrder = IDIOMS.map((_, i) => i), fcIndex = 0;
+    function renderCard() {
+      const it = IDIOMS[fcOrder[fcIndex]];
+      document.getElementById('flashcard').classList.remove('flipped');
+      document.getElementById('fcPl').textContent = it.polish;
+      document.getElementById('fcUa').textContent = it.meaningUA;
+      document.getElementById('fcEn').textContent = it.meaningEN;
+      document.getElementById('fcProgress').textContent = `${fcIndex + 1} / ${IDIOMS.length}`;
+    }
+    function flipCard() { document.getElementById('flashcard').classList.toggle('flipped'); }
+    function nextCard(e) { e && e.stopPropagation(); fcIndex = (fcIndex + 1) % IDIOMS.length; renderCard(); }
+    function prevCard(e) { e && e.stopPropagation(); fcIndex = (fcIndex - 1 + IDIOMS.length) % IDIOMS.length; renderCard(); }
+    function shuffleCards(e) { e && e.stopPropagation(); fcOrder = shuffle(fcOrder); fcIndex = 0; renderCard(); }
+
+    /* ---------- 5. SPEAKING DRILL ---------- */
+    const drillItems = IDIOMS.filter(it => it.situationUA);
+    let drillIndex = 0;
+    function renderDrill() {
+      const it = drillItems[drillIndex];
+      document.getElementById('drillSitu').textContent = it.situationUA;
+      document.getElementById('drillSituEn').textContent = it.situationEN;
+      document.getElementById('drillTask').textContent = 'Завдання: відповідай, використавши ідіому «' + it.polish + '».';
+      document.getElementById('drillModelPl').textContent = (it.dialogue && it.dialogue.b) ? it.dialogue.b : it.examplePL;
+      document.getElementById('drillModelTr').textContent = (it.dialogue && it.dialogue.ua) ? it.dialogue.ua : it.meaningUA;
+      document.getElementById('drillModel').classList.remove('is-open');
+      document.getElementById('drillReveal').textContent = 'Показати відповідь';
+      document.getElementById('drillProgress').textContent = `${drillIndex + 1} / ${drillItems.length}`;
+    }
+    function toggleModel() {
+      const m = document.getElementById('drillModel');
+      const o = m.classList.toggle('is-open');
+      document.getElementById('drillReveal').textContent = o ? 'Сховати відповідь' : 'Показати відповідь';
+    }
+    function nextDrill() { drillIndex = (drillIndex + 1) % drillItems.length; renderDrill(); }
+    function prevDrill() { drillIndex = (drillIndex - 1 + drillItems.length) % drillItems.length; renderDrill(); }
+
+    /* ---------- 6. COMMON MISTAKES ---------- */
+    function renderMistakes() {
+      document.getElementById('mistakesBody').innerHTML = IDIOMS.map(it =>
+        `<tr><td class="text-bad">${esc(it.literalEN)}</td><td class="text-good">${esc(it.polish)}</td><td class="note">${esc(it.meaningUA)}</td></tr>`
+      ).join('');
+    }
+
+    /* ---------- 7. FINAL REVISION ---------- */
+    function renderRevision() {
+      const key = IDIOMS.filter(it => it.difficulty === 'easy').slice(0, 8);
+      const list = key.length ? key : IDIOMS.slice(0, 8);
+      document.getElementById('revList').innerHTML = list.map(it => `<li><b>${esc(it.polish)}</b> — ${esc(it.meaningUA)}</li>`).join('');
+      const checks = [
+        'Я розумію 30 ідіом без підказки',
+        'Прослухав(ла) усі аудіотреки',
+        'Пройшов(ла) quiz на 80%+',
+        'Можу скласти речення з 5 ідіомами',
+        'Повторив(ла) flashcards двічі'
+      ];
+      document.getElementById('checkList').innerHTML = checks.map((c, i) => {
+        const ck = localStorage.getItem('idiomy-check-' + i) === '1';
+        return `<label class="check-item"><input type="checkbox" class="check-box" data-chk="${i}" ${ck ? 'checked' : ''}><span class="check-text">${esc(c)}</span></label>`;
+      }).join('');
+    }
+    document.getElementById('checkList').addEventListener('change', e => {
+      const cb = e.target.closest('[data-chk]'); if (!cb) return;
+      const k = 'idiomy-check-' + cb.dataset.chk;
+      if (cb.checked) localStorage.setItem(k, '1'); else localStorage.removeItem(k);
+    });
+    function startQuickRevision() { startQuiz(5); document.getElementById('quiz').scrollIntoView(); }
+
+    /* ---------- THEME ---------- */
+    function toggleTheme() {
+      const isNight = document.body.classList.toggle('night-mode');
+      document.getElementById('sunIcon').style.display = isNight ? 'none' : 'block';
+      document.getElementById('moonIcon').style.display = isNight ? 'block' : 'none';
+      document.getElementById('themeBtnText').innerText = isNight ? 'Daylight' : 'Night Ops';
+      localStorage.setItem('theme', isNight ? 'night' : 'day');
+    }
+
+    /* ---------- BOOT ---------- */
+    window.onload = function () {
+      if (localStorage.getItem('theme') === 'night') {
+        document.body.classList.add('night-mode');
+        document.getElementById('sunIcon').style.display = 'none';
+        document.getElementById('moonIcon').style.display = 'block';
+        document.getElementById('themeBtnText').innerText = 'Daylight';
+      }
+      renderCatChips(); renderIdioms(); renderAudio();
+      startQuiz(10); renderCard(); renderDrill(); renderMistakes(); renderRevision();
+      if (location.hash) { const el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
+    };
+  </script>
+</body>
+</html>
