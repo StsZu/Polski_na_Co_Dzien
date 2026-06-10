@@ -38,7 +38,7 @@
   ],
   "czytanie": [
     { "block": "A. Co robisz w poniedziałek o ósmej? — zaproszenie", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · spektakl kabuki · трек 129", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · spektakl kabuki · трек 129", "audio":"audio/L12/L12-czytanie-01.mp3", "lines":[
         ["Mami","Wiecie, w Centrum Sztuki Japońskiej Manggha jest bardzo ciekawy spektakl kabuki. Macie ochotę pójść na spektakl?","Знаєте, у Центрі японського мистецтва «Манґґа» є дуже цікавий спектакль кабукі. Маєте бажання піти на спектакль?"],
         ["Karol","A co to jest?","А що це?"],
         ["Mami","To bardzo stary teatr japoński.","Це дуже старий японський театр."],
@@ -51,7 +51,7 @@
         ["Karolina","He, he, on ma randkę! Na pewno!","Хе-хе, у нього побачення! Точно!"],
         ["Mami","Świetnie!","Чудово!"]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · telefon do mamy · трек 130", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · telefon do mamy · трек 130", "audio":"audio/L12/L12-czytanie-02.mp3", "lines":[
         ["Karolina","Cześć, mamo. Idziemy z Tomem i Javierem na wystawę fotografii „Stary Kraków”. Czy masz ochotę pójść z nami?","Привіт, мамо. Ми йдемо з Томом і Хав’єром на виставку фотографій «Старий Краків». Маєш бажання піти з нами?"],
         ["Mama","Oczywiście! Wiesz, że interesuję się fotografią. Kiedy idziecie?","Звісно! Ти ж знаєш, що я цікавлюся фотографією. Коли йдете?"],
         ["Karolina","Dziś po południu.","Сьогодні після обіду."],
@@ -61,7 +61,7 @@
         ["Karolina","Faktycznie, jak zwykle. Gdzie się spotykamy?","Справді, як завжди. Де зустрічаємось?"],
         ["Mama","Przed muzeum. Dzięki za telefon i do zobaczenia!","Перед музеєм. Дякую за дзвінок і до зустрічі!"]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 6 · zaproszenie do filharmonii", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 6 · zaproszenie do filharmonii", "audio":"audio/L12/L12-czytanie-03.mp3", "lines":[
         ["Sąsiad","Dzień dobry, pani Ewo.","Добрий день, пані Ево."],
         ["Pani Ewa","Dzień dobry panu. Co słychać?","Добрий день. Як справи?"],
         ["Sąsiad","Nic nowego. Czy ma pani ochotę pójść na koncert? Do filharmonii?","Нічого нового. Чи маєте бажання піти на концерт? До філармонії?"],
@@ -71,20 +71,20 @@
         ["Sąsiad","Jaka szkoda.","Як шкода."],
         ["Pani Ewa","To prawda. Ale jeszcze raz dziękuję za zaproszenie.","Це правда. Але ще раз дякую за запрошення."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 3 · „do” czy „na”? — куди йдемо",
+      { "type":"ref", "title":"Ćwiczenie 3 · „do” czy „na”? — куди йдемо", "audio":"audio/L12/L12-czytanie-04.mp3",
         "words":"film · kino · spektakl · kawa · lunch · kawiarnia · restauracja · piwo · klub · koncert · dyskoteka · teatr · kolacja · pub · „Hamlet”",
         "note":"do + dopełniacz (do kina, do teatru) · na + biernik (na film, na kawę)." }
     ]},
     { "block": "B. O której godzinie? — котра година", "items": [
-      { "type":"ref", "title":"Ćwiczenie 2 · godziny oficjalnie · трек 131",
+      { "type":"ref", "title":"Ćwiczenie 2 · godziny oficjalnie · трек 131", "audio":"audio/L12/L12-czytanie-05.mp3",
         "words":"1:00 pierwsza / o pierwszej · 2:00 druga / o drugiej · 3:00 trzecia / o trzeciej · 4:00 czwarta / o czwartej · 5:00 piąta / o piątej · 6:00 szósta / o szóstej · 7:00 siódma / o siódmej · 8:00 ósma / o ósmej · 9:00 dziewiąta / o dziewiątej · 10:00 dziesiąta / o dziesiątej · 11:00 jedenasta / o jedenastej · 12:00 dwunasta / o dwunastej",
         "note":"Читай уголос: «Która godzina?» → «O której godzinie?»" },
-      { "type":"ref", "title":"Godziny oficjalne 13:00–24:00",
+      { "type":"ref", "title":"Godziny oficjalne 13:00–24:00", "audio":"audio/L12/L12-czytanie-06.mp3",
         "words":"13:00 trzynasta · 14:00 czternasta · 15:00 piętnasta · 16:00 szesnasta · 17:00 siedemnasta · 18:00 osiemnasta · 19:00 dziewiętnasta · 20:00 dwudziesta · 21:00 dwudziesta pierwsza · 22:00 dwudziesta druga · 23:00 dwudziesta trzecia · 24:00 dwudziesta czwarta" },
-      { "type":"ref", "title":"Nieoficjalnie — кварти й половини",
+      { "type":"ref", "title":"Nieoficjalnie — кварти й половини", "audio":"audio/L12/L12-czytanie-07.mp3",
         "words":"13:15 — piętnaście (kwadrans) po pierwszej · 13:30 — wpół do drugiej · 13:45 — za piętnaście (kwadrans) druga · 8:15 — piętnaście po ósmej · 7:30 — wpół do ósmej",
         "note":"Od której (godziny) do której (godziny)?" },
-      { "type":"dia", "title":"Ćwiczenie 6 · która to godzina?", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 6 · która to godzina?", "audio":"audio/L12/L12-czytanie-08.mp3", "lines":[
         ["—","Mam lekcje o jedenastej trzydzieści.","Маю уроки об одинадцятій тридцять. (11:30)"],
         ["—","W „Glossie” mamy przerwę o dwunastej piętnaście.","У «Ґлоссі» в нас перерва о дванадцятій п’ятнадцять. (12:15)"],
         ["—","Karolina ma zajęcia od dziesiątej do trzynastej.","У Кароліни заняття від десятої до тринадцятої. (10:00–13:00)"],
@@ -94,10 +94,10 @@
       ]}
     ]},
     { "block": "C. Dni tygodnia — дні тижня", "items": [
-      { "type":"ref", "title":"Tydzień — у який день?",
+      { "type":"ref", "title":"Tydzień — у який день?", "audio":"audio/L12/L12-czytanie-09.mp3",
         "words":"w poniedziałek · we wtorek · w środę · w czwartek · w piątek · w sobotę · w niedzielę",
         "note":"Питання: «Co robisz w poniedziałek?»" },
-      { "type":"dia", "title":"Ćwiczenie 2 · program kulturalny w „Glossie” · трек 135", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · program kulturalny w „Glossie” · трек 135", "audio":"audio/L12/L12-czytanie-10.mp3", "lines":[
         ["—","W tym tygodniu program kulturalny w „Glossie” jest bardzo interesujący.","Цього тижня культурна програма у «Ґлоссі» дуже цікава."],
         ["—","W poniedziałek jest zaplanowany mały spacer po mieście.","У понеділок запланована невелика прогулянка містом."],
         ["—","We wtorek są warsztaty fonetyczne i film.","У вівторок — фонетичні майстерні й фільм."],
@@ -108,7 +108,7 @@
       ]}
     ]},
     { "block": "D. Rutyna — щоденний розпорядок", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · dzień pana Grzegorza", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · dzień pana Grzegorza", "audio":"audio/L12/L12-czytanie-11.mp3", "lines":[
         ["—","Najpierw wstaję i biorę prysznic.","Спочатку встаю і приймаю душ."],
         ["—","Potem myję się, myję zęby i jadę do pracy.","Потім умиваюся, чищу зуби і їду на роботу."],
         ["—","Pracuję i dzwonię do klientów.","Працюю і дзвоню клієнтам."],
@@ -117,7 +117,7 @@
         ["—","Wieczorem rozmawiam z żoną i dziećmi, jemy razem kolację.","Увечері розмовляю з дружиною і дітьми, ми разом вечеряємо."],
         ["—","Oglądam wiadomości lub film o ósmej, a o jedenastej chodzę spać.","Дивлюся новини чи фільм о восьмій, а об одинадцятій лягаю спати."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 1 (powtórzenie) · połącz czasowniki",
+      { "type":"ref", "title":"Ćwiczenie 1 (powtórzenie) · połącz czasowniki", "audio":"audio/L12/L12-czytanie-12.mp3",
         "words":"wstawać wcześnie · jeść śniadanie · brać prysznic · iść na zakupy · robić zupę · mieć ochotę na kawę · wracać do domu · jechać na wycieczkę · gotować pierogi",
         "note":"Розклад дня: rano · przed południem · w południe · po południu · wieczorem · w nocy." }
     ]}

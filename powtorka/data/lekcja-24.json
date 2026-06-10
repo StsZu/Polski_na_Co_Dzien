@@ -31,7 +31,7 @@
   ],
   "czytanie": [
     { "block": "A. U fryzjera — zmiana fryzury", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 224", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 224", "audio":"audio/L24/L24-czytanie-01.mp3", "lines":[
         ["Karolina","Chciałabym coś zmienić na wiosnę. Mama mówi, że nowa fryzura zawsze poprawia humor. A fryzurę zmienić najłatwiej.","Хотіла б щось змінити навесні. Мама каже, що нова зачіска завжди покращує настрій. А зачіску змінити найлегше."],
         ["Mami","I najbezpieczniej. Włosy szybko rosną.","І найбезпечніше. Волосся швидко росте."],
         ["Karolina","Ale to drogo. Drożej niż w Londynie.","Але це дорого. Дорожче, ніж у Лондоні."],
@@ -39,7 +39,7 @@
         ["Karolina","Spróbujemy?","Спробуємо?"],
         ["Mami","Raz kozie śmierć.","Або пан, або пропав."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 · umówić się do fryzjera · трек 225", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · umówić się do fryzjera · трек 225", "audio":"audio/L24/L24-czytanie-02.mp3", "lines":[
         ["Karolina","Dzień dobry. Czy możemy umówić się do fryzjera?","Добрий день. Чи можемо записатися до перукаря?"],
         ["Fryzjerka","A co będziemy robić? Strzyżenie, kolor?","А що робитимемо? Стрижку, колір?"],
         ["Karolina","Ja chciałabym coś zmienić, ale nie radykalnie. Odświeżyć fryzurę na wiosnę. Rozumie pani?","Я хотіла б щось змінити, але не радикально. Освіжити зачіску навесні. Розумієте?"],
@@ -49,27 +49,27 @@
       ]}
     ]},
     { "block": "B. Wygląd — opisy osób", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · Mami · трек 226", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · Mami · трек 226", "audio":"audio/L24/L24-czytanie-03.mp3", "lines":[
         ["Lektor","Mami, jak typowa Japonka, ma ciemne, skośne oczy. Jej twarz jest owalna. Ma wąskie usta i trochę zadarty nos. Jest trochę za chuda.","Мамі, як типова японка, має темні, розкосі очі. Її обличчя овальне. Має вузькі губи і трохи задертий ніс. Вона трохи занадто худа."],
         ["Lektor","Tak mówi pani Maj. Mami jest czasem nieśmiała, więc chowa głowę w ramiona. Jej uroda jest bardzo oryginalna.","Так каже пані Май. Мамі іноді сором’язлива, тож ховає голову в плечі. Її краса дуже оригінальна."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 · Javier · трек 227", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · Javier · трек 227", "audio":"audio/L24/L24-czytanie-04.mp3", "lines":[
         ["Lektor","Javier jest średniego wzrostu. Jest szczupły. Ma piwne oczy i szerokie czarne brwi. Nosi brodę i wąsy.","Хав’єр середнього зросту. Він стрункий. Має карі очі й широкі чорні брови. Носить бороду й вуса."],
         ["Lektor","Na szyi często wiąże fantazyjny szalik. Jest bardzo zadowolony ze swojego wyglądu. No, może tylko ten wzrost...","На шиї часто пов’язує химерний шарф. Дуже задоволений своїм виглядом. Ну, хіба що цей зріст..."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 · Uwe · трек 228", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · Uwe · трек 228", "audio":"audio/L24/L24-czytanie-05.mp3", "lines":[
         ["Lektor","Uwe nie jest szczupły. Ale też nie jest gruby czy otyły. Po prostu ma mocną budowę ciała. Ma kwadratową brodę i duży nos.","Уве не стрункий. Але й не товстий чи огрядний. Просто має міцну будову тіла. Має квадратне підборіддя і великий ніс."],
         ["Lektor","Kiedy był mały, miał z tego powodu kompleksy. Zawsze chciał wyglądać jak amerykański aktor, więc od wielu lat nosi długie włosy.","Коли був малим, через це мав комплекси. Завжди хотів виглядати, як американський актор, тож багато років носить довге волосся."],
         ["Lektor","Ponieważ ma wysokie czoło, jego żona uważa, że to nie wygląda dobrze. Uwe najbardziej boi się, że kiedyś będzie łysy.","Оскільки має високе чоло, його дружина вважає, що це виглядає недобре. Уве найбільше боїться, що колись стане лисим."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 · Angela · трек 229", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · Angela · трек 229", "audio":"audio/L24/L24-czytanie-06.mp3", "lines":[
         ["Lektor","Angela jest bardzo atrakcyjna, ładna i zgrabna. Ma niebieskie oczy i bardzo długie rzęsy, które codziennie maluje na czarno.","Анджела дуже приваблива, гарна й ладна. Має блакитні очі й дуже довгі вії, які щодня фарбує в чорний."],
         ["Lektor","Od czasu do czasu nosi w uszach kolczyki. Zawsze dopasowane do ubrania.","Час від часу носить у вухах сережки. Завжди підібрані до одягу."],
         ["Lektor","Angela boi się starości. Codziennie ogląda się w lustrze i szuka zmarszczek. Kiedy była mała, miała piegi.","Анджела боїться старості. Щодня роздивляється себе в дзеркалі й шукає зморшки. Коли була малою, мала веснянки."]
       ]}
     ]},
     { "block": "C. Gimnastyka — ćwiczymy razem", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 230", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 230", "audio":"audio/L24/L24-czytanie-07.mp3", "lines":[
         ["Uwe","Co wy zrobiłyście?","Що ви накоїли?"],
         ["Angela","Chciałyśmy coś zmienić na wiosnę.","Ми хотіли щось змінити навесні."],
         ["Mami","Na szczęście włosy szybko rosną.","На щастя, волосся швидко росте."],
@@ -82,7 +82,7 @@
         ["Karolina","Proponuję u mnie, bo mam dużo miejsca na podłodze. I mogę być instruktorką.","Пропоную в мене, бо маю багато місця на підлозі. І можу бути інструкторкою."],
         ["Angela","No i będziemy wyglądać szczuplej na wiosnę.","Ну і виглядатимемо стрункішими навесні."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 5 · komendy gimnastyczne · трек 231",
+      { "type":"ref", "title":"Ćwiczenie 5 · komendy gimnastyczne · трек 231", "audio":"audio/L24/L24-czytanie-08.mp3",
         "words":"Stopy razem. · Kolana razem. · Obie ręce do góry. · Głowa do góry. · Położyć się na plecach. · Ręce wzdłuż ciała. · Ćwiczymy mięśnie brzucha. · Położyć się na brzuchu. · Ręce na karku. · Stopy szeroko. · Ręce na biodrach. · Długa szyja. · Lewa noga do góry. · Prawa noga ugięta w kolanie.",
         "note":"Читай команди вголос і показуй рухи." }
     ]}

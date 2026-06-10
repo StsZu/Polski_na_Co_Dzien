@@ -31,12 +31,12 @@
   ],
   "czytanie": [
     { "block": "A. Puszki, paczki i pudełka", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · Co to jest? · трек 147 (вступ)",
+      { "type":"ref", "title":"Ćwiczenie 1 · Co to jest? · трек 147 (вступ)", "audio":"audio/L15/L15-czytanie-01.mp3",
         "words":"puszka · paczka · butelka · karton · słoik · kawałek · pudełko",
         "note":"Назви упаковки. UWAGA: paczka / puszka / butelka / karton / słoik / kawałek + dopełniacz." },
-      { "type":"ref", "title":"Ćwiczenie 3 · Co pasuje? — що з чим",
+      { "type":"ref", "title":"Ćwiczenie 3 · Co pasuje? — що з чим", "audio":"audio/L15/L15-czytanie-02.mp3",
         "words":"paczka herbaty · pudełko czekoladek · słoik dżemu · butelka piwa · puszka kukurydzy · karton soku · kawałek sera · kostka masła · tabliczka czekolady · plasterek szynki" },
-      { "type":"dia", "title":"Dialog 2 · lista zakupów · трек 147", "lines":[
+      { "type":"dia", "title":"Dialog 2 · lista zakupów · трек 147", "audio":"audio/L15/L15-czytanie-03.mp3", "lines":[
         ["Joanna","Karol!","Кароль!"],
         ["Karol","Tak mamo?","Так, мамо?"],
         ["Joanna","Mam do ciebie prośbę, czy możesz iść na zakupy?","Маю до тебе прохання, чи можеш піти за покупками?"],
@@ -46,7 +46,7 @@
         ["Joanna","Karol!","Кароль!"],
         ["Karol","Dobrze, dobrze. Już idę.","Добре, добре. Вже йду."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 4 · u sprzedawcy · трек 148", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 4 · u sprzedawcy · трек 148", "audio":"audio/L15/L15-czytanie-04.mp3", "lines":[
         ["Sprzedawca","Słucham.","Слухаю."],
         ["Karol","Proszę słoik dżemu malinowego, ten duży, żółtego sera i ćwierć kilo białego.","Прошу слоїк малинового джему, той великий, жовтого сиру і чверть кіло білого."],
         ["Sprzedawca","Proszę, co jeszcze?","Прошу, що ще?"],
@@ -56,7 +56,7 @@
       ]}
     ]},
     { "block": "B. Zakupy na piknik", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · piknik konny · трек 149", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · piknik konny · трек 149", "audio":"audio/L15/L15-czytanie-05.mp3", "lines":[
         ["Iwona","Cześć Sylwia! Jedziesz z nami na piknik? Taka piękna pogoda, wreszcie mamy złotą polską jesień!","Привіт, Сильвіє! Їдеш із нами на пікнік? Така гарна погода, нарешті маємо золоту польську осінь!"],
         ["Sylwia","Na piknik? Raczej nie. Wiesz, ja boję się koni.","На пікнік? Радше ні. Знаєш, я боюся коней."],
         ["Iwona","Niestety, nie żartuję! Czy wybiera się dużo studentów?","На жаль, не жартую! Чи збирається багато студентів?"],
@@ -67,7 +67,7 @@
         ["Iwona","Wielkie dzięki, idziemy. Aha, moment, muszę sprawdzić, czy nie mam za mało pieniędzy.","Велике дякую, ідемо. Ага, момент, мушу перевірити, чи не маю замало грошей."],
         ["Sylwia","Nie ma sprawy. Idziemy?","Без проблем. Ідемо?"]
       ]},
-      { "type":"dia", "title":"Dialog 1 · na bazarze · трек 154", "lines":[
+      { "type":"dia", "title":"Dialog 1 · na bazarze · трек 154", "audio":"audio/L15/L15-czytanie-06.mp3", "lines":[
         ["Sylwia","Co kupujemy najpierw?","Що купуємо спершу?"],
         ["Iwona","Może warzywa.","Може, овочі."],
         ["Sprzedawca","Co dla pań?","Що для пань?"],
@@ -81,7 +81,7 @@
         ["Sylwia","Pół kilograma chyba wystarczy.","Півкілограма, мабуть, вистачить."],
         ["Iwona","Uff, dobrze, że samochód mam blisko!","Уф, добре, що машина в мене поряд!"]
       ]},
-      { "type":"dia", "title":"Dialog 2 · pakuję się · трек 155", "lines":[
+      { "type":"dia", "title":"Dialog 2 · pakuję się · трек 155", "audio":"audio/L15/L15-czytanie-07.mp3", "lines":[
         ["Karolina","O, pakujesz się! Dokąd się wybierasz?","О, пакуєшся! Куди вибираєшся?"],
         ["Mami","Jadę na piknik za Kraków.","Їду на пікнік за Краків."],
         ["Karolina","To super!","Це супер!"],
@@ -90,7 +90,7 @@
         ["Mami","3 paczki słonych paluszków, 5 paczek chipsów, butelkę coli, kilka puszek piwa, 2 puszki orzeszków...","3 пачки солоних паличок, 5 пачок чіпсів, пляшку коли, кілька банок пива, 2 банки горішків..."],
         ["Karolina","To będzie niezła impreza!","Це буде непогана вечірка!"]
       ]},
-      { "type":"dia", "title":"Dialog 3 · ile kartonów? · трек 155", "lines":[
+      { "type":"dia", "title":"Dialog 3 · ile kartonów? · трек 155", "audio":"audio/L15/L15-czytanie-08.mp3", "lines":[
         ["Javier","Myślę, żeby kupić po 2 puszki piwa na osobę.","Думаю купити по 2 банки пива на особу."],
         ["Tom","Tylko po 2 puszki? Wydaje mi się, że to bez sensu. Może lepiej 2 zgrzewki.","Тільки по 2 банки? Здається, це безглуздо. Може, краще 2 блоки."],
         ["Javier","Jedna zgrzewka to 6 puszek, tak?","Один блок — це 6 банок, так?"],
@@ -104,16 +104,16 @@
         ["Javier","W porządku. Coś jeszcze?","Гаразд. Щось іще?"],
         ["Tom","Chyba wszystko, resztę miały kupić dziewczyny.","Мабуть, усе, решту мали купити дівчата."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 5 · ułóż dialogi — склади за зразком · трек 150-152",
+      { "type":"ref", "title":"Ćwiczenie 5 · ułóż dialogi — склади за зразком · трек 150-152", "audio":"audio/L15/L15-czytanie-09.mp3",
         "words":"5 jogurtów owocowych · bochenek chleba · 2 butelki wody mineralnej · 10 plasterków szynki · pół kilo żółtego sera · 3 paczki ciastek · kawałek szynki · 2 pomidory · 5 kartonów mleka · 2 kg ziemniaków",
         "note":"2,3,4 + mianownik · 5,6,7... + dopełniacz." },
-      { "type":"ref", "title":"Ćwiczenie 6 · uzupełnij — родовий множини",
+      { "type":"ref", "title":"Ćwiczenie 6 · uzupełnij — родовий множини", "audio":"audio/L15/L15-czytanie-10.mp3",
         "words":"10 jabłek · 7 ogórków kiszonych · słoik zielonych oliwek · 12 jajek · paczka czekoladowych ciastek · 5 jogurtów naturalnych" }
     ]},
     { "block": "C. Poczta", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · Co to jest? · poczta",
+      { "type":"ref", "title":"Ćwiczenie 1 · Co to jest? · poczta", "audio":"audio/L15/L15-czytanie-11.mp3",
         "words":"pocztówka · paczka · list lotniczy · znaczek · listonosz · koperta · list polecony · skrzynka pocztowa" },
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 156", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 156", "audio":"audio/L15/L15-czytanie-12.mp3", "lines":[
         ["Mami","Karol, czy pomożesz mi?","Кароль, чи допоможеш мені?"],
         ["Karol","Nie ma sprawy, a o co chodzi?","Без проблем, а в чому річ?"],
         ["Mami","Muszę wysłać ważny list i nie wiem jak. Czy możesz iść ze mną na pocztę?","Мушу надіслати важливий лист і не знаю як. Чи можеш піти зі мною на пошту?"],
@@ -121,12 +121,12 @@
         ["Karolina","Karol! Jesteś okropny, zmyślasz! Mami, możesz iść ze mną.","Кароль! Ти жахливий, вигадуєш! Мамі, можеш піти зі мною."],
         ["Mami","O, dziękuję bardzo.","О, дуже дякую."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 157", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 157", "audio":"audio/L15/L15-czytanie-13.mp3", "lines":[
         ["Mami","Dzień dobry, proszę znaczek na list lotniczy do Japonii.","Добрий день, прошу марку на авіалист до Японії."],
         ["Urzędnik","Dzień dobry. Może woli pani wysłać list priorytetem? Priorytet to bardzo szybki list.","Добрий день. Може, пані воліє надіслати лист пріоритетом? Пріоритет — це дуже швидкий лист."],
         ["Mami","Dobrze, może być priorytet.","Добре, нехай буде пріоритет."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 3 · трек 158", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 3 · трек 158", "audio":"audio/L15/L15-czytanie-14.mp3", "lines":[
         ["Uwe","Dzień dobry. Mam list polecony, czy mogłaby mi pani pomóc?","Добрий день. Маю рекомендований лист, чи могли б ви мені допомогти?"],
         ["Urzędniczka","Tak, słucham.","Так, слухаю."],
         ["Uwe","Muszę wysłać oficjalny list.","Мушу надіслати офіційний лист."],
@@ -136,39 +136,39 @@
         ["Uwe","Dobrze. Chciałbym jeszcze nadać faks do Niemiec.","Добре. Хотів би ще надіслати факс до Німеччини."],
         ["Urzędniczka","Proszę bardzo.","Будь ласка."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 4 · трек 159", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 4 · трек 159", "audio":"audio/L15/L15-czytanie-15.mp3", "lines":[
         ["Angela","Proszę sześć znaczków na kartkę do Unii Europejskiej.","Прошу шість марок на листівку до Євросоюзу."],
         ["Urzędniczka","Proszę, znaczki i pocztówkę. Coś jeszcze?","Прошу, марки і листівку. Щось іще?"],
         ["Angela","Na pocztówkę?","На листівку?"],
         ["Urzędniczka","Pocztówka, widokówka to znaczy to samo.","Pocztówka, widokówka — це те саме."],
         ["Angela","Aha, dziękuję. To wszystko.","Ага, дякую. Це все."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 5 · трек 160", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 5 · трек 160", "audio":"audio/L15/L15-czytanie-16.mp3", "lines":[
         ["Javier","Dzień dobry, chciałem nadać paczkę do Argentyny. Czy to dużo kosztuje?","Добрий день, хотів надіслати посилку до Аргентини. Чи це дорого коштує?"],
         ["Urzędnik","Cena zależy od wagi, od wielkości.","Ціна залежить від ваги, від розміру."],
         ["Javier","Mam nadzieję, że nie jest ciężka.","Сподіваюся, вона не важка."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 3 · rodzaje listów — види листів",
+      { "type":"ref", "title":"Ćwiczenie 3 · rodzaje listów — види листів", "audio":"audio/L15/L15-czytanie-17.mp3",
         "words":"pocztówka — kolorowa kartka z pozdrowieniami · list priorytet / ekspresowy — bardzo szybki list · widokówka — mały kolorowy obrazek na list albo pocztówkę · list polecony — list urzędowy · koperta — opakowanie na list · list zwykły — normalny list" }
     ]},
     { "block": "D. Czy pomożesz mi?", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · prośby i reakcje — прохання й реакції",
+      { "type":"ref", "title":"Ćwiczenie 1 · prośby i reakcje — прохання й реакції", "audio":"audio/L15/L15-czytanie-18.mp3",
         "words":"PROŚBA: Czy mógłbyś mi pomóc? · Czy pomożesz mi? · Czy możesz mi pomóc? · Czy mogłaby mi pani pomóc? · Mam do ciebie prośbę · Chciałem cię prosić o pomoc",
         "note":"REAKCJA+: Chętnie · Tak, oczywiście · Z przyjemnością · Nie ma sprawy. REAKCJA-: Przykro mi, ale nie · Niestety, nie mam czasu · Przepraszam, ale jestem bardzo zajęty." }
     ]},
     { "block": "E. Zaimki (займенники в dopełniaczu)", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 161", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 161", "audio":"audio/L15/L15-czytanie-19.mp3", "lines":[
         ["Javier","Dzwonię do ciebie i dzwonię. Dlaczego nie odbierasz?","Дзвоню до тебе й дзвоню. Чому не береш слухавки?"],
         ["Uwe","Przepraszam, miałem spotkanie i trochę się przedłużyło. Dzwoniłeś już do Toma?","Перепрошую, мав зустріч, і вона трохи затягнулася. Ти вже дзвонив до Тома?"],
         ["Javier","Do niego też się nie mogę dodzwonić. A ty pewnie nie dzwoniłeś do Mami i Angeli?","До нього теж не можу додзвонитися. А ти, мабуть, не дзвонив до Мамі й Анджели?"],
         ["Uwe","Zaraz do nich zadzwonię. Aha, tylko nie mam telefonu do Angeli. Masz może numer do niej?","Зараз до них зателефоную. Ага, тільки не маю телефону Анджели. Маєш, може, номер до неї?"]
       ]},
-      { "type":"dia", "title":"Dialog 2 · трек 162", "lines":[
+      { "type":"dia", "title":"Dialog 2 · трек 162", "audio":"audio/L15/L15-czytanie-20.mp3", "lines":[
         ["Tom","Cześć Javier, dzwoniłeś do mnie.","Привіт, Хав’єре, ти дзвонив до мене."],
         ["Javier","Dzwoniłem do was wszystkich. Bez skutku!","Дзвонив до вас усіх. Без результату!"],
         ["Tom","Dlaczego do nas wszystkich i dlaczego się denerwujesz?","Чому до нас усіх і чому нервуєшся?"]
       ]},
-      { "type":"dia", "title":"Dialog 3 · трек 163", "lines":[
+      { "type":"dia", "title":"Dialog 3 · трек 163", "audio":"audio/L15/L15-czytanie-21.mp3", "lines":[
         ["Iwona","Nie widziałaś mojego telefonu? Szukam go wszędzie.","Не бачила мого телефону? Шукаю його всюди."],
         ["Ania","Leży tam, pod książką.","Лежить там, під книжкою."],
         ["Iwona","O, jej też szukałam.","О, її теж шукала."],
@@ -176,7 +176,7 @@
         ["Iwona","Tak, ich też.","Так, його теж."],
         ["Ania","Ciastek nie musisz szukać, już zjadłyśmy.","Печива не мусиш шукати, ми вже з’їли."]
       ]},
-      { "type":"dia", "title":"Dialog 4 · трек 164", "lines":[
+      { "type":"dia", "title":"Dialog 4 · трек 164", "audio":"audio/L15/L15-czytanie-22.mp3", "lines":[
         ["Mami","Szukam jej wszędzie! Gdzie ona jest? Ich też nie widzę! Dlaczego oni do mnie nie dzwonią? A Javier? Był tu przed chwilą i teraz go już nie ma.","Шукаю її всюди! Де вона? Їх теж не бачу! Чому вони мені не дзвонять? А Хав’єр? Був тут щойно, а тепер його вже немає."]
       ]}
     ]}

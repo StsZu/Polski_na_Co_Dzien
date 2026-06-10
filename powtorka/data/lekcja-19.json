@@ -38,7 +38,7 @@
   ],
   "czytanie": [
     { "block": "A. Nie mam gdzie mieszkać", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 181", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 181", "audio":"audio/L19/L19-czytanie-01.mp3", "lines":[
         ["Javier","Ty spóźniona?! Co się stało?","Ти спізнилась?! Що сталося?"],
         ["Angela","Javier! O nic nie pytaj, bo zaraz eksploduję!","Хав'єре! Ні про що не питай, бо зараз вибухну!"],
         ["Javier","Ho, ho, ho! To musi być coś poważnego! Słucham!","Ого-го! Це, мабуть, щось серйозне! Слухаю!"],
@@ -48,7 +48,7 @@
         ["Javier","To nie jest duży problem. Dam ci moje notatki z lekcji, a jeśli chodzi o sąsiadów, można poinformować policję i…","Це не велика проблема. Дам тобі свої конспекти з уроку, а щодо сусідів — можна повідомити поліцію і…"],
         ["Angela","To nie pomaga! Już zdecydowałam, dzisiaj przeprowadzam się do hotelu.","Це не допомагає! Я вже вирішила: сьогодні переїжджаю в готель."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · rezerwacja · трек 182", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · rezerwacja · трек 182", "audio":"audio/L19/L19-czytanie-02.mp3", "lines":[
         ["Recepcja","Dzień dobry, „Hotel Smocza Jama”, słucham?","Добрий день, готель «Смоча Яма», слухаю?"],
         ["Angela","Dzień dobry. Chciałabym zarezerwować pokój jednoosobowy z łazienką.","Добрий день. Я хотіла б забронювати одномісний номер із ванною."],
         ["Recepcja","Od kiedy?","Від коли?"],
@@ -59,12 +59,12 @@
         ["Angela","Angela Brown.","Анджела Браун."],
         ["Recepcja","Gotowe. Zapraszamy jutro. Doba hotelowa zaczyna się od godziny 13.00.","Готово. Запрошуємо завтра. Готельна доба починається з 13:00."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 4 · słowa o mieszkaniu — згрупуй",
+      { "type":"ref", "title":"Ćwiczenie 4 · słowa o mieszkaniu — згрупуй", "audio":"audio/L19/L19-czytanie-03.mp3",
         "words":"jednoosobowy · dwuosobowy · trzyosobowy · czteroosobowy · klimatyzacją · widokiem na morze · dostępem do Internetu · łazienką · parterze · piątym · pierwszym · ostatnim · jutra · środy · piątku · dziś · tydzień · weekend · dwa dni · trzy noce · jedną noc",
         "note":"Jaki? Z czym? Od kiedy? Na jak długo? Na którym piętrze?" }
     ]},
     { "block": "B. W poszukiwaniu mieszkania", "items": [
-      { "type":"dia", "title":"Ćwiczenie 3 · jakie mieszkanie? · трек 187", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · jakie mieszkanie? · трек 187", "audio":"audio/L19/L19-czytanie-04.mp3", "lines":[
         ["Javier","Podsumujmy, jakiego mieszkania szukamy.","Підсумуймо, яку квартиру шукаємо."],
         ["Angela","Szukamy małego, jednopokojowego mieszkania, może mieć 30-40 metrów kwadratowych. Najlepiej w centrum, blisko szkoły. Musi być jasne, słoneczne i ciepłe, bo idą mrozy.","Шукаємо малу однокімнатну квартиру, може мати 30-40 квадратних метрів. Найкраще в центрі, близько до школи. Має бути світла, сонячна і тепла, бо йдуть морози."],
         ["Mami","Pamiętaj żeby było centralne ogrzewanie, bo jeśli będzie elektryczne to zimą dużo zapłacisz. Wiem coś o tym od pani Maj.","Пам'ятай, щоб було центральне опалення, бо якщо буде електричне, то взимку багато заплатиш. Знаю дещо про це від пані Май."],
@@ -81,7 +81,7 @@
         ["Angela","Myślę, że 1200 - 1400 złotych miesięcznie. Mam tylko tydzień. Mam nadzieję, że znajdę coś fajnego.","Думаю, 1200-1400 злотих на місяць. Маю лише тиждень. Сподіваюся, знайду щось класне."],
         ["Mami","Nie martw się. Wszyscy ci pomożemy.","Не хвилюйся. Ми всі тобі допоможемо."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 7 · dzwonię w sprawie ogłoszenia · трек 188", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 7 · dzwonię w sprawie ogłoszenia · трек 188", "audio":"audio/L19/L19-czytanie-05.mp3", "lines":[
         ["Pani","Słucham?","Слухаю?"],
         ["Angela","Dzień dobry, dzwonię w sprawie ogłoszenia. Czy jest jeszcze aktualne?","Добрий день, телефоную щодо оголошення. Воно ще актуальне?"],
         ["Pani","Dzień dobry. Tak, oferta jest jeszcze aktualna.","Добрий день. Так, пропозиція ще актуальна."],
@@ -96,12 +96,12 @@
         ["Angela","Ile mniej więcej mogę płacić co miesiąc za media?","Скільки приблизно я можу платити щомісяця за комунальні послуги?"],
         ["Pani","Myślę, że nie więcej niż 100 – 150 zł.","Думаю, не більше ніж 100-150 зл."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 6 · ogłoszenia — оголошення про оренду",
+      { "type":"ref", "title":"Ćwiczenie 6 · ogłoszenia — оголошення про оренду", "audio":"audio/L19/L19-czytanie-06.mp3",
         "words":"kawalerka 26 m² na Kazimierzu, ogrzewanie na prąd · kawalerka 23 m², parter w bloku czteropiętrowym, umeblowana · dwie studentki szukają spokojnej współlokatorki · jednopokojowe mieszkanie 35 m², osobna kuchnia i łazienka",
         "note":"Прочитай оголошення вголос і вибери найкраще для Анджели." }
     ]},
     { "block": "C. Przeprowadzka", "items": [
-      { "type":"dia", "title":"Dialog 1 · przeprowadzka · трек 189", "lines":[
+      { "type":"dia", "title":"Dialog 1 · przeprowadzka · трек 189", "audio":"audio/L19/L19-czytanie-07.mp3", "lines":[
         ["Angela","Bardzo wam dziękuję za pomoc!","Дуже вам дякую за допомогу!"],
         ["Mami","Naprawdę nie ma za co! Cieszymy się, że wszystko dobrze się skończyło.","Справді нема за що! Раді, що все добре скінчилося."],
         ["Javier","O tak! Teraz masz piękne mieszkanie w centrum, więc w weekendy, kiedy po imprezie spóźnimy się na nocny autobus, będziemy mogli wpaść do ciebie!!!","О так! Тепер маєш гарну квартиру в центрі, тож на вихідних, коли після вечірки спізнимося на нічний автобус, зможемо заскочити до тебе!!!"],
@@ -109,7 +109,7 @@
         ["Uwe","Macie rację! Mieszkanie jest naprawdę ładne! Małe, ale dobrze rozplanowane!","Маєте рацію! Квартира справді гарна! Мала, але добре спланована!"],
         ["Mami","I ma piękne, ciepłe kolory. Pasują do ciebie.","І має гарні теплі кольори. Тобі пасують."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · mieszkanie Angeli · трек 190", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · mieszkanie Angeli · трек 190", "audio":"audio/L19/L19-czytanie-08.mp3", "lines":[
         ["—","Mieszkanie Angeli jest małe. Ma tylko kuchnię, łazienkę i jeden duży pokój.","Квартира Анджели мала. Має лише кухню, ванну й одну велику кімнату."],
         ["—","Kuchnia jest po lewej stronie, łazienka po prawej, a pokój jest na wprost wejścia.","Кухня ліворуч, ванна праворуч, а кімната навпроти входу."],
         ["—","W pokoju są wszystkie najważniejsze meble. Na środku stoi kanapa, nad nią na ścianie wisi telewizor.","У кімнаті всі найважливіші меблі. Посередині стоїть диван, над ним на стіні висить телевізор."],
@@ -118,7 +118,7 @@
         ["—","Obok łóżka stoi mała komoda, a w rogu przy oknie regał z książkami.","Біля ліжка стоїть маленький комод, а в кутку біля вікна — стелаж із книжками."],
         ["—","Przed oknem stoi biurko. Po prawej stronie, między regałem a biurkiem stoi fotel, natomiast po lewej stronie między biurkiem a kanapą – lampa. Przy biurku jest krzesło.","Перед вікном стоїть письмовий стіл. Праворуч, між стелажем і столом, стоїть крісло, а ліворуч між столом і диваном — лампа. Біля столу стілець."]
       ]},
-      { "type":"ref", "title":"Przyimki statyczne — статичні прийменники",
+      { "type":"ref", "title":"Przyimki statyczne — статичні прийменники", "audio":"audio/L19/L19-czytanie-09.mp3",
         "words":"obok, koło, blisko, na wprost + DOPEŁNIACZ · na, w, przy + MIEJSCOWNIK · nad, pod, przed, za, między + NARZĘDNIK",
         "note":"góra ≠ dół · na górze ≠ na dole" }
     ]}

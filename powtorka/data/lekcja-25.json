@@ -38,48 +38,48 @@
   ],
   "czytanie": [
     { "block": "A. Idiomy z częściami ciała", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · części ciała",
+      { "type":"ref", "title":"Ćwiczenie 1 · części ciała", "audio":"audio/L25/L25-czytanie-01.mp3",
         "words":"głowa · plecy · noga / nogi · oko · ręka · ucho · brzuch · nos",
         "note":"Підпиши малюнки — назви частин тіла." },
-      { "type":"ref", "title":"Ćwiczenie 2 · NOGA / RĘKA",
+      { "type":"ref", "title":"Ćwiczenie 2 · NOGA / RĘKA", "audio":"audio/L25/L25-czytanie-02.mp3",
         "words":"do nogi! · na drugą nogę · do góry nogami · noga za nogą · nóżka · kłamstwo ma krótkie nogi · prawa ręka · dwie lewe ręce · jak bez ręki · z drugiej ręki · do rąk własnych · ręce do góry! · złota rączka · prosić o rękę",
         "note":"Ідіоми з «noga» та «ręka»." },
-      { "type":"ref", "title":"Ćwiczenie 2 · PLECY / GŁOWA / UCHO / OKO / BRZUCH",
+      { "type":"ref", "title":"Ćwiczenie 2 · PLECY / GŁOWA / UCHO / OKO / BRZUCH", "audio":"audio/L25/L25-czytanie-03.mp3",
         "words":"za plecami · mieć plecy · plecak · głowa państwa · słaba głowa · dach nad głową · głowa do góry! · co dwie głowy to nie jedna · ściany mają uszy · powyżej uszu · na oko · w cztery oczy · oko za oko · strach ma wielkie oczy · leżeć do góry brzuchem" },
-      { "type":"ref", "title":"Ćwiczenie 3 · uzupełnij idiomami",
+      { "type":"ref", "title":"Ćwiczenie 3 · uzupełnij idiomami", "audio":"audio/L25/L25-czytanie-04.mp3",
         "words":"a) złota rączka · b) do góry nogami · c) słabą głowę · d) plecak · e) na oko · f) głowa do góry · g) z drugiej ręki · h) jak bez ręki",
         "note":"Встав ідіом у речення." }
     ]},
     { "block": "B. Zdrowie jest najważniejsze · трек 232–234", "items": [
-      { "type":"dia", "title":"Dialog 1 · Javier · трек 232", "lines":[
+      { "type":"dia", "title":"Dialog 1 · Javier · трек 232", "audio":"audio/L25/L25-czytanie-05.mp3", "lines":[
         ["Mężczyzna","Halo?","Алло?"],
         ["Iwona","Dzień dobry. Mówi Iwona Stępek. Czy mogę rozmawiać z Javierem?","Добрий день. Це Івона Стемпек. Чи можу я поговорити з Хав’єром?"],
         ["Javier","To ja.","Це я."],
         ["Iwona","Przepraszam, nie poznałam cię. Masz dziwny głos. Co się stało?","Перепрошую, не впізнала тебе. У тебе дивний голос. Що сталося?"],
         ["Javier","Mam katar, kaszel i temperaturę. Chyba jestem przeziębiony.","У мене нежить, кашель і температура. Здається, я застудився."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · Mami · трек 233", "lines":[
+      { "type":"dia", "title":"Dialog 2 · Mami · трек 233", "audio":"audio/L25/L25-czytanie-06.mp3", "lines":[
         ["Kobieta","Słucham.","Слухаю."],
         ["Sylwia","Dzień dobry. Tu Sylwia ze szkoły językowej. Chciałam zapytać, dlaczego Mami nie przyszła do szkoły.","Добрий день. Це Сильвія з мовної школи. Хотіла спитати, чому Мамі не прийшла до школи."],
         ["Kobieta","Leży w łóżku. Bardzo źle się czuje. Zjadła wczoraj coś nieświeżego w barze na mieście i ma, rozumie pani, problem z żołądkiem.","Лежить у ліжку. Дуже погано почувається. Учора з’їла щось несвіже в барі в місті й має, розумієте, проблему зі шлунком."],
         ["Sylwia","Bardzo mi przykro. Proszę ją od nas pozdrowić.","Мені дуже шкода. Передайте їй від нас вітання."]
       ]},
-      { "type":"dia", "title":"Dialog 3 · Angela · трек 234", "lines":[
+      { "type":"dia", "title":"Dialog 3 · Angela · трек 234", "audio":"audio/L25/L25-czytanie-07.mp3", "lines":[
         ["Kobieta","Halo?","Алло?"],
         ["Kobieta 2","Cześć Angela. Co z tobą?","Привіт, Анджело. Що з тобою?"],
         ["Angela","Zęby. Przez całą noc nie spałam.","Зуби. Цілу ніч не спала."],
         ["Kobieta 2","Musisz iść do dentysty. Mogę umówić cię na wizytę.","Ти мусиш піти до дентиста. Можу записати тебе на прийом."],
         ["Angela","A pójdziesz ze mną? Strasznie się boję.","А підеш зі мною? Я страшенно боюся."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 3 · boli / bolą + biernik",
+      { "type":"ref", "title":"Ćwiczenie 3 · boli / bolą + biernik", "audio":"audio/L25/L25-czytanie-08.mp3",
         "words":"a) boli mnie głowa · b) czy cię coś boli? · c) boli ją serce · d) boli go żołądek · e) co panią boli? · f) bolą nas plecy · g) boli je brzuch · h) bolą je zęby · i) czy boli pana noga? · j) boli mnie wszystko · k) nie bolały was uszy?",
         "note":"Встав займенник у biernik після boli / bolą." },
-      { "type":"ref", "title":"Ćwiczenie 4 · powinien / powinna",
+      { "type":"ref", "title":"Ćwiczenie 4 · powinien / powinna", "audio":"audio/L25/L25-czytanie-09.mp3",
         "words":"Powinna ubierać się cieplej · Powinniście więcej się uczyć · Powinnaś wziąć tabletkę przeciwbólową · Zawsze powinnyście robić rezerwację · Nie powinieneś pić, masz słabą głowę · Powinienem zadzwonić?",
         "note":"Добери форму powinien / powinna до особи." }
     ]},
     { "block": "C. Przypadek Mami · трек 235–236", "items": [
-      { "type":"dia", "title":"Dialog 1 · u pani Maj · трек 235", "lines":[
+      { "type":"dia", "title":"Dialog 1 · u pani Maj · трек 235", "audio":"audio/L25/L25-czytanie-10.mp3", "lines":[
         ["Pani Maj","Jak się czujesz? Lepiej?","Як почуваєшся? Краще?"],
         ["Mami","Ach, tak mi wstyd, przepraszam!","Ах, мені так соромно, перепрошую!"],
         ["Pani Maj","Mami, nic co ludzkie nie jest mi obce, naprawdę.","Мамі, ніщо людське мені не чуже, справді."],
@@ -92,18 +92,18 @@
         ["Mami","Tak, ale trochę mi słabo. I boli mnie głowa.","Так, але мені трохи млосно. І болить голова."],
         ["Pani Maj","Wracaj do łóżka. Poczytam ci, nie będziesz myśleć, tylko odpoczywać. A potem pójdę do apteki i kupię ci jakieś lekarstwo, np. krople żołądkowe.","Повертайся в ліжко. Почитаю тобі, не будеш думати, тільки відпочивати. А потім піду до аптеки й куплю тобі якісь ліки, наприклад шлункові краплі."]
       ]},
-      { "type":"ref", "title":"Wyrażenia o samopoczuciu",
+      { "type":"ref", "title":"Wyrażenia o samopoczuciu", "audio":"audio/L25/L25-czytanie-11.mp3",
         "words":"Co ci jest? · Co cię boli? · Co ci dolega?",
         "note":"Питання про самопочуття." },
-      { "type":"ref", "title":"Ćwiczenie 2 · Chory kotek (S. Jachowicz) · трек 236",
+      { "type":"ref", "title":"Ćwiczenie 2 · Chory kotek (S. Jachowicz) · трек 236", "audio":"audio/L25/L25-czytanie-12.mp3",
         "words":"Pan kotek był chory i leżał w łóżeczku · I przyszedł pan doktor · Źle bardzo · Wziął za puls pan doktor poważnie chorego · Zanadto się jadło · lecz szynki i sadło · Źle bardzo... gorączka! · Oj długo ty, długo poleżysz w łóżeczku",
         "note":"Доповни вірш на слух." },
-      { "type":"ref", "title":"Ćwiczenie 3 · organy wewnętrzne",
+      { "type":"ref", "title":"Ćwiczenie 3 · organy wewnętrzne", "audio":"audio/L25/L25-czytanie-13.mp3",
         "words":"1. mózg · 2. serce · 3. płuca · 4. żołądek · 5. kości",
         "note":"Внутрішні органи на схемі тіла." }
     ]},
     { "block": "D. Przypadek Javiera · трек 237–238", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · rejestracja w przychodni · трек 237", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · rejestracja w przychodni · трек 237", "audio":"audio/L25/L25-czytanie-14.mp3", "lines":[
         ["Pani","Dzień dobry, przychodnia „Zdrówko”, słucham?","Добрий день, поліклініка «Здрувко», слухаю?"],
         ["Javier","Chciałbym umówić się na wizytę do lekarza.","Я хотів би записатися на прийом до лікаря."],
         ["Pani","Czy ma pan już u nas kartę?","Чи маєте Ви вже в нас картку?"],
@@ -115,7 +115,7 @@
         ["Pani","Jak się pan nazywa?","Як Ваше прізвище?"],
         ["Javier","Javier Pérez. Przeliterować?","Хав’єр Перес. Продиктувати по літерах?"]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · u lekarki · трек 238", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · u lekarki · трек 238", "audio":"audio/L25/L25-czytanie-15.mp3", "lines":[
         ["Javier","Dzień dobry pani doktor.","Добрий день, пані лікарко."],
         ["Lekarka","Dzień dobry, co panu dolega?","Добрий день, на що скаржитесь?"],
         ["Javier","Boli mnie wszystko: głowa, gardło, mięśnie, trochę żołądek. Mam katar i kaszel.","Болить усе: голова, горло, м’язи, трохи шлунок. Маю нежить і кашель."],
@@ -131,11 +131,11 @@
         ["Javier","Nie, jestem studentem, nie pracuję. Kiedy mam przyjść do kontroli?","Ні, я студент, не працюю. Коли мені прийти на контроль?"],
         ["Lekarka","Za tydzień.","Через тиждень."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 4 · objawy",
+      { "type":"ref", "title":"Ćwiczenie 4 · objawy", "audio":"audio/L25/L25-czytanie-16.mp3",
         "words":"Boli mnie: głowa · gardło · żołądek · serce | Bolą mnie: mięśnie · plecy | Mam: migrenę · gorączkę · katar · kaszel · wysokie ciśnienie | Jestem: przeziębiony · chory · słaby | Jest mi: słabo · gorąco · duszno · niedobrze" }
     ]},
     { "block": "E. Przypadek Angeli · трек 239", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · rejestracja do dentysty", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · rejestracja do dentysty", "audio":"audio/L25/L25-czytanie-17.mp3", "lines":[
         ["Pani","Gabinet stomatologiczny „Biały kieł”, w czym mogę pomóc?","Стоматологічний кабінет «Білий ікло», чим можу допомогти?"],
         ["Ania","Chciałabym zarejestrować znajomą do dentysty.","Я хотіла б записати знайому до дентиста."],
         ["Pani","Czy ta pani ma u nas kartę?","Чи має ця пані в нас картку?"],
@@ -153,7 +153,7 @@
         ["Pani","Za godzinę. Pasuje pani?","За годину. Вам підходить?"],
         ["Ania","Tak, oczywiście. Jak się nazywa ta pani doktor i jaki jest adres gabinetu?","Так, звичайно. Як прізвище цієї лікарки і яка адреса кабінету?"]
       ]},
-      { "type":"dia", "title":"Dialog 1 · u dentystki · трек 239", "lines":[
+      { "type":"dia", "title":"Dialog 1 · u dentystki · трек 239", "audio":"audio/L25/L25-czytanie-18.mp3", "lines":[
         ["Angela","Dzień dobry. Nazywam się Angela Brown.","Добрий день. Мене звати Анджела Браун."],
         ["Dentystka","Zapraszam na fotel. Co się dzieje?","Прошу в крісло. Що сталося?"],
         ["Angela","Strasznie bolą mnie zęby.","Мене страшенно болять зуби."],
@@ -168,15 +168,15 @@
         ["Dentystka","Na to, proszę pani, zawsze jest czas. Dam znieczulenie, nic nie będzie panią boleć.","На це, пані, завжди є час. Дам знеболення, нічого боліти не буде."],
         ["Angela","Jest pani pewna?","Ви впевнені?"]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 4 · nazwy zębów",
+      { "type":"ref", "title":"Ćwiczenie 4 · nazwy zębów", "audio":"audio/L25/L25-czytanie-19.mp3",
         "words":"1 jedynka · 2 dwójka · 3 trójka · 4 czwórka · 5 piątka · 6 szóstka · 7 siódemka · 8 ósemka · 9 dziewiątka · 10 dziesiątka",
         "note":"Розмовні назви зубів за номерами." }
     ]},
     { "block": "F. Przypadek Toma — list ze szpitala", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · słowa do listu",
+      { "type":"ref", "title":"Ćwiczenie 1 · słowa do listu", "audio":"audio/L25/L25-czytanie-20.mp3",
         "words":"zaspać · budzik | kroić · skaleczyć się | upaść · kolano | zostać · ręka | uderzyć się · głowa | rozbić · widzieć | przypadek · wypadek | złamać · gips",
         "note":"Доповни лист Тома цими словами." },
-      { "type":"dia", "title":"List Toma do Alicji", "lines":[
+      { "type":"dia", "title":"List Toma do Alicji", "audio":"audio/L25/L25-czytanie-21.mp3", "lines":[
         ["Tom","Droga Alicjo! Tylko się nie denerwuj, ale leżę w szpitalu. Miałem naprawdę pecha!","Дорога Аліціє! Тільки не нервуй, але я лежу в лікарні. Мені справді не пощастило!"],
         ["Tom","Zapomniałem nastawić budzik, więc następnego ranka zaspałem.","Я забув завести будильник, тож наступного ранку проспав."],
         ["Tom","Kiedy kroiłem chleb, skaleczyłem się w palec. Na schodach upadłem i uderzyłem się w głowę.","Коли різав хліб, порізав палець. На сходах упав і вдарився головою."],
@@ -187,7 +187,7 @@
       ]}
     ]},
     { "block": "G. Powtórzenie — lekarze specjaliści", "items": [
-      { "type":"ref", "title":"Specjaliści — хто чим займається",
+      { "type":"ref", "title":"Specjaliści — хто чим займається", "audio":"audio/L25/L25-czytanie-22.mp3",
         "words":"PEDIATRA — діти · INTERNISTA — внутрішні хвороби · OKULISTA — очі · LARYNGOLOG — вухо, ніс, горло · KARDIOLOG — серце · PSYCHOLOG — психіка · GINEKOLOG — здоров’я жінок · DERMATOLOG — шкіра · NEUROLOG — нервова система · ORTOPEDA — кістки, суглоби, м’язи · STOMATOLOG — зуби",
         "note":"Хто й чому ходить до цих лікарів." }
     ]}

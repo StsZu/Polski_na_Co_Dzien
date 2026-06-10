@@ -31,19 +31,19 @@
   ],
   "czytanie": [
     { "block": "A. Same problemy — sprawy do załatwienia", "items": [
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 240", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 240", "audio":"audio/L26/L26-czytanie-01.mp3", "lines":[
         ["Kolega","Tom, idziesz na pierogi?","Томе, ідеш на вареники?"],
         ["Tom","Chętnie, ale potem lecę, bo mam kilka spraw do załatwienia.","Залюбки, але потім біжу, бо маю кілька справ владнати."],
         ["Kolega","Do czego?","До чого?"],
         ["Tom","Do załatwienia. Hm... trochę jak „do zrobienia”. Muszę doładować moją kartę na tramwaj, kupić nowe oprawki do okularów, bo stare mi pękły, zapłacić rachunki na poczcie i iść do księgarni.","«Владнати». Хм... трохи як «зробити». Мушу поповнити трамвайну картку, купити нову оправу для окулярів, бо стара тріснула, оплатити рахунки на пошті й піти до книгарні."],
         ["Kolega","Warto zapamiętać. „Do załatwienia”. Ja też mam coś do załatwienia. Muszę skopiować notatki, które pożyczyłem od Angeli.","Варто запам’ятати. «Владнати». Я теж маю дещо владнати. Мушу скопіювати конспект, який позичив в Анджели."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 241", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 241", "audio":"audio/L26/L26-czytanie-02.mp3", "lines":[
         ["Kolega 1","Zostajesz oglądać film? Dziś są „Sami swoi”. Stara, ale podobno fajna komedia.","Залишаєшся дивитися фільм? Сьогодні «Sami swoi». Стара, але начебто класна комедія."],
         ["Kolega 2","Tak, słyszałem, że to niezły film i chcę go obejrzeć. Wychodzę na moment ze szkoły, mam przesyłkę do odebrania i jeszcze powinienem skoczyć do bankomatu.","Так, я чув, що це непоганий фільм, і хочу його подивитися. Вийду на хвильку зі школи, маю отримати посилку і ще мушу забігти до банкомата."],
         ["Kolega 1","Wiesz... a ja chyba wyjdę po coś do jedzenia.","Знаєш... а я, мабуть, вийду по щось поїсти."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 3 · трек 242", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 3 · трек 242", "audio":"audio/L26/L26-czytanie-03.mp3", "lines":[
         ["Angela","Cześć Mami. Co tam masz?","Привіт, Мамі. Що там у тебе?"],
         ["Mami","Kupiłam sobie spodnie.","Купила собі штани."],
         ["Angela","O! Wystrzałowe.","О! Шикарні."],
@@ -52,7 +52,7 @@
         ["Mami","Od ręki?","«Від руки»?"],
         ["Angela","Tak się mówi. To znaczy: od razu.","Так кажуть. Це означає: відразу."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 4 · трек 243", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 4 · трек 243", "audio":"audio/L26/L26-czytanie-04.mp3", "lines":[
         ["Kolega","Hej, słyszę, że wybieracie się do szewca. Czy mogłybyście wziąć moją torbę?","Гей, чую, що ви збираєтесь до шевця. Чи могли б ви взяти мою сумку?"],
         ["Koleżanka","Po co?","Навіщо?"],
         ["Kolega","Urwał się pasek.","Відірвався ремінець."],
@@ -63,7 +63,7 @@
         ["Koleżanka","Nie za dużo chcesz?","Не забагато хочеш?"],
         ["Kolega","Proszę cię, muszę się uczyć. A i tak idziecie koło kiosku.","Прошу тебе, мушу вчитися. А ви й так ідете повз кіоск."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 5 · трек 244", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 5 · трек 244", "audio":"audio/L26/L26-czytanie-05.mp3", "lines":[
         ["Mężczyzna","Jest już obiad?","Обід уже готовий?"],
         ["Kobieta","Będzie za moment. Spieszysz się gdzieś?","За хвилину. Кудись поспішаєш?"],
         ["Mężczyzna","Tak. Samochód się znowu zepsuł.","Так. Машина знову зламалася."],
@@ -74,7 +74,7 @@
         ["Kobieta","Dzieci nie mogą iść?","Діти не можуть піти?"],
         ["Mężczyzna","Karolina wychodzi do miasta, a Karol ma jutro test z łaciny. Spacer po parku dobrze ci zrobi.","Кароліна йде в місто, а Кароль має завтра тест із латини. Прогулянка парком тобі піде на користь."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 6 · трек 245", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 6 · трек 245", "audio":"audio/L26/L26-czytanie-06.mp3", "lines":[
         ["Mężczyzna","Słucham.","Слухаю."],
         ["Joanna","Cześć, to ja Joanna. Jesteś już w domu? Co z samochodem?","Привіт, це я, Йоанна. Ти вже вдома? Що з машиною?"],
         ["Mężczyzna","Jutro mam zadzwonić. Powinien być po południu.","Завтра маю подзвонити. Має бути по обіді."],
@@ -86,13 +86,13 @@
       ]}
     ]},
     { "block": "B. Reklamacja — рекламація товару", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · Dialog 1 · трек 252", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · Dialog 1 · трек 252", "audio":"audio/L26/L26-czytanie-07.mp3", "lines":[
         ["Kolega","Angela, dlaczego jesteś taka zdenerwowana?","Анджело, чому ти така знервована?"],
         ["Angela","Najpierw urwał mi się pasek w sandale. Potem uciekł mi tramwaj. A teraz umieram z głodu, bo sprzedali mi przeterminowany jogurt i muszę go wyrzucić. Co za dzień.","Спершу в мене відірвався ремінець у босоніжці. Потім я не встигла на трамвай. А тепер умираю з голоду, бо мені продали прострочений йогурт, і я мушу його викинути. Що за день."],
         ["Kolega","Nie powinnaś go wyrzucać, tylko reklamować. Gdzie go kupiłaś?","Тобі не варто його викидати, а повернути. Де ти його купила?"],
         ["Angela","Masz rację. To niedaleko. Zdążę przed lekcją.","Маєш рацію. Це недалеко. Встигну до уроку."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 · Dialog 2 · трек 253", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · Dialog 2 · трек 253", "audio":"audio/L26/L26-czytanie-08.mp3", "lines":[
         ["Angela","Dzień dobry. Kupiłam dziś tutaj przeterminowany jogurt.","Добрий день. Я купила тут сьогодні прострочений йогурт."],
         ["Ekspedientka","Proszę pokazać. Faktycznie. Data ważności minęła wczoraj.","Покажіть, будь ласка. Справді. Термін придатності минув учора."],
         ["Angela","No właśnie.","Отож-бо."],
@@ -102,7 +102,7 @@
       ]}
     ]},
     { "block": "C. Wypadek i kradzież — пригода та крадіжка", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · трек 254", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · трек 254", "audio":"audio/L26/L26-czytanie-09.mp3", "lines":[
         ["Ania","Halo?","Алло?"],
         ["Javier","Cześć Aniu. Nie dojadę na czas do szkoły. Czy mogłabyś poprowadzić za mnie lekcję?","Привіт, Аню. Я не встигну до школи. Чи могла б ти провести за мене урок?"],
         ["Ania","Tak, mogłabym. Jesteś zdenerwowany. Czy coś się stało?","Так, могла б. Ти знервований. Щось сталося?"],
@@ -112,7 +112,7 @@
         ["Ania","Czy wszystko w porządku?","Усе гаразд?"],
         ["Javier","Ze mną tak. Tylko samochód jest trochę uszkodzony. Teraz czekamy na policję. A potem chciałbym od razu pojechać do warsztatu samochodowego.","Зі мною так. Тільки машина трохи пошкоджена. Зараз чекаємо на поліцію. А потім хотів би відразу поїхати в автомайстерню."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 1 · трек 255", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 1 · трек 255", "audio":"audio/L26/L26-czytanie-10.mp3", "lines":[
         ["Koleżanka","Javier? Co się stało?","Хав’єре? Що сталося?"],
         ["Javier","Zgubiłem notatki Angeli.","Я загубив конспект Анджели."],
         ["Koleżanka","To masz pecha. Angela miała zły dzień i na pewno nie będzie zadowolona. Może je zostawiłeś w domu?","Тобі не щастить. У Анджели був поганий день, і вона точно не зрадіє. Може, ти залишив його вдома?"],
@@ -123,7 +123,7 @@
         ["Javier","Potem wsiadłem do tramwaju i też rozmawiałem z jakąś dziewczyną. I potem wysiadłem i... i gdzieś zgubiłem te notatki.","Потім я сів у трамвай і теж розмовляв з якоюсь дівчиною. А потім вийшов і... і десь загубив той конспект."],
         ["Koleżanka","Wiesz... jesteś zupełnie nieodpowiedzialny. Powinieneś zadzwonić do biura rzeczy znalezionych MPK. Jeśli zostawiłeś je w tramwaju, to może ktoś odda.","Знаєш... ти зовсім безвідповідальний. Тобі варто подзвонити в бюро знахідок MPK. Якщо ти залишив його в трамваї, то, може, хтось поверне."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 8 · трек 256", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 8 · трек 256", "audio":"audio/L26/L26-czytanie-11.mp3", "lines":[
         ["Urzędnik","Słucham pana.","Слухаю Вас."],
         ["Mężczyzna","Ktoś ukradł mi portfel.","Хтось украв у мене гаманець."],
         ["Urzędnik","Gdzie to się stało?","Де це сталося?"],

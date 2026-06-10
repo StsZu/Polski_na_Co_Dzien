@@ -36,7 +36,7 @@
   ],
   "czytanie": [
     { "block": "A. Parasol noś i przy pogodzie", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 165", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 165", "audio":"audio/L16/L16-czytanie-01.mp3", "lines":[
         ["Angela","Cześć!","Привіт!"],
         ["Mami","...","..."],
         ["Angela","CZEŚĆ!!! Czego słuchasz?","ПРИВІТ!!! Що ти слухаєш?"],
@@ -47,14 +47,14 @@
         ["Mami","Ja lubię „Jesień”. Szkoda, że złota polska jesień już się skończyła.","Я люблю «Осінь». Шкода, що золота польська осінь уже скінчилася."],
         ["Angela","Szkoda. Ale do wiosny niedaleko! Jeszcze dwa miesiące i będzie zielono!","Шкода. Але до весни недалеко! Ще два місяці — і буде зелено!"]
       ]},
-      { "type":"dia", "title":"Dialog 2 · трек 166", "lines":[
+      { "type":"dia", "title":"Dialog 2 · трек 166", "audio":"audio/L16/L16-czytanie-02.mp3", "lines":[
         ["Mami","Czy mamy plan na weekend?","У нас є план на вихідні?"],
         ["Uwe","To zależy od pogody. Może być ładnie, ale też może być brzydko. Jesteśmy w Polsce, he, he.","Це залежить від погоди. Може бути гарно, але може бути й кепсько. Ми ж у Польщі, хе-хе."],
         ["Mami","A konkretnie?","А конкретно?"],
         ["Uwe","A konkretnie to musimy sprawdzić prognozę pogody. Ja mogę w Internecie. Javier, ty w gazecie, Angela w radiu, a Mami w telewizji po wiadomościach. I zobaczymy!","А конкретно — треба перевірити прогноз погоди. Я можу в Інтернеті. Хав’єре, ти в газеті, Анджела по радіо, а Мамі по телевізору після новин. І побачимо!"],
         ["Mami","Dobry pomysł! Uwe, ty to umiesz organizować pracę jak prawdziwy biznesmen.","Гарна ідея! Уве, ти вмієш організовувати роботу, як справжній бізнесмен."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 4 · prognozy z mediów · трек 167", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 4 · prognozy z mediów · трек 167", "audio":"audio/L16/L16-czytanie-03.mp3", "lines":[
         ["Uwe","Mam dobrą wiadomość! Weekend będzie fantastyczny! Zimno: mróz około 10 stopni Celsjusza poniżej zera, ale będzie świecić słońce, i – Javier – specjalnie dla ciebie będzie padać śnieg! Możemy pojechać do Zakopanego.","Маю добру новину! Вихідні будуть фантастичні! Холодно: мороз близько 10 градусів за Цельсієм нижче нуля, але світитиме сонце, і — Хав’єре — спеціально для тебе йтиме сніг! Можемо поїхати в Закопане."],
         ["Javier","O, serio? W gazecie pisali, że: zero słońca, będzie pochmurno, zero śniegu, będzie padać deszcz, no i rano mgła jak w Londynie.","О, серйозно? У газеті писали, що: нуль сонця, буде похмуро, нуль снігу, йтиме дощ, ну і вранці туман, як у Лондоні."],
         ["Angela","Jest szansa, że będzie OK. W radiu mówili, że temperatura idzie do góry: będzie ciepło, ale niestety będzie wiać silny wiatr, no i wieczorem może być burza.","Є шанс, що буде ОК. По радіо казали, що температура йде вгору: буде тепло, але, на жаль, дутиме сильний вітер, ну і ввечері може бути гроза."],
@@ -62,41 +62,41 @@
         ["Mami","Pan Maj ma barometr i codziennie rano ogląda, jakie jest ciśnienie. A potem mówi, że jest zmęczony, nie chce iść do pracy i ma migrenę, bo ciśnienie jest za niskie.","Пан Май має барометр і щоранку дивиться, який тиск. А потім каже, що втомлений, не хоче йти на роботу й має мігрень, бо тиск надто низький."],
         ["Javier","O tak, świetnie rozumiem. Też tak często mam, ale teraz już wiem dlaczego!","О так, чудово розумію. У мене теж так часто буває, але тепер я вже знаю чому!"]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 6 · czasowniki pogody — дієслова погоди",
+      { "type":"ref", "title":"Ćwiczenie 6 · czasowniki pogody — дієслова погоди", "audio":"audio/L16/L16-czytanie-04.mp3",
         "words":"PADA: śnieg · deszcz · grad · JEST: chłodno · mróz · pochmurno · ciepło · niskie ciśnienie · ŚWIECI: słońce · WIEJE: wiatr · burza · mgła",
         "note":"Добери правильне дієслово: pada / jest / świeci / wieje." },
-      { "type":"ref", "title":"Ćwiczenie 8 · prognozy A–D · трек 169",
+      { "type":"ref", "title":"Ćwiczenie 8 · prognozy A–D · трек 169", "audio":"audio/L16/L16-czytanie-05.mp3",
         "words":"TEKST A: Małopolska, piękna pogoda · TEKST B: Warszawa, temperatura poniżej zera, opady · TEKST C: cała Polska, rano · TEKST D: Tatry, silny wiatr, ciśnienie niskie i spada",
         "note":"Послухай чотири короткі прогнози й добери до ілюстрацій." }
     ]},
     { "block": "B. Miesiąc styczeń – czas do życzeń", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · 12 miesięcy · трек 170",
+      { "type":"ref", "title":"Ćwiczenie 1 · 12 miesięcy · трек 170", "audio":"audio/L16/L16-czytanie-06.mp3",
         "words":"styczeń → w styczniu · luty → w lutym · marzec → w marcu · kwiecień → w kwietniu · maj → w maju · czerwiec → w czerwcu · lipiec → w lipcu · sierpień → w sierpniu · wrzesień → we wrześniu · październik → w październiku · listopad → w listopadzie · grudzień → w grudniu",
         "note":"Rok ma 12 miesięcy. Прочитай назви місяців і форму «w + місяць»." }
     ]},
     { "block": "C. Dzieci najmilsze, gdy śpią — czas przyszły", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 171", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 171", "audio":"audio/L16/L16-czytanie-07.mp3", "lines":[
         ["Patrycja","Mów, co słychać w pracy? Mam nadzieję, że wszystko w porządku?","Розкажи, що чувати на роботі? Сподіваюся, все гаразд?"],
         ["Anna","Nic nowego. O, przepraszam, za tydzień będziemy robić w szkole remont – malowanie, nowe drzwi i okna, renowacja parkietu.","Нічого нового. О, перепрошую, через тиждень робитимемо в школі ремонт — фарбування, нові двері й вікна, реставрація паркету."],
         ["Patrycja","A studenci, gdzie będą się uczyć? Będziecie chodzić z nimi do pubu czy do parku?","А студенти, де вони вчитимуться? Ви ходитимете з ними в паб чи в парк?"],
         ["Anna","Dobre pytanie, nie wiem! Będę musiała zapytać szefa. A, jutro będę robić ze studentami „Andrzejki”. Wiesz, cykl „Polskie tradycje”. Będziesz mogła przyjść?","Гарне питання, не знаю! Доведеться запитати шефа. А, завтра робитиму зі студентами «Андріївки». Знаєш, цикл «Польські традиції». Зможеш прийти?"],
         ["Patrycja","Będę chciała, ale sama rozumiesz: nie znam dnia ani godziny…","Захочу, але сама розумієш: не знаю ні дня, ні години…"]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 2 · czas przyszły — встав форми",
+      { "type":"ref", "title":"Ćwiczenie 2 · czas przyszły — встав форми", "audio":"audio/L16/L16-czytanie-08.mp3",
         "words":"On nie będzie tego tolerować. · My będziemy tam na pewno, a wy? · Oni będą pracować razem. · Ja nie będę miała czasu, może ty? · Czy (ty) będziesz oglądać ten film? · Ona będzie czekać na was tylko 10 minut. · One będą spacerować w galerii handlowej. · Wy będziecie pisać, a one będą czytać.",
         "note":"Утвори майбутній час дієслова «być»." },
-      { "type":"ref", "title":"Ćwiczenie 5 · móc / chcieć / musieć — трек по моделі",
+      { "type":"ref", "title":"Ćwiczenie 5 · móc / chcieć / musieć — трек по моделі", "audio":"audio/L16/L16-czytanie-09.mp3",
         "words":"Anna będzie musiała zapytać szefa. · Studenci nie będą mogli mieć lekcji w szkole. · Anna będzie chciała zorganizować fajną imprezę. · Aneta nie będzie mogła przyjść. · Sylwia będzie chciała pojechać do domu. · Dominika będzie musiała zostać w domu.",
         "note":"będzie + форма минулого часу (mógł/mogła, chciał/chciała, musiał/musiała)." }
     ]},
     { "block": "D. W dzień świętego Andrzeja — andrzejki", "items": [
-      { "type":"dia", "title":"Tekst · wróżby andrzejkowe", "lines":[
+      { "type":"dia", "title":"Tekst · wróżby andrzejkowe", "audio":"audio/L16/L16-czytanie-10.mp3", "lines":[
         ["Tekst","Ta noc zawsze była bardzo specjalna, magiczna. Dziewczyny, które nie miały męża (czyli panny) wróżyły, co będzie w następnym roku.","Ця ніч завжди була особлива, магічна. Дівчата, які не мали чоловіка (тобто панни), ворожили, що буде наступного року."],
         ["Tekst","„Wróżyć” to znaczy mówić, co BĘDZIE – a mówić mogą karty, tarot, horoskop. Te wróżby zwykle miały charakter matrymonialny (kiedy panny wyjdą za mąż).","«Ворожити» означає казати, що БУДЕ — а казати можуть карти, таро, гороскоп. Ці ворожіння зазвичай мали матримоніальний характер (коли панни вийдуть заміж)."],
         ["Jak to zrobić?","Proszę kupić normalne, białe świece. Dać je do garnka i „gotować”. Ta masa to wosk. Następnie proszę lać wosk przez klucz do zimnej wody.","Як це зробити? Купіть звичайні білі свічки. Покладіть їх у каструлю й «варіть». Ця маса — це віск. Далі лийте віск через ключ у холодну воду."],
         ["Jak to zrobić?","Twardą masę bierzemy do ręki i oglądamy cień jej formy na ścianie. Ważna jest fantazja. Co będzie? Nikt nie wie… Masz smoka? Może będziesz mieszkać w Krakowie?","Тверду масу беремо в руку й розглядаємо тінь її форми на стіні. Важлива фантазія. Що буде? Ніхто не знає… Маєш дракона? Може, житимеш у Кракові?"]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 1 · co oni będą robić w przyszłym roku?",
+      { "type":"ref", "title":"Ćwiczenie 1 · co oni będą robić w przyszłym roku?", "audio":"audio/L16/L16-czytanie-11.mp3",
         "words":"pracować · podróżować · uprawiać sport · robić zakupy · zwiedzać Paryż · grać koncerty · mieć dziecko",
         "note":"Утвори речення в майбутньому часі: «Będzie / będą + інфінітив»." }
     ]}

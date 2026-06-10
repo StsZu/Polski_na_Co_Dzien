@@ -36,25 +36,25 @@
   ],
   "czytanie": [
     { "block": "A. Dokąd można pojechać na weekend?", "items": [
-      { "type":"ref", "title":"Wstęp · plan wycieczki",
+      { "type":"ref", "title":"Wstęp · plan wycieczki", "audio":"audio/L20/L20-czytanie-01.mp3",
         "words":"Javier marzył o podróżach weekendowych po Polsce. Grupa ma warsztaty geograficzne i zadanie domowe: zrobić plan wycieczki na weekend. Najlepszy projekt będzie zrealizowany!",
         "note":"Прочитай вступ уголос." },
-      { "type":"ref", "title":"Kierunki geograficzne · mapa Polski",
+      { "type":"ref", "title":"Kierunki geograficzne · mapa Polski", "audio":"audio/L20/L20-czytanie-02.mp3",
         "words":"na północy · na południu · na wschodzie · na zachodzie · na północnym wschodzie · na północnym zachodzie · na południowym wschodzie · na południowym zachodzie",
         "note":"Міста: Szczecin, Gdańsk, Olsztyn, Poznań, Warszawa, Wrocław, Kielce, Lublin, Kraków, Rzeszów." },
-      { "type":"ref", "title":"Wielka encyklopedia Europy: Polska",
+      { "type":"ref", "title":"Wielka encyklopedia Europy: Polska", "audio":"audio/L20/L20-czytanie-03.mp3",
         "words":"Rzeczpospolita Polska leży w Europie Środkowej. Graniczy z Niemcami na zachodzie, Czechami i Słowacją na południu, Ukrainą i Białorusią na wschodzie, z Litwą i Rosją na północy. Stolica to Warszawa, symbolem miasta jest syrena. Polska leży nad Morzem Bałtyckim, wpływa do niego Wisła – najdłuższa polska rzeka.",
         "note":"Гори: Tatry (Zakopane), Beskidy, Sudety, Bieszczady. Регіон Mazury — «Kraina tysiąca jezior»." },
-      { "type":"ref", "title":"Ćwiczenie 6 · co to jest?",
+      { "type":"ref", "title":"Ćwiczenie 6 · co to jest?", "audio":"audio/L20/L20-czytanie-04.mp3",
         "words":"skała · mur · szczyt · wyspa · brama · góry · las · cegła · morze · jezioro · schronisko · szlak · ziemia · most · kamienica" },
-      { "type":"ref", "title":"Ćwiczenie 7 · atrakcje turystyczne",
+      { "type":"ref", "title":"Ćwiczenie 7 · atrakcje turystyczne", "audio":"audio/L20/L20-czytanie-05.mp3",
         "words":"Morskie Oko · Wieliczka · Spływ Dunajcem · Zamość · Malbork · Toruń · Kanał Elbląski · Puszcza Białowieska",
         "note":"Прочитай назви й добери до описів." }
     ]},
     { "block": "B. Dworzec PKP", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · bilety i pociągi",
+      { "type":"ref", "title":"Ćwiczenie 1 · bilety i pociągi", "audio":"audio/L20/L20-czytanie-06.mp3",
         "words":"bilet normalny (za 100% ceny) · bilet ulgowy (zniżka dla studentów, emerytów) · bilet tam i z powrotem (w obie strony) · pociąg osobowy (wolny, lokalny) · pociąg pospieszny (szybki, bez rezerwacji) · Intercity (bardzo szybki, z rezerwacją) · pociąg bezpośredni (jednym pociągiem na miejsce) · przesiadka (zmiana pociągu) · wagon (jedzie za lokomotywą) · przedział („pokój” w wagonie) · miejscówka (rezerwacja miejsca)" },
-      { "type":"dia", "title":"Ćwiczenie 2 · W informacji · трек 192–193", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · W informacji · трек 192–193", "audio":"audio/L20/L20-czytanie-07.mp3", "lines":[
         ["Mami","Dzień dobry. Przepraszam, o której godzinie odjeżdża pociąg z Krakowa do Torunia? Chcemy jechać w piątek po południu.","Добрий день. Перепрошую, о котрій годині відходить поїзд із Кракова до Торуня? Хочемо їхати в п’ятницю по обіді."],
         ["Urzędnik","Niestety, nie ma bezpośredniego połączenia. Najpierw trzeba jechać Intercity do Warszawy o 14:00, a potem pospiesznym do Torunia. Na przesiadkę jest kwadrans.","На жаль, прямого сполучення немає. Спочатку треба їхати Intercity до Варшави о 14:00, а потім швидким до Торуня. На пересадку — чверть години."],
         ["Mami","Może być, nie za późno. A ile kosztuje bilet? Jesteśmy studentami, ale obcokrajowcami i nie wiem, czy możemy kupić bilet ulgowy.","Підходить, не надто пізно. А скільки коштує квиток? Ми студенти, але іноземці, і не знаю, чи можемо купити пільговий квиток."],
@@ -62,7 +62,7 @@
         ["Mami","O której będziemy na miejscu?","О котрій будемо на місці?"],
         ["Urzędnik","O 19:42.","О 19:42."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 3 · W kasie · трек 194", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · W kasie · трек 194", "audio":"audio/L20/L20-czytanie-08.mp3", "lines":[
         ["Kasjer","Słucham?","Слухаю?"],
         ["Mami","Przepraszam, ile kosztuje bilet normalny do Torunia przez Warszawę?","Перепрошую, скільки коштує повний квиток до Торуня через Варшаву?"],
         ["Kasjer","Intercity Kraków Główny – Warszawa Centralna z miejscówką kosztuje 107 zł. Pospieszny Warszawa – Toruń 42 zł.","Intercity Краків Головний – Варшава Центральна з місцевою резервацією коштує 107 зл. Швидкий Варшава – Торунь 42 зл."],
@@ -73,7 +73,7 @@
       ]}
     ]},
     { "block": "C. Gdzie jesteś? Dokąd jedziesz?", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 195", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 195", "audio":"audio/L20/L20-czytanie-09.mp3", "lines":[
         ["Angela","Halo, Mami, gdzie jesteś?","Алло, Мамі, де ти?"],
         ["Mami","Na dworcu.","На вокзалі."],
         ["Angela","Po co poszłaś na dworzec? Jedziesz dokądś?","Чого ти пішла на вокзал? Кудись їдеш?"],
@@ -85,12 +85,12 @@
         ["Angela","Bo właśnie wszyscy spacerujemy nad Wisłą i rozmawiamy o tej wycieczce. Przyjedź, co?","Бо ми саме всі гуляємо над Віслою й говоримо про цю поїздку. Приїзди, га?"],
         ["Mami","A jak dojadę z dworca nad Wisłę?","А як я доїду з вокзалу над Віслу?"]
       ]},
-      { "type":"ref", "title":"Tabela · gdzie? ↔ dokąd?",
+      { "type":"ref", "title":"Tabela · gdzie? ↔ dokąd?", "audio":"audio/L20/L20-czytanie-10.mp3",
         "words":"GDZIE? w Krakowie · w Tatrach · nad Bałtykiem · na Rynku — DOKĄD? do Krakowa · w Tatry · nad Bałtyk · na Rynek",
         "note":"GDZIE? — miejscownik / narzędnik. DOKĄD? — dopełniacz / biernik." }
     ]},
     { "block": "D. Powtórzenie — dokąd planują wycieczkę?", "items": [
-      { "type":"ref", "title":"Wypowiedzi postaci",
+      { "type":"ref", "title":"Wypowiedzi postaci", "audio":"audio/L20/L20-czytanie-11.mp3",
         "words":"1. Turyści z Zachodu rzadko zwiedzają wschód. No i ta natura! · 2. Uwielbiam wodę i sporty ekstremalne. I górskie powietrze! · 3. W Japonii nie mamy gotyku, a tam jest całe centrum w tym stylu! · 4. To miejsce leży na północy. Lubię zabytki techniki, a ten jest unikatowy. · 5. To niedaleko od Krakowa, ok. 100 km. Dużo ludzi, ale ja to lubię!",
         "note":"Добери: Puszcza Białowieska · Tatry · Toruń · Kanał Elbląski · Wieliczka." }
     ]}

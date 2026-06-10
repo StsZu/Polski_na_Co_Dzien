@@ -33,7 +33,7 @@
   ],
   "czytanie": [
     { "block": "A. Biernik — lista zakupów", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 078", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 078", "audio":"audio/L07/L07-czytanie-01.mp3", "lines":[
         ["Karolina","Mami, co robisz? Masz wolny czas czy jesteś zajęta?","Мамі, що робиш? Маєш вільний час чи зайнята?"],
         ["Mami","Nudzę się...","Нудьгую..."],
         ["Karolina","Może spacer?","Може, прогулянка?"],
@@ -44,16 +44,16 @@
         ["Karol","Sportowe auto?","Спортивне авто?"],
         ["Karolina","Cha, cha, cha, ale mam inteligentnego brata...!","Ха-ха-ха, ну й розумний у мене брат...!"]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 1 · kto to mówi? (biernik)",
+      { "type":"ref", "title":"Ćwiczenie 1 · kto to mówi? (biernik)", "audio":"audio/L07/L07-czytanie-02.mp3",
         "words":"Mam wolny czas. · Mam długą listę. · Mam sportowe auto. · Mam inteligentnego brata.",
         "note":"Зверни увагу на закінчення: długą listę (ж.), inteligentnego brata (ч. живий), wolny czas / sportowe auto (без зміни)." },
-      { "type":"ref", "title":"Ćwiczenie 2 · czasowniki + biernik",
+      { "type":"ref", "title":"Ćwiczenie 2 · czasowniki + biernik", "audio":"audio/L07/L07-czytanie-03.mp3",
         "words":"czytać gazetę · oglądać telewizję / film · robić zdjęcie / zakupy · gotować zupę / makaron · grać w golfa / piłkę nożną · kupować bilet / kawę / chleb · pisać list / zdanie · lubić kawę / sport / muzykę" }
     ]},
     { "block": "B. Kiosk", "items": [
-      { "type":"ref", "title":"Lista zakupów (kiosk)",
+      { "type":"ref", "title":"Lista zakupów (kiosk)", "audio":"audio/L07/L07-czytanie-04.mp3",
         "words":"Gazeta Krakowska · mała mapa · czerwony długopis · miętowa guma do żucia · bilet normalny · kolorowy magazyn" },
-      { "type":"dia", "title":"Dialog 1 · трек 079", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 079", "audio":"audio/L07/L07-czytanie-05.mp3", "lines":[
         ["Mami","Dzień dobry. Czy jest „Gazeta Krakowska”?","Добрий день. Чи є «Gazeta Krakowska»?"],
         ["Pani","Tak, jest.","Так, є."],
         ["Mami","Proszę „Gazetę Krakowską”. Ile kosztuje?","Дайте «Gazetę Krakowską». Скільки коштує?"],
@@ -66,7 +66,7 @@
         ["Karolina","Nie, Mami, nie studiujesz na uniwersytecie, musisz mieć bilet normalny.","Ні, Мамі, ти не вчишся в університеті, тобі потрібен повний квиток."],
         ["Pani","Czy to wszystko?","Це все?"]
       ]},
-      { "type":"dia", "title":"Dialog · papierosy (czy są…?)", "lines":[
+      { "type":"dia", "title":"Dialog · papierosy (czy są…?)", "audio":"audio/L07/L07-czytanie-06.mp3", "lines":[
         ["Karolina","Czy są papierosy?","Чи є цигарки?"],
         ["Pani","A ile masz lat?","А скільки тобі років?"],
         ["Karolina","Yyy, 17 i pół.","Ееем, 17 з половиною."],
@@ -74,26 +74,26 @@
         ["Karolina","Ale to dla taty!","Але це для тата!"],
         ["Pani","Tak, tak, na pewno. Do widzenia.","Так-так, звісно. До побачення."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · LOTTO · трек 080", "lines":[
+      { "type":"dia", "title":"Dialog 2 · LOTTO · трек 080", "audio":"audio/L07/L07-czytanie-07.mp3", "lines":[
         ["Karolina","O, tu jest LOTTO. Gramy?","О, тут ЛОТО. Граємо?"],
         ["Mami","Nie bardzo rozumiem...","Не дуже розумію..."],
         ["Karolina","To jest loteria. Musimy typować 6 numerów. Limit jest 49. Jeden kupon kosztuje 2 złote. Kiedy dobrze wytypujesz 3 numery, masz 16 złotych! Z loterii możemy mieć DUŻĄ SUMĘ, nie tylko 16 złotych...","Це лотерея. Треба вибрати 6 номерів. Ліміт — 49. Один купон коштує 2 злоті. Якщо правильно вгадаєш 3 номери, маєш 16 злотих! У лотереї можна виграти ВЕЛИКУ СУМУ, не тільки 16 злотих..."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 5–6 · kupony · треки 081–082",
+      { "type":"ref", "title":"Ćwiczenie 5–6 · kupony · треки 081–082", "audio":"audio/L07/L07-czytanie-08.mp3",
         "words":"Kupon 1: 8 · 12 · 20 · 33 · 45 · 49 · Kupon 2: 3 · 7 · 14 · 16 · 28 · 39 · Kupon 3: 2 · 9 · 15 · 19 · 24 · 32 · Kupon 4: 5 · 10 · 11 · 18 · 30 · 41",
         "note":"Прочитай номери вголос — це числа 1–49." },
-      { "type":"ref", "title":"Ćwiczenie 7 · liczebniki 100–1000 · трек 083",
+      { "type":"ref", "title":"Ćwiczenie 7 · liczebniki 100–1000 · трек 083", "audio":"audio/L07/L07-czytanie-09.mp3",
         "words":"sto · dwieście · trzysta · czterysta · pięćset · sześćset · siedemset · osiemset · dziewięćset · tysiąc",
         "note":"Приклади: 212 · 304 · 333 · 405 · 507 · 609 · 721 · 806 · 901 · 1100." }
     ]},
     { "block": "C. Galeria handlowa", "items": [
-      { "type":"ref", "title":"Plan galerii — I piętro",
+      { "type":"ref", "title":"Plan galerii — I piętro", "audio":"audio/L07/L07-czytanie-10.mp3",
         "words":"RTV · piekarnia · odzież · biżuteria · obuwie · herbaciarnia · optyk · fryzjer · cukiernia · biuro podróży · bank · kawiarnia · kwiaciarnia · kiosk · apteka · drogeria · delikatesy · pralnia · AGD" },
-      { "type":"dia", "title":"Tekst · czego chcą? (biernik)", "lines":[
+      { "type":"dia", "title":"Tekst · czego chcą? (biernik)", "audio":"audio/L07/L07-czytanie-11.mp3", "lines":[
         ["—","Karolina interesuje się fotografią i chce nowy aparat fotograficzny, bo stary nie robi dobrych zdjęć. Chce też duży album i kartę pamięci do aparatu, no i może jeszcze ładną torbę na aparat albo statyw.","Кароліна цікавиться фотографією і хоче новий фотоапарат, бо старий не робить добрих знімків. Хоче також великий альбом і карту пам’яті до апарата, ну й, може, ще гарну сумку на апарат або штатив."],
         ["—","Mami chce małą mapę Krakowa, ołówek, czerwony długopis, kolorowy magazyn i kosmetyki.","Мамі хоче маленьку мапу Кракова, олівець, червону ручку, кольоровий журнал і косметику."]
       ]},
-      { "type":"dia", "title":"Dialog · sklep samoobsługowy", "lines":[
+      { "type":"dia", "title":"Dialog · sklep samoobsługowy", "audio":"audio/L07/L07-czytanie-12.mp3", "lines":[
         ["Mami","A gdzie ja mogę kupić... mapę...?","А де я можу купити... мапу...?"],
         ["Karolina","W Empiku. A kosmetyki w drogerii.","В «Empik». А косметику — в магазині косметики."],
         ["Mami","O, nie ma pani ani pana! Dlaczego?","О, немає ні продавчині, ні продавця! Чому?"],
@@ -101,7 +101,7 @@
         ["Mami","Rozumiem, self-service, tak? Jak w restauracji albo w supermarkecie?","Розумію, self-service, так? Як у ресторані чи в супермаркеті?"],
         ["Karolina","Dokładnie!","Саме так!"]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1a · aparat · трек 084", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1a · aparat · трек 084", "audio":"audio/L07/L07-czytanie-13.mp3", "lines":[
         ["Karolina","Dzień dobry.","Добрий день."],
         ["Pan","Dzień dobry, słucham?","Добрий день, слухаю?"],
         ["Karolina","Czy jest dobry, ale niedrogi aparat fotograficzny?","Чи є добрий, але недорогий фотоапарат?"],
@@ -113,7 +113,7 @@
         ["Karolina","Super! Biorę ten. A jest album na fotografie?","Супер! Беру цей. А є альбом для фотографій?"],
         ["Pan","Niestety, nie ma.","На жаль, немає."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1b · kantor · трек 085", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1b · kantor · трек 085", "audio":"audio/L07/L07-czytanie-14.mp3", "lines":[
         ["Karolina","Masz wszystko?","Маєш усе?"],
         ["Mami","Tak, wszystko. Ale nie mam pieniędzy...","Так, усе. Але не маю грошей..."],
         ["Karolina","A masz kartę? Bo tam jest bankomat.","А маєш картку? Бо там є банкомат."],

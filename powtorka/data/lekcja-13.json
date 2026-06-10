@@ -30,7 +30,7 @@
   ],
   "czytanie": [
     { "block": "A. Gdzie byłaś? — krótkie dialogi", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · gdzie byłaś? · трек 136", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · gdzie byłaś? · трек 136", "audio":"audio/L13/L13-czytanie-01.mp3", "lines":[
         ["—","Gdzie byłaś, Mami?","Де ти була, Мамі?"],
         ["Mami","Byłam w kinie.","Я була в кіно."],
         ["—","Byłeś już tu kiedyś?","Ти вже колись тут був?"],
@@ -46,7 +46,7 @@
       ]}
     ]},
     { "block": "B. Jak weekend? — главний діалог", "items": [
-      { "type":"dia", "title":"Dialog 1 · korytarz · трек 137", "lines":[
+      { "type":"dia", "title":"Dialog 1 · korytarz · трек 137", "audio":"audio/L13/L13-czytanie-02.mp3", "lines":[
         ["—","(Jest poniedziałek. Mami i Angela są na korytarzu, piją herbatę. Wchodzi Uwe.)","(Понеділок. Мамі й Анджела в коридорі, п’ють чай. Заходить Уве.)"],
         ["Uwe","Cześć dziewczyny! Co słychać? Jak weekend?","Привіт, дівчата! Як справи? Як вихідні?"],
         ["Angela","Cześć Uwe! Weekend był świetny! W piątek w nocy byłam w Galerii Krakowskiej.","Привіт, Уве! Вихідні були чудові! У п’ятницю вночі я була в Galerii Krakowskiej."],
@@ -70,7 +70,7 @@
       ]}
     ]},
     { "block": "C. Gdzie byłeś, Javier? — поліція в музеї", "items": [
-      { "type":"dia", "title":"Dialog 1 · powitanie · трек 140", "lines":[
+      { "type":"dia", "title":"Dialog 1 · powitanie · трек 140", "audio":"audio/L13/L13-czytanie-03.mp3", "lines":[
         ["Javier","Cześć! Czekacie na mnie? Specjalne powitanie? A gdzie są kwiaty?","Привіт! Чекаєте на мене? Особлива зустріч? А де квіти?"],
         ["—","Javier! Nareszcie jesteś! Gdzie byłeś?","Хав’єре! Нарешті ти тут! Де ти був?"],
         ["Javier","Gdzie byłem? Detektywi! Wszystko chcecie wiedzieć! Zero prywatności!","Де я був? Детективи! Усе хочете знати! Нуль приватності!"],
@@ -79,7 +79,7 @@
         ["—","Gdzie??? W górach???","Де??? У горах???"],
         ["Javier","Tak. W Zakopanem.","Так. У Закопаному."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · w muzeum · трек 141", "lines":[
+      { "type":"dia", "title":"Dialog 2 · w muzeum · трек 141", "audio":"audio/L13/L13-czytanie-04.mp3", "lines":[
         ["Javier","Kilka dni temu byłem w Muzeum Narodowym. Opowiadałaś mi tak dużo o Witkacym, więc musiałem zobaczyć obrazy.","Кілька днів тому я був у Національному музеї. Ти стільки розповідала про Віткаци, що я мусив побачити картини."],
         ["Mami","No proszę! Nie wiedziałam, że to jest tak interesujące dla ciebie. Który obraz ci się podobał?","Ну треба ж! Я не знала, що тобі це так цікаво. Яка картина тобі сподобалась?"],
         ["Javier","Tak naprawdę to nie pamiętam. Byłem w muzeum, widziałem obrazy, ale nie pamiętam nic!","Чесно кажучи, не пам’ятаю. Я був у музеї, бачив картини, але не пам’ятаю нічого!"],
@@ -92,7 +92,7 @@
       ]}
     ]},
     { "block": "D. Mami w domu — co jedliście?", "items": [
-      { "type":"dia", "title":"Dialog · kuchnia · трек 138", "lines":[
+      { "type":"dia", "title":"Dialog · kuchnia · трек 138", "audio":"audio/L13/L13-czytanie-05.mp3", "lines":[
         ["Karolina","Mami, chodź! Mama ugotowała obiad.","Мамі, ходи! Мама зварила обід."],
         ["Mami","Przepraszam, nie jestem głodna. Jadłam mniej więcej godzinę temu. Poszłyśmy dziś z Angelą do japońskiej restauracji.","Вибач, я не голодна. Я їла приблизно годину тому. Ми сьогодні з Анджелою ходили в японський ресторан."],
         ["Karolina","O! I co jadłyście?","О! І що ви їли?"],
@@ -103,10 +103,10 @@
       ]}
     ]},
     { "block": "E. Odmiana — być w czasie przeszłym", "items": [
-      { "type":"ref", "title":"BYĆ · czas przeszły · трек 139",
+      { "type":"ref", "title":"BYĆ · czas przeszły · трек 139", "audio":"audio/L13/L13-czytanie-06.mp3",
         "words":"ja byłem / byłam · ty byłeś / byłaś · on był · ona była · ono było · my byliśmy / byłyśmy · wy byliście / byłyście · oni byli · one były",
         "note":"Звертай увагу на рід: -em/-eś/-ł (ч.) · -am/-aś/-ła (ж.)." },
-      { "type":"ref", "title":"Ćwiczenie 3 · był / była / było · трек 139",
+      { "type":"ref", "title":"Ćwiczenie 3 · był / była / było · трек 139", "audio":"audio/L13/L13-czytanie-07.mp3",
         "words":"Byliśmy na koncercie. · Pani Maj była rano na zakupach. · Karolina i Mami były w kinie. · Karol był na siłowni. · Karol i Karolina byli w szkole. · Czy byliście w Krakowie? · Wczoraj byłyśmy na wystawie. · Wczoraj było brzydko. · Gdzie był Javier?" }
     ]}
   ],

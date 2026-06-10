@@ -36,7 +36,7 @@
   ],
   "czytanie": [
     { "block": "A. Co słychać? Nowy student", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · трек 054", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · трек 054", "audio":"audio/L04/L04-czytanie-01.mp3", "lines":[
         ["Mami","Cześć Javier.","Привіт, Хав’єре."],
         ["Javier","Cześć Mami. Co słychać?","Привіт, Мамі. Як справи?"],
         ["Mami","Wszystko w porządku. A u ciebie?","Усе гаразд. А в тебе?"],
@@ -44,7 +44,7 @@
         ["Mami","Nie, nie wiem. Ale myślę, że to jest nowy student.","Ні, не знаю. Але думаю, що це новий студент."],
         ["Javier","Hmm. Ciekawe, czy jest w naszej grupie.","Хм. Цікаво, чи він у нашій групі."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Pierre · трек 055", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Pierre · трек 055", "audio":"audio/L04/L04-czytanie-02.mp3", "lines":[
         ["Pierre","Hola.","Hola (привіт ісп.)."],
         ["Mami","Przepraszam, nie rozumiem.","Перепрошую, не розумію."],
         ["Javier","Mami, mówimy po polsku.","Мамі, ми говоримо польською."],
@@ -63,16 +63,16 @@
       ]}
     ]},
     { "block": "C. Jaki jesteś? — opis osoby", "items": [
-      { "type":"dia", "title":"Dialog 1 · Adam · трек 056", "lines":[
+      { "type":"dia", "title":"Dialog 1 · Adam · трек 056", "audio":"audio/L04/L04-czytanie-03.mp3", "lines":[
         ["—","(Angela i Mami robią herbatę i rozmawiają na korytarzu.)","(Анджела й Мамі роблять чай і розмовляють у коридорі.)"],
         ["Angela","Mami, dlaczego jesteś dziś smutna?","Мамі, чому ти сьогодні сумна?"],
         ["Mami","Smutna? Nie. Nie jestem smutna. Tylko myślę. Intensywnie myślę o Adamie.","Сумна? Ні. Я не сумна. Просто думаю. Інтенсивно думаю про Адама."],
         ["Angela","Kto to jest Adam?","Хто такий Адам?"],
         ["Mami","Ach. Adam to kolega Karola. Jest wysoki, przystojny, wysportowany, sympatyczny. Planuje studiować japonistykę. Już trochę mówi po japońsku. Jest tylko jeden problem. Niestety. Ma dziewczynę.","Ах. Адам — колега Кароля. Він високий, вродливий, спортивний, симпатичний. Планує вивчати японістику. Уже трохи говорить японською. Є лише одна проблема. На жаль. Він має дівчину."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 2 · przymiotniki · трек 057",
+      { "type":"ref", "title":"Ćwiczenie 2 · przymiotniki · трек 057", "audio":"audio/L04/L04-czytanie-04.mp3",
         "words":"pracowity · leniwy · gruby · szczupły · wysoki · niski · średniego wzrostu · wesoła · smutna · przystojny · ładna · brzydka · zmęczony · wysportowany · stary · młody · zdrowa · chora · czysta · brudna" },
-      { "type":"dia", "title":"Dialog 2 · lektorka · трек 058", "lines":[
+      { "type":"dia", "title":"Dialog 2 · lektorka · трек 058", "audio":"audio/L04/L04-czytanie-05.mp3", "lines":[
         ["—","(Jest przerwa. Javier, Angela i Mami rozmawiają na korytarzu.)","(Перерва. Хав’єр, Анджела й Мамі розмовляють у коридорі.)"],
         ["Javier","Wiecie, kto to jest?","Знаєте, хто це?"],
         ["Angela","Ja wiem. To jest lektorka języka hiszpańskiego.","Я знаю. Це викладачка іспанської мови."],
@@ -83,7 +83,7 @@
         ["Mami","To jest twoja koleżanka?","Це твоя подруга?"],
         ["Javier","Nie, to nie jest moja koleżanka. Ale ona jest z Hiszpanii. Jestem pewny, że ona jest energiczna, spontaniczna i bardzo sympatyczna.","Ні, це не моя подруга. Але вона з Іспанії. Я впевнений, що вона енергійна, спонтанна і дуже симпатична."]
       ]},
-      { "type":"ref", "title":"Internacjonalizmy · трек 059",
+      { "type":"ref", "title":"Internacjonalizmy · трек 059", "audio":"audio/L04/L04-czytanie-06.mp3",
         "words":"agresywny · aktywny · ambitny · atrakcyjny · energiczny · inteligentny · romantyczny · sfrustrowany · spontaniczny · utalentowany · zestresowany · kreatywny",
         "note":"Прочитай інтернаціоналізми вголос — вони схожі на українські." }
     ]}

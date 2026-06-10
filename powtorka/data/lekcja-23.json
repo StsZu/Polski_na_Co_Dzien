@@ -35,7 +35,7 @@
   ],
   "czytanie": [
     { "block": "A. Nie mam się w co ubrać!", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · трек 217", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · трек 217", "audio":"audio/L23/L23-czytanie-01.mp3", "lines":[
         ["Angela","Czy możemy usiąść na chwilę? Jestem już potwornie zmęczona.","Можемо присісти на хвильку? Я вже страшенно втомлена."],
         ["Mami","Jasne, ale tylko na chwilę. Pół godziny na herbatę wystarczy?","Звісно, але тільки на хвильку. Пів години на чай вистачить?"],
         ["Angela","Mam nadzieję. Czy możesz mi powiedzieć, dlaczego od kilku godzin biegamy po sklepach?","Сподіваюся. Можеш мені сказати, чому ми вже кілька годин бігаємо по магазинах?"],
@@ -47,7 +47,7 @@
         ["Angela","Chyba nie rozumiem. A czego konkretnie szukamy? Sukienki, spodni, kostiumu?","Мабуть, не розумію. А чого конкретно шукаємо? Сукні, штанів, костюма?"],
         ["Mami","Jeszcze nie wiem. Ale ma to być olśniewające.","Ще не знаю. Але це має бути приголомшливе."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · 5 dialogów · трек 218", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · 5 dialogów · трек 218", "audio":"audio/L23/L23-czytanie-02.mp3", "lines":[
         ["Mami","Może ta?","Може, ця?"],
         ["Angela","Ta sukienka jest okropna! — Raczej stylowa! — To nie jest ani mój fason, ani moje kolory!","Ця сукня жахлива! — Радше стильна! — Це ні мій фасон, ні мої кольори!"],
         ["Mami","To jest interesujące! A co to jest?","Це цікаво! А що це?"],
@@ -59,24 +59,24 @@
         ["Mami","To może klasyczny kostium?","То, може, класичний костюм?"],
         ["Angela","Ładny kolor i fason w porządku.","Гарний колір і фасон нормальний."]
       ]},
-      { "type":"ref", "title":"Słownictwo · ubrania",
+      { "type":"ref", "title":"Słownictwo · ubrania", "audio":"audio/L23/L23-czytanie-03.mp3",
         "words":"sukienka · spodnie · szorty · kurtka · płaszcz · sweter · żakiet · kamizelka · golf · spódnica · podkoszulek · marynarka · koszula · dres",
         "note":"garnitur = spodnie + marynarka (чоловічий костюм) · kostium = spódnica + żakiet (жіночий костюм)." }
     ]},
     { "block": "B. Za krótkie? Za długie?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 219", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 1 · трек 219", "audio":"audio/L23/L23-czytanie-04.mp3", "lines":[
         ["Kriss","Masz doskonałą figurę, więc możemy szukać krótkiej sukienki lub spódnicy.","Маєш чудову фігуру, тож можемо шукати коротку сукню або спідницю."],
         ["Angela","Dobrze, tylko żeby nie była za krótka. Styl minimalistyczny odpowiada mi tylko w mieszkaniu.","Добре, тільки щоб не була закоротка. Мінімалістичний стиль мені пасує лише вдома."],
         ["Kriss","Jak sobie życzysz kochana, nie za długa, nie za krótka, znajdziemy więc taką w sam raz.","Як забажаєш, люба, не задовга, не закоротка, знайдемо саме якраз."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 220", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · Dialog 2 · трек 220", "audio":"audio/L23/L23-czytanie-05.mp3", "lines":[
         ["Angela","Czy nie uważasz, że te rękawy są za długie?","Тобі не здається, що ці рукави задовгі?"],
         ["Kriss","Kochanie, takie rękawy są najmodniejsze w tym sezonie! Wyglądasz bosko!","Любонько, такі рукави наймодніші цього сезону! Виглядаєш божественно!"],
         ["Angela","Tak? Nie jestem przekonana, wolę rękawy bardziej dopasowane, ale zaufam ci. A wy, dziewczyny, co myślicie?","Так? Я не переконана, волію рукави більш припасовані, але довірюся тобі. А ви, дівчата, що думаєте?"],
         ["Mami","Wyglądasz pięknie!","Виглядаєш гарно!"],
         ["Karolina","Super! Ta sukienka pasuje idealnie do twojej figury!","Супер! Ця сукня ідеально пасує до твоєї фігури!"]
       ]},
-      { "type":"dia", "title":"Dialog 1 · w przymierzalni · трек 221", "lines":[
+      { "type":"dia", "title":"Dialog 1 · w przymierzalni · трек 221", "audio":"audio/L23/L23-czytanie-06.mp3", "lines":[
         ["Karolina","Szybko poszło! Angela jest już ubrana, więc…","Швидко вийшло! Анджела вже одягнена, тож…"],
         ["Kriss","Ależ nie! Musimy jeszcze kupić buty i dodatki! Koniecznie jakąś malutką torebkę, szeroki pasek, może jakąś biżuterię.","Та ні! Мусимо ще купити взуття й аксесуари! Обов’язково якусь маленьку сумочку, широкий ремінь, може, якусь біжутерію."],
         ["Karolina","A możesz wcześniej jeszcze nam doradzić?","А можеш спершу ще нам порадити?"],
@@ -89,7 +89,7 @@
         ["Karolina","A ja jak wyglądam w tej bluzce?","А я як виглядаю в цій блузці?"],
         ["Kriss","Fason świetny, rozmiar idealny, ale kolor! Okropny! Masz jasne włosy — lepiej będziesz wyglądała w bardziej intensywnym kolorze. O! W tym zielonym albo w tej fioletowej! Fiolet jest najmodniejszy!","Фасон чудовий, розмір ідеальний, але колір! Жахливий! Маєш світле волосся — краще виглядатимеш у яскравішому кольорі. О! У цьому зеленому або в цій фіолетовій! Фіолет наймодніший!"]
       ]},
-      { "type":"dia", "title":"Dialog 2 · kupno butów · трек 222", "lines":[
+      { "type":"dia", "title":"Dialog 2 · kupno butów · трек 222", "audio":"audio/L23/L23-czytanie-07.mp3", "lines":[
         ["Kriss","Myślę, że te będą idealne!","Думаю, ці будуть ідеальні!"],
         ["Angela","Chciałabym przymierzyć te buty.","Я хотіла б приміряти ці туфлі."],
         ["Sprzedawczyni","Oczywiście, jaki rozmiar?","Звичайно, який розмір?"],
@@ -99,22 +99,22 @@
         ["Sprzedawczyni","Zaraz sprawdzę. Są, proszę.","Зараз перевірю. Є, прошу."],
         ["Angela","Świetnie! Te są w sam raz!","Чудово! Ці саме якраз!"]
       ]},
-      { "type":"ref", "title":"Gramatyka · stopniowanie przymiotników",
+      { "type":"ref", "title":"Gramatyka · stopniowanie przymiotników", "audio":"audio/L23/L23-czytanie-08.mp3",
         "words":"gruby → grubszy → najgrubszy · długi → dłuższy → najdłuższy · wąski → węższy → najwęższy · krótki → krótszy → najkrótszy · szeroki → szerszy → najszerszy · dobry → lepszy → najlepszy · zły → gorszy → najgorszy · duży → większy → największy · mały → mniejszy → najmniejszy · kolorowy → bardziej kolorowy → najbardziej kolorowy",
         "note":"za + przymiotnik = занадто: za krótka, za długa, za mała, za duża, za obcisła, za luźna." },
-      { "type":"ref", "title":"Gramatyka · wiedzieć vs znać",
+      { "type":"ref", "title":"Gramatyka · wiedzieć vs znać", "audio":"audio/L23/L23-czytanie-09.mp3",
         "words":"wiedzieć + питальне слово (kto? jak? ile? gdzie? co?) · znać + biernik (kogo? co? — особа / річ)",
         "note":"Czy wiesz, jak nazywa się stolica Polski? · Czy znasz panią Teresę?" }
     ]},
     { "block": "C. Wyglądasz cudownie!", "items": [
-      { "type":"dia", "title":"Dialog 1 · w restauracji · трек 223", "lines":[
+      { "type":"dia", "title":"Dialog 1 · w restauracji · трек 223", "audio":"audio/L23/L23-czytanie-10.mp3", "lines":[
         ["—","Emily, Kate i Sarah spotkały się z Angelą w eleganckiej restauracji w Krakowie.","Емілі, Кейт і Сара зустрілися з Анджелою в елегантному ресторані в Кракові."],
         ["Emily","Tak dawno cię nie widziałam! Wyglądasz olśniewająco!","Так давно тебе не бачила! Виглядаєш приголомшливо!"],
         ["Kate","To prawda! Jesteś szczuplejsza. Pobyt w Polsce ci służy!","Це правда! Ти стала стрункішою. Перебування в Польщі тобі на користь!"],
         ["Sarah","I masz piękną sukienkę! Gdzie kupiłaś?","І маєш гарну сукню! Де купила?"],
         ["Angela","Dziękuję! Jesteście bardzo miłe! Zaraz wam wszystko opowiem.","Дякую! Ви дуже милі! Зараз вам усе розповім."]
       ]},
-      { "type":"ref", "title":"Komplementy · корисні вирази",
+      { "type":"ref", "title":"Komplementy · корисні вирази", "audio":"audio/L23/L23-czytanie-11.mp3",
         "words":"Wyglądasz olśniewająco / cudownie / pięknie / przepięknie! · Masz piękne oczy / świetne włosy / idealną figurę! · Dobrze ci w tej sukience / tym kolorze / tym fasonie! · Pasuje do twoich oczu / twojej figury!",
         "note":"Потренуй компліменти вголос." }
     ]}

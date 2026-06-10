@@ -32,7 +32,7 @@
   ],
   "czytanie": [
     { "block": "A. Co o tym myślisz? — Що ти про це думаєш?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 2 · bluzka i spodnie · трек 173", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · bluzka i spodnie · трек 173", "audio":"audio/L17/L17-czytanie-01.mp3", "lines":[
         ["Angela","Co myślisz o tej bluzce? Kompletnie nie mam nic ładnego na imprezę u Javiera.","Що думаєш про цю блузку? Зовсім не маю нічого гарного на вечірку в Хав’єра."],
         ["Mami","Świetna! I chyba bardzo modna. Będziesz w niej dobrze wyglądać. Ładnie ci w tym kolorze.","Чудова! І, мабуть, дуже модна. Ти в ній гарно виглядатимеш. Тобі личить цей колір."],
         ["Angela","Myślisz? Czy ja wiem? Nie mam do niej spodni.","Думаєш? Та хто його знає. Не маю до неї штанів."],
@@ -47,23 +47,23 @@
         ["Mami","Ale jesteś dziś marudna! Idziemy! Dokąd chcesz iść?","Ну й вереда ти сьогодні! Ідемо! Куди хочеш піти?"],
         ["Angela","Wszystko jedno. Nie mam zdania.","Все одно. Не маю думки."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 3 · uczucia i opinie — почуття та думки",
+      { "type":"ref", "title":"Ćwiczenie 3 · uczucia i opinie — почуття та думки", "audio":"audio/L17/L17-czytanie-02.mp3",
         "words":"Pozytywne: Podoba mi się. · Będziesz w niej dobrze wyglądać. · Bardzo ładnie wyglądasz. · Ładnie ci w tym kolorze. · Chciałabym mieć taką figurę jak ty. — Negatywne: Denerwuje mnie to. · Irytuje mnie to. · Nie bardzo, grubo w nim wyglądam. · Smutno mi. · Ale jesteś dziś marudna! — Brak opinii: Czy ja wiem? · Nie mogę się zdecydować. · Nie mam zdania. · Wszystko jedno.",
         "note":"Розсортуй фрази на позитивні, негативні та «без думки»." }
     ]},
     { "block": "B. Podoba ci się? — Тобі подобається?", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · intonacja · трек 174",
+      { "type":"ref", "title":"Ćwiczenie 1 · intonacja · трек 174", "audio":"audio/L17/L17-czytanie-03.mp3",
         "words":"Fuj! Co to jest?! Nie podoba mi się to! · Jak tu pięknie! Bardzo mi się podoba! · Strasznie mi zimno! · Ale dziś upał! Gorąco mi! · Nie lubię czekać w korku! · To skandal! Jak tu brudno! · Mieszkam w Krakowie 20 lat i bardzo lubię to miasto. · Chce mi się jeść. Chodźmy na obiad!",
         "note":"Прослухай і повтори з правильною інтонацією; добери речення до фото." },
-      { "type":"ref", "title":"Ćwiczenie 2 · LUBIĘ czy PODOBA MI SIĘ?",
+      { "type":"ref", "title":"Ćwiczenie 2 · LUBIĘ czy PODOBA MI SIĘ?", "audio":"audio/L17/L17-czytanie-04.mp3",
         "words":"LUBIĘ (biernik): herbatę owocową · lody waniliowe · moich przyjaciół · bigos · psy · ten nowy film · moje mieszkanie · filmy Quentina Tarantino · kuchnię włoską · polskie góry. — PODOBA MI SIĘ (mianownik): ta nowa bluzka · ten dom na ulicy · ten obraz w galerii · obrazy Picassa · Portugalia.",
         "note":"«lubię» + biernik (кого/що), «podoba mi się» + mianownik (хто/що сам собою)." },
-      { "type":"ref", "title":"Ćwiczenie 3 · zaimki w celowniku",
+      { "type":"ref", "title":"Ćwiczenie 3 · zaimki w celowniku", "audio":"audio/L17/L17-czytanie-05.mp3",
         "words":"ja → mi · ty → ci · on/ono → mu · ona → jej · my → nam · wy → wam · oni/one → im",
         "note":"Jestem zmęczony i nic mi się nie chce. · Podobało im się. · Smutno mi!" }
     ]},
     { "block": "C. Co o nim myślisz? — Що ти про нього думаєш?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · plotki o Javierze · трек 175", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · plotki o Javierze · трек 175", "audio":"audio/L17/L17-czytanie-06.mp3", "lines":[
         ["Mami","Więc o co chodzi? Dlaczego jesteś smutna?","То в чому річ? Чому ти сумна?"],
         ["Angela","A takie tam, różne sprawy rodzinne. Ale nie chcę o nich mówić.","Та так, різні сімейні справи. Але не хочу про них говорити."],
         ["Mami","Czy mogę ci pomóc?","Чи можу тобі допомогти?"],
@@ -83,18 +83,18 @@
         ["Mami","Nieprawda!","Неправда!"],
         ["Angela","Prawda, prawda.","Правда, правда."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 4 · deklinacja zaimków osobowych",
+      { "type":"ref", "title":"Ćwiczenie 4 · deklinacja zaimków osobowych", "audio":"audio/L17/L17-czytanie-07.mp3",
         "words":"Mianownik: ja, ty, on, ona, ono, my, wy, oni, one · Dopełniacz: mnie, ciebie/cię, jego/go/niego, jej/niej, jego/niego, nas, was, ich/nich, ich/nich · Celownik: mnie/mi, tobie/ci, jemu/mu/niemu, jej/niej, jemu/niemu, nam, wam, im/nim, im/nim · Biernik: mnie, cię/ciebie, go/jego/niego, ją/nią, je/nie, nas, was, ich/nich, je/nie · Narzędnik: mną, tobą, nim, nią, nim, nami, wami, nimi, nimi · Miejscownik: mnie, tobie, nim, niej, nim, nas, was, nich, nich",
         "note":"Lubię go. · Dziękuję ci. · Idę do niego. · Czekam na nią. · Kocham tylko jego (emfaza)." }
     ]},
     { "block": "D. Co mu kupić? — Що йому купити?", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · prezent dla Javiera · трек 176",
+      { "type":"ref", "title":"Ćwiczenie 1 · prezent dla Javiera · трек 176", "audio":"audio/L17/L17-czytanie-08.mp3",
         "words":"słownik języka polskiego · książka kucharska · płyta z polską muzyką jazzową · torba ekologiczna z aplikacją · płyta z polską muzyką rockową · t-shirt z aplikacją · płyta z polską muzyką folkową · album ze zdjęciami · kubek · obraz · biżuteria z bursztynu · film DVD",
         "note":"Mami i Angela wybierają prezent dla Javiera. Co planują kupić? Co w końcu kupują?" },
-      { "type":"ref", "title":"Ćwiczenie 2 · wyrażenia z dialogu · трек 177",
+      { "type":"ref", "title":"Ćwiczenie 2 · wyrażenia z dialogu · трек 177", "audio":"audio/L17/L17-czytanie-09.mp3",
         "words":"Co myślisz o słowniku języka polskiego? · To bez sensu. · Musimy wybrać coś specjalnego. · Może jakąś płytę? · Wszystko jedno. · Nie, to zły pomysł. · Świetny pomysł! · Nie znamy się na... · Ja wolę rock. · Idealnie! · Lepiej coś egzotycznego. · To banalne.",
         "note":"Прослухай діалог і познач фрази, які в ньому звучать." },
-      { "type":"ref", "title":"Ćwiczenie 3 · prezent z Krakowa — для кого?",
+      { "type":"ref", "title":"Ćwiczenie 3 · prezent z Krakowa — для кого?", "audio":"audio/L17/L17-czytanie-10.mp3",
         "words":"srebrna biżuteria z bursztynu · oscypek · tradycyjna haftowana bluzka · miód · grzane wino · precel krakowski · książka do słuchania · książka ze zdjęciami z Polski",
         "note":"Dla eleganckiej kobiety, dla starszej pani, dla wujka z Ameryki, dla rodziny z zimnej Kanady, dla dziadka (medycyna naturalna), dla kuzynki (folklor)..." }
     ]}

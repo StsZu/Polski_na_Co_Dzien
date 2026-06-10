@@ -35,7 +35,7 @@
   ],
   "czytanie": [
     { "block": "A. Mami je śniadanie", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 087", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 087", "audio":"audio/L08/L08-czytanie-01.mp3", "lines":[
         ["Karolina","Mami! Dzień dobry! Czy ty jeszcze śpisz?","Мамі! Добрий день! Ти ще спиш?"],
         ["Mami","Nie, już nie śpię. Proszę wejść!","Ні, вже не сплю. Заходь, будь ласка!"],
         ["Karolina","Mami, co chcesz na śniadanie?","Мамі, що ти хочеш на сніданок?"],
@@ -44,10 +44,10 @@
         ["Mami","Ja? Wszystko, nie ma problemu.","Я? Все, без проблем."],
         ["Karolina","To fajnie.","Це класно."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 1 · śniadanie · трек 088",
+      { "type":"ref", "title":"Ćwiczenie 1 · śniadanie · трек 088", "audio":"audio/L08/L08-czytanie-02.mp3",
         "words":"chleb · bułka · biały ser · żółty ser · jogurt · mleko · masło · margaryna · dżem · miód · jajko · szynka · kiełbasa · płatki śniadaniowe · pomidor · ogórek · kawa · herbata · sok pomarańczowy · kakao · cukier · sól · pieprz · cytryna",
         "note":"Прочитай назви продуктів уголос." },
-      { "type":"dia", "title":"Ćwiczenie 3 · wolisz jasny czy ciemny? · трек 089", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · wolisz jasny czy ciemny? · трек 089", "audio":"audio/L08/L08-czytanie-03.mp3", "lines":[
         ["Karolina","Mami, wolisz jasny czy ciemny chleb?","Мамі, тобі більше до вподоби світлий чи темний хліб?"],
         ["Mami","Wolisz? Nie rozumiem.","«Wolisz»? Не розумію."],
         ["Karolina","Wolisz… yyy, no preferujesz, bardziej lubisz.","«Wolisz»… ну, віддаєш перевагу, більше любиш."],
@@ -71,7 +71,7 @@
         ["Karolina","Z majonezem?","З майонезом?"],
         ["Mami","Tak, chętnie.","Так, залюбки."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · malinowy · трек 090", "lines":[
+      { "type":"dia", "title":"Dialog 2 · malinowy · трек 090", "audio":"audio/L08/L08-czytanie-04.mp3", "lines":[
         ["Tata","Cześć. Jecie już śniadanie?","Привіт. Ви вже снідаєте?"],
         ["Karolina","Tak, jest już późno.","Так, уже пізно."],
         ["Tata","Smacznego.","Смачного."],
@@ -90,7 +90,7 @@
         ["Mami","Myślę, że tak. Malinaowy.","Думаю, що так. Malinaowy."],
         ["Tata","Nie, nie. Malinowy.","Ні, ні. Malinowy."]
       ]},
-      { "type":"dia", "title":"Dialog 3 · co pijecie? · трек 091", "lines":[
+      { "type":"dia", "title":"Dialog 3 · co pijecie? · трек 091", "audio":"audio/L08/L08-czytanie-05.mp3", "lines":[
         ["Tata","Co pijecie?","Що ви п’єте?"],
         ["Karolina","Poproszę herbatę z cytryną.","Попрошу чай з лимоном."],
         ["Tata","A ty, Mami? Wolisz kawę czy herbatę?","А ти, Мамі? Надаєш перевагу каві чи чаю?"],
@@ -108,7 +108,7 @@
       ]}
     ]},
     { "block": "B. Co lubimy jeść?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · śniadanie na świecie · трек 092", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · śniadanie na świecie · трек 092", "audio":"audio/L08/L08-czytanie-06.mp3", "lines":[
         ["Lektor","Dzień dobry. Dziś bardzo smaczny temat: jedzenie.","Добрий день. Сьогодні дуже смачна тема: їжа."],
         ["Mami","Smaczny? Jak obiad?","Смачна? Як обід?"],
         ["Lektor","Tak, to taki żart.","Так, це такий жарт."],
@@ -136,10 +136,10 @@
         ["Uwe","Mocną czarną kawę i sok pomarańczowy.","Міцну чорну каву й апельсиновий сік."],
         ["Mami","Ja też wolę kawę, ale wolę słabą i białą.","Я теж надаю перевагу каві, але слабкій і білій."]
       ]},
-      { "type":"ref", "title":"Pary — przeciwieństwa",
+      { "type":"ref", "title":"Pary — przeciwieństwa", "audio":"audio/L08/L08-czytanie-07.mp3",
         "words":"jasny ≠ ciemny · mocny ≠ słaby · tłusty ≠ chudy · z cukrem ≠ bez cukru · z mlekiem ≠ bez mleka · z cytryną ≠ bez cytryny · z lodem ≠ bez lodu",
         "note":"Опиши свій сніданок: co jesz i co pijesz, z czym i bez czego." },
-      { "type":"dia", "title":"Ćwiczenie 4 · z czym jedzą kanapkę?", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 4 · z czym jedzą kanapkę?", "audio":"audio/L08/L08-czytanie-08.mp3", "lines":[
         ["Uwe","Uwe je chleb z masłem, kiełbasą, musztardą, keczupem.","Уве їсть хліб з маслом, ковбасою, гірчицею, кетчупом."],
         ["Angela","Angela je chleb z serem żółtym, pomidorem, szynką.","Анджела їсть хліб із твердим сиром, помідором, шинкою."],
         ["Karolina","Karolina je bułkę z masłem, serem białym, dżemem i miodem.","Каролiна їсть булочку з маслом, творогом, джемом і медом."],
@@ -147,17 +147,17 @@
       ]}
     ]},
     { "block": "C. Obiad", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · obiad — schemat",
+      { "type":"ref", "title":"Ćwiczenie 1 · obiad — schemat", "audio":"audio/L08/L08-czytanie-09.mp3",
         "words":"pierwsze danie: zupa · drugie danie: mięso, ziemniaki, kasza, sałatka · makaron · ryż · ryba · kotlet · surówka",
         "note":"OBIAD = pierwsze danie + drugie danie." },
-      { "type":"dia", "title":"Dialog 1 · ryba z frytkami · трек 093", "lines":[
+      { "type":"dia", "title":"Dialog 1 · ryba z frytkami · трек 093", "audio":"audio/L08/L08-czytanie-10.mp3", "lines":[
         ["Mami","Angela, czy to prawda, że w Anglii zawsze jecie rybę z frytkami na obiad? A może to tylko stereotyp?","Анджело, чи правда, що в Англії ви завжди їсте рибу з картоплею фрі на обід? А може, це лише стереотип?"],
         ["Angela","To jest i stereotyp, i prawda. Ja bardzo lubię rybę z frytkami. Lubię też spaghetti i pizzę. Moja mama gotuje świetne mięso z sosem gravy – to nasza ulubiona potrawa.","Це і стереотип, і правда. Я дуже люблю рибу з картоплею фрі. Люблю також спагеті й піцу. Моя мама готує чудове м’ясо із соусом ґрейві — це наша улюблена страва."],
         ["Mami","Ja też jem często rybę na obiad. Bardzo lubię frutti di mare. Przepraszam, jak się mówi po polsku frutti di mare?","Я теж часто їм рибу на обід. Дуже люблю frutti di mare. Перепрошую, як сказати польською frutti di mare?"],
         ["Nauczycielka","Owoce morza.","Морепродукти."],
         ["Mami","Dziękuję.","Дякую."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · kto co je? · трек 094", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · kto co je? · трек 094", "audio":"audio/L08/L08-czytanie-11.mp3", "lines":[
         ["—","ruskie pierogi","вареники по-руськи"],
         ["—","pierogi z serem i śmietaną","вареники із сиром і сметаною"],
         ["—","pizza i piwo","піца і пиво"],
@@ -165,7 +165,7 @@
       ]}
     ]},
     { "block": "D. Kolacja", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · kolacja", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · kolacja", "audio":"audio/L08/L08-czytanie-12.mp3", "lines":[
         ["Pan Maj","Kochanie, co dziś jest na kolację?","Кохана, що сьогодні на вечерю?"],
         ["Pani Maj","Robią sałatkę i zupę jarzynową.","Готують салат і овочевий суп."],
         ["Pan Maj","To świetne. Gdzie Karol i Karolina?","Це чудово. Де Кароль і Каролiна?"],
@@ -173,13 +173,13 @@
         ["Karol","Gotowe! Mami, zapraszamy na kolację.","Готово! Мамі, запрошуємо на вечерю."],
         ["Mami","Dziękuję bardzo, już idę.","Дуже дякую, вже йду."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 · polska sałatka", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · polska sałatka", "audio":"audio/L08/L08-czytanie-13.mp3", "lines":[
         ["Pani Maj","Smacznego.","Смачного."],
         ["Karolina","Mami, to jest tradycyjna polska sałatka.","Мамі, це традиційний польський салат."],
         ["Mami","Z czego ona jest?","З чого вона?"],
         ["Karolina","Z ziemniaków, z marchewką, cebulą, z kiszonymi ogórkami, jabłkami i oczywiście z majonezem. Jest pyszna!","З картоплі, з морквою, цибулею, з квашеними огірками, яблуками і, звичайно, з майонезом. Вона смачнюща!"]
       ]},
-      { "type":"ref", "title":"Powtórzenie · produkt czy potrawa?",
+      { "type":"ref", "title":"Powtórzenie · produkt czy potrawa?", "audio":"audio/L08/L08-czytanie-14.mp3",
         "words":"PRODUKT: ser, szynka, jajko, mięso, ryba · POTRAWA: spaghetti, zupa, kotlet schabowy, frytki, omlet, pizza, jajecznica, kebab, pierogi",
         "note":"Розсортуй: продукт (сировина) vs потрава (готова страва)." }
     ]}

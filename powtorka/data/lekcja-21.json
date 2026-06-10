@@ -35,7 +35,7 @@
   ],
   "czytanie": [
     { "block": "A. Kiedy masz urodziny i imieniny?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 2 · zaproszenie · трек 197", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · zaproszenie · трек 197", "audio":"audio/L21/L21-czytanie-01.mp3", "lines":[
         ["Karolina","Mami, jesteś zajęta?","Мамі, ти зайнята?"],
         ["Mami","Nie, wejdź proszę.","Ні, заходь, будь ласка."],
         ["Karolina","Mam pytanie: czy chciałabyś pojechać z nami do Gdańska, na urodziny mojego dziadka? Dziadkowie bardzo chcieliby cię poznać.","Маю питання: чи хотіла б ти поїхати з нами до Гданська, на день народження мого дідуся? Дідусь із бабусею дуже хотіли б з тобою познайомитися."],
@@ -52,32 +52,32 @@
         ["Mami","„Mami” to nie jest polskie imię, więc nie ma go, niestety, w kalendarzu.","«Мамі» — це не польське ім’я, тож його, на жаль, немає в календарі."],
         ["Karolina","Szkoda!","Шкода!"]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 4 · daty — запиши дату · трек 198",
+      { "type":"ref", "title":"Ćwiczenie 4 · daty — запиши дату · трек 198", "audio":"audio/L21/L21-czytanie-02.mp3",
         "words":"Dzień Dziecka — pierwszego czerwca (01.06) · Sylwester — trzydziestego pierwszego grudnia · szóstego lutego · dwunastego września · ósmego lipca · od drugiego do dziewiątego marca · od dwudziestego czwartego listopada · piątek, trzynasty sierpnia",
         "note":"Місяці після числа: stycznia, lutego, marca, kwietnia, maja, czerwca, lipca, sierpnia, września, października, listopada, grudnia." }
     ]},
     { "block": "B. Sto lat i wszystkiego najlepszego!", "items": [
-      { "type":"ref", "title":"Ćwiczenie 2 · piosenka „Sto lat” · трек 200",
+      { "type":"ref", "title":"Ćwiczenie 2 · piosenka „Sto lat” · трек 200", "audio":"audio/L21/L21-czytanie-03.mp3",
         "words":"Sto lat, sto lat, niech żyje, żyje nam! · Jeszcze raz, jeszcze raz, niech żyje, żyje nam! · Niech żyje nam!",
         "note":"Заспівай уголос — традиційна пісня на день народження." },
-      { "type":"ref", "title":"Ćwiczenie 3 · życzenia na okazje · трек 201",
+      { "type":"ref", "title":"Ćwiczenie 3 · życzenia na okazje · трек 201", "audio":"audio/L21/L21-czytanie-04.mp3",
         "words":"Wesołych świąt! (Boże Narodzenie) · Szczęśliwego Nowego Roku! (Nowy Rok) · Wesołego Alleluja! (Wielkanoc) · Wszystkiego najlepszego na nowej drodze życia! (ślub) · Udanych wakacji! (wyjazd na urlop)" }
     ]},
     { "block": "C. W którym roku?", "items": [
-      { "type":"ref", "title":"Ćwiczenie 2 · daty rocznikowe · трек 203",
+      { "type":"ref", "title":"Ćwiczenie 2 · daty rocznikowe · трек 203", "audio":"audio/L21/L21-czytanie-05.mp3",
         "words":"1999 → w tysiąc dziewięćset dziewięćdziesiątym dziewiątym roku · 2002 → w dwa tysiące drugim roku · 1536 → w tysiąc pięćset trzydziestym szóstym roku · 1973 → w tysiąc dziewięćset siedemdziesiątym trzecim roku · 1939 → w tysiąc dziewięćset trzydziestym dziewiątym roku · 1844 → w tysiąc osiemset czterdziestym czwartym roku" },
-      { "type":"ref", "title":"Ćwiczenie 3 · wydarzenia i daty · трек 204",
+      { "type":"ref", "title":"Ćwiczenie 3 · wydarzenia i daty · трек 204", "audio":"audio/L21/L21-czytanie-06.mp3",
         "words":"Dziadek się urodził. · Zaczęła się wojna (1939). · Ojciec dziadka zginął w Katyniu. · Matka dziadka zginęła w powstaniu warszawskim (1944). · Skończyła się wojna (1945). · Dziadek ożenił się z babcią. · Dziadek zdał maturę. · Lech Wałęsa dostał nagrodę Nobla (1983). · Komunizm upadł w Polsce (1989).",
         "note":"Поєднай кожну подію з роком." },
-      { "type":"ref", "title":"Ćwiczenie 6 · biografia Lecha Wałęsy",
+      { "type":"ref", "title":"Ćwiczenie 6 · biografia Lecha Wałęsy", "audio":"audio/L21/L21-czytanie-07.mp3",
         "words":"urodził się 29 września 1943 r. w Popowie · chodził do szkół w Chalinie i Lipnie · w 1969 r. ożenił się z Danutą · w latach 1967–1976 pracował jako elektryk w Stoczni Gdańskiej · w sierpniu 1980 r. lider strajku · w 1983 r. dostał Pokojową Nagrodę Nobla · w 1989 r. „Okrągły Stół” · w 1990 r. został Prezydentem RP" }
     ]},
     { "block": "D. Mami, co robiłaś?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · weekend · трек 205", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · weekend · трек 205", "audio":"audio/L21/L21-czytanie-08.mp3", "lines":[
         ["—","Co Angela robiła w weekend? Sprzątała mieszkanie.","Що Анджела робила у вихідні? Прибирала квартиру."],
         ["—","Co Mami zrobiła w weekend? Poznała nowych ludzi.","Що Мамі зробила у вихідні? Познайомилася з новими людьми."]
       ]},
-      { "type":"ref", "title":"Aspekt · недоконаний vs доконаний",
+      { "type":"ref", "title":"Aspekt · недоконаний vs доконаний", "audio":"audio/L21/L21-czytanie-09.mp3",
         "words":"niedokonany: codziennie wstawałem o 7:00 · od pierwszej do drugiej jadłem obiad · sprzątałam, ale nie jest czysto · dokonany: wczoraj wstałem o 10:00 · szybko zjadłem obiad · posprzątałam i nareszcie jest czysto",
         "note":"Слова wczoraj, w piątek, rok temu НЕ визначають виду. być, mieć, mieszkać, pracować, studiować — лише недоконані." }
     ]}

@@ -36,7 +36,7 @@
   ],
   "czytanie": [
     { "block": "A. Ciasne, ale własne! — Mieszkanie państwa Maj", "items": [
-      { "type":"dia", "title":"Tekst · трек 178", "lines":[
+      { "type":"dia", "title":"Tekst · трек 178", "audio":"audio/L18/L18-czytanie-01.mp3", "lines":[
         ["Lektor","Państwo Maj mieszkają w nowym bloku w Śródmieściu. Mają mieszkanie na czwartym piętrze.","Родина Май живе в новій багатоповерхівці в центрі. Має квартиру на четвертому поверсі."],
         ["Lektor","Wcześniej mieszkali razem z rodzicami pana Grzegorza w bloku zbudowanym w latach siedemdziesiątych.","Раніше вони жили разом із батьками пана Ґжеґожа в будинку, збудованому в сімдесятих роках."],
         ["Lektor","Ale od kiedy pan Grzegorz zaczął pracować w firmie informatycznej i dobrze zarabiać, zdecydowali, że wezmą kredyt i kupili nowe, dość duże mieszkanie, 120 metrów kwadratowych.","Але відколи пан Ґжеґож почав працювати в IT-фірмі й добре заробляти, вони вирішили взяти кредит і купили нову, доволі велику квартиру, 120 квадратних метрів."],
@@ -45,12 +45,12 @@
         ["Lektor","Ale państwo Maj przenieśli wszystkie rzeczy z gabinetu do swojej sypialni, żeby zrobić nowy pokój dla japońskiej studentki.","Але родина Май перенесла всі речі з кабінету до своєї спальні, щоб зробити нову кімнату для японської студентки."],
         ["Lektor","Chociaż mieszkanie jest w dobrej okolicy i jest nowe, pani Joanna marzy o własnym domu na wsi, w którym będzie kominek, spiżarnia, strych, piwnica i dużo pokoi dla dzieci, wnuków, przyjaciół i rodziny.","Хоча квартира в гарному районі й нова, пані Йоанна мріє про власний будинок на селі, де будуть камін, комора, горище, підвал і багато кімнат для дітей, онуків, друзів і родини."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 3 · meble i sprzęty",
+      { "type":"ref", "title":"Ćwiczenie 3 · meble i sprzęty", "audio":"audio/L18/L18-czytanie-02.mp3",
         "words":"obraz · szafa · wanna · łóżko · umywalka · prysznic · wieszak · pralka · kuchenka · lampa · sofa · biurko · fotel · zlew · zmywarka · szafka · telewizor · stół · komoda · regał · półka · krzesło · kwiatek · lustro · lodówka · ubikacja",
         "note":"Прочитай назви меблів уголос і пригадай їхній рід." }
     ]},
     { "block": "C. Marzę o dalekich podróżach!", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 179", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 179", "audio":"audio/L18/L18-czytanie-03.mp3", "lines":[
         ["Angela","Mami, śpisz?","Мамі, спиш?"],
         ["Mami","Nie, nie śpię.","Ні, не сплю."],
         ["Angela","To co robisz?","То що робиш?"],
@@ -58,14 +58,14 @@
         ["Angela","O czym myślisz?","Про що думаєш?"],
         ["Mami","Myślę o Japonii i o moich rodzicach. Niedługo jadę do nich, muszę wszystkim kupić prezenty.","Думаю про Японію і про моїх батьків. Скоро їду до них, маю всім купити подарунки."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · трек 180", "lines":[
+      { "type":"dia", "title":"Dialog 2 · трек 180", "audio":"audio/L18/L18-czytanie-04.mp3", "lines":[
         ["Uwe","Jestem zmęczony pracą i szkołą. Marzę o wakacjach.","Я втомлений роботою і навчанням. Мрію про канікули."],
         ["Angela","Ja nie jestem zmęczona, ale też marzę o dalekich podróżach. W Polsce jest dobrze, ale chciałabym pojechać do Nepalu i Tybetu.","Я не втомлена, але теж мрію про далекі подорожі. У Польщі добре, але я хотіла б поїхати до Непалу й Тибету."],
         ["Mami","A do Japonii?","А до Японії?"],
         ["Angela","Jasne. Japonia też jest interesująca. Tak naprawdę to chyba chciałabym podróżować po świecie.","Звісно. Японія теж цікава. Насправді я, мабуть, хотіла б подорожувати світом."],
         ["Javier","Bardzo dobrze. Podróże dużo uczą. A może razem w weekendy będziemy jeździć po Polsce?","Дуже добре. Подорожі багато чого вчать. А може, разом на вихідних будемо їздити по Польщі?"]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 1 · O czym oni myślą?",
+      { "type":"ref", "title":"Ćwiczenie 1 · O czym oni myślą?", "audio":"audio/L18/L18-czytanie-05.mp3",
         "words":"Uwe → o polskim piwie · Javier → o pływaniu · Mami → o Witkacym · Angela → o języku polskim · Karol → o piłce nożnej · Karolina → o kursie tańca",
         "note":"Зверни увагу: після «myśleć o» завжди місцевник." }
     ]}

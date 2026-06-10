@@ -37,7 +37,7 @@
   ],
   "czytanie": [
     { "block": "A. Kto to jest? Jaki on jest?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · prezentacja · трек 060", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · prezentacja · трек 060", "audio":"audio/L05/L05-czytanie-01.mp3", "lines":[
         ["—","To jest Uwe. Uwe Stein. On jest z Niemiec. Mieszka w Berlinie. Jest wysoki, przystojny i wysportowany. Uwe to biznesmen. Ma 44 lata. Lubi pracować.","Це Уве. Уве Штайн. Він із Німеччини. Живе в Берліні. Він високий, гарний і спортивний. Уве — бізнесмен. Йому 44 роки. Любить працювати."],
         ["?","Kto to jest? — To jest Uwe.","Хто це? — Це Уве."],
         ["?","Skąd on jest? — On jest z Niemiec.","Звідки він? — Він із Німеччини."],
@@ -45,27 +45,27 @@
         ["?","Ile ma lat? — On ma 44 lata.","Скільки йому років? — Йому 44 роки."],
         ["?","Co lubi robić? — Lubi pracować.","Що він любить робити? — Любить працювати."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 2 · prezentacja — ułóż pytania",
+      { "type":"ref", "title":"Ćwiczenie 2 · prezentacja — ułóż pytania", "audio":"audio/L05/L05-czytanie-02.mp3",
         "words":"Angela Brown · Anglia, Londyn · 27 lat · lektorka języka angielskiego · wysoka, szczupła, ładna, młoda · czytać książki",
         "note":"Зроби аналогічну презентацію Анджели та постав запитання до тексту." },
-      { "type":"ref", "title":"Ćwiczenie 3 · autoprezentacja",
+      { "type":"ref", "title":"Ćwiczenie 3 · autoprezentacja", "audio":"audio/L05/L05-czytanie-03.mp3",
         "words":"Jak masz na imię? · Jak się nazywasz? · Skąd jesteś? · Gdzie mieszkasz? · Jaki/jaka jesteś? · Ile masz lat? · Co lubisz robić?",
         "note":"Напиши власну презентацію, відповідаючи на ці питання." }
     ]},
     { "block": "B. Liczebniki 20–100", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · dziesiątki · трек 061",
+      { "type":"ref", "title":"Ćwiczenie 1 · dziesiątki · трек 061", "audio":"audio/L05/L05-czytanie-04.mp3",
         "words":"dwadzieścia (20) · trzydzieści (30) · czterdzieści (40) · pięćdziesiąt (50) · sześćdziesiąt (60) · siedemdziesiąt (70) · osiemdziesiąt (80) · dziewięćdziesiąt (90) · sto (100)" },
-      { "type":"ref", "title":"Ćwiczenie 3 · matematyka — ile to jest?",
+      { "type":"ref", "title":"Ćwiczenie 3 · matematyka — ile to jest?", "audio":"audio/L05/L05-czytanie-05.mp3",
         "words":"31 + 23 = pięćdziesiąt cztery · 14 + 33 · 16 + 13 · 33 + 44 · 72 + 18 · 79 − 11 · 65 − 22 · 96 − 12 · 77 − 55 · 110 − 9",
         "note":"plus (+) · minus (−) · jest / równa się (=)" },
-      { "type":"dia", "title":"Dialog 1 · ile masz lat? · трек 062", "lines":[
+      { "type":"dia", "title":"Dialog 1 · ile masz lat? · трек 062", "audio":"audio/L05/L05-czytanie-06.mp3", "lines":[
         ["Mami","Karol, ile masz lat?","Кароль, скільки тобі років?"],
         ["Karol","Prawie 18.","Майже 18."],
         ["Mami","Prawie?","Майже?"],
         ["Karol","17 i pół. A ty?","17 з половиною. А тобі?"],
         ["Mami","A ja mam 20 lat.","А мені 20 років."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · ile pani ma lat? · трек 063", "lines":[
+      { "type":"dia", "title":"Dialog 2 · ile pani ma lat? · трек 063", "audio":"audio/L05/L05-czytanie-07.mp3", "lines":[
         ["Mami","Ile pani ma lat?","Скільки Вам років?"],
         ["Pani Maj","Dlaczego pytasz?","Чому питаєш?"],
         ["Mami","Ćwiczę liczebniki.","Треную числа."],
@@ -73,17 +73,17 @@
       ]}
     ]},
     { "block": "C. Zawody", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · kto to jest? · трек 064",
+      { "type":"ref", "title":"Ćwiczenie 1 · kto to jest? · трек 064", "audio":"audio/L05/L05-czytanie-08.mp3",
         "words":"aktor · fotograf · policjant · inżynier · nauczyciel · muzyk · emeryt · rolnik · kelner · biznesmen · urzędnik · lekarz · tancerz · dziennikarz · kucharz · informatyk · dentysta" },
-      { "type":"ref", "title":"Ćwiczenie 2 · forma żeńska -ka (alternacja rz : r)",
+      { "type":"ref", "title":"Ćwiczenie 2 · forma żeńska -ka (alternacja rz : r)", "audio":"audio/L05/L05-czytanie-09.mp3",
         "words":"barman → barmanka · kelner → kelnerka · nauczyciel → nauczycielka · lekarz → lekarka · dziennikarz → dziennikarka · kucharz → kucharka · tancerz → tancerka · artysta → artystka",
         "note":"UWAGA! pan/pani: architekt, taksówkarz, inżynier, minister, prezydent, muzyk, fotograf, kierowca, profesor — без жіночої форми." },
-      { "type":"ref", "title":"Ćwiczenie 3 · kto to jest? jaki on jest?",
+      { "type":"ref", "title":"Ćwiczenie 3 · kto to jest? jaki on jest?", "audio":"audio/L05/L05-czytanie-10.mp3",
         "words":"aktor · aktorka · malarz · polityk · zdolna · dobry · utalentowany · atrakcyjny",
         "note":"Напр.: To jest zdolna aktorka Nicole Kidman." }
     ]},
     { "block": "D. Kim ona jest?", "items": [
-      { "type":"dia", "title":"Dialog 1 · rodzina · трек 065", "lines":[
+      { "type":"dia", "title":"Dialog 1 · rodzina · трек 065", "audio":"audio/L05/L05-czytanie-11.mp3", "lines":[
         ["—","Javier i Uwe siedzą razem przy stoliku, jest przerwa.","Хав’єр і Уве сидять разом за столиком, перерва."],
         ["Javier","O! Co masz? Co to jest?","О! Що маєш? Що це?"],
         ["Uwe","To? To jest fotografia. Tu jest moja rodzina.","Це? Це фотографія. Тут моя родина."],
@@ -96,11 +96,11 @@
         ["Javier","To skomplikowane…, ale z zawodu jestem muzykiem. Gram na gitarze, akordeonie, na pianinie… Jestem też instruktorem tanga.","Це складно…, але за фахом я музикант. Граю на гітарі, акордеоні, на піаніно… Я ще й інструктор танго."],
         ["Uwe","Hm, jesteś muzykiem i umiesz tańczyć tango.","Гм, ти музикант і вмієш танцювати танго."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 1 · prawda czy nieprawda?",
+      { "type":"ref", "title":"Ćwiczenie 1 · prawda czy nieprawda?", "audio":"audio/L05/L05-czytanie-12.mp3",
         "words":"Uwe nie ma rodziny. (N) · Syn ma na imię Eryk. (P) · Anna nie jest atrakcyjna. (N) · Uwe jest aktorem. (N) · Javier umie tańczyć tango. (P) · Javier jest muzykiem. (P)" },
-      { "type":"ref", "title":"Ćwiczenie 2 · mianownik czy narzędnik?",
+      { "type":"ref", "title":"Ćwiczenie 2 · mianownik czy narzędnik?", "audio":"audio/L05/L05-czytanie-13.mp3",
         "words":"Eryk to dobry syn → Eryk jest dobrym synem. · Kasia to ambitna studentka → jest ambitną studentką. · On jest świetnym kucharzem. · Agnieszka to miła sekretarka. · Jan jest wesołym mężczyzną. · Warszawa to stolica Polski. · Picasso to popularny malarz. · Kraków to stare miasto. · Oscypek to regionalny ser. · Centrum Manggha to nowoczesny budynek." },
-      { "type":"dia", "title":"Ćwiczenie 3 · Co czytasz?", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · Co czytasz?", "audio":"audio/L05/L05-czytanie-14.mp3", "lines":[
         ["Javier","Cześć Mami! Co czytasz?","Привіт, Мамі! Що читаєш?"],
         ["Mami","Cześć Javier! Czytam książkę biograficzną.","Привіт, Хав’єре! Читаю біографічну книжку."],
         ["Javier","A kto to jest?","А хто це?"],
@@ -110,11 +110,11 @@
         ["Javier","Niestety, nie znam.","На жаль, не знаю."],
         ["Mami","Och, Javier, nie martw się! Ja znam Witkacego, bo interesuję się sztuką i malarstwem. Ale na przykład tango, czy akordeon, to dla mnie czarna magia!","Ох, Хав’єре, не журися! Я знаю Віткаци, бо цікавлюся мистецтвом і малярством. Але, наприклад, танго чи акордеон — це для мене китайська грамота!"]
       ]},
-      { "type":"ref", "title":"Czym się interesujesz? · zainteresowania",
+      { "type":"ref", "title":"Czym się interesujesz? · zainteresowania", "audio":"audio/L05/L05-czytanie-15.mp3",
         "words":"Interesuję się… sportem, boksem, malarstwem impresjonistycznym, historią, piłką nożną, muzyką rockową, fotografią, francuskimi filmami, sportami ekstremalnymi, książkami kryminalnymi…" }
     ]},
     { "block": "E. Powtórzenie — ułóż pytania", "items": [
-      { "type":"dia", "title":"Prezentacja Mami · powtórzenie", "lines":[
+      { "type":"dia", "title":"Prezentacja Mami · powtórzenie", "audio":"audio/L05/L05-czytanie-16.mp3", "lines":[
         ["—","To jest Mami. Ona nazywa się Mami Takada. Jest z Japonii. Normalnie mieszka w Tokio, ale teraz mieszka w Krakowie.","Це Мамі. Вона зветься Мамі Такада. Вона з Японії. Зазвичай живе в Токіо, але зараз живе в Кракові."],
         ["—","Ma 20 lat. Jest niska, szczupła i sympatyczna. Mówi po japońsku, dobrze po angielsku i trochę po polsku. Ona jest dobrą studentką.","Їй 20 років. Вона невисока, струнка й симпатична. Говорить японською, добре англійською і трохи польською. Вона добра студентка."],
         ["—","Teraz ona intensywnie uczy się języka polskiego, bo planuje studiować malarstwo w Polsce, a konkretnie w Krakowie. Interesuje się muzyką rockową, malarstwem i architekturą. Ona bardzo lubi malować.","Зараз вона інтенсивно вчить польську, бо планує вивчати малярство в Польщі, а конкретно в Кракові. Цікавиться рок-музикою, малярством та архітектурою. Вона дуже любить малювати."]

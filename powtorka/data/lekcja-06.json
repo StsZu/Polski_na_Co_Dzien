@@ -31,13 +31,13 @@
   ],
   "czytanie": [
     { "block": "A. Co robisz?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 A · трек 066", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 A · трек 066", "audio":"audio/L06/L06-czytanie-01.mp3", "lines":[
         ["Mami","Przepraszam, co pani robi?","Перепрошую, що Ви робите?"],
         ["Joanna","Gotuję pierogi. A ty umiesz gotować?","Готую вареники. А ти вмієш готувати?"],
         ["Mami","Nie bardzo, tylko ryż. Moja mama gotuje bardzo dobrze, ja nie lubię.","Не дуже, тільки рис. Моя мама готує дуже добре, я не люблю."],
         ["Joanna","Aha, to szkoda. Wiesz, może Karol robi coś interesującego.","Ага, шкода. Знаєш, може, Кароль робить щось цікаве."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 B · трек 067", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 B · трек 067", "audio":"audio/L06/L06-czytanie-02.mp3", "lines":[
         ["Mami","Cześć. Mogę? Co robisz?","Привіт. Можна? Що робиш?"],
         ["Karol","Cześć, proszę. Czytam książkę.","Привіт, прошу. Читаю книжку."],
         ["Mami","To interesujące?","Це цікаво?"],
@@ -45,7 +45,7 @@
         ["Mami","E, ja niespecjalnie. Wolę grać na komputerze. A co robi twój tata?","Е, я не дуже. Волію грати на комп’ютері. А що робить твій тато?"],
         ["Karol","Myślę, że pracuje.","Думаю, що працює."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 C · трек 068", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 C · трек 068", "audio":"audio/L06/L06-czytanie-03.mp3", "lines":[
         ["Mami","Co pan robi?","Що Ви робите?"],
         ["Grzegorz","Pracuję. Szukam informacji, piszę e-maile.","Працюю. Шукаю інформацію, пишу е-мейли."],
         ["Mami","A co to jest Pudelek? Pan tu pracuje?","А що це — Pudelek? Ви тут працюєте?"],
@@ -53,7 +53,7 @@
         ["Mami","To znaczy, że pan teraz nie pracuje, tak?","Тобто Ви зараз не працюєте, так?"],
         ["Grzegorz","Yyy, no nie. Wiesz, Mami, moja córka ogląda stare zdjęcia. To bardzo interesujące.","Еее, ну ні. Знаєш, Мамі, моя донька дивиться старі фото. Це дуже цікаво."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 D · трек 069", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 D · трек 069", "audio":"audio/L06/L06-czytanie-04.mp3", "lines":[
         ["Mami","A ty co robisz?","А ти що робиш?"],
         ["Karolina","Oglądam stare zdjęcia. O, to na przykład moja mama i mój tata na uniwersytecie, a to mój brat na wakacjach.","Дивлюся старі фото. О, це, наприклад, моя мама й мій тато в університеті, а це мій брат на канікулах."],
         ["Mami","Jaki mały!","Який маленький!"],
@@ -64,21 +64,21 @@
       ]}
     ]},
     { "block": "B. Gdzie jesteś? Co robisz?", "items": [
-      { "type":"dia", "title":"Ćwiczenie 2 A · телефон · трек 070", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 A · телефон · трек 070", "audio":"audio/L06/L06-czytanie-05.mp3", "lines":[
         ["—","Gdzie dzwonisz?","Куди ти дзвониш?"],
         ["—","Telefonuję do ambasady.","Телефоную до посольства."],
         ["—","Dlaczego?","Чому?"],
         ["—","Mój paszport jest nieaktualny.","Мій паспорт недійсний."],
         ["—","To faktycznie masz problem.","Тоді справді маєш проблему."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 B · zakupy · трек 071", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 B · zakupy · трек 071", "audio":"audio/L06/L06-czytanie-06.mp3", "lines":[
         ["—","Halo, Karolina? Gdzie jesteś?","Алло, Кароліно? Де ти?"],
         ["Karolina","Robię zakupy w galerii Centrum. A ty?","Роблю покупки в галереї «Центрум». А ти?"],
         ["—","Spaceruję po parku i robię zdjęcia.","Гуляю парком і фотографую."],
         ["Karolina","Co fotografujesz?","Що фотографуєш?"],
         ["—","Teraz małe dziecko. Jest brudne, ale śliczne.","Зараз маленьку дитину. Замурзана, але чарівна."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 C · park · трек 072", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 C · park · трек 072", "audio":"audio/L06/L06-czytanie-07.mp3", "lines":[
         ["—","Halo, Tom? Gdzie jesteś?","Алло, Томе? Де ти?"],
         ["Tom","Jestem w parku.","Я в парку."],
         ["—","Co robisz w parku? Biegasz?","Що робиш у парку? Бігаєш?"],
@@ -86,7 +86,7 @@
         ["—","Ja też chcę grać. Wiesz, gdzie jest park Jordana?","Я теж хочу грати. Знаєш, де парк Йордана?"],
         ["Tom","Oczywiście. To czekamy.","Звісно. То чекаємо."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 2 D · film · трек 073", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 D · film · трек 073", "audio":"audio/L06/L06-czytanie-08.mp3", "lines":[
         ["—","Karol, co oglądasz?","Кароль, що дивишся?"],
         ["Karol","Fajny film.","Класний фільм."],
         ["—","Jaki?","Який?"],
@@ -97,7 +97,7 @@
       ]}
     ]},
     { "block": "C. Hobby — co lubisz robić?", "items": [
-      { "type":"dia", "title":"Dialog 1 · gospodyni i gospodarz · трек 074", "lines":[
+      { "type":"dia", "title":"Dialog 1 · gospodyni i gospodarz · трек 074", "audio":"audio/L06/L06-czytanie-09.mp3", "lines":[
         ["—","Mami, co robisz po lekcji?","Мамі, що робиш після уроку?"],
         ["Mami","Ja? Nic specjalnego. Nudzę się.","Я? Нічого особливого. Нудьгую."],
         ["—","Nudzisz się? A dlaczego?","Нудьгуєш? А чому?"],
@@ -108,10 +108,10 @@
         ["—","Ja nie umiem tańczyć.","Я не вмію танцювати."],
         ["—","Nie ma problemu, jestem świetnym nauczycielem tańca. W weekend idziemy tańczyć.","Без проблем, я чудовий вчитель танцю. У вихідні йдемо танцювати."]
       ]},
-      { "type":"ref", "title":"Hobby · трек 075",
+      { "type":"ref", "title":"Hobby · трек 075", "audio":"audio/L06/L06-czytanie-10.mp3",
         "words":"chodzić na spacery · chodzić na siłownię · chodzić do kina · czytać książki · gotować · grać na gitarze · jeździć konno · malować · oglądać telewizję · podróżować · robić zakupy · robić zdjęcia · słuchać muzyki · śpiewać · tańczyć · uczyć się języków obcych · biegać · pływać · grać w tenisa · grać w piłkę · grać w szachy · jeździć na rowerze · jeździć na rolkach · jeździć na nartach",
         "note":"Прочитай уголос і познач, що вмієш робити (umiem) і що любиш (lubię)." },
-      { "type":"dia", "title":"Ćwiczenie 3 · plany na weekend · трек 076", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · plany na weekend · трек 076", "audio":"audio/L06/L06-czytanie-11.mp3", "lines":[
         ["—","W weekend są w Krakowie moje koleżanki z Londynu. Najpierw chcemy zrobić zakupy w galerii handlowej, a potem idziemy na kawę.","У вихідні в Кракові мої подруги з Лондона. Спершу хочемо зробити покупки в торговому центрі, а потім ідемо на каву."],
         ["—","Koleżanki z grupy chcą iść do klubu, bo jest koncert. Ja też idę z nimi, ale nie wiem, kto gra.","Подруги з групи хочуть піти до клубу, бо є концерт. Я теж іду з ними, але не знаю, хто грає."],
         ["—","Co planuję robić w weekend? Jeszcze nie wiem. Chcę iść na festiwal filmów iberoamerykańskich.","Що планую робити у вихідні? Ще не знаю. Хочу піти на фестиваль ібероамериканських фільмів."],

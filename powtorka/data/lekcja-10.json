@@ -35,7 +35,7 @@
   ],
   "czytanie": [
     { "block": "A. Zapraszam was na obiad — rezerwacja i zamawianie", "items": [
-      { "type":"dia", "title":"Dialog 1 · rezerwacja · трек 108", "lines":[
+      { "type":"dia", "title":"Dialog 1 · rezerwacja · трек 108", "audio":"audio/L10/L10-czytanie-01.mp3", "lines":[
         ["Kelnerka","Dzień dobry, tu restauracja „U Doroty”, słucham?","Добрий день, це ресторан «У Дороти», слухаю?"],
         ["Angela","Dzień dobry. Chciałabym zarezerwować stolik dla czterech osób na jutro, na godzinę szesnastą.","Добрий день. Я хотіла б забронювати столик на чотири особи на завтра, на шістнадцяту годину."],
         ["Kelnerka","Dobrze. Nie ma problemu. Na jakie nazwisko?","Добре. Без проблем. На яке прізвище?"],
@@ -43,7 +43,7 @@
         ["Kelnerka","Rezerwacja jest gotowa. Czekamy na państwa jutro.","Бронювання готове. Чекаємо на вас завтра."],
         ["Angela","Dziękuję. Do widzenia.","Дякую. До побачення."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · zamawianie · трек 109", "lines":[
+      { "type":"dia", "title":"Dialog 2 · zamawianie · трек 109", "audio":"audio/L10/L10-czytanie-02.mp3", "lines":[
         ["Kelnerka","Co podać?","Що подати?"],
         ["Angela","A co może nam pani polecić?","А що Ви можете нам порадити?"],
         ["Kelnerka","Jest smaczny rosół i żurek. Polecam też bigos.","Є смачний бульйон і журек. Раджу також бігос."],
@@ -56,14 +56,14 @@
         ["Uwe","Przepraszam, czy można tu palić?","Перепрошую, тут можна курити?"],
         ["Kelnerka","Niestety tutaj nie, ale można palić w ogródku.","На жаль, тут ні, але можна курити в дворику."]
       ]},
-      { "type":"ref", "title":"Menu obiadowe — читай уголос",
+      { "type":"ref", "title":"Menu obiadowe — читай уголос", "audio":"audio/L10/L10-czytanie-03.mp3",
         "words":"rosół · żurek · barszcz z uszkami · zupa pomidorowa · kotlet schabowy · filet drobiowy · pieczeń wołowa · gołąbki · bigos · pierogi ruskie · placki ziemniaczane · naleśniki ze szpinakiem · frytki · ziemniaki · surówki · kasza · ryż",
         "note":"Польські страви — потренуй вимову назв." },
-      { "type":"ref", "title":"Co dla Państwa? · M. czy B.",
+      { "type":"ref", "title":"Co dla Państwa? · M. czy B.", "audio":"audio/L10/L10-czytanie-04.mp3",
         "words":"Dla mnie kawa z mlekiem. · Proszę kawę z mlekiem. · Dla mnie pizza. · Proszę pizzę. · Dla mnie kurczak z frytkami. · Proszę kurczaka z frytkami." }
     ]},
     { "block": "B. Smaki i opinie", "items": [
-      { "type":"dia", "title":"Czy smakuje? · міні-діалоги", "lines":[
+      { "type":"dia", "title":"Czy smakuje? · міні-діалоги", "audio":"audio/L10/L10-czytanie-05.mp3", "lines":[
         ["—","I jak? Smakuje ci? Czy zupa jest smaczna?","Ну як? Смакує тобі? Суп смачний?"],
         ["—","Tak! Jest naprawdę dobra. Spróbuj!","Так! Справді добрий. Спробуй!"],
         ["—","Czy mogę spróbować twojej sałatki?","Можна спробувати твій салат?"],
@@ -72,13 +72,13 @@
         ["—","Smakuje ci pieczeń?","Смакує тобі печеня?"],
         ["—","Nie za bardzo. Jest za tłusta.","Не дуже. Вона занадто жирна."]
       ]},
-      { "type":"ref", "title":"Opinie — від найкращого до найгіршого",
+      { "type":"ref", "title":"Opinie — від найкращого до найгіршого", "audio":"audio/L10/L10-czytanie-06.mp3",
         "words":"znakomity · wyśmienity · pyszny · przepyszny · świetny · bardzo dobry · dobry · smaczny · niezły · niedobry · taki sobie · okropny · niezbyt smaczny · bez smaku · nie za bardzo" },
-      { "type":"ref", "title":"Jaki? — смаки страв",
+      { "type":"ref", "title":"Jaki? — смаки страв", "audio":"audio/L10/L10-czytanie-07.mp3",
         "words":"tłusty – chudy · mocny – łagodny · ostry – kwaśny · słodki – gorzki · surowy · ciepły – chłodny · słony · zimny – gorący" }
     ]},
     { "block": "C. A może rurka z kremem? — kawiarnia", "items": [
-      { "type":"dia", "title":"Dialog 1 · coś słodkiego · трек 110", "lines":[
+      { "type":"dia", "title":"Dialog 1 · coś słodkiego · трек 110", "audio":"audio/L10/L10-czytanie-08.mp3", "lines":[
         ["Mami","Mam ochotę na coś słodkiego! Angela, masz czas? Idziemy do kawiarni?","Маю охоту на щось солодке! Анджело, маєш час? Ідемо до кав’ярні?"],
         ["Angela","Na coś słodkiego? Jasne!","На щось солодке? Звісно!"],
         ["Mami","Ale jest mały problem. Nie znam dobrej kawiarni.","Але є невелика проблема. Я не знаю доброї кав’ярні."],
@@ -88,14 +88,14 @@
         ["Mami","To dobrze brzmi!","Звучить добре!"],
         ["Angela","Tak. Tam jest wszystko, desery i czekolady do picia i do jedzenia.","Так. Там є все — десерти й шоколад, щоб пити і щоб їсти."]
       ]},
-      { "type":"ref", "title":"Menu kawiarni · трек 111–113",
+      { "type":"ref", "title":"Menu kawiarni · трек 111–113", "audio":"audio/L10/L10-czytanie-09.mp3",
         "words":"kawa espresso · kawa z rumem · czekolada z orzechami · herbata owocowa · herbata zielona · koktajle owocowe · soki ze świeżych owoców · makowiec · tort czekoladowy · szarlotka na ciepło · lody z bitą śmietaną · galaretka z owocami" },
-      { "type":"ref", "title":"Negacja: Biernik → Dopełniacz",
+      { "type":"ref", "title":"Negacja: Biernik → Dopełniacz", "audio":"audio/L10/L10-czytanie-10.mp3",
         "words":"Lubię białą kawę → Nie lubię białej kawy. · Lubię zimny sok → Nie lubię zimnego soku. · Lubię czerwone wino → Nie lubię czerwonego wina.",
         "note":"Після «nie lubię / nie mam / nie ma» — родовий відмінок." }
     ]},
     { "block": "D. Nareszcie weekend! — narzędnik", "items": [
-      { "type":"dia", "title":"Dialog · z kim? · трек 114", "lines":[
+      { "type":"dia", "title":"Dialog · z kim? · трек 114", "audio":"audio/L10/L10-czytanie-11.mp3", "lines":[
         ["Javier","Mami, idziesz z nami dzisiaj do pubu?","Мамі, ідеш з нами сьогодні до пабу?"],
         ["Mami","Z nami, to znaczy z kim?","З нами — тобто з ким?"],
         ["Javier","Ze mną, z Angelą, z Tomem.","Зі мною, з Анджелою, з Томом."],
@@ -103,7 +103,7 @@
         ["Javier","Nie wiem, czekam jeszcze na SMS-a. To jak, idziesz?","Не знаю, ще чекаю на SMS. То як, ідеш?"],
         ["Mami","Z tobą Javier wszędzie! Hm, hm! To znaczy... z wami wszędzie!","З тобою, Хав’єре, будь-куди! Хм-хм! Тобто... з вами будь-куди!"]
       ]},
-      { "type":"ref", "title":"Zapiekanki · трек 115",
+      { "type":"ref", "title":"Zapiekanki · трек 115", "audio":"audio/L10/L10-czytanie-12.mp3",
         "words":"zapiekanka standard (szczypiorek, cebulka, kukurydza) · ze szczypiorkiem · z podwójnym serem · z szynką · z boczkiem · ze szpinakiem · z kawałkami kurczaka · sos czosnkowy · majonez · keczup ostry/łagodny" }
     ]}
   ],

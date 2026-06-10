@@ -31,15 +31,15 @@
   ],
   "czytanie": [
     { "block": "A. Uczymy się o Krakowie", "items": [
-      { "type":"ref", "title":"Nowe słowa · нові слова",
+      { "type":"ref", "title":"Nowe słowa · нові слова", "audio":"audio/L14/L14-czytanie-01.mp3",
         "words":"przewodnik · światło · światła · schody · krzyż · skrzyżowanie · krzyżówka · zwiedzać · wygrać · nagroda · daleko · blisko" },
-      { "type":"dia", "title":"Dialog 1 · трек 142", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 142", "audio":"audio/L14/L14-czytanie-02.mp3", "lines":[
         ["Mami","Co robimy dzisiaj po południu?","Що робимо сьогодні по обіді?"],
         ["Angela","Idziesz na quiz? Jest za kwadrans. Zwykle chodzę na wykłady albo warsztaty, a to może być coś nowego. Zobaczymy, co wiemy o Krakowie?","Ти йдеш на вікторину? За чверть години. Зазвичай я ходжу на лекції чи майстер-класи, а це може бути щось нове. Подивимось, що ми знаємо про Краків?"],
         ["Mami","Jasne, że idziemy! Chcę wygrać! Jaka jest nagroda?","Звісно, ідемо! Хочу виграти! Який приз?"],
         ["Nauczycielka","Przewodnik po Krakowie. Zapraszam na quiz.","Путівник по Кракову. Запрошую на вікторину."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · трек 143", "lines":[
+      { "type":"dia", "title":"Dialog 2 · трек 143", "audio":"audio/L14/L14-czytanie-03.mp3", "lines":[
         ["Mami","Hura! Wygrałam!","Ура! Я виграла!"],
         ["Angela","Skąd to wszystko wiedziałaś? Byłaś już w Krakowie, ale nie mówiłaś?","Звідки ти все це знала? Ти вже бувала в Кракові, але не казала?"],
         ["Mami","Nie, ale dużo czytałam w Internecie. Wiesz, że interesuję się komputerami i malarstwem, a ostatnio też trochę architekturą i historią.","Ні, але багато читала в інтернеті. Знаєш, я цікавлюся комп’ютерами й малярством, а останнім часом ще трохи архітектурою та історією."],
@@ -49,14 +49,14 @@
         ["Mami","A Javier też idzie?","А Хав’єр теж іде?"],
         ["Angela","Zwykle po południu jeździ na basen. O, widzę go tam, jedzie rowerem, widzisz? Ale ma być o 16:00 na Rynku.","Зазвичай по обіді він їздить у басейн. О, бачу його там, їде велосипедом, бачиш? Але має бути о 16:00 на Ринку."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 4 · środki transportu · трек 145",
+      { "type":"ref", "title":"Ćwiczenie 4 · środki transportu · трек 145", "audio":"audio/L14/L14-czytanie-04.mp3",
         "words":"winda · tramwaj · taksówka · skuter · samolot · samochód · rower · prom · pociąg · motocykl · metro · jacht · dorożka · autobus · statek",
         "note":"jechać / jeździć + NARZĘDNIK: samochodem, tramwajem, rowerem…" }
     ]},
     { "block": "B. Zwiedzamy", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · co to jest? · obiekty",
+      { "type":"ref", "title":"Ćwiczenie 1 · co to jest? · obiekty", "audio":"audio/L14/L14-czytanie-05.mp3",
         "words":"rzeka · stolica · pomnik · dzielnica · wieża · kościół · ratusz · katedra · zamek · skrzyżowanie · przystanek" },
-      { "type":"dia", "title":"Dialog 1 · трек 144", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 144", "audio":"audio/L14/L14-czytanie-06.mp3", "lines":[
         ["Przewodnik","Dzień dobry państwu. Nazywam się Jan Krall, jestem przewodnikiem po Krakowie. Jesteśmy na Rynku. Na wprost jest pomnik…","Добрий день. Мене звати Ян Кралль, я екскурсовод по Кракову. Ми на Ринку. Прямо перед нами пам’ятник…"],
         ["Mami","…Adama Mickiewicza. To znany poeta romantyczny.","…Адама Міцкевича. Це відомий поет-романтик."],
         ["Przewodnik","Za pomnikiem są Sukiennice. Tam jest muzeum, kawiarnia i…","За пам’ятником — Сукенниці. Там музей, кав’ярня і…"],
@@ -69,7 +69,7 @@
         ["Mami","A pan?","А Ви?"],
         ["Przewodnik","Ja idę do domu. Pani wszystko wie!","Я йду додому. Ви ж усе знаєте!"]
       ]},
-      { "type":"dia", "title":"Dialog 2 · трек 144", "lines":[
+      { "type":"dia", "title":"Dialog 2 · трек 144", "audio":"audio/L14/L14-czytanie-07.mp3", "lines":[
         ["Angela","I co teraz, pani wszystkowiedząca?","І що тепер, пані всезнайко?"],
         ["Mami","Nic. Idziemy. O, tu na rogu możemy kupić precle. Kto jest głodny?","Нічого. Ідемо. О, тут на розі можемо купити преці. Хто голодний?"],
         ["Angela","A jak długo i co chcesz zwiedzać? Wieczorem idziemy do pubu!","А як довго і що хочеш оглядати? Увечері ми йдемо в паб!"],
@@ -77,15 +77,15 @@
         ["Angela","No dobrze, kto stoi na górze, kto na dole?","Ну добре, хто стоїть угорі, хто внизу?"],
         ["Javier","Ja chcę w środku!","Я хочу всередині!"]
       ]},
-      { "type":"ref", "title":"Wskazówki · підказки напрямку",
+      { "type":"ref", "title":"Wskazówki · підказки напрямку", "audio":"audio/L14/L14-czytanie-08.mp3",
         "words":"… jest: na wprost · po prawej stronie · po lewej stronie · … iść: prosto · …skręcić: w prawo · w lewo" }
     ]},
     { "block": "C. Idziemy do pubu", "items": [
-      { "type":"ref", "title":"Instrukcja A · kiedy jest ładna pogoda",
+      { "type":"ref", "title":"Instrukcja A · kiedy jest ładna pogoda", "audio":"audio/L14/L14-czytanie-09.mp3",
         "words":"Proszę skręcić w lewo i iść prosto. Potem proszę dojść do skrzyżowania i jeszcze raz skręcić w lewo. Ta część miasta to Kazimierz – dawna żydowska dzielnica. Następnie proszę iść kilkanaście metrów prosto do następnego skrzyżowania z ulicą Miodową. Skręcić w prawo, zaraz potem w lewo. Na wprost jest plac – ulica z kawiarniami i restauracjami. Nasz pub jest po prawej stronie, na rogu." },
-      { "type":"ref", "title":"Instrukcja B · kiedy jest brzydka pogoda",
+      { "type":"ref", "title":"Instrukcja B · kiedy jest brzydka pogoda", "audio":"audio/L14/L14-czytanie-10.mp3",
         "words":"Proszę skręcić w lewo i iść prosto. Potem proszę dojść do skrzyżowania i skręcić w prawo. Następnie przejść przez skrzyżowanie i iść cały czas prosto. Przejść przez park (Planty) i dalej iść prosto. Po prawej stronie jest Mały Rynek, a wy idziecie w lewo. To ulica ambasad i konsulatów. Nasz pub jest po lewej stronie." },
-      { "type":"dia", "title":"Ćwiczenie 2 · zaimki · трек 146", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · zaimki · трек 146", "audio":"audio/L14/L14-czytanie-11.mp3", "lines":[
         ["Angela","No jesteś! Wiesz, która godzina?!","Ну ось ти! Знаєш, котра година?!"],
         ["Mami","Przepraszam, czekałam na ciebie.","Вибач, я чекала на тебе."],
         ["Angela","Czekałaś na mnie na górze?! Dlaczego? I gdzie jest Karolina? Mówiłaś, że ją zaprosiłaś.","Чекала на мене нагорі?! Чому? І де Кароліна? Ти казала, що її запросила."],

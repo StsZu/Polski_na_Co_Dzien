@@ -34,10 +34,10 @@
   ],
   "czytanie": [
     { "block": "A. Co robiłeś / co zrobisz na weekend?", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · czas przeszły · трек 206",
+      { "type":"ref", "title":"Ćwiczenie 1 · czas przeszły · трек 206", "audio":"audio/L22/L22-czytanie-01.mp3",
         "words":"Zrobiłam porządek · napisałam zadanie domowe · skończyłam książkę · obejrzałam „Dzień świstaka” na DVD · przeczytałam wiadomości · ugotowałam zupę i zjadłam ją całą · zaplanowałam weekend w Toruniu · pojechałam do Gdańska · poznałam nowych ludzi · zwiedziłam Gdańsk · zobaczyłam Bałtyk · spotkałem się z kolegą · pospacerowaliśmy nad Wisłą · zaprosiliśmy dziewczyny na dyskotekę",
         "note":"Усі дієслова — у минулому доконаному часі. Прочитай уголос." },
-      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 1 · трек 207", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 1 · трек 207", "audio":"audio/L22/L22-czytanie-02.mp3", "lines":[
         ["—","Ale jesteś zielony. Nie znalazłeś niczego do spania w Zakopanem?","Який же ти зелений. Не знайшов де переночувати в Закопаному?"],
         ["—","Nie byłem w Tatrach. Nigdzie nie byłem. Imprezowałem na Kazimierzu. Nigdy nie wypiję ani kieliszka.","Я не був у Татрах. Ніде не був. Гуляв на Казимежі. Ніколи не вип’ю й чарки."],
         ["—","Nigdy nie mów nigdy. Planujemy coś wszyscy razem na długi weekend?","Ніколи не кажи «ніколи». Плануємо щось усі разом на довгі вихідні?"],
@@ -45,7 +45,7 @@
         ["—","Ponieważ pierwszego maja jest Święto Pracy. A trzeciego maja jest Święto Konstytucji. Więc mamy kilka dni wolnych.","Бо першого травня — День праці. А третього травня — День Конституції. Тож маємо кілька вихідних днів."],
         ["—","No to impreza.","Ну то вечірка."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 2 · трек 208", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 3 · Dialog 2 · трек 208", "audio":"audio/L22/L22-czytanie-03.mp3", "lines":[
         ["—","Słyszałeś? Planujemy wspólny weekend.","Чув? Плануємо спільні вихідні."],
         ["—","Przepraszam, ale beze mnie.","Вибач, але без мене."],
         ["—","A co będziesz robić przez te kilka dni?","А що ти робитимеш ці кілька днів?"],
@@ -55,27 +55,27 @@
         ["—","Tak. Będę spacerować. Czytać ambitną literaturę. Słuchać wiatru, tańczyć w deszczu, chodzić do kina, pić wino w parku, jak ten leń, Javier. A pieniądze będą zarabiać się same. Tak?","Так. Гулятиму. Читатиму амбітну літературу. Слухатиму вітер, танцюватиму під дощем, ходитиму в кіно, питиму вино в парку, як той ледар Хав’єр. А гроші будуть заробляти себе самі. Так?"],
         ["—","No... nikt nie jest doskonały.","Ну... ніхто не ідеальний."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 6 · czas przyszły · трек 209",
+      { "type":"ref", "title":"Ćwiczenie 6 · czas przyszły · трек 209", "audio":"audio/L22/L22-czytanie-04.mp3",
         "words":"Zrobię porządek · napiszę zadanie · skończę książkę · obejrzę „Dzień Świstaka” · przeczytam wiadomości · ugotuję zupę i zjem ją całą · zaplanuję weekend w Toruniu · pojadę do Gdańska · poznam nowych ludzi · porozmawiam z seniorem rodziny · zwiedzę Gdańsk · zobaczę Bałtyk · spotkam się z kolegą · pójdziemy na kawę · zaprosimy dziewczyny · wrócę rano i pójdę spać",
         "note":"Ті самі дії, але в майбутньому простому (доконаному) часі. Порівняй із Ćwiczenie 1." }
     ]},
     { "block": "B. Rozmowa przez telefon", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 A · трек 210", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 A · трек 210", "audio":"audio/L22/L22-czytanie-05.mp3", "lines":[
         ["—","Halo?","Алло?"],
         ["Angela","Dzień dobry, mówi Angela. Czy mogę rozmawiać z Mami?","Добрий день, це Анджела. Можна поговорити з Мамі?"],
         ["—","Dzień dobry. Nie ma jej. Poszły z Karoliną na zakupy. Czy coś przekazać?","Добрий день. Її немає. Пішли з Кароліною за покупками. Щось передати?"],
         ["Angela","Proszę jej powiedzieć, że zadzwonię za godzinę.","Передайте їй, що я зателефоную за годину."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 B · poczta głosowa · трек 211", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 B · poczta głosowa · трек 211", "audio":"audio/L22/L22-czytanie-06.mp3", "lines":[
         ["Automat","To numer 0 900 764 532. Po usłyszeniu sygnału proszę zostawić wiadomość.","Це номер 0 900 764 532. Після сигналу залиште повідомлення."],
         ["Angela","Cześć, tu Angela. Pewnie masz jakieś spotkanie. Jak skończysz, to zadzwoń do mnie na komórkę. Do usłyszenia.","Привіт, це Анджела. Мабуть, ти на якійсь зустрічі. Як закінчиш, подзвони мені на мобільний. До зв’язку."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 C · pomyłka · трек 212", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 C · pomyłka · трек 212", "audio":"audio/L22/L22-czytanie-07.mp3", "lines":[
         ["—","O cześć Javier. W końcu odebrałeś. Wiesz, dzwonię, bo...","О, привіт, Хав’єре. Нарешті взяв слухавку. Знаєш, дзвоню, бо..."],
         ["—","Pomyłka.","Помилка (не туди)."],
         ["—","Przepraszam.","Перепрошую."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 D · трек 213", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 D · трек 213", "audio":"audio/L22/L22-czytanie-08.mp3", "lines":[
         ["—","Halo?","Алло?"],
         ["Angela","E... Czy to numer 606 999 741?","Е... Це номер 606 999 741?"],
         ["—","E... nie wiem. To komórka Javiera.","Е... не знаю. Це мобільний Хав’єра."],
@@ -84,7 +84,7 @@
         ["Angela","Proszę mu przekazać, że dzwoniła Angela, koleżanka ze szkoły.","Передайте йому, що дзвонила Анджела, подруга зі школи."],
         ["—","Na pewno do pani oddzwoni.","Він обов’язково Вам передзвонить."]
       ]},
-      { "type":"dia", "title":"Ćwiczenie 1 E · трек 214", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 E · трек 214", "audio":"audio/L22/L22-czytanie-09.mp3", "lines":[
         ["—","No, w końcu odebrałaś. Cały czas było zajęte.","Ну, нарешті взяла слухавку. Весь час було зайнято."],
         ["—","Ach, bo dzwoniłam do wszystkich w sprawie weekendu. Ale albo poczta głosowa, albo... nieważne. Z nikim nie porozmawiałam.","Ах, бо я обдзвонювала всіх щодо вихідних. Але або голосова пошта, або... неважливо. Ні з ким не поговорила."],
         ["—","Zostawiłaś wiadomość? Odzwonią?","Залишила повідомлення? Передзвонять?"],
@@ -92,7 +92,7 @@
       ]}
     ]},
     { "block": "C. Lwów — tekst historyczny", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · czytanka · трек 216", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · czytanka · трек 216", "audio":"audio/L22/L22-czytanie-10.mp3", "lines":[
         ["Tekst","To miasto ma bardzo długą, skomplikowaną i tragiczną historię. W latach 1340–1772 należało do Królestwa Polskiego.","Це місто має дуже довгу, складну й трагічну історію. У 1340–1772 роках належало до Польського Королівства."],
         ["Tekst","Od 1772 do 1918 było pod zaborem austriackim. W latach 1918–1945 należało do Polski. 1945–1991 do ZSRR. A od 1991 do Ukrainy.","Від 1772 до 1918 було під австрійською займанщиною. У 1918–1945 належало Польщі. 1945–1991 — СРСР. А від 1991 — Україні."],
         ["Tekst","W okresie międzywojennym Lwów był trzecim pod względem liczby ludności, po Warszawie i Łodzi, miastem Polski oraz stolicą województwa.","У міжвоєнний період Львів був третім за кількістю населення містом Польщі, після Варшави й Лодзі, та столицею воєводства."],
@@ -100,7 +100,7 @@
       ]}
     ]},
     { "block": "D. Dokąd pojedziemy? — Lwów", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 215", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 215", "audio":"audio/L22/L22-czytanie-11.mp3", "lines":[
         ["—","Cześć Javier.","Привіт, Хав’єре."],
         ["Javier","O, cześć dziewczyny. Zaraz przedstawię wam moją znajomą. To jest Majka. Studentka turystyki. A to moje koleżanki ze szkoły. Mami i Angela.","О, привіт, дівчата. Зараз познайомлю вас із моєю знайомою. Це Майка. Студентка туризму. А це мої подруги зі школи. Мамі й Анджела."],
         ["—","Bardzo nam miło.","Дуже приємно."],

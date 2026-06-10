@@ -35,12 +35,12 @@
   ],
   "czytanie": [
     { "block": "A. Owoce i warzywa. Jaki smak?", "items": [
-      { "type":"ref", "title":"Owoce i warzywa · трек 095",
+      { "type":"ref", "title":"Owoce i warzywa · трек 095", "audio":"audio/L09/L09-czytanie-01.mp3",
         "words":"banan · jabłko · gruszka · śliwka · pomarańcza · brzoskwinia · kiwi · ziemniak · pomidor · ogórek · marchewka · por · cebula · czosnek · papryka · truskawka · cytryna · kalafior · brokuły · ananas · arbuz · kapusta · winogrona · jagody" },
-      { "type":"ref", "title":"Uwaga! Porównania smaków — порівняння смаку",
+      { "type":"ref", "title":"Uwaga! Porównania smaków — порівняння смаку", "audio":"audio/L09/L09-czytanie-02.mp3",
         "words":"słodki jak cukier · kwaśny jak cytryna · słony jak sól · ostry jak chili · gorzki jak kawa · bez cukru",
         "note":"Опиши свій улюблений овоч і фрукт: kolor, kształt, smak." },
-      { "type":"dia", "title":"Ćwiczenie 5 · opis owoców i warzyw", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 5 · opis owoców i warzyw", "audio":"audio/L09/L09-czytanie-03.mp3", "lines":[
         ["Owoc","Jest mała, czerwona i słodka. Trochę podłużna i miękka. Jest dobra z cukrem i ze śmietaną.","Фрукт: вона мала, червона й солодка. Трохи видовжена та м’яка. Смачна з цукром і сметаною."],
         ["?","Truskawka.","Полуниця."],
         ["Warzywo","Jest czerwony i okrągły. Może być mały, duży albo średni. Jest miękki. Ma delikatny smak. Jest dobry z cebulą, czosnkiem, solą i oliwą.","Овоч: він червоний і круглий. Може бути малий, великий або середній. М’який. Має ніжний смак. Смачний із цибулею, часником, сіллю та олією."],
@@ -56,7 +56,7 @@
       ]}
     ]},
     { "block": "B. Na targu", "items": [
-      { "type":"dia", "title":"Dialog 1 · co kupujemy? · трек 099", "lines":[
+      { "type":"dia", "title":"Dialog 1 · co kupujemy? · трек 099", "audio":"audio/L09/L09-czytanie-04.mp3", "lines":[
         ["Angela","Mami, co kupujemy?","Мамі, що купуємо?"],
         ["Mami","Coś na kolację, owoce i warzywa.","Щось на вечерю, фрукти й овочі."],
         ["Angela","Mam ochotę na spaghetti i na sałatkę owocową.","Я хочу спагеті та фруктовий салат."],
@@ -66,7 +66,7 @@
         ["Angela","Do spaghetti? Piwo? Jeśli chcesz, możesz kupić czerwone wino, ale jedno, nie dwa.","До спагеті? Пиво? Якщо хочеш, можеш купити червоне вино, але одне, не два."],
         ["Mami","Dobrze, w takim razie kupujemy teraz owoce i warzywa, a rybę jutro.","Добре, тоді купуємо зараз фрукти й овочі, а рибу завтра."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · owoce i warzywa · трек 100", "lines":[
+      { "type":"dia", "title":"Dialog 2 · owoce i warzywa · трек 100", "audio":"audio/L09/L09-czytanie-05.mp3", "lines":[
         ["Angela","Poproszę czosnek, cztery pomidory, dwie żółte papryki i dwie cebule i świeżą bazylię.","Дайте, будь ласка, часник, чотири помідори, два жовті перці й дві цибулини та свіжий базилік."],
         ["Sprzedawca","W doniczce, tak?","У горщику, так?"],
         ["Angela","Tak.","Так."],
@@ -84,7 +84,7 @@
         ["Angela","Dobrze, proszę pół kilo. Uff, to już wszystko.","Добре, дайте півкіло. Уф, це вже все."],
         ["Sprzedawca","42 złote 70 groszy.","42 злотих 70 грошів."]
       ]},
-      { "type":"dia", "title":"Dialog 3 · warzywa · трек 101", "lines":[
+      { "type":"dia", "title":"Dialog 3 · warzywa · трек 101", "audio":"audio/L09/L09-czytanie-06.mp3", "lines":[
         ["Mami","Poproszę marchewkę.","Дайте, будь ласка, моркву."],
         ["Sprzedawca","Ile?","Скільки?"],
         ["Mami","Trzy, albo nie, cztery marchewki.","Три, або ні, чотири морквини."],
@@ -106,16 +106,16 @@
       ]}
     ]},
     { "block": "C. Jakie? Liczba mnoga", "items": [
-      { "type":"ref", "title":"Liczba mnoga — приклади (To są…)",
+      { "type":"ref", "title":"Liczba mnoga — приклади (To są…)", "audio":"audio/L09/L09-czytanie-07.mp3",
         "words":"To są dojrzałe pomidory. · To są pieczone ziemniaki. · To są smaczne owoce. · To są świeże ryby. · To są dobre śliwki. · To są słodkie pomarańcze. · To są zielone jabłka.",
         "note":"Закінчення: -y (k, g), -e (sz, cz, c, l…), -a (рід nijaki)." },
-      { "type":"ref", "title":"Ćwiczenie 1 · l.poj. → l.mn. (групуй за закінченням)",
+      { "type":"ref", "title":"Ćwiczenie 1 · l.poj. → l.mn. (групуй за закінченням)", "audio":"audio/L09/L09-czytanie-08.mp3",
         "words":"gruszka → gruszki · banan → banany · cebula → cebule · cytryna → cytryny · śliwka → śliwki · jabłko → jabłka · warzywo → warzywa · winogrono → winogrona · pomarańcza → pomarańcze · wiśnia → wiśnie" }
     ]},
     { "block": "D. Gotowanie", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · sposoby gotowania — способи приготування",
+      { "type":"ref", "title":"Ćwiczenie 1 · sposoby gotowania — способи приготування", "audio":"audio/L09/L09-czytanie-09.mp3",
         "words":"gotowana (варена) · pieczona (запечена) · duszona (тушкована) · wędzona (копчена) · smażona (смажена)" },
-      { "type":"dia", "title":"Ćwiczenie 2 · sos do spaghetti", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 2 · sos do spaghetti", "audio":"audio/L09/L09-czytanie-10.mp3", "lines":[
         ["Karolina","Cześć dziewczyny, co robicie? Coś dobrego?","Привіт, дівчата, що робите? Щось смачне?"],
         ["Mami","Ja gotuję zupę jarzynową, a Angela robi sos do spaghetti.","Я варю овочевий суп, а Анджела робить соус до спагеті."],
         ["Karolina","Mniam, to ten sos tak pięknie pachnie!","Ням, то це соус так гарно пахне!"],
@@ -133,10 +133,10 @@
       ]}
     ]},
     { "block": "E. Supermarket", "items": [
-      { "type":"ref", "title":"Ćwiczenie 1 · koszyki · треки 104–107",
+      { "type":"ref", "title":"Ćwiczenie 1 · koszyki · треки 104–107", "audio":"audio/L09/L09-czytanie-11.mp3",
         "words":"1: chleb, ryby, wino · 2: ryby, cytryna, ser · 3: makaron, cytryna, sos · 4: piwo, paluszki, ogórki",
         "note":"Послухай діалоги й добери ім’я (Angela, Mami, Javier, Tom) до кошика." },
-      { "type":"ref", "title":"Ćwiczenie 2 · kategorie produktów — групи продуктів",
+      { "type":"ref", "title":"Ćwiczenie 2 · kategorie produktów — групи продуктів", "audio":"audio/L09/L09-czytanie-12.mp3",
         "words":"nabiał (mleko, ser, jogurt) · słodycze (czekolada, cukierki) · alkohole (wino, piwo, wódka) · mięso i wędliny (szynka, kiełbasa, kurczak) · pieczywo (chleb, bułki, drożdżówka) · napoje (sok, woda mineralna, coca-cola) · owoce i warzywa (jabłka, pomidory, banany) · ryby (makrela, łosoś, śledzie, dorsz) · mrożonki (mrożone truskawki, frytki, mrożone pierogi) · produkty zbożowe (makaron, ryż, kasza, płatki)" }
     ]}
   ],
