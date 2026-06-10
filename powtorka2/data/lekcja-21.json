@@ -1,0 +1,169 @@
+{
+  "id": "21",
+  "title": "Sztuka",
+  "goal": "Повторюємо: розмови про фільм і театр · вираження емоцій · дискусія про піратство в інтернеті · дієприкметник пасивний і пасивний стан (strona bierna)",
+
+  "vocab": [
+    { "group": "Film i teatr — фільм і театр", "items": [
+      ["scenariusz","сценарій"],["filmowiec","кінематографіст"],["niezależny","незалежний"],
+      ["wyreżyserować","зрежисерувати"],["zagrany","зіграний"],["nagradzany","нагороджуваний"],
+      ["festiwal","фестиваль"],["aktor","актор"],["rola","роль"],["spektakl","спектакль"],
+      ["premiera","прем’єра"],["reżyser","режисер"],["scenografia","сценографія"],["kostiumy","костюми"],
+      ["próba","репетиція"],["trema","хвилювання перед виступом"],["publiczność","публіка"],["loża","ложа"]
+    ]},
+    { "group": "Piractwo internetowe — піратство в інтернеті", "items": [
+      ["ściągnąć coś z Internetu","завантажити щось з інтернету"],["złamać prawo","порушити закон"],
+      ["nadużycie","зловживання"],["przestępstwo","злочин"],["niewinny","невинний"],
+      ["kradzież","крадіжка"],["piracka kopia","піратська копія"],["udostępniać","надавати доступ / поширювати"],
+      ["proceder","(незаконна) діяльність"],["odbiorca kultury","споживач культури"]
+    ]},
+    { "group": "Emocje — емоції", "items": [
+      ["odczuwać strach","відчувати страх"],["radować się","радіти"],["wkurzać","бісити"],
+      ["zakłopotany","збентежений"],["żenujący","ганебний / соромний"],["niedopuszczalny","неприпустимий"],
+      ["niesamowity","неймовірний"],["skandal","скандал"],["przerażenie","жах"],["zamyślony","замислений"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["odbywać się","відбуватися"],["irytować","дратувати"],["oburzać się","обурюватися"],
+      ["ukryć","приховати"],["przenosić role na życie","переносити ролі на життя"],
+      ["wczuwanie się","вживання (у роль)"],["utożsamiać się","ототожнюватися"],
+      ["czwarta ściana","четверта стіна"],["wypłata","зарплата / виплата"],["zarezerwować","зарезервувати"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Imiesłów przymiotnikowy bierny — пасивний дієприкметник",
+      "note": "Утворюється тільки від перехідних (tranzytywних) дієслів. Відмінюється як прикметник (рід, число, відмінок). Три типи суфіксів: -ny, -ony, -ty.",
+      "table": {
+        "head": ["Sufiks","Bezokolicznik","Imiesłów"],
+        "rows": [
+          ["-ny","napisać, zaprosić","napis*any*, zaprosz*ony*"],
+          ["-ony","zrobić, nagrodzić","zrobi*ony*, nagrodz*ony*"],
+          ["-ty","ukryć, umyć, wziąć","ukry*ty*, umy*ty*, wzię*ty*"]
+        ]
+      }
+    },
+    {
+      "title": "Strona bierna — пасивний стан",
+      "note": "Хто/що виконує дію — менш важливо за саму дію. Утворюється: być / zostać + imiesłów bierny. Виконавця вводимо через przez + biernik (знахідний).",
+      "table": {
+        "head": ["Konstrukcja","Przykład"],
+        "rows": [
+          ["być + imiesłów (стан, тривалість)","Ten artysta był związany z teatrem. Wystawa jest otwarta."],
+          ["zostać + imiesłów (одноразова дія)","Film został wyreżyserowany przez dwóch filmowców."],
+          ["przez + biernik (виконавець)","Scenariusz był napisany przez nich. Obraz został namalowany przez Leonarda."]
+        ]
+      }
+    },
+    {
+      "title": "Być czy zostać? — być чи zostać?",
+      "note": "«Być» — для стану або повторюваної дії; «zostać» — для завершеної одноразової дії (часто перфективні дієслова).",
+      "words": "być nagradzany (повторювано) · zostać nagrodzony (одноразово) · być odwiedzany · zostać przywieziony · być otwierany · zostać zajęty · być reklamowany · zostać sprzedany"
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Oglądanie filmu · dialog · трек 221A2", "items": [
+      { "type": "dia", "title": "Po seansie — kino niezależne", "audio": "audio/L21/L21-czytanie-01.mp3", "lines": [
+        ["Angela","Dzięki Karolu, że mnie zaprosiłeś na to oglądanie.","Дякую, Кароле, що запросив мене на цей перегляд."],
+        ["Karol","Cała przyjemność po mojej stronie. Wpadaj do nas częściej. Zawsze mogę ściągnąć coś fajnego.","Вся приємність на моєму боці. Заглядай до нас частіше. Я завжди можу завантажити щось класне."],
+        ["Karolina","A mnie to irytuje, że już się prawie nie chodzi do kina, tylko ciągle oglądamy piraty. Kino ma swoją magię.","А мене дратує, що вже майже не ходимо до кіно, а постійно дивимося піратки. Кіно має свою магію."],
+        ["Karol","Bądź realistką, siostro!","Будь реалісткою, сестро!"],
+        ["Angela","Nie kłóćcie się. Jaki był tytuł tego filmu?","Не сваріться. Яка була назва цього фільму?"],
+        ["Karol","„Dla Ciebie i ognia”. Choć łacińskie „Tibi et Igni” można by też przetłumaczyć „Tobie i ogniowi”. Dla mnie to by brzmiało lepiej.","«Для тебе й вогню». Хоча латинське «Tibi et Igni» можна було б також перекласти «Тобі й вогневі». Для мене це звучало б краще."],
+        ["Mami","Mhm. Tu dopełniacz, a tu celownik, tak? A przez kogo był zrobiony ten film?","Мгм. Тут родовий, а тут давальний, так? А ким був зроблений цей фільм?"],
+        ["Karol","Został wyreżyserowany przez dwóch młodych, niezależnych filmowców. Scenariusz też był napisany przez nich.","Його зрежисерували двоє молодих незалежних кінематографістів. Сценарій теж був написаний ними."],
+        ["Angela","Jednym słowem, kino niezależne. Fajnie był zagrany. Muzyka też mi się podobała.","Одне слово, незалежне кіно. Гарно зіграно. Музика теж мені сподобалася."],
+        ["Karolina","A wiecie, że film był nagradzany na różnych festiwalach? Ciekawe, czemu nie wszedł do kin.","А знаєте, що фільм нагороджували на різних фестивалях? Цікаво, чому він не вийшов у прокат."],
+        ["Karol","Mami, a ty dlaczego jesteś taka zamyślona?","Мамі, а ти чому така замислена?"],
+        ["Mami","Bo głos tego aktora kogoś mi przypomina. Ja go dobrze znam, tylko nie wiem skąd. Zaraz, zaraz. Wiem! Nasz podręcznik do polskiego! Przecież to głos Toma!","Бо голос цього актора мені когось нагадує. Я його добре знаю, тільки не знаю звідки. Стривай, стривай. Знаю! Наш підручник з польської! Це ж голос Тома!"]
+      ]}
+    ]},
+    { "block": "B. Wywiad z aktorem · трек 221B1", "items": [
+      { "type": "mono", "title": "Michał o pracy aktora — film i teatr", "audio": "audio/L21/L21-czytanie-02.mp3",
+        "text": "Michale, użyczyłeś głosu jednemu z bohaterów naszego podręcznika, ale na co dzień zajmujesz się czymś innym. Wiem, że jesteś związany zarówno z teatrem, jak i filmem. Opowiesz nam coś o swojej pracy? Jestem jeszcze młodym aktorem, ale czasem wydaje mi się, że dzięki graniu jestem starszy. Aktor ma możliwości popróbowania przeróżnych charakterów, przeżycia tysiąca emocji. Jednym słowem, jesteś bogatszy o wiele doświadczeń. Czy to nie odbija się na Twoim życiu? Nie boisz się, że staniesz się cyniczny i bezwzględny, jak na przykład bohater „Dla Ciebie i ognia”? Nie, nigdy nie przenosimy ról na własne życie. To byłoby straszne i mogłoby się źle skończyć. Co prawda, kiedy przygotowujemy się do odegrania jakiejś postaci, często wychodzimy z rolą na miasto. To znaczy, próbujemy na ulicy, w sklepie, tramwaju zaistnieć jako ta filmowa czy teatralna kreacja. Ale to wczuwanie się to coś zupełnie innego. A propos „Ciebie i ognia”. Nasi studenci rozpoznali Cię w roli głównej i mieli ochotę się z Tobą spotkać, ale wstyd im było, że obejrzeli film ściągnięty z internetu. Cóż, takie czasy, więc nie mogę się oburzać. A poza tym cieszy mnie, że ten film gdzieś krąży, że ktoś chce go oglądać, że potem czasem komentuje w sieci albo poleci znajomym. Wróćmy do Twojej pracy. Jaka jest różnica dla aktora między teatrem a filmem? Olbrzymia. Film to przede wszystkim zbliżenie na twarz. Kamera wychwytuje wszystkie emocje, nawet te, które chcemy ukryć. Teatr to gra całym sobą. Twarz jest tylko cząstką. Poza tym film jest zamknięty, skończony. Wraz z ostatnim klapsem na planie filmowym zostawiamy naszą rolę na zawsze. A w teatrze wspólna podróż nie kończy się w dniu premiery, tylko ciągle trwa. Gramy za każdym razem od nowa i zawsze możemy coś poprawić, zmienić. Czyli wolisz teatr. Tak, granie w teatrze sprawia ogromną radość. Jak długo trzeba przygotowywać spektakl? Przynajmniej dwa miesiące. Pierwsze próby to tylko czytanie i analizowanie tekstu. Nie można uczyć się go wcześniej, żeby się nie zauczyć. Mówimy, że to podczas prób powstaje prawdziwy teatr. Wtedy pod okiem reżysera odkrywamy rolę i uczymy się, jak ją przeżywać. Utożsamiamy się z nią i przekraczamy siebie. Kiedy już stoisz przed publicznością, co czujesz? Czasem pustkę w głowie i tremę. Ale potem scenografia, kostiumy, atmosfera przywołują pamięć przestrzenną i zaczyna się przedstawienie. Wtedy publiczność przestaje istnieć. Jest tylko tak zwana czwarta ściana. Trzeba pokonać siebie i wejść w rolę. Wystarczy moment, żeby poczuć radość grania. Gdybyś miał jednym zdaniem podsumować swoją profesję, co byś nam powiedział? Magia aktorstwa uzależnia i każe czekać na swoje wejście podczas spektaklu, na kolejną rolę, na sukces i na wypłatę. Dziękuję Ci bardzo za rozmowę.",
+        "tr": "Михале, ти озвучив одного з героїв нашого підручника, але щодня займаєшся чимось іншим. Знаю, що ти пов’язаний і з театром, і з кіно. Розкажеш нам щось про свою роботу? Я ще молодий актор, але часом мені здається, що завдяки грі я старший. Актор має можливість спробувати найрізноманітніші характери, пережити тисячу емоцій. Одне слово, ти багатший на безліч досвіду. Чи це не відбивається на твоєму житті? Не боїшся, що станеш цинічним і безжальним, як, наприклад, герой «Для тебе й вогню»? Ні, ми ніколи не переносимо ролі на власне життя. Це було б страшно й могло б погано закінчитися. Щоправда, коли готуємося до виконання якоїсь постаті, часто «виходимо з роллю в місто». Тобто пробуємо на вулиці, у крамниці, у трамваї стати тим кіно- чи театральним образом. Але це вживання в роль — то щось зовсім інше. До речі, про «Тебе й вогонь». Наші студенти впізнали тебе в головній ролі й хотіли з тобою зустрітися, але їм було соромно, що дивилися фільм, завантажений з інтернету. Ну що ж, такі часи, тож не можу обурюватися. А крім того, мене тішить, що цей фільм десь циркулює, що хтось хоче його дивитися, що потім часом коментує в мережі або рекомендує знайомим. Повернімося до твоєї роботи. Яка різниця для актора між театром і кіно? Величезна. Кіно — це передусім великий план обличчя. Камера вловлює всі емоції, навіть ті, які ми хочемо приховати. Театр — це гра всім собою. Обличчя — лише частинка. Крім того, фільм замкнений, завершений. Разом з останньою хлопавкою на знімальному майданчику ми залишаємо свою роль назавжди. А в театрі спільна подорож не закінчується в день прем’єри, а постійно триває. Граємо щоразу заново й завжди можемо щось поправити, змінити. Тобто ти волієш театр. Так, гра в театрі дає величезну радість. Як довго треба готувати спектакль? Принаймні два місяці. Перші репетиції — це лише читання й аналіз тексту. Не можна вчити його заздалегідь, щоб не «зазубритися». Кажемо, що саме під час репетицій народжується справжній театр. Тоді під оком режисера ми відкриваємо роль і вчимося, як її переживати. Ототожнюємося з нею й перевершуємо себе. Коли вже стоїш перед публікою, що відчуваєш? Часом порожнечу в голові й хвилювання. Але потім сценографія, костюми, атмосфера повертають просторову пам’ять — і починається вистава. Тоді публіка перестає існувати. Є лише так звана четверта стіна. Треба перемогти себе й увійти в роль. Достатньо миті, щоб відчути радість гри. Якби ти мав одним реченням підсумувати свою професію, що б ти нам сказав? Магія акторства затягує й змушує чекати — на свій вихід під час спектаклю, на наступну роль, на успіх і на зарплату. Дуже дякую тобі за розмову." }
+    ]},
+    { "block": "B. Egzamin do szkoły teatralnej · трек 221B3", "items": [
+      { "type": "mono", "title": "Jak dostać się do szkoły teatralnej", "audio": "audio/L21/L21-czytanie-03.mp3",
+        "text": "Czy trudno dostać się do szkoły teatralnej? Co trzeba zrobić, żeby zostać przyjętym? Trzeba mieć sporo szczęścia, stalowe nerwy i odrobinę talentu. Eee, odrobina chyba nie wystarczy. A co to znaczy mieć stalowe nerwy? No, być spokojnym, opanowanym, nie dać się wytrącić z równowagi. Dlaczego to takie ważne? Dlaczego? Spróbujcie wyobrazić sobie egzamin. Pierwszy etap. Kandydaci stają przed komisją w grupach dziesięcioosobowych w samych spodenkach. To dość krępująca sytuacja. Człowiek nie może niczego ukryć. Zwłaszcza dziewczyny się stresują, bo nie mogą schować żadnych defektów pod dobrze dobranym ciuchem. A tu trzeba się zaprezentować jakby nigdy nic, opowiedzieć coś o sobie, coś wyrecytować. Czym jest motywowana taka forma egzaminu? Aktor musi się umieć znaleźć w każdym położeniu. Zagrać każdą rolę. Pewnie lepiej sprawdzić od razu, jak reaguje w nietypowych okolicznościach. Czy nie paraliżuje go wstyd albo strach. Czyli na start jest dużo emocji. A co potem? Jak wygląda kolejny etap? Drugi etap jest czysto teoretyczny. Sprawdzanie wiedzy ogólnej o teatrze i tak dalej. I to już? Nie, jeszcze ostatnia część egzaminu. Ta najważniejsza. Sprawdzenie zdolności aktorskich. Ci kandydaci, którzy przeszli przez dwa pierwsze etapy, muszą odegrać zadaną scenkę, coś zaimprowizować. Zwykle z rzeszy kandydatów zostaje dwudziestu.",
+        "tr": "Чи важко вступити до театральної школи? Що треба зробити, щоб тебе прийняли? Треба мати чимало щастя, сталеві нерви й трохи таланту. Е-е, дрібки, мабуть, не вистачить. А що означає мати сталеві нерви? Ну, бути спокійним, врівноваженим, не давати вивести себе з рівноваги. Чому це так важливо? Чому? Спробуйте уявити собі іспит. Перший етап. Кандидати стають перед комісією групами по десять осіб в самих шортах. Це доволі ніякова ситуація. Людина не може нічого приховати. Особливо дівчата нервують, бо не можуть сховати жодних вад під добре дібраним одягом. А тут треба показати себе, ніби нічого, розповісти щось про себе, щось продекламувати. Чим зумовлена така форма іспиту? Актор має вміти знайтися в будь-якій ситуації. Зіграти будь-яку роль. Мабуть, краще відразу перевірити, як він реагує в нетипових обставинах. Чи не паралізує його сором або страх. Тобто на старті багато емоцій. А що потім? Як виглядає наступний етап? Другий етап суто теоретичний. Перевірка загальних знань про театр і так далі. І це вже все? Ні, ще остання частина іспиту. Найважливіша. Перевірка акторських здібностей. Ті кандидати, які пройшли два перші етапи, мусять зіграти задану сценку, щось зімпровізувати. Зазвичай з юрби кандидатів залишається двадцятеро." }
+    ]},
+    { "block": "B. Rezerwacja biletów · dialog · трек 221B6", "items": [
+      { "type": "dia", "title": "Kasa teatru — rezerwacja", "audio": "audio/L21/L21-czytanie-04.mp3", "lines": [
+        ["Kasa","Kasa teatru, słucham.","Каса театру, слухаю."],
+        ["Angela","Dzień dobry. Chciałam zarezerwować pięć biletów na wesele, na sobotni spektakl.","Доброго дня. Я хотіла б зарезервувати п’ять квитків на «Весілля», на суботній спектакль."],
+        ["Kasa","Na 23 kwietnia, tak?","На 23 квітня, так?"],
+        ["Angela","Tak.","Так."],
+        ["Kasa","Niestety, zostały już tylko cztery bilety.","На жаль, залишилося вже лише чотири квитки."],
+        ["Angela","Szkoda. W takim razie poproszę te cztery.","Шкода. У такому разі прошу ці чотири."],
+        ["Kasa","Dobrze. Ale to ostatnie miejsca, nie ma czterech obok siebie. Są dwa w loży i dwa na parterze. Czy odpowiada to pani?","Добре. Але це останні місця, немає чотирьох поруч. Є два в ложі й два в партері. Чи влаштовує це вас?"],
+        ["Angela","Jeśli się nie da inaczej, to niech tak będzie. Proszę zarezerwować na nazwisko Brown.","Якщо інакше не можна, то нехай так буде. Прошу зарезервувати на прізвище Браун."],
+        ["Kasa","W porządku. Bilety będą do odebrania w kasie, ale nie później niż 15 minut przed spektaklem. Jeśli pani ich nie odbierze na czas, zostaną sprzedane.","Гаразд. Квитки можна забрати в касі, але не пізніше ніж за 15 хвилин до спектаклю. Якщо ви не заберете їх вчасно, вони будуть продані."],
+        ["Angela","Rozumiem. A w jakiej cenie są bilety?","Розумію. А якою є ціна квитків?"],
+        ["Kasa","Loża 45, parter 40 zł.","Ложа — 45, партер — 40 злотих."],
+        ["Angela","Dziękuję bardzo. Do widzenia.","Дуже дякую. До побачення."]
+      ]}
+    ]},
+    { "block": "C. Opinie o piractwie · трек 221C2", "items": [
+      { "type": "mono", "title": "Grzegorz — muzyk", "audio": "audio/L21/L21-czytanie-05.mp3",
+        "text": "Jestem muzykiem. W sumie powinienem być absolutnie przeciwny nielegalnemu procederowi ściągania plików z internetu. Ale tak naprawdę to czuję, że sztuka powinna być dla wszystkich. Że jeśli dostaliśmy jakiś talent za darmo, to może powinniśmy dzielić się naszą twórczością, udostępniać ją innym.",
+        "tr": "Я музикант. По суті, я мав би бути абсолютно проти незаконної діяльності із завантаження файлів з інтернету. Але насправді я відчуваю, що мистецтво має бути для всіх. Що якщо ми отримали якийсь талант задарма, то, можливо, повинні ділитися своєю творчістю, надавати її іншим." },
+      { "type": "mono", "title": "Wanda — to normalna kradzież", "audio": "audio/L21/L21-czytanie-06.mp3",
+        "text": "Piractwo internetowe to na pewno problem, o którym warto mówić. Niektórzy ludzie nie zdają sobie sprawy, że korzystając z darmowych pirackich kopii popełniają nadużycie. Nie mieści im się w głowie, że to normalna kradzież. Staram się to tłumaczyć moim dzieciom, ale przyznaję, że nie zawsze z dobrym skutkiem. Zwykle słyszę: mamo, tak robią wszyscy, to normalka. Mąż też twierdzi, że kijem rzeki nie zawrócę.",
+        "tr": "Інтернет-піратство — це, безперечно, проблема, про яку варто говорити. Деякі люди не усвідомлюють, що, користуючись безкоштовними піратськими копіями, чинять зловживання. Їм не вкладається в голові, що це звичайна крадіжка. Намагаюся пояснювати це своїм дітям, але визнаю, що не завжди з добрим результатом. Зазвичай чую: мамо, так роблять усі, це нормально. Чоловік теж стверджує, що палицею річку не заверну." },
+      { "type": "mono", "title": "Kamila — dostępność sztuki", "audio": "audio/L21/L21-czytanie-07.mp3",
+        "text": "Kiedyś książki były bardzo kosztowne. Tylko najbogatsi mogli je nabywać. Potem ktoś wymyślił biblioteki. Wszystkich cieszą witryny internetowe typu Wikipedia. Wszelkie darmowe encyklopedie, słowniki. Może powinny być też ogólnie dostępne filmoteki i audioteki. Przecież i tak w sieci znajdziemy obszerne fragmenty darmowych audiobooków, filmy oficjalnie udostępniane przez młodych, niezależnych twórców. Jeśli pominiemy aspekt prawny i biznesowy, to musimy przyznać, że dostępność sztuki w internecie to pewna wartość. Bo rośnie liczba odbiorców kultury.",
+        "tr": "Колись книжки були дуже дорогими. Тільки найбагатші могли їх купувати. Потім хтось придумав бібліотеки. Усіх тішать інтернет-сайти типу Вікіпедії. Усілякі безкоштовні енциклопедії, словники. Можливо, мали б бути також загальнодоступні фільмотеки й аудіотеки. Адже й так у мережі ми знайдемо великі фрагменти безкоштовних аудіокниг, фільми, офіційно надані молодими незалежними творцями. Якщо опустити правовий і бізнесовий аспект, то мусимо визнати, що доступність мистецтва в інтернеті — це певна цінність. Бо зростає кількість споживачів культури." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 21 — треки 221A2, 221B1, 221B3, 221B6, 221C2. Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "Walentynkowy wieczór pani Zofii · zeszyt cw06", "audio": "audio/L21/L21-zeszyt-01.mp3",
+      "text": "Pani Zofia postanowiła, że walentynkowy wieczór spędzą razem z mężem miło i kulturalnie. Najpierw sprawdziła repertuar teatrów. W ich ulubionym teatrze, niedaleko Wawelu, akurat była grana sztuka pod tytułem „Ogień uczuć”. Pomyślała, że to idealny temat na 14 lutego, zwłaszcza że godzina też jej odpowiadała. 19 to ani nie za wcześnie, ani nie za późno. Skorzystała z rezerwacji internetowej i wypełniła formularz. Nie mogła przypomnieć sobie swojego nowego numeru telefonu, ale na szczęście był zapisany w notesie. 605 973 749. Już po godzinie dostała odpowiedź i numer konta, na który od razu wpłaciła pieniądze. Niestety bilety nie były tanie. 75 złotych za jeden. Numer miejsc sprawdziła na planie widowni. Okazało się, że miejsca 19 i 20 w 13 rzędzie nie są najlepsze, ale nie było już innych obok siebie.",
+      "tr": "Пані Зофія вирішила, що вечір Дня святого Валентина проведе разом з чоловіком приємно й культурно. Спершу перевірила репертуар театрів. У їхньому улюбленому театрі, неподалік Вавеля, саме грали виставу під назвою «Вогонь почуттів». Вона подумала, що це ідеальна тема на 14 лютого, тим паче що й година їй пасувала. 19-та — це ні не зарано, ні не запізно. Скористалася інтернет-бронюванням і заповнила формуляр. Не могла пригадати свій новий номер телефону, але на щастя він був записаний у нотатнику. 605 973 749. Уже за годину отримала відповідь і номер рахунку, на який одразу переказала гроші. На жаль, квитки не були дешевими. 75 злотих за один. Номери місць перевірила на плані зали. Виявилося, що місця 19 і 20 в 13-му ряду не найкращі, але інших поруч уже не було." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 21, ćw. 6 (трек 26794). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "strona bierna", "q": "Як правильно: «Film ___ przez dwóch filmowców» (одноразова завершена дія)?",
+      "o": ["był reżyserowany","został wyreżyserowany","reżyseruje"], "a": 1,
+      "fb": "Одноразову завершену дію виражаємо «zostać + imiesłów»: został wyreżyserowany. У діалозі: «Został wyreżyserowany przez dwóch młodych filmowców»." },
+    { "topic": "imiesłów bierny", "q": "Який пасивний дієприкметник від «napisać»?",
+      "o": ["napisany","napisony","napity"], "a": 0,
+      "fb": "Суфікс -ny: napisać → napisany. У тексті: «Scenariusz też był napisany przez nich»." },
+    { "topic": "słownictwo", "q": "Що означає «ściągnąć coś z Internetu»?",
+      "o": ["завантажити щось з інтернету","видалити щось","надіслати щось"], "a": 0,
+      "fb": "«Ściągnąć z Internetu» — завантажити (часто нелегально). Karol: «Zawsze mogę ściągnąć coś fajnego»." },
+    { "topic": "dialog", "q": "Чому Mami замислена після перегляду фільму?",
+      "o": ["не зрозуміла сюжету","голос актора їй когось нагадує","фільм був нудний"], "a": 1,
+      "fb": "Mami: «Bo głos tego aktora kogoś mi przypomina… to głos Toma!» — це голос Тома з підручника." },
+    { "topic": "imiesłów bierny", "q": "Дієприкметник від «ukryć» має суфікс…",
+      "o": ["-ny → ukryny","-ony → ukrzony","-ty → ukryty"], "a": 2,
+      "fb": "Суфікс -ty: ukryć → ukryty. Так само: umyć → umyty, wziąć → wzięty." },
+    { "topic": "strona bierna", "q": "Виконавця дії в пасиві вводимо через…",
+      "o": ["przez + biernik","od + dopełniacz","dla + dopełniacz"], "a": 0,
+      "fb": "«Przez + biernik»: «przez dwóch filmowców», «przez Leonarda da Vinci»." },
+    { "topic": "teatr", "q": "Скільки часу, за словами Michała, треба готувати спектакль?",
+      "o": ["два тижні","принаймні два місяці","півроку"], "a": 1,
+      "fb": "Michał: «Przynajmniej dwa miesiące. Pierwsze próby to tylko czytanie i analizowanie tekstu»." },
+    { "topic": "słownictwo", "q": "Що таке «czwarta ściana» в театрі?",
+      "o": ["декорація на сцені","уявна межа між сценою і публікою","задня стіна театру"], "a": 1,
+      "fb": "«Czwarta ściana» — уявна межа: «publiczność przestaje istnieć, jest tylko tak zwana czwarta ściana»." },
+    { "topic": "piractwo", "q": "Як Wanda оцінює користування піратськими копіями?",
+      "o": ["це нормальна крадіжка","це не шкодить нікому","це підтримка митців"], "a": 0,
+      "fb": "Wanda: «Nie mieści im się w głowie, że to normalna kradzież» — це звичайна крадіжка." },
+    { "topic": "strona bierna", "q": "Коли вживаємо «być + imiesłów» замість «zostać»?",
+      "o": ["для одноразової дії","для стану або повторюваної дії","ніколи"], "a": 1,
+      "fb": "«Być + imiesłów» — для стану/тривалості або повторюваної дії: «był nagradzany na różnych festiwalach» (нагороджували неодноразово)." }
+  ],
+
+  "checklist": [
+    { "text": "Утворювати пасивний дієприкметник", "sub": "napisać → napisany (-ny), zrobić → zrobiony (-ony), ukryć → ukryty (-ty)" },
+    { "text": "Будувати пасивний стан (strona bierna)", "sub": "być / zostać + imiesłów: film został wyreżyserowany" },
+    { "text": "Розрізняти być і zostać у пасиві", "sub": "być — стан/повторювано · zostać — одноразова завершена дія" },
+    { "text": "Говорити про фільм і театр", "sub": "scenariusz, reżyser, spektakl, premiera, rola, próba, publiczność" },
+    { "text": "Висловлювати емоції та дискутувати про піратство", "sub": "To skandal! Wkurza mnie to! · nadużycie, kradzież, udostępniać" }
+  ]
+}

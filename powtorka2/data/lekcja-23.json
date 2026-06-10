@@ -1,0 +1,166 @@
+{
+  "id": "23",
+  "title": "Czas na egzamin!",
+  "goal": "Повторюємо весь матеріал перед іспитом: будова мовного тесту · поради на іспит · narzędnik і всі відмінки · liczebniki · zaimki · tryb rozkazujący",
+
+  "vocab": [
+    { "group": "Egzamin i test — іспит і тест", "items": [
+      ["egzamin","іспит"],["test sprawdzający","перевірочний тест"],["kompetencje językowe","мовні компетенції"],
+      ["rozumienie ze słuchu","розуміння на слух"],["rozumienie tekstów pisanych","розуміння писаних текстів"],
+      ["nagranie","запис"],["polecenie","завдання / інструкція"],["zdający","той, хто складає іспит"],
+      ["wynik pozytywny","позитивний результат"],["egzamin certyfikatowy","сертифікаційний іспит"]
+    ]},
+    { "group": "Sprawności językowe — мовні вміння", "items": [
+      ["wybranie odpowiedzi","вибір відповіді"],["sformułowanie odpowiedzi","формулювання відповіді"],
+      ["zaznaczenie","позначення"],["uzupełnienie","доповнення"],["utworzenie formy","утворення форми"],
+      ["poukładanie fragmentów","упорядкування фрагментів"],["dopasowanie","добір / відповідність"],
+      ["płynność wypowiedzi","плавність висловлювання"],["wymowa","вимова"],["intonacja","інтонація"]
+    ]},
+    { "group": "Oceny — оцінки", "items": [
+      ["celująca","відмінна (6)"],["bardzo dobra","дуже добра (5)"],["dobra","добра (4)"],
+      ["dostateczna","задовільна (3)"],["niedostateczna","незадовільна (2)"],
+      ["świadectwo","табель / атестат"],["zdać egzamin","скласти іспит"],["oblać egzamin","завалити іспит"]
+    ]},
+    { "group": "Charakter na egzaminie — характер на іспиті", "items": [
+      ["nieśmiały","сором’язливий"],["mieć pustkę w głowie","мати порожнечу в голові"],
+      ["radzić sobie ze stresem","давати раду зі стресом"],["wzrokowiec","візуал"],
+      ["mocne strony","сильні сторони"],["słabe strony","слабкі сторони"],["wyspać się","виспатися"],
+      ["upewnić się","упевнитися"],["rozplanować czas","розпланувати час"]
+    ]},
+    { "group": "Idiomy porównawcze — порівняльні ідіоми", "items": [
+      ["głodny jak wilk","голодний як вовк"],["silny jak koń","сильний як кінь"],
+      ["pracowity jak mrówka","працьовитий як мураха"],["zdrów jak ryba","здоровий як риба"],
+      ["uparty jak osioł","упертий як осел"],["chytry jak lis","хитрий як лис"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Tryb rozkazujący — наказовий спосіб",
+      "note": "Поради на іспит у наказовому способі. 2 ос. одн. найчастіше = основа теперішнього часу; для «ви» додаємо -cie. Заперечення з niedokonanym дієсловом.",
+      "table": {
+        "head": ["Bezokolicznik","ty","wy"],
+        "rows": [
+          ["wyspać się","wyśpij się","wyśpijcie się"],
+          ["przeczytać","przeczytaj","przeczytaj*cie*"],
+          ["upewnić się","upewnij się","upewnij*cie* się"],
+          ["pamiętać","pamiętaj","pamiętaj*cie*"],
+          ["myśleć pozytywnie","myśl pozytywnie","myśl*cie* pozytywnie"]
+        ]
+      }
+    },
+    {
+      "title": "Narzędnik — powtórzenie (орудний відмінок)",
+      "note": "Чоловічий/середній рід → -em/-iem, жіночий → -ą, множина → -ami (винятки: dziećmi, ludźmi). Питання: Kim? Czym?",
+      "table": {
+        "head": ["Pytanie","Przykład"],
+        "rows": [
+          ["Kim jestem?","Jestem historyk*iem*. Jestem nauczyciel*ką*."],
+          ["Czym się zajmuję?","Opiekuję się chor*ą* babc*ią*. Kieruję firm*ą*."],
+          ["Którędy?","Idę tym tunel*em*. Jadę autobus*em*."],
+          ["Z kim / z czym?","Nie radzę sobie ze stres*em*. Jadę z Polak*iem*."]
+        ]
+      }
+    },
+    {
+      "title": "Przypadki — kim? czym? kogo? czego? (відмінки)",
+      "note": "Кожне дієслово вимагає свого відмінка. Це треба знати на іспиті.",
+      "table": {
+        "head": ["Czasownik","Przypadek","Przykład"],
+        "rows": [
+          ["opiekować się, kierować, zajmować się","narzędnik","opiekuję się chor*ą* babc*ią*"],
+          ["potrzebować, szukać, bać się, pilnować","dopełniacz","boję się duż*ych* ps*ów*"],
+          ["lubić, kochać","biernik","lubię t*ych* student*ów*"],
+          ["ufać, pomagać","celownik","ta fundacja pomaga zwierzęt*om*"]
+        ]
+      }
+    },
+    {
+      "title": "Liczba mnoga rzeczowników — множина (винятки)",
+      "note": "На іспиті часто плутають нерегулярну множину. Запам’ятай ці форми.",
+      "table": {
+        "head": ["Liczba pojedyncza","Liczba mnoga"],
+        "rows": [
+          ["imię, zwierzę, muzeum","imion*a*, zwierzęt*a*, muze*a*"],
+          ["człowiek, ksiądz","ludzi*e*, księż*a*"],
+          ["rok, oko, ucho","lat*a*, ocz*y*, usz*y*"],
+          ["brat, pan, Włoch","braci*a*, panowi*e*, Włos*i*"],
+          ["tydzień, pieniądz","tygodni*e*, pieniądz*e*"]
+        ]
+      }
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Czas na test · трек 223A1", "items": [
+      { "type": "mono", "title": "Nauczycielka: na czym polega test", "audio": "audio/L23/L23-czytanie-01.mp3",
+        "text": "Kochani, za nami kolejny etap nauki. Czas na test. Należy Wam się wyjaśnienie, na czym on będzie polegał, a więc. Standardowy test sprawdzający Wasze kompetencje językowe powinien składać się z kilku części. Po pierwsze, rozumienie ze słuchu. Waszym zadaniem jest wybranie lub sformułowanie właściwej odpowiedzi na pytania w trakcie nagrania lub po jego wysłuchaniu. Może to też być zaznaczenie właściwej odpowiedzi albo uzupełnienie brakujących fragmentów tekstu. Po drugie, gramatyka, czyli wybranie lub utworzenie gramatycznie poprawnej formy lub struktury. Po trzecie, rozumienie tekstów pisanych. Zadaniem zdających jest przeczytanie tekstu, a następnie zaznaczenie, które ze zdań to prawda lub nieprawda, poukładanie fragmentów tekstu w logicznej kolejności czy dopasowanie tekstu do tytułu. Po czwarte, pisanie własnego tekstu z zestawów tematycznych do wyboru. Celem jest badanie sprawności pisania, a nie wykazanie się wiedzą specjalistyczną. Oceniane będą treść, długość, forma, kompozycja, poprawność gramatyczna, słownictwo, styl, ortografia i interpunkcja. I na końcu, zwykle tylko na egzaminach certyfikatowych, mówienie, czyli kilkuminutowa prezentacja na wylosowany temat, minidyskusja, komentowanie jakiejś sytuacji, wyrażenie swojej opinii czy opisywanie fotografii. Tu będzie oceniana nie tylko poprawność i słownictwo, ale też płynność wypowiedzi, idiomatyka, wymowa, intonacja. Czy wszystko jasne?",
+        "tr": "Дорогі мої, позаду чергова частина навчання. Час на тест. Вам належиться пояснення, на чому він полягатиме, отже. Стандартний тест, що перевіряє ваші мовні компетенції, повинен складатися з кількох частин. По-перше, розуміння на слух. Вашим завданням є вибір або формулювання правильної відповіді на запитання під час запису або після його прослуховування. Це може бути також позначення правильної відповіді або доповнення пропущених фрагментів тексту. По-друге, граматика, тобто вибір або утворення граматично правильної форми чи структури. По-третє, розуміння писаних текстів. Завданням тих, хто складає іспит, є прочитання тексту, а потім позначення, які з речень — правда або неправда, упорядкування фрагментів тексту в логічній послідовності чи добір тексту до заголовка. По-четверте, написання власного тексту з тематичних наборів на вибір. Метою є дослідження вміння писати, а не демонстрація спеціалізованих знань. Оцінюватимуться: зміст, довжина, форма, композиція, граматична правильність, лексика, стиль, орфографія і пунктуація. І наприкінці, зазвичай лише на сертифікаційних іспитах, говоріння, тобто кількахвилинна презентація на витягнуту тему, мінідискусія, коментування якоїсь ситуації, вираження своєї думки чи опис фотографії. Тут оцінюватиметься не лише правильність і лексика, а й плавність висловлювання, ідіоматика, вимова, інтонація. Чи все зрозуміло?" }
+    ]},
+    { "block": "B. Angela: mocne i słabe strony · трек 223B1", "items": [
+      { "type": "mono", "title": "Angela o egzaminie", "audio": "audio/L23/L23-czytanie-02.mp3",
+        "text": "Mam polskie korzenie. Cała rodzina ze strony matki, stąd pochodzi. Rozumienie ze słuchu jest dla mnie najłatwiejsze, bo moja mama mówi doskonale po polsku. Na egzaminie na pewno pójdzie mi świetnie. Obawiam się za to pisania. Wciąż robię dużo błędów. Na przykład dalej nie wiem, kiedy piszemy S z kreską, kiedy SI, a kiedy SZ. Robię to intuicyjnie. Jako nauczycielka wiem, że będąc wzrokowcem powinnam przede wszystkim więcej czytać po polsku.",
+        "tr": "Маю польське коріння. Уся родина з боку матері звідси походить. Розуміння на слух для мене найлегше, бо моя мама чудово говорить польською. На іспиті мені точно піде блискуче. Зате боюся писання. Усе ще роблю багато помилок. Наприклад, досі не знаю, коли пишемо Ś, коли SI, а коли SZ. Роблю це інтуїтивно. Як учителька знаю, що, будучи візуалом, мала б передусім більше читати польською." }
+    ]},
+    { "block": "E. Uwe: mówienie to słaba strona · трек 223E1", "items": [
+      { "type": "mono", "title": "Uwe o stresie i mówieniu", "audio": "audio/L23/L23-czytanie-03.mp3",
+        "text": "Muszę przyznać, że jestem typowym historykiem, kocham czytać, lubię też bardzo pisać różnego rodzaju teksty, uwielbiam daty i naprawdę, jestem w tym dobry. Natomiast mówienie to moja słaba strona. Jestem z natury nieśmiały, więc jeśli mam coś powiedzieć na forum, grupy, od razu robię się czerwony, mam pustkę w głowie. Po prostu nie radzę sobie ze stresem. Pamiętam swoją maturę, przez stres prawie ją oblałem.",
+        "tr": "Мушу визнати, що я типовий історик, люблю читати, дуже люблю також писати різного роду тексти, обожнюю дати й справді в цьому добрий. Натомість говоріння — моя слабка сторона. Я від природи сором’язливий, тож якщо маю щось сказати перед групою, одразу червонію, у голові порожнеча. Просто не даю собі ради зі стресом. Пам’ятаю свою матуру — через стрес я її майже завалив." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 23 — треки 223A1, 223B1, 223E1. Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "Co to za wypowiedź? (1) · zeszyt cw01", "audio": "audio/L23/L23-zeszyt-01.mp3",
+      "text": "1. Proszę podać nazwisko panieńskie matki. 2. Szczęśliwego nowego roku. 3. Trochę za blisko. Nie ma niczego dalej od ekranu? 4. Piękna bramka. I w tej sekundzie sędzia kończy mecz. 5. Oni są odpowiedzialni, szczerzy, uprzejmi. 6. Po maturze chciałbym pójść na prawo. 7. Czy ma pani jakieś doświadczenie zawodowe? 8. Czy mógłby pan schylić się po niego? 9. W czasie startu prosimy o nieużywanie urządzeń elektronicznych i nieopuszczanie swoich miejsc. 10. Z góry dziękuję za odpowiedź, z poważaniem Jan Ptak. 11. Przejście dla pieszych jest tam. 12. Proszę do pełna. A czy jest zimowy płyn do spryskiwaczy? 13. To ponad moje siły, żeby żyć dalej. 14. To wszystko przez ciebie! 15. Gdzie są pisanki? Chciałbym włożyć je do koszyczka. 16. Razem z przyjaciółmi wynajęliśmy żaglówkę. 17. Nigdy nie żałowałem tej decyzji. 18. Konfliktów nie omina w życiu prywatnym i zawodowym. 19. Gdybym wygrał w lotto, chyba kupiłbym dom. 20. Zdecydowanie wolę świeże niż mrożone. 21. Zobacz, film już się ściągnął. Zaoszczędzimy na biletach do kina. 22. Te obrazy wywarły na mnie ogromne wrażenie. Są zachwycające.",
+      "tr": "1. Прошу назвати дівоче прізвище матері. 2. Щасливого Нового року. 3. Трохи задалеко. Немає нічого далі від екрана? 4. Гарний гол. І цієї секунди суддя завершує матч. 5. Вони відповідальні, щирі, чемні. 6. Після матури я хотів би піти на право. 7. Чи маєте Ви якийсь професійний досвід? 8. Чи могли б Ви нахилитися по нього? 9. Під час зльоту просимо не користуватися електронними пристроями й не залишати своїх місць. 10. Заздалегідь дякую за відповідь, з повагою Ян Птак. 11. Перехід для пішоходів отам. 12. Прошу до повного. А чи є зимова рідина для склоомивача? 13. Це понад мої сили — жити далі. 14. Це все через тебе! 15. Де писанки? Хотів би покласти їх до кошика. 16. Разом із друзями ми винайняли вітрильник. 17. Ніколи не шкодував про це рішення. 18. Конфліктів не уникнути в приватному й професійному житті. 19. Якби я виграв у лото, мабуть, купив би дім. 20. Однозначно віддаю перевагу свіжому, а не мороженому. 21. Дивись, фільм уже завантажився. Зекономимо на квитках у кіно. 22. Ці картини справили на мене величезне враження. Вони захоплюючі." },
+    { "type": "mono", "title": "Co to za wypowiedź? (2) · zeszyt cw02", "audio": "audio/L23/L23-zeszyt-02.mp3",
+      "text": "1. Jakie ma pan obywatelstwo? 2. Żałuję, że się zgodziłam. 3. Rząd piąty, miejsce siódme i ósme. 4. Na boisko wszedł rezerwowy zawodnik. 5. On jest leniwy, skąpy i bezczelny. 6. Na pulpicie są ikonki, którą przeglądarkę wolisz? 7. Mam doświadczenie w kierowaniu zespołem. 8. Czy mogę przeprowadzić z panią wywiad? 9. Prosimy o zapięcie pasów, złożenie stolików i zapoznanie się z instrukcją bezpieczeństwa. 10. Wyrazy ubolewania z powodu śmierci pańskiej małżonki. 11. Zejście ze szlaku wzbronione. 12. Proszę zaraz wysiąść i przesiąść się na czwórkę. 13. Co za kłamca! 14. Postaw znicz na grobie, obok kwiatów. 15. A teraz podzielimy się opłatkiem. 16. Jak daleko do schroniska? 17. Jeśli wygram, będę walczyć o cele, które sobie postawiłam. 18. Jakie śmieszne wielbłądy! 19. Powinniście jechać jednym samochodem. 20. Właściwie wszystko mi jedno. 21. Nie mam żadnych wątpliwości. 22. To było zaledwie przeciętne.",
+      "tr": "1. Яке Ви маєте громадянство? 2. Шкодую, що погодилася. 3. Ряд п’ятий, місце сьоме й восьме. 4. На поле вийшов запасний гравець. 5. Він лінивий, скупий і нахабний. 6. На робочому столі є іконки, який браузер тобі більше подобається? 7. Маю досвід у керуванні командою. 8. Чи можу взяти у Вас інтерв’ю? 9. Просимо застебнути паски, скласти столики й ознайомитися з інструкцією з безпеки. 10. Висловлюю співчуття з приводу смерті Вашої дружини. 11. Сходити з маршруту заборонено. 12. Прошу зараз вийти й пересісти на четвірку. 13. Що за брехун! 14. Постав свічку на могилі, біля квітів. 15. А тепер поділимося облатком. 16. Як далеко до притулку? 17. Якщо виграю, боротимуся за цілі, які перед собою поставила. 18. Які смішні верблюди! 19. Ви повинні їхати одним автомобілем. 20. Власне, мені все одно. 21. Не маю жодних сумнівів. 22. Це було лише посереднє." },
+    { "type": "mono", "title": "Uczę się dla siebie · zeszyt cw10", "audio": "audio/L23/L23-zeszyt-03.mp3",
+      "text": "Rodzice zawsze mi powtarzali, że nie uczę się dla ocen tylko dla siebie. Kiedy przynosiłem piątkę, mama mnie chwaliła, a tata mówił: moja krew, ja w szkole miałem same piątki. Kiedy udało mi się dostać pierwszą szóstkę, rodzice wzięli mnie na lody i byli bardzo dumni. Mówili, że jestem zdolny, ale muszę dużo pracować, bo talent to nie wszystko. Czasami dostawałem czwórki z plusem lub tylko czwórki i to było komentowane krótko. Dobrze, a ile było piątek w klasie? Albo: a co dostał Patryk? Patryk był moim najlepszym szkolnym przyjacielem, zresztą sąsiadem również, bo mieszkał obok nas. Razem też dostaliśmy jedynki z historii. O, było słychać przez ścianę, że jego rodzice, tak samo jak moi, nie są zadowoleni. Obaj mieliśmy wtedy szlaban na telewizję. Potem już w liceum nie uczyłem się za dobrze. Często miałem oceny dostateczne. Piątka to był jakiś wyjątek. Ojciec mówił: co za leń, a mama milczała i kręciła głową z dezaprobatą. W końcu uczyłem się dla siebie, tak? Po latach, kiedy już byłem doktorem na uczelni, robiłem porządek w dokumentach rodziców. Znalazłem ich szkolne świadectwa. I wiecie co? Oni też uczyli się dla siebie. Z góry na dół prawie same troje.",
+      "tr": "Батьки завжди мені повторювали, що я вчуся не заради оцінок, а для себе. Коли я приносив п’ятірку, мама мене хвалила, а тато казав: моя кров, я в школі мав самі п’ятірки. Коли мені вдалося отримати першу шестірку, батьки повели мене на морозиво й були дуже горді. Казали, що я здібний, але мушу багато працювати, бо талант — це не все. Іноді я отримував четвірки з плюсом або просто четвірки, і це коментували коротко. Добре, а скільки було п’ятірок у класі? Або: а що отримав Патрик? Патрик був моїм найкращим шкільним другом, до того ж і сусідом, бо мешкав поруч із нами. Разом ми теж отримали одиниці з історії. О, було чути крізь стіну, що його батьки, так само як мої, не задоволені. Обидва ми мали тоді заборону дивитися телевізор. Потім уже в ліцеї я вчився не надто добре. Часто мав задовільні оцінки. П’ятірка була якимось винятком. Батько казав: що за ледар, а мама мовчала й хитала головою з несхваленням. Зрештою я вчився для себе, так? За роки, коли я вже був доктором в університеті, наводив лад у документах батьків. Знайшов їхні шкільні табелі. І знаєте що? Вони теж училися для себе. Згори донизу майже самі трійки." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 23, ćw. 1, 2, 10 (треки 26170, 9241, 59518). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "egzamin", "q": "З яких частин складається стандартний мовний тест, за словами вчительки?",
+      "o": ["лише граматика й письмо","розуміння на слух, граматика, читання, письмо (й говоріння)","лише говоріння"], "a": 1,
+      "fb": "Тест має кілька частин: rozumienie ze słuchu, gramatyka, rozumienie tekstów pisanych, pisanie, а на сертифікаційних — mówienie." },
+    { "topic": "egzamin", "q": "Коли зазвичай буває частина «mówienie» (говоріння)?",
+      "o": ["завжди","тільки на egzaminach certyfikatowych","ніколи"], "a": 1,
+      "fb": "Nauczycielka: «I na końcu, zwykle tylko na egzaminach certyfikatowych, mówienie»." },
+    { "topic": "tryb rozkazujący", "q": "Який наказовий спосіб від «przeczytać» (до «ви»)?",
+      "o": ["przeczytajcie","przeczytacie","przeczytajmy"], "a": 0,
+      "fb": "Tryb rozkazujący для «wy»: przeczytaj + cie → przeczytajcie uważnie polecenie!" },
+    { "topic": "Angela", "q": "Чого найбільше боїться Angela на іспиті?",
+      "o": ["rozumienia ze słuchu","pisania","mówienia"], "a": 1,
+      "fb": "Angela: «Rozumienie ze słuchu jest dla mnie najłatwiejsze… Obawiam się za to pisania»." },
+    { "topic": "Uwe", "q": "Яка сторона є слабкою для Uwe?",
+      "o": ["czytanie","pisanie","mówienie"], "a": 2,
+      "fb": "Uwe: «Natomiast mówienie to moja słaba strona. Jestem z natury nieśmiały»." },
+    { "topic": "narzędnik", "q": "Доповніть: «Ewa opiekuje się ___» (chora babcia).",
+      "o": ["chora babcia","chorą babcią","chorej babci"], "a": 1,
+      "fb": "Дієслово «opiekować się» вимагає narzędnika: chora babcia → chorą babcią." },
+    { "topic": "przypadki", "q": "Який відмінок після «boję się»? «Boję się ___» (duże psy).",
+      "o": ["dużych psów (dopełniacz)","dużymi psami (narzędnik)","duże psy (biernik)"], "a": 0,
+      "fb": "«Bać się» вимагає dopełniacza: duże psy → dużych psów." },
+    { "topic": "liczba mnoga", "q": "Яка множина від «człowiek»?",
+      "o": ["człowieki","ludzie","człowiekowie"], "a": 1,
+      "fb": "«Człowiek» в множині — нерегулярна форма: ludzie." },
+    { "topic": "liczba mnoga", "q": "Виберіть правильну множину: «imię» →",
+      "o": ["imiona","imięta","imiena"], "a": 0,
+      "fb": "«Imię» → imiona (як zwierzę → zwierzęta)." },
+    { "topic": "idiomy", "q": "Закінчіть ідіому: «Głodny jak ___».",
+      "o": ["ryba","wilk","osioł"], "a": 1,
+      "fb": "«Głodny jak wilk» — голодний як вовк. Пор.: silny jak koń, chytry jak lis." }
+  ],
+
+  "checklist": [
+    { "text": "Знати, з яких частин складається мовний іспит", "sub": "rozumienie ze słuchu, gramatyka, czytanie, pisanie, mówienie" },
+    { "text": "Давати поради в наказовому способі", "sub": "wyśpij się, przeczytaj uważnie, nie stresuj się!" },
+    { "text": "Правильно вживати narzędnik і впізнавати інші відмінки", "sub": "opiekuję się babcią, boję się psów, lubię studentów" },
+    { "text": "Утворювати нерегулярну множину іменників", "sub": "człowiek → ludzie, imię → imiona, oko → oczy" },
+    { "text": "Описати свої mocne i słabe strony перед іспитом", "sub": "Moją mocną stroną jest… / Obawiam się… / Nie radzę sobie ze stresem" }
+  ]
+}
