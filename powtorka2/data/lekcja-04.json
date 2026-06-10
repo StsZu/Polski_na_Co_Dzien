@@ -1,0 +1,212 @@
+{
+  "id": "04",
+  "title": "Dwaj, trzej, czterej",
+  "goal": "Повторюємо: опис людей за національністю та фахом · спорт · творення множини іменників (mianownik liczby mnogiej) · чоловічоособові форми та числівники dwaj, trzej, czterej.",
+
+  "vocab": [
+    { "group": "Narodowości — національності", "items": [
+      ["Polak / Polka / Polacy","поляк / полька / поляки"],
+      ["Belg / Belgowie","бельгієць / бельгійці"],
+      ["Włoch / Włosi","італієць / італійці"],
+      ["Niemiec / Niemcy","німець / німці"],
+      ["Amerykanin / Amerykanie","американець / американці"],
+      ["Argentyńczyk / Argentyńczycy","аргентинець / аргентинці"],
+      ["Czech / Czesi","чех / чехи"],
+      ["Hiszpan / Hiszpanie","іспанець / іспанці"]
+    ]},
+    { "group": "Zawody — професії", "items": [
+      ["lekarz","лікар"],["dentysta","стоматолог"],["chirurg","хірург"],
+      ["adwokat","адвокат"],["prokurator","прокурор"],["notariusz","нотаріус"],
+      ["fotograf","фотограф"],["stylista","стиліст"],["psycholog","психолог"],
+      ["biznesmen","бізнесмен"],["informatyk","програміст"],["listonosz","листоноша"],
+      ["nauczyciel","учитель"],["śpiewak / piosenkarz","співак"]
+    ]},
+    { "group": "Sport — спорт", "items": [
+      ["piłka nożna","футбол"],["koszykówka","баскетбол"],["tenis","теніс"],
+      ["hokej","хокей"],["boks","бокс"],["lekkoatletyka","легка атлетика"],
+      ["golf","гольф"],["mecz","матч"],["boisko","спортивний майданчик"],
+      ["zawodnik","спортсмен (гравець)"],["drużyna","команда"],["bramka","ворота / гол"],
+      ["remis","нічия"],["zwycięstwo","перемога"],["sędzia","суддя"],["kibic","уболівальник"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["dwaj, trzej, czterej","двоє, троє, четверо (чол.)"],
+      ["wygrywać / wygrać","вигравати / виграти"],
+      ["przegrywać / przegrać","програвати / програти"],
+      ["zarabiać / zarobić","заробляти / заробити"],
+      ["mistrz","чемпіон, майстер"],["mistrzostwa","чемпіонат"],
+      ["gospodarz / gospodyni","господар / господиня"],
+      ["wegetarianin","вегетаріанець"],["godło","герб"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Mianownik l. mn. — чоловічоособові (rodzaj męskoosobowy)",
+      "note": "Для іменників, що означають чоловіків (а також мішані групи з чоловіками), у називному множини зазвичай закінчення -i / -y / -owie. Часто бувають чергування приголосних.",
+      "table": {
+        "head": ["Liczba pojedyncza","Liczba mnoga"],
+        "rows": [
+          ["Polak","Pol*acy* (k→c)"],
+          ["student","studenc*i* (t→c)"],
+          ["lekarz","lekarz*e*"],
+          ["Niemiec","Niemc*y*"],
+          ["syn","syn*owie*"],
+          ["mężczyzna","mężczyźn*i*"]
+        ]
+      }
+    },
+    {
+      "title": "Wyjątki — винятки",
+      "note": "Ці форми треба запам’ятати окремо.",
+      "table": {
+        "head": ["Liczba pojedyncza","Liczba mnoga"],
+        "rows": [
+          ["brat","braci*a*"],
+          ["człowiek","ludzi*e*"],
+          ["ksiądz","księż*a*"]
+        ]
+      }
+    },
+    {
+      "title": "Liczebniki: dwa / dwie / dwaj / dwoje — два / дві / двоє",
+      "note": "Форма числівника залежить від роду іменника.",
+      "table": {
+        "head": ["Форма","Коли","Przykład"],
+        "rows": [
+          ["dwa, oba","ч. неістота + середній","dwa filmy, oba koty, dwa jajka"],
+          ["dwie, obie","жіночий","dwie minuty, obie panie"],
+          ["dwaj, obaj","чоловічоособовий","dwaj kierowcy, dwaj studenci"],
+          ["dwoje, oboje","мішана група (ten i ta)","dwoje dzieci, oboje rodzice"]
+        ]
+      }
+    },
+    {
+      "title": "Czasowniki sportowe — спортивні дієслова",
+      "note": "Часто протиставляються парами доконаного / недоконаного виду.",
+      "words": "wygrywać / wygrać · przegrywać / przegrać · zarabiać / zarobić · trenować · grać w (piłkę) · zdobyć punkt · strzelić bramkę · kibicować"
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Koledzy Mami · dialog · трек 204A5", "items": [
+      { "type": "dia", "title": "Goście u Mami", "audio": "audio/L04/L04-czytanie-01.mp3", "lines": [
+        ["Sąsiad","Mami, to Ty? O, są u mnie goście.","Мамі, це ти? О, у мене гості."],
+        ["Mami","Chciałam panu kogoś przedstawić. To moi koledzy. Ci dwaj to aktorzy.","Я хотіла Вам когось представити. Це мої колеги. Оці двоє — актори."],
+        ["Sąsiad","Naprawdę? Wyglądają jak mechanicy.","Справді? Вони виглядають як механіки."],
+        ["Mami","Organizowali teatr uliczny, więc może są trochę brudni. A ci trzej to studenci medycyny.","Вони організовували вуличний театр, тож, може, трохи брудні. А оці троє — студенти медицини."],
+        ["Sąsiad","W przyszłości lekarze, tak? A może dentyści? Albo szefowie szpitala?","У майбутньому лікарі, так? А може, стоматологи? Або керівники лікарні?"],
+        ["Mami","Pan cały czas żartuje. To są synowie bardzo znanego chirurga.","Ви весь час жартуєте. Це сини дуже відомого хірурга."],
+        ["Sąsiad","Plastycznego? Przepraszam, Mami. Mężczyźni tacy jak ja lubią żartować. Chłopcy, co zjecie na kolację? Męskiego befsztyka?","Пластичного? Вибач, Мамі. Чоловіки такі, як я, люблять жартувати. Хлопці, що з’їсте на вечерю? Чоловічого біфштекса?"],
+        ["Mami","Sąsiedzi nie przyszli, mogę was zaprosić. To wegetarianie. Nie jedzą mięsa.","Сусіди не прийшли, можу вас запросити. Це вегетаріанці. Вони не їдять м’яса."],
+        ["Sąsiad","Mami, oni w dodatku w ogóle nic nie mówią. To jacyś mnisi?","Мамі, вони ще й узагалі нічого не кажуть. Це якісь ченці?"],
+        ["Mami","Chyba nie mam nastroju do pana żartów. Panowie, wychodzimy! A poza tym to są Belgowie i nie mówią jeszcze dobrze po polsku.","Мабуть, я не маю настрою для Ваших жартів. Панове, виходимо! А крім того, це бельгійці й вони ще не дуже добре говорять польською."]
+      ]}
+    ]},
+    { "block": "A. Zawody · трек 204A10", "items": [
+      { "type": "mono", "title": "A. Nauczyciele", "audio": "audio/L04/L04-czytanie-02.mp3",
+        "text": "Najważniejsza w tym zawodzie jest wiedza i cierpliwość. W szkołach państwowych nie zarabia się dużo pieniędzy, ale i tak jest lepiej niż było.",
+        "tr": "Найважливіше в цій професії — знання й терпіння. У державних школах не заробляється багато грошей, але все одно краще, ніж було." },
+      { "type": "mono", "title": "B. Fotografowie", "audio": "audio/L04/L04-czytanie-03.mp3",
+        "text": "Pracują dla mediów, takich jak gazety czy telewizja, lub zwykłych ludzi, np. robią profesjonalne zdjęcia na weselach. Ich prace można oglądać na wystawach.",
+        "tr": "Працюють для медіа, таких як газети чи телебачення, або для звичайних людей, наприклад, роблять професійні фото на весіллях. Їхні роботи можна побачити на виставках." },
+      { "type": "mono", "title": "C. Prawnicy", "audio": "audio/L04/L04-czytanie-04.mp3",
+        "text": "Zajmują się prawem, mogą być adwokatami, prokuratorami, notariuszami. Praktyka często przechodzi z ojca na syna. Mają wysoki prestiż społeczny.",
+        "tr": "Займаються правом, можуть бути адвокатами, прокурорами, нотаріусами. Практика часто переходить від батька до сина. Мають високий суспільний престиж." },
+      { "type": "mono", "title": "D. Fryzjerzy", "audio": "audio/L04/L04-czytanie-05.mp3",
+        "text": "Dziś często nazywani są stylistami włosów. Kiedyś mężczyźni rzadko pracowali w tym zawodzie.",
+        "tr": "Сьогодні їх часто називають стилістами волосся. Колись чоловіки рідко працювали в цій професії." },
+      { "type": "mono", "title": "E. Biznesmeni", "audio": "audio/L04/L04-czytanie-06.mp3",
+        "text": "Robią interesy, prowadzą własne firmy. Ich praca bywa stresująca i wymaga dobrych decyzji w odpowiednim czasie.",
+        "tr": "Роблять бізнес, ведуть власні фірми. Їхня робота буває стресовою й вимагає правильних рішень у потрібний час." },
+      { "type": "mono", "title": "F. Psycholodzy", "audio": "audio/L04/L04-czytanie-07.mp3",
+        "text": "To lekarze duszy. Ich pacjenci mają problemy ze sobą, ze swoją psychiką i relacjami z innymi. Zwykle przyjmują w prywatnych gabinetach.",
+        "tr": "Це лікарі душі. Їхні пацієнти мають проблеми із собою, зі своєю психікою та стосунками з іншими. Зазвичай приймають у приватних кабінетах." },
+      { "type": "mono", "title": "G. Piosenkarze", "audio": "audio/L04/L04-czytanie-08.mp3",
+        "text": "Zarabiają na życie śpiewaniem. Ważne dla nich jest być cały czas na topie. Dlatego często czytamy o nich w kolorowej prasie.",
+        "tr": "Заробляють на життя співом. Важливо для них постійно бути на вершині. Тому ми часто читаємо про них у глянцевій пресі." },
+      { "type": "mono", "title": "H. Informatycy", "audio": "audio/L04/L04-czytanie-09.mp3",
+        "text": "Komputery to ich praca, ale też i pasja. Piszą programy i zajmują się rzeczami, które dla zwykłych ludzi są jak czarna magia.",
+        "tr": "Комп’ютери — це їхня робота, але й пристрасть. Пишуть програми й займаються речами, які для звичайних людей — як чорна магія." }
+    ]},
+    { "block": "B. Komentarz meczu · трек 204B3", "items": [
+      { "type": "mono", "title": "Ostatnia minuta meczu", "audio": "audio/L04/L04-czytanie-10.mp3",
+        "text": "Miliony przed telewizorami, a tu cały czas 0-0. Dwie minuty przed końcem drugiej połowy meczu na boisko wchodzi nowy zawodnik. To ostatnia nadzieja drużyny gospodarzy. Czy będzie w końcu bramka? Czy zmieni się wynik? Kto będzie górą? Remis nikogo nie interesuje, zwycięstwo tak. A on biegnie, biegnie, jest blokowany. Faul! Tak, faul! Co za nieczyste zagranie. Oczywiście żółta kartka. Piłka po stronie przeciwników. Ostatnia minuta. Proszę państwa, gol! Sędzia kończy mecz. 1-0 dla gości. Niesamowite emocje.",
+        "tr": "Мільйони перед телевізорами, а тут увесь час 0-0. За дві хвилини до кінця другого тайму матчу на поле виходить новий гравець. Це остання надія команди господарів. Чи буде нарешті гол? Чи зміниться рахунок? Хто візьме гору? Нічия нікого не цікавить, перемога — так. А він біжить, біжить, його блокують. Фол! Так, фол! Що за нечесна гра. Звісно, жовта картка. М’яч на боці суперників. Остання хвилина. Шановні панове, гол! Суддя завершує матч. 1-0 для гостей. Неймовірні емоції." }
+    ]},
+    { "block": "B. Opisy sportów · трек 204B5", "items": [
+      { "type": "mono", "title": "Angela · golf", "audio": "audio/L04/L04-czytanie-11.mp3",
+        "text": "To sport dla każdego, choć oczywiście wymaga kondycji fizycznej. I cały czas przebywa się na świeżym powietrzu. Często jest traktowany jako sport bardzo elitarny dla bogatych snobów, którzy należą do specjalnych klubów. Zawodnik trzyma specjalny kij. Piłka jest kilkadziesiąt centymetrów od jego stóp. Dobra strategia, technika i piłka leci do celu. To znaczy w stronę dołka.",
+        "tr": "Це спорт для кожного, хоча, звісно, вимагає фізичної форми. І весь час перебуваєш на свіжому повітрі. Часто його вважають дуже елітарним спортом для багатих снобів, які належать до спеціальних клубів. Гравець тримає спеціальну ключку. М’яч лежить за кілька десятків сантиметрів від його ніг. Добра стратегія, техніка — і м’яч летить до цілі. Тобто в бік лунки." },
+      { "type": "mono", "title": "Tom · koszykówka", "audio": "audio/L04/L04-czytanie-12.mp3",
+        "text": "To sport drużynowy, w którym dwie pięcioosobowe drużyny grają przeciwko sobie. Zdobywają punkty za wrzucenie piłki do kosza. Zwycięzcą meczu zostaje drużyna, która ma więcej punktów. Zawodnicy powinni być wysokiego wzrostu. Piłka jest dość duża, zwykle pomarańczowa.",
+        "tr": "Це командний спорт, у якому дві команди по п’ять осіб грають одна проти одної. Здобувають очки за закидання м’яча в кошик. Переможцем матчу стає команда, яка має більше очок. Гравці повинні бути високого зросту. М’яч досить великий, зазвичай помаранчевий." },
+      { "type": "mono", "title": "Sasza · lekkoatletyka", "audio": "audio/L04/L04-czytanie-13.mp3",
+        "text": "Jedna z najstarszych dyscyplin sportu, oparta na naturalnym ruchu: biegu, skokach, rzutach, chodzie. Starożytni Grecy podczas swoich igrzysk olimpijskich wprowadzili konkurencję rzutu dyskiem i biegi na krótkim dystansie. Trochę później skok w dal z miejsca i bieg maratoński.",
+        "tr": "Одна з найдавніших спортивних дисциплін, заснована на природному русі: бігу, стрибках, метаннях, ходьбі. Стародавні греки під час своїх Олімпійських ігор запровадили змагання з метання диска та біг на короткі дистанції. Трохи пізніше — стрибок у довжину з місця та марафонський біг." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 04 — треки 204A5, 204A10, 204B3, 204B5. Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "Legenda o powstaniu państwa polskiego · zeszyt cw01", "audio": "audio/L04/L04-zeszyt-01.mp3",
+      "text": "Legenda o powstaniu państwa polskiego. Już dawno, dawno temu Słowianie mieszkali na tych terenach. Na czele słowiańskich rodów stali trzej bracia. Ich imiona to Lech, Czech i Rus. To byli mądrzy przywódcy i sprawili, że mieszkańcy byli coraz bogatsi. Ale w końcu plemiona słowiańskie były tak duże, że brakowało jedzenia. Bracia postanowili, że poszukają nowych ziem. Oni, ich rodziny i przyjaciele pakowali się i modlili: „O bogowie, pomóżcie nam!”. Zostawili swoje stare domy i ruszyli w trzy strony świata. Czech poszedł na południe, Rus na wschód, a Lech na północ. Najpierw jechali rycerze Lecha, potem szli wędrowcy, kobiety, starcy i dzieci, na końcu konie i wojownicy. Niestety podróżnicy mieli bardzo trudną drogę: szerokie rzeki, wielkie puszcze, atakujące wilki. Mijały dni, tygodnie, miesiące. Lech zobaczył, że jego ludzie są zmęczeni, więc powiedział, żeby rozbili namioty. Potem popatrzył wokoło. Zobaczył, że są tam jeziora, a w nich ryby, że są też lasy, zwierzęta, żyzne pola. Postanowił zostać. Wszyscy ucieszyli się, ale chcieli, żeby bogowie dali im jakiś znak. Wtedy usłyszeli dziwne dźwięki. Podnieśli głowy, zobaczyli gniazdo, a w nim orła i dwa pisklęta. Orzeł rozłożył skrzydła i wyglądał tak wspaniale na tle wieczornego nieba, że zrozumieli: to znak, na który czekali. W tym miejscu zbudowali miasto Gniezno, a biały orzeł na czerwonym tle do dziś jest godłem Polski. A nazwa Polanie jest stąd, że potomkowie Lecha, aby zbudować nowe osiedla, musieli wycinać drzewa i w ten sposób tworzyli polany w lesie, na których potem budowali swoje miasta i wsie.",
+      "tr": "Легенда про виникнення польської держави. Дуже-дуже давно слов’яни жили на цих землях. На чолі слов’янських родів стояли три брати. Їхні імена — Лех, Чех і Рус. Це були мудрі вожді, і вони зробили так, що мешканці ставали дедалі багатшими. Але врешті слов’янські племена стали такими великими, що бракувало їжі. Брати вирішили, що пошукають нові землі. Вони, їхні родини та друзі збиралися й молилися: «О боги, допоможіть нам!». Залишили свої старі домівки й рушили в три сторони світу. Чех пішов на південь, Рус на схід, а Лех на північ. Спершу їхали лицарі Леха, потім ішли мандрівники, жінки, старці й діти, наприкінці — коні та воїни. На жаль, у мандрівників була дуже важка дорога: широкі ріки, великі пущі, вовки, що нападали. Минали дні, тижні, місяці. Лех побачив, що його люди втомлені, тож сказав розбити намети. Потім озирнувся навколо. Побачив, що там є озера, а в них риба, що є також ліси, звірі, родючі поля. Вирішив залишитися. Усі зраділи, але хотіли, щоб боги дали їм якийсь знак. Тоді почули дивні звуки. Підняли голови й побачили гніздо, а в ньому орла й двох пташенят. Орел розправив крила і виглядав так чудово на тлі вечірнього неба, що вони зрозуміли: це знак, на який вони чекали. У цьому місці збудували місто Гнєзно, а білий орел на червоному тлі донині є гербом Польщі. А назва «поляни» походить звідти, що нащадки Леха, аби збудувати нові поселення, мусили вирубувати дерева й у такий спосіб творили галявини (polany) в лісі, на яких потім будували свої міста й села." },
+    { "type": "mono", "title": "Listonosz · zeszyt cw06", "audio": "audio/L04/L04-zeszyt-02.mp3",
+      "text": "Listonosz to zawód, w którym nie jest trudno znaleźć pracę. W mieście jako listonosze pracują i kobiety, i mężczyźni. Ale na wsi są to głównie mężczyźni. Nie zarabiają dużo, ale nie muszą mieć specjalnych kwalifikacji, jak znajomość języków obcych, studia wyższe czy prawo jazdy. Powinni mieć dużo siły, żeby nosić ciężką torbę i dużo chodzić. Nawet jeśli pogoda jest fatalna. Listonosze mają stałe godziny pracy, w dzisiejszych czasach to zaleta. Nie biorą też pracy do domu. Znają wielu ludzi ze swojego rejonu. Dla emerytów często są jedynymi gośćmi. Ich praca raczej nie daje dużej satysfakcji, jest monotonna, zawsze w biegu.",
+      "tr": "Листоноша — це професія, у якій неважко знайти роботу. У місті листоношами працюють і жінки, і чоловіки. Але в селі це переважно чоловіки. Заробляють небагато, але не мусять мати спеціальної кваліфікації, як-от знання іноземних мов, вищу освіту чи водійські права. Повинні мати багато сили, щоб носити важку сумку й багато ходити. Навіть якщо погода жахлива. Листоноші мають сталі години роботи, у наші часи це перевага. Також не беруть роботу додому. Знають багатьох людей зі свого району. Для пенсіонерів часто є єдиними гостями. Їхня робота радше не дає великого задоволення, вона монотонна, завжди на бігу." },
+    { "type": "mono", "title": "Tenis, hokej, boks · zeszyt cw13", "audio": "audio/L04/L04-zeszyt-03.mp3",
+      "text": "Tenis to dobry sport dla ludzi w różnym wieku. Można go uprawiać wewnątrz lub na wolnym powietrzu. Na środku jest siatka i piłka musi przejść na drugą stronę. Mężczyźni grają 5 setów, a kobiety 3 sety. Hokej jest grany na lodzie lub na trawie. To forsowny sport. Zawodnicy mają specjalne ubrania i kaski ochronne. Potrzebne są dwie bramki, kije i krążek. Boks to jeden z najstarszych sportów walki. Dwóch zawodników walczy jedynie przy użyciu pięści. Jest kilka kategorii wagowych. Zawodnicy mają rękawice i kaski ochronne.",
+      "tr": "Теніс — це добрий спорт для людей різного віку. Ним можна займатися в приміщенні або на свіжому повітрі. Посередині є сітка, і м’яч мусить перейти на другий бік. Чоловіки грають 5 сетів, а жінки — 3 сети. Хокей грають на льоду або на траві. Це виснажливий спорт. Гравці мають спеціальний одяг і захисні шоломи. Потрібні двоє воріт, ключки й шайба. Бокс — це один із найдавніших видів бойового спорту. Двоє спортсменів б’ються лише за допомогою кулаків. Є кілька вагових категорій. Спортсмени мають рукавиці й захисні шоломи." },
+    { "type": "mono", "title": "Tragedia w górach · zeszyt cw07", "audio": "audio/L04/L04-zeszyt-04.mp3",
+      "text": "Tragedia w górach. Czterej polscy himalaiści stanęli na szczycie Broad Peak, 8051 metrów nad poziomem morza. Szczyt ten zdobyli w latach 50. Austriacy, ale dopiero Polacy weszli na niego zimą. Wcześniej bezskutecznie próbowali Kanadyjczycy, Hiszpanie i Włosi. Niestety podczas zejścia dwaj uczestnicy polskiej wyprawy zaginęli. Po trzech dniach organizatorzy i lekarze ekspedycji uznali ich za zmarłych. Doświadczeni wspinacze mówią: takie są góry.",
+      "tr": "Трагедія в горах. Четверо польських гімалаїстів стали на вершині Брод-Пік, 8051 метр над рівнем моря. Цю вершину підкорили в 50-х роках австрійці, але лише поляки зійшли на неї взимку. Раніше безуспішно намагалися канадці, іспанці та італійці. На жаль, під час спуску двоє учасників польської експедиції зникли. Через три дні організатори й лікарі експедиції визнали їх загиблими. Досвідчені альпіністи кажуть: такі вже гори." },
+    { "type": "mono", "title": "Niezwykłe konklawe · zeszyt cw07", "audio": "audio/L04/L04-zeszyt-05.mp3",
+      "text": "Niezwykłe konklawe. Po rezygnacji Benedykta XVI kardynałowie zebrali się na konklawe. Wśród nich najliczniejsi byli Włosi, Niemcy, Amerykanie. Elektorzy wybrali na nowego papieża biskupa Buenos Aires. Pielgrzymi z całego świata czekali na biały dym na placu św. Piotra, a potem długo owacjowali, zwłaszcza Argentyńczycy i inni mieszkańcy Ameryki Południowej. Od nowego papieża katolicy oczekują zmian w kościele.",
+      "tr": "Незвичайний конклав. Після зречення Бенедикта XVI кардинали зібралися на конклав. Серед них найчисленнішими були італійці, німці, американці. Виборці обрали новим папою єпископа Буенос-Айреса. Прочани з усього світу чекали на білий дим на площі святого Петра, а потім довго аплодували, особливо аргентинці та інші мешканці Південної Америки. Від нового папи католики очікують змін у церкві." },
+    { "type": "mono", "title": "Bieg Piastów · zeszyt cw07", "audio": "audio/L04/L04-zeszyt-06.mp3",
+      "text": "Bieg Piastów. To największy masowy bieg narciarski w Polsce, w którym startują zarówno zawodowcy, jak i amatorzy. Co roku w pierwszy marcowy weekend przyjeżdżają do Szklarskiej Poręby narciarze z całej Europy. Tegoroczni zwycięzcy to Czesi, a w pierwszej dziesiątce znaleźli się też Niemcy i Polacy. Najstarsi biegacze mieli ponad 90 lat.",
+      "tr": "Біг Пястів. Це найбільший масовий лижний забіг у Польщі, у якому стартують як професіонали, так і аматори. Щороку в перші березневі вихідні до Шклярської Поренби приїжджають лижники з усієї Європи. Цьогорічні переможці — чехи, а в першу десятку потрапили також німці й поляки. Найстарші бігуни мали понад 90 років." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 04 (треки 26215, 27349, 26212, 26761, 26762, 26763). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "liczba mnoga", "q": "Як буде «Polak» у називному множини (чоловічоособова форма)?",
+      "o": ["Polaki","Polacy","Polaków"], "a": 1,
+      "fb": "Чоловічоособова множина: Polak → Polacy (чергування k→c)." },
+    { "topic": "liczba mnoga", "q": "Оберіть правильну множину: «student».",
+      "o": ["studenty","studenci","studentowie"], "a": 1,
+      "fb": "Student → studenci (t→c). Це чоловічоособова форма називного множини." },
+    { "topic": "wyjątki", "q": "Множина від «brat» — це…",
+      "o": ["braty","braci","bracia"], "a": 2,
+      "fb": "«Brat» — виняток: у називному множини braci*a* (bracia)." },
+    { "topic": "liczebniki", "q": "Доповніть: «___ kierowcy» (двоє водіїв-чоловіків).",
+      "o": ["Dwa","Dwie","Dwaj"], "a": 2,
+      "fb": "Для чоловічоособових іменників — dwaj: dwaj kierowcy, dwaj studenci." },
+    { "topic": "liczebniki", "q": "Як правильно: «Moja prababcia miała ___ dzieci»?",
+      "o": ["dwa","dwie","dwoje"], "a": 2,
+      "fb": "Для мішаної групи (діти) вживаємо збірний числівник: dwoje dzieci." },
+    { "topic": "słownictwo", "q": "Хто такі «wegetarianie»?",
+      "o": ["ті, хто не їсть м’яса","ченці","спортсмени"], "a": 0,
+      "fb": "У діалозі Mami каже: «To wegetarianie. Nie jedzą mięsa» — вони не їдять м’яса." },
+    { "topic": "sport", "q": "Що означає «remis» у футболі?",
+      "o": ["перемога","нічия","поразка"], "a": 1,
+      "fb": "«Remis» — нічия. У коментарі: «Remis nikogo nie interesuje, zwycięstwo tak»." },
+    { "topic": "zawody", "q": "Хто «zajmują się prawem, mogą być adwokatami, prokuratorami»?",
+      "o": ["lekarze","prawnicy","informatycy"], "a": 1,
+      "fb": "Це опис юристів (prawnicy): адвокати, прокурори, нотаріуси." },
+    { "topic": "zawody", "q": "Який фах описано: «Komputery to ich praca, ale też i pasja. Piszą programy»?",
+      "o": ["fotografowie","informatycy","psycholodzy"], "a": 1,
+      "fb": "Це програмісти (informatycy) — комп’ютери та програми." },
+    { "topic": "słownictwo", "q": "Антонім до дієслова «wygrać» — це…",
+      "o": ["przegrać","zarobić","zdobyć"], "a": 0,
+      "fb": "Wygrać (виграти) ≠ przegrać (програти)." }
+  ],
+
+  "checklist": [
+    { "text": "Утворювати називний множини іменників (чоловічоособових)", "sub": "Polak → Polacy, student → studenci, lekarz → lekarze" },
+    { "text": "Пам’ятати винятки множини", "sub": "brat → bracia, człowiek → ludzie, ksiądz → księża" },
+    { "text": "Правильно вживати dwa / dwie / dwaj / dwoje", "sub": "dwie minuty, dwaj kierowcy, dwoje dzieci" },
+    { "text": "Називати національності у множині", "sub": "Polacy, Włosi, Niemcy, Belgowie, Czesi" },
+    { "text": "Описувати спорт і коментувати матч", "sub": "mecz, drużyna, bramka, remis, zwycięstwo, sędzia" }
+  ]
+}

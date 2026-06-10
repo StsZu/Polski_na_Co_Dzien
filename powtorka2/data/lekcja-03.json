@@ -1,0 +1,204 @@
+{
+  "id": "03",
+  "title": "Teatr",
+  "goal": "Повторюємо: у касі кіно (резервація, квитки, сеанс) · кіно і фільм, жанри, опис фільму · порівнювання · прийменники статичні й динамічні (gdzie? / dokąd?) · підрядні речення мети (żeby + дієслово в минулому часі)",
+
+  "vocab": [
+    { "group": "Kino i film — кіно і фільм", "items": [
+      ["kasa","каса"],["bilet ulgowy","пільговий квиток"],["bilet normalny","звичайний квиток"],
+      ["zniżka","знижка"],["seans","сеанс"],["premiera","прем’єра"],["rezerwacja","бронювання"],
+      ["rezerwować","бронювати"],["rząd","ряд"],["miejsce","місце"],["ekran","екран"],
+      ["sala","зал"],["klimatyzacja","кондиціонер"],["widz","глядач"],["recenzja","рецензія"]
+    ]},
+    { "group": "Film — opis i realizacja — фільм: опис і виробництво", "items": [
+      ["film dubbingowany","дубльований фільм"],["film z napisami","фільм із субтитрами"],
+      ["wersja oryginalna","оригінальна версія"],["reżyser","режисер"],["obsada","акторський склад"],
+      ["bohater","герой"],["rola","роль"],["scenariusz","сценарій"],["fabuła","сюжет"],
+      ["ścieżka muzyczna","музична доріжка"],["wytwórnia","кіностудія"],["nagroda","нагорода"],
+      ["oparty na","заснований на"],["przebój","хіт"]
+    ]},
+    { "group": "Gatunki filmów — жанри фільмів", "items": [
+      ["film science fiction","науково-фантастичний фільм"],["film animowany","анімаційний фільм"],
+      ["film sensacyjny","бойовик"],["film gangsterski","гангстерський фільм"],
+      ["dramat wojenny","воєнна драма"],["komedia romantyczna","романтична комедія"],
+      ["musical","мюзикл"],["western","вестерн"],["dreszczowiec","трилер"]
+    ]},
+    { "group": "Wrażenia — враження від фільму", "items": [
+      ["robić wrażenie","справляти враження"],["napięcie","напруга"],["groza","жах (атмосфера)"],
+      ["strach","страх"],["niepokój","тривога"],["arcydzieło","шедевр"],["sukces kasowy","касовий успіх"],
+      ["spojrzenie","погляд"],["szaleństwo","божевілля"],["przygoda","пригода"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["msza","меса (богослужіння)"],["pościg","погоня"],["słynny","знаменитий"],
+      ["spojrzenie","погляд"],["plemię","плем’я"],["ochota","охота, бажання"],
+      ["zepsuty","зіпсований"],["zepsuta","зіпсована"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Przyimki statyczne i dynamiczne — статичні й динамічні прийменники",
+      "note": "Статичні відповідають на питання gdzie? (де?) і вимагають місцевого/орудного відмінка. Динамічні — на питання dokąd? (куди?) і вимагають знахідного/родового.",
+      "table": {
+        "head": ["Gdzie? (статичний)","Dokąd? (динамічний)"],
+        "rows": [
+          ["Jestem w kin*ie*. (місцевий)","Idę do kin*a*. (родовий)"],
+          ["Czekam przed kin*em*. (орудний)","—"],
+          ["Spotykamy się pod kin*em*. (орудний)","—"],
+          ["Siedzę na widown*i*. (місцевий)","Idę na film. (знахідний)"],
+          ["Mieszkam za miast*em*. (орудний)","Jadę za miast*o*. (знахідний)"]
+        ]
+      }
+    },
+    {
+      "title": "DO KINA czy NA FILM? — куди йдемо",
+      "note": "Назва місця (заклад, будівля) → do + родовий. Назва події/вистави → na + знахідний.",
+      "table": {
+        "head": ["do + Dopełniacz (родовий)","na + Biernik (знахідний)"],
+        "rows": [
+          ["Idę do kin*a*.","Idę na film."],
+          ["Idę do teatr*u*.","Idę na seans o 18:00."],
+          ["Idę do oper*y*.","Idę na premier*ę*."]
+        ]
+      }
+    },
+    {
+      "title": "Zdania celowe — підрядні речення мети (żeby)",
+      "note": "Мета дії виражається сполучником żeby. Якщо підмети головного й підрядного речень РІЗНІ — після żeby дієслово стоїть у формі МИНУЛОГО часу: żeby poszła, żeby kupił, żeby zrobił.",
+      "table": {
+        "head": ["Polecenie / prośba","Zdanie celowe"],
+        "rows": [
+          ["«Angela, pomóż mi.»","Mami poprosiła Angelę, żeby pomog*ła* jej."],
+          ["«Javier, kup bilety.»","Tom przekonał Javiera, żeby kup*ił* bilety."],
+          ["«Uwe, zadzwoń do kina.»","Javier poprosił Uwego, żeby zadzwon*ił* do kina."],
+          ["«Tom, poczekaj na mnie.»","Angela kazała Tomowi, żeby poczek*ał* na nią."]
+        ]
+      }
+    },
+    {
+      "title": "że czy żeby? — який сполучник обрати",
+      "note": "że — після дієслів повідомлення/думки (констатуємо факт): wiedzieć, mówić, pisać. żeby — після дієслів прохання/наказу/пропозиції (хочемо вплинути): prosić, kazać, proponować.",
+      "words": "że: Wiem, że nic nie wiem. · Ania powiedziała, że jedzie w góry. · Tata pisze, że miło spędza urlop. || żeby: Patrycja poprosiła Anię, żeby do niej przyszła. · Zaproponował im, żeby poszli do kina. · Krzyczałem do niego, żeby się pospieszył."
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. W kasie kina · dialogi · трек 203A5", "items": [
+      { "type": "dia", "title": "Rezerwacja na nazwisko Brown", "audio": "audio/L03/L03-czytanie-01.mp3", "lines": [
+        ["Klient","Dzień dobry. Mam rezerwację na nazwisko Brown.","Доброго дня. Маю бронювання на прізвище Браун."],
+        ["Kasjer","Na jaki seans?","На який сеанс?"],
+        ["Klient","Na „Autora widmo”. Na osiemnastą.","На «Автора-привида». На вісімнадцяту."],
+        ["Kasjer","Rząd piąty, miejsce siódme. Może być?","П’ятий ряд, сьоме місце. Підійде?"],
+        ["Klient","Trochę za blisko. Nie ma niczego dalej od ekranu?","Трохи задалеко близько. Немає нічого далі від екрана?"],
+        ["Kasjer","Niestety nie. To premiera. Sala jest pełna.","На жаль, ні. Це прем’єра. Зал повний."]
+      ]},
+      { "type": "dia", "title": "Pytania o film i bilety ulgowe", "audio": "audio/L03/L03-czytanie-02.mp3", "lines": [
+        ["Klient","Przepraszam, mam pytanie. Czy ten film jest dubbingowany?","Перепрошую, маю запитання. Чи цей фільм дубльований?"],
+        ["Kasjer","Nie. Jest po angielsku, z polskimi napisami.","Ні. Він англійською, з польськими субтитрами."],
+        ["Klient","Aha. A dla kogo są bilety ulgowe?","Ага. А для кого є пільгові квитки?"],
+        ["Kasjer","Dla studentów i emerytów.","Для студентів і пенсіонерів."],
+        ["Klient","I już ostatnie pytanie. Czy w sali jest klimatyzacja?","І вже останнє запитання. Чи в залі є кондиціонер?"],
+        ["Kasjer","Tak, ale dzisiaj niestety jest zepsuta.","Так, але сьогодні, на жаль, він зіпсований."]
+      ]}
+    ]},
+    { "block": "B. Opisy słynnych filmów · трек 203B3", "items": [
+      { "type": "mono", "title": "„Ojciec chrzestny” · film wszechczasów", "audio": "audio/L03/L03-czytanie-03.mp3",
+        "text": "Dla mnie to film wszechczasów. Fabuła jest oparta na książce amerykańskiego pisarza włoskiego pochodzenia o tym samym tytule. Film, mistrzowsko wyreżyserowany przez Coppolę, opowiada o historii rodziny mafijnej Corleone. Głowę rodziny, Vita Corleone, zagrał Marlon Brando i za tę rolę dostał Oscara. Dalsze losy rodziny można oglądać w dwóch następnych częściach, również w gwiazdorskiej obsadzie.",
+        "tr": "Як на мене, це фільм усіх часів. Сюжет заснований на книжці американського письменника італійського походження з такою самою назвою. Фільм, майстерно знятий Копполою, розповідає історію мафіозної родини Корлеоне. Главу родини, Віто Корлеоне, зіграв Марлон Брандо і за цю роль отримав «Оскар». Подальшу долю родини можна побачити в двох наступних частинах, теж із зірковим акторським складом." },
+      { "type": "mono", "title": "„Upiór w operze” · ekranowa wersja spektaklu", "audio": "audio/L03/L03-czytanie-04.mp3",
+        "text": "Widziałam ten spektakl w teatrze, ale ekranowa wersja też robi wrażenie. To historia obsesji miłosnej geniusza muzycznego o zdeformowanej twarzy, żyjącego w podziemiach paryskiej opery. Niektórzy mówią, że film jest kiczowaty i cukierkowy, ale dla mnie ma fantastyczną scenografię i przede wszystkim doskonałą ścieżkę muzyczną.",
+        "tr": "Я бачила цю виставу в театрі, але екранна версія теж справляє враження. Це історія любовної одержимості музичного генія зі спотвореним обличчям, який живе в підземеллях паризької опери. Дехто каже, що фільм кічевий і солодкавий, але як на мене, він має фантастичну сценографію і насамперед чудову музичну доріжку." },
+      { "type": "mono", "title": "„Król Lew” · film z wytwórni Disneya", "audio": "audio/L03/L03-czytanie-05.mp3",
+        "text": "Może jestem dziecinny, ale bardzo lubię filmy z wytwórni Walta Disneya. „Hakuna matata!” Głównym bohaterem jest Simba, który razem z przyjaciółmi, innymi zwierzętami, musi przeżyć wiele przygód, zanim zasiądzie na tronie. Scenariusz nawiązuje do dramatu Williama Shakespeare'a pod tytułem „Hamlet”.",
+        "tr": "Може, я дитинний, але дуже люблю фільми кіностудії Волта Діснея. «Хакуна матата!» Головний герой — Сімба, який разом з друзями, іншими тваринами, мусить пережити багато пригод, перш ніж сяде на трон. Сценарій відсилає до драми Вільяма Шекспіра під назвою «Гамлет»." },
+      { "type": "mono", "title": "„Gwiezdne wojny” · galaktyczna saga", "audio": "audio/L03/L03-czytanie-06.mp3",
+        "text": "Popularność sześciu części galaktycznej sagi oraz innych produktów związanych ze światem wykreowanym w filmie to fenomen kultury masowej. Wszyscy chyba słyszeli o Jedi, Ciemnej Stronie Mocy, Lordzie Vaderze i słynnym początku: „Dawno, dawno temu, w odległej galaktyce…”. Jest to film, który pod względem efektów wizualnych zmienił oblicze współczesnej kinematografii.",
+        "tr": "Популярність шести частин галактичної саги та інших продуктів, пов’язаних зі світом, створеним у фільмі, — це феномен масової культури. Усі, мабуть, чули про джедаїв, Темну сторону Сили, лорда Вейдера і знаменитий початок: «Давним-давно, у далекій галактиці…». Це фільм, який щодо візуальних ефектів змінив обличчя сучасної кінематографії." },
+      { "type": "mono", "title": "„Cztery wesela i pogrzeb” · brytyjski przebój", "audio": "audio/L03/L03-czytanie-07.mp3",
+        "text": "Najbardziej kasowy brytyjski film w historii i zdobywca wielu nagród filmowych. Po prostu przebój. Wcale się nie dziwię. To pełne komizmu spojrzenie na miłość, pokazaną ironicznie, z humorem. Roztrzepany angielski amant, „stary” kawaler, zakochuje się w Amerykance i… oczywiście wszystko kończy się happy endem.",
+        "tr": "Найкасовіший британський фільм в історії і володар багатьох кінонагород. Просто хіт. Зовсім не дивуюся. Це сповнений комізму погляд на кохання, показане іронічно, з гумором. Розгублений англійський коханець, «старий» парубок, закохується в американку і… звичайно, усе закінчується гепі-ендом." },
+      { "type": "mono", "title": "„Czas apokalipsy” · adaptacja Conrada", "audio": "audio/L03/L03-czytanie-08.mp3",
+        "text": "Luźna adaptacja książki Josepha Conrada, której akcja została przeniesiona w czasy wojny w Wietnamie. Film jest świetnym obrazem wojennego szaleństwa. W Polsce film był emitowany w kinach w czasie stanu wojennego w 1981 roku, przez co od razu stał się filmem kultowym dla opozycji politycznej.",
+        "tr": "Вільна адаптація книжки Джозефа Конрада, дію якої перенесено в часи війни у В’єтнамі. Фільм — чудовий образ воєнного божевілля. У Польщі фільм демонстрували в кінотеатрах під час воєнного стану 1981 року, через що він одразу став культовим для політичної опозиції." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 03 — треки 203A5 (каса кіно), 203B3 (описи фільмів). Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "„Hobbit” · zapowiedź premiery · zeszyt cw08-A", "audio": "audio/L03/L03-zeszyt-01.mp3",
+      "text": "Już jutro światowa premiera filmu „Hobbit. Niezwykła podróż” Petera Jacksona. To pierwszy z trzech filmów zrealizowanych na podstawie klasycznej powieści fantasy J.R.R. Tolkiena. Na najnowszą adaptację nowozelandzkiego reżysera czekają miliony fanów na całym świecie.",
+      "tr": "Уже завтра світова прем’єра фільму «Гобіт. Несподівана подорож» Пітера Джексона. Це перший із трьох фільмів, знятих за класичним фентезійним романом Дж. Р. Р. Толкіна. На найновішу адаптацію новозеландського режисера чекають мільйони фанатів у всьому світі." },
+    { "type": "mono", "title": "„Mój rower” · zapowiedź · zeszyt cw08-B", "audio": "audio/L03/L03-zeszyt-02.mp3",
+      "text": "W filmie pod tytułem „Mój rower” wystąpił obok zawodowych aktorów znany muzyk jazzowy Michał Urbaniak, który gra jednego z głównych bohaterów. To historia trzech mężczyzn. Pełne ciepła spojrzenie na łączące ich relacje. Obraz zdobył wiele nagród na różnych festiwalach filmowych.",
+      "tr": "У фільмі під назвою «Мій велосипед» поруч із професійними акторами знявся відомий джазовий музикант Міхал Урбаняк, який грає одного з головних героїв. Це історія трьох чоловіків. Сповнений тепла погляд на стосунки, що їх пов’язують. Стрічка здобула багато нагород на різних кінофестивалях." },
+    { "type": "mono", "title": "Komedia Woody'ego Allena · zapowiedź · zeszyt cw08-C", "audio": "audio/L03/L03-zeszyt-03.mp3",
+      "text": "Kultowy amerykański reżyser Woody Allen znów po obu stronach kamery. Oczywiście, jak zawsze, gwiazdorska obsada, między innymi Penelope Cruz. Nie jest to z pewnością arcydzieło światowej kinematografii, ale to niezwykle zabawna komedia dla wszystkich.",
+      "tr": "Культовий американський режисер Вуді Аллен знову по обидва боки камери. Звичайно, як завжди, зірковий акторський склад, зокрема Пенелопа Крус. Це, безперечно, не шедевр світової кінематографії, але надзвичайно смішна комедія для всіх." },
+    { "type": "mono", "title": "James Bond 007 · zapowiedź · zeszyt cw08-D", "audio": "audio/L03/L03-zeszyt-04.mp3",
+      "text": "W najnowszym filmie o superagencie 007 w rolę Jamesa Bonda po raz kolejny wcielił się Daniel Craig. Akcja rozgrywa się w Stambule, Londynie i Szkocji. To prawdziwy przebój. Obejrzało go rekordowo dużo widzów.",
+      "tr": "У найновішому фільмі про супершпигуна 007 у роль Джеймса Бонда вкотре втілився Деніел Крейг. Дія відбувається в Стамбулі, Лондоні та Шотландії. Це справжній хіт. Його переглянула рекордно велика кількість глядачів." },
+    { "type": "dia", "title": "W kasie kina · rezerwacja na „Hobbita” · zeszyt cw07", "audio": "audio/L03/L03-zeszyt-05.mp3", "lines": [
+      ["Klient","Dzień dobry. Chciałbym zarezerwować pięć biletów na „Hobbita”.","Доброго дня. Хотів би забронювати п’ять квитків на «Гобіта»."],
+      ["Kasjer","Na kiedy?","На коли?"],
+      ["Klient","Na sobotę po południu.","На суботу пополудні."],
+      ["Kasjer","Który rząd?","Який ряд?"],
+      ["Klient","Ostatni. Czy są miejsca w środku?","Останній. Чи є місця в середині?"],
+      ["Kasjer","Niestety nie są, tylko z brzegu.","На жаль, немає, тільки скраю."],
+      ["Klient","Do kiedy muszę odebrać bilety?","До якого часу я маю забрати квитки?"],
+      ["Kasjer","Rezerwacja wygasa 15 minut przed seansem.","Бронювання спливає за 15 хвилин до сеансу."],
+      ["Klient","Dziękuję. Do widzenia.","Дякую. До побачення."]
+    ]},
+    { "type": "dia", "title": "Telefon do kina „Relax” · dostępność i zniżki · zeszyt cw05", "audio": "audio/L03/L03-zeszyt-06.mp3", "lines": [
+      ["Kasjer","Kino „Relax”, słucham?","Кінотеатр «Релакс», слухаю?"],
+      ["Klient","Dzień dobry, mam pytanie. Czy osoba niepełnosprawna może bez problemu dostać się do sali kinowej?","Доброго дня, маю запитання. Чи людина з інвалідністю може без проблем потрапити до кінозалу?"],
+      ["Kasjer","Oczywiście, w budynku znajduje się winda.","Звичайно, у будівлі є ліфт."],
+      ["Klient","W takim razie proszę dwa bilety, w tym jeden ulgowy.","Тоді прошу два квитки, з них один пільговий."],
+      ["Klient","Czy jest zniżka dla opiekuna?","Чи є знижка для супровідника?"],
+      ["Kasjer","Niestety nie ma. Musi pan kupić bilet normalny.","На жаль, немає. Ви маєте купити звичайний квиток."],
+      ["Klient","Do której godziny muszę odebrać bilety?","До якої години я маю забрати квитки?"],
+      ["Kasjer","Rezerwacja automatycznie wygasa 30 minut przed seansem.","Бронювання автоматично спливає за 30 хвилин до сеансу."]
+    ]}
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 03 — ćw. 8 (треки 20308-A…D: кінозапові­ди), ćw. 7 (трек 26758) та ćw. 5 (трек 26760). Транскрипти — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "kino", "q": "Як сказати «йду в кіно» (до будівлі кінотеатру)?",
+      "o": ["Idę na kino","Idę do kina","Idę w kinie"], "a": 1,
+      "fb": "Заклад/будівля → do + родовий: do kina. На подію/фільм — na film." },
+    { "topic": "przyimki", "q": "Доповніть: «Czekam na ciebie przed ___» (статичний прийменник, де?).",
+      "o": ["kinem","kino","kina"], "a": 0,
+      "fb": "«Przed» у значенні «де?» вимагає орудного відмінка: kino → kinem." },
+    { "topic": "słownictwo", "q": "Що таке «bilet ulgowy»?",
+      "o": ["безкоштовний квиток","пільговий квиток (зі знижкою)","квиток на прем’єру"], "a": 1,
+      "fb": "«Bilet ulgowy» — пільговий квиток зі знижкою (dla studentów i emerytów)." },
+    { "topic": "słownictwo", "q": "Фільм «z polskimi napisami» — це фільм…",
+      "o": ["дубльований","з польськими субтитрами","польського виробництва"], "a": 1,
+      "fb": "«Napisy» — субтитри. Оригінальна доріжка лишається, унизу йде переклад текстом." },
+    { "topic": "zdania celowe", "q": "Доповніть: «Mami poprosiła Angelę, żeby ___ z nią».",
+      "o": ["poszła","pójść","idzie"], "a": 0,
+      "fb": "Підмети різні (Mami / Angela), тому після żeby — форма минулого часу: poszła." },
+    { "topic": "zdania celowe", "q": "Виберіть правильне: «Tom przekonał Javiera, żeby ___ bilety».",
+      "o": ["kupować","kupić","kupił"], "a": 2,
+      "fb": "Після żeby при різних підметах — дієслово в минулому часі: kupił." },
+    { "topic": "że/żeby", "q": "Який сполучник: «Ania powiedziała, ___ jedzie jutro w góry»?",
+      "o": ["że","żeby","żebym"], "a": 0,
+      "fb": "Повідомлення факту (powiedzieć, що…) — сполучник «że»." },
+    { "topic": "że/żeby", "q": "Який сполучник: «Patrycja poprosiła Anię, ___ do niej przyszła»?",
+      "o": ["że","żeby","jak"], "a": 1,
+      "fb": "Прохання (poprosić) → żeby + минулий час: żeby przyszła." },
+    { "topic": "film", "q": "Який фільм описано: «historia rodziny mafijnej Corleone, reżyseria Coppoli»?",
+      "o": ["„Gwiezdne wojny”","„Ojciec chrzestny”","„Król Lew”"], "a": 1,
+      "fb": "Це «Хрещений батько» («Ojciec chrzestny») — родина Корлеоне, режисер Коппола, Марлон Брандо." },
+    { "topic": "dialog", "q": "У касі: коли спливає бронювання на «Гобіта» (ćw. 7)?",
+      "o": ["15 хвилин перед сеансом","30 хвилин перед сеансом","годину перед сеансом"], "a": 0,
+      "fb": "Касир каже: «Rezerwacja wygasa 15 minut przed seansem»." }
+  ],
+
+  "checklist": [
+    { "text": "Замовити квитки й зорієнтуватися в касі кіно", "sub": "rezerwacja, seans, rząd, miejsce, bilet ulgowy" },
+    { "text": "Описати фільм: жанр, режисер, сюжет, враження", "sub": "reżyser, fabuła, obsada, robić wrażenie" },
+    { "text": "Розрізняти do kina i na film", "sub": "do + Dopełniacz (заклад) / na + Biernik (подія)" },
+    { "text": "Вживати статичні й динамічні прийменники", "sub": "gdzie? w kinie, przed kinem / dokąd? do kina" },
+    { "text": "Будувати речення мети зі żeby", "sub": "poprosił, żeby kupił / kazała, żeby poczekał" }
+  ]
+}

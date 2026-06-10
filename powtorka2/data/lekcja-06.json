@@ -1,0 +1,213 @@
+{
+  "id": "06",
+  "title": "Edukacja",
+  "goal": "Повторюємо: комп’ютер та інтернет · система освіти й навчання · віддієслівні іменники (rzeczowniki odczasownikowe)",
+
+  "vocab": [
+    { "group": "Komputer i Internet — комп’ютер та інтернет", "items": [
+      ["bezprzewodowy internet","бездротовий інтернет"],["użytkownik","користувач"],["hasło","пароль"],
+      ["zalogować się","увійти (залогінитися)"],["wylogować się","вийти (розлогінитися)"],
+      ["przeglądarka","браузер"],["pulpit","робочий стіл"],["ikonka","іконка"],["link","посилання"],
+      ["zaznaczyć","виділити"],["skopiować","скопіювати"],["wkleić","вставити"],["wyciąć","вирізати"],
+      ["zapisać na dysku","зберегти на диску"],["wydrukować","роздрукувати"],["usunąć","видалити"]
+    ]},
+    { "group": "Szkoła — школа", "items": [
+      ["przedszkole","дитячий садок"],["szkoła średnia","середня школа"],["gimnazjum","гімназія"],
+      ["liceum ogólnokształcące","загальноосвітній ліцей"],["mundurek","шкільна форма"],
+      ["wagary","прогули (втеча з уроків)"],["uciekać ze szkoły","тікати зі школи"],
+      ["matura","матура (випускний іспит)"],["egzamin dojrzałości","іспит зрілості (матура)"],
+      ["oblać egzamin","завалити іспит"],["test","тест"],["przedmiot","(навчальний) предмет"]
+    ]},
+    { "group": "Studia — навчання у виші", "items": [
+      ["studia","навчання у виші (студії)"],["student","студент"],["indeks","залікова книжка"],
+      ["studniówka","бал за сто днів до матури"],["lektorat","лекторій (мовні заняття у виші)"],
+      ["wymagający","вимогливий"],["wymagania","вимоги"],["kujon","зубрило"],
+      ["oczytany","начитаний"],["licencjat","бакалаврат"],["studia magisterskie","магістратура"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["korzystać z","користуватися чимось"],["podłączać","під’єднувати"],["pasja","захоплення (пристрасть)"],
+      ["leniwy","лінивий"],["pracowity","працьовитий"],["zarabiać","заробляти"],
+      ["zagrożenie","загроза"],["uzależniać","викликати залежність"],["portal społecznościowy","соціальна мережа"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Rzeczowniki odczasownikowe — віддієслівні іменники",
+      "note": "Утворюються від дієслова й називають дію як предмет (як -ння в українській: czytać → читання). Закінчуються на -nie / -cie, рід середній.",
+      "table": {
+        "head": ["Czasownik","Rzeczownik odczasownikowy","Переклад"],
+        "rows": [
+          ["czytać","czyta*nie*","читання"],
+          ["pisać","pisa*nie*","писання / писати"],
+          ["sprzątać","sprząta*nie*","прибирання"],
+          ["pływać","pływa*nie*","плавання"],
+          ["malować","malowa*nie*","малювання"],
+          ["palić","pale*nie*","куріння"],
+          ["uprawiać","uprawia*nie*","заняття (спортом)"]
+        ]
+      }
+    },
+    {
+      "title": "Krótkie czasowniki: być, pić, żyć — короткі дієслова",
+      "note": "Від односкладових дієслів на -ć іменник закінчується на -cie.",
+      "table": {
+        "head": ["Czasownik","Rzeczownik odczasownikowy","Переклад"],
+        "rows": [
+          ["być","by*cie*","буття / перебування"],
+          ["pić","pi*cie*","пиття"],
+          ["żyć","ży*cie*","життя"],
+          ["myć","my*cie*","миття"]
+        ]
+      }
+    },
+    {
+      "title": "Po co używamy? — для чого вживаємо",
+      "note": "Віддієслівний іменник часто стоїть у ролі підмета й керує іменником у dopełniaczu (родовому).",
+      "table": {
+        "head": ["Przykład","Переклад"],
+        "rows": [
+          ["Czytanie to moja ulubiona rozrywka.","Читання — моя улюблена розвага."],
+          ["Palenie jest niezdrowe.","Куріння шкідливе."],
+          ["Odrabianie zadań jest ważne.","Виконання завдань важливе."],
+          ["Picie alkoholu w miejscach publicznych jest zakazane.","Пиття алкоголю в публічних місцях заборонене."],
+          ["Mówienie po polsku jest trudne.","Говорити польською важко."]
+        ]
+      }
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Z komputerem za pan brat · dialog · трек 206A2", "items": [
+      { "type": "dia", "title": "Mami i Karolina — komputer", "audio": "audio/L06/L06-czytanie-01.mp3", "lines": [
+        ["Mami","Co robisz? Piszesz maile?","Що робиш? Пишеш мейли?"],
+        ["Karolina","Nie. Szukam czegoś w internecie.","Ні. Шукаю щось в інтернеті."],
+        ["Mami","Ja też muszę poszukać informacji na lekcje. Czy mogłabyś mi pomóc?","Я теж маю пошукати інформацію на уроки. Чи могла б ти мені допомогти?"],
+        ["Karolina","Oczywiście! Czego potrzebujesz?","Звичайно! Що тобі потрібно?"],
+        ["Mami","Informacji o systemie edukacyjnym w Polsce.","Інформації про систему освіти в Польщі."],
+        ["Karolina","Zawsze, kiedy chcesz, możesz korzystać z mojego komputera. Pokażę ci wszystko od początku. Żeby się zalogować, musisz wpisać użytkownika: Karolina. I hasło: Karolka. Zapamiętasz?","Завжди, коли хочеш, можеш користуватися моїм комп’ютером. Покажу тобі все спочатку. Щоб увійти, мусиш ввести користувача: Кароліна. І пароль: Каролька. Запам’ятаєш?"],
+        ["Mami","Myślę, że tak.","Думаю, що так."],
+        ["Karolina","W domu jest bezprzewodowy internet, więc nie musisz niczego podłączać. Na pulpicie, w lewym górnym rogu, jest ikonka Internet Explorer i obok Mozilla Firefox. Którą przeglądarkę wolisz?","Удома є бездротовий інтернет, тож не мусиш нічого під’єднувати. На робочому столі, у лівому верхньому куті, є іконка Internet Explorer і поряд Mozilla Firefox. Який браузер тобі більше до вподоби?"],
+        ["Mami","Wszystko jedno. Używam tej i tej, tylko w polskiej wersji to jest trochę skomplikowane.","Усе одно. Користуюся і тим, і тим, тільки в польській версії це трохи складно."],
+        ["Karolina","Dobrze. System edukacji w Polsce. Mamy 847 tysięcy wyników. Możesz kliknąć na pierwszy link. O, tutaj jest fajny schemat.","Добре. Система освіти в Польщі. Маємо 847 тисяч результатів. Можеш клікнути на перше посилання. О, тут є гарна схема."],
+        ["Mami","Świetny! Takiego potrzebuję.","Чудова! Саме такої мені треба."],
+        ["Karolina","Czy chcesz zapisać go na dysku, czy wydrukować?","Хочеш зберегти її на диску чи роздрукувати?"],
+        ["Mami","Może zapisać.","Краще зберегти."],
+        ["Karolina","W takim razie zaznacz tekst z obrazkiem, skopiuj, a następnie wklej do nowego dokumentu tekstowego.","Тоді виділи текст із малюнком, скопіюй, а потім встав у новий текстовий документ."],
+        ["Mami","Moment. Dobrze, że chociaż menu w edytorze tekstu ma takie same ikonki jak w wersji japońskiej. Gotowe!","Хвилинку. Добре, що хоча б меню в текстовому редакторі має такі самі іконки, як у японській версії. Готово!"]
+      ]}
+    ]},
+    { "block": "B. Liceum i profile klas · dialog · трек 206B4", "items": [
+      { "type": "dia", "title": "Mami, Karolina i Karol — szkoła", "audio": "audio/L06/L06-czytanie-02.mp3", "lines": [
+        ["Mami","Karolina, czy ty chodzisz do liceum ogólnokształcącego czy profilowanego?","Кароліно, ти ходиш до загальноосвітнього ліцею чи профільного?"],
+        ["Karolina","Do ogólniaka, do piątki. To najlepsze liceum w Krakowie.","До загальноосвітнього, до «п’ятірки». Це найкращий ліцей у Кракові."],
+        ["Mami","Naprawdę?","Справді?"],
+        ["Karolina","No, jest jeszcze jedno niezłe, ale tam chodzą same kujony. Wiesz, tacy co tylko się uczą i uczą i świata poza nauką nie widzą.","Ну, є ще один непоганий, але туди ходять самі зубрила. Знаєш, такі, що тільки вчаться й учаться і світу поза навчанням не бачать."],
+        ["Mami","Aha, a w jakiej klasie jesteś?","Ага, а в якому ти класі?"],
+        ["Karolina","W matematycznej, uniwersyteckiej.","У математичному, університетському."],
+        ["Mami","Uniwersyteckiej? Co to znaczy?","Університетському? Що це означає?"],
+        ["Karolina","Mamy lekcje matematyki i fizyki z nauczycielami akademickimi z Uniwersytetu Jagiellońskiego. A część zajęć mamy nie w szkole, tylko na uniwersytecie, jak prawdziwi studenci.","Маємо уроки математики й фізики з викладачами Ягеллонського університету. А частину занять маємо не в школі, а в університеті, як справжні студенти."],
+        ["Mami","To musi być fajne. A Karol też jest w tej klasie?","Це має бути круто. А Кароль теж у цьому класі?"],
+        ["Karolina","Karol? Nigdy w życiu. On jest za leniwy. A w uniwersyteckiej naprawdę trzeba się uczyć. On jest w humanistycznej. Tam wystarczy, że jest inteligentny i oczytany.","Кароль? Ніколи в житті. Він надто лінивий. А в університетському справді треба вчитися. Він у гуманітарному. Там досить, що він розумний і начитаний."],
+        ["Karol","Mówicie o mnie? Mami, nie słuchaj mojej pracowitej siostry. Wybrałem profil humanistyczny, bo kocham historię starożytną i literaturę.","Говорите про мене? Мамі, не слухай моєї працьовитої сестри. Я обрав гуманітарний профіль, бо люблю стародавню історію й літературу."],
+        ["Karolina","Haha, humanista. I może jeszcze łacinę kochasz, co?","Ха-ха, гуманітарій. І, може, ще латину любиш, га?"],
+        ["Karol","No, nie za bardzo, ale za to bardzo lubię panią od łaciny, bo nigdy nie daje zadań domowych.","Ну, не дуже, але зате дуже люблю вчительку латини, бо вона ніколи не задає домашніх завдань."],
+        ["Karolina","Ja najbardziej lubię panią od fizyki. Jest bardzo wymagająca, ale świetnie uczy. Poza tym fizyka to moje drugie hobby. Zaraz po fotografii.","Я найбільше люблю вчительку фізики. Вона дуже вимоглива, але чудово вчить. До того ж фізика — моє друге хобі. Одразу після фотографії."],
+        ["Mami","A jakie przedmioty lubicie najbardziej?","А які предмети ви любите найбільше?"],
+        ["Karolina","Ja oczywiście fizykę i hiszpański.","Я, звичайно, фізику й іспанську."],
+        ["Karol","Ja też hiszpański i naturalnie historię.","Я теж іспанську і, звісно, історію."]
+      ]}
+    ]},
+    { "block": "C. Spotkanie klasowe · dialog · трек 206C1", "items": [
+      { "type": "dia", "title": "Mami i kolega — co słychać", "audio": "audio/L06/L06-czytanie-03.mp3", "lines": [
+        ["Kolega","Cześć, Mami! Pamiętasz mnie?","Привіт, Мамі! Пам’ятаєш мене?"],
+        ["Mami","Oczywiście, że pamiętam. Dawno nie byłeś u Karola. Co u ciebie słychać?","Звичайно, що пам’ятаю. Давно ти не був у Кароля. Що в тебе чути?"],
+        ["Kolega","Nic nowego. Ostatnio dużo czasu zajmuje mi szkoła. Wiesz, pisanie wypracowań, czytanie lektur, odrabianie zadań.","Нічого нового. Останнім часом багато часу забирає мені школа. Знаєш, писання творів, читання хрестоматійних книжок, виконання завдань."],
+        ["Mami","Chyba chciałeś powiedzieć: oglądanie telewizji, siedzenie przed komputerem, granie, surfowanie, czatowanie, smsowanie, myślenie o niebieskich migdałach.","Мабуть, ти хотів сказати: дивлення телевізора, сидіння за комп’ютером, ігри, серфінг, чати, есемески, мрії (думання про сині мигдалі)."],
+        ["Kolega","Słyszałaś mnie?","Ти мене чула?"],
+        ["Mami","Tak, słyszałam.","Так, чула."]
+      ]}
+    ]},
+    { "block": "C. Plany na studia · dialog · трек 206C4", "items": [
+      { "type": "dia", "title": "Justyna, Robert, Piotr i Łukasz — studia", "audio": "audio/L06/L06-czytanie-04.mp3", "lines": [
+        ["Robert","Justyna, co masz zamiar studiować?","Юстино, що ти збираєшся вивчати?"],
+        ["Justyna","Turystykę na AWF-ie.","Туризм у Академії фізичного виховання."],
+        ["Robert","Myślałem, że chcesz studiować administrację.","Я думав, що ти хочеш вивчати адміністрування."],
+        ["Justyna","Administrację? Ja? Na pewno nie. Siedzenie za biurkiem, prowadzenie korespondencji, odbieranie telefonów – to nie dla mnie.","Адміністрування? Я? Точно ні. Сидіння за столом, ведення кореспонденції, відповідання на телефонні дзвінки — це не для мене."],
+        ["Robert","A co chcesz robić w przyszłości?","А що ти хочеш робити в майбутньому?"],
+        ["Justyna","Coś związanego z moją pasją – z podróżowaniem.","Щось пов’язане з моїм захопленням — із подорожуванням."],
+        ["Robert","Ja wolę bardziej konkretne studia, na przykład prawo na UJ-cie albo stosunki międzynarodowe na Akademii Ekonomicznej. Oczywiście magisterskie, nie licencjat. A ty, Piotrku?","Я волію конкретніші студії, наприклад право в Ягеллонському університеті або міжнародні відносини в Економічній академії. Звичайно, магістерські, не бакалаврат. А ти, Пьотреку?"],
+        ["Piotr","Myślę o architekturze na Politechnice. Architekt to bardzo praktyczny zawód i można potem nieźle zarabiać.","Думаю про архітектуру в Політехніці. Архітектор — дуже практична професія, і потім можна непогано заробляти."],
+        ["Robert","Ale trzeba mieć talent, mój drogi, talent!","Але треба мати талант, мій любий, талант!"],
+        ["Piotr","Robert, jesteś złośliwy. A ty, Łukasz? Co planujesz?","Роберте, ти злий. А ти, Лукаше? Що плануєш?"],
+        ["Łukasz","Informatykę. Tylko jeszcze nie wiem, czy na Uniwersytecie, czy na Politechnice. Fakt, że trudno powiedzieć, co jest lepsze. I Uniwersytet, i Politechnika mają swoje plusy.","Інформатику. Тільки ще не знаю, в Університеті чи в Політехніці. Факт, що важко сказати, що краще. І Університет, і Політехніка мають свої плюси."]
+      ]}
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 06 — треки 206A2, 206B4, 206C1, 206C4. Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "dia", "title": "Ankieta: komputer, internet, edukacja · zeszyt cw03", "audio": "audio/L06/L06-zeszyt-01.mp3", "lines": [
+      ["Pytanie","Czego zwykle używasz w czasie pracy?","Чим ти зазвичай користуєшся під час роботи?"],
+      ["Odpowiedź","Jak wszyscy, przede wszystkim komputera. Do pracy potrzebuję też internetu, bo moim głównym zadaniem jest mailowy kontakt z klientami naszej firmy.","Як усі, передусім комп’ютером. Для роботи потрібен мені також інтернет, бо моє головне завдання — це поштовий контакт із клієнтами нашої фірми."],
+      ["Pytanie","Z jakich programów komputerowych najczęściej korzystasz?","Якими комп’ютерними програмами ти користуєшся найчастіше?"],
+      ["Odpowiedź","Jestem uczennicą, więc najczęściej korzystam z edytora tekstu i programów do robienia prezentacji multimedialnych.","Я учениця, тож найчастіше користуюся текстовим редактором і програмами для створення мультимедійних презентацій."],
+      ["Pytanie","Czego potrzebuje student do nauki języka polskiego?","Що потрібно студентові для вивчення польської мови?"],
+      ["Odpowiedź","Przede wszystkim motywacji i dobrego nauczyciela. Reszta to dodatek.","Передусім мотивації й доброго вчителя. Решта — це доповнення."],
+      ["Pytanie","Czego zwykle szukasz w internecie?","Що ти зазвичай шукаєш в інтернеті?"],
+      ["Odpowiedź","Jak każdy. Informacji. Szukam też dobrych ofert. Produktów, których nie mogę kupić. To bardzo ułatwia życie.","Як усі. Інформації. Шукаю також гарних пропозицій. Товарів, яких не можу купити. Це дуже полегшує життя."],
+      ["Pytanie","Jakie zagrożenia niesie ze sobą internet?","Які загрози несе із собою інтернет?"],
+      ["Odpowiedź","Ludzie najczęściej boją się o dzieci. Mówią o łatwym dostępie do niepożądanych treści, do pornografii. Zapominają, że często największym zagrożeniem jest to, że internet wciąga, zabiera czas, wreszcie uzależnia.","Люди найчастіше бояться за дітей. Говорять про легкий доступ до небажаного вмісту, до порнографії. Забувають, що часто найбільша загроза — це те, що інтернет затягує, забирає час, зрештою викликає залежність."],
+      ["Pytanie","Czy dzieci powinny korzystać z internetu samodzielnie?","Чи мають діти користуватися інтернетом самостійно?"],
+      ["Odpowiedź","To zawsze jest problem. Wiem, że moje dzieci są rozsądne, ale wiem, że w internecie przez przypadek można wejść na nieodpowiednie strony. Samodzielność może się źle skończyć.","Це завжди проблема. Знаю, що мої діти розважливі, але знаю, що в інтернеті випадково можна потрапити на невідповідні сторінки. Самостійність може погано скінчитися."],
+      ["Pytanie","Co sądzisz o blokowaniu stron przez rodziców i pracodawców?","Що ти думаєш про блокування сторінок батьками й роботодавцями?"],
+      ["Odpowiedź","Moi rodzice są okropni. Zablokowali mi dostęp do części stron w internecie. To bez sensu. Jak będę chciał, to i tak pójdę do kolegi i wejdę na te strony.","Мої батьки жахливі. Заблокували мені доступ до частини сторінок в інтернеті. Це безглуздо. Якщо захочу, то все одно піду до приятеля й зайду на ті сторінки."],
+      ["Pytanie","Czy zakupy w sieci są bezpieczne?","Чи безпечні покупки в мережі?"],
+      ["Odpowiedź","Myślę, że tak, chociaż nigdy nie korzystam z tej możliwości. Produkty spożywcze wolę obejrzeć, ubrania przymierzyć. Jednym słowem jestem klientem, który chce wszystkiego dotknąć.","Думаю, що так, хоча ніколи не користуюся цією можливістю. Продукти харчування волію оглянути, одяг приміряти. Одне слово — я клієнт, який хоче всього торкнутися."],
+      ["Pytanie","Co sądzisz na temat portali społecznościowych?","Що ти думаєш про соціальні мережі?"],
+      ["Odpowiedź","Według mnie te portale zmieniły naszą codzienność. Jedni mówią, że na plus, inni, że na minus. Ale wszyscy się zgadzają, że to rewolucja.","На мою думку, ці портали змінили нашу повсякденність. Одні кажуть, що на плюс, інші — що на мінус. Але всі погоджуються, що це революція."]
+    ]}
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 06, ćw. 3 (трек 26174). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "komputer", "q": "Що означає польське «hasło» у контексті комп’ютера?",
+      "o": ["користувач","пароль","браузер"], "a": 1,
+      "fb": "Karolina каже: «musisz wpisać użytkownika: Karolina. I hasło: Karolka» — hasło це пароль." },
+    { "topic": "komputer", "q": "Який порядок дій радить Karolina, щоб перенести текст у новий документ?",
+      "o": ["zaznacz → skopiuj → wklej","wydrukuj → usuń → zapisz","wyloguj się → włącz → wytnij"], "a": 0,
+      "fb": "Karolina: «zaznacz tekst, skopiuj, a następnie wklej do nowego dokumentu» — виділи, скопіюй, встав." },
+    { "topic": "gramatyka", "q": "Який це віддієслівний іменник (rzeczownik odczasownikowy) від «czytać»?",
+      "o": ["czytacie","czytanie","czytany"], "a": 1,
+      "fb": "Від «czytać» → «czytanie» (читання). У тексті: «Czytanie to moja ulubiona rozrywka»." },
+    { "topic": "gramatyka", "q": "Доповніть: «___ alkoholu w miejscach publicznych jest zakazane».",
+      "o": ["Picie","Pić","Pijąc"], "a": 0,
+      "fb": "Від короткого дієслова «pić» іменник на -cie: «picie». Пиття алкоголю в публічних місцях заборонене." },
+    { "topic": "szkoła", "q": "Що таке «wagary»?",
+      "o": ["шкільна форма","прогули (втеча з уроків)","випускний бал"], "a": 1,
+      "fb": "«Wagary» — прогули: «kiedy ktoś ucieka ze szkoły, to idzie na wagary»." },
+    { "topic": "szkoła", "q": "До якого профілю ходить Karolina?",
+      "o": ["humanistyczny","uniwersytecki (matematyczny)","językowy"], "a": 1,
+      "fb": "Karolina: «W matematycznej, uniwersyteckiej» — математичний, університетський профіль." },
+    { "topic": "szkoła", "q": "Чому Karol не вчиться в університетському класі, на думку Karoliny?",
+      "o": ["bo jest za leniwy","bo nie lubi fizyki","bo woli sport"], "a": 0,
+      "fb": "Karolina: «Karol? Nigdy w życiu. On jest za leniwy» — він надто лінивий." },
+    { "topic": "gramatyka", "q": "Який рід мають віддієслівні іменники на -nie / -cie?",
+      "o": ["męski","żeński","nijaki (середній)"], "a": 2,
+      "fb": "Rzeczowniki odczasownikowe (czytanie, picie, życie) — середнього роду." },
+    { "topic": "studia", "q": "Що планує вивчати Łukasz?",
+      "o": ["architekturę","informatykę","turystykę"], "a": 1,
+      "fb": "Łukasz: «Informatykę. Tylko jeszcze nie wiem, czy na Uniwersytecie, czy na Politechnice»." },
+    { "topic": "słownictwo", "q": "Що означає «oczytany» (про Karola)?",
+      "o": ["лінивий","начитаний","балакучий"], "a": 1,
+      "fb": "«Oczytany» = начитаний: «to znaczy, że przeczytał dużo książek»." }
+  ],
+
+  "checklist": [
+    { "text": "Користуватися комп’ютером польською мовою", "sub": "zalogować się, hasło, użytkownik, przeglądarka, pulpit" },
+    { "text": "Описати базові дії з текстом", "sub": "zaznaczyć, skopiować, wkleić, zapisać na dysku, wydrukować" },
+    { "text": "Розповісти про систему освіти й типи шкіл", "sub": "przedszkole, liceum ogólnokształcące, matura, studia" },
+    { "text": "Утворити віддієслівні іменники (rzeczowniki odczasownikowe)", "sub": "czytać → czytanie, pić → picie, żyć → życie" },
+    { "text": "Говорити про навчання та плани на студії", "sub": "studiować, profil klasy, licencjat, studia magisterskie, zainteresowania" }
+  ]
+}

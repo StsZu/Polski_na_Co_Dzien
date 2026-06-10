@@ -1,0 +1,203 @@
+{
+  "id": "05",
+  "title": "Jacy oni",
+  "goal": "Повторюємо: прикметники, що описують людей · характер · означення (ktoś, kto…) · вираження думки · mianownik множини чоловічоособових прикметників",
+
+  "vocab": [
+    { "group": "Cechy charakteru — риси характеру", "items": [
+      ["uprzejmy","ввічливий"],["oszczędny","ощадливий"],["spontaniczny","спонтанний"],
+      ["zdyscyplinowany","дисциплінований"],["towarzyski","товариський"],["ambitny","амбітний"],
+      ["gadatliwy","балакучий"],["spokojny","спокійний"],["sprytny","кмітливий / спритний"],
+      ["skąpy","скупий"],["rozrzutny","марнотратний"],["zarozumiały","зарозумілий"],["skromny","скромний"]
+    ]},
+    { "group": "Pozytywne cechy — позитивні риси", "items": [
+      ["odpowiedzialny","відповідальний"],["punktualny","пунктуальний"],["cierpliwy","терплячий"],
+      ["solidny","надійний / сумлінний"],["opanowany","стриманий"],["uczciwość","чесність"],
+      ["gościnny","гостинний"],["serdeczny","сердечний"],["uczynny","послужливий"],
+      ["pogodny","веселий / життєрадісний"],["opiekuńczy","турботливий"],["odważny","сміливий"]
+    ]},
+    { "group": "Negatywne cechy — негативні риси", "items": [
+      ["okropny","жахливий"],["beznadziejny","безнадійний"],["leniwy","лінивий"],
+      ["bezczelny","нахабний"],["arogancki","зарозумілий / зухвалий"],["antypatyczny","неприємний"],
+      ["wścibski","надокучливий / усюди пхає носа"],["nieśmiały","сором’язливий"],
+      ["roztrzepany","розсіяний"],["bezmyślny","бездумний"]
+    ]},
+    { "group": "Definiowanie i opinie — означення й думки", "items": [
+      ["ktoś, kto…","той, хто…"],["człowiek, który…","людина, яка…"],["polegać na (kimś)","покладатися (на когось)"],
+      ["odgadnąć","відгадати"],["projektować","проєктувати"],["Według mnie…","На мою думку…"],
+      ["Moim zdaniem…","На мою думку…"],["Trzeba przyznać, że…","Треба визнати, що…"],
+      ["Jestem przekonany, że…","Я переконаний, що…"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["przygnębiona","пригнічена"],["przesadzać","перебільшувати"],["głowa do góry","вище голову"],
+      ["wernisaż","вернісаж"],["próba (spektaklu)","репетиція (вистави)"],["dusza towarzystwa","душа компанії"],
+      ["rozbawić","розсмішити"],["wpaść na herbatkę","забігти на чай"],["miska zupy","миска супу"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Definiowanie: ktoś, kto / coś, co — означення",
+      "note": "Щоб дати означення, вживаємо конструкції «ktoś, kto…» (для людей) або «coś, co…» (для речей). Для іменника — «człowiek, który…», «osoba, która…».",
+      "table": {
+        "head": ["Konstrukcja","Przykład"],
+        "rows": [
+          ["Architekt to ktoś, kto…","Architekt to ktoś, kto projektuje domy."],
+          ["…to człowiek, który…","Rozrzutny to człowiek, który wydaje za dużo pieniędzy."],
+          ["…to osoba, która…","Uprzejmy to osoba, która jest miła i kulturalna."],
+          ["…to coś, co…","Paszport to coś, co powinno się nosić przy sobie."]
+        ]
+      }
+    },
+    {
+      "title": "Zaimek względny „który” w przypadkach — відмінкові форми",
+      "note": "Займенник «który/która/które» узгоджується в роді з означуваним словом, а відмінок диктує дієслово/прийменник у підрядному реченні.",
+      "table": {
+        "head": ["Przypadek","Przykład"],
+        "rows": [
+          ["Mianownik","To student, który* zna polski."],
+          ["Dopełniacz","To człowiek, któreg*o* szukam."],
+          ["Celownik","To dziewczyna, któr*ej* ufam."],
+          ["Biernik","To osoba, któr*ą* kocham."],
+          ["Narzędnik","To student, z któr*ym* rozmawiam."],
+          ["Miejscownik","To przyjaciel, o któr*ym* myślę."]
+        ]
+      }
+    },
+    {
+      "title": "Mianownik l. mn. — rodzaj męskoosobowy (–i / –y)",
+      "note": "У чоловічоособовій множині прикметник має закінчення *-i* (після твердих) або *-y* (після k, g, r, c, cz, dz, ż) з типовими чергуваннями приголосних.",
+      "table": {
+        "head": ["Alternacja","l. poj. → l. mn."],
+        "rows": [
+          ["t → ci","punktualny → punktualn*i*; bogaty → boga*ci*"],
+          ["d → dzi","młody → mło*dzi*; twardy → twar*dzi*"],
+          ["ł → li","miły → mi*li*; leniwy → leniw*i*"],
+          ["s → si","łysy → ły*si*; lepszy → leps*i*"],
+          ["k → cy","arogancki → aroganc*cy*; wysoki → wyso*cy*"],
+          ["g → dzy","drogi → dro*dzy*; ubogi → ubo*dzy*"],
+          ["r → rzy","dobry → dob*rzy*; stary → sta*rzy*"]
+        ]
+      }
+    },
+    {
+      "title": "Wyrażanie opinii — вираження думки",
+      "note": "Після цих зворотів зазвичай іде підрядне речення зі сполучником «że».",
+      "words": "Myślę, że… · Uważam, że… · Sądzę, że… · Według mnie… · Moim zdaniem… · Wydaje mi się, że… · Jestem pewien/pewna, że… · Jestem przekonany, że… · Trzeba przyznać, że…"
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Jacy są moi znajomi · трек 205A6", "items": [
+      { "type": "mono", "title": "Angela o znajomych", "audio": "audio/L05/L05-czytanie-01.mp3",
+        "text": "Jacy są moi znajomi? Hm, Uwe jest chyba pracoholikiem. Zdecydowanie za dużo pracuje. Ale z drugiej strony zawsze można na nim polegać. Mami według mnie mogłaby być bardziej pewna siebie. Ale lubię ją taką, jaka jest. Spędzamy razem sporo czasu. Chodzimy na zakupy, plotkujemy, zwiedzamy. Mami pasjonuje się malarstwem. Sztuka nie ma dla niej tajemnic. Tom jest taki spokojny i opanowany. Zawsze uśmiechnięty. Uwielbiam z nim dyskutować na różne tematy. Zwykle wtedy uczę się czegoś nowego, bo Tom ma naprawdę obszerną wiedzę. A Javier? Wesoły, dowcipny. Prawdziwa dusza towarzystwa. Wszyscy chętnie zapraszają go na imprezy. Trzeba przyznać, że potrafi rozbawić każdego.",
+        "tr": "Які мої знайомі? Гм, Уве, мабуть, трудоголік. Однозначно забагато працює. Але з іншого боку, на нього завжди можна покластися. Мамі, на мою думку, могла б бути впевненішою в собі. Але я люблю її такою, яка вона є. Ми проводимо разом чимало часу. Ходимо по магазинах, плещемо язиками, оглядаємо пам’ятки. Мамі захоплюється живописом. Мистецтво не має для неї таємниць. Том такий спокійний і стриманий. Завжди усміхнений. Обожнюю з ним дискутувати на різні теми. Зазвичай тоді вчуся чогось нового, бо Том має справді широкі знання. А Хав’єр? Веселий, дотепний. Справжня душа компанії. Усі охоче запрошують його на вечірки. Треба визнати, що він уміє розсмішити кожного." }
+    ]},
+    { "block": "B. Sympatyczni czy okropni? · dialog · трек 205B2", "items": [
+      { "type": "dia", "title": "Angela i Tom — fatalna grupa", "audio": "audio/L05/L05-czytanie-02.mp3", "lines": [
+        ["Tom","Czemu jesteś taka przygnębiona? Co się dzieje?","Чому ти така пригнічена? Що сталося?"],
+        ["Angela","To wszystko przez moich studentów. Są okropni!","Це все через моїх студентів. Вони жахливі!"],
+        ["Tom","Co ty mówisz? Przecież zawsze lubiłaś uczyć!","Що ти кажеш? Адже ти завжди любила вчити!"],
+        ["Angela","Tak, ale teraz mam taką fatalną grupę. Ci ludzie są po prostu beznadziejni! Nie uczą się! Przychodzą nieprzygotowani, na lekcjach są leniwi i bezmyślni, a do tego wiecznie niepunktualni. Niestety bywają też bezczelni. Typowe nastolatki. Jestem pewna, że mnie nie cierpią!","Так, але зараз у мене така жахлива група. Ці люди просто безнадійні! Вони не вчаться! Приходять непідготовлені, на уроках ліниві й бездумні, а до того ж вічно непунктуальні. На жаль, бувають і нахабними. Типові підлітки. Я впевнена, що вони мене терпіти не можуть!"],
+        ["Tom","Nie powinnaś tak myśleć. Oni są po prostu bardzo młodzi. To normalne, że nic im się nie chce. W dodatku wasz kurs jest późno wieczorem i mogą być zmęczeni. Jestem przekonany, że nie chcą być aroganccy – im się pewnie wydaje, że są dowcipni.","Не варто так думати. Вони просто дуже молоді. Це нормально, що їм нічого не хочеться. До того ж ваш курс пізно ввечері, і вони можуть бути втомлені. Я переконаний, що вони не хочуть бути зухвалими — їм, мабуть, здається, що вони дотепні."],
+        ["Angela","Może masz rację. Chyba trochę przesadzam. To dlatego, że moi studenci zwykle byli bardzo dobrzy – pracowici, zdolni, zmotywowani, a przede wszystkim mili.","Може, ти маєш рацію. Мабуть, я трохи перебільшую. Це тому, що мої студенти зазвичай були дуже хороші — працьовиті, здібні, мотивовані, а передусім милі."],
+        ["Tom","Angela! Głowa do góry! Jesteś świetną nauczycielką. Zobaczysz, że ci nowi jeszcze będą zadowoleni i jeszcze będziecie się dobrze bawić.","Анджело! Вище голову! Ти чудова вчителька. Побачиш, що ці нові ще будуть задоволені, і ви ще добре розважитеся."]
+      ]}
+    ]},
+    { "block": "B. Mami w teatrze · dialog · трек 205B3", "items": [
+      { "type": "dia", "title": "Mami, Angela i Tom — wernisaż", "audio": "audio/L05/L05-czytanie-03.mp3", "lines": [
+        ["Mami","Witajcie, moi drodzy! Już jestem.","Вітаю, мої любі! Я вже тут."],
+        ["Angela","O, Mami! Jesteś bardzo podekscytowana. Co się stało?","О, Мамі! Ти дуже схвильована. Що сталося?"],
+        ["Mami","Wyobraźcie sobie, że na wernisażu poznałam przesympatyczną studentkę PWST. Właściwie już aktorkę, bo od niedawna gra w teatrze. I wiecie co? Wyciągnęła mnie na próbę spektaklu.","Уявіть собі, що на вернісажі я познайомилася з пресимпатичною студенткою театральної школи. Власне, уже акторкою, бо віднедавна грає в театрі. І знаєте що? Витягла мене на репетицію вистави."],
+        ["Tom","Można tak po prostu iść do teatru i obejrzeć próbę?","Можна отак просто піти в театр і подивитися репетицію?"],
+        ["Mami","Chyba nie, ale weszłam z nią i nie było problemów. Poznałam mnóstwo sympatycznych ludzi.","Мабуть, ні, але я зайшла з нею, і не було проблем. Познайомилася з безліччю симпатичних людей."],
+        ["Angela","Znowu aktorzy? Jak ci dwaj Belgowie?","Знову актори? Як ті двоє бельгійців?"],
+        ["Mami","Tak, ale tym razem to nie jacyś początkujący studenci, tylko prawdziwi artyści.","Так, але цього разу це не якісь студенти-початківці, а справжні митці."],
+        ["Tom","Hm, artyści. To chyba dość snobistyczne środowisko.","Гм, митці. Це, мабуть, доволі снобістське середовище."],
+        ["Mami","Wprost przeciwnie! Ja też zawsze uważałam, że oni wszyscy są zarozumiali, bo myślą, że są lepsi od zwykłych ludzi. Ale ci są zupełnie inni – otwarci, serdeczni, skromni. Naprawdę tacy interesujący i uroczy.","Зовсім навпаки! Я теж завжди вважала, що вони всі зарозумілі, бо думають, що кращі за звичайних людей. Але ці зовсім інші — відкриті, сердечні, скромні. Справді такі цікаві й чарівні."],
+        ["Angela","No, no! Tylko się nie zakochaj!","Ну-ну! Тільки не закохайся!"]
+      ]}
+    ]},
+    { "block": "C. Jacy są ci ludzie? · zawody · трек 205C1", "items": [
+      { "type": "mono", "title": "Studenci (A)", "audio": "audio/L05/L05-czytanie-04.mp3",
+        "text": "To młodzi ludzie, zwykle ambitni i utalentowani. Uczą się intensywnie, żeby potem dostać dobrą pracę.",
+        "tr": "Це молоді люди, зазвичай амбітні й талановиті. Інтенсивно вчаться, щоб потім отримати хорошу роботу." },
+      { "type": "mono", "title": "Złodzieje (B)", "audio": "audio/L05/L05-czytanie-05.mp3",
+        "text": "Są sprytni i szybcy. Często bezczelni. Zwykle ryzykują. Jeśli coś się nie uda, mają problemy z policją.",
+        "tr": "Вони спритні й швидкі. Часто нахабні. Зазвичай ризикують. Якщо щось не вдається, мають проблеми з поліцією." },
+      { "type": "mono", "title": "Nauczyciele (C)", "audio": "audio/L05/L05-czytanie-06.mp3",
+        "text": "Muszą być cierpliwi i opanowani, nie mogą się denerwować, nawet jeśli ich uczniowie są złośliwi.",
+        "tr": "Мають бути терплячими й стриманими, не можуть нервувати, навіть якщо їхні учні злостиві." },
+      { "type": "mono", "title": "Artyści (D)", "audio": "audio/L05/L05-czytanie-07.mp3",
+        "text": "To ludzie, którzy posiadają jakiś talent, są niezależni i kreatywni.",
+        "tr": "Це люди, які мають якийсь талант, вони незалежні й креативні." },
+      { "type": "mono", "title": "Prawnicy (E)", "audio": "audio/L05/L05-czytanie-08.mp3",
+        "text": "Ten zawód jest dla solidnych i odpowiedzialnych. Podstawową cechą ludzi, którzy wybierają te profesje, powinna być uczciwość.",
+        "tr": "Ця професія для сумлінних і відповідальних. Основною рисою людей, які обирають ці професії, має бути чесність." },
+      { "type": "mono", "title": "Lekarze (F)", "audio": "audio/L05/L05-czytanie-09.mp3",
+        "text": "Przede wszystkim muszą być dobrze przygotowani do swojego zawodu, bo od tego może zależeć życie innych.",
+        "tr": "Передусім вони мають бути добре підготовлені до своєї професії, бо від цього може залежати життя інших." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 05 — треки 205A6, 205B2, 205B3, 205C1. Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "Sąsiadka: pani Ella · zeszyt cw06", "audio": "audio/L05/L05-zeszyt-01.mp3",
+      "text": "Pani Ella, ta która mieszka nad nami, jest już starszą osobą. To pogodna kobieta, zwykle uśmiechnięta, ciepła i bardzo serdeczna. Ma jeszcze jedną zaletę. Jest gościnna. Zawsze można do niej wpaść na herbatkę i przepyszne ciasto, bo to znakomita gospodyni. Pani Ella lubi rozmawiać z ludźmi, ale nie jest, broń Boże, gadatliwa, ona raczej słucha innych. Wszyscy bardzo lubimy naszą panią Ellę. Każdy może liczyć na jej pomoc, na dobrą radę. Pamiętam, że czasem zostawała z małą Karolinką, kiedy ta była chora. Była taka opiekuńcza.",
+      "tr": "Пані Елла, та, що живе над нами, уже літня людина. Це життєрадісна жінка, зазвичай усміхнена, тепла й дуже сердечна. Має ще одну перевагу. Вона гостинна. До неї завжди можна забігти на чай і смачнючий пиріг, бо вона чудова господиня. Пані Елла любить розмовляти з людьми, але вона, боронь Боже, не балакуча — вона радше слухає інших. Усі ми дуже любимо нашу пані Еллу. Кожен може розраховувати на її допомогу, на добру пораду. Пам’ятаю, що інколи вона лишалася з маленькою Кароліною, коли та хворіла. Була така турботлива." },
+    { "type": "mono", "title": "Sąsiad: pan Robert · zeszyt cw06", "audio": "audio/L05/L05-zeszyt-02.mp3",
+      "text": "Pan Robert to sąsiad z parteru. Cóż, niewiele o nim wiem. Jest kulturalny, grzecznie wita się ze wszystkimi. Jest uczynny, kiedyś pomógł mi wnieść ciężkie zakupy do mieszkania. Jednak tak naprawdę go nie znam, bo jest mało mówny i chyba trochę nieśmiały w kontaktach z ludźmi. Chociaż z drugiej strony potrafi być zdecydowany. Niedawno widziałam, jak nie pozwolił młodym ludziom niszczyć zabawek na placu zabaw. To znaczy, że jest też odważny, bo on był jeden, a chłopców było trzech.",
+      "tr": "Пан Роберт — сусід з першого поверху. Що ж, мало про нього знаю. Він культурний, ввічливо вітається з усіма. Він послужливий, колись допоміг мені занести важкі покупки до квартири. Однак насправді я його не знаю, бо він небалакучий і, мабуть, трохи сором’язливий у спілкуванні з людьми. Хоча, з іншого боку, він уміє бути рішучим. Нещодавно я бачила, як він не дозволив підліткам нищити іграшки на дитячому майданчику. Це означає, що він також сміливий, бо він був один, а хлопців було троє." },
+    { "type": "mono", "title": "Sąsiadka: pani Jola · zeszyt cw06", "audio": "audio/L05/L05-zeszyt-03.mp3",
+      "text": "O pani Joli, sąsiadce z naprzeciwka, wolałabym nie rozmawiać. Ona jest... hmm... trochę wścibska i bardzo gadatliwa, a ja nie lubię plotek. Nie przepadam też za ludźmi, którzy zawsze mają rację. A pani Jola to osoba, która zawsze wie wszystko najlepiej, na wszystkim się zna. Powiem wprost. Jest zarozumiała i antypatyczna.",
+      "tr": "Про пані Йолю, сусідку навпроти, я воліла б не говорити. Вона... хм... трохи надокучлива й дуже балакуча, а я не люблю пліток. Не дуже люблю також людей, які завжди мають рацію. А пані Йоля — це особа, яка завжди все знає найкраще, на всьому розуміється. Скажу прямо. Вона зарозуміла й неприємна." },
+    { "type": "mono", "title": "Sąsiad: pan Piotr · zeszyt cw06", "audio": "audio/L05/L05-zeszyt-04.mp3",
+      "text": "Pan Piotr z mieszkania obok to młody człowiek, chyba jeszcze student. Jest sympatyczny, ale trochę roztrzepany. Często zapomina kluczy do bramy i wtedy dzwoni do nas. Kiedyś zgubił klucz do śmietnika. Powinien bardziej uważać. Trzeba jednak przyznać, że na komputerach zna się jak nikt inny i chętnie pomaga każdemu z komputerowymi problemami. Już dwa razy naprawił mój laptop.",
+      "tr": "Пан Пьотр із сусідньої квартири — молодий чоловік, мабуть, ще студент. Він симпатичний, але трохи розсіяний. Часто забуває ключі від брами й тоді дзвонить до нас. Колись загубив ключ від сміттєвого баку. Йому варто бути уважнішим. Однак треба визнати, що в комп’ютерах він розуміється як ніхто інший і охоче допомагає кожному з комп’ютерними проблемами. Уже двічі полагодив мій ноутбук." },
+    { "type": "mono", "title": "Jakie jest to dziecko? · zeszyt cw03", "audio": "audio/L05/L05-zeszyt-05.mp3",
+      "text": "To dziecko jest bardzo wesołe. Myślę, że ono jest otwarte i spontaniczne. Jestem pewien, że jest delikatne i bardzo ufne. Pewnie, jak każde dziecko, jest niecierpliwe. Wydaje mi się, że jest albo będzie, bo nie wiem, czy teraz umie mówić, gadatliwe.",
+      "tr": "Ця дитина дуже весела. Думаю, що вона відкрита й спонтанна. Я впевнений, що вона ніжна й дуже довірлива. Звісно, як кожна дитина, вона нетерпляча. Мені здається, що вона балакуча або буде такою, бо не знаю, чи вона зараз уміє говорити." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 05, ćw. 6 (треки 26242, 26243, 26800, 26801) та ćw. 3 (трек 26343). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "definiowanie", "q": "Як по-польськи почати означення «архітектор — це той, хто проєктує будинки»?",
+      "o": ["Architekt to ktoś, kto projektuje domy.","Architekt to coś, co projektuje domy.","Architekt to ktoś, który projektuje domy."], "a": 0,
+      "fb": "Для людей вживаємо «ktoś, kto…»: «Architekt to ktoś, kto projektuje domy»." },
+    { "topic": "słownictwo", "q": "Що означає польське «gościnny»?",
+      "o": ["скупий","гостинний","балакучий"], "a": 1,
+      "fb": "«Gościnny» — гостинний. Pani Ella: «Jest gościnna. Zawsze można do niej wpaść na herbatkę»." },
+    { "topic": "l. mnoga", "q": "Множина чоловічоособова: «To są ___ ludzie» (młody).",
+      "o": ["młodzi","młode","młodzy"], "a": 0,
+      "fb": "У чоловічоособовій множині d → dzi: młody → młodzi. «To młodzi ludzie»." },
+    { "topic": "l. mnoga", "q": "Яка правильна множина від «dobry» (чоловічоособова)?",
+      "o": ["dobre","dobrzy","dobre"], "a": 1,
+      "fb": "Чергування r → rzy: dobry → dobrzy. Angela: «moi studenci byli bardzo dobrzy»." },
+    { "topic": "który", "q": "Доповніть: «To student, z ___ rozmawiam».",
+      "o": ["którego","którym","który"], "a": 1,
+      "fb": "Прийменник «z» вимагає narzędnika: który → którym. «z którym rozmawiam»." },
+    { "topic": "dialog", "q": "Чому Angela вважає свою групу студентів жахливою?",
+      "o": ["бо вони непідготовлені, ліниві й непунктуальні","бо вони занадто старі","бо вони занадто амбітні"], "a": 0,
+      "fb": "Angela: «Przychodzą nieprzygotowani, na lekcjach są leniwi i bezmyślni, a do tego wiecznie niepunktualni»." },
+    { "topic": "dialog", "q": "Якими виявилися митці, з якими Mami познайомилася на вернісажі?",
+      "o": ["зарозумілими й снобістськими","відкритими, сердечними й скромними","нудними"], "a": 1,
+      "fb": "Mami: «ci są zupełnie inni – otwarci, serdeczni, skromni. Naprawdę tacy interesujący i uroczy»." },
+    { "topic": "zawody", "q": "Про яку професію кажуть: «Muszą być cierpliwi i opanowani… nawet jeśli ich uczniowie są złośliwi»?",
+      "o": ["lekarze","nauczyciele","złodzieje"], "a": 1,
+      "fb": "Це опис учителів (nauczyciele): мають бути терплячими й стриманими через учнів." },
+    { "topic": "opinie", "q": "Який зворот вживаємо, щоб висловити власну думку?",
+      "o": ["Według mnie…","Dlatego że…","Mimo to…"], "a": 0,
+      "fb": "«Według mnie…» / «Moim zdaniem…» / «Uważam, że…» — звороти для вираження думки." },
+    { "topic": "słownictwo", "q": "«Polegać na kimś» означає…",
+      "o": ["сваритися з кимось","покладатися на когось","уникати когось"], "a": 1,
+      "fb": "«Polegać na kimś» — покладатися на когось. Angela про Uwe: «zawsze można na nim polegać»." }
+  ],
+
+  "checklist": [
+    { "text": "Будувати означення людей і речей", "sub": "ktoś, kto… / coś, co… / człowiek, który… / osoba, która…" },
+    { "text": "Описувати характер прикметниками", "sub": "uprzejmy, oszczędny, gościnny, zarozumiały, leniwy, bezczelny" },
+    { "text": "Утворювати mianownik множини чоловічоособових прикметників", "sub": "młody → młodzi, dobry → dobrzy, miły → mili" },
+    { "text": "Відмінювати займенник «który» у підрядних реченнях", "sub": "którego, której, którym, którą + przyimek" },
+    { "text": "Виражати думку про людей і народи", "sub": "Według mnie…, Moim zdaniem…, Jestem przekonany, że…" }
+  ]
+}
