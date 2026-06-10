@@ -127,6 +127,30 @@
   ],
   "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 01 — треки 201A4, 201B5, 201D1. Аудіо — синтез ElevenLabs.",
 
+  "zeszyt": [
+    { "type": "dia", "title": "Wywiad: pan Paweł (dentysta) · zeszyt cw03", "audio": "audio/L01/L01-zeszyt-01.mp3", "lines": [
+      ["Reporter","Panie Pawle, czy mogę zadać panu kilka pytań?","Пане Павле, чи можу поставити Вам кілька запитань?"],
+      ["Paweł","Oczywiście, proszę bardzo.","Звичайно, прошу."],
+      ["Reporter","Kim pan jest z zawodu?","Хто Ви за фахом?"],
+      ["Paweł","Jestem dentystą. Pracuję w przychodni i mam też prywatny gabinet.","Я стоматолог. Працюю в поліклініці й маю також приватний кабінет."],
+      ["Reporter","Czy lubi pan swoją pracę?","Чи подобається Вам Ваша робота?"],
+      ["Paweł","Tak, cieszy mnie, kiedy pacjenci po wizycie mają dobrze wyleczone i ładne zęby.","Так, мене тішить, коли пацієнти після візиту мають добре вилікувані й гарні зуби."],
+      ["Reporter","Jakie cechy swojego charakteru pan akceptuje, a jakie chciałby pan zmienić?","Які риси свого характеру Ви приймаєте, а які хотіли б змінити?"],
+      ["Paweł","Jestem systematyczny i cierpliwy. To moje zalety.","Я систематичний і терплячий. Це мої переваги."],
+      ["Reporter","A wady?","А вади?"],
+      ["Paweł","Chyba jestem zbyt nieśmiały. Muszę nad tym popracować.","Мабуть, я надто сором’язливий. Мушу над цим попрацювати."],
+      ["Reporter","Czy może nam pan opowiedzieć coś o swojej rodzinie?","Чи можете розповісти щось про свою родину?"],
+      ["Paweł","Jestem żonaty. Mam jednego syna. Teraz żona jest w ciąży, ale nie wiemy jeszcze, czy to chłopiec czy dziewczynka.","Я одружений. Маю одного сина. Зараз дружина вагітна, але ми ще не знаємо, хлопчик це чи дівчинка."],
+      ["Reporter","Gratuluję. A jak pan spędza wolny czas?","Вітаю. А як Ви проводите вільний час?"],
+      ["Paweł","Nie mam zbyt dużo wolnego czasu. Kiedy nie pracuję, staram się być z rodziną. Pomagam żonie w domu, bawię się z synem. Wieczorami oglądam telewizję albo surfuję po internecie.","Я не маю надто багато вільного часу. Коли не працюю, намагаюся бути з родиною. Допомагаю дружині вдома, граюся із сином. Вечорами дивлюся телевізор або сиджу в інтернеті."],
+      ["Reporter","Czy ma pan jakieś hobby?","Чи маєте якесь хобі?"],
+      ["Paweł","Kiedyś pasjonowałem się łowieniem ryb. Mam nadzieję, że kiedy syn będzie starszy, będziemy razem jeździć na ryby. Teraz on woli grać w piłkę albo budować modele samolotów.","Колись захоплювався риболовлею. Сподіваюся, що коли син підросте, будемо разом їздити на риболовлю. Зараз він радше грає у м’яч або будує моделі літаків."],
+      ["Reporter","Czy mogę zapytać o marzenia?","Чи можу запитати про мрії?"],
+      ["Paweł","Bardzo prozaiczne. Chciałbym mieć własny dom z ogrodem i dużego psa.","Дуже прозаїчні. Хотів би мати власний дім із садом і великого пса."]
+    ]}
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 01, ćw. 3 (трек 26171). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
   "quiz": [
     { "topic": "prezentacja", "q": "Хто з персонажів цікавиться мистецтвом і хоче вивчати живопис у Кракові?",
       "o": ["Angela","Mami","Tom"], "a": 1,
