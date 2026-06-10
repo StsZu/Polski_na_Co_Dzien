@@ -148,7 +148,21 @@
     }
     .pill-cat { background: var(--accent-light); color: var(--accent); }
     .pill-diff { background: var(--btn-hover); color: var(--text-muted); }
+    .idiom-head { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
+    .idiom-head .idiom-pl { margin-bottom: 0; flex: 1; }
     .idiom-pl { font-size: 19px; font-weight: 700; line-height: 1.3; margin-bottom: 8px; color: var(--text-main); }
+    .speak {
+      flex-shrink: 0; width: 34px; height: 34px; border-radius: 10px; border: 1px solid var(--border-color);
+      background: var(--btn-bg); color: var(--accent); cursor: pointer; display: inline-flex; align-items: center;
+      justify-content: center; transition: all 0.15s ease; padding: 0;
+    }
+    .speak:hover { background: var(--btn-hover); border-color: var(--border-hover); }
+    .speak svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; }
+    .speak.playing { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .speak.sm { width: 28px; height: 28px; border-radius: 8px; }
+    .speak.sm svg { width: 14px; height: 14px; }
+    .ib-example-row { display: flex; align-items: flex-start; gap: 8px; }
+    .ib-example-row .ib-text { flex: 1; }
     .idiom-quick { font-size: 14px; color: var(--text-muted); font-style: italic; margin-bottom: 14px; }
     .idiom-toggle {
       margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px;
@@ -483,6 +497,20 @@
     const DIFF = { easy: 'Łatwy', medium: 'Średni', advanced: 'Zaawansowany' };
     const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
+    /* ---------- TTS PRONUNCIATION (ElevenLabs, pre-generated) ---------- */
+    const SPEAKER_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5L6 9H2v6h4l5 4z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15.5 8.5a5 5 0 010 7M18.5 5.5a9 9 0 010 13"></path></svg>';
+    function speakBtn(src, label, small) {
+      return `<button class="speak${small ? ' sm' : ''}" type="button" title="${esc(label)}" aria-label="${esc(label)}" onclick="playTts(this,'${src}')">${SPEAKER_SVG}</button>`;
+    }
+    let ttsAudio = null, ttsBtn = null;
+    function playTts(btn, src) {
+      if (ttsBtn) ttsBtn.classList.remove('playing');
+      if (ttsAudio && ttsBtn === btn && !ttsAudio.paused) { ttsAudio.pause(); ttsAudio.currentTime = 0; ttsBtn = null; return; }
+      if (!ttsAudio) { ttsAudio = new Audio(); ttsAudio.addEventListener('ended', () => { if (ttsBtn) ttsBtn.classList.remove('playing'); ttsBtn = null; }); }
+      ttsAudio.src = src; ttsBtn = btn; btn.classList.add('playing');
+      ttsAudio.play().catch(() => { btn.classList.remove('playing'); ttsBtn = null; });
+    }
+
     /* ---------- 1. IDIOM CARDS ---------- */
     let activeCat = 'all';
     function renderCatChips() {
@@ -510,14 +538,17 @@
             <span class="pill pill-cat">${esc(cat.ua)}</span>
             <span class="pill pill-diff">${esc(DIFF[it.difficulty] || it.difficulty)}</span>
           </div>
-          <h3 class="idiom-pl">${esc(it.polish)}</h3>
+          <div class="idiom-head">
+            <h3 class="idiom-pl">${esc(it.polish)}</h3>
+            ${speakBtn('audio/idiomy-tts/idiom-' + pad(i + 1) + '.mp3', 'Послухати ідіому')}
+          </div>
           <p class="idiom-quick">${esc(it.meaningUA)}</p>
           <button class="idiom-toggle" data-i="${i}" aria-expanded="false">Показати пояснення</button>
           <div class="idiom-body" id="ibody-${i}">
             <div class="ib-row"><span class="ib-label">Значення / Meaning</span><div class="ib-text">${esc(it.meaningUA)}<br><span style="color:var(--text-muted)">${esc(it.meaningEN)}</span></div></div>
             <div class="ib-row"><span class="ib-label">Дослівно / Literal</span><div class="ib-text">${esc(it.literalUA)} · <span style="color:var(--text-muted)">${esc(it.literalEN)}</span></div></div>
             ${it.explanationUA ? `<div class="ib-row"><span class="ib-label">Пояснення</span><div class="ib-text">${esc(it.explanationUA)}</div></div>` : ''}
-            <div class="ib-row"><span class="ib-label">Przykład / Приклад</span><div class="ib-text pl"><span class="pl">${esc(it.examplePL)}</span></div></div>
+            <div class="ib-row"><span class="ib-label">Przykład / Приклад</span><div class="ib-example-row"><div class="ib-text"><span class="pl">${esc(it.examplePL)}</span></div>${speakBtn('audio/idiomy-tts/example-' + pad(i + 1) + '.mp3', 'Послухати приклад', true)}</div></div>
             ${it.dialogue && it.dialogue.a ? `<div class="ib-row"><span class="ib-label">Dialog</span><div class="ib-dialog"><p>— ${esc(it.dialogue.a)}</p><p>— ${esc(it.dialogue.b)}</p><p class="tr">${esc(it.dialogue.ua)}</p></div></div>` : ''}
           </div>
         </article>`;
