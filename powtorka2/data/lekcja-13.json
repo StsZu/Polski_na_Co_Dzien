@@ -1,0 +1,199 @@
+{
+  "id": "13",
+  "title": "Komu — życie to nie bajka",
+  "goal": "Повторюємо: розмова про життєві проблеми й випадкові події · стосунки між людьми · волонтерство · celownik (давальний відмінок) однини та множини",
+
+  "vocab": [
+    { "group": "Problemy życiowe — життєві проблеми", "items": [
+      ["żałoba","жалоба / траур"],["bezrobocie","безробіття"],["rozwód","розлучення"],
+      ["zdrada","зрада"],["przemoc domowa","домашнє насильство"],["bieda","бідність"],
+      ["bezdomność","бездомність"],["samotność","самотність"],["depresja","депресія"],
+      ["nieuleczalna choroba","невиліковна хвороба"],["wypadek","нещасний випадок / аварія"],
+      ["śmierć bliskiej osoby","смерть близької людини"],["dyskryminacja","дискримінація"]
+    ]},
+    { "group": "Ludzie i relacje — люди й стосунки", "items": [
+      ["ksiądz","ксьондз / священник"],["niepełnosprawny","людина з інвалідністю"],
+      ["niewidomy","незрячий"],["głuchy","глухий"],["wózek inwalidzki","інвалідний візок"],
+      ["szwagier","шваґер (брат дружини/чоловіка)"],["teść","тесть / свекор"],
+      ["ofiara","жертва"],["podopieczny","підопічний"],["wolontariusz","волонтер"]
+    ]},
+    { "group": "Pomaganie — допомога іншим", "items": [
+      ["wolontariat","волонтерство"],["fundacja","фонд"],["pomagać","допомагати"],
+      ["modlić się","молитися"],["tęsknić","сумувати / тужити"],["wstydzić się","соромитися"],
+      ["pogodzić się z czymś","змиритися з чимось"],["wziąć się w garść","узяти себе в руки"],
+      ["kiermasz świąteczny","святковий ярмарок"],["działalność charytatywna","благодійна діяльність"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["przykuty do łóżka","прикутий до ліжка"],["okaz zdrowia","взірець здоров’я"],
+      ["redukcja etatów","скорочення штату"],["grom z jasnego nieba","грім серед ясного неба"],
+      ["po burzy wychodzi słońce","після бурі виходить сонце"],["beznadziejny","безнадійний"],
+      ["wykończony","виснажений / знесилений"],["bezradny","безпорадний"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Końcówki celownika l. poj. — закінчення давального однини",
+      "note": "Давальний відмінок (komu? czemu?). Чоловічий рід → -owi (виняки: panu, bratu, chłopcu, psu, kotu, księdzu, światu, Bogu), жіночий → -e/-i/-y, середній → -u.",
+      "table": {
+        "head": ["Rodzaj","Mianownik","Celownik"],
+        "rows": [
+          ["чоловічий","przyjaciel, syn, mąż","przyjaciel*owi*, syn*owi*, męż*owi*"],
+          ["ч. виняток","pan, brat, pies, ksiądz","pan*u*, brat*u*, ps*u*, księdz*u*"],
+          ["жіночий","mama, kobieta, siostra","mam*ie*, kobiec*ie*, siostr*ze*"],
+          ["жіночий -i/-y","babcia, pani","babc*i*, pan*i*"],
+          ["середній","dziecko, imię","dzieck*u*, imien*iu*"]
+        ]
+      }
+    },
+    {
+      "title": "Celownik l. mn. — давальний множини",
+      "note": "У множині майже завжди закінчення -om (виняток: ludziom, dzieciom — без зміни основи).",
+      "table": {
+        "head": ["Mianownik l. mn.","Celownik l. mn."],
+        "rows": [
+          ["przyjaciele","przyjaciół*om*"],
+          ["dzieci","dzieci*om*"],
+          ["ludzie","ludzi*om*"],
+          ["rodzice","rodzic*om*"],
+          ["zwierzęta","zwierzęt*om*"]
+        ]
+      }
+    },
+    {
+      "title": "Czasowniki z celownikiem — дієслова з давальним",
+      "note": "Після цих дієслів іменник стоїть у давальному відмінку (komu?).",
+      "words": "dać · dawać · pomagać · pomóc · ufać · dziękować · życzyć · wybaczyć · przypomnieć · zazdrościć · dziwić się · podobać się · dokuczać · szkodzić · oddać · pożyczać · sprzedać · opowiedzieć · przedstawić · przynieść · ukraść"
+    },
+    {
+      "title": "Przyimki z celownikiem — прийменники з давальним",
+      "table": {
+        "head": ["Przyimek","Przykład"],
+        "rows": [
+          ["przeciw / przeciwko","Syrop przeciw kaszlowi. Głosował przeciwko ustawie."],
+          ["dzięki","Dzięki Bogu! Dzięki przyjaciołom dał radę."],
+          ["wbrew","Zrobiła to wbrew woli rodziców."],
+          ["na przekór","Ożenił się na przekór mamie."]
+        ]
+      }
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Życie to nie bajka · osiem historii · трек 213A2", "items": [
+      { "type": "mono", "title": "1. Żałoba — śmierć żony", "audio": "audio/L13/L13-czytanie-01.mp3",
+        "text": "Minęły cztery miesiące, od kiedy nie ma mojej żony, a ja wciąż nie mogę się z tym pogodzić. Nie ma dnia, żebym o niej nie myślał. Często chodzę na cmentarz na jej grób i opowiadam jej, jak minął mi dzień, co nowego w pracy, w naszym ogrodzie, jak bardzo za nią tęsknię.",
+        "tr": "Минуло чотири місяці, відколи немає моєї дружини, а я досі не можу із цим змиритися. Немає дня, щоб я про неї не думав. Часто ходжу на цвинтар на її могилу й розповідаю їй, як минув мій день, що нового на роботі, у нашому саду, як сильно за нею сумую." },
+      { "type": "mono", "title": "2. Wypadek — śmierć siostry", "audio": "audio/L13/L13-czytanie-02.mp3",
+        "text": "To straszne, co zdarzyło się mojej siostrze. Pijany kierowca wjechał w nią na pasach, na zielonym świetle. Zginęła na miejscu. Codziennie modlę się za jej duszę. Ufam Bogu, że ta śmierć, choć nie miała sensu z ludzkiego punktu widzenia, jest częścią jakiegoś boskiego planu.",
+        "tr": "Це жахливо, що сталося з моєю сестрою. П’яний водій збив її на переході, на зелене світло. Загинула на місці. Щодня молюся за її душу. Вірю Богові, що ця смерть, хоч і не мала сенсу з людської точки зору, є частиною якогось божественного плану." },
+      { "type": "mono", "title": "3. Rozwód — rozstanie", "audio": "audio/L13/L13-czytanie-03.mp3",
+        "text": "Słuchaj, mamo. Wiem, że to nie jest najlepszy moment i nie wypada w taki dzień, ale muszę coś ważnego ci powiedzieć. Chcemy się rozstać. Nie pasujemy do siebie. Nasze drogi i cele się rozeszły. Męczymy się oboje. Ciężko tak dalej żyć. Jak dzieci zareagowały? Jeszcze im nie powiedzieliśmy.",
+        "tr": "Слухай, мамо. Знаю, що це не найкращий момент і не годиться в такий день, але мушу сказати тобі щось важливе. Ми хочемо розійтися. Ми не підходимо одне одному. Наші шляхи й цілі розійшлися. Ми обоє мучимося. Важко так далі жити. Як діти відреагували? Ми їм ще не сказали." },
+      { "type": "mono", "title": "4. Zdrada — odejście męża", "audio": "audio/L13/L13-czytanie-04.mp3",
+        "text": "Jak on mógł mi to zrobić? Tak mu ufałam. Obiecał mi, że zawsze będę najważniejsza. A teraz chce odejść, bo się zakochał. I to w mojej najlepszej przyjaciółce, tej z Ameryki. Oczywiście, oficjalny powód to niezgodność charakterów, tak? Co za kłamca! Boże, jak ja go nienawidzę!",
+        "tr": "Як він міг так зі мною вчинити? Я так йому довіряла. Обіцяв мені, що я завжди буду найважливішою. А тепер хоче піти, бо закохався. І то в мою найкращу подругу, ту з Америки. Звісно, офіційна причина — несумісність характерів, так? Що за брехун! Боже, як же я його ненавиджу!" },
+      { "type": "mono", "title": "5. Depresja", "audio": "audio/L13/L13-czytanie-05.mp3",
+        "text": "To ponad moje siły, żeby żyć dalej. Nie mogę się zmusić, żeby wstać rano z łóżka. Nie mam apetytu. Nic mnie nie cieszy. Nawet moja ukochana praca. Wiem, że muszę wziąć się w garść, bo jestem potrzebna mojemu mężowi, ale zwyczajnie nie mam już sił. Życie jest takie szare, beznadziejne.",
+        "tr": "Це понад мої сили — жити далі. Не можу змусити себе встати вранці з ліжка. Не маю апетиту. Ніщо мене не тішить. Навіть моя улюблена робота. Знаю, що мушу взяти себе в руки, бо я потрібна своєму чоловікові, але просто вже не маю сил. Життя таке сіре, безнадійне." },
+      { "type": "mono", "title": "6. Choroba — wózek inwalidzki", "audio": "audio/L13/L13-czytanie-06.mp3",
+        "text": "To spadło na mnie jak grom z jasnego nieba. Ja, okaz zdrowia, nagle przykuty do łóżka, zależny od innych. Mimo tego nie poddałem się. Po długiej rehabilitacji jeżdżę na wózku inwalidzkim, gram nawet w koszykówkę. I najważniejsze. Mogę trochę pomóc żonie, która jest kompletnie wykończona. Żal mi jej.",
+        "tr": "Це впало на мене як грім серед ясного неба. Я, взірець здоров’я, раптом прикутий до ліжка, залежний від інших. Попри це я не здався. Після довгої реабілітації їжджу на інвалідному візку, граю навіть у баскетбол. І найважливіше. Можу трохи допомогти дружині, яка зовсім виснажена. Шкода мені її." },
+      { "type": "mono", "title": "7. Bezrobocie", "audio": "audio/L13/L13-czytanie-07.mp3",
+        "text": "Zwolnili mnie, bo były redukcje etatów. Dwa lata przed emeryturą. Gdzie mnie teraz przyjmą? Zarejestrowałem się w urzędzie. Czytam ogłoszenia, pytam znajomych. I cisza. Siedzę sfrustrowany w domu przed telewizorem. Jem i tak mija mi dzień za dniem. Niedługo będę gruby jak beczka. A tyle mam jeszcze energii i chęci do pracy.",
+        "tr": "Мене звільнили, бо було скорочення штату. Два роки до пенсії. Куди мене тепер візьмуть? Зареєструвався в центрі зайнятості. Читаю оголошення, питаю знайомих. І тиша. Сиджу засмучений удома перед телевізором. Їм, і так минає мені день за днем. Незабаром буду товстий, як бочка. А стільки ще маю енергії й бажання працювати." },
+      { "type": "mono", "title": "8. Przemoc domowa", "audio": "audio/L13/L13-czytanie-08.mp3",
+        "text": "A ja mam dość swoich problemów. Nigdy o tym nikomu nie mówiłam, bo się wstydziłam. No bo wszyscy widzą. Wykształcony, zamożny, nie pije, dba o dom. Nikt by mi nie uwierzył, że mój własny mąż mnie bije, że czasem zmienia się w bestię. Ty też niczego nie zauważyłeś, prawda? Ostatnio jest jeszcze gorzej. Zupełnie nie wiem, co robić.",
+        "tr": "А я маю досить своїх проблем. Ніколи нікому про це не говорила, бо соромилася. Бо ж усі бачать. Освічений, заможний, не п’є, дбає про дім. Ніхто б мені не повірив, що мій власний чоловік мене б’є, що часом перетворюється на звіра. Ти теж нічого не помітив, правда? Останнім часом ще гірше. Зовсім не знаю, що робити." }
+    ]},
+    { "block": "B. Pomóż innym · dialog · трек 213B1", "items": [
+      { "type": "dia", "title": "Mami i Javier — dołujący film", "audio": "audio/L13/L13-czytanie-09.mp3", "lines": [
+        ["Javier","Mami, co ci jest?","Мамі, що з тобою?"],
+        ["Mami","Smutno mi. Oglądałam strasznie dołujący film. Pewna rodzina spotyka się w wigilię i opowiada sobie, co wydarzyło im się przez ten rok. Same tragedie. Śmierć bliskiej osoby, przemoc domowa, nieuleczalna choroba, zdrada, rozwód.","Мені сумно. Дивилася страшенно гнітючий фільм. Одна родина збирається в Святвечір і розповідає одне одному, що сталося з ними за цей рік. Самі трагедії. Смерть близької людини, домашнє насильство, невиліковна хвороба, зрада, розлучення."],
+        ["Javier","Mami, to tylko film. Owszem, w życiu każdego człowieka są trudne chwile, ale zawsze po burzy wychodzi słońce. Pamiętaj o tym.","Мамі, це лише фільм. Так, у житті кожної людини є важкі моменти, але після бурі завжди виходить сонце. Пам’ятай про це."],
+        ["Mami","No i jeszcze wprowadzili się nowi sąsiedzi. Mają małego synka, który jest niepełnosprawny. Wyobrażasz sobie, ile ten mały już przecierpiał? Czuję się taka bezradna. Chciałabym jakoś pomóc, ale nie wiem jak.","Та ще й заселилися нові сусіди. Мають маленького синочка, який має інвалідність. Уявляєш, скільки цей малий уже вистраждав? Почуваюся такою безпорадною. Хотіла б якось допомогти, але не знаю як."],
+        ["Javier","A myślałaś kiedyś o wolontariacie? Masz trochę czasu, chcesz pomagać innym, mówisz już po polsku wystarczająco dobrze. Poznałem kiedyś dziewczynę, Kasię, która pracowała w takiej fundacji. Spróbuję znaleźć do niej kontakt.","А думала колись про волонтерство? Маєш трохи часу, хочеш допомагати іншим, говориш уже польською достатньо добре. Я колись познайомився з дівчиною, Касею, яка працювала в такому фонді. Спробую знайти її контакт."]
+      ]}
+    ]},
+    { "block": "B. Fundacja Anny Dymnej · tekst · трек 213B2", "items": [
+      { "type": "mono", "title": "Javier szuka fundacji", "audio": "audio/L13/L13-czytanie-10.mp3",
+        "text": "Jak mam znaleźć tę fundację? Javier pamiętał, że założyła ją aktorka, Anna Dymna. Mam! Mimo wszystko, Fundacja Anny Dymnej. Nie można pomagać komuś po coś. Pomaga się z potrzeby serca i tak naprawdę robi się to dla siebie. Jakie mądre słowa! Co tu jeszcze mamy? Fundacja powstała w 2003 roku, żeby ratować grupę dorosłych osób z niepełnosprawnością intelektualną. Mieszkańców schroniska w podkrakowskich Radwanowicach, którzy na mocy nowej ustawy utracili prawo do korzystania z tamtejszych warsztatów terapii zajęciowej finansowanych z budżetu państwa. Aha! Czyli po prostu ci ludzie nagle zostali bez swojej terapii artystycznej. A przecież wszyscy wiedzą, jakie to ważne. Cele statutowe to pomoc osobom niepełnosprawnym, zwłaszcza intelektualnie, promocja i organizacja wolontariatu, działalność charytatywna. Rozumiem. Kluczową rolę w działaniach fundacji odgrywają wolontariusze. No właśnie! Na pewno wciąż potrzebują nowych.",
+        "tr": "Як мені знайти цей фонд? Хав’єр пам’ятав, що заснувала його акторка, Анна Димна. Маю! «Mimo Wszystko», Фонд Анни Димної. Не можна допомагати комусь заради чогось. Допомагають з потреби серця і насправді роблять це для себе. Які мудрі слова! Що тут ще маємо? Фонд постав у 2003 році, щоб урятувати групу дорослих людей з інтелектуальною інвалідністю. Мешканців притулку в підкраківських Радванóвицах, які за новим законом втратили право користуватися тамтешніми майстернями трудотерапії, що фінансувалися з бюджету держави. Ага! Тобто ці люди раптом залишилися без своєї арт-терапії. А всі ж знають, наскільки це важливо. Статутні цілі — це допомога людям з інвалідністю, особливо інтелектуальною, промоція й організація волонтерства, благодійна діяльність. Розумію. Ключову роль у діяльності фонду відіграють волонтери. Отож-бо! Напевно постійно потребують нових." }
+    ]},
+    { "block": "B. Spotkanie w fundacji · dialog · трек 213B5", "items": [
+      { "type": "dia", "title": "Mami i Kasia — formy współpracy", "audio": "audio/L13/L13-czytanie-11.mp3", "lines": [
+        ["Mami","Dzień dobry, nazywam się Mami Takada i jestem umówiona na spotkanie w sprawie wolontariatu.","Доброго дня, мене звати Мамі Такада, і я записана на зустріч у справі волонтерства."],
+        ["Kasia","Katarzyna Walaszek, miło mi. Witam i zapraszam do siebie.","Катажина Валашек, приємно. Вітаю й запрошую до себе."],
+        ["Mami","Wypełniłam ankietę, ale mam kilka pytań do pani. Po pierwsze, nie jestem Polką, nie mam ani numeru PESEL, ani dowodu osobistego, ani polskiego meldunku.","Я заповнила анкету, але маю кілька запитань до Вас. По-перше, я не полька, не маю ні номера PESEL, ні посвідчення особи, ні польської прописки."],
+        ["Kasia","A możemy mówić sobie na ty? Tak? Świetnie. No więc to nie jest dla nas żaden problem. Wpisz swój numer paszportu lub jakiegoś innego dokumentu, który potwierdza twoją tożsamość. Ta informacja będzie nam potrzebna, jeśli będziemy podpisywać z tobą umowę wolontariacką.","А можемо бути на «ти»? Так? Чудово. Отже, це для нас не проблема. Впиши номер свого паспорта або якогось іншого документа, що підтверджує твою особу. Ця інформація буде нам потрібна, якщо підписуватимемо з тобою угоду про волонтерство."],
+        ["Mami","Teraz jasne. A ten punkt o współpracy? O co chodzi tak dokładniej?","Тепер ясно. А цей пункт про співпрацю? Про що саме йдеться?"],
+        ["Kasia","W fundacji mamy trzy formy współpracy z wolontariuszami. Pierwsza to współpraca podczas akcji okolicznościowych. Wolontariusz pomaga nam podczas organizowanych przez nas wydarzeń, takich jak Ogólnopolskie Dni Integracji, Zwyciężać Mimo Wszystko, czy Festiwal Zaczarowanej Piosenki. Wolontariusze mają też swoje akcje, na przykład Kiermasz Świąteczny w szkołach i na uczelniach, gdzie sprzedają rzeczy, które sami zrobili.","У фонді маємо три форми співпраці з волонтерами. Перша — це співпраця під час тематичних акцій. Волонтер допомагає нам під час організованих нами заходів, таких як Загальнопольські дні інтеграції, «Перемагати попри все» чи Фестиваль зачарованої пісні. Волонтери мають також свої акції, наприклад святковий ярмарок у школах і вишах, де продають речі, які самі зробили."],
+        ["Kasia","Drugą formą pomocy fundacji jest wykonywanie prac biurowych, czyli pomoc pracownikom u nas w biurze. Na przykład przy wysyłaniu listów, tworzeniu baz danych, pakowaniu przesyłek. Trzecią formą współpracy jest pomoc indywidualnym osobom niepełnosprawnym, podopiecznym fundacji.","Друга форма допомоги фонду — це виконання офісної роботи, тобто допомога працівникам у нас в офісі. Наприклад, у розсиланні листів, створенні баз даних, пакуванні посилок. Третя форма співпраці — це допомога окремим людям з інвалідністю, підопічним фонду."],
+        ["Mami","A co byś mi doradziła? Do czego mogę się przydać? Mam czas właściwie codziennie po południu. Zupełnie nie mam doświadczenia.","А що б ти мені порадила? До чого я можу бути корисною? Маю час фактично щодня по обіді. Зовсім не маю досвіду."],
+        ["Kasia","Widzę, że interesujesz się sztuką. Może chciałabyś podziałać z naszymi wolontariuszami podczas Kiermaszu Świątecznego? Wolontariusze sami organizują tzw. imprezy ozdóbkowe, podczas których tworzą świąteczne ozdoby z masy solnej, robią kartki, pieką pierniki na choinkę. Kiermasz zawsze odbywa się w środę, w połowie grudnia.","Бачу, що ти цікавишся мистецтвом. Може, хотіла б попрацювати з нашими волонтерами під час святкового ярмарку? Волонтери самі організовують так звані «оздобні» вечірки, під час яких роблять святкові прикраси із солоного тіста, виготовляють листівки, печуть пряники на ялинку. Ярмарок завжди відбувається в середу, у середині грудня."],
+        ["Mami","Hmm, to może być interesujące. Ja wciąż niewiele wiem o polskich tradycjach.","Гмм, це може бути цікаво. Я досі мало знаю про польські традиції."]
+      ]}
+    ]},
+    { "block": "D. Pijacka piosenka · трек 213D4", "items": [
+      { "type": "mono", "title": "Komu dzwonią, temu dzwonią", "audio": "audio/L13/L13-czytanie-12.mp3",
+        "text": "Komu dzwonią, temu dzwonią, mnie nie dzwoni żaden dzwon, bo takiemu pijakowi, jakie życie taki zgon, zgon, zgon, tarara, bo takiemu pijakowi, jakie życie taki zgon, zgon, zgon. Księdza do mnie nie wołajcie, niech nie robi zbędnych szop, tylko ty mi przyjacielu, spirytusem głowę skrop, skrop, skrop, tarara, tylko ty mi przyjacielu, spirytusem głowę skrop, skrop, skrop. W piwnicy mnie pochowajcie, w piwnicy mi kopcie grób, i głowę mi obracajcie, tam gdzie jest od beczki szpunt, szpunt, szpunt, tarara, i głowę mi obracajcie, tam gdzie jest od beczki szpunt, szpunt, szpunt. W jedną rękę kielich dajcie, w drugą rękę wina dzban, a nade mną zaśpiewajcie, umarł pijak, ale pan, pan, pan, tarara, a nade mną zaśpiewajcie, umarł pijak, ale pan, pan, pan. A po śmierci na mym grobie, beczka wina będzie stać, i gdy przyjdziesz się pomodlić, możesz kufel sobie wlać, wlać, wlać, tarara, i gdy przyjdziesz się pomodlić, możesz kufel sobie wlać, wlać, wlać.",
+        "tr": "Кому дзвонять, тому дзвонять, мені не дзвонить жоден дзвін, бо такому п’яниці — яке життя, така й смерть, смерть, смерть, тарара, бо такому п’яниці — яке життя, така й смерть, смерть, смерть. Ксьондза до мене не кличте, хай не робить зайвих сцен, тільки ти мені, друже, спиртом голову скропи, скропи, скропи, тарара, тільки ти мені, друже, спиртом голову скропи, скропи, скропи. У льоху мене поховайте, у льоху копайте мені могилу, і голову мені оберніть туди, де чіп від бочки, чіп, чіп, тарара, і голову мені оберніть туди, де чіп від бочки, чіп, чіп. В одну руку келих дайте, в другу руку дзбан вина, а наді мною заспівайте: помер п’яниця, але пан, пан, пан, тарара, а наді мною заспівайте: помер п’яниця, але пан, пан, пан. А по смерті на моїй могилі бочка вина стоятиме, і коли прийдеш помолитися, можеш собі кухоль націдити, націдити, націдити, тарара, і коли прийдеш помолитися, можеш собі кухоль націдити, націдити, націдити." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 13 — треки 213A2, 213B1, 213B2, 213B5, 213D4. Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "Rodzina Zofii — splot nieszczęść · zeszyt cw02", "audio": "audio/L13/L13-zeszyt-01.mp3",
+      "text": "Zofia jest dość niska i korpulentna. Wygląda na starszą niż jest, bo ma siwe włosy i ubiera się staromodnie. Poza tym miała bardzo ciężkie życie. Jej mąż Jan, chociaż wygląda na sympatycznego starszego pana, nieraz ją uderzył. Zofia nikomu o tym nie mówiła, bo jak większość ofiar przemocy domowej bardzo się tego wstydziła. W dodatku Jan stracił pracę. Jest bardzo sfrustrowany i zły na cały świat. Kiedy Jan robił karierę, Zofia wychowywała trzech synów: Stefana, Pawła i Marcina. Wszyscy trzej się ożenili, ale Stefan niedawno stracił żonę w wypadku i wciąż nie może się z tym pogodzić. Na szczęście nie zamknął się w sobie. Czasem rozmawia ze swoim szwagrem, który jest księdzem. Ksiądz Piotr związany jest z rodziną Zofii podwójnie. Jego druga siostra, Anna, wyszła za mąż za młodszego syna Zofii, Pawła. Niestety Paweł miał wypadek na nartach. Uderzył w niego inny narciarz, obaj nie mieli kasków. Mimo że jeździ na wózku inwalidzkim, próbuje żyć normalnie. Dla Anny śmierć siostry i wypadek męża to było za dużo. Cierpi na depresję, ale nikt z bliskich tego nie widzi. Najmłodszy syn Zofii, Marcin, nie znalazł szczęścia w małżeństwie. Zdradził swoją żonę Ewę z jej najlepszą przyjaciółką. Chce się rozwieść, chociaż mają z Ewą małe dzieci. Czy taka kumulacja nieszczęść w jednej rodzinie jest możliwa?",
+      "tr": "Зофія досить низька й огрядна. Виглядає старшою, ніж є насправді, бо має сиве волосся й одягається старомодно. До того ж мала дуже важке життя. Її чоловік Ян, хоч і виглядає симпатичним літнім паном, не раз її бив. Зофія нікому про це не говорила, бо, як більшість жертв домашнього насильства, дуже цього соромилася. На додачу Ян втратив роботу. Він дуже засмучений і злий на цілий світ. Коли Ян робив кар’єру, Зофія виховувала трьох синів: Стефана, Павела й Марціна. Усі троє одружилися, але Стефан недавно втратив дружину в аварії й досі не може із цим змиритися. На щастя, він не замкнувся в собі. Іноді розмовляє зі своїм шваґром, який є ксьондзом. Ксьондз Пьотр пов’язаний із родиною Зофії подвійно. Його друга сестра, Анна, вийшла заміж за молодшого сина Зофії, Павела. На жаль, Павел мав аварію на лижах. У нього врізався інший лижник, обидва були без шоломів. Хоч він і їздить на інвалідному візку, намагається жити нормально. Для Анни смерть сестри й аварія чоловіка були занадто. Вона страждає на депресію, але ніхто з близьких цього не бачить. Наймолодший син Зофії, Марцін, не знайшов щастя в подружньому житті. Зрадив свою дружину Еву з її найкращою подругою. Хоче розлучитися, хоча мають із Евою малих дітей. Чи можливе таке нагромадження нещасть в одній родині?" },
+    { "type": "dia", "title": "Mami i Javier — wolontariat · zeszyt cw04", "audio": "audio/L13/L13-zeszyt-02.mp3", "lines": [
+      ["Javier","Mami, co ci jest?","Мамі, що з тобою?"],
+      ["Mami","Smutno mi. Oglądałam strasznie dołujący film. Pewna rodzina spotyka się w Wigilię i opowiada sobie, co wydarzyło im się przez ten rok. Same tragedie. Śmierć bliskiej osoby, przemoc domowa, nieuleczalna choroba, zdrada, rozwód.","Мені сумно. Дивилася страшенно гнітючий фільм. Одна родина збирається у Святвечір і розповідає одне одному, що сталося з ними за цей рік. Самі трагедії. Смерть близької людини, домашнє насильство, невиліковна хвороба, зрада, розлучення."],
+      ["Javier","Mami, to tylko film. Owszem, w życiu każdego człowieka są trudne chwile. Ale zawsze po burzy wychodzi słońce. Pamiętaj o tym.","Мамі, це лише фільм. Так, у житті кожної людини є важкі моменти. Але після бурі завжди виходить сонце. Пам’ятай про це."],
+      ["Mami","No i jeszcze wprowadzili się nowi sąsiedzi. Mają małego synka, który jest niepełnosprawny. Wyobrażasz sobie, ile ten mały już przecierpiał? Czuję się taka bezradna. Chciałabym jakoś pomóc, ale nie wiem jak.","Та ще й заселилися нові сусіди. Мають маленького синочка, який має інвалідність. Уявляєш, скільки цей малий уже вистраждав? Почуваюся такою безпорадною. Хотіла б якось допомогти, але не знаю як."],
+      ["Javier","A myślałeś kiedyś o wolontariacie? Masz trochę czasu, chcesz pomagać innym, mówisz już po polsku wystarczająco dobrze. Poznałem kiedyś dziewczynę Kasię, która pracowała w takiej fundacji. Spróbuję znaleźć do niej kontakt.","А думала колись про волонтерство? Маєш трохи часу, хочеш допомагати іншим, говориш уже польською достатньо добре. Я колись познайомився з дівчиною Касею, яка працювала в такому фонді. Спробую знайти її контакт."]
+    ]}
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 13, ćw. 2 (трек 27406) і ćw. 4 (трек 9174). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "słownictwo", "q": "Що означає польське слово «żałoba»?",
+      "o": ["жалоба / траур","заздрість","самотність"], "a": 0,
+      "fb": "«Żałoba» — це жалоба, траур після смерті близької людини. У тексті 1 чоловік тужить за померлою дружиною." },
+    { "topic": "celownik", "q": "Доповніть: «Codziennie modlę się za jej duszę. Ufam ___» (Богові).",
+      "o": ["Boga","Bogu","Bogiem"], "a": 1,
+      "fb": "Дієслово «ufać» вимагає celownika: Bóg → Bogu (виняткова форма, без -owi)." },
+    { "topic": "celownik", "q": "Яка правильна форма давального для «przyjaciel» (один)?",
+      "o": ["przyjacielu","przyjacielem","przyjacielowi"], "a": 2,
+      "fb": "Чоловічий рід у celowniku зазвичай має закінчення -owi: przyjaciel → przyjacielowi." },
+    { "topic": "fundacja", "q": "Хто заснував фонд, до якого звертається Mami?",
+      "o": ["aktorka Anna Dymna","Kasia Walaszek","Javier"], "a": 0,
+      "fb": "У тексті: «założyła ją aktorka, Anna Dymna» — Фонд Анни Димної «Mimo Wszystko»." },
+    { "topic": "celownik", "q": "Множина в celowniku: «Pomagam ___» (люди).",
+      "o": ["ludziom","ludziami","ludzie"], "a": 0,
+      "fb": "У множині celownik має закінчення -om: ludzie → ludziom (виняток без зміни основи)." },
+    { "topic": "słownictwo", "q": "Що означає фразеологізм «po burzy wychodzi słońce»?",
+      "o": ["завжди йде дощ","після важких часів настають кращі","сонце шкодить"], "a": 1,
+      "fb": "Javier потішає Mami: після бурі (важких моментів) завжди виходить сонце — все налагодиться." },
+    { "topic": "dialog", "q": "Чому Mami не має номера PESEL і польської прописки?",
+      "o": ["бо вона ще дитина","бо вона не полька","бо загубила документи"], "a": 1,
+      "fb": "Mami каже Kasi: «nie jestem Polką, nie mam ani numeru PESEL, ani dowodu osobistego, ani polskiego meldunku»." },
+    { "topic": "celownik", "q": "Який прийменник вимагає celownika?",
+      "o": ["dla","dzięki","bez"], "a": 1,
+      "fb": "З celownikiem: przeciw/przeciwko, dzięki, wbrew, na przekór. «Dla» і «bez» вимагають dopełniacza." },
+    { "topic": "celownik", "q": "Оберіть правильну форму: «Złodziej ukradł pieniądze ___» (starsza kobieta).",
+      "o": ["starszej kobiecie","starszą kobietę","starszej kobiety"], "a": 0,
+      "fb": "Дієслово «ukraść komu?» вимагає celownika: starsza kobieta → starszej kobiecie." },
+    { "topic": "słownictwo", "q": "Як називається людина, яка добровільно й безкоштовно допомагає у фонді?",
+      "o": ["podopieczny","wolontariusz","ksiądz"], "a": 1,
+      "fb": "«Wolontariusz» — волонтер. «Podopieczny» — це підопічний (той, кому допомагають)." }
+  ],
+
+  "checklist": [
+    { "text": "Розповісти про життєві проблеми й випадкові події", "sub": "żałoba, rozwód, wypadek, bezrobocie, przemoc domowa, depresja" },
+    { "text": "Утворити celownik однини", "sub": "ч. → -owi (synowi), виняки: panu, bratu, psu; ж. → -e/-i (mamie, pani)" },
+    { "text": "Утворити celownik множини", "sub": "майже завжди -om: przyjaciołom, dzieciom, ludziom" },
+    { "text": "Вживати дієслова з celownikiem", "sub": "dać, pomagać, ufać, dziękować, życzyć, wybaczyć + Komu?" },
+    { "text": "Говорити про волонтерство й допомогу іншим", "sub": "wolontariat, fundacja, pomagać niepełnosprawnym, kiermasz świąteczny" }
+  ]
+}

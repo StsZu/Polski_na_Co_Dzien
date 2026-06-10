@@ -1,0 +1,214 @@
+{
+  "id": "14",
+  "title": "Zaduszki",
+  "goal": "Повторюємо: розповідь про події, традиції та історичні факти · польські традиції — Wszystkich Świętych і Zaduszki · повоєнна історія · zaimek się, siebie · особові займенники й прийменники",
+
+  "vocab": [
+    { "group": "Cmentarz — кладовище", "items": [
+      ["cmentarz","кладовище"],["nekropolia","некрополь"],["grób","могила"],["grobowiec","гробниця, усипальниця"],
+      ["pogrzeb","похорон"],["pomnik","пам'ятник"],["krzyż","хрест"],["kaplica","каплиця"],
+      ["znicz / lampka","лампадка"],["wieniec","вінок"],["chryzantema","хризантема"],
+      ["rzeźba","скульптура"],["tablica pamiątkowa","меморіальна дошка"],["anioł","ангел"]
+    ]},
+    { "group": "Śmierć i pamięć — смерть і пам'ять", "items": [
+      ["zmarły ≠ żyjący","померлий ≠ живий"],["dusza","душа"],["światło","світло"],
+      ["wierzący ≠ niewierzący","віруючий ≠ невіруючий"],["zaduma","задума"],["refleksja","роздуми"],
+      ["wspominać zmarłych","згадувати померлих"],["zapalić znicz","запалити лампадку"],
+      ["odpoczywać w spokoju","спочивати з миром"],["zasłużony","заслужений"],["pogański","язичницький"]
+    ]},
+    { "group": "Historia — історія", "items": [
+      ["władza / władze","влада"],["cenzura","цензура"],["komunizm","комунізм"],
+      ["demonstracja","демонстрація"],["protest","протест"],["niepodległość","незалежність"],
+      ["wolność słowa","свобода слова"],["strajk","страйк"],["Solidarność","Солідарність"],
+      ["przełożony","начальник, керівник"],["odetchnąć (z ulgą)","зітхнути (з полегшенням)"]
+    ]},
+    { "group": "Teatr i sztuka — театр і мистецтво", "items": [
+      ["spektakl / przedstawienie","спектакль, вистава"],["inscenizacja","інсценізація"],
+      ["wyreżyserowany przez","режисований ким"],["widz","глядач"],["premiera","прем'єра"],
+      ["hasło","гасло"],["przewodni","провідний, головний"],["odwołać","скасувати"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["mieć coś na tapecie","мати щось на порядку денному"],["coś mi to mówi","щось мені це нагадує"],
+      ["wyjść na ulicę","вийти на вулицю (протестувати)"],["zagrzewać do walki","надихати на боротьбу"],
+      ["sala pęka w szwach","зал переповнений"],["wychodzić z siebie","виходити з себе"],
+      ["poradzić sobie","дати раду, впоратися"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Zaimek się, siebie — зворотний займенник",
+      "note": "Замінює всі особові займенники (mnie, tobie, jemu тощо), якщо вони стосуються підмета речення. Форма однакова для однини й множини. У називному відмінку siebie не вживається.",
+      "table": {
+        "head": ["Przypadek","Forma"],
+        "rows": [
+          ["Mianownik (хто?)","—"],
+          ["Dopełniacz (кого?)","siebie / się"],
+          ["Celownik (кому?)","sob*ie*"],
+          ["Biernik (кого?)","siebie / się"],
+          ["Narzędnik (ким?)","sob*ą*"],
+          ["Miejscownik (про кого?)","sob*ie*"]
+        ]
+      }
+    },
+    {
+      "title": "się a siebie — у чому різниця",
+      "note": "Adam myśli o nim (про Piotra — іншу особу). Adam myśli tylko o sobie (про себе — про самого Adama). Якщо дія повертається до підмета, вживаємо siebie / się.",
+      "words": "zajmować się sobą · być szczerym wobec siebie · zrobić coś dla siebie · być w sobie zakochanym · rozmawiać ze sobą · wychodzić z siebie · poradzić sobie ze sobą"
+    },
+    {
+      "title": "Zaimki osobowe — formy (powtórzenie)",
+      "note": "Довгі форми (mnie, jego, jemu, ciebie) стоять після прийменника або під наголосом (емфаза); короткі (mi, go, mu, cię) — у нейтральній позиції. Після прийменника на 3 особу з'являється n-: niego, niej, nim, nich.",
+      "table": {
+        "head": ["Przypadek","ja","ty","on","ona","oni"],
+        "rows": [
+          ["Mianownik","ja","ty","on","ona","oni"],
+          ["Dopełniacz","mnie","ciebie / cię","jego / go / niego","jej / niej","ich / nich"],
+          ["Celownik","mnie / mi","tobie / ci","jemu / mu / niemu","jej / niej","im / nim"],
+          ["Biernik","mnie","ciebie / cię","jego / go / niego","ją / nią","ich / nich"],
+          ["Narzędnik","mn*ą*","tob*ą*","nim","ni*ą*","nimi"],
+          ["Miejscownik","mnie","tobie","nim","niej","nich"]
+        ]
+      }
+    },
+    {
+      "title": "Przyimki z przypadkami — прийменники за відмінками",
+      "note": "Деякі прийменники вживаються з двома відмінками залежно від значення (na, o, za, pod, przed).",
+      "table": {
+        "head": ["Przypadek","Przyimki"],
+        "rows": [
+          ["Dopełniacz","od, do, dla, koło, u, według, bez, przeciw*ko*"],
+          ["Celownik","ku, wbrew, dzięki, przeciw"],
+          ["Biernik","przez, na, o, w, za, pod, przed"],
+          ["Narzędnik","z / ze, nad, pod, przed, za, między, wobec"],
+          ["Miejscownik","o, w, na, przy, po"]
+        ]
+      }
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Zaduszki · dialogi · трек 214A3", "items": [
+      { "type": "dia", "title": "Zaproszenie na cmentarz", "audio": "audio/L14/L14-czytanie-01.mp3", "lines": [
+        ["Pani Maj","Mami, czy wybierzesz się z nami na cmentarz?","Мамі, ти поїдеш з нами на кладовище?"],
+        ["Mami","Na cmentarz?","На кладовище?"],
+        ["Pani Maj","Tak, dziś Dzień Wszystkich Świętych i tradycyjnie odwiedzamy groby naszych bliskich.","Так, сьогодні День усіх святих, і ми традиційно відвідуємо могили наших близьких."],
+        ["Mami","A tak, czytaliśmy o tym tekst, ale to się nazywało Święto Zmarłych.","А, так, ми читали про це текст, але воно називалося «Свято померлих»."],
+        ["Pani Maj","Święto Zmarłych to nazwa używana przez propagandę w czasach PRL-u, bo nie wszystkim odpowiadała ta religijna. Komuniści nie mogli zlikwidować święta, to chociaż inaczej je nazwali, ale w sumie przyjęło się to ich nowe określenie.","«Свято померлих» — назва, яку вживала пропаганда за часів ПНР, бо не всім підходила релігійна. Комуністи не могли скасувати свято, тож хоча б назвали його інакше, і зрештою ця їхня нова назва прижилася."],
+        ["Mami","Aha, rozumiem. Dziękuję za zaproszenie. Bardzo chętnie pojadę z Państwem.","Ага, розумію. Дякую за запрошення. З великою радістю поїду з вами."],
+        ["Pani Maj","Cieszę się, bo chciałam, żebyś poczuła niepowtarzalną atmosferę tego dnia. Zobaczysz, będzie mnóstwo kwiatów i morze światła. Tylko weź coś ciepłego, bo to trochę potrwa. Pojedziemy najpierw na Cmentarz Rakowicki, a potem jeszcze na Salwator.","Я рада, бо хотіла, щоб ти відчула неповторну атмосферу цього дня. Побачиш, буде безліч квітів і море світла. Тільки візьми щось тепле, бо це трохи триватиме. Спершу поїдемо на Раковицьке кладовище, а потім ще на Сальватор."]
+      ]},
+      { "type": "dia", "title": "Stary cmentarz", "audio": "audio/L14/L14-czytanie-02.mp3", "lines": [
+        ["Mami","To stary cmentarz, prawda?","Це старе кладовище, правда?"],
+        ["Karolina","Tak, pierwszy pogrzeb odbył się tu w styczniu 1803 roku.","Так, перший похорон відбувся тут у січні 1803 року."],
+        ["Mami","Ojej, to już zabytkowe miejsce.","Ой, то це вже історичне місце."],
+        ["Karolina","Tak, i to nie tylko ze względu na wiek. Znajdziesz tu wiele grobów znanych uczonych, artystów, ludzi zasłużonych dla kraju. Są też grobowce zwykłych mieszkańców Krakowa, które po prostu są piękne. Te stare pomniki to małe dzieła sztuki. Uwielbiam je fotografować.","Так, і не лише через вік. Тут знайдеш багато могил відомих учених, митців, людей, заслужених для країни. Є також гробниці звичайних мешканців Кракова, які просто прекрасні. Ці старі пам'ятники — маленькі витвори мистецтва. Обожнюю їх фотографувати."],
+        ["Mami","Faktycznie, można chodzić i oglądać rzeźby, jak w muzeum pod gołym niebem.","Справді, можна ходити й розглядати скульптури, як у музеї просто неба."],
+        ["Karolina","A wiesz, że najstarsza część cmentarza jest zaprojektowana na planie bramy? Brama jako symbol przejścia od życia do śmierci.","А ти знаєш, що найстаріша частина кладовища спроєктована у формі брами? Брама як символ переходу від життя до смерті."],
+        ["Mami","To piękne.","Це прекрасно."],
+        ["Karolina","Chodźmy, tu jest grób mojego dziadka. Joanno, gdzie położyć te chryzantemy? Tutaj? Karol, zapal lampki.","Ходімо, тут могила мого дідуся. Йоанно, де покласти ці хризантеми? Тут? Кароль, запали лампадки."],
+        ["Mami","Co znaczy ten napis pod krzyżem?","Що означає цей напис під хрестом?"],
+        ["Karolina","Pokój jego duszy, żeby odpoczywał w spokoju. Tak naprawdę to my wszyscy, kiedy przychodzimy tu, szukamy ciszy i spokoju. Jedni przychodzą się pomodlić, dla innych to moment zadumy, refleksji. Dlatego znajdziesz tu dziś wierzących i niewierzących.","«Спокій його душі», щоб він спочивав з миром. Насправді ми всі, коли приходимо сюди, шукаємо тиші та спокою. Одні приходять помолитися, для інших це момент задуми, роздумів. Тому сьогодні тут знайдеш і віруючих, і невіруючих."],
+        ["Mami","Bardzo mi się podobają wasze tradycje.","Мені дуже подобаються ваші традиції."]
+      ]},
+      { "type": "dia", "title": "Spacer po nekropolii", "audio": "audio/L14/L14-czytanie-03.mp3", "lines": [
+        ["Pani Maj","Przejdźmy się teraz po cmentarzu. Mami, pokażemy Ci grobowiec Jana Matejki, tego od wielkich historycznych obrazów. A potem grobowiec całej rodziny malarzy Kossaków. Tam niedaleko leży też Helena Modrzejewska, słynna aktorka teatralna. Ponoć do dziś, po premierze, krakowscy artyści przynoszą jej kwiaty i proszą o pomoc w różnych sprawach.","Пройдімося тепер по кладовищу. Мамі, ми покажемо тобі гробницю Яна Матейка, того, що писав великі історичні картини. А потім гробницю всієї родини художників Коссаків. Там неподалік лежить також Гелена Моджеєвська, славетна театральна акторка. Кажуть, що й донині, після прем'єри, краківські митці приносять їй квіти й просять допомоги в різних справах."],
+        ["Karolina","Mami na pewno chce zobaczyć grób Marka Grechuty. Byłyśmy ostatnio na koncercie jego piosenek.","Мамі напевно хоче побачити могилу Марека Ґрехути. Ми нещодавно були на концерті його пісень."],
+        ["Pan Maj","A co z pomnikiem żołnierzy Armii Krajowej i krakowskich Orląt? Mami powinna poznawać naszą historię, a to przecież symbole narodowe.","А як щодо пам'ятника воїнам Армії Крайової і краківським Орлятам? Мамі має пізнавати нашу історію, а це ж національні символи."],
+        ["Pani Maj","Nie martwcie się, zaplanowałam długi spacer. Wszystko zdążycie pokazać. Nawet grób Apollona Korzeniowskiego, ojca Josefa Konrada.","Не хвилюйтеся, я запланувала довгу прогулянку. Усе встигнете показати. Навіть могилу Аполлона Коженьовського, батька Джозефа Конрада."],
+        ["Mami","Dziękuję bardzo. Widzę, że to prawdziwa polska nekropolia. O, a co tam jest? Tam, gdzie stoi tak dużo osób?","Дуже дякую. Бачу, що це справжній польський некрополь. О, а що там? Там, де стоїть так багато людей?"],
+        ["Karol","To grób rodziców Karola Wojtyły.","Це могила батьків Кароля Войтили."],
+        ["Mami","Papieża Polaka?","Папи-поляка?"],
+        ["Karol","Tak, prawie cały Kraków składa tu kwiaty albo zapala znicze. Chodźmy.","Так, майже весь Краків кладе тут квіти або запалює лампадки. Ходімо."]
+      ]}
+    ]},
+    { "block": "A. Zaduszki Jazzowe · tekst · трек 214A8", "items": [
+      { "type": "mono", "title": "Krakowskie Zaduszki Jazzowe", "audio": "audio/L14/L14-czytanie-04.mp3",
+        "text": "Oficjalnie Kościół wspomina zmarłych w Zaduszki 2 listopada. Jednak upowszechnił się zwyczaj odwiedzania cmentarzy już 1 listopada. Dlaczego Dzień Wszystkich Świętych jest tak ważnym dniem w Polsce? Sądzę, że przede wszystkim dlatego, że motywuje nas do spotkań z rodziną. Ludzie często przemierzają cały kraj, żeby stanąć wraz z bliskimi nad rodzinnymi grobami i zapalić symboliczną lampkę. Pamięć oddana zmarłym zbliża żyjących. 1 listopada to dobry moment na refleksję i przemyślenie. Choć w naszej tradycji, często po chwili zadumy i wyciszenia na cmentarzu, następuje spotkanie przy zastawionym stole, wśród ożywionych rodzinnych rozmów.",
+        "tr": "Офіційно Церква згадує померлих у Задушки, 2 листопада. Проте поширився звичай відвідувати кладовища вже 1 листопада. Чому День усіх святих такий важливий день у Польщі? Гадаю, що передусім тому, що він спонукає нас до зустрічей з родиною. Люди часто перетинають усю країну, щоб стати разом з близькими над родинними могилами й запалити символічну лампадку. Пам'ять, віддана померлим, зближує живих. 1 листопада — добра нагода для роздумів і міркувань. Хоча в нашій традиції часто після хвилини задуми й заспокоєння на кладовищі настає зустріч за накритим столом, серед жвавих родинних розмов." }
+    ]},
+    { "block": "B. Dziady · dialog · трек 214B1", "items": [
+      { "type": "dia", "title": "Próba Kółka Teatralnego", "audio": "audio/L14/L14-czytanie-05.mp3", "lines": [
+        ["Karol","Do zobaczenia wszystkim, lecę na próbę.","До побачення всім, біжу на репетицію."],
+        ["Mami","Na jaką próbę?","На яку репетицію?"],
+        ["Karol","Nasze Kółko Teatralne przygotowuje cykl Wieczory Listopadowe. Teraz mamy na tapecie inscenizację fragmentu Dziadów Mickiewicza. To taki romantyczny utwór. Opowiada o pogańskim kulcie zmarłych i rytuałach, które odbywały się nocą na cmentarzu.","Наш театральний гурток готує цикл «Листопадові вечори». Зараз у нас на порядку денному інсценізація фрагмента «Дзядів» Міцкевича. Це такий романтичний твір. Розповідає про язичницький культ померлих і ритуали, що відбувалися вночі на кладовищі."],
+        ["Mami","Dziady… Coś mi to mówi. Już gdzieś słyszałam ten tytuł.","«Дзяди»… Щось мені це нагадує. Уже десь чула цю назву."],
+        ["Karol","No pewnie. Pamiętasz Różyczkę? Ten film, na który wybrałaś się ze mną. Tam była taka scena w teatrze. Spektakl wyreżyserowany przez Kazimierza Dejmka.","Ну звісно. Пам'ятаєш «Ружичку»? Той фільм, на який ти пішла зі мною. Там була така сцена в театрі. Спектакль у режисурі Казімєжа Деймека."],
+        ["Mami","A potem… Tak! Pamiętam! Demonstracje, studenci protestujący na ulicach, milicja z gazem i pałkami. Brutalne sceny, to było straszne.","А потім… Так! Пам'ятаю! Демонстрації, студенти, що протестували на вулицях, міліція з газом і кийками. Брутальні сцени, це було страшно."],
+        ["Karol","Ale prawdziwe. Rok 68, marzec. Ważna data w naszej historii.","Але правдиві. 68-й рік, березень. Важлива дата в нашій історії."],
+        ["Mami","Tak! Wyszli na ulicę. Krzyczeli: niepodległość bez cenzury!","Так! Вони вийшли на вулицю. Кричали: незалежність без цензури!"],
+        ["Karol","To była ich niezgoda na życie w systemie komunistycznym, na politykę partii, na wszechobecne zakłamanie. A Mickiewicz, nasz wieszcz, znów zagrzewał do walki o wolność.","Це була їхня незгода жити в комуністичній системі, з політикою партії, з усюдисущою брехнею. А Міцкевич, наш пророк, знову надихав на боротьбу за свободу."],
+        ["Mami","Mickiewicz? Nie rozumiem.","Міцкевич? Не розумію."],
+        ["Karol","Kiedyś ci opowiemy o Powstaniu Listopadowym. Ale to już inna historia. Wracając do Marca i jego przewodniego hasła Chcemy kultury bez cenzury, zastanawiam się, czy w dzisiejszych czasach wolności słowa ktoś zrozumie tamtą walkę?","Колись розповімо тобі про Листопадове повстання. Але це вже інша історія. Повертаючись до Березня та його провідного гасла «Хочемо культури без цензури», запитую себе, чи в нинішні часи свободи слова хтось зрозуміє ту боротьбу?"]
+      ]}
+    ]},
+    { "block": "C. Różyczka · tekst · трек 214C7", "items": [
+      { "type": "mono", "title": "Różyczka — film", "audio": "audio/L14/L14-czytanie-06.mp3",
+        "text": "Różyczka, film Kidawy-Błońskiego, przenosi nas w lata sześćdziesiąte. Akcja rozgrywa się na tle historycznych zdarzeń. Główni bohaterowie to jednostki, które padają ofiarą machiny komunistycznego systemu. Różyczka to kryptonim dziewczyny, agentki UB, która ma za zadanie inwigilować znanego pisarza. Dziwna jest jej droga życiowa. Początkowo bierze na siebie to zadanie ze względu na swojego narzeczonego ubeka. Ufa mu i nie zastanawia się nad tym, co dla niego robi. Zna pisarza, szuka więc kontaktu z nim, zbliża się do niego i wreszcie pozyskuje jego sympatię. Im dłużej obserwuje go, tym bardziej imponuje jej jego osoba. Zmienia się świat Różyczki. Okazuje się, że wytrawne wino smakuje jej bardziej niż wódka, książki pisarza są trudne, ale fascynujące, a cenione przez niego wartości bliższe jej samej niż sądziła. Boli ją fakt, że go oszukuje. Chciałaby, żeby mogli być szczerzy wobec siebie. Co teraz? Czy będzie go śledzić dalej wbrew sobie? Przecież szanuje go, wierzy w niego i jego twórczość. A co z narzeczonym? Chciałaby, żeby mogli porozmawiać o sobie. Ma jednak wrażenie, że jej chłopak ubek interesuje się wyłącznie sobą i swoją karierą i tak naprawdę zaczyna rozumieć, że ani on, ani ona nigdy nie byli nawet zafascynowani sobą. Natomiast powoli dochodzi do niej fakt, że ona sama i pisarz są w sobie zakochani, wpatrzeni w siebie. To właśnie przy nim Różyczka czuje się bezpieczna i doceniona. A narzeczony? Z jednej strony wydaje się, że skoncentrowany na sobie i swojej karierze nie ma żadnych uczuć dla dziewczyny. Traktuje ją jak źródło informacji i chce wyciągnąć z niej jak najwięcej. Ale nie. I on jest targany emocjami. Chwilami wychodzi z siebie. Zazdrość nie daje mu spokoju, ale cóż, ma przełożonych i strach przed nimi jest silniejszy od chęci posiadania Różyczki wyłącznie dla siebie. Nie myśli więc o niej, tylko o sobie. Czas pokaże, że niekiedy trudno mu będzie poradzić sobie ze sobą samym.",
+        "tr": "«Ружичка», фільм Кідави-Блонського, переносить нас у шістдесяті роки. Дія розгортається на тлі історичних подій. Головні герої — особистості, які стають жертвами машини комуністичної системи. «Ружичка» — це псевдонім дівчини, агентки служби безпеки (UB), завдання якої — стежити за відомим письменником. Дивний її життєвий шлях. Спершу вона береться за це завдання заради свого нареченого-убека. Довіряє йому й не замислюється над тим, що для нього робить. Знає письменника, тож шукає контакту з ним, зближується з ним і нарешті здобуває його прихильність. Що довше вона за ним спостерігає, то більше вражає її його особистість. Світ Ружички змінюється. Виявляється, що сухе вино смакує їй більше за горілку, книжки письменника складні, але захопливі, а цінності, які він шанує, ближчі їй самій, ніж вона гадала. Її болить те, що вона його обманює. Хотіла б, щоб вони могли бути щирими одне з одним. Що тепер? Чи стежитиме за ним і далі всупереч собі? Адже вона поважає його, вірить у нього та його творчість. А як щодо нареченого? Хотіла б, щоб вони могли поговорити про себе. Але має враження, що її хлопець-убек цікавиться виключно собою та своєю кар'єрою, і насправді починає розуміти, що ні він, ні вона ніколи навіть не були зачаровані одне одним. Натомість поволі доходить до неї думка, що вона сама й письменник закохані одне в одного, задивлені одне в одного. Саме біля нього Ружичка почувається в безпеці й цінованою. А наречений? З одного боку, здається, що, зосереджений на собі та своїй кар'єрі, він не має жодних почуттів до дівчини. Ставиться до неї як до джерела інформації й хоче витягти з неї якнайбільше. Але ні. І він роздертий емоціями. Часом виходить із себе. Ревнощі не дають йому спокою, та що ж — у нього є начальники, і страх перед ними сильніший за бажання володіти Ружичкою лише для себе. Тож він думає не про неї, а про себе. Час покаже, що іноді важко йому буде дати раду самому собі." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 14 — треки 214A3, 214A8, 214B1, 214C7. Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "dia", "title": "Rzeźba na grobie Kantora · zeszyt cw04", "audio": "audio/L14/L14-zeszyt-01.mp3", "lines": [
+      ["Mami","O, jaka przejmująca rzeźba! Bosy chłopiec w szkolnym mundurku, siedzący w ławce nad otwartą książką, obok niego krzyż.","О, яка зворушлива скульптура! Босий хлопчик у шкільному мундирі, що сидить за партою над відкритою книжкою, біля нього хрест."],
+      ["Karol","To chłopiec z umarłej klasy.","Це хлопчик з «мертвого класу»."],
+      ["Mami","Nie rozumiem.","Не розумію."],
+      ["Karol","To dzieło Tadeusza Kantora, reżysera, scenografa, malarza i plastyka. Ta kompozycja nawiązuje do jego najważniejszego spektaklu Umarła klasa.","Це твір Тадеуша Кантора — режисера, сценографа, художника й митця. Ця композиція відсилає до його найважливішого спектаклю «Мертвий клас»."],
+      ["Mami","Kantor, twórca teatru Cricot 2. Uczyłam się o nim. Czy to jego grób?","Кантор, засновник театру «Cricot 2». Я вчила про нього. Це його могила?"],
+      ["Karol","Tak, jego i jego matki. To właśnie na jej grobie artysta ustawił tę rzeźbę.","Так, його та його матері. Саме на її могилі митець поставив цю скульптуру."]
+    ]},
+    { "type": "mono", "title": "List po demonstracji · zeszyt cw16", "audio": "audio/L14/L14-zeszyt-02.mp3",
+      "text": "Nie powiedziałem im wszystkiego, bo nie chciałem się przed nimi tłumaczyć. Ale przed tobą nie chcę niczego ukrywać. Zrobiłem coś wbrew sobie. Niech to zostanie między nami. Wiesz, ja w czasie demonstracji zostałem aresztowany. Bardzo bałem się o siebie, o ciebie, o nas. Na komisariacie widziałem straszne rzeczy. Kiedy dali mi papier do podpisania i obiecali, że mnie wypuszczą, podpisałem. Zrobiłem to dla ciebie. Nie chciałem, żebyś została sama z dziećmi. Wiem, że teraz masz pretensje do mnie, ale przecież ja wtedy martwiłem się o ciebie. To nieprawda, że jestem agentem. Nie szpieguję nikogo. Nie donoszę na nikogo. Chciałbym, żebyś dalej wierzyła we mnie. Żebyś wierzyła, że nie zrobiłem nic złego.",
+      "tr": "Я не сказав їм усього, бо не хотів перед ними виправдовуватися. Але перед тобою не хочу нічого приховувати. Я зробив щось всупереч собі. Нехай це залишиться між нами. Знаєш, мене під час демонстрації заарештували. Я дуже боявся за себе, за тебе, за нас. На комісаріаті я бачив страшні речі. Коли мені дали папір на підпис і пообіцяли, що мене відпустять, я підписав. Я зробив це заради тебе. Не хотів, щоб ти залишилася сама з дітьми. Знаю, що тепер ти маєш претензії до мене, але ж я тоді хвилювався за тебе. Це неправда, що я агент. Я ні за ким не шпигую. Ні на кого не доношу. Хотів би, щоб ти й далі вірила в мене. Щоб вірила, що я не зробив нічого поганого." },
+    { "type": "mono", "title": "Filmy o polskiej historii · zeszyt cw09", "audio": "audio/L14/L14-zeszyt-03.mp3",
+      "text": "Prawdę mówiąc, niewiele wiedziałem o polskiej historii. Uczyłem się języka ze względu na rodzinę żony, ale nie za bardzo interesowałem się przeszłością kraju. To się zmieniło ostatnio. Obejrzałem dwa filmy: Czarny czwartek. Janek Wiśniewski padł w reżyserii Antoniego Krauzego oraz Wałęsa. Człowiek z nadziei Andrzeja Wajdy. Zobaczyłem fragment PRL-owskiej rzeczywistości. Czarne momenty z grudnia 1970 roku. Bezwzględność władzy, która każe strzelać do robotników. Potem znaczenie sierpnia 1980, grudnia 1981. Strajki w Stoczni Gdańskiej. Zrozumiałem fenomen siły, która tkwi w ludzkiej solidarności.",
+      "tr": "Правду кажучи, я мало знав про польську історію. Учив мову через родину дружини, але не дуже цікавився минулим країни. Останнім часом це змінилося. Я подивився два фільми: «Чорний четвер. Янек Вишневський загинув» у режисурі Антонія Краузе та «Валенса. Людина надії» Анджея Вайди. Я побачив фрагмент дійсності ПНР. Чорні моменти грудня 1970 року. Безжальність влади, що наказує стріляти в робітників. Потім значення серпня 1980-го, грудня 1981-го. Страйки на Гданській корабельні. Я зрозумів феномен сили, яка криється в людській солідарності." },
+    { "type": "mono", "title": "Cmentarz Salwatorski · zeszyt cw03", "audio": "audio/L14/L14-zeszyt-04.mp3",
+      "text": "Cmentarz Salwatorski to niewielka, ale ważna nekropolia Krakowa. Położona jest w malowniczym zakątku, niemal u stóp kopca Kościuszki, popularnej wśród krakowian alei spacerowej. Przepiękne usytuowanie i roztaczająca się stąd panorama na miasto, okolice, a przy dobrej pogodzie nawet na tatrzańskie szczyty sprawiły, że cmentarz stał się miejscem ostatniego spoczynku wielu krakowskich artystów, pisarzy, naukowców. Lista słynnych nazwisk jest długa. Wśród nich wyróżnia się nazwisko Stanisława Lema, jednego z najbardziej znanych pisarzy polskich.",
+      "tr": "Сальваторське кладовище — невеликий, але важливий некрополь Кракова. Розташоване в мальовничому куточку, майже біля підніжжя кургану Костюшка, популярної серед краків'ян прогулянкової алеї. Чудове розташування й панорама міста та околиць, що відкривається звідси, а за гарної погоди навіть на татранські вершини, зробили це кладовище місцем останнього спочинку багатьох краківських митців, письменників, науковців. Список славетних імен довгий. Серед них вирізняється ім'я Станіслава Лема, одного з найвідоміших польських письменників." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 14, ćw. 3, 4, 9, 16 (треки 28039, 26220, 28038, 26759). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "tradycje", "q": "Як називали День усіх святих за часів ПНР через комуністичну пропаганду?",
+      "o": ["Święto Zmarłych","Dzień Zaduszny","Noc Dziadów"], "a": 0,
+      "fb": "Pani Maj пояснює: «Święto Zmarłych to nazwa używana przez propagandę w czasach PRL-u» — комуністи назвали свято інакше." },
+    { "topic": "tradycje", "q": "Коли офіційно Церква згадує померлих (Zaduszki)?",
+      "o": ["1 listopada","2 listopada","11 listopada"], "a": 1,
+      "fb": "«Oficjalnie Kościół wspomina zmarłych w Zaduszki 2 listopada», хоча звичай відвідувати кладовища поширився вже 1 листопада." },
+    { "topic": "się/siebie", "q": "Доповніть: «Adam myśli tylko o ___» (про самого себе).",
+      "o": ["nim","sobie","jemu"], "a": 1,
+      "fb": "Якщо дія повертається до підмета, вживаємо siebie/się: «o sobie». «O nim» означало б про іншу особу." },
+    { "topic": "się/siebie", "q": "Який рядок правильний?",
+      "o": ["Byli szczerzy wobec sobą","Byli szczerzy wobec siebie","Byli szczerzy wobec się"], "a": 1,
+      "fb": "Прийменник «wobec» вимагає dopełniacza, а зворотна форма тут — siebie: «szczerzy wobec siebie»." },
+    { "topic": "zaimki", "q": "Виберіть правильну форму: «Czy długo czekacie na ___?»",
+      "o": ["niego","nim","go"], "a": 0,
+      "fb": "Після прийменника «na» (biernik) на 3 особу вживаємо довгу форму з n-: «na niego»." },
+    { "topic": "zaimki", "q": "Доповніть: «To wszystko przez ___!»",
+      "o": ["tobą","ci","ciebie"], "a": 2,
+      "fb": "Прийменник «przez» вимагає biernika: «przez ciebie». Форми «tobą» (narzędnik) і «ci» (celownik) тут не підходять." },
+    { "topic": "przyimki", "q": "З яким відмінком вживається прийменник «wbrew»?",
+      "o": ["dopełniacz","celownik","narzędnik"], "a": 1,
+      "fb": "«Wbrew» вимагає celownika: «wbrew sobie», «wbrew nam». Тому й гасло — «Nie rób niczego wbrew sobie!»" },
+    { "topic": "słownictwo", "q": "Що означає вислів «mieć coś na tapecie»?",
+      "o": ["мати щось на стіні","зараз цим займатися","забути про щось"], "a": 1,
+      "fb": "«Mieć coś na tapecie» = саме зараз обговорювати/займатися чимось. Karol: «mamy na tapecie inscenizację Dziadów»." },
+    { "topic": "historia", "q": "Чий спектакль «Dziady» 1968 року спричинив студентські протести?",
+      "o": ["Andrzeja Wajdy","Kazimierza Dejmka","Tadeusza Kantora"], "a": 1,
+      "fb": "«Spektakl wyreżyserowany przez Kazimierza Dejmka» — його зняли з афіші, що стало поштовхом до березневих подій 1968 року." },
+    { "topic": "historia", "q": "З якою подією пов'язаний фільм «Wałęsa. Człowiek z nadziei» та страйки в Stoczni Gdańskiej?",
+      "o": ["Solidarność","Powstanie Listopadowe","wypadki marcowe"], "a": 0,
+      "fb": "У zeszyt cw09 герой говорить про «fenomen siły, która tkwi w ludzkiej solidarności» — про рух Solidarność, серпень 1980." }
+  ],
+
+  "checklist": [
+    { "text": "Розповісти про польські традиції Wszystkich Świętych і Zaduszki", "sub": "cmentarz, znicz, chryzantemy, grób, wspominać zmarłych" },
+    { "text": "Вживати zaimek się, siebie, коли дія стосується підмета", "sub": "myśleć o sobie, robić coś dla siebie, wobec siebie" },
+    { "text": "Розрізняти довгі й короткі форми особових займенників", "sub": "mnie/mi, jego/go, jemu/mu; po przyimku → niego, niej, nim" },
+    { "text": "Поєднувати прийменники з правильним відмінком", "sub": "wbrew + celownik, przez + biernik, wobec + dopełniacz" },
+    { "text": "Розповідати про повоєнну історію Польщі", "sub": "PRL, cenzura, Marzec '68, Solidarność, wolność słowa" }
+  ]
+}

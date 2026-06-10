@@ -1,0 +1,147 @@
+{
+  "id": "16",
+  "title": "Przygody",
+  "goal": "Повторюємо: опис пригод і situacji · вираження часових відношень · означення часу (przedtem / potem) · сполучники (spójniki)",
+
+  "vocab": [
+    { "group": "Przygody i zagrożenia — пригоди й небезпеки", "items": [
+      ["przygoda","пригода"],["wyprawa","експедиція / похід"],["zmagania","змагання / боротьба"],
+      ["sztorm","шторм"],["szkwał","шквал"],["utonąć","потонути"],["rozbitek","потерпілий (з аварії)"],
+      ["ofiary śmiertelne","смертельні жертви"],["skaleczony","поранений"],["gorączka","температура / гарячка"],
+      ["lęk wysokości","страх висоти"],["wpaść w panikę","впасти в паніку"],["gęsia skórka","сироти / мурашки по шкірі"]
+    ]},
+    { "group": "Góry i podróż — гори й подорож", "items": [
+      ["schronisko","притулок (гірський)"],["szlak","маршрут / стежка"],["ścieżka","стежка"],
+      ["stroma","крута (стежка)"],["śliski","слизький"],["iść na skróty","іти навпростець"],
+      ["zejść ze szlaku","зійти з маршруту"],["zasięg","зв'язок / покриття"],["dotrzeć","дістатися"],
+      ["przemierzać","долати (відстань)"],["dźwigać","нести / тягнути (вантаж)"],["przestrzeń","простір"]
+    ]},
+    { "group": "Czasowniki — дієслова", "items": [
+      ["zachwalać","розхвалювати"],["wyruszyć w podróż","вирушити в подорож"],["postanowić","вирішити"],
+      ["potykać się","спотикатися"],["upaść","упасти"],["złamać nogę","зламати ногу"],
+      ["trząść się","тремтіти"],["zacisnąć zęby","зціпити зуби"],["sprowadzić pomoc","привести допомогу"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["dziki","дикий"],["znachorka","знахарка"],["zioła","трави (лікарські)"],
+      ["niesamowity","неймовірний"],["gwałtowny","раптовий / різкий"],["zafascynowany","зачарований"],
+      ["ratownik","рятувальник"],["świadek","свідок"],["zderzenie","зіткнення"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Spójniki — сполучники (огляд)",
+      "note": "Сполучники з'єднують слова й речення. Розрізняємо їх за значенням (тип зв'язку).",
+      "table": {
+        "head": ["Typ — тип","Spójniki","Przykład"],
+        "rows": [
+          ["łączenie — поєднання","i, oraz, a","Mami *i* Uwe przygotowali prowiant."],
+          ["alternatywa — вибір","albo, lub, bądź, czy","Masz ochotę na kawę *czy* na herbatę?"],
+          ["przeczenie — заперечення","ani, ni","Nie mam na to czasu *ani* pieniędzy."],
+          ["przeciwstawienie — протиставлення","ale, lecz, jednak, natomiast, zaś","Ewa została w domu, *natomiast* Zbyszek pojechał w Tatry."],
+          ["porównanie — порівняння","niż","Jest sprytniejszy *niż* ja."],
+          ["wyjaśnienie — пояснення","czyli, mianowicie","Brakuje jej jednego, *czyli* szczęścia."],
+          ["wynik — наслідок","więc, dlatego, zatem","Zachorował, *więc* nie mógł wyruszyć w podróż."]
+        ]
+      }
+    },
+    {
+      "title": "Spójniki podrzędne — підрядні сполучники",
+      "note": "Уводять підрядні речення (причина, мета, умова, час, допуст).",
+      "table": {
+        "head": ["Znaczenie — значення","Spójnik","Przykład"],
+        "rows": [
+          ["cel — мета","aby, żeby","Uwe przyjechał, *żeby* uczyć się polskiego."],
+          ["przyczyna — причина","bo, ponieważ","Chciał mówić płynnie, *ponieważ* pracował w Warszawie."],
+          ["warunek — умова","jeżeli, gdyby","*Gdyby* znał polski wcześniej, miałby kontrakt."],
+          ["czas — час","zanim, kiedy, gdy","*Zanim* wybrał się na kurs, znał polski tylko ze słuchu."],
+          ["przyzwolenie — допуст","choć, chociaż","*Choć* wszyscy mówili, że trudny, okazało się nie tak źle."],
+          ["proporcja — пропорція","im… tym…","*Im* dłużej myślał, *tym* bardziej był przekonany."]
+        ]
+      }
+    },
+    {
+      "title": "Określenia czasu — означення часу",
+      "note": "Слова й вирази, що вказують послідовність подій у розповіді про пригоду.",
+      "table": {
+        "head": ["PRZEDTEM — раніше","W TYM SAMYM CZASIE — водночас","POTEM — потім"],
+        "rows": [
+          ["przedtem, wcześniej","jednocześnie, równocześnie","potem, później, następnie"],
+          ["najpierw, zanim","w tym czasie, tymczasem","wkrótce, niebawem, niedługo"],
+          ["dawno temu, przed laty","w międzyczasie, podczas","po chwili, w końcu, wreszcie"]
+        ]
+      }
+    },
+    {
+      "title": "Nagłe wydarzenia — раптові події",
+      "note": "Прислівники, що сигналізують несподівану зміну в розповіді.",
+      "words": "nagle · wtem · w tym momencie · niespodziewanie · właśnie · wówczas · wtedy"
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Wszystko dobre, co się dobrze kończy · трек 216A1", "items": [
+      { "type": "mono", "title": "Sztorm na Mazurach · 216A1-1", "audio": "audio/L16/L16-czytanie-01.mp3",
+        "text": "Pamiętam. To było jakieś pięć, sześć lat temu. Wybraliśmy się ze znajomymi na Mazury. Pewnie wiecie, że jeziora mazurskie połączone ze sobą kanałami to jeden wielki szlak żeglowny. Wsiedliśmy w Giżycku na wynajęty wcześniej jacht i popłynęliśmy na północ, w kierunku Sztynortu. Cieszyliśmy się nie tylko z żeglowania. Nasi mężowie to prawdziwi pasjonaci zmagań z wiatrem i wodą, ale także z otaczającej nas przyrody. Nie muszę nikomu zachwalać mazurskich krajobrazów. Wiadomo, że tu jeszcze można znaleźć dzikie miejsca, podglądać ptaki, posłuchać ciszy. Mieliśmy też w planach trochę zwiedzania. Ruiny zamków, stare dwory, bunkry poniemieckie. Wszystko jednak potoczyło się inaczej. Do dziś, gdy o tym mówię, czuję gęsią skórkę. To był drugi dzień naszej wyprawy. Piękna pogoda, wspaniałe warunki i nagle robi się szaro, ciemno. Jezioro zmienia się w piekło. Wiatr przewraca łodzie jak dziecięce zabawki. To był sztorm, biały szkwał. Zjawił się niespodziewanie. Zanim się zorientowaliśmy, co się dzieje, nasz jacht był już pod wodą. Pierwsza myśl to wyratować dzieci. Potem już tylko było ważne, żeby utrzymać się na powierzchni, nie utonąć. Ratownicy wyłowili nas dopiero po dwóch godzinach. To były najgorsze godziny w moim życiu. Jak to się stało, że nikt nie ostrzegł żeglarzy przed zbliżającym się sztormem? Wiatr wiał z siłą dwunastu stopni w skali Beauforta. Zatopił czterdzieści jachtów. Ratownicy wyłowili ponad osiemdziesięciu rozbitków. Niestety. Były też ofiary śmiertelne.",
+        "tr": "Пам'ятаю. Це було років п'ять-шість тому. Ми поїхали зі знайомими на Мазури. Ви, мабуть, знаєте, що мазурські озера, з'єднані між собою каналами, — це один великий судноплавний маршрут. У Гіжицьку ми сіли на заздалегідь орендовану яхту й попливли на північ, у напрямку Штинорту. Тішилися не лише з плавання. Наші чоловіки — справжні любителі змагань з вітром і водою, а також природи довкола. Не мушу нікому розхвалювати мазурські краєвиди. Відомо, що тут ще можна знайти дикі місця, спостерігати за птахами, послухати тишу. Мали ми в планах і трохи екскурсій. Руїни замків, старі садиби, німецькі бункери. Однак усе склалося інакше. Досі, коли про це говорю, відчуваю мурашки по шкірі. Це був другий день нашої виправи. Чудова погода, прекрасні умови — і раптом стає сіро, темно. Озеро перетворюється на пекло. Вітер перевертає човни, наче дитячі іграшки. Це був шторм, білий шквал. З'явився несподівано. Перш ніж ми зорієнтувалися, що відбувається, наша яхта вже була під водою. Перша думка — врятувати дітей. Потім важливо було лише втриматися на поверхні, не потонути. Рятувальники витягли нас лише через дві години. Це були найгірші години в моєму житті. Як сталося, що ніхто не попередив яхтсменів про наближення шторму? Вітер дув із силою дванадцяти балів за шкалою Бофорта. Затопив сорок яхт. Рятувальники витягли понад вісімдесят потерпілих. На жаль. Були й смертельні жертви." },
+      { "type": "mono", "title": "Wyprawa w Tatry · 216A1-2", "audio": "audio/L16/L16-czytanie-02.mp3",
+        "text": "To było w październiku, jesień była wyjątkowo piękna tego roku, więc postanowiliśmy wybrać się na dwa dni w Tatry. Nauczycielki mówiły nam, żebyśmy uważali i że choć Tatry wydają się małe w porównaniu z Alpami, to jednak są to prawdziwe góry, gdzie o wypadek nie trudno. Trochę nam się nie chciało w to wierzyć. Przecież polskie Tatry nie są ani bardzo wysokie, ani zbyt rozległe. W piątek po południu pojechaliśmy do Zakopanego. Następnego dnia nie wstaliśmy zbyt wcześnie, ponieważ wieczorem trochę zasiedzieliśmy się w knajpie na Krupówkach. Polskie jedzenie jest rewelacyjne. Ranek był słoneczny i bardzo ciepły. Angela stwierdziła, że górskie buty, które właśnie kupiła, nie są wygodne i że skoro jest taka ładna pogoda, to może iść w sandałach. Ja z kolei pomyślałem, że kurtki przeciwdeszczowe też nie będą nam potrzebne i wyjąłem je z mojego plecaka. Po co dźwigać tyle rzeczy? Mami i Uwe przygotowali jakiś prowiant na wycieczkę i wreszcie wyszliśmy. Przy wejściu do Parku Narodowego była tablica z różnymi informacjami, ale stało tam trochę ludzi, więc nie chciało nam się czekać. Początkowo szliśmy przez las. Potem droga prowadziła przez otwartą przestrzeń. Widoki były niesamowite. Podchodziliśmy do góry powoli. Robiliśmy zdjęcia, odpoczywaliśmy też często, bo ścieżka była bardzo stroma. Zrobiło się już popołudnie, byliśmy strasznie głodni, bo okazało się, że Mami i Uwe wzięli tylko po małej kanapce dla każdego i jedną tabliczkę czekolady. Dopytywaliśmy się schodzących turystów, czy do schroniska daleko i wszyscy nam mówili, że jeszcze trochę. Kiedy weszliśmy już całkiem wysoko, zrobiło się zimno. Nie wiadomo skąd nadeszły czarne chmury i luną lodowaty deszcz. Nie spodziewaliśmy się tak gwałtownej zmiany pogody. Bardzo chcieliśmy jak najszybciej dotrzeć do schroniska. Wydawało nam się, że widzimy je niedaleko. Postanowiliśmy iść na skróty i zeszliśmy ze szlaku. Kamienie i skały były bardzo śliskie. Angela potykała się co krok, a w końcu upadła i powiedziała, że chyba złamała nogę. Telefony nie działały, nie było zasięgu. Uwe zdecydował, że spróbuje dojść sam do schroniska i sprowadzić pomoc. Zostaliśmy w trójkę. Angela zaciskała zęby z bólu, była bardzo blada. Mami wpadła w panikę, płakała, że ma lęk wysokości i że chce do domu. Natomiast ja trząsłem się z zimna, z głodu, pewnie ze strachu też i zupełnie nie wiedziałem co robić. Uwe nie wracał. To były straszne chwile. Na szczęście wszystko skończyło się dobrze, ale to już opowiem innym razem.",
+        "tr": "Це було в жовтні, осінь того року була винятково гарна, тож ми вирішили вибратися на два дні в Татри. Учительки казали нам, щоб ми були обережні й що хоч Татри здаються малими порівняно з Альпами, це все-таки справжні гори, де нещасний випадок не за горами. Нам трохи не хотілося в це вірити. Адже польські Татри не дуже високі й не надто розлогі. У п'ятницю по обіді ми поїхали в Закопане. Наступного дня встали не надто рано, бо ввечері трохи засиділися в кнайпі на Крупувках. Польська їжа чудова. Ранок був сонячний і дуже теплий. Анджела заявила, що гірські черевики, які щойно купила, незручні і що, раз така гарна погода, можна йти в сандалях. Я зі свого боку подумав, що дощовики теж нам не знадобляться, і вийняв їх зі свого рюкзака. Навіщо нести стільки речей? Мамі та Уве підготували якийсь провіант на прогулянку, і нарешті ми вийшли. Біля входу до Національного парку був стенд із різною інформацією, але там стояло трохи людей, тож нам не хотілося чекати. Спочатку йшли через ліс. Потім дорога вела через відкритий простір. Краєвиди були неймовірні. Підіймалися вгору повільно. Робили фото, часто й відпочивали, бо стежка була дуже крута. Уже настало пообіддя, ми були страшенно голодні, бо виявилося, що Мамі та Уве взяли лише по маленькому бутерброду на кожного й одну плитку шоколаду. Розпитували туристів, що спускалися, чи далеко до притулку, і всі казали нам, що ще трохи. Коли ми вже зайшли зовсім високо, стало холодно. Невідомо звідки насунулися чорні хмари й линув крижаний дощ. Ми не очікували такої різкої зміни погоди. Дуже хотіли якнайшвидше дістатися притулку. Нам здавалося, що бачимо його неподалік. Вирішили йти навпростець і зійшли з маршруту. Каміння й скелі були дуже слизькі. Анджела спотикалася на кожному кроці, а врешті впала й сказала, що, мабуть, зламала ногу. Телефони не працювали, не було зв'язку. Уве вирішив, що спробує сам дійти до притулку й привести допомогу. Залишилися ми втрьох. Анджела зціплювала зуби від болю, була дуже бліда. Мамі впала в паніку, плакала, що має страх висоти й що хоче додому. А я тремтів від холоду, від голоду, мабуть, і від страху теж, і зовсім не знав, що робити. Уве не повертався. Це були страшні хвилини. На щастя, усе скінчилося добре, але це вже розкажу іншим разом." },
+      { "type": "mono", "title": "Przygoda w Afryce · 216A1-3", "audio": "audio/L16/L16-czytanie-03.mp3",
+        "text": "W ubiegłe wakacje wyruszyliśmy w podróż po północnej Afryce. Zafascynowani berberyjską kulturą, przemierzaliśmy górskie szlaki Atlasu. To były niezapomniane chwile. Na koniec, nieco zmęczeni włóczęgą po górach, pojechaliśmy nad ocean, by odpocząć w małej wiosce, oczywiście z daleka od cywilizacji. Niestety, tam zaczęły się nasze problemy. Najpierw mała Łucja zainfekowała sobie skaleczoną nogę. W ciągu jednej nocy noga napuchła jej, a rana niebezpiecznie zropiała. Tej samej nocy Julię, drugą córkę, coś ukąsiło. Niegroźne z początku zaczerwienienie zaczęło się szybko powiększać i Julia dostała wysokiej gorączki. W wiosce nie było żadnego lekarza. Od najbliższego miasta dzieliło nas 200 kilometrów. O świcie chcieliśmy wsiąść w samochód i jak najszybciej jechać w kierunku jakiegoś szpitala. I wtedy okazało się, że mój mąż ma 40 stopni i straszną biegunkę. Nie wiedziałam, co robić. Nie mam prawa jazdy. Nigdy nawet nie próbowałam jeździć samochodem. W wiosce w ramach pomocy oferowano mi transport osiołkiem albo łódką. Ani to, ani to mnie nie ratowało. Kiedy skończyły mi się leki przeciwgorączkowe, nie miałam już wyjścia. Postanowiłam zaufać miejscowej znachorce. Czy uwierzycie, że ona, ta stara kobieta z torbą tajemniczych ziół nam pomogła? Po paru dniach nie pamiętaliśmy już o chorobach ani o strachu.",
+        "tr": "Минулого літа ми вирушили в подорож північною Африкою. Зачаровані берберською культурою, долали гірські маршрути Атласу. Це були незабутні хвилини. Наприкінці, трохи втомлені блуканням по горах, поїхали до океану, щоб відпочити в маленькому селищі, звісно, далеко від цивілізації. На жаль, там почалися наші проблеми. Спершу маленька Луція інфікувала собі поранену ногу. За одну ніч нога в неї набрякла, а рана небезпечно загноїлася. Тієї самої ночі Юлію, другу доньку, щось укусило. Спочатку безпечне почервоніння почало швидко збільшуватися, і в Юлії піднялася висока температура. У селищі не було жодного лікаря. Від найближчого міста нас відділяло 200 кілометрів. На світанку ми хотіли сісти в машину й якнайшвидше їхати в напрямку якоїсь лікарні. І тоді виявилося, що в мого чоловіка 40 градусів і страшна діарея. Я не знала, що робити. Не маю водійських прав. Ніколи навіть не пробувала кермувати машиною. У селищі як допомогу мені пропонували транспорт на ослику чи човном. Ні те, ні те мене не рятувало. Коли в мене скінчилися жарознижувальні ліки, у мене вже не було виходу. Я вирішила довіритися місцевій знахарці. Чи повірите, що вона, ця стара жінка з торбою таємничих трав, нам допомогла? За кілька днів ми вже не пам'ятали ні про хвороби, ні про страх." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 16 — трек 216A1 (ćw. 1). Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "Niedźwiedź czy jeleń? · zeszyt cw09", "audio": "audio/L16/L16-zeszyt-01.mp3",
+      "text": "Robiło się coraz później i coraz zimniej. Angela była coraz bledsza, Mami coraz bardziej wystraszona, a ja coraz mniej spokojny. Uwe ciągle nie dawał znaku życia. Nagle, gdzieś niedaleko, coś groźnie zaryczało. To chyba niedźwiedź — pomyślałem przerażony. Po chwili usłyszeliśmy hałas w pobliżu i na ścieżce pojawiło się jakieś wielkie zwierzę. To jeleń! — odetchnęliśmy z ulgą. Nawet Mami, zafascynowana widokiem jelenia, zapomniała o strachu. Zwierzę stało przez chwilę spokojnie, potem zaryczało donośnie i odeszło w swoją stronę. Wkrótce od strony schroniska nadeszli jacyś ludzie. To Uwe sprowadził pomoc.",
+      "tr": "Ставало дедалі пізніше й дедалі холодніше. Анджела була дедалі блідіша, Мамі — дедалі більше налякана, а я — дедалі менш спокійний. Уве й далі не подавав ознак життя. Раптом, десь неподалік, щось грізно заричало. «Це, мабуть, ведмідь», — подумав я перелякано. За мить ми почули шум поблизу, і на стежці з'явилася якась велика тварина. «Це олень!» — зітхнули ми з полегшенням. Навіть Мамі, зачарована виглядом оленя, забула про страх. Тварина постояла мить спокійно, потім голосно заричала й пішла у свій бік. Невдовзі з боку притулку надійшли якісь люди. Це Уве привів допомогу." },
+    { "type": "mono", "title": "Świadek wypadku · zeszyt cw15", "audio": "audio/L16/L16-zeszyt-02.mp3",
+      "text": "Wczoraj po południu byłem świadkiem wypadku. Wracałem właśnie z pracy, miałem zamiar przejść przez skrzyżowanie. Zanim doszedłem do pasów, zobaczyłem, że do skrzyżowania zbliżały się trzy pojazdy. Z lewej strony nadjeżdżała ciężarówka, z prawej jechał rower, a z dołu samochód osobowy. Nagle na środek skrzyżowania wbiegło dziecko. Ciężarówka ostro zahamowała, aż z przyczepy pospadały skrzynki. Samochód osobowy, który w tym momencie dojechał do skrzyżowania, nie zdążył się już zatrzymać. Kierowca chciał ominąć dziecko, ale po prawej miał rowerzystę. Spróbował wykonać jeszcze jeden manewr, wtedy rowerzysta przewrócił się i zablokował mu drogę. Samochód nie miał jak zjechać ze skrzyżowania i uderzył w słup. Usłyszałem głośny huk i zobaczyłem, że przód auta jest rozbity. Natychmiast zadzwoniłem po pogotowie i po policję i naturalnie pobiegłem w stronę samochodu. Na szczęście, w chwili zderzenia auto miało już niedużą prędkość, więc kierowcy nic się nie stało. Tylko przerażone dziecko stało na środku jezdni i płakało.",
+      "tr": "Учора по обіді я був свідком аварії. Якраз повертався з роботи, мав намір перейти перехрестя. Перш ніж дійшов до переходу, побачив, що до перехрестя наближаються три транспортні засоби. З лівого боку під'їжджала вантажівка, з правого їхав велосипед, а знизу — легкова машина. Раптом на середину перехрестя вибігла дитина. Вантажівка різко загальмувала, аж із причепа попадали ящики. Легкова машина, яка цієї миті доїхала до перехрестя, уже не встигла зупинитися. Водій хотів об'їхати дитину, але праворуч мав велосипедиста. Спробував виконати ще один маневр, тоді велосипедист перекинувся й заблокував йому дорогу. Машина не мала як з'їхати з перехрестя й врізалася в стовп. Я почув гучний гуркіт і побачив, що перед авто розбитий. Негайно подзвонив у швидку й у поліцію і, звісно, побіг у бік машини. На щастя, у мить зіткнення авто мало вже невелику швидкість, тож водієві нічого не сталося. Лише перелякана дитина стояла на середині проїзної частини й плакала." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 16, ćw. 9 (трек 26755) i ćw. 15 (трек 26797). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "czytanie", "q": "Що сталося з групою на Мазурах під час другого дня виправи?",
+      "o": ["почалася злива в горах","налетів шторм і яхта опинилася під водою","зламався двигун яхти"], "a": 1,
+      "fb": "«To był sztorm, biały szkwał… nasz jacht był już pod wodą». Білий шквал затопив яхту." },
+    { "topic": "słownictwo", "q": "Що означає вираз «czuję gęsią skórkę»?",
+      "o": ["мені холодно","відчуваю мурашки по шкірі","я голодний"], "a": 1,
+      "fb": "«Gęsia skórka» — мурашки по шкірі (від страху чи холоду)." },
+    { "topic": "czytanie", "q": "Чому студенти в Татрах вирішили йти навпростець (na skróty)?",
+      "o": ["хотіли швидше дістатися притулку","заблукали на маршруті","шукали гарніший краєвид"], "a": 0,
+      "fb": "«Bardzo chcieliśmy jak najszybciej dotrzeć do schroniska… Postanowiliśmy iść na skróty»." },
+    { "topic": "czytanie", "q": "Хто врятував жінку та її родину в африканському селищі?",
+      "o": ["місцевий лікар","рятувальники","місцева знахарка з травами"], "a": 2,
+      "fb": "«Postanowiłam zaufać miejscowej znachorce… ta stara kobieta z torbą tajemniczych ziół nam pomogła»." },
+    { "topic": "spójniki", "q": "Який сполучник виражає наслідок (wynik)?",
+      "o": ["więc","albo","niż"], "a": 0,
+      "fb": "«Więc» (а також dlatego, zatem) виражає наслідок: «Zachorował, więc nie mógł wyruszyć»." },
+    { "topic": "spójniki", "q": "Доповніть: «Jest sprytniejszy ___ ja» (порівняння).",
+      "o": ["czyli","niż","ani"], "a": 1,
+      "fb": "Порівняння виражає «niż»: sprytniejszy niż ja (розумніший за мене)." },
+    { "topic": "spójniki", "q": "Який сполучник уводить мету (cel)?",
+      "o": ["ponieważ","żeby","kiedy"], "a": 1,
+      "fb": "Мета — «żeby / aby»: «Uwe przyjechał, żeby uczyć się polskiego». «Ponieważ» — причина." },
+    { "topic": "czas", "q": "Яке слово сигналізує РАПТОВУ подію в розповіді?",
+      "o": ["nagle","wcześniej","jednocześnie"], "a": 0,
+      "fb": "«Nagle» (а також wtem, niespodziewanie) сигналізує раптову зміну: «Nagle robi się ciemno»." },
+    { "topic": "czas", "q": "До якої групи часу належить вираз «w międzyczasie»?",
+      "o": ["przedtem (раніше)","w tym samym czasie (водночас)","potem (потім)"], "a": 1,
+      "fb": "«W międzyczasie» означає «тим часом», тобто дію в той самий час." },
+    { "topic": "zeszyt", "q": "Що насправді з'явилося на стежці, коли студенти чекали на Уве?",
+      "o": ["ведмідь","олень","рятувальник"], "a": 1,
+      "fb": "Спершу думали, що ведмідь, але «To jeleń! — odetchnęliśmy z ulgą». Це був олень." }
+  ],
+
+  "checklist": [
+    { "text": "Розповісти про пригоду в минулому часі", "sub": "Wybraliśmy się… / Nagle… / Na szczęście wszystko skończyło się dobrze" },
+    { "text": "Вживати означення часу й послідовності", "sub": "najpierw, potem, w międzyczasie, wkrótce, w końcu" },
+    { "text": "Сигналізувати раптові події", "sub": "nagle, wtem, niespodziewanie, w tym momencie" },
+    { "text": "Правильно вживати сполучники за значенням", "sub": "i/oraz, albo/lub, ale/natomiast, więc, niż, czyli" },
+    { "text": "Будувати підрядні речення зі сполучниками", "sub": "żeby, ponieważ, zanim, choć, gdyby, im… tym…" }
+  ]
+}
