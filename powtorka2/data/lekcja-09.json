@@ -1,0 +1,222 @@
+{
+  "id": "09",
+  "title": "Nie zapomnij paszportu!",
+  "goal": "Повторюємо: накази, заборони й поради · подорожі та пакування · спорядження для кемпінгу й аеропорт · tryb rozkazujący (наказовий спосіб) і вирази trzeba / można / warto / należy",
+
+  "vocab": [
+    { "group": "Pakowanie i bagaż — пакування й багаж", "items": [
+      ["walizka","валіза"],["walizka na kółkach","валіза на коліщатках"],["plecak","рюкзак"],
+      ["torba","сумка"],["bagaż","багаж"],["bagaż podręczny","ручна поклажа"],
+      ["nadbagaż","зайва вага багажу"],["spakować się","зібратися (спакуватися)"],
+      ["szykować się","збиратися / готуватися"],["pojemny","місткий"],["poręczny","зручний (компактний)"],
+      ["kieszeń","кишеня"],["pognieciony","зім’ятий"],["wyprasowany","випрасуваний"]
+    ]},
+    { "group": "Sprzęt kempingowy — спорядження для кемпінгу", "items": [
+      ["namiot","намет"],["śpiwór","спальний мішок"],["karimata","туристичний килимок"],
+      ["kuchenka turystyczna","туристична плитка"],["krzesełka turystyczne","туристичні стільці"],
+      ["zapałki","сірники"],["zapalniczka","запальничка"],["płyn przeciw komarom","засіб від комарів"],
+      ["krem z filtrem","крем із SPF-фільтром"],["kurtka przeciwdeszczowa","дощовик"],
+      ["sandały","сандалі"],["kąpielówki","плавки"],["wieszak","вішак"]
+    ]},
+    { "group": "Lotnisko — аеропорт", "items": [
+      ["paszport","паспорт"],["karta pokładowa","посадковий талон"],["odprawa","реєстрація"],
+      ["odprawa paszportowa","паспортний контроль"],["kontrola bezpieczeństwa","контроль безпеки"],
+      ["pokład samolotu","борт літака"],["pasażer","пасажир"],["lot","рейс / політ"],
+      ["lądowanie","посадка (приземлення)"],["zapiąć pasy","пристебнути паски"],
+      ["wózek bagażowy","візок для багажу"],["clo","мито"],["zażądać","зажадати / вимагати"]
+    ]},
+    { "group": "Wyrazy modalne — модальні вирази", "items": [
+      ["trzeba","треба / потрібно"],["można","можна"],["nie wolno","не можна / заборонено"],
+      ["warto","варто"],["należy","належить / слід"],["powinno się","слід / годилося б"],
+      ["nieodzowny","конче потрібний"],["niezbędny","необхідний"],["zbędny","зайвий"],
+      ["rozsądny","розважливий"],["zamieszanie","метушня / переполох"],["mnóstwo","безліч"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Tryb rozkazujący — наказовий спосіб (ty)",
+      "note": "Форма 2 ос. однини. Зазвичай беремо основу 3 ос. однини теперішнього часу й відкидаємо закінчення. Заперечення «nie» не змінює форму.",
+      "table": {
+        "head": ["Bezokolicznik","On/ona robi","Rozkaz (ty)"],
+        "rows": [
+          ["robić","rob*i*","Zr*ób*! / Nie r*ób*!"],
+          ["wziąć","weźm*ie*","We*ź*!"],
+          ["pisać","pisz*e*","Pi*sz*! / Na*pisz*!"],
+          ["czekać","czek*a*","Czek*aj*! / Pocze*kaj*!"],
+          ["pospieszyć się","pospiesz*y* się","Pospie*sz* się!"]
+        ]
+      }
+    },
+    {
+      "title": "Formy nieregularne — нерегулярні форми",
+      "note": "Кілька дієслів мають окрему форму наказу, яку треба запам’ятати.",
+      "table": {
+        "head": ["Bezokolicznik","Rozkaz (ty)"],
+        "rows": [
+          ["być","b*ądź*!"],
+          ["mieć","mi*ej*!"],
+          ["chcieć","chci*ej*!"],
+          ["jeść","z*jedz*!"],
+          ["pomóc","po*móż*!"]
+        ]
+      }
+    },
+    {
+      "title": "Pozostałe osoby trybu rozkazującego — інші особи",
+      "note": "Форму на «ty» творимо як вище, на «my» додаємо -my, на «wy» — -cie. Ввічливі форми «pan/pani/państwo» творимо через «niech».",
+      "table": {
+        "head": ["Osoba","Przykład (zrobić)"],
+        "rows": [
+          ["ty","Zr*ób*!"],
+          ["my","Zr*óbmy*!"],
+          ["wy","Zr*óbcie*!"],
+          ["pan / pani","Niech pan / pani zr*obi*!"],
+          ["państwo","Niech państwo zr*obią*!"]
+        ]
+      }
+    },
+    {
+      "title": "Czasowniki niefleksyjne — модальні вирази (наказ безособово)",
+      "note": "Ці вирази не відмінюються за особами; після них стоїть інфінітив. Виражають наказ, заборону, пораду або дозвіл.",
+      "table": {
+        "head": ["Wyraz","Znaczenie","Przykład"],
+        "rows": [
+          ["trzeba / należy","треба / слід","Trzeba zapłacić zaliczkę. Należy skręcić w prawo."],
+          ["można / wolno","можна / дозволено","Czy można płacić kartą? Tu wolno palić."],
+          ["nie wolno","не можна / заборонено","Tu nie wolno palić!"],
+          ["warto / nie warto","варто / не варто","Warto ją obejrzeć. Nie warto jej czytać."],
+          ["powinno się","слід / годилося б","Powinno się wykupić ubezpieczenie."]
+        ]
+      }
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Walizka czy plecak? · трек 209A3", "items": [
+      { "type": "mono", "title": "Ewa — walizka na kółkach", "audio": "audio/L09/L09-czytanie-01.mp3",
+        "text": "Nie znoszę nosić ciężkich bagaży. Dlatego walizka na kółkach jest dla mnie idealna. Tym bardziej, że zwykle, jak typowa kobieta, zabieram w podróż zbyt wiele rzeczy.",
+        "tr": "Терпіти не можу носити важкий багаж. Тому валіза на коліщатках для мене ідеальна. Тим більше, що зазвичай, як типова жінка, беру в подорож забагато речей." },
+      { "type": "mono", "title": "Piotr — woli walizkę", "audio": "audio/L09/L09-czytanie-02.mp3",
+        "text": "Torby są zazwyczaj lżejsze, ale ja zdecydowanie wolę walizkę, bo można porządnie poukładać rzeczy, no i koszule nie są pogniecione po podróży.",
+        "tr": "Сумки зазвичай легші, але я однозначно віддаю перевагу валізі, бо можна гарно поскладати речі, та й сорочки не зім’яті після подорожі." },
+      { "type": "mono", "title": "Kamila — lekka torba", "audio": "audio/L09/L09-czytanie-03.mp3",
+        "text": "Jestem studentką spoza Krakowa. Często jeżdżę do rodziców i zawsze mam mnóstwo rzeczy do zabrania. Wszystkie niezbędne. Dlatego dla mnie lekka torba z wieloma kieszeniami jest najbardziej praktyczna.",
+        "tr": "Я студентка не з Кракова. Часто їжджу до батьків і завжди маю безліч речей, які треба взяти. Усі необхідні. Тому для мене найпрактичніша легка сумка з багатьма кишенями." },
+      { "type": "mono", "title": "Paweł — plecak", "audio": "audio/L09/L09-czytanie-04.mp3",
+        "text": "Na ogół ludzie wolą pakować się w walizki. Według mnie plecak jest o wiele bardziej poręczny. Zwłaszcza taki z pojemnymi kieszeniami. A już na wyprawę w góry jest wprost nieodzowny.",
+        "tr": "Зазвичай люди воліють пакуватися у валізи. На мою думку, рюкзак набагато зручніший. Особливо такий з місткими кишенями. А вже для походу в гори він просто незамінний." }
+    ]},
+    { "block": "B. Wszyscy się pakują · dialog · трек 209B1", "items": [
+      { "type": "dia", "title": "Karol i mama — lista rzeczy do spakowania", "audio": "audio/L09/L09-czytanie-05.mp3", "lines": [
+        ["Mama","Karol, ty znów przed komputerem?","Кароле, ти знову перед комп’ютером?"],
+        ["Karol","Mhm.","Угу."],
+        ["Mama","Co ty robisz? Nie jedz nad klawiaturą. Wytrzyj te okruchy. Dlaczego się nie szykujesz do wyjazdu? Wyłącz to natychmiast i idź się pakować.","Що ти робиш? Не їж над клавіатурою. Витри ці крихти. Чому не збираєшся в дорогу? Вимкни це негайно й іди пакуватися."],
+        ["Karol","Kiedy ja właśnie robię listę wszystkich rzeczy do spakowania.","Та я ж саме складаю список усіх речей, які треба спакувати."],
+        ["Mama","W takim razie przeczytaj mi. Albo nie, pokaż. No dobrze, karimata, śpiwór. A gdzie namiot?","Тоді прочитай мені. Або ні, покажи. Ну добре, килимок, спальник. А де намет?"],
+        ["Karol","Namiot bierze Adam.","Намет бере Адам."],
+        ["Mama","Aha. Sprawdźmy dalej. Kuchenka turystyczna, zapałki, zapalniczka. Dobrze, cały sprzęt kempingowy jest. Dopisz sobie płyn przeciw komarom. Zobaczmy jeszcze ubrania. Mniej więcej masz wszystko. Tylko weź ten gruby sweter i pamiętaj o kurtce przeciwdeszczowej i kąpielówkach.","Ага. Перевірмо далі. Туристична плитка, сірники, запальничка. Добре, усе спорядження для кемпінгу є. Допиши собі засіб від комарів. Подивімося ще одяг. Більш-менш усе маєш. Тільки візьми цей теплий светр і пам’ятай про дощовик і плавки."]
+      ]},
+      { "type": "dia", "title": "Karolina i mama — przed wyjazdem do Hiszpanii", "audio": "audio/L09/L09-czytanie-06.mp3", "lines": [
+        ["Karolina","Mamo, nie widziałaś gdzieś moich sandałów?","Мамо, ти не бачила десь моїх сандалів?"],
+        ["Mama","Leżą w przedpokoju, koło wieszaka. Masz już wszystko?","Лежать у передпокої, біля вішака. У тебе вже все є?"],
+        ["Karolina","Prawie. Brakuje mi tylko kosmetyków.","Майже. Бракує лише косметики."],
+        ["Mama","Koniecznie spakuj krem z filtrem. I nie zapomnij o paszporcie.","Обов’язково спакуй крем із фільтром. І не забудь про паспорт."],
+        ["Karolina","Przecież wiem, mamo. Nie jestem dzieckiem.","Та я ж знаю, мамо. Я не дитина."],
+        ["Mama","Karolinko, ja cię bardzo proszę, żebyś nie uważała się za zbyt dorosłą. Zwłaszcza na wakacjach w Hiszpanii. Pamiętaj, nie chodź nigdzie sama. Nie wracaj za późno. A przede wszystkim nie zadawaj się z nieznajomymi. Bądź rozsądna.","Кароліночко, я тебе дуже прошу, щоб ти не вважала себе надто дорослою. Особливо на відпочинку в Іспанії. Пам’ятай, нікуди не ходи сама. Не повертайся надто пізно. А насамперед не водися з незнайомцями. Будь розважливою."]
+      ]}
+    ]},
+    { "block": "D. Na lotnisku · dialog · трек 209D1", "items": [
+      { "type": "dia", "title": "Państwo Maj — odprawa i nadbagaż", "audio": "audio/L09/L09-czytanie-07.mp3", "lines": [
+        ["Pani Maj","Grzegorz, pospiesz się! Nie zdążymy na samolot!","Ґжеґожу, поквапся! Ми не встигнемо на літак!"],
+        ["Pan Maj","Kochanie, nie stresuj się. Mamy jeszcze sporo czasu.","Кохана, не нервуй. У нас ще багато часу."],
+        ["Pani Maj","Popatrz, jaka jest kolejka do odprawy bagażu! W dodatku ja mam chyba za ciężką torbę i będziemy płacić za nadbagaż!","Подивись, яка черга на реєстрацію багажу! До того ж у мене, мабуть, надто важка сумка, і ми платитимемо за перевагу!"],
+        ["Pan Maj","Twój bagaż jest w sam raz, a kolejka idzie bardzo szybko. Naszykuj swój paszport i sprawdź, czy nie masz w torebce czegoś, czego nie wolno wnosić na pokład.","Твій багаж саме в нормі, а черга йде дуже швидко. Приготуй свій паспорт і перевір, чи немає в сумочці чогось, що не можна проносити на борт."]
+      ]},
+      { "type": "dia", "title": "Państwo Maj — kontrola bezpieczeństwa", "audio": "audio/L09/L09-czytanie-08.mp3", "lines": [
+        ["Pan Maj","Widzisz? Odprawa paszportowa też już za nami. Teraz tylko przejście przez bramki, kontrola bagażu podręcznego i możesz sobie spokojnie usiąść i czekać na samolot.","Бачиш? Паспортний контроль теж уже позаду. Тепер тільки прохід через рамки, контроль ручної поклажі — і можеш собі спокійно сісти й чекати на літак."],
+        ["Pani Maj","Nie cierpię tej całej kontroli bezpieczeństwa. Nie znoszę tego prześwietlania torebek, wyciągania wszystkiego z kieszeni, zdejmowania zegarków, pasków albo, co gorsza, butów.","Терпіти не можу всього цього контролю безпеки. Не зношу цього просвічування сумочок, виймання всього з кишень, знімання годинників, пасків чи, що гірше, взуття."],
+        ["Pan Maj","Joanno, uspokój się. Nie ma się czym przejmować, to tylko procedura.","Йоанно, заспокойся. Нема чого хвилюватися, це лише процедура."],
+        ["Pani Maj","Wiem, ale o rany, Grzegorz, ja chyba zgubiłam kartę pokładową!","Знаю, але ой лишенько, Ґжеґожу, я, здається, загубила посадковий талон!"],
+        ["Pan Maj","Nie zgubiłaś, tylko dałaś mi. Coś mi się zdaje, kochanie, że po prostu boisz się lotu i stąd to całe poirytowanie.","Не загубила, просто дала мені. Здається мені, кохана, що ти просто боїшся польоту, і звідси все це роздратування."]
+      ]},
+      { "type": "mono", "title": "Komunikat dla pasażerów — zakazane przedmioty", "audio": "audio/L09/L09-czytanie-09.mp3",
+        "text": "Uwaga pasażerowie! Przypominamy, że na pokład samolotu nie wolno wnosić ostrych metalowych przedmiotów, pojemników pod ciśnieniem (dezodoranty, pianki do golenia, lakiery do włosów) ani płynów. Kosmetyki typu żele i pasty o pojemności nie większej niż 100 ml można zabrać w specjalnej, przezroczystej, plastikowej, zamkniętej torebce.",
+        "tr": "Увага, пасажири! Нагадуємо, що на борт літака не можна проносити гострі металеві предмети, ємності під тиском (дезодоранти, піни для гоління, лаки для волосся) та рідини. Косметику на кшталт гелів і паст об’ємом не більше ніж 100 мл можна взяти в спеціальному прозорому пластиковому закритому пакетику." }
+    ]},
+    { "block": "D. Na pokładzie · dialogi · трек 209D4", "items": [
+      { "type": "dia", "title": "Powitanie na pokładzie i prośba o pomoc", "audio": "audio/L09/L09-czytanie-10.mp3", "lines": [
+        ["Załoga","Witamy Państwa na pokładzie samolotu linii LOT. Prosimy o zapięcie pasów, złożenie stolików i zapoznanie się z instrukcją bezpieczeństwa. W czasie startu prosimy o nieużywanie urządzeń elektronicznych i nieopuszczanie swoich miejsc. Życzymy miłego lotu.","Вітаємо Вас на борту літака авіакомпанії LOT. Просимо пристебнути паски, скласти столики й ознайомитися з інструкцією з безпеки. Під час зльоту просимо не користуватися електронними пристроями й не залишати своїх місць. Зичимо приємного польоту."],
+        ["Pasażer","Przepraszam, nie mogę zapiąć pasów. Czy może mi Pani pomóc?","Перепрошую, не можу пристебнути паски. Чи можете Ви мені допомогти?"],
+        ["Stewardesa","Oczywiście, już idę. Czy mogę Panu podać coś do picia?","Звичайно, уже йду. Чи можу запропонувати Вам щось випити?"],
+        ["Pasażer","Owszem, proszę coś zimnego.","Так, прошу щось холодне."],
+        ["Stewardesa","Mogę Panu zaproponować sok, wodę mineralną albo mrożoną herbatę.","Можу запропонувати Вам сік, мінеральну воду або холодний чай."]
+      ]},
+      { "type": "dia", "title": "Pytanie o lądowanie", "audio": "audio/L09/L09-czytanie-11.mp3", "lines": [
+        ["Pasażer","Przepraszam, za ile będziemy lądować w Rzymie?","Перепрошую, за скільки ми приземлимося в Римі?"],
+        ["Stewardesa","Za godzinę i piętnaście minut.","За годину й п’ятнадцять хвилин."],
+        ["Pasażer","A która to będzie godzina miejscowego czasu?","А котра це буде година за місцевим часом?"],
+        ["Stewardesa","Siedemnasta dwadzieścia.","Сімнадцята двадцять."],
+        ["Pasażer","Dziękuję bardzo.","Дуже дякую."]
+      ]},
+      { "type": "mono", "title": "Komunikat kapitana", "audio": "audio/L09/L09-czytanie-12.mp3",
+        "text": "Witam Państwa, kapitan samolotu. Lecimy na wysokości 9 tysięcy metrów nad poziomem morza. Będziemy przelatywać nad Wiedniem i Rijeką. Temperatura na zewnątrz wynosi minus 43 stopnie Celsjusza. Szanowni Państwo, rozpoczynamy lądowanie. Prosimy o pozostanie na swoich miejscach, złożenie stolików i zapięcie pasów. Jest pogodnie, temperatura na zewnątrz wynosi 28 stopni Celsjusza.",
+        "tr": "Вітаю Вас, капітан літака. Летимо на висоті 9 тисяч метрів над рівнем моря. Пролітатимемо над Віднем і Рієкою. Температура за бортом мінус 43 градуси Цельсія. Шановні пані та панове, починаємо посадку. Просимо залишатися на своїх місцях, скласти столики й пристебнути паски. Погода ясна, температура за бортом 28 градусів Цельсія." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 09 — треки 209A3, 209B1, 209D1, 209D4. Польський текст — за транскриптами підручника (дослівно). Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "Komunikaty lotniskowe · zeszyt cw08 (трек 27394)", "audio": "audio/L09/L09-zeszyt-01.mp3",
+      "text": "Uwaga, proszę przygotować się do kontroli bezpieczeństwa. Proszę zdjąć płaszcze, kurtki, marynarki i włożyć je do pojemników na taśmie. Proszę również zdjąć paski, zegarki i naszyjniki. Proszę wyjąć z bagażu podręcznego komputery i inne urządzenia elektroniczne. Płyny powyżej 100 ml proszę wrzucić do specjalnie przygotowanych koszy. Kosmetyki, lekarstwa, płyny poniżej 100 ml proszę spakować do plastikowych przezroczystych torebek.",
+      "tr": "Увага, просимо приготуватися до контролю безпеки. Просимо зняти пальта, куртки, піджаки й покласти їх у контейнери на стрічці. Просимо також зняти паски, годинники й намиста. Просимо вийняти з ручної поклажі комп’ютери та інші електронні пристрої. Рідини понад 100 мл просимо викинути до спеціально підготовлених кошиків. Косметику, ліки, рідини менше ніж 100 мл просимо запакувати в пластикові прозорі пакетики." },
+    { "type": "mono", "title": "Lądowanie i pożegnanie na pokładzie · zeszyt cw09 (трек 26290)", "audio": "audio/L09/L09-zeszyt-02.mp3",
+      "text": "Uwaga! Rozpoczynamy lądowanie. Prosimy, żeby Państwo wrócili na swoje miejsca. Proszę zapiąć pasy, złożyć stoliki, a oparcia ustawić w pozycji pionowej. W czasie lądowania ze względów bezpieczeństwa toalety będą nieczynne, a światła wyłączone. Proszę Państwa, lądowanie przebiegło bez problemów. Prosimy o pozostanie na swoich miejscach do momentu wyłączenia sygnalizacji, że pasy powinny być zapięte. Przypominamy, że telefony nadal powinny pozostać wyłączone. Informujemy również, że na terenie lotniska, z wyjątkiem wyznaczonych miejsc, palenie jest zabronione. Dziękujemy Państwu za wspólny lot. Życzymy miłego pobytu. Zapraszamy do ponownego skorzystania z naszych usług. Z naszą ofertą można się zapoznać na stronie www.lot.pl.",
+      "tr": "Увага! Починаємо посадку. Просимо, щоб Ви повернулися на свої місця. Просимо пристебнути паски, скласти столики, а спинки крісел поставити у вертикальне положення. Під час посадки з міркувань безпеки туалети будуть зачинені, а світло вимкнене. Шановні пані та панове, посадка пройшла без проблем. Просимо залишатися на своїх місцях до моменту вимкнення сигналу про те, що паски мають бути пристебнуті. Нагадуємо, що телефони й надалі мають залишатися вимкненими. Повідомляємо також, що на території аеропорту, за винятком визначених місць, паління заборонене. Дякуємо Вам за спільний політ. Зичимо приємного перебування. Запрошуємо знову скористатися нашими послугами. З нашою пропозицією можна ознайомитися на сторінці www.lot.pl." },
+    { "type": "mono", "title": "Ogłoszenia lotniskowe A–F · zeszyt cw10 (трек 26182)", "audio": "audio/L09/L09-zeszyt-03.mp3",
+      "text": "A. Pasażerowie odlatujący do Frankfurtu nad Menem proszeni są o przejście na terminal B do bramki numer 15. B. Pasażerowie oczekujący na opóźniony samolot do Kairu proszeni są o zgłoszenie się do restauracji na poziomie plus jeden po odbiór czeku na posiłek. C. Uwaga, pan Jarosław Potocki. Powtarzam, pan Jarosław Potocki. Proszony jest o zgłoszenie się do odprawy paszportowej. D. Uwaga, pasażerowie proszeni są o niepozostawianie bagażu bez opieki nigdzie na terenie lotniska. E. Uwaga, przypominamy, że palenie na terenie lotniska poza wyznaczonymi miejscami jest niedozwolone. F. Uwaga, przed przejściem do kontroli bezpieczeństwa prosimy pasażerów o zapoznanie się z listą przedmiotów, których nie wolno zabierać na pokład samolotu.",
+      "tr": "A. Пасажирів, які відлітають до Франкфурта-на-Майні, просимо пройти до терміналу B, до виходу номер 15. B. Пасажирів, які очікують на затриманий рейс до Каїра, просимо звернутися до ресторану на поверсі плюс один для отримання талона на харчування. C. Увага, пан Ярослав Потоцький. Повторюю, пан Ярослав Потоцький. Просимо звернутися до паспортного контролю. D. Увага, пасажирів просимо не залишати багаж без нагляду ніде на території аеропорту. E. Увага, нагадуємо, що паління на території аеропорту поза визначеними місцями заборонене. F. Увага, перед проходом до контролю безпеки просимо пасажирів ознайомитися зі списком предметів, які не можна брати на борт літака." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 09, ćw. 8, 9, 10 (треки 27394, 26290, 26182). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "quiz": [
+    { "topic": "rozkaz", "q": "Як буде наказ «зроби це!» (ty) від дієслова «zrobić»?",
+      "o": ["Zrobij to!","Zrób to!","Zrobisz to!"], "a": 1,
+      "fb": "Tryb rozkazujący від «zrobić» (ty) — «Zrób!». Мама в діалозі: «Wyłącz to natychmiast i idź się pakować»." },
+    { "topic": "rozkaz", "q": "Яка форма наказу від «być» (ty)?",
+      "o": ["bądź","bęć","bij"], "a": 0,
+      "fb": "«Być» має нерегулярний наказ: «bądź!». Мама каже Кароліні: «Bądź rozsądna»." },
+    { "topic": "słownictwo", "q": "Що означає польське «nadbagaż»?",
+      "o": ["ручна поклажа","зайва вага багажу","візок для багажу"], "a": 1,
+      "fb": "«Nadbagaż» — багаж понад норму. Pani Maj боїться: «będziemy płacić za nadbagaż»." },
+    { "topic": "wyrazy modalne", "q": "Доповніть знак заборони: «Tu ___ palić!» (тут палити не можна).",
+      "o": ["nie wolno","trzeba","warto"], "a": 0,
+      "fb": "Заборону виражає «nie wolno» + інфінітив: «Tu nie wolno palić!»." },
+    { "topic": "czytanie", "q": "Хто з персонажів каже, що для нього найзручніший рюкзак?",
+      "o": ["Ewa","Kamila","Paweł"], "a": 2,
+      "fb": "Paweł: «Według mnie plecak jest o wiele bardziej poręczny… na wyprawę w góry jest wprost nieodzowny»." },
+    { "topic": "słownictwo", "q": "Який предмет НЕ належить до спорядження для кемпінгу?",
+      "o": ["śpiwór","namiot","karta pokładowa"], "a": 2,
+      "fb": "«Karta pokładowa» — посадковий талон (аеропорт). Śpiwór і namiot — це sprzęt kempingowy." },
+    { "topic": "wyrazy modalne", "q": "Доповніть пораду: «To niezła sztuka, ___ ją obejrzeć» (варто подивитися).",
+      "o": ["warto","nie wolno","nie warto"], "a": 0,
+      "fb": "Пораду «варто» виражає «warto» + інфінітив: «warto ją obejrzeć»." },
+    { "topic": "czytanie", "q": "Що мама радить Кароліні обов’язково спакувати?",
+      "o": ["krem z filtrem","kuchenkę turystyczną","namiot"], "a": 0,
+      "fb": "Mama: «Koniecznie spakuj krem z filtrem. I nie zapomnij o paszporcie». Кемпінгове спорядження пакує Karol." },
+    { "topic": "rozkaz", "q": "Наказ «не їж!» (ty) від дієслова «jeść» — це…",
+      "o": ["nie jedz!","nie jeś!","nie jedź!"], "a": 0,
+      "fb": "Наказ від «jeść» (ty) — «jedz!», заперечення «nie jedz!». Мама: «Nie jedz nad klawiaturą»." },
+    { "topic": "lotnisko", "q": "Що, за оголошенням, НЕ можна проносити на борт літака?",
+      "o": ["косметику до 100 мл у пакетику","паспорт","гострі металеві предмети"], "a": 2,
+      "fb": "«Na pokład samolotu nie wolno wnosić ostrych metalowych przedmiotów…». Косметику до 100 мл у пакетику взяти можна." }
+  ],
+
+  "checklist": [
+    { "text": "Утворити наказовий спосіб (ty)", "sub": "Zrób! Weź! Pospiesz się! Nie jedz!" },
+    { "text": "Знати нерегулярні форми наказу", "sub": "być → bądź!, mieć → miej!, jeść → zjedz!" },
+    { "text": "Вживати модальні вирази з інфінітивом", "sub": "trzeba, można, warto, należy, nie wolno, powinno się" },
+    { "text": "Назвати спорядження для подорожі й кемпінгу", "sub": "namiot, śpiwór, walizka, plecak, krem z filtrem" },
+    { "text": "Орієнтуватися в аеропорту", "sub": "odprawa, karta pokładowa, kontrola bezpieczeństwa, nadbagaż" }
+  ]
+}
