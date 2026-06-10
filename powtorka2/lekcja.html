@@ -10,6 +10,14 @@
   --line:#e7e2d6;--acc:#d6455a;--acc2:#3a6ea5;--ok:#2f9e44;--bad:#e03131;--warn:#e8920c;
   --shadow:0 2px 10px rgba(60,50,30,.06);
 }
+html[data-theme="dark"]{
+  --bg:#121316;--card:#1e2127;--soft:#242830;--ink:#d8dbe0;--mut:#9aa0ab;
+  --line:#2d323c;--acc:#e55b6e;--acc2:#6ba2d6;--ok:#37b24d;--bad:#f03e3e;--warn:#fcc419;
+  --shadow:0 4px 20px rgba(0,0,0,.35);
+}
+html[data-theme="dark"] .cb{color:#fff}
+.themebtn{font-family:Roboto,sans-serif;float:right;margin:2px 12px 0 0;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:20px;width:34px;height:34px;cursor:pointer;font-size:15px;line-height:1}
+.themebtn:hover{border-color:var(--acc)}
 *{box-sizing:border-box}
 body{margin:0;font:17px/1.65 "Iowan Old Style",Georgia,"Segoe UI",Roboto,serif;background:var(--bg);color:var(--ink)}
 header{position:sticky;top:0;z-index:20;background:#fffefbf2;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:15px 22px}
@@ -55,7 +63,8 @@ section>.sub{color:var(--mut);font-size:14px;margin:0 0 16px;font-family:"Segoe 
 .gtable{width:100%;border-collapse:collapse;font-size:15px;margin:4px 0 6px;font-family:"Segoe UI",Roboto,sans-serif}
 .gtable th{text-align:left;font-family:Roboto,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--mut);padding:7px 10px;border-bottom:2px solid var(--line)}
 .gtable td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-.gtable em{color:var(--acc2);font-style:normal;font-weight:600}
+.gtable em,.gcard .note em,.gcard .words em{color:var(--acc);font-style:normal;font-weight:800}
+.gcard .hl,.gtable .hl{color:var(--acc);font-weight:800}
 .gcard{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}
 .gcard h4{font-family:Roboto,sans-serif;color:var(--acc);font-size:15.5px;margin:0 0 8px}
 .gcard .note{font-size:14px;color:var(--mut);font-family:"Segoe UI",sans-serif;margin:2px 0 8px}
@@ -63,6 +72,20 @@ section>.sub{color:var(--mut);font-size:14px;margin:0 0 16px;font-family:"Segoe 
 .fb{display:none;margin-top:14px;background:#eef4fb;border:1px solid #d8e6f4;border-radius:10px;padding:11px 14px;font-size:14.5px;color:var(--ink);font-family:"Segoe UI",Roboto,sans-serif}
 .fb.show{display:block}
 .fb b{color:var(--acc2)}
+.qprog{flex:1;height:6px;background:var(--line);border-radius:10px;overflow:hidden;margin:0 12px}
+.qprog .fill{height:100%;width:0;background:var(--acc2);border-radius:10px;transition:width .3s ease}
+.qscore{font-family:Roboto,sans-serif;font-size:12px;font-weight:700;color:var(--acc);background:#fdecef;border:1px solid #f3c6cd;border-radius:20px;padding:2px 10px;white-space:nowrap}
+html[data-theme="dark"] .qscore{background:rgba(229,91,110,.15);border-color:rgba(229,91,110,.4)}
+#wynik .emoji{font-size:46px;line-height:1;margin-bottom:6px}
+#wynik .headline{font-family:Roboto,sans-serif;font-size:17px;font-weight:700;margin:4px 0 2px}
+.checklist{display:flex;flex-direction:column;gap:12px}
+.chk{display:flex;align-items:flex-start;gap:11px;cursor:pointer;background:var(--soft);border:1px solid var(--line);border-radius:11px;padding:12px 14px}
+.chk:hover{border-color:var(--acc)}
+.chk .box{width:22px;height:22px;border:2px solid var(--line);border-radius:6px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-size:14px;color:#fff;margin-top:1px}
+.chk.on .box{background:var(--ok);border-color:var(--ok)}
+.chk .ctext{font-weight:600;font-size:16px}
+.chk.on .ctext{text-decoration:line-through;color:var(--mut)}
+.chk .csub{font-size:13.5px;color:var(--mut);font-family:"Segoe UI",sans-serif;margin-top:2px}
 .btn{font-family:Roboto,sans-serif;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 13px;font-size:12.5px;cursor:pointer}
 .btn:hover{border-color:var(--acc)}
 .reflist{background:var(--soft);border:1px solid var(--line);border-radius:13px;padding:14px 16px;margin-bottom:14px}
@@ -147,6 +170,7 @@ section>.sub{color:var(--mut);font-size:14px;margin:0 0 16px;font-family:"Segoe 
 </head>
 <body>
 <header>
+  <button class="themebtn" id="themebtn" title="Світла / темна тема">🌙</button>
   <a class="back" href="index.html">← усі уроки</a>
   <span class="num" id="hNum">··</span><h1 id="hTitle">Завантаження…</h1>
   <div class="goal" id="hGoal"></div>
@@ -156,6 +180,21 @@ section>.sub{color:var(--mut);font-size:14px;margin:0 0 16px;font-family:"Segoe 
 <script>
 const $ = (t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
 const esc = s => String(s).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+// inline markup: *…* → highlighted (e.g. grammar endings)
+const hl = s => esc(s).replace(/\*([^*]+)\*/g,'<span class="hl">$1</span>');
+// theme toggle (persisted)
+(function(){
+  const saved=localStorage.getItem('pwt-theme');
+  if(saved==='dark') document.documentElement.setAttribute('data-theme','dark');
+  const set=()=>{const d=document.documentElement.getAttribute('data-theme')==='dark';const b=document.getElementById('themebtn');if(b)b.textContent=d?'☀️':'🌙';};
+  document.addEventListener('DOMContentLoaded',()=>{
+    const b=document.getElementById('themebtn'); if(!b)return; set();
+    b.onclick=()=>{const d=document.documentElement.getAttribute('data-theme')==='dark';
+      if(d){document.documentElement.removeAttribute('data-theme');localStorage.setItem('pwt-theme','light');}
+      else{document.documentElement.setAttribute('data-theme','dark');localStorage.setItem('pwt-theme','dark');}
+      set();};
+  });
+})();
 function getId(){const p=new URLSearchParams(location.search).get('id');return (p||'01').padStart(2,'0');}
 
 function section(tag,title){
@@ -258,17 +297,17 @@ function render(d){
     sub(s,d.gramatykaSub||'Ключова граматика уроку. Прочитай таблиці й приклади.');
     d.gramatyka.forEach(c=>{
       const g=$('div','gcard'); g.appendChild($('h4',null,esc(c.title)));
-      if(c.note) g.appendChild($('div','note',esc(c.note)));
+      if(c.note) g.appendChild($('div','note',hl(c.note)));
       if(c.table){
         const t=$('table','gtable');
         if(c.table.head){
           t.appendChild($('thead',null,'<tr>'+c.table.head.map(h=>`<th>${esc(h)}</th>`).join('')+'</tr>'));
         }
         const tb=$('tbody');
-        c.table.rows.forEach(r=>tb.appendChild($('tr',null,r.map(cell=>`<td>${esc(cell)}</td>`).join(''))));
+        c.table.rows.forEach(r=>tb.appendChild($('tr',null,r.map(cell=>`<td>${hl(cell)}</td>`).join(''))));
         t.appendChild(tb); g.appendChild(t);
       }
-      if(c.words) g.appendChild($('div','words',esc(c.words)));
+      if(c.words) g.appendChild($('div','words',hl(c.words)));
       s.appendChild(g);
     });
     wrap.appendChild(s);
@@ -355,18 +394,34 @@ function render(d){
 
   /* QUIZ */
   if(d.quiz&&d.quiz.length) renderQuiz(d.quiz,wrap);
+
+  /* CHECKLIST — підсумок */
+  if(d.checklist&&d.checklist.length){
+    const s=section('підсумок','Czy już umiem?');
+    sub(s,'Познач те, що вже впевнено вмієш після цього уроку.');
+    const list=$('div','checklist');
+    d.checklist.forEach(it=>{
+      const text=typeof it==='string'?it:it.text;
+      const subt=typeof it==='string'?'':(it.sub||'');
+      const row=$('div','chk',`<div class="box">✓</div><div><div class="ctext">${esc(text)}</div>${subt?`<div class="csub">${esc(subt)}</div>`:''}</div>`);
+      row.onclick=()=>row.classList.toggle('on');
+      list.appendChild(row);
+    });
+    s.appendChild(list); wrap.appendChild(s);
+  }
 }
 
 function renderQuiz(Q,wrap){
   const s=section(`${Q.length} завдань`,'Quiz');
   sub(s,'Обери відповідь — і одразу побачиш, правильно чи ні. Тисни «Далі».');
   const qw=$('div'); qw.id='quizwrap';
-  qw.innerHTML=`<div class="qhead"><span class="qtopic" id="qtopic"></span><div class="dots" id="dots"></div></div>`+
+  qw.innerHTML=`<div class="qhead"><span class="qtopic" id="qtopic"></span><div class="qprog"><div class="fill" id="qfill"></div></div><span class="qscore" id="qscore">0 / ${Q.length}</span></div>`+
+    `<div class="dots" id="dots"></div>`+
     `<div class="qcard"><div class="qt" id="qt"></div><div class="opts" id="opts"></div><div class="fb" id="fb"></div></div>`+
     `<div class="qnav"><button class="next" id="next" disabled>Далі</button></div>`;
   s.appendChild(qw);
   const wy=$('div'); wy.id='wynik';
-  wy.innerHTML=`<div class="big" id="bigscore">—</div><div class="rev" id="review"></div>`+
+  wy.innerHTML=`<div class="emoji" id="emoji"></div><div class="headline" id="headline"></div><div class="big" id="bigscore">—</div><div class="rev" id="review"></div>`+
     `<button class="again">Пройти ще раз</button>`;
   s.appendChild(wy); wrap.appendChild(s);
   wy.querySelector('.again').onclick=()=>location.reload();
@@ -380,6 +435,7 @@ function renderQuiz(Q,wrap){
     qw.querySelector('#qtopic').textContent=`Завдання ${i+1} / ${Q.length} · ${Q[i].topic||''}`;
     qw.querySelector('#qt').textContent=Q[i].q;
     [...dotsEl.children].forEach((dt,k)=>dt.classList.toggle('cur',k===i));
+    const fill=qw.querySelector('#qfill'); if(fill) fill.style.width=Math.round(((i+1)/Q.length)*100)+'%';
     const fb=qw.querySelector('#fb'); fb.className='fb'; fb.innerHTML='';
     const opts=qw.querySelector('#opts'); opts.className='opts'; opts.innerHTML='';
     Q[i].o.forEach((c,j)=>{
@@ -397,6 +453,7 @@ function renderQuiz(Q,wrap){
     });
     if(j===a){score++;dotsEl.children[i].classList.add('ok');}
     else{wrong[Q[i].topic||'тема']=true;dotsEl.children[i].classList.add('no');}
+    const sc=qw.querySelector('#qscore'); if(sc) sc.textContent=`${score} / ${Q.length}`;
     if(Q[i].fb){const fb=qw.querySelector('#fb');fb.innerHTML=`<b>${j===a?'✓ Правильно. ':'✗ '}</b>${esc(Q[i].fb)}`;fb.classList.add('show');}
     nextBtn.disabled=false;
   }
@@ -404,7 +461,13 @@ function renderQuiz(Q,wrap){
     qw.style.display='none'; wy.classList.add('show');
     const big=wy.querySelector('#bigscore');
     big.textContent=`${score} / ${Q.length}`;
-    big.className='big '+(score>=Q.length-1?'good':score>=Q.length*0.6?'mid':'low');
+    const pct=score/Q.length;
+    big.className='big '+(pct>=0.9?'good':pct>=0.6?'mid':'low');
+    const tier = pct>=0.9?['🏆','Чудово! Матеріал засвоєно.']
+               : pct>=0.6?['🥈','Добрий результат — ще трохи повторити.']
+               : ['📚','Варто повторити урок.'];
+    wy.querySelector('#emoji').textContent=tier[0];
+    wy.querySelector('#headline').textContent=tier[1];
     const t=Object.keys(wrong);
     wy.querySelector('#review').innerHTML = t.length===0
       ? 'Чудово! Усе правильно — можна переходити далі.'

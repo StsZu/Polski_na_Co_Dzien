@@ -42,11 +42,11 @@
       "table": {
         "head": ["Rodzaj","Mianownik","Narzędnik"],
         "rows": [
-          ["ч. істота","Polak, mąż, artysta","Polakiem, mężem, artystą"],
-          ["ч. неістота","autobus, nóż, długopis","autobusem, nożem, długopisem"],
-          ["жіночий","matka, ulica, wiadomość","matką, ulicą, wiadomością"],
-          ["середній","dziecko, imię","dzieckiem, imieniem"],
-          ["множина","dzieci, rodzice, przyjaciele","dziećmi, rodzicami, przyjaciółmi"]
+          ["ч. істота","Polak, mąż, artysta","Polak*iem*, męż*em*, artyst*ą*"],
+          ["ч. неістота","autobus, nóż, długopis","autobus*em*, noż*em*, długopis*em*"],
+          ["жіночий","matka, ulica, wiadomość","matk*ą*, ulic*ą*, wiadomośc*ią*"],
+          ["середній","dziecko, imię","dzieck*iem*, imien*iem*"],
+          ["множина","dzieci, rodzice, przyjaciele","dzieć*mi*, rodzic*ami*, przyjaciół*mi*"]
         ]
       }
     },
@@ -150,6 +150,14 @@
     ]}
   ],
   "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 01, ćw. 3 (трек 26171). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "checklist": [
+    { "text": "Представити себе: хто я, який я, чим цікавлюся", "sub": "Jestem… / Interesuję się… / Mam na imię…" },
+    { "text": "Заповнити польську анкету", "sub": "płeć, narodowość, obywatelstwo, nazwisko panieńskie, stan cywilny" },
+    { "text": "Утворити орудний відмінок однини", "sub": "ч./с. → -em/-iem, ж. → -ą (Polakiem, matką)" },
+    { "text": "Вживати дієслова з narzędnikiem", "sub": "interesować się, zajmować się, pasjonować się + Czym?" },
+    { "text": "Правильно вживати прийменники з narzędnikiem", "sub": "z, za, pod, nad, przed, między, poza" }
+  ],
 
   "quiz": [
     { "topic": "prezentacja", "q": "Хто з персонажів цікавиться мистецтвом і хоче вивчати живопис у Кракові?",
