@@ -30,7 +30,7 @@
   ],
   "czytanie": [
     { "block": "A. Sekretariat — rejestracja", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · трек 028", "lines":[
+      { "type":"dia", "title":"Ćwiczenie 1 · трек 028", "audio":"audio/L02/L02-czytanie-01.mp3", "lines":[
         ["Sekretarka","Dzień dobry. Jak się pani nazywa?","Добрий день. Як Ваше прізвище?"],
         ["Angela","Nie rozumiem.","Не розумію."],
         ["Sekretarka","Imię i nazwisko.","Ім’я та прізвище."],
@@ -46,29 +46,29 @@
       ]}
     ]},
     { "block": "B. Co słychać?", "items": [
-      { "type":"dia", "title":"Dialog 1 · трек 030", "lines":[
+      { "type":"dia", "title":"Dialog 1 · трек 030", "audio":"audio/L02/L02-czytanie-02.mp3", "lines":[
         ["Tom","Cześć. Co słychać?","Привіт. Як справи?"],
         ["Mami","Cześć. Dziękuję, wszystko dobrze. A ty?","Привіт. Дякую, все добре. А ти?"],
         ["Tom","Nie „a ty”, ale „a u ciebie”. Proszę powtórzyć.","Не «a ty», а «a u ciebie». Повтори, будь ласка."],
         ["Mami","Dziękuję, wszystko dobrze. A u ciebie?","Дякую, все добре. А в тебе?"],
         ["Tom","Dziękuję, wszystko w porządku.","Дякую, все гаразд."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · oficjalny · трек 031", "lines":[
+      { "type":"dia", "title":"Dialog 2 · oficjalny · трек 031", "audio":"audio/L02/L02-czytanie-03.mp3", "lines":[
         ["Uwe","Dzień dobry. Co u pani słychać?","Добрий день. Як у Вас справи?"],
         ["Angela","Dzień dobry. Dziękuję, wszystko świetnie. A u pana?","Добрий день. Дякую, все чудово. А у Вас?"],
         ["Uwe","Dziękuję, w porządku.","Дякую, гаразд."]
       ]},
-      { "type":"ref", "title":"Ćwiczenie 2 · фрази · трек 033",
+      { "type":"ref", "title":"Ćwiczenie 2 · фрази · трек 033", "audio":"audio/L02/L02-czytanie-04.mp3",
         "words":"Co słychać? · Wszystko w porządku. · Co u ciebie? · Nic nowego. · Dziękuję, wszystko świetnie. · Po staremu." }
     ]},
     { "block": "D. Skąd? Gdzie mieszkasz?", "items": [
-      { "type":"dia", "title":"Dialog 1 · oficjalny · трек 035", "lines":[
+      { "type":"dia", "title":"Dialog 1 · oficjalny · трек 035", "audio":"audio/L02/L02-czytanie-05.mp3", "lines":[
         ["Pani","Ja jestem z Polski. A pan? Skąd pan jest? Z Niemiec, z Francji, z Anglii?","Я з Польщі. А Ви? Звідки Ви? З Німеччини, Франції, Англії?"],
         ["Pan","Jestem z Niemiec.","Я з Німеччини."],
         ["Pani","Ja mieszkam w Krakowie. A pan? Gdzie pan mieszka?","Я живу в Кракові. А Ви? Де живете?"],
         ["Pan","Mieszkam w Berlinie.","Живу в Берліні."]
       ]},
-      { "type":"dia", "title":"Dialog 2 · nieoficjalny · трек 036", "lines":[
+      { "type":"dia", "title":"Dialog 2 · nieoficjalny · трек 036", "audio":"audio/L02/L02-czytanie-06.mp3", "lines":[
         ["—","Skąd jesteś?","Звідки ти?"],
         ["—","Jestem z Anglii.","Я з Англії."],
         ["—","Gdzie mieszkasz?","Де живеш?"],
@@ -76,12 +76,12 @@
       ]}
     ]},
     { "block": "E. Liczebniki — adresy", "items": [
-      { "type":"ref", "title":"Ćwiczenie 4 · adresy · трек 040",
+      { "type":"ref", "title":"Ćwiczenie 4 · adresy · трек 040", "audio":"audio/L02/L02-czytanie-07.mp3",
         "words":"Aleja Mickiewicza 28 · Ulica Starowiślna 17 · Plac Mariacki 5 · Rynek Główny 7 · Ulica Szeroka 18 · Plac Wszystkich Świętych 6 · Aleje Trzech Wieszczów",
         "note":"Потренуйся читати адреси й числа вголос." }
     ]},
     { "block": "F. Znajomość", "items": [
-      { "type":"dia", "title":"Dialog 1 · Manuela i Uwe · трек 041", "lines":[
+      { "type":"dia", "title":"Dialog 1 · Manuela i Uwe · трек 041", "audio":"audio/L02/L02-czytanie-08.mp3", "lines":[
         ["Uwe","Cześć. Jak się nazywasz?","Привіт. Як тебе звати?"],
         ["Manuela","Cześć. Jestem Manuela Sanchez. A ty?","Привіт. Я Мануела Санчес. А ти?"],
         ["Uwe","Jestem Uwe Stein. Skąd jesteś?","Я Уве Штайн. Звідки ти?"],
@@ -94,13 +94,13 @@
       ]}
     ]},
     { "block": "G. Powtórzenie", "items": [
-      { "type":"dia", "title":"Dialog A · Javier · трек 043", "lines":[
+      { "type":"dia", "title":"Dialog A · Javier · трек 043", "audio":"audio/L02/L02-czytanie-09.mp3", "lines":[
         ["Javier","Dzień dobry. Nazywam się Javier Perez. Tu są moje dane osobowe.","Добрий день. Мене звати Хав’єр Перес. Ось мої особисті дані."],
         ["Sekretarka","Dobrze. Imię: Javier. Nazwisko: Perez. Narodowość: Argentyńczyk. Adres: Kraków, Nowowiejska 12 przez 6. W porządku?","Добре. Ім’я: Хав’єр. Прізвище: Перес. Національність: аргентинець. Адреса: Краків, Нововейська 12/6. Гаразд?"],
         ["Javier","Tak, oczywiście. A jak się nazywa moja nauczycielka?","Так, звичайно. А як звати мою вчительку?"],
         ["Sekretarka","Teraz jest Anna Stelmach. Miłej lekcji.","Зараз — Анна Стельмах. Гарного уроку."]
       ]},
-      { "type":"dia", "title":"Dialog B · rodzina Maj · трек 044", "lines":[
+      { "type":"dia", "title":"Dialog B · rodzina Maj · трек 044", "audio":"audio/L02/L02-czytanie-10.mp3", "lines":[
         ["(opis)","Mami wraca do domu z koleżanką Angelą.","Мамі повертається додому з подругою Анджелою."],
         ["Pani Maj","Witam. Bardzo mi miło. Nazywam się Joanna Maj. To jest mój mąż Grzegorz, moja córka Karolina i mój syn Karol.","Вітаю. Дуже приємно. Мене звати Йоанна Май. Це мій чоловік Ґжеґож, моя донька Кароліна і мій син Кароль."],
         ["Angela","Bardzo mi miło państwa poznać.","Дуже приємно познайомитися."],
