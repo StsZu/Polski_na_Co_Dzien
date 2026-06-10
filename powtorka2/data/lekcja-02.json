@@ -106,7 +106,7 @@
         ["Javier","Co nowego? Nie oglądałem faktów, nie słuchałem radia, nie miałem czasu na nic. Uczyłem się polskiego.","Що нового? Не дивився новин, не слухав радіо, не мав ні на що часу. Учив польську."],
         ["Mami","Nie do wiary, ty? Więc nie słyszałeś, że na południu Polski jest wielka powódź?","Не може бути, ти?! То ти не чув, що на півдні Польщі велика повінь?"],
         ["Javier","A co to takiego? Nie znam tego słowa. Nie masz słownika?","А що це таке? Не знаю цього слова. У тебе немає словника?"],
-        ["Mami","Szkoda czasu na szukanie, ty mi powiedz.","Шкода часу на пошуки, ти мені скажи."],
+        ["Javier","Szkoda czasu na szukanie, ty mi powiedz.","Шкода часу на пошуки, ти мені скажи."],
         ["Mami","Powódź to jest kataklizm, kiedy za długo i zbyt intensywnie pada deszcz. Taka wielka woda, rozumiesz? Powódź tysiąclecia była w lipcu 1997 roku, a teraz wszyscy boją się nowej katastrofy, nowych strat.","Повінь — це катаклізм, коли надто довго й надто інтенсивно йде дощ. Така велика вода, розумієш? Повінь тисячоліття була в липні 1997 року, а тепер усі бояться нової катастрофи, нових втрат."],
         ["Javier","Więcej optymizmu, to tylko deszcz.","Більше оптимізму, це лише дощ."]
       ]}
@@ -177,7 +177,7 @@
       "fb": "Після «wiele» — dopełniacz l.mn.: ludzie → ludzi, а дієслово в однині (zginęło)." },
     { "topic": "słownictwo", "q": "Що означає вираз «pilnować swojego nosa»?",
       "o": ["не лізти не в свою справу","берегти здоров’я","боятися застуди"], "a": 0,
-      "fb": "«Pilnować swojego nosa» — займатися своїми справами, не втручатися. Karol чує: «Masz pilnować swojego nosa!»." }
+      "fb": "«Pilnować swojego nosa» (дослівно «стерегти свого носа») — займатися своїми справами, не втручатися в чужі." }
   ],
 
   "checklist": [
