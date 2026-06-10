@@ -88,7 +88,7 @@
         ["Javier","O! Co masz? Co to jest?","О! Що маєш? Що це?"],
         ["Uwe","To? To jest fotografia. Tu jest moja rodzina.","Це? Це фотографія. Тут моя родина."],
         ["Javier","To jest twoja żona, a to twoje dziecko, tak?","Це твоя дружина, а це твоя дитина, так?"],
-        ["Uwe","Tak. Moja żona Anna i mój syn Eric.","Так. Моя дружина Анна і мій син Ерік."],
+        ["Uwe","Tak. Moja żona Anna i mój syn Eryk.","Так. Моя дружина Анна і мій син Ерик."],
         ["Javier","Twoja żona jest bardzo ładna — jest piękna!","Твоя дружина дуже гарна — вона красива!"],
         ["Uwe","O tak! Jest piękna i utalentowana. Ona jest aktorką. Jest bardzo popularną aktorką. Pracuje w teatrze w Berlinie.","О так! Вона красива й талановита. Вона акторка. Дуже популярна акторка. Працює в театрі в Берліні."],
         ["Javier","A ty, kim jesteś z zawodu?","А ти, ким ти за фахом?"],
@@ -97,9 +97,9 @@
         ["Uwe","Hm, jesteś muzykiem i umiesz tańczyć tango.","Гм, ти музикант і вмієш танцювати танго."]
       ]},
       { "type":"ref", "title":"Ćwiczenie 1 · prawda czy nieprawda?",
-        "words":"Uwe nie ma rodziny. (N) · Syn ma na imię Eric. (P) · Anna nie jest atrakcyjna. (N) · Uwe jest aktorem. (N) · Javier umie tańczyć tango. (P) · Javier jest muzykiem. (P)" },
+        "words":"Uwe nie ma rodziny. (N) · Syn ma na imię Eryk. (P) · Anna nie jest atrakcyjna. (N) · Uwe jest aktorem. (N) · Javier umie tańczyć tango. (P) · Javier jest muzykiem. (P)" },
       { "type":"ref", "title":"Ćwiczenie 2 · mianownik czy narzędnik?",
-        "words":"Eric to dobry syn → Eric jest dobrym synem. · Kasia to ambitna studentka → jest ambitną studentką. · On jest świetnym kucharzem. · Agnieszka to miła sekretarka. · Jan jest wesołym mężczyzną. · Warszawa to stolica Polski. · Picasso to popularny malarz. · Kraków to stare miasto. · Oscypek to regionalny ser. · Centrum Manggha to nowoczesny budynek." },
+        "words":"Eryk to dobry syn → Eryk jest dobrym synem. · Kasia to ambitna studentka → jest ambitną studentką. · On jest świetnym kucharzem. · Agnieszka to miła sekretarka. · Jan jest wesołym mężczyzną. · Warszawa to stolica Polski. · Picasso to popularny malarz. · Kraków to stare miasto. · Oscypek to regionalny ser. · Centrum Manggha to nowoczesny budynek." },
       { "type":"dia", "title":"Ćwiczenie 3 · Co czytasz?", "lines":[
         ["Javier","Cześć Mami! Co czytasz?","Привіт, Мамі! Що читаєш?"],
         ["Mami","Cześć Javier! Czytam książkę biograficzną.","Привіт, Хав’єре! Читаю біографічну книжку."],
@@ -114,14 +114,14 @@
         "words":"Interesuję się… sportem, boksem, malarstwem impresjonistycznym, historią, piłką nożną, muzyką rockową, fotografią, francuskimi filmami, sportami ekstremalnymi, książkami kryminalnymi…" }
     ]},
     { "block": "E. Powtórzenie — ułóż pytania", "items": [
-      { "type":"dia", "title":"Ćwiczenie 1 · prezentacja Mami · трек 060", "lines":[
+      { "type":"dia", "title":"Prezentacja Mami · powtórzenie", "lines":[
         ["—","To jest Mami. Ona nazywa się Mami Takada. Jest z Japonii. Normalnie mieszka w Tokio, ale teraz mieszka w Krakowie.","Це Мамі. Вона зветься Мамі Такада. Вона з Японії. Зазвичай живе в Токіо, але зараз живе в Кракові."],
         ["—","Ma 20 lat. Jest niska, szczupła i sympatyczna. Mówi po japońsku, dobrze po angielsku i trochę po polsku. Ona jest dobrą studentką.","Їй 20 років. Вона невисока, струнка й симпатична. Говорить японською, добре англійською і трохи польською. Вона добра студентка."],
         ["—","Teraz ona intensywnie uczy się języka polskiego, bo planuje studiować malarstwo w Polsce, a konkretnie w Krakowie. Interesuje się muzyką rockową, malarstwem i architekturą. Ona bardzo lubi malować.","Зараз вона інтенсивно вчить польську, бо планує вивчати малярство в Польщі, а конкретно в Кракові. Цікавиться рок-музикою, малярством та архітектурою. Вона дуже любить малювати."]
       ]}
     ]}
   ],
-  "czytanieSource": "Текст: lekcja_05-1.pdf (ст. 34–39) · Аудіо: 2_Main_book_audio_podręcznik/lekcja_05/ (060–065.mp3)",
+  "czytanieSource": "Текст: lekcja_05.txt (аудіо-транскрипт) + lekcja_05-1.pdf (повний урок) · Аудіо: 2_Main_book_audio_podręcznik/lekcja_05/ (060–065.mp3)",
   "zeszyt": [
     { "type":"ref", "title":"Ćwiczenie 8 · zawody — професії",
       "words":"Kelner · Nauczyciel · Fotograf · Informatyk · Rolnik · Muzyk · Inżynier · Policjant · Kucharz · Dentysta · Tancerz · Urzędnik · Lekarz · Biznesmen · Dziennikarz · Emeryt · Aktor" },
@@ -170,7 +170,7 @@
     {"topic":"wiek","q":"«Mam 23 ___» — яке слово?","o":["rok","lat","lata","lato"],"a":2},
     {"topic":"wiek","q":"«Mam 20 ___» — правильно:","o":["rok","lata","lat","roku"],"a":2},
     {"topic":"liczebniki","q":"Як по-польськи «50»?","o":["czterdzieści","pięćdziesiąt","sześćdziesiąt","piętnaście"],"a":1},
-    {"topic":"liczebniki","q":"«dziewięćdziesiąt» — це:","o":["19","90","99","19"],"a":1},
+    {"topic":"liczebniki","q":"«dziewięćdziesiąt» — це:","o":["19","90","99","9"],"a":1},
     {"topic":"zawody","q":"«lekarz» — це:","o":["вчитель","лікар","кухар","фермер"],"a":1},
     {"topic":"zainteresowania","q":"Спитати про захоплення: «___ się interesujesz?»","o":["Kim","Czym","Kto","Jak"],"a":1},
     {"topic":"narzędnik m","q":"«On jest ___ studentem» (dobry):","o":["dobry","dobra","dobrym","dobrego"],"a":2},
