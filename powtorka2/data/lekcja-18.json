@@ -1,0 +1,211 @@
+{
+  "id": "18",
+  "title": "Królestwo zwierząt",
+  "goal": "Повторюємо: назви тварин (свійські, дикі, екзотичні) · відмінювання іменників типу «zwierzę» · ідіоми зі тваринами · знаки зодіаку й майбутній час доконаного виду",
+
+  "vocab": [
+    { "group": "Zwierzęta domowe — свійські тварини", "items": [
+      ["krowa","корова"],["osioł","осел"],["świnia","свиня"],["kurczak","курча"],
+      ["byk","бик"],["baran","баран"],["królik","кролик"],["gęś","гуска"],
+      ["koza","коза"],["indyk","індик"],["kura","курка"],["koń","кінь"],
+      ["owca","вівця"],["kogut","півень"],["kaczka","качка"]
+    ]},
+    { "group": "Zwierzęta dzikie — дикі тварини", "items": [
+      ["motyl","метелик"],["jeż","їжак"],["mysz","миша"],["szczur","щур"],
+      ["komar","комар"],["kruk","крук / ворон"],["ślimak","равлик"],["niedźwiedź","ведмідь"],
+      ["żaba","жаба"],["dzik","дикий кабан"],["mrówka","мурашка"],["wilk","вовк"],
+      ["zając","заєць"],["mucha","муха"],["lis","лис"],["sowa","сова"],
+      ["jeleń","олень"],["wiewiórka","білка"]
+    ]},
+    { "group": "Zwierzęta egzotyczne — екзотичні тварини", "items": [
+      ["lew","лев"],["tygrys","тигр"],["skorpion","скорпіон"],["papuga","папуга"],
+      ["wąż","змія"],["żyrafa","жирафа"],["słoń","слон"],["wielbłąd","верблюд"],
+      ["foka","тюлень"],["małpa","мавпа"],["krokodyl","крокодил"],["nosorożec","носоріг"],
+      ["struś","страус"],["orzeł","орел"]
+    ]},
+    { "group": "Znaki zodiaku — знаки зодіаку", "items": [
+      ["Koziorożec","Козеріг"],["Wodnik","Водолій"],["Ryby","Риби"],["Baran","Овен"],
+      ["Byk","Телець"],["Bliźnięta","Близнюки"],["Rak","Рак"],["Lew","Лев"],
+      ["Panna","Діва"],["Waga","Терези"],["Skorpion","Скорпіон"],["Strzelec","Стрілець"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["hodować","розводити / тримати (тварин)"],["źródło","джерело"],["bajka","байка / казка"],
+      ["morał","мораль"],["gałąź","гілка"],["pióro","перо"],["dziób","дзьоб"],
+      ["chwalić","хвалити"],["cięcia budżetowe","скорочення бюджету"],["zwierzę","тварина"],
+      ["futro","хутро"],["klatka","клітка"],["żywioł","стихія"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Odmiana rzeczowników typu «zwierzę» — іменники типу «zwierzę»",
+      "note": "Іменники середнього роду на -ę (zwierzę, kurczę, cielę, dziecko → dziecię) у непрямих відмінках додають -ęci- / -ąt-. Множина закінчується на -ęta.",
+      "table": {
+        "head": ["Przypadek","Liczba pojedyncza","Liczba mnoga"],
+        "rows": [
+          ["Mianownik (хто? що?)","zwierzę","zwierzęt*a*"],
+          ["Dopełniacz (кого? чого?)","zwierzęc*ia*","zwierząt"],
+          ["Celownik (кому?)","zwierzęc*iu*","zwierzęt*om*"],
+          ["Biernik (кого? що?)","zwierzę","zwierzęt*a*"],
+          ["Narzędnik (ким? чим?)","zwierzęc*iem*","zwierzęt*ami*"],
+          ["Miejscownik (о кому? о чому?)","zwierzęc*iu*","zwierzęt*ach*"]
+        ]
+      }
+    },
+    {
+      "title": "Inne rzeczowniki typu «zwierzę» — інші слова цього типу",
+      "note": "За тим самим зразком відмінюються назви малих істот.",
+      "words": "dziewczę (дівчина) · książę (князь) · kurczę (курча) · kocię (кошеня) · szczenię (цуценя) · pisklę (пташеня) · cielę (теля) · jagnię (ягня) · źrebię (лоша)"
+    },
+    {
+      "title": "Czas przyszły — aspekt dokonany",
+      "note": "Доконаний вид майбутнього часу твориться особовими закінченнями (без «będę»). Дія одноразова, завершена.",
+      "table": {
+        "head": ["Bezokolicznik","Forma «ty» (2 os.)"],
+        "rows": [
+          ["odwiedzić → odwiedz*isz*","ti відвідаєш"],
+          ["obejrzeć → obejrz*ysz*","ти подивишся"],
+          ["zadzwonić → zadzwon*isz*","ти зателефонуєш"],
+          ["dostać → dostan*iesz*","ти отримаєш"],
+          ["powiedzieć → powi*esz*","ти скажеш"],
+          ["znaleźć → znajdz*iesz*","ти знайдеш"],
+          ["wziąć → weźm*iesz*","ти візьмеш"],
+          ["pójść → pójdz*iesz*","ти підеш"]
+        ]
+      }
+    },
+    {
+      "title": "Idiomy ze zwierzętami — ідіоми з тваринами",
+      "table": {
+        "head": ["Idiom","Znaczenie — значення"],
+        "rows": [
+          ["iść gęsiego","іти один за одним (вервечкою)"],
+          ["barania głowa","дурна голова, нетямущий"],
+          ["święta krowa","той, хто вважає себе винятковим / недоторканним"],
+          ["kura domowa","домогосподарка (зневажливо)"],
+          ["świński blondyn","дуже світлий блондин"],
+          ["iść jak stado baranów","іти бездумно, безладно за гуртом"]
+        ]
+      }
+    }
+  ],
+
+  "czytanie": [
+    { "block": "E. Horoskop · dialog · трек 218E1", "items": [
+      { "type": "dia", "title": "Angela i Mami — horoskop", "audio": "audio/L18/L18-czytanie-01.mp3", "lines": [
+        ["Angela","Co czytasz?","Що читаєш?"],
+        ["Mami","Metro. Tyle się dzieje codziennie.","«Metro». Стільки всього відбувається щодня!"],
+        ["Angela","Ale w większości to złe albo tragiczne informacje. Zła wiadomość to dobra wiadomość, tak? Przeczytaj mi horoskop. Jest na końcu.","Але здебільшого це погані або трагічні новини. «Погана новина — це добра новина», так? Прочитай мені гороскоп. Він у кінці."],
+        ["Mami","A spod jakiego znaku jesteś?","А під яким ти знаком?"],
+        ["Angela","Urodziłam się 8 marca, więc jestem spod znaku ryb.","Я народилася 8 березня, отже я під знаком Риб."],
+        ["Mami","Dzień nie zapowiada się radośnie. Konflikty nie ominą cię w życiu prywatnym i zawodowym. Uważaj na siebie.","День не обіцяє бути радісним. Конфлікти не оминуть тебе в особистому й професійному житті. Бережи себе."],
+        ["Angela","Angela, to też nie jest wesołe. Ciekawe jaki jest mój horoskop. Urodziłam się 4 kwietnia, więc jestem spod znaku barana.","Анджело, це теж невесело. Цікаво, який мій гороскоп. Я народилася 4 квітня, отже я під знаком Овна."],
+        ["Mami","Nie spodziewaj się zmian na lepsze. Licz się z problemami natury finansowej. Romans może prowadzić do trudnych sytuacji. Nie wierzę w to.","Не сподівайся на зміни на краще. Зважай на проблеми фінансового характеру. Роман може призвести до складних ситуацій. Я в це не вірю."],
+        ["Angela","Zrób horoskopy innych znajomych. Może też mają takie czarne jak nasze.","Зроби гороскопи інших знайомих. Може, у них теж такі чорні, як у нас."],
+        ["Mami","No wiesz!","Ну ти даєш!"]
+      ]}
+    ]},
+    { "block": "E. Znaki zodiaku · даты · трек 218E2", "items": [
+      { "type": "mono", "title": "Daty znaków zodiaku", "audio": "audio/L18/L18-czytanie-02.mp3",
+        "text": "Od 22 grudnia do 19 stycznia koziorożec. Od 20 stycznia do 19 lutego wodnik. Od 20 lutego do 20 marca ryby. Od 21 marca do 20 kwietnia baran. Od 21 kwietnia do 21 maja byk. Od 22 maja do 21 czerwca bliźnięta. Od 22 czerwca do 23 lipca rak. Od 24 lipca do 23 sierpnia lew. Od 24 sierpnia do 23 września panna. Od 24 września do 23 października waga. Od 24 października do 22 listopada skorpion. Od 23 listopada do 21 grudnia strzelec.",
+        "tr": "Від 22 грудня до 19 січня — Козеріг. Від 20 січня до 19 лютого — Водолій. Від 20 лютого до 20 березня — Риби. Від 21 березня до 20 квітня — Овен. Від 21 квітня до 21 травня — Телець. Від 22 травня до 21 червня — Близнюки. Від 22 червня до 23 липня — Рак. Від 24 липня до 23 серпня — Лев. Від 24 серпня до 23 вересня — Діва. Від 24 вересня до 23 жовтня — Терези. Від 24 жовтня до 22 листопада — Скорпіон. Від 23 листопада до 21 грудня — Стрілець." }
+    ]},
+    { "block": "E. Zodiak chiński · prezentacja · трек 218E7", "items": [
+      { "type": "mono", "title": "Mami — zodiak chiński", "audio": "audio/L18/L18-czytanie-03.mp3",
+        "text": "Zodiak chiński składa się również z dwunastu znaków. W tym horoskopie naszymi patronami są, w zależności od roku urodzenia, zwierzęta i stworzenia ważne w kulturze wschodu. Według legendy Budda, zanim opuścił ziemię, zwołał do siebie wszystkie zwierzęta. Jednak tylko dwanaście pojawiło się, żeby go pożegnać. Aby im to wynagrodzić, nazwał nimi lata w kolejności w jakiej przyszły. Zwierzę panujące nad rokiem, w którym przyszliśmy na świat, ma wpływ na nasze życie, a my mamy jego cechy. Stara wschodnia mądrość mówi, to jest zwierzę, które kryje się w twoim sercu. Ja urodziłam się w 1980 roku i moim rokiem opiekuje się małpa. To znaczy, że moje zalety to innowacyjność i ciekawość, a wady – zazdrość i podejrzliwość. Te zwierzęta zmieniają się co dwanaście lat, ale w każdym roku nabierają cech jednego z pięciu chińskich żywiołów, którymi są metal, drewno, woda, ogień, ziemia. Początek roku chińskiego jest ruchomy, najczęściej wypada w lutym.",
+        "tr": "Китайський зодіак також складається з дванадцяти знаків. У цьому гороскопі нашими покровителями є, залежно від року народження, тварини й створіння, важливі в культурі Сходу. За легендою, Будда, перш ніж покинути землю, скликав до себе всіх тварин. Однак лише дванадцять з'явилося, щоб попрощатися з ним. Щоб їх винагородити, він назвав ними роки в тому порядку, у якому вони прийшли. Тварина, що панує над роком, у якому ми прийшли на світ, впливає на наше життя, а ми маємо її риси. Стара східна мудрість каже: це тварина, яка ховається у твоєму серці. Я народилася 1980 року, і моїм роком опікується Мавпа. Це означає, що мої переваги — це інноваційність і допитливість, а вади — заздрість і підозрілість. Ці тварини змінюються кожні дванадцять років, але щороку набувають рис одного з п'яти китайських стихій, якими є метал, дерево, вода, вогонь, земля. Початок китайського року рухомий, найчастіше припадає на лютий." }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 18 — треки 218E1, 218E2, 218E7. Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "dia", "title": "Bajka o kruku i lisie · zeszyt cw02", "audio": "audio/L18/L18-zeszyt-01.mp3", "lines": [
+      ["Narrator","Lis był bardzo głodny, bo cały dzień nic nie jadł.","Лис був дуже голодний, бо цілий день нічого не їв."],
+      ["Narrator","Podniósł głowę do góry i spojrzał na drzewo.","Підвів голову вгору й глянув на дерево."],
+      ["Narrator","Na gałęzi siedział kruk z kawałkiem sera w dziobie.","На гілці сидів крук зі шматком сиру в дзьобі."],
+      ["Narrator","Lis zaczął chwalić kruka.","Лис почав хвалити крука."],
+      ["Lis","Jakie masz piękne oczy, jakie błyszczące pióra!","Які в тебе гарні очі, яке блискуче пір'я!"],
+      ["Narrator","Kruk był bardzo zadowolony z pochwał.","Крук був дуже задоволений похвалами."],
+      ["Narrator","W końcu lis zapytał, czy kruk ma równie piękny głos.","Зрештою лис запитав, чи крук має так само гарний голос."],
+      ["Narrator","Kruk otworzył dziób, żeby zaśpiewać.","Крук відкрив дзьоб, щоб заспівати."],
+      ["Narrator","Ser wypadł mu z dzioba, a lis go porwał i uciekł.","Сир випав йому з дзьоба, а лис його схопив і втік."],
+      ["Narrator","Jaki morał z tej bajki?","Яка мораль цієї байки?"],
+      ["Narrator","Bywa często zwiedzionym, kto lubi być chwalonym.","Часто буває обдуреним той, хто любить, коли його хвалять."]
+    ]},
+    { "type": "dia", "title": "Mami — chiński horoskop (rozmowa) · zeszyt cw12", "audio": "audio/L18/L18-zeszyt-02.mp3", "lines": [
+      ["Kolega","Mami, opowiedz nam coś jeszcze o chińskim horoskopie.","Мамі, розкажи нам ще щось про китайський гороскоп."],
+      ["Mami","No dobrze. Mówi się, że ludzie urodzeni w roku Tygrysa zawsze, jak koty, spadają na cztery łapy.","Ну добре. Кажуть, що люди, народжені в рік Тигра, завжди, як коти, падають на чотири лапи."],
+      ["Mami","A ci z roku Szczura muszą uważać, żeby nie wpaść w jakąś pułapkę.","А ті, хто з року Щура, мусять бути обережними, щоб не потрапити в якусь пастку."],
+      ["Kolega","Czytałem, że zanim Chińczyk podejmie decyzję o ślubie, sprawdza, w jakim roku urodziła się jego przyszła żona.","Я читав, що перш ніж китаєць ухвалить рішення про шлюб, він перевіряє, у якому році народилася його майбутня дружина."],
+      ["Mami","To prawda. Chińczycy bardzo mocno wierzą we wpływ zwierzęcia roku na charakter danej osoby.","Це правда. Китайці дуже сильно вірять у вплив тварини року на характер певної людини."],
+      ["Mami","Uważa się na przykład, że kobiety urodzone w roku konia są nieposłuszne i uparte.","Вважається, наприклад, що жінки, народжені в рік Коня, неслухняні й уперті."],
+      ["Mami","Od razu mają mniejsze szanse, żeby wyjść za mąż.","Вони одразу мають менше шансів вийти заміж."]
+    ]},
+    { "type": "mono", "title": "Opinia 1 — corrida · zeszyt cw13", "audio": "audio/L18/L18-zeszyt-03.mp3",
+      "text": "Niektórzy uważają to za bezsensowną i okrutną rozrywkę dla tłumu, polegającą na torturowaniu zwierzęcia. Dla mnie to wyjątkowa tradycja łącząca choreografię, kostium i muzykę.",
+      "tr": "Дехто вважає це безглуздою й жорстокою розвагою для натовпу, що полягає в катуванні тварини. Для мене це виняткова традиція, що поєднує хореографію, костюм і музику." },
+    { "type": "mono", "title": "Opinia 2 — ZOO · zeszyt cw13", "audio": "audio/L18/L18-zeszyt-04.mp3",
+      "text": "Raz tylko byłam w takim miejscu. Nie mogłam znieść widoku setki zwierząt, w których oczach widziałam smutek.",
+      "tr": "Лише раз я була в такому місці. Не могла витримати виду сотні тварин, в очах яких бачила сум." },
+    { "type": "mono", "title": "Opinia 3 — futro · zeszyt cw13", "audio": "audio/L18/L18-zeszyt-05.mp3",
+      "text": "Nigdy nie ubrałabym czegoś takiego. Są przecież równie piękne sztuczne, nieokupione cierpieniem zwierząt.",
+      "tr": "Я б ніколи не вдягнула щось таке. Адже є так само гарні штучні, не куплені ціною страждання тварин." },
+    { "type": "mono", "title": "Opinia 4 — pies przewodnik · zeszyt cw13", "audio": "audio/L18/L18-zeszyt-06.mp3",
+      "text": "Jest dla osoby niewidomej cenną pomocą rehabilitacyjną i wiernym przyjacielem. Pozwala na bezpieczne poruszanie się w terenie, poza tym oddziałuje pozytywnie na psychikę.",
+      "tr": "Для незрячої людини він є цінною реабілітаційною допомогою й вірним другом. Дозволяє безпечно пересуватися місцевістю, а до того ж позитивно впливає на психіку." },
+    { "type": "mono", "title": "Opinia 5 — ekologia · zeszyt cw13", "audio": "audio/L18/L18-zeszyt-07.mp3",
+      "text": "Jestem wolontariuszem międzynarodowej organizacji działającej na rzecz ochrony środowiska. Kiedy ostatnia rzeka zostanie zatruta i zginie ostatnia ryba, odkryjemy, że nie można jeść pieniędzy.",
+      "tr": "Я волонтер міжнародної організації, що діє на захист довкілля. Коли остання річка буде отруєна і загине остання риба, ми відкриємо, що грошей не можна їсти." },
+    { "type": "mono", "title": "Opinia 6 — cyrk · zeszyt cw13", "audio": "audio/L18/L18-zeszyt-08.mp3",
+      "text": "Mamo, jaki wielki namiot! O, a na plakacie jest foka z piłką na nosie i lew z otwartą paszczą. Chodźmy tam. Proszę, chcę zobaczyć.",
+      "tr": "Мамо, який великий намет! О, а на плакаті тюлень із м'ячем на носі і лев з відкритою пащею. Ходімо туди. Будь ласка, хочу подивитися." },
+    { "type": "mono", "title": "Opinia 7 — kury w klatkach · zeszyt cw13", "audio": "audio/L18/L18-zeszyt-09.mp3",
+      "text": "Rzadko podpisuję listy protestacyjne, ale ten temat mnie naprawdę zbulwersował. Ptaki trzymane są po kilka sztuk w ciasnych metalowych klatkach, w których nie mają możliwości ruchu. Nie kupuję też już jajek z trójką.",
+      "tr": "Я рідко підписую протестні листи, але ця тема мене справді обурила. Птахів тримають по кілька штук у тісних металевих клітках, де вони не мають можливості рухатися. Я також більше не купую яєць із трійкою." },
+    { "type": "mono", "title": "Opinia 8 — testy na zwierzętach · zeszyt cw13", "audio": "audio/L18/L18-zeszyt-10.mp3",
+      "text": "Zawsze sprawdzam na kosmetykach czy środkach chemicznych, czy jest ta informacja. Jeśli nie, dziękuję, nie kupuję. Skoro mam wybór, chcę być świadomym i odpowiedzialnym konsumentem.",
+      "tr": "Я завжди перевіряю на косметиці чи хімічних засобах, чи є ця інформація. Якщо ні — дякую, не купую. Якщо я маю вибір, я хочу бути свідомим і відповідальним споживачем." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 18, ćw. 2, 12, 13 (треки 26795, 66102, 26720–26727). Транскрипти — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "checklist": [
+    { "text": "Назвати свійських, диких та екзотичних тварин", "sub": "krowa, koń · lis, wilk, jeż · lew, słoń, żyrafa" },
+    { "text": "Відмінювати іменники типу «zwierzę»", "sub": "zwierzę → zwierzęcia, zwierzęta → zwierząt; kurczę, cielę, źrebię" },
+    { "text": "Утворювати майбутній час доконаного виду", "sub": "odwiedzić → odwiedzisz, wziąć → weźmiesz (без «będę»)" },
+    { "text": "Розуміти ідіоми зі тваринами", "sub": "iść gęsiego, barania głowa, święta krowa, kura domowa" },
+    { "text": "Назвати знаки зодіаку та розповісти про китайський гороскоп", "sub": "Ryby, Baran, Małpa, rok Tygrysa, Szczura, konia" }
+  ],
+
+  "quiz": [
+    { "topic": "słownictwo", "q": "Яка тварина є свійською (hodowlaną)?",
+      "o": ["niedźwiedź","krowa","wilk"], "a": 1,
+      "fb": "«Krowa» (корова) — свійська тварина. «Niedźwiedź» (ведмідь) і «wilk» (вовк) — дикі." },
+    { "topic": "słownictwo", "q": "Що означає польське слово «lis»?",
+      "o": ["лис","заєць","їжак"], "a": 0,
+      "fb": "«Lis» — лис. «Zając» — заєць, «jeż» — їжак." },
+    { "topic": "odmiana", "q": "Доповніть: «Psy, koty, chomiki to ___ domowe» (zwierzę, мн., D.).",
+      "o": ["zwierzęta","zwierząt","zwierzętami"], "a": 0,
+      "fb": "Тут потрібен Mianownik множини: «to zwierzęta domowe». Форма «zwierząt» — це Dopełniacz множини." },
+    { "topic": "odmiana", "q": "Як буде Narzędnik однини від «zwierzę»?",
+      "o": ["zwierzęciem","zwierzęcia","zwierzęciu"], "a": 0,
+      "fb": "Narzędnik (ким? чим?) однини: «zwierzęciem». «Zwierzęcia» — Dopełniacz, «zwierzęciu» — Celownik/Miejscownik." },
+    { "topic": "odmiana", "q": "Оберіть правильну множину: «Moja kotka ma teraz ___» (kocię).",
+      "o": ["kocięta","kocięty","kocięci"], "a": 0,
+      "fb": "«Kocię» (кошеня) відмінюється як «zwierzę»: множина — «kocięta»." },
+    { "topic": "gramatyka", "q": "Який майбутній час доконаного виду від «wziąć»?",
+      "o": ["będę wziąć","weźmiesz","braliśmy"], "a": 1,
+      "fb": "Доконаний вид майбутнього часу твориться без «będę»: wziąć → weźmiesz (ти візьмеш)." },
+    { "topic": "gramatyka", "q": "Доповніть: «odwiedzić → ___» (2 особа, майб. док.).",
+      "o": ["będziesz odwiedzać","odwiedzasz","odwiedzisz"], "a": 2,
+      "fb": "Доконаний вид: «odwiedzisz» (ти відвідаєш). «Będziesz odwiedzać» — недоконаний майбутній." },
+    { "topic": "idiomy", "q": "Що означає ідіома «iść gęsiego»?",
+      "o": ["іти швидко","іти один за одним","іти повільно"], "a": 1,
+      "fb": "«Iść gęsiego» — іти один за одним (вервечкою, як гуси)." },
+    { "topic": "zodiak", "q": "Mami народилася 4 квітня. Під яким вона знаком?",
+      "o": ["Ryby","Baran","Byk"], "a": 1,
+      "fb": "Овен (Baran) — від 21 березня до 20 квітня. У тексті: «Urodziłam się 4 kwietnia, więc jestem spod znaku barana»." },
+    { "topic": "tekst", "q": "Яка тварина, за словами Mami, опікується її роком у китайському гороскопі?",
+      "o": ["Tygrys","Szczur","Małpa"], "a": 2,
+      "fb": "Mami: «urodziłam się w 1980 roku i moim rokiem opiekuje się małpa» — її рік опікується Мавпа." }
+  ]
+}

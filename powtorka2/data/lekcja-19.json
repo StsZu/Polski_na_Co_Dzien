@@ -1,0 +1,164 @@
+{
+  "id": "19",
+  "title": "Zielono mi!",
+  "goal": "Повторюємо: агротуризм та екологію · висловлення обурення й припущень · tryb warunkowy (умовний спосіб) · конструкцію jeżeli…, to…",
+
+  "vocab": [
+    { "group": "Agroturystyka — агротуризм", "items": [
+      ["gospodarstwo agroturystyczne","агротуристична садиба"],["pensjonat","пансіонат"],
+      ["odziedziczyć","успадкувати"],["spadek","спадок"],["remont","ремонт"],
+      ["rustykalny styl","сільський (рустикальний) стиль"],["aneks kuchenny","кухонна зона"],
+      ["salon z kominkiem","вітальня з каміном"],["sauna","сауна"],["baza wypadowa","відправний пункт (база для вилазок)"],
+      ["szlak turystyczny","туристичний маршрут"],["stok narciarski","гірськолижний схил"],
+      ["wyciąg","підйомник"],["uzdrowisko","курорт (лікувальний)"],["wyżywienie","харчування"]
+    ]},
+    { "group": "Ekologia — екологія", "items": [
+      ["ochrona środowiska","охорона довкілля"],["proekologiczny","проекологічний"],
+      ["segregować śmieci","сортувати сміття"],["recykling","переробка (рециклінг)"],
+      ["dwutlenek węgla","вуглекислий газ"],["globalne ocieplenie","глобальне потепління"],
+      ["efekt cieplarniany","парниковий ефект"],["dziura ozonowa","озонова діра"],
+      ["energia odnawialna","відновлювана енергія"],["kolektory słoneczne","сонячні колектори"],
+      ["odpady","відходи"],["oszczędzanie wody","економія води"],["zanieczyszczenie powietrza","забруднення повітря"]
+    ]},
+    { "group": "Piknik i przyroda — пікнік і природа", "items": [
+      ["las","ліс"],["polana","галявина"],["park krajobrazowy","ландшафтний парк"],
+      ["grill","гриль"],["podpałka","розпалювач"],["jednorazowe sztućce","одноразові прибори"],
+      ["reklamówka","поліетиленовий пакет"],["puszka","бляшанка"],["mrowisko","мурашник"],
+      ["świeże powietrze","свіже повітря"]
+    ]},
+    { "group": "Nowe słowa — нові слова", "items": [
+      ["nawyk","звичка"],["oddalać się","віддалятися"],["karmić","годувати"],
+      ["odśnieżać","прибирати сніг"],["wypalony","вигорілий (емоційно)"],["apatyczny","апатичний"],
+      ["powódź","повінь"],["ramię w ramię","пліч-о-пліч"],["przyzwyczaić się","звикнути"],
+      ["dbać o","дбати про"]
+    ]}
+  ],
+
+  "gramatyka": [
+    {
+      "title": "Tryb warunkowy — умовний спосіб",
+      "note": "Утворюється: форма минулого часу (3 особа) + частка by + особові закінчення -m, -ś, -śmy, -ście. Частка by пишеться разом із дієсловом. Наголос завжди на четвертому складі від кінця: ku-PI-li-by-śmy.",
+      "table": {
+        "head": ["Osoba","Forma (r.m.)","Forma (r.ż.)"],
+        "rows": [
+          ["ja","kupił*bym*","kupiła*bym*"],
+          ["ty","kupił*byś*","kupiła*byś*"],
+          ["on / ona","kupił*by*","kupiła*by*"],
+          ["my","kupili*byśmy*","kupiły*byśmy*"],
+          ["wy","kupili*byście*","kupiły*byście*"],
+          ["oni / one","kupili*by*","kupiły*by*"]
+        ]
+      }
+    },
+    {
+      "title": "Zdania warunkowe — умовні речення (gdyby…, to…)",
+      "note": "Нереальна / гіпотетична умова: в обох частинах вживаємо tryb warunkowy.",
+      "table": {
+        "head": ["Warunek (gdyby…)","Skutek (to…)"],
+        "rows": [
+          ["Gdyby*m* miał czas,","poszedł*bym* na spacer."],
+          ["Gdyby nie zaczął się stan wojenny,","rodzice nie wyemigrowali*by* do Szwecji."],
+          ["Co by było, gdyby","Unia Europejska rozpadła*by* się?"]
+        ]
+      }
+    },
+    {
+      "title": "Jeżeli…, to… — реальна умова",
+      "note": "Реальна, можлива умова. На відміну від gdyby, тут вживаємо звичайний теперішній або майбутній час (без частки by).",
+      "table": {
+        "head": ["Warunek (jeżeli / jeśli…)","Skutek (to…)"],
+        "rows": [
+          ["Jeżeli będzie ładna pogoda,","to pojedziemy na piknik."],
+          ["Jeśli segregujesz śmieci,","to dbasz o środowisko."],
+          ["Jeżeli kiedyś wyjdziesz za Polaka,","to będziesz mogła mieć polskie obywatelstwo."]
+        ]
+      }
+    },
+    {
+      "title": "Dekalog ekologiczny — tryb rozkazujący",
+      "note": "Поради щодо екології часто формулюють у наказовому способі (tryb rozkazujący).",
+      "words": "Planuj zakupy · Segreguj śmieci · Kupuj żywność lokalną · Unikaj artykułów jednorazowych · Obniż temperaturę o 1 stopień · Zainwestuj w kolektory słoneczne · Oddawaj „elektrośmieci” · Nie myj naczyń pod bieżącą wodą · Korzystaj z transportu publicznego · Zaproponuj sąsiadowi wspólny dojazd"
+    }
+  ],
+
+  "czytanie": [
+    { "block": "A. Oaza — agroturystyka · трек 219A2", "items": [
+      { "type": "mono", "title": "Łucja przedstawia gospodarstwo Oaza", "audio": "audio/L19/L19-czytanie-01.mp3",
+        "text": "Nazywam się Łucja Maj Loszon i wraz z mężem Karlem od 2008 roku prowadzę gospodarstwo agroturystyczne. Jestem Polką, której rodzice po wybuchu stanu wojennego wyemigrowali do Szwecji. Tam się wychowałam, studiowałam na prestiżowej uczelni, wyszłam za mąż. O powrocie do Polski zadecydował przypadek. Niespodziewanie w spadku po dalekiej ciotce odziedziczyłam pensjonat w Beskidzie Sądeckim. Piękny drewniany dom z początku XX wieku wraz z budynkami gospodarczymi, sadem i ogrodem. To był znak, żeby coś zmienić w naszym życiu. Rzuciliśmy pracę w międzynarodowej korporacji i postanowiliśmy spróbować sił w agrobiznesie. Nasze gospodarstwo agroturystyczne nazwaliśmy Oaza, ponieważ ta nazwa kojarzyła nam się z czymś wyjątkowym, pięknym, relaksującym. Zrobiliśmy generalny remont, zmieniliśmy styl. Oferujemy osiem dwuosobowych pokoi z łazienkami. Wszystkie urządzone są w prostym, rustykalnym stylu, bardziej skandynawskim niż góralskim. Do dyspozycji gości jest także nowocześnie wyposażony aneks kuchenny, salon z kominkiem, sala telewizyjna, sauna. Na terenie całego obiektu działa bezprzewodowy internet. Jest to świetna baza wypadowa. W pobliżu liczne szlaki turystyczne: piesze, rowerowe, konne. W okolicy oczywiście góry, zimą stok narciarski z wyciągiem oraz szlak architektury drewnianej, ruiny zamków, malownicze uzdrowiska. Dla zainteresowanych organizujemy połowy pstrągów. W sezonie kuligi z ogniskiem, pieczenie barana, grzybobrania, a z bardziej ekstremalnych atrakcji spływy pontonowe górską rzeką czy jazdę terenową na quadach. Oferujemy całodzienne wyżywienie na bazie ekologicznych produktów od lokalnych producentów. Jest możliwość zamówienia dań kuchni wegetariańskiej lub wegańskiej. Poza sezonem organizujemy też wczasy odchudzające. W Skandynawii dbanie o naturę to niezbędny element kultury osobistej. Proekologiczne nawyki i przestrzeganie zasad przyjaznych środowisku to nasz priorytet również tutaj. Zapraszamy!",
+        "tr": "Мене звати Луція Май Лошон, і разом із чоловіком Карлом з 2008 року я веду агротуристичну садибу. Я полька, батьки якої після початку воєнного стану емігрували до Швеції. Там я виросла, навчалася в престижному виші, вийшла заміж. Повернення до Польщі вирішив випадок. Несподівано у спадок від далекої тітки я успадкувала пансіонат у Бескиді Сондецькому. Гарний дерев'яний будинок початку XX століття разом із господарськими будівлями, садом і городом. Це був знак, що треба щось змінити в нашому житті. Ми покинули роботу в міжнародній корпорації й вирішили спробувати сили в агробізнесі. Нашу агротуристичну садибу ми назвали «Оаза», бо ця назва асоціювалася в нас із чимось винятковим, гарним, розслаблюючим. Ми зробили капітальний ремонт, змінили стиль. Пропонуємо вісім двомісних кімнат із ванними. Усі обставлені в простому, рустикальному стилі, радше скандинавському, ніж гуцульському. До послуг гостей також сучасно обладнана кухонна зона, вітальня з каміном, телевізійна зала, сауна. На території всього об'єкта працює бездротовий інтернет. Це чудова база для вилазок. Поблизу численні туристичні маршрути: пішохідні, велосипедні, кінні. В околиці, звичайно, гори, узимку гірськолижний схил із підйомником, а також маршрут дерев'яної архітектури, руїни замків, мальовничі курорти. Для охочих організовуємо ловлю форелі. У сезон катання на санях з вогнищем, запікання барана, збирання грибів, а з екстремальніших розваг — сплави на понтонах гірською річкою чи їзду по бездоріжжю на квадроциклах. Пропонуємо цілоденне харчування на основі екологічних продуктів від місцевих виробників. Є можливість замовити страви вегетаріанської чи веганської кухні. Поза сезоном організовуємо також відпочинок для схуднення. У Скандинавії турбота про природу — це невід'ємний елемент особистої культури. Проекологічні звички й дотримання правил, дружніх до довкілля, — це наш пріоритет і тут. Запрошуємо!" }
+    ]},
+    { "block": "A. Z korporacji na wieś · трек 219A5", "items": [
+      { "type": "mono", "title": "Łucja i Karl — życie po przeprowadzce", "audio": "audio/L19/L19-czytanie-02.mp3",
+        "text": "Mówi Łucja. To był znak, żeby coś zmienić w naszym życiu. Rzuciliśmy pracę w międzynarodowej korporacji i postanowiliśmy spróbować sił w agrobiznesie. Nie było to takie łatwe. Oczywiście, że praca w korporacji jest stresująca, męcząca, absorbująca. Ja byłam odpowiedzialna za cały dział sprzedaży, więc często zostawałam dopóźna w firmie. Weekendy też zdarzało się spędzać na szkoleniach czy wyjazdach integracyjnych. Ale za to świetnie zarabiałam. Miałam dobre ubezpieczenie i tzw. perspektywy na dalszy rozwój zawodowy. Bywałam na ważnych przyjęciach, mieszkałam w stolicy i korzystałam z tego, co oferuje duże miasto. Ale życie prywatne… Nie mieliśmy w ogóle czasu dla siebie. Oddalaliśmy się coraz bardziej. Mąż narzekał, że czuje się wypalony, był apatyczny, stale zmęczony. Potem doszły kłopoty zdrowotne, typowe dla osób poddanych długotrwałemu stresowi. Ten pensjonat naprawdę jakby spadł nam z nieba. Teraz nasze życie wygląda zupełnie inaczej. Zmieniliśmy kraj i musieliśmy zaakceptować wszystko, co się z tym wiąże: język, kulturę, mentalność. Najpierw remont. Absolutny koszmar trwający prawie rok. Potem sprawy urzędowe. Na końcu reklama, strona internetowa. No i zaczęła się ciężka, fizyczna praca. Ranne wstawanie, karmienie zwierząt, praca w ogrodzie, w sadzie, drobne naprawy, sprzątanie, zimą odśnieżanie. Ja nigdy nie mieszkałem na wsi i wszystko było dla mnie nowe. Na początku nie mogłem się przyzwyczaić, że sklep jest jeden, że wszędzie daleko, że najbliższy szpital trzydzieści kilometrów stąd, że sąsiedzi dziwnie na nas patrzą. Ale kiedy przyszła powódź, pracowaliśmy ramię w ramię, aby uratować most w naszej małej wsi. Udało się. Wieś zaakceptowała tych Szwedów. Czy żałuję tej decyzji? Raczej nie. Pracujemy razem, jesteśmy zdrowsi i szczęśliwsi, ale wciąż zmęczeni i wciąż nie mamy czasu. Brakuje mi przyjaciół, rodziny, morza, szwedzkiego porządku no i języka.",
+        "tr": "Говорить Луція. Це був знак, що треба щось змінити в нашому житті. Ми покинули роботу в міжнародній корпорації й вирішили спробувати сили в агробізнесі. Це було не так просто. Звісно, робота в корпорації стресова, виснажлива, поглинаюча. Я відповідала за весь відділ продажів, тож часто залишалася допізна в фірмі. Вихідні теж бувало проводила на тренінгах чи виїздах для згуртування команди. Зате чудово заробляла. Мала добру страховку й так звані перспективи подальшого професійного розвитку. Бувала на важливих прийомах, жила в столиці й користувалася тим, що пропонує велике місто. Але приватне життя… Ми взагалі не мали часу одне для одного. Віддалялися дедалі більше. Чоловік скаржився, що почувається вигорілим, був апатичний, постійно втомлений. Потім додалися проблеми зі здоров'ям, типові для людей у тривалому стресі. Цей пансіонат справді ніби впав нам із неба. Тепер наше життя виглядає зовсім інакше. Ми змінили країну й мусили прийняти все, що з цим пов'язано: мову, культуру, ментальність. Спершу ремонт. Абсолютний кошмар тривалістю майже рік. Потім справи в установах. Наприкінці реклама, сайт. Ну й почалася важка фізична праця. Раннє вставання, годування тварин, робота в городі, в саду, дрібний ремонт, прибирання, узимку прибирання снігу. Я ніколи не жив на селі, і все було для мене нове. Спочатку не міг звикнути, що магазин один, що всюди далеко, що найближча лікарня за тридцять кілометрів, що сусіди дивно на нас дивляться. Але коли прийшла повінь, ми працювали пліч-о-пліч, щоб урятувати міст у нашому маленькому селі. Удалося. Село прийняло цих шведів. Чи шкодую я про це рішення? Радше ні. Ми працюємо разом, ми здоровіші й щасливіші, але все ще втомлені й усе ще не маємо часу. Мені бракує друзів, родини, моря, шведського порядку, ну й мови." }
+    ]},
+    { "block": "B. Piknik znajomych Karola · трек 219B2", "items": [
+      { "type": "mono", "title": "Piknik, który zaszkodził przyrodzie", "audio": "audio/L19/L19-czytanie-03.mp3",
+        "text": "Uznaliśmy, że każdy pojedzie swoim samochodem, w końcu wygoda jest najważniejsza. Każdy miał zrobić zakupy na piknik, w efekcie mieliśmy kilka zgrzewek napojów i mnóstwo tacek mięsa na grilla. Na szczęście w supermarkecie dają jednorazowe reklamówki w dużej ilości, bo inaczej ciężko byłoby to spakować. Najpierw zatrzymaliśmy się po drodze w lesie. Cudowna okolica, pewnie dlatego zrobili tam park krajobrazowy. Adam pamiętał, w którym miejscu jest droga na Piękną Polanę. Bez trudu ominęliśmy bokiem stary drewniany szlaban i zardzewiały znak zakazu wjazdu. Piotr miał pecha, bo parkując, wjechał w wielkie mrowisko. Ale żeśmy się z niego śmiali! Rozpaliliśmy grilla między drzewami. Dziewczyny na kocu rozłożyły plastikowe talerzyki i sztućce, a ja nałożyłem kiełbasę, karkówkę, kaszankę i pieczywo tostowe. Użyłem chyba za dużo podpałki i ogień był tak mocny, że wszystko się trochę przypaliło, ale co tam! Na świeżym powietrzu wszystko smakuje lepiej. Popiliśmy to zimnym piwkiem, a puszki i resztę opakowań dorzuciliśmy do śmieci w krzakach. Było świetnie: muzyka z samochodu na pełen regulator, śpiewy i nawet tańce. Na pamiątkę tego cudownego popołudnia Paweł wyciął scyzorykiem napis na jakimś starym drzewie: tu byliśmy, i datę. Zdjęcie zamieściłem od razu na portalu i wtedy się zaczęło…",
+        "tr": "Ми вирішили, що кожен поїде своїм автомобілем, адже комфорт найважливіший. Кожен мав зробити закупи на пікнік, у результаті ми мали кілька упаковок напоїв і безліч лотків м'яса на гриль. На щастя, у супермаркеті дають одноразові пакети у великій кількості, бо інакше важко було б усе спакувати. Спершу ми зупинилися дорогою в лісі. Чудова місцевість, мабуть тому там зробили ландшафтний парк. Адам пам'ятав, де дорога на Гарну Галявину. Без труднощів ми об'їхали збоку старий дерев'яний шлагбаум і заіржавілий знак заборони в'їзду. Пьотрові не пощастило, бо, паркуючись, він в'їхав у великий мурашник. Ну й сміялися ж ми з нього! Ми розпалили гриль між деревами. Дівчата на покривалі розклали пластикові тарілочки й прибори, а я наклав ковбасу, шийку, кров'янку й тостовий хліб. Я використав, мабуть, забагато розпалювача, і вогонь був такий сильний, що все трохи пригоріло, але та нехай! На свіжому повітрі все смакує краще. Ми запили це холодним пивком, а бляшанки й решту упаковок докинули до сміття в кущах. Було чудово: музика з машини на повну гучність, співи й навіть танці. На згадку про цей чудовий полудень Павел вирізав складаним ножем напис на якомусь старому дереві: «ми тут були», і дату. Фото я виклав одразу на портал, і тоді почалося…" }
+    ]}
+  ],
+  "czytanieSource": "Джерело: Polski krok po kroku 2 (A2), Lekcja 19 — треки 219A2, 219A5, 219B2. Аудіо — синтез ElevenLabs.",
+
+  "zeszyt": [
+    { "type": "mono", "title": "Proekologiczne hasła — quiz · zeszyt cw01", "audio": "audio/L19/L19-zeszyt-01.mp3",
+      "text": "Jeden. To styl prowadzenia samochodu, dzięki któremu można obniżyć zużycie paliwa nawet o czternaście procent. Zyskuje też środowisko, bo zmniejsza się ilość dwutlenku węgla w powietrzu. Dwa. Zalecenie Unii Europejskiej w ich sprawie jest dyskusyjne. Zużywają wprawdzie mniej energii i nie emitują tyle ciepła, ale są droższe. Wytwarzają pole elektromagnetyczne oraz zawierają rtęć, której utylizacja daleka jest od ekologii. Trzy. Mieszkając we własnym domu, zużywamy dosyć dużo wody. Zanim woda do nas trafi, jest uzdatniana do picia, a odprowadzenie ścieków też kosztuje. Do podlewania ogrodu warto więc wykorzystywać wodę deszczową. Jest zdrowsza dla ogrodowej flory, no i za darmo. Cztery. Mogą być naturalne, organiczne, mineralne, azotowe. Nadużywanie tych sztucznych może być szkodliwe dla środowiska oraz zdrowia ludzi i zwierząt. Pięć. Jest to popularna metoda walki ze śniegiem i lodem. Niestety przy okazji niszczy buty, rani łapy, ma negatywny wpływ na roślinność. Alternatywa to piasek i popiół.",
+      "tr": "Один. Це стиль водіння автомобіля, завдяки якому можна знизити витрату пального навіть на чотирнадцять відсотків. Виграє також довкілля, бо зменшується кількість вуглекислого газу в повітрі. Два. Рекомендація Євросоюзу щодо них дискусійна. Вони споживають менше енергії й не виділяють стільки тепла, але дорожчі. Створюють електромагнітне поле та містять ртуть, утилізація якої далека від екології. Три. Живучи у власному будинку, ми споживаємо досить багато води. Перш ніж вода до нас потрапить, її очищають до питної, а відведення стоків теж коштує. Тож для поливання саду варто використовувати дощову воду. Вона здоровіша для садової флори, ну й безкоштовна. Чотири. Вони можуть бути натуральні, органічні, мінеральні, азотні. Зловживання штучними може бути шкідливим для довкілля та здоров'я людей і тварин. П'ять. Це популярний метод боротьби зі снігом і льодом. На жаль, принагідно псує взуття, ранить лапи, негативно впливає на рослинність. Альтернатива — пісок і попіл." },
+    { "type": "dia", "title": "Telefon do pensjonatu Oaza · zeszyt cw03", "audio": "audio/L19/L19-zeszyt-02.mp3", "lines": [
+      ["Recepcja","Gospodarstwo agroturystyczne Oaza, w czym mogę pomóc?","Агротуристична садиба «Оаза», чим можу допомогти?"],
+      ["Grzegorz","Dzień dobry, mówi Grzegorz Maj. Szukam miejsca na weekendowy wypad narciarski dla pięciu osób. Kiedy mają państwo wolne pokoje?","Добрий день, говорить Гжегож Май. Шукаю місце на лижний вікенд для п'яти осіб. Коли у вас є вільні кімнати?"],
+      ["Recepcja","Proszę poczekać, sprawdzę. Za dwa tygodnie będę miała trzy wolne pokoje. Niestety osoba, która będzie sama, musi zapłacić za puste łóżko połowę normalnej ceny.","Прошу зачекати, перевірю. За два тижні матиму три вільні кімнати. На жаль, особа, яка буде сама, має сплатити за порожнє ліжко половину звичайної ціни."],
+      ["Grzegorz","Oczywiście, rozumiem, to przecież sezon. Czy oferują państwo też śniadania?","Звичайно, розумію, це ж сезон. Чи пропонуєте ви також сніданки?"],
+      ["Recepcja","Rodzaj wyżywienia zależy od państwa, może być całodzienne lub tylko śniadania. Jest też możliwość samodzielnego przygotowywania posiłków w kuchni dla gości.","Тип харчування залежить від вас, може бути цілоденне або лише сніданки. Є також можливість самостійно готувати їжу на кухні для гостей."],
+      ["Grzegorz","Świetnie. A jak daleko od państwa pensjonatu jest do wyciągu narciarskiego w Wierchomli Wielkiej?","Чудово. А як далеко від вашого пансіонату до гірськолижного підйомника у Верхомлі Велькій?"],
+      ["Recepcja","Około trzech kilometrów. Przy stacji narciarskiej jest duży bezpłatny parking.","Близько трьох кілометрів. Біля лижної станції є велика безкоштовна парковка."],
+      ["Grzegorz","A co z dostępem do sieci?","А що з доступом до мережі?"],
+      ["Recepcja","Na terenie całego pensjonatu działa bezprzewodowy internet.","На території всього пансіонату працює бездротовий інтернет."]
+    ]},
+    { "type": "mono", "title": "Jak dbać o środowisko w pracy · zeszyt 21904-A", "audio": "audio/L19/L19-zeszyt-03.mp3",
+      "text": "Żeby dbać o środowisko, nie trzeba dużo. Wystarczy wyłączać urządzenia, kiedy ich już nie używamy, drukować dwustronnie lub na makulaturze, zgniatać butelki przed wyrzuceniem, używać swoich kubków i sztućców zamiast plastikowych. Ja to robię automatycznie, ale większość moich współpracowników nie zwraca na to żadnej uwagi. Nie mogę też patrzeć na sterty opakowań po jedzeniu na wynos.",
+      "tr": "Щоб дбати про довкілля, не треба багато. Достатньо вимикати прилади, коли ми ними вже не користуємося, друкувати двосторонньо або на макулатурі, зминати пляшки перед викиданням, користуватися своїми чашками й приборами замість пластикових. Я роблю це автоматично, але більшість моїх колег не звертають на це жодної уваги. Не можу також дивитися на купи упаковок із-під їжі навинос." }
+  ],
+  "zeszytSource": "Zeszyt ćwiczeń ZC2, Lekcja 19, ćw. 1, ćw. 3 та дод. трек (треки 26202, 26796, 59515). Транскрипт — Whisper (легко відредаговано), аудіо — синтез ElevenLabs.",
+
+  "checklist": [
+    { "text": "Розповісти про агротуристичну садибу та її пропозицію", "sub": "gospodarstwo agroturystyczne, pensjonat, wyżywienie, baza wypadowa" },
+    { "text": "Говорити про екологію й охорону довкілля", "sub": "segregować śmieci, ochrona środowiska, energia odnawialna, recykling" },
+    { "text": "Утворити tryb warunkowy (умовний спосіб)", "sub": "kupiłbym, zrobiłabym, pojechalibyśmy (by + закінчення)" },
+    { "text": "Будувати умовні речення gdyby…, to…", "sub": "Gdybym miał czas, poszedłbym na spacer." },
+    { "text": "Відрізняти реальну умову jeżeli…, to… від нереальної gdyby…", "sub": "jeżeli + czas teraźniejszy/przyszły vs gdyby + tryb warunkowy" }
+  ],
+
+  "quiz": [
+    { "topic": "agroturystyka", "q": "Як Łucja потрапила до Польщі й здобула пансіонат?",
+      "o": ["купила його на аукціоні","успадкувала у спадок від далекої тітки","виграла в лотерею"], "a": 1,
+      "fb": "Łucja: «Niespodziewanie w spadku po dalekiej ciotce odziedziczyłam pensjonat w Beskidzie Sądeckim»." },
+    { "topic": "słownictwo", "q": "Що означає польське «odziedziczyć»?",
+      "o": ["успадкувати","орендувати","відремонтувати"], "a": 0,
+      "fb": "«Odziedziczyć» = успадкувати (spadek — спадок). Łucja odziedziczyła pensjonat po ciotce." },
+    { "topic": "agroturystyka", "q": "У якому стилі обставлені кімнати в садибі «Oaza»?",
+      "o": ["góralskim","rustykalnym, skandynawskim","nowoczesnym miejskim"], "a": 1,
+      "fb": "«Wszystkie urządzone są w prostym, rustykalnym stylu, bardziej skandynawskim niż góralskim»." },
+    { "topic": "tryb warunkowy", "q": "Доповніть: «___ to, ale jest za drogie» (я, чол., kupić).",
+      "o": ["Kupiłbym","Kupiłem","Kupuję"], "a": 0,
+      "fb": "Tryb warunkowy: kupić → kupiłbym (купив би). Виражає гіпотетичну дію." },
+    { "topic": "tryb warunkowy", "q": "На який склад падає наголос у формі «kupilibyśmy»?",
+      "o": ["на останній","на передостанній","на четвертий від кінця"], "a": 2,
+      "fb": "У tryb warunkowy наголос завжди на четвертому складі від кінця: ku-PI-li-by-śmy." },
+    { "topic": "zdania warunkowe", "q": "Яку конструкцію вживаємо для нереальної, гіпотетичної умови?",
+      "o": ["gdyby + tryb warunkowy","jeżeli + czas teraźniejszy","kiedy + czas przyszły"], "a": 0,
+      "fb": "Нереальна умова: «Gdybym miał czas, poszedłbym…» — в обох частинах tryb warunkowy." },
+    { "topic": "zdania warunkowe", "q": "Реальна, можлива умова виражається через…",
+      "o": ["gdyby + by","jeżeli/jeśli + czas teraźniejszy lub przyszły","aby + bezokolicznik"], "a": 1,
+      "fb": "«Jeżeli będzie ładna pogoda, to pojedziemy na piknik» — реальна умова без частки by." },
+    { "topic": "ekologia", "q": "Що НЕ є проекологічною звичкою з «dekalogu Łucji»?",
+      "o": ["segregować śmieci","myć naczynia pod bieżącą wodą","korzystać z transportu publicznego"], "a": 1,
+      "fb": "У декалозі: «Nie myj naczyń pod bieżącą wodą» — мити посуд під проточною водою НЕ екологічно." },
+    { "topic": "piknik", "q": "Який екологічний промах зробили знайомі Karola на пікніку?",
+      "o": ["jechali jednym samochodem","zostawili śmieci w krzakach","posprzątali po sobie polanę"], "a": 1,
+      "fb": "«Puszki i resztę opakowań dorzuciliśmy do śmieci w krzakach» — сміття залишили в кущах. Powinni byli pojechać jednym samochodem." },
+    { "topic": "słownictwo", "q": "Що означає «dwutlenek węgla»?",
+      "o": ["озон","вуглекислий газ (CO₂)","метан"], "a": 1,
+      "fb": "«Dwutlenek węgla» = вуглекислий газ (CO₂), пов'язаний з efektem cieplarnianym (парниковим ефектом)." }
+  ]
+}
