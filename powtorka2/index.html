@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Powtórka · Polski krok po kroku 2 (A1)</title>
+<style>
+:root{--bg:#f6f3ec;--card:#fff;--soft:#faf8f3;--ink:#2c2e33;--mut:#7a7f8a;--line:#e7e2d6;--acc:#d6455a;--acc2:#3a6ea5;--ok:#2f9e44}
+*{box-sizing:border-box}
+body{margin:0;font:17px/1.6 "Iowan Old Style",Georgia,"Segoe UI",Roboto,serif;background:var(--bg);color:var(--ink)}
+header{background:#fffefb;border-bottom:1px solid var(--line);padding:20px 22px}
+header h1{margin:0;font-size:22px}
+header p{margin:6px 0 0;font-size:14px;color:var(--mut);font-family:"Segoe UI",sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:24px 22px 70px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+a.les{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:13px;padding:15px 16px;box-shadow:0 2px 10px rgba(60,50,30,.05);transition:.12s}
+a.les:hover{border-color:var(--acc2);transform:translateY(-2px)}
+a.les.soon{opacity:.6;pointer-events:none}
+.les .n{font-family:Roboto,sans-serif;font-weight:700;color:var(--acc);font-size:13px}
+.les .t{margin-top:5px;font-size:16px;font-weight:600}
+.les .badge{display:inline-block;margin-top:9px;font-family:Roboto,sans-serif;font-size:10.5px;border-radius:5px;padding:2px 8px}
+.badge.ok{background:#eafaef;color:var(--ok);border:1px solid #b7e6c4}
+.badge.soon{background:#f1ece0;color:var(--mut);border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Powtórka · Polski krok po kroku 2</h1>
+  <p>Повторення уроків рівня A2. Обери урок: читай, слухай, повтори граматику, пройди quiz.</p>
+</header>
+<div class="wrap"><div class="grid" id="grid"></div></div>
+<script>
+fetch('data/lessons.json').then(r=>r.json()).then(list=>{
+  const g=document.getElementById('grid');
+  list.forEach(l=>{
+    const a=document.createElement('a');
+    a.className='les'+(l.ready?'':' soon');
+    a.href=l.ready?`lekcja.html?id=${l.id}`:'#';
+    a.innerHTML=`<div class="n">Lekcja ${l.id}</div><div class="t">${l.title}</div>`+
+      (l.ready?'<span class="badge ok">готово</span>':'<span class="badge soon">скоро</span>');
+    g.appendChild(a);
+  });
+}).catch(()=>{document.getElementById('grid').innerHTML=
+  '<p style="color:#7a7f8a">Відкрий через локальний сервер: <code>python3 -m http.server 8000</code></p>';});
+</script>
+</body>
+</html>
