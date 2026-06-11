@@ -1,0 +1,2543 @@
+<!doctype html>
+<html lang="uk" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lekcja 1: Poznajmy się! · Polski krok po kroku 2 (A2) · Повний інтерактивний мікрокурс</title>
+  <style>
+    /* ==========================================================================
+       COLORS & SYSTEMS (CSS variables for Light & Dark mode)
+       ========================================================================== */
+    :root {
+      /* Light Mode: Warm, scholarly, premium look */
+      --bg-primary: #f6f3ec;
+      --bg-secondary: #faf8f3;
+      --card-bg: #ffffff;
+      --card-bg-alt: #fcfbfa;
+      --text-main: #2c2e33;
+      --text-muted: #5e6470;
+      --text-bright: #1c1d21;
+      --border-color: #e7e2d6;
+      --border-color-focus: #c8bfae;
+      
+      --accent-primary: #d6455a; /* Crimson Red */
+      --accent-primary-rgb: 214, 69, 90;
+      --accent-secondary: #3a6ea5; /* Slate Blue */
+      --accent-secondary-rgb: 58, 110, 165;
+      
+      --color-success: #2f9e44;
+      --color-success-bg: #ebfbee;
+      --color-error: #e03131;
+      --color-error-bg: #ffe3e3;
+      --color-warning: #f08c00;
+      --color-warning-bg: #fff9db;
+
+      --card-shadow: 0 4px 18px rgba(60, 50, 30, 0.05), 0 1px 3px rgba(60, 50, 30, 0.02);
+      --card-shadow-hover: 0 8px 24px rgba(60, 50, 30, 0.1), 0 2px 6px rgba(60, 50, 30, 0.04);
+      --hero-gradient: linear-gradient(135deg, #efe8dc 0%, #e5dccb 100%);
+      
+      --font-serif: "Iowan Old Style", Georgia, "Times New Roman", serif;
+      --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+      --transition-speed: 0.25s;
+    }
+
+    [data-theme="dark"] {
+      /* Dark Mode: Focused deep-space study dashboard */
+      --bg-primary: #121316;
+      --bg-secondary: #1a1c21;
+      --card-bg: #1e2127;
+      --card-bg-alt: #242830;
+      --text-main: #d1d5db;
+      --text-muted: #9ca3af;
+      --text-bright: #ffffff;
+      --border-color: #2d323c;
+      --border-color-focus: #414957;
+      
+      --accent-primary: #e55b6e;
+      --accent-primary-rgb: 229, 91, 110;
+      --accent-secondary: #518cca;
+      --accent-secondary-rgb: 81, 140, 202;
+      
+      --color-success: #37b24d;
+      --color-success-bg: #1b2e20;
+      --color-error: #f03e3e;
+      --color-error-bg: #3c1e1e;
+      --color-warning: #fcc419;
+      --color-warning-bg: #352d13;
+
+      --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      --card-shadow-hover: 0 10px 28px rgba(0, 0, 0, 0.45);
+      --hero-gradient: linear-gradient(135deg, #18191d 0%, #151619 100%);
+    }
+
+    /* ==========================================================================
+       BASE & RESET
+       ========================================================================== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      color: var(--text-bright);
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: var(--accent-secondary);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    a:hover {
+      color: var(--accent-primary);
+    }
+
+    /* ==========================================================================
+       LAYOUT STRUCTURE
+       ========================================================================== */
+    .dashboard-container {
+      display: flex;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    /* Interactive Side-Navigation Panel */
+    .side-nav {
+      width: 280px;
+      background-color: var(--card-bg);
+      border-right: 1px solid var(--border-color);
+      padding: 2rem 1.5rem;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 100;
+      transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .nav-logo .badge-logo {
+      background-color: var(--accent-primary);
+      color: #ffffff;
+      font-family: var(--font-sans);
+      font-weight: 800;
+      padding: 0.35rem 0.8rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-logo-text {
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      font-weight: bold;
+      color: var(--text-bright);
+    }
+
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      flex-grow: 1;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-radius: 10px;
+      color: var(--text-main);
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .nav-item:hover {
+      background-color: var(--bg-primary);
+      color: var(--accent-primary);
+      transform: translateX(4px);
+    }
+
+    .nav-item.active {
+      background-color: var(--accent-primary);
+      color: #ffffff !important;
+    }
+
+    .nav-item.active svg {
+      fill: #ffffff;
+      stroke: #ffffff;
+    }
+
+    .nav-item svg {
+      width: 20px;
+      height: 20px;
+      stroke: var(--text-muted);
+      fill: none;
+      transition: stroke 0.2s ease;
+    }
+
+    .nav-item:hover svg {
+      stroke: var(--accent-primary);
+    }
+
+    .side-footer {
+      border-top: 1px solid var(--border-color);
+      padding-top: 1.5rem;
+    }
+
+    /* Main Content Area */
+    .main-content {
+      flex: 1;
+      max-width: calc(100% - 280px);
+      padding: 0;
+      position: relative;
+    }
+
+    /* Top Utility Bar */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      z-index: 90;
+      background-color: rgba(var(--accent-secondary-rgb), 0.02);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+    }
+
+    .top-title {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-bright);
+    }
+
+    .top-controls {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    /* Theme Switcher Button */
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--border-color);
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--text-bright);
+      background-color: var(--card-bg);
+      transition: all var(--transition-speed) ease;
+      box-shadow: var(--card-shadow);
+    }
+
+    .theme-toggle:hover {
+      transform: scale(1.05);
+      border-color: var(--accent-primary);
+      color: var(--accent-primary);
+    }
+
+    .theme-toggle svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    /* Progress tracker */
+    .lesson-progress-container {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .progress-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .progress-track {
+      width: 120px;
+      height: 8px;
+      background-color: var(--border-color);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      width: 15%;
+      height: 100%;
+      background-color: var(--accent-primary);
+      border-radius: 10px;
+      transition: width 0.4s ease;
+    }
+
+    /* ==========================================================================
+       SECTIONAL STYLING (MICRO-COURSE CARDS)
+       ========================================================================== */
+    .section-wrapper {
+      padding: 4rem 3rem;
+      border-bottom: 1px solid var(--border-color);
+      scroll-margin-top: 70px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      background: var(--hero-gradient);
+      padding: 5rem 3rem 6rem 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-decorations {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      opacity: 0.15;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background-color: rgba(var(--accent-primary-rgb), 0.12);
+      color: var(--accent-primary);
+      padding: 0.4rem 1.2rem;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      max-width: 800px;
+      line-height: 1.15;
+    }
+
+    .hero-subtitle {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      color: var(--text-muted);
+      max-width: 700px;
+      margin-bottom: 3rem;
+    }
+
+    .outcomes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+      position: relative;
+      z-index: 5;
+    }
+
+    .outcome-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      padding: 1.75rem;
+      border-radius: 16px;
+      box-shadow: var(--card-shadow);
+      transition: all 0.3s ease;
+    }
+
+    .outcome-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--card-shadow-hover);
+      border-color: var(--accent-primary);
+    }
+
+    .outcome-icon {
+      background-color: rgba(var(--accent-primary-rgb), 0.08);
+      color: var(--accent-primary);
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .outcome-icon svg {
+      width: 24px;
+      height: 24px;
+      stroke: currentColor;
+      fill: none;
+    }
+
+    .outcome-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .outcome-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* Common Section Typography */
+    .section-header {
+      margin-bottom: 3rem;
+      max-width: 800px;
+    }
+
+    .section-category {
+      color: var(--accent-primary);
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .section-headline {
+      font-size: 2.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .section-lead {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    /* Core Concept: Dialogue Interactive Panel */
+    .split-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 2.5rem;
+      align-items: start;
+    }
+
+    .interactive-form-paper {
+      background-color: #ffffff;
+      color: #2c2e33;
+      border: 2px solid #e7e2d6;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(60, 50, 30, 0.08);
+      padding: 2.5rem;
+      position: relative;
+      transition: transform var(--transition-speed) ease;
+    }
+
+    /* Stamp / Watermark on the paper form */
+    .form-watermark {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      border: 3px dashed #d6455a;
+      color: #d6455a;
+      padding: 0.25rem 0.75rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      transform: rotate(12deg);
+      border-radius: 4px;
+      user-select: none;
+      opacity: 0.8;
+    }
+
+    .form-title-pl {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      border-bottom: 2px solid #2c2e33;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+
+    .form-group-visual {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .form-field-row {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      align-items: center;
+      border-bottom: 1px dotted #c8bfae;
+      padding-bottom: 0.5rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .form-field-row::after {
+      content: '';
+      position: absolute;
+      left: -10px;
+      right: -10px;
+      top: -4px;
+      bottom: -4px;
+      background-color: rgba(var(--accent-secondary-rgb), 0.04);
+      opacity: 0;
+      border-radius: 6px;
+      transition: opacity 0.2s ease;
+      pointer-events: none;
+    }
+
+    .form-field-row:hover::after {
+      opacity: 1;
+    }
+
+    .form-field-row.active-field::after {
+      opacity: 1;
+      border: 1px solid var(--accent-secondary);
+    }
+
+    .form-label-pl {
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #5e6470;
+    }
+
+    .form-value-written {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #1a365d;
+      padding-left: 0.5rem;
+    }
+
+    .form-value-written.blank-field {
+      color: #a0aec0;
+      font-style: italic;
+    }
+
+    .concept-explanation-card {
+      background-color: var(--card-bg-alt);
+      border: 1px solid var(--border-color);
+      border-left: 5px solid var(--accent-secondary);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: var(--card-shadow);
+      position: sticky;
+      top: 100px;
+      transition: all 0.3s ease;
+    }
+
+    .explanation-badge-field {
+      display: inline-block;
+      background-color: var(--accent-secondary);
+      color: #ffffff;
+      padding: 0.25rem 0.75rem;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .dialogue-bubble {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .dialogue-speaker {
+      font-weight: bold;
+      color: var(--accent-primary);
+      margin-right: 0.5rem;
+    }
+
+    /* Core Concept: Persona Profiles */
+    .profiles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .profile-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: var(--card-shadow);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .profile-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--card-shadow-hover);
+      border-color: var(--accent-secondary);
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .profile-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: rgba(var(--accent-secondary-rgb), 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border: 2px solid var(--border-color);
+    }
+
+    .profile-name-sub {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .profile-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      font-family: var(--font-serif);
+    }
+
+    .profile-country {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .profile-quote {
+      font-style: italic;
+      color: var(--text-bright);
+      margin-bottom: 1.25rem;
+      padding-left: 0.5rem;
+      border-left: 2px solid var(--accent-primary);
+      font-size: 0.95rem;
+    }
+
+    .profile-badge {
+      display: inline-block;
+      background-color: var(--badge-bg);
+      color: var(--text-main);
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ==========================================================================
+       GRAMMAR HUB (PATTERN & FORMULA SECTION)
+       ========================================================================== */
+    .tab-container {
+      margin-top: 2rem;
+    }
+
+    .tab-headers {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border-radius: 8px;
+    }
+
+    .tab-btn:hover {
+      color: var(--accent-primary);
+      background-color: var(--badge-bg);
+    }
+
+    .tab-btn.active-tab {
+      color: var(--accent-primary);
+      background-color: rgba(var(--accent-primary-rgb), 0.08);
+    }
+
+    .grammar-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .grammar-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2.25rem;
+      box-shadow: var(--card-shadow);
+    }
+
+    .grammar-card-title {
+      font-size: 1.3rem;
+      font-family: var(--font-serif);
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px dashed var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .grammar-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1.5rem;
+    }
+
+    .grammar-table th, .grammar-table td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+
+    .grammar-table th {
+      background-color: var(--bg-secondary);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .grammar-table td {
+      border-bottom: 1px solid var(--border-color);
+      font-size: 0.95rem;
+    }
+
+    .ending-highlight {
+      color: var(--accent-primary);
+      font-weight: 800;
+      font-size: 1.15rem;
+    }
+
+    .gender-label {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .gender-m { background-color: rgba(58, 110, 165, 0.1); color: var(--accent-secondary); }
+    .gender-f { background-color: rgba(214, 69, 90, 0.1); color: var(--accent-primary); }
+    .gender-n { background-color: #e2e8f0; color: #4a5568; }
+
+    .grammar-alert {
+      background-color: var(--color-warning-bg);
+      border-left: 4px solid var(--color-warning);
+      padding: 1.25rem;
+      border-radius: 8px;
+      color: var(--text-main);
+      font-size: 0.9rem;
+      margin-top: 1.5rem;
+    }
+
+    /* Interactive trigger list inside the grammar section */
+    .triggers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2rem;
+    }
+
+    .trigger-item {
+      background-color: var(--card-bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.25rem;
+      transition: all 0.2s ease;
+    }
+
+    .trigger-item:hover {
+      border-color: var(--accent-primary);
+      transform: translateY(-2px);
+    }
+
+    .trigger-name {
+      font-weight: bold;
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      color: var(--accent-secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .trigger-example {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* ==========================================================================
+       COMMON MISTAKES SECTION
+       ========================================================================== */
+    .mistakes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .mistake-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mistake-body {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      flex-grow: 1;
+    }
+
+    .mistake-line {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .mistake-line.bad {
+      background-color: var(--color-error-bg);
+      border-left: 4px solid var(--color-error);
+    }
+
+    .mistake-line.good {
+      background-color: var(--color-success-bg);
+      border-left: 4px solid var(--color-success);
+    }
+
+    .mistake-icon-indicator {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .mistake-text {
+      font-weight: 500;
+      color: var(--text-bright);
+    }
+
+    .mistake-desc {
+      background-color: var(--bg-secondary);
+      padding: 1.25rem;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================================================
+       SPEAKING & DRILL SECTION
+       ========================================================================== */
+    .drills-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .drill-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: var(--card-shadow);
+      margin-bottom: 1.5rem;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .drill-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .drill-badge {
+      font-size: 0.75rem;
+      background-color: rgba(var(--accent-secondary-rgb), 0.08);
+      color: var(--accent-secondary);
+      padding: 0.25rem 0.75rem;
+      border-radius: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .drill-prompt {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text-bright);
+      margin-bottom: 1.5rem;
+      line-height: 1.4;
+    }
+
+    .drill-action {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .drill-btn {
+      background-color: var(--accent-secondary);
+      color: #ffffff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .drill-btn:hover {
+      background-color: var(--accent-primary);
+      transform: translateY(-1px);
+    }
+
+    .drill-reveal-box {
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px dashed var(--border-color);
+      display: none;
+      animation: fadeIn 0.4s ease;
+    }
+
+    .drill-answer {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      color: var(--accent-primary);
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    .drill-literal {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================================================
+       INTERACTIVE PRACTICE (QUIZ SECTION)
+       ========================================================================== */
+    .quiz-layout-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      box-shadow: var(--card-shadow);
+      max-width: 800px;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .quiz-status-bar {
+      background-color: var(--bg-secondary);
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .quiz-progress-text {
+      font-size: 0.95rem;
+      font-weight: bold;
+      color: var(--text-bright);
+    }
+
+    .quiz-track-full {
+      width: 150px;
+      height: 6px;
+      background-color: var(--border-color);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .quiz-track-fill {
+      height: 100%;
+      background-color: var(--accent-secondary);
+      width: 10%;
+      transition: width 0.3s ease;
+    }
+
+    .quiz-score-badge {
+      font-size: 0.85rem;
+      background-color: rgba(var(--accent-primary-rgb), 0.08);
+      color: var(--accent-primary);
+      padding: 0.3rem 0.8rem;
+      border-radius: 50px;
+      font-weight: 700;
+    }
+
+    .quiz-body {
+      padding: 3rem 2.5rem;
+    }
+
+    .quiz-question-topic {
+      display: inline-block;
+      font-size: 0.75rem;
+      background-color: var(--badge-bg);
+      color: var(--text-muted);
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .quiz-question-text {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--text-bright);
+      margin-bottom: 2rem;
+      line-height: 1.4;
+      font-family: var(--font-serif);
+    }
+
+    .quiz-options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .quiz-option {
+      border: 2px solid var(--border-color);
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.25rem;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1.05rem;
+      transition: all 0.2s ease;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+    }
+
+    .quiz-option:hover {
+      border-color: var(--accent-secondary);
+      background-color: var(--bg-secondary);
+    }
+
+    .quiz-option.correct-choice {
+      border-color: var(--color-success) !important;
+      background-color: var(--color-success-bg) !important;
+      color: var(--color-success);
+    }
+
+    .quiz-option.incorrect-choice {
+      border-color: var(--color-error) !important;
+      background-color: var(--color-error-bg) !important;
+      color: var(--color-error);
+    }
+
+    .choice-feedback-icon {
+      font-weight: 900;
+      font-size: 1.2rem;
+    }
+
+    .quiz-explanation-panel {
+      background-color: var(--bg-secondary);
+      border-left: 4px solid var(--accent-primary);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      display: none;
+      animation: slideIn var(--transition-speed) ease;
+    }
+
+    .quiz-explanation-title {
+      font-weight: bold;
+      color: var(--accent-primary);
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .quiz-explanation-text {
+      font-size: 0.95rem;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+
+    .quiz-action-bar {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .quiz-next-btn {
+      background-color: var(--accent-primary);
+      color: #ffffff;
+      border: none;
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .quiz-next-btn:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+    }
+
+    /* Quiz results view */
+    .quiz-results-container {
+      display: none;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .quiz-results-icon {
+      font-size: 4.5rem;
+      margin-bottom: 1.5rem;
+      animation: pulse 1.5s infinite;
+    }
+
+    .quiz-results-headline {
+      font-size: 2.25rem;
+      font-family: var(--font-serif);
+      margin-bottom: 1rem;
+    }
+
+    .quiz-results-score {
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--accent-primary);
+      margin-bottom: 1rem;
+    }
+
+    .quiz-results-feedback {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 500px;
+      margin: 0 auto 2.5rem auto;
+    }
+
+    .quiz-retry-btn {
+      background-color: var(--accent-secondary);
+      color: #ffffff;
+      border: none;
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .quiz-retry-btn:hover {
+      background-color: var(--accent-primary);
+    }
+
+    /* ==========================================================================
+       FINAL REVISION (CHECKLIST ENGINE)
+       ========================================================================== */
+    .checklist-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: var(--card-shadow);
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .checklist-title {
+      font-size: 1.5rem;
+      font-family: var(--font-serif);
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.75rem;
+    }
+
+    .checklist-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .checklist-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      cursor: pointer;
+    }
+
+    .checkbox-trigger {
+      width: 24px;
+      height: 24px;
+      border: 2px solid var(--border-color);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 0.2rem;
+      transition: all 0.2s ease;
+    }
+
+    .checklist-item:hover .checkbox-trigger {
+      border-color: var(--accent-primary);
+    }
+
+    .checklist-item.checked-item .checkbox-trigger {
+      background-color: var(--color-success);
+      border-color: var(--color-success);
+    }
+
+    .checklist-item.checked-item .checkbox-trigger svg {
+      opacity: 1;
+    }
+
+    .checkbox-trigger svg {
+      width: 14px;
+      height: 14px;
+      stroke: #ffffff;
+      stroke-width: 3;
+      fill: none;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .checklist-content {
+      flex-grow: 1;
+    }
+
+    .checklist-text {
+      font-weight: 600;
+      color: var(--text-bright);
+      font-size: 1.05rem;
+      transition: color 0.2s ease;
+    }
+
+    .checklist-item.checked-item .checklist-text {
+      text-decoration: line-through;
+      color: var(--text-muted);
+    }
+
+    .checklist-sub {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================================================
+       ANIMATIONS
+       ========================================================================== */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: scaleY(0.9); transform-origin: top; }
+      to { opacity: 1; transform: scaleY(1); transform-origin: top; }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.04); }
+      100% { transform: scale(1); }
+    }
+
+    /* ==========================================================================
+       RESPONSIVE ADAPTATIONS
+       ========================================================================== */
+    @media (max-width: 1100px) {
+      .split-layout {
+        grid-template-columns: 1fr;
+      }
+      .concept-explanation-card {
+        position: static;
+        margin-top: 1.5rem;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .dashboard-container {
+        flex-direction: column;
+      }
+      .side-nav {
+        width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        padding: 1.5rem;
+      }
+      .nav-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        gap: 0.25rem;
+      }
+      .nav-item {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.85rem;
+      }
+      .main-content {
+        max-width: 100%;
+      }
+      .top-bar {
+        padding: 1rem 1.5rem;
+      }
+      .section-wrapper {
+        padding: 3rem 1.5rem;
+      }
+      .hero-section {
+        padding: 4rem 1.5rem;
+      }
+      .hero-title {
+        font-size: 2.5rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .form-field-row {
+        grid-template-columns: 1fr;
+        gap: 0.25rem;
+        padding-bottom: 0.75rem;
+      }
+      .form-value-written {
+        padding-left: 0;
+      }
+      .interactive-form-paper {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard-container">
+    
+    <!-- LEFT SIDE NAVIGATION -->
+    <aside class="side-nav">
+      <div>
+        <div class="nav-logo">
+          <span class="badge-logo">A2</span>
+          <span class="nav-logo-text">Polski Krok po Kroku</span>
+        </div>
+        <nav class="nav-links">
+          <div class="nav-item active" onclick="scrollToSec('sec-hero')">
+            <svg viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Вступ</span>
+          </div>
+          <div class="nav-item" onclick="scrollToSec('sec-dialog')">
+            <svg viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Анкета & Діалог</span>
+          </div>
+          <div class="nav-item" onclick="scrollToSec('sec-personas')">
+            <svg viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Герої уроку</span>
+          </div>
+          <div class="nav-item" onclick="scrollToSec('sec-grammar')">
+            <svg viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Орудний відмінок</span>
+          </div>
+          <div class="nav-item" onclick="scrollToSec('sec-mistakes')">
+            <svg viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Типові помилки</span>
+          </div>
+          <div class="nav-item" onclick="scrollToSec('sec-drills')">
+            <svg viewBox="0 0 24 24"><path d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Тренування усне</span>
+          </div>
+          <div class="nav-item" onclick="scrollToSec('sec-practice')">
+            <svg viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 01-2 2h0a2 2 0 01-2-2v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Тест-симулятор</span>
+          </div>
+        </nav>
+      </div>
+      <div class="side-footer">
+        <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center;">Розроблено за оригінальними матеріалами Krok po kroku 2.</p>
+      </div>
+    </aside>
+
+    <!-- MAIN INTERACTIVE SCREEN -->
+    <main class="main-content">
+      
+      <!-- TOP STATUS & CONTROLS -->
+      <section class="top-bar">
+        <div class="top-title">Lekcja 1 · Poznajmy się!</div>
+        <div class="top-controls">
+          <div class="lesson-progress-container">
+            <span class="progress-label">Прогрес уроку</span>
+            <div class="progress-track">
+              <div class="progress-bar-fill" id="lesson-progress-bar"></div>
+            </div>
+          </div>
+          <button class="theme-toggle" onclick="toggleTheme()" title="Змінити тему">
+            <!-- Sun / Moon Inline SVG -->
+            <svg id="theme-icon" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- HERO INTRO -->
+      <section class="hero-section" id="sec-hero">
+        <div class="hero-decorations">
+          <!-- Geometric layout visuals -->
+          <svg width="100%" height="100%">
+            <circle cx="90%" cy="10%" r="150" fill="var(--accent-primary)" opacity="0.1"/>
+            <rect x="5%" y="70%" width="80" height="80" transform="rotate(45)" fill="var(--accent-secondary)" opacity="0.1"/>
+          </svg>
+        </div>
+        <span class="hero-badge">Polski Krok po Kroku 2 (A2)</span>
+        <h1 class="hero-title">Повторення матеріалу: Урок 1</h1>
+        <p class="hero-subtitle">Опануйте заповнення польських анкет, розповідь про себе та орудний відмінок іменників та прикметників (Narzędnik).</p>
+        
+        <div class="outcomes-grid">
+          <div class="outcome-card">
+            <div class="outcome-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="outcome-title">Складання анкет</h3>
+            <p class="outcome-desc">Навчіться впевнено заповнювати поля «stan cywilny» та «nazwisko panieńskie».</p>
+          </div>
+          <div class="outcome-card">
+            <div class="outcome-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="outcome-title">Narzędnik (Kim? Czym?)</h3>
+            <p class="outcome-desc">Засвойте відмінкові закінчення орудного відмінка однини без зубрилки.</p>
+          </div>
+          <div class="outcome-card">
+            <div class="outcome-icon">
+              <svg viewBox="0 0 24 24"><path d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="outcome-title">Власна презентація</h3>
+            <p class="outcome-desc">Описуйте свій фах, інтереси та уподобання, використовуючи автентичні структури.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIALOG & FORM SECTION -->
+      <section class="section-wrapper" id="sec-dialog">
+        <div class="section-header">
+          <span class="section-category">Офіційний контекст</span>
+          <h2 class="section-headline">Заповнення бланка та діалог Mami і Karol</h2>
+          <p class="section-lead">Клацніть на поля анкетного бланка Mami Takada на папері нижче, щоб дослідити значення термінів та розібрати відповідний діалог у реальному часі.</p>
+        </div>
+
+        <div class="split-layout">
+          <!-- Interactive Paper Form -->
+          <div class="interactive-form-paper">
+            <div class="form-watermark">Aplikacja</div>
+            <div class="form-title-pl">FORMULARZ ZGŁOSZENIOWY</div>
+            
+            <div class="form-group-visual">
+              <div class="form-field-row active-field" id="field-imie" onclick="explainField('imie')">
+                <span class="form-label-pl">Imię / Imiona</span>
+                <span class="form-value-written">Mami</span>
+              </div>
+              <div class="form-field-row" id="field-nazwisko" onclick="explainField('nazwisko')">
+                <span class="form-label-pl">Nazwisko</span>
+                <span class="form-value-written">Takada</span>
+              </div>
+              <div class="form-field-row" id="field-panieńskie" onclick="explainField('panieńskie')">
+                <span class="form-label-pl">Nazwisko panieńskie (rodowe)</span>
+                <span class="form-value-written blank-field">— [brak] —</span>
+              </div>
+              <div class="form-field-row" id="field-urodzenia" onclick="explainField('urodzenia')">
+                <span class="form-label-pl">Miejsce urodzenia</span>
+                <span class="form-value-written">Tokio</span>
+              </div>
+              <div class="form-field-row" id="field-obywatelstwo" onclick="explainField('obywatelstwo')">
+                <span class="form-label-pl">Obywatelstwo</span>
+                <span class="form-value-written">japońskie</span>
+              </div>
+              <div class="form-field-row" id="field-stan" onclick="explainField('stan')">
+                <span class="form-label-pl">Stan cywilny</span>
+                <span class="form-value-written">panna</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Explanation Panel -->
+          <div class="concept-explanation-card" id="explanation-box">
+            <span class="explanation-badge-field" id="explain-badge">ДЕТАЛІ ПОЛЯ: IMIĘ</span>
+            <h3 class="profile-name" style="margin-bottom: 1rem;" id="explain-title">Imię (Mami)</h3>
+            <p id="explain-text">Перше ім’я людини. У польських анкетах часто просять вказати «Imię (imiona)», тобто всі офіційні імена, якщо їх декілька за паспортом.</p>
+            
+            <div class="dialogue-bubble" id="explain-bubble">
+              <span class="dialogue-speaker">Karol:</span> «Mami, musisz wypełnić ten formularz zgłoszeniowy.»
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PERSONAS / CHARACTERS SECTION -->
+      <section class="section-wrapper" id="sec-personas">
+        <div class="section-header">
+          <span class="section-category">Герої та їхні історії</span>
+          <h2 class="section-headline">Хто є хто? Презентація персонажів</h2>
+          <p class="section-lead">Дослідіть профілі учасників курсу. Кожен із них демонструє важливі граматичні конструкції (заяви про фах та інтереси).</p>
+        </div>
+
+        <div class="profiles-grid">
+          <!-- Tom Profile -->
+          <div class="profile-card" onclick="highlightPersona('tom')">
+            <div class="profile-header">
+              <div class="profile-avatar" style="color: var(--accent-secondary);">T</div>
+              <div class="profile-name-sub">
+                <span class="profile-name">Tom</span>
+                <span class="profile-country">Wielka Brytania / USA</span>
+              </div>
+            </div>
+            <div class="profile-quote">
+              «Z wykształcenia jestem historykiem. Piszę prace o przyczynach upadku komunizmu.»
+            </div>
+            <div>
+              <span class="profile-badge">Narzędnik: historykiem</span>
+              <span class="profile-badge">Interesuje się historią</span>
+            </div>
+          </div>
+
+          <!-- Uwe Profile -->
+          <div class="profile-card" onclick="highlightPersona('uwe')">
+            <div class="profile-header">
+              <div class="profile-avatar" style="color: var(--accent-primary);">U</div>
+              <div class="profile-name-sub">
+                <span class="profile-name">Uwe</span>
+                <span class="profile-country">Niemcy</span>
+              </div>
+            </div>
+            <div class="profile-quote">
+              «Jestem programistą. Przepadam za polskim jedzeniem. Interesuję się też literaturą.»
+            </div>
+            <div>
+              <span class="profile-badge">przepadam za... (+ Czym)</span>
+              <span class="profile-badge">Narzędnik: programistą</span>
+            </div>
+          </div>
+
+          <!-- Mami Profile -->
+          <div class="profile-card" onclick="highlightPersona('mami')">
+            <div class="profile-header">
+              <div class="profile-avatar" style="color: var(--color-warning);">M</div>
+              <div class="profile-name-sub">
+                <span class="profile-name">Mami</span>
+                <span class="profile-country">Japonia</span>
+              </div>
+            </div>
+            <div class="profile-quote">
+              «Jestem studentką. Interesuję się sztuką i fotografią. Mój stan cywilny to panna.»
+            </div>
+            <div>
+              <span class="profile-badge">Narzędnik: studentką</span>
+              <span class="profile-badge">sztuką i fotografią</span>
+            </div>
+          </div>
+
+          <!-- Javier Profile -->
+          <div class="profile-card" onclick="highlightPersona('javier')">
+            <div class="profile-header">
+              <div class="profile-avatar" style="color: var(--color-success);">J</div>
+              <div class="profile-name-sub">
+                <span class="profile-name">Javier</span>
+                <span class="profile-country">Hiszpania</span>
+              </div>
+            </div>
+            <div class="profile-quote">
+              «Z zawodu jestem inżynierem. Interesuję się sportem, szczególnie piłką nożną.»
+            </div>
+            <div>
+              <span class="profile-badge">Narzędnik: inżynierem</span>
+              <span class="profile-badge">piłką nożną</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GRAMMAR HUB: NARZĘDNIK -->
+      <section class="section-wrapper" id="sec-grammar">
+        <div class="section-header">
+          <span class="section-category">Системна граматика</span>
+          <h2 class="section-headline">Орудний відмінок — Narzędnik (Kim? Czym?)</h2>
+          <p class="section-lead">Базовий відмінок рівня А2 для визначення професій, засобів пересування та інтересів. Дослідіть закінчення прикметників та іменників у однині.</p>
+        </div>
+
+        <div class="tab-container">
+          <div class="tab-headers">
+            <button class="tab-btn active-tab" onclick="switchGrammarTab('m-n', this)">Чоловічий і Середній роди (M / N)</button>
+            <button class="tab-btn" onclick="switchGrammarTab('f', this)">Жіночий род (F)</button>
+            <button class="tab-btn" onclick="switchGrammarTab('exceptions', this)">Важливі винятки & Керування</button>
+          </div>
+
+          <!-- Tab Content 1: Masculine & Neuter -->
+          <div id="tab-grammar-m-n" class="grammar-content">
+            <div class="grammar-grid">
+              <!-- Adjectives -->
+              <div class="grammar-card">
+                <h3 class="grammar-card-title">
+                  <span>Прикметники (Adjektyw)</span>
+                  <span class="gender-label gender-m">M / N</span>
+                </h3>
+                <table class="grammar-table">
+                  <thead>
+                    <tr>
+                      <th>Основа прикметника</th>
+                      <th>Закінчення</th>
+                      <th>Приклад</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Тверда (młody, nowy)</td>
+                      <td><span class="ending-highlight">-ym</span></td>
+                      <td>młod<span class="ending-highlight">ym</span>, now<span class="ending-highlight">ym</span></td>
+                    </tr>
+                    <tr>
+                      <td>М'яка / після K, G (polski, drogi)</td>
+                      <td><span class="ending-highlight">-im</span></td>
+                      <td>polsk<span class="ending-highlight">im</span>, drog<span class="ending-highlight">im</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">* Примітка: Прикметники чоловічого та середнього роду в орудному відмінку завжди збігаються.</p>
+              </div>
+
+              <!-- Nouns -->
+              <div class="grammar-card">
+                <h3 class="grammar-card-title">
+                  <span>Іменники (Substantyw)</span>
+                  <span class="gender-label gender-m">M / N</span>
+                </h3>
+                <table class="grammar-table">
+                  <thead>
+                    <tr>
+                      <th>Кінцева приголосна</th>
+                      <th>Закінчення</th>
+                      <th>Приклад</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Тверда / шипляча (student, lekarz)</td>
+                      <td><span class="ending-highlight">-em</span></td>
+                      <td>student<span class="ending-highlight">em</span>, lekarz<span class="ending-highlight">em</span></td>
+                    </tr>
+                    <tr>
+                      <td>М'яка / після K, G (Polak, nauczyciel)</td>
+                      <td><span class="ending-highlight">-iem</span></td>
+                      <td>Polak<span class="ending-highlight">iem</span>, nauczyciel<span class="ending-highlight">em</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="grammar-alert" style="margin-top: 1rem;">
+                  <strong>Для середнього роду:</strong> dziecko → dzieck<span class="ending-highlight">iem</span>, okno → okn<span class="ending-highlight">em</span>.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Content 2: Feminine -->
+          <div id="tab-grammar-f" class="grammar-content" style="display: none;">
+            <div class="grammar-grid">
+              <!-- Feminine Adjectives -->
+              <div class="grammar-card">
+                <h3 class="grammar-card-title">
+                  <span>Прикметники (Feminunum)</span>
+                  <span class="gender-label gender-f">F</span>
+                </h3>
+                <table class="grammar-table">
+                  <thead>
+                    <tr>
+                      <th>Називний (Nom.)</th>
+                      <th>Закінчення (Inst.)</th>
+                      <th>Приклад у Narzędnik</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>dobr<span class="ending-highlight">a</span> kobieta</td>
+                      <td><span class="ending-highlight">-ą</span></td>
+                      <td>dobr<span class="ending-highlight">ą</span> kobietą</td>
+                    </tr>
+                    <tr>
+                      <td>polsk<span class="ending-highlight">a</span> literatura</td>
+                      <td><span class="ending-highlight">-ą</span></td>
+                      <td>polsk<span class="ending-highlight">ą</span> literaturą</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- Feminine Nouns -->
+              <div class="grammar-card">
+                <h3 class="grammar-card-title">
+                  <span>Іменники (Femininum)</span>
+                  <span class="gender-label gender-f">F</span>
+                </h3>
+                <table class="grammar-table">
+                  <thead>
+                    <tr>
+                      <th>Називний (Nom.)</th>
+                      <th>Закінчення (Inst.)</th>
+                      <th>Приклад у Narzędnik</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>studentk<span class="ending-highlight">a</span></td>
+                      <td><span class="ending-highlight">-ą</span></td>
+                      <td>studentk<span class="ending-highlight">ą</span></td>
+                    </tr>
+                    <tr>
+                      <td>fotografi<span class="ending-highlight">a</span></td>
+                      <td><span class="ending-highlight">-ą</span></td>
+                      <td>fotografi<span class="ending-highlight">ą</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 1rem;">Всі іменники жіночого роду на <strong>-a</strong> набувають абсолютно симетричного закінчення <strong>-ą</strong> в орудному відмінку.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Content 3: Exceptions & Triggers -->
+          <div id="tab-grammar-exceptions" class="grammar-content" style="display: none;">
+            <div class="grammar-card" style="margin-bottom: 2rem;">
+              <h3 class="grammar-card-title" style="color: var(--color-warning);">🚨 Чоловічі іменники на -a (Особлива пастка!)</h3>
+              <p>Іменники чоловічого роду, які закінчуються на голосну <strong>-a</strong> (наприклад: <em>programista, mężczyzna, kolega, dentysta</em>), відмінюються за жіночим зразком (набувають закінчення <strong>-ą</strong>). Проте узгоджені з ними прикметники зберігають чоловічі закінчення (<strong>-ym/-im</strong>)!</p>
+              <div class="grammar-alert" style="background-color: var(--bg-secondary); border-left-color: var(--accent-primary); margin-top: 1rem;">
+                <strong>Формула:</strong> Jestem [dobr<span class="ending-highlight">ym</span> programist<span class="ending-highlight">ą</span>] / [młod<span class="ending-highlight">ym</span> mężczyzn<span class="ending-highlight">ą</span>].
+              </div>
+            </div>
+
+            <h3 class="profile-name" style="margin-bottom: 1rem;">Коли ми використовуємо Narzędnik?</h3>
+            <div class="triggers-grid">
+              <div class="trigger-item">
+                <div class="trigger-name">być (з іменником)</div>
+                <div class="trigger-example">Jestem studentem.</div>
+              </div>
+              <div class="trigger-item">
+                <div class="trigger-name">zostać</div>
+                <div class="trigger-example">Chcę zostać lekarzem.</div>
+              </div>
+              <div class="trigger-item">
+                <div class="trigger-name">interesować się</div>
+                <div class="trigger-example">Interesuję się sportem.</div>
+              </div>
+              <div class="trigger-item">
+                <div class="trigger-name">przepadać za</div>
+                <div class="trigger-example">Przepadam za słodyczami.</div>
+              </div>
+              <div class="trigger-item">
+                <div class="trigger-name">Прийменник Z (з)</div>
+                <div class="trigger-example">Kawa z mlekiem.</div>
+              </div>
+              <div class="trigger-item">
+                <div class="trigger-name">Транспорт (як?)</div>
+                <div class="trigger-example">Jadę autobusem (без Z!).</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMMON MISTAKES SECTION -->
+      <section class="section-wrapper" id="sec-mistakes">
+        <div class="section-header">
+          <span class="section-category">Клініка помилок</span>
+          <h2 class="section-headline">Типові помилки студентів на рівні А2</h2>
+          <p class="section-lead">Розберіть часті мовні промахи, зафіксовані під час перших уроків, та затямте правильні варіанти.</p>
+        </div>
+
+        <div class="mistakes-grid">
+          <!-- Mistake 1 -->
+          <div class="mistake-card">
+            <div class="mistake-body">
+              <div class="mistake-line bad">
+                <span class="mistake-icon-indicator">✕</span>
+                <span class="mistake-text">Interesuję się sport / muzyka.</span>
+              </div>
+              <div class="mistake-line good">
+                <span class="mistake-icon-indicator">✓</span>
+                <span class="mistake-text">Interesuję się sportem / muzyką.</span>
+              </div>
+              <div class="mistake-desc">
+                Дієслово <strong>interesować się</strong> вимагає виключно орудного відмінка (Narzędnik) без жодних прийменників.
+              </div>
+            </div>
+          </div>
+
+          <!-- Mistake 2 -->
+          <div class="mistake-card">
+            <div class="mistake-body">
+              <div class="mistake-line bad">
+                <span class="mistake-icon-indicator">✕</span>
+                <span class="mistake-text">Jadę z autobusem / z pociągiem.</span>
+              </div>
+              <div class="mistake-line good">
+                <span class="mistake-icon-indicator">✓</span>
+                <span class="mistake-text">Jadę autobusem / pociągiem.</span>
+              </div>
+              <div class="mistake-desc">
+                Для вираження засобу пересування прийменник <strong>z</strong> не потрібен! Сказати <em>«Jadę z autobusem»</em> буквально означає, що ви йдете за руку разом з автобусом.
+              </div>
+            </div>
+          </div>
+
+          <!-- Mistake 3 -->
+          <div class="mistake-card">
+            <div class="mistake-body">
+              <div class="mistake-line bad">
+                <span class="mistake-icon-indicator">✕</span>
+                <span class="mistake-text">Chcę zostać dobry programista.</span>
+              </div>
+              <div class="mistake-line good">
+                <span class="mistake-icon-indicator">✓</span>
+                <span class="mistake-text">Chcę zostać dobrym programistą.</span>
+              </div>
+              <div class="mistake-desc">
+                Дієслово <strong>zostać</strong> керує орудним відмінком. Пам'ятайте про узгодження прикметника (муж. -ym) та іменника (програміст на -a відмінюється за жіночим типом на -ą).
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPEAKING DRILLS SECTION -->
+      <section class="section-wrapper" id="sec-drills">
+        <div class="section-header">
+          <span class="section-category">Усний тренажер (Активне згадування)</span>
+          <h2 class="section-headline">Repetytorium Ustne · Говоріть вголос</h2>
+          <p class="section-lead">Прочитайте українське комунікативне завдання, самостійно сформулюйте відповідь польською мовою вголос, а потім натисніть кнопку для перевірки.</p>
+        </div>
+
+        <div class="drills-container">
+          <!-- Drill Card 1 -->
+          <div class="drill-card">
+            <div class="drill-header">
+              <span class="drill-badge">Запитання про хобі</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Картка 1 з 5</span>
+            </div>
+            <div class="drill-prompt">Запитайте свого колегу, чим він цікавиться.</div>
+            <div class="drill-action">
+              <button class="drill-btn" onclick="toggleDrill(this)">
+                <span>Показати зразкову відповідь</span>
+              </button>
+            </div>
+            <div class="drill-reveal-box">
+              <div class="drill-answer">Czym się interesujesz?</div>
+              <div class="drill-literal">Альтернатива: Co cię interesuje? (Називний відмінок).</div>
+            </div>
+          </div>
+
+          <!-- Drill Card 2 -->
+          <div class="drill-card">
+            <div class="drill-header">
+              <span class="drill-badge">Освіта та професія</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Картка 2 з 5</span>
+            </div>
+            <div class="drill-prompt">Скажіть, що ви за освітою історик і пишете роботи про розпад комунізму (як Tom).</div>
+            <div class="drill-action">
+              <button class="drill-btn" onclick="toggleDrill(this)">
+                <span>Показати зразкову відповідь</span>
+              </button>
+            </div>
+            <div class="drill-reveal-box">
+              <div class="drill-answer">Z wykształcenia jestem historykiem. Piszę prace o przyczynach upadku komunizmu.</div>
+              <div class="drill-literal">Зверніть увагу на орудний відмінок: historyk → historykiem.</div>
+            </div>
+          </div>
+
+          <!-- Drill Card 3 -->
+          <div class="drill-card">
+            <div class="drill-header">
+              <span class="drill-badge">Уподобання</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Картка 3 з 5</span>
+            </div>
+            <div class="drill-prompt">Скажіть, що ви обожнюєте польську їжу, використовуючи конструкцію «przepadać za».</div>
+            <div class="drill-action">
+              <button class="drill-btn" onclick="toggleDrill(this)">
+                <span>Показати зразкову відповідь</span>
+              </button>
+            </div>
+            <div class="drill-reveal-box">
+              <div class="drill-answer">Przepadam za polskim jedzeniem.</div>
+              <div class="drill-literal">Керування: przepadać za + Narzędnik (polskim jedzeniem).</div>
+            </div>
+          </div>
+
+          <!-- Drill Card 4 -->
+          <div class="drill-card">
+            <div class="drill-header">
+              <span class="drill-badge">Офіційна порада</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Картка 4 з 5</span>
+            </div>
+            <div class="drill-prompt">Поясніть Mami, чому їй не потрібно заповнювати поле «nazwisko panieńskie» (дівоче прізвище).</div>
+            <div class="drill-action">
+              <button class="drill-btn" onclick="toggleDrill(this)">
+                <span>Показати зразкову відповідь</span>
+              </button>
+            </div>
+            <div class="drill-reveal-box">
+              <div class="drill-answer">Tu nic nie piszesz, bo nie jesteś mężatką (jesteś panną).</div>
+              <div class="drill-literal">Дівоче прізвище заповнюється лише жінками, які змінювали прізвище у шлюбі.</div>
+            </div>
+          </div>
+
+          <!-- Drill Card 5 -->
+          <div class="drill-card">
+            <div class="drill-header">
+              <span class="drill-badge">Сімейний стан</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Картка 5 з 5</span>
+            </div>
+            <div class="drill-prompt">Запитайте офіційну особу про те, як сказати польською мовою «сімейний стан».</div>
+            <div class="drill-action">
+              <button class="drill-btn" onclick="toggleDrill(this)">
+                <span>Показати зразкову відповідь</span>
+              </button>
+            </div>
+            <div class="drill-reveal-box">
+              <div class="drill-answer">Stan cywilny</div>
+              <div class="drill-literal">Відповіді: panna (незаміжня), kawaler (неодружений), mężatka, żonaty...</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTERACTIVE QUIZ SECTION -->
+      <section class="section-wrapper" id="sec-practice">
+        <div class="section-header">
+          <span class="section-category">Інтерактивна перевірка</span>
+          <h2 class="section-headline">Перевірте свої знання: Тест-симулятор</h2>
+          <p class="section-lead">Швидкий інтерактивний експрес-тест на 10 запитань за матеріалами першого уроку. Кожна відповідь супроводжується звуковим супроводом (за бажанням) та аналітичним коментарем.</p>
+        </div>
+
+        <div class="quiz-layout-card">
+          <!-- Status Info -->
+          <div class="quiz-status-bar">
+            <span class="quiz-progress-text" id="quiz-question-counter">Запитання 1 з 10</span>
+            <div class="quiz-track-full">
+              <div class="quiz-track-fill" id="quiz-progress-fill"></div>
+            </div>
+            <span class="quiz-score-badge" id="quiz-score-badge">Правильних: 0</span>
+          </div>
+
+          <!-- Dynamic Quiz Core -->
+          <div class="quiz-body" id="quiz-card-container">
+            <!-- Rendered by JavaScript -->
+          </div>
+
+          <!-- Quiz Score Results Screen -->
+          <div class="quiz-results-container" id="quiz-results-view">
+            <div class="quiz-results-icon" id="results-emoji">🏆</div>
+            <h3 class="quiz-results-headline" id="results-headline">Блискучий результат!</h3>
+            <div class="quiz-results-score" id="results-score-text">10 / 10</div>
+            <p class="quiz-results-feedback" id="results-feedback-text">Ви відмінно засвоїли матеріал першого уроку Polski krok po kroku 2.</p>
+            <button class="quiz-retry-btn" onclick="resetQuiz()">Спробувати знову</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- FINAL REVISION SUMMARY -->
+      <section class="section-wrapper" id="sec-checklist" style="border-bottom: none;">
+        <div class="section-header">
+          <span class="section-category">Фінал уроку</span>
+          <h2 class="section-headline">Чек-лист засвоєння матеріалу</h2>
+          <p class="section-lead">Перевірте свій ментальний прогрес. Відзначте пункти, які ви повністю опанували під час цього мікрокурсу.</p>
+        </div>
+
+        <div class="checklist-card">
+          <h3 class="checklist-title">Я можу вільно:</h3>
+          <div class="checklist-list">
+            
+            <div class="checklist-item" onclick="toggleChecklistItem(this)">
+              <div class="checkbox-trigger">
+                <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="checklist-content">
+                <div class="checklist-text">Пояснити різницю між panna та mężatka</div>
+                <div class="checklist-sub">Сімейний стан у польських бланках анкет.</div>
+              </div>
+            </div>
+
+            <div class="checklist-item" onclick="toggleChecklistItem(this)">
+              <div class="checkbox-trigger">
+                <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="checklist-content">
+                <div class="checklist-text">Правильно вказати дівоче прізвище</div>
+                <div class="checklist-sub">Значення поля «nazwisko panieńskie» та умови його заповнення.</div>
+              </div>
+            </div>
+
+            <div class="checklist-item" onclick="toggleChecklistItem(this)">
+              <div class="checkbox-trigger">
+                <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="checklist-content">
+                <div class="checklist-text">Вживати закінчення чоловічого та середнього роду в орудному відмінку</div>
+                <div class="checklist-sub">Конструкції «jestem inżynierem», «zostałem programistą» з закінченнями -ym/-im та -em/-iem.</div>
+              </div>
+            </div>
+
+            <div class="checklist-item" onclick="toggleChecklistItem(this)">
+              <div class="checkbox-trigger">
+                <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="checklist-content">
+                <div class="checklist-text">Висловлювати захоплення та інтереси без помилок</div>
+                <div class="checklist-sub">Керування дієслів «interesować się sportem» та «przepadać za jedzeniem».</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- ==========================================================================
+       JAVASCRIPT APPLICATION ENGINE
+       ========================================================================== */ -->
+  <script>
+    /* ==========================================================================
+       AUDIO SYNTHESIZER (Web Audio API) - No external assets required
+       ========================================================================== */
+    const audioContextClass = window.AudioContext || window.webkitAudioContext;
+    let audioCtx = null;
+
+    function initAudio() {
+      if (!audioCtx && audioContextClass) {
+        audioCtx = new audioContextClass();
+      }
+    }
+
+    function playSound(type) {
+      initAudio();
+      if (!audioCtx) return;
+
+      // Resume context if suspended (browser security policy)
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      if (type === 'correct') {
+        // High-pitched bright double ding
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(523.25, audioCtx.currentTime); // C5
+        osc.frequency.setValueAtTime(659.25, audioCtx.currentTime + 0.08); // E5
+        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.3);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.35);
+      } else if (type === 'incorrect') {
+        // Deep low vibration
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(160, audioCtx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(100, audioCtx.currentTime + 0.25);
+        gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.28);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.28);
+      } else if (type === 'click') {
+        // Light organic switch click
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(800, audioCtx.currentTime);
+        gain.gain.setValueAtTime(0.05, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.05);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.05);
+      } else if (type === 'victory') {
+        // Upbeat victory scale
+        const notes = [261.63, 329.63, 392.00, 523.25, 659.25, 783.99, 1046.50];
+        const durations = [0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.25];
+        let startTime = audioCtx.currentTime;
+        
+        notes.forEach((freq, idx) => {
+          const o = audioCtx.createOscillator();
+          const g = audioCtx.createGain();
+          o.connect(g);
+          g.connect(audioCtx.destination);
+          o.frequency.setValueAtTime(freq, startTime);
+          g.gain.setValueAtTime(0.1, startTime);
+          g.gain.exponentialRampToValueAtTime(0.01, startTime + durations[idx]);
+          o.start(startTime);
+          o.stop(startTime + durations[idx]);
+          startTime += 0.06;
+        });
+      }
+    }
+
+    /* ==========================================================================
+       THEME CONTROLLER
+       ========================================================================== */
+    function toggleTheme() {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      playSound('click');
+
+      // Update the theme icon dynamically
+      const icon = document.getElementById('theme-icon');
+      if (newTheme === 'dark') {
+        icon.innerHTML = '<path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464a1 1 0 10-1.414 1.414l.707.707a1 1 0 001.414-1.414l-.707-.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" />';
+      } else {
+        icon.innerHTML = '<path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />';
+      }
+    }
+
+    /* ==========================================================================
+       PROGRESS CALCULATOR
+       ========================================================================== */
+    const progressMilestones = {
+      hero: false,
+      dialog: false,
+      personas: false,
+      grammar: false,
+      mistakes: false,
+      drills: false,
+      quiz: false
+    };
+
+    function updateLessonProgress(milestone) {
+      if (progressMilestones.hasOwnProperty(milestone)) {
+        progressMilestones[milestone] = true;
+      }
+      
+      const total = Object.keys(progressMilestones).length;
+      const reached = Object.values(progressMilestones).filter(Boolean).length;
+      const percentage = Math.round((reached / total) * 100);
+      
+      document.getElementById('lesson-progress-bar').style.width = percentage + '%';
+    }
+
+    function scrollToSec(id) {
+      playSound('click');
+      const sec = document.getElementById(id);
+      if (sec) {
+        sec.scrollIntoView({ behavior: 'smooth' });
+        
+        // Mark active in side-nav
+        document.querySelectorAll('.nav-item').forEach(item => {
+          item.classList.remove('active');
+        });
+        
+        // Find click trigger and mark active
+        event.currentTarget.classList.add('active');
+
+        // Track milestone
+        const milestoneKey = id.replace('sec-', '');
+        updateLessonProgress(milestoneKey);
+      }
+    }
+
+    /* ==========================================================================
+       INTERACTIVE DIALOGUE FORM EXPLORER
+       ========================================================================== */
+    const fieldData = {
+      imie: {
+        badge: "IMIĘ / ІМ'Я",
+        title: "Imię (Mami)",
+        text: "Перше ім’я особи. У польських документах завжди зазначається відповідно до закордонного паспорта.",
+        dialogue: "<strong>Karol:</strong> «Mami, musisz wypełnić ten formularz zgłoszeniowy.»"
+      },
+      nazwisko: {
+        badge: "NAZWISKO / ПРІЗВИЩЕ",
+        title: "Nazwisko (Takada)",
+        text: "Офіційне поточне прізвище особи. Головне ідентифікаційне поле в польському діловодстві.",
+        dialogue: "<strong>Mami:</strong> «Jak? Wszystko po polsku?»<br><strong>Karol:</strong> «Tak, ale drukowanymi literami.»"
+      },
+      panieńskie: {
+        badge: "NAZWISKO RODOWE / ДІВОЧЕ ПРІЗВИЩЕ",
+        title: "Nazwisko panieńskie (rodowe)",
+        text: "Прізвище, яке жінка мала до шлюбу від народження. Якщо ви незаміжня (panna), то це поле зазвичай залишається пустим, або вказується поточне прізвище.",
+        dialogue: "<strong>Mami:</strong> «Co to znaczy 'nazwisko panieńskie'?»<br><strong>Karol:</strong> «To nazwisko, które miałaś przed ślubem. Ty nic tu nie piszesz, bo jesteś panną.»"
+      },
+      urodzenia: {
+        badge: "MIEJSCE URODZENIA / МІСЦЕ НАРОДЖЕННЯ",
+        title: "Miejsce urodzenia (Tokio)",
+        text: "Місто, де народилася особа. Для іноземців назви великих міст вписуються у паспортній формі або польській транскрипції.",
+        dialogue: "<strong>Karol:</strong> «Miejsce urodzenia... Tokio. Obywatelstwo... japońskie.»"
+      },
+      obywatelstwo: {
+        badge: "OBYWATELSTWO / ГРОМАДЯНСТВО",
+        title: "Obywatelstwo (japońskie)",
+        text: "Громадянство особи. Пишеться з малої літери як прикметник жіночого роду (відповідно до узгодження зі словом 'obywatelstwo' середнього роду, але у формі прикметника жіночого роду в дужках зазначається країна або мовний стандарт: japońskie, ukraińskie, niemieckie).",
+        dialogue: "<strong>Karol:</strong> «Obywatelstwo... japońskie. Pisze się małą literą.»"
+      },
+      stan: {
+        badge: "STAN CYWILNY / СІМЕЙНИЙ СТАН",
+        title: "Stan cywilny (panna)",
+        text: "Цивільний / сімейний стан особи. Основні офіційні варіанти: <strong>panna</strong> (незаміжня жінка), <strong>kawaler</strong> (неодружений чоловік), <strong>mężatka</strong> (заміжня жінка), <strong>żonaty</strong> (одружений чоловік).",
+        dialogue: "<strong>Mami:</strong> «A 'stan cywilny'?»<br><strong>Karol:</strong> «To znaczy czy jesteś wolna, czy masz męża. Ty jesteś wolna, czyli 'panna'.»"
+      }
+    };
+
+    function explainField(fieldId) {
+      playSound('click');
+      
+      // Update active state class on elements
+      document.querySelectorAll('.form-field-row').forEach(row => {
+        row.classList.remove('active-field');
+      });
+      document.getElementById('field-' + fieldId).classList.add('active-field');
+
+      // Update explanations box contents
+      const info = fieldData[fieldId];
+      if (info) {
+        document.getElementById('explain-badge').innerText = `ДЕТАЛІ ПОЛЯ: ${info.badge}`;
+        document.getElementById('explain-title').innerText = info.title;
+        document.getElementById('explain-text').innerHTML = info.text;
+        document.getElementById('explain-bubble').innerHTML = info.dialogue;
+      }
+      
+      updateLessonProgress('dialog');
+    }
+
+    /* ==========================================================================
+       PERSONA HIGHLIGHTER
+       ========================================================================== */
+    function highlightPersona(name) {
+      playSound('click');
+      updateLessonProgress('personas');
+    }
+
+    /* ==========================================================================
+       GRAMMAR TAB CONTROLLER
+       ========================================================================== */
+    function switchGrammarTab(tabId, btn) {
+      playSound('click');
+      
+      // Toggle buttons class
+      document.querySelectorAll('.tab-btn').forEach(b => {
+        b.classList.remove('active-tab');
+      });
+      btn.classList.add('active-tab');
+
+      // Toggle content display
+      document.getElementById('tab-grammar-m-n').style.display = 'none';
+      document.getElementById('tab-grammar-f').style.display = 'none';
+      document.getElementById('tab-grammar-exceptions').style.display = 'none';
+
+      document.getElementById('tab-grammar-' + tabId).style.display = 'block';
+      updateLessonProgress('grammar');
+    }
+
+    /* ==========================================================================
+       SPEAKING DRILL REVEAL
+       ========================================================================== */
+    function toggleDrill(btn) {
+      const card = btn.closest('.drill-card');
+      const revealBox = card.querySelector('.drill-reveal-box');
+      
+      if (revealBox.style.display === 'block') {
+        revealBox.style.display = 'none';
+        btn.querySelector('span').innerText = 'Показати зразкову відповідь';
+        playSound('click');
+      } else {
+        revealBox.style.display = 'block';
+        btn.querySelector('span').innerText = 'Приховати відповідь';
+        playSound('correct');
+      }
+      
+      updateLessonProgress('drills');
+    }
+
+    /* ==========================================================================
+       CHECKLIST ENGINE
+       ========================================================================== */
+    function toggleChecklistItem(item) {
+      item.classList.toggle('checked-item');
+      if (item.classList.contains('checked-item')) {
+        playSound('correct');
+      } else {
+        playSound('click');
+      }
+      
+      // Track revision progress
+      updateLessonProgress('mistakes');
+    }
+
+    /* ==========================================================================
+       INTERACTIVE QUIZ ENGINE
+       ========================================================================== */
+    const quizQuestions = [
+      {
+        topic: "Narzędnik",
+        q: "Як перекладається польською мовою «цікавлюся літературою»?",
+        o: ["Interesuję się literatura", "Interesuję się literaturę", "Interesuję się literaturą"],
+        a: 2,
+        fb: "Дієслово «interesować się» керує орудним відмінком (Narzędnik): literatura → literaturą."
+      },
+      {
+        topic: "Narzędnik",
+        q: "Який вираз є граматично правильним для поняття «їду автобусом»?",
+        o: ["Jadę autobus", "Jadę autobusem", "Jadę autobusu"],
+        a: 1,
+        fb: "Засіб пересування (jak? czym?) вимагає орудного відмінка (Narzędnik) без будь-яких прийменників: autobus → autobusem."
+      },
+      {
+        topic: "Postacie",
+        q: "Хто за фахом є істориком і пише книги про причини падіння комунізму?",
+        o: ["Uwe", "Tom", "Javier"],
+        a: 1,
+        fb: "Tom: «Z wykształcenia jestem historykiem. Piszę prace o przyczynach upadku komunizmu»."
+      },
+      {
+        topic: "Słownictwo",
+        q: "У виразі «przepadam za polskim jedzeniem» слово «przepadam za» означає…",
+        o: ["терпіти не можу (ненавиджу)", "дуже люблю (обожнюю)", "мені байдуже до цього"],
+        a: 1,
+        fb: "«Przepadać za czymś» означає дуже сильно любити, обожнювати щось. Uwe каже: «Przepadam za polskim jedzeniem»."
+      },
+      {
+        topic: "Dialog",
+        q: "Що Karol радить написати Mami у полі анкети «nazwisko panieńskie»?",
+        o: ["Вписати дівоче прізвище матері", "Нічого не писати, оскільки вона незаміжня", "Вписати її поточне ім'я"],
+        a: 1,
+        fb: "Karol роз'яснює: «Tu nic nie piszesz, bo nie jesteś mężatką (jesteś panną)». Дівоче прізвище зазначають лише заміжня або розлучена жінка."
+      },
+      {
+        topic: "Słownictwo",
+        q: "Оберіть правильний еквівалент для терміна «сімейний стан»:",
+        o: ["stan cywilny", "stan rodzinny", "pozycja społeczna"],
+        a: 0,
+        fb: "«Stan cywilny» — це офіційне формулювання в польських анкетах та державних документах."
+      },
+      {
+        topic: "Narzędnik",
+        q: "Яка правильна форма орудного відмінка (Narzędnik) для «dobry programista»?",
+        o: ["dobrym programistą", "dobrym programistem", "dobry programistą"],
+        a: 0,
+        fb: "Іменники чоловічого роду на -a відмінюються як жіночі: programista → programistą (але прикметник зберігає чоловіче закінчення -ym: dobrym)."
+      },
+      {
+        topic: "Postacie",
+        q: "Хто з персонажів першого уроку детально цікавиться мистецтвом і фотографією?",
+        o: ["Mami", "Karol", "Angela"],
+        a: 0,
+        fb: "Mami каже про себе: «Jestem studentką. Interesuję się sztuką i fotografią»."
+      },
+      {
+        topic: "Narzędnik",
+        q: "Оберіть речення, у якому допущено граматичну помилку в орудному відмінку:",
+        o: ["Piję herbatę z cytryną", "Chcę zostać lekarz", "Interesuję się sportem"],
+        a: 1,
+        fb: "Дієслово «zostać» (стати кимось) завжди вимагає орудного відмінка: zostać lekarzem. Варіант «zostać lekarz» є помилковим."
+      },
+      {
+        topic: "Dialog",
+        q: "Хто така «panna» в контексті визначення сімейного стану?",
+        o: ["Розлучена жінка", "Заміжня жінка", "Незаміжня дівчина / жінка"],
+        a: 2,
+        fb: "«Panna» — це незаміжня жінка. Чоловічий відповідник для неодруженого чоловіка — «kawaler»."
+      }
+    ];
+
+    let currentQuestionIdx = 0;
+    let quizScore = 0;
+    let optionSelected = false;
+
+    function renderQuestion() {
+      const qData = quizQuestions[currentQuestionIdx];
+      const container = document.getElementById('quiz-card-container');
+      
+      // Update header info
+      document.getElementById('quiz-question-counter').innerText = `Запитання ${currentQuestionIdx + 1} з ${quizQuestions.length}`;
+      const fillPercentage = ((currentQuestionIdx + 1) / quizQuestions.length) * 100;
+      document.getElementById('quiz-progress-fill').style.width = fillPercentage + '%';
+      
+      optionSelected = false;
+
+      let optionsHTML = '';
+      qData.o.forEach((opt, idx) => {
+        optionsHTML += `
+          <div class="quiz-option" onclick="selectOption(${idx}, this)">
+            <span>${opt}</span>
+            <span class="choice-feedback-icon" id="icon-opt-${idx}"></span>
+          </div>
+        `;
+      });
+
+      container.innerHTML = `
+        <span class="quiz-question-topic">${qData.topic}</span>
+        <h3 class="quiz-question-text">${qData.q}</h3>
+        <div class="quiz-options-list">
+          ${optionsHTML}
+        </div>
+        <div class="quiz-explanation-panel" id="quiz-ex-panel">
+          <div class="quiz-explanation-title">Аналіз структури</div>
+          <div class="quiz-explanation-text" id="quiz-ex-text">${qData.fb}</div>
+        </div>
+        <div class="quiz-action-bar" style="display:none;" id="quiz-action-bar">
+          <button class="quiz-next-btn" onclick="nextQuestion()">
+            ${currentQuestionIdx === quizQuestions.length - 1 ? 'Переглянути результати' : 'Наступне запитання'}
+          </button>
+        </div>
+      `;
+    }
+
+    function selectOption(selectedIdx, element) {
+      if (optionSelected) return; // Prevent multiple clicks
+      optionSelected = true;
+
+      const qData = quizQuestions[currentQuestionIdx];
+      const correctIdx = qData.a;
+      
+      const options = document.querySelectorAll('.quiz-option');
+
+      if (selectedIdx === correctIdx) {
+        // Correct answer selected
+        element.classList.add('correct-choice');
+        document.getElementById(`icon-opt-${selectedIdx}`).innerText = '✓';
+        quizScore++;
+        document.getElementById('quiz-score-badge').innerText = `Правильних: ${quizScore}`;
+        playSound('correct');
+      } else {
+        // Incorrect answer selected
+        element.classList.add('incorrect-choice');
+        document.getElementById(`icon-opt-${selectedIdx}`).innerText = '✕';
+        
+        // Highlight correct option too
+        options[correctIdx].classList.add('correct-choice');
+        document.getElementById(`icon-opt-${correctIdx}`).innerText = '✓';
+        playSound('incorrect');
+      }
+
+      // Display explanation
+      document.getElementById('quiz-ex-panel').style.display = 'block';
+      document.getElementById('quiz-action-bar').style.display = 'flex';
+    }
+
+    function nextQuestion() {
+      playSound('click');
+      if (currentQuestionIdx < quizQuestions.length - 1) {
+        currentQuestionIdx++;
+        renderQuestion();
+      } else {
+        // Finish quiz and show summary scorecard
+        showQuizResults();
+      }
+    }
+
+    function showQuizResults() {
+      document.getElementById('quiz-card-container').style.display = 'none';
+      document.getElementById('quiz-question-counter').style.parentNode; // Hide counter layout details
+      
+      const resultsView = document.getElementById('quiz-results-view');
+      resultsView.style.display = 'block';
+      
+      const scorePercent = (quizScore / quizQuestions.length) * 100;
+      
+      document.getElementById('results-score-text').innerText = `${quizScore} / ${quizQuestions.length}`;
+      
+      const emojiEl = document.getElementById('results-emoji');
+      const headlineEl = document.getElementById('results-headline');
+      const feedbackEl = document.getElementById('results-feedback-text');
+
+      if (scorePercent >= 90) {
+        emojiEl.innerText = '🏆';
+        headlineEl.innerText = 'Чудова робота! Справжній польський експерт!';
+        feedbackEl.innerText = 'Ви бездоганно засвоїли матеріал першого уроку. Жодна анкета чи орудний відмінок не стануть на заваді.';
+        playSound('victory');
+      } else if (scorePercent >= 60) {
+        emojiEl.innerText = '🥈';
+        headlineEl.innerText = 'Хороший результат! Ви впевнено рухаєтеся вперед.';
+        feedbackEl.innerText = 'Більшість граматичних правил засвоєно добре. Прогляньте ще раз розділ винятків та типових помилок, щоб дійти до ідеалу.';
+        playSound('victory');
+      } else {
+        emojiEl.innerText = '📚';
+        headlineEl.innerText = 'Варто повторити матеріал!';
+        feedbackEl.innerText = 'Орудний відмінок потребує ретельного розбору. Спробуйте пройти тренувальні вправи вголос та переглянути таблиці закінчень ще раз.';
+      }
+
+      updateLessonProgress('quiz');
+    }
+
+    function resetQuiz() {
+      playSound('click');
+      currentQuestionIdx = 0;
+      quizScore = 0;
+      document.getElementById('quiz-score-badge').innerText = 'Правильних: 0';
+      document.getElementById('quiz-results-view').style.display = 'none';
+      document.getElementById('quiz-card-container').style.display = 'block';
+      renderQuestion();
+    }
+
+    // Initialize interactive dashboard on page load
+    window.onload = function() {
+      renderQuestion();
+    }
+  </script>
+
+</body>
+</html>
