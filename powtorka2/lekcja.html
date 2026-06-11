@@ -86,6 +86,13 @@ html[data-theme="dark"] .qscore{background:rgba(229,91,110,.15);border-color:rgb
 .chk .ctext{font-weight:600;font-size:16px}
 .chk.on .ctext{text-decoration:line-through;color:var(--mut)}
 .chk .csub{font-size:13.5px;color:var(--mut);font-family:"Segoe UI",sans-serif;margin-top:2px}
+.song-styles{display:flex;flex-wrap:wrap;gap:7px;margin:2px 0 12px}
+.song-styles .chip{font-family:Roboto,sans-serif;font-size:12px;color:var(--acc2);background:#eef4fb;border:1px solid #d8e6f4;border-radius:20px;padding:3px 11px}
+html[data-theme="dark"] .song-styles .chip{background:rgba(107,162,214,.14);border-color:rgba(107,162,214,.35)}
+.lyrics{display:none;margin-top:12px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-family:"Segoe UI",Roboto,sans-serif;font-size:15px;line-height:1.7;white-space:pre-wrap}
+.lyrics.show{display:block}
+.lyrics .lh{display:block;margin:12px 0 3px;font-family:Roboto,sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--acc)}
+.lyrics .lh:first-child{margin-top:0}
 .drill{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:18px 16px;text-align:center}
 .drill .task{font-size:17px;font-weight:600;min-height:50px;display:flex;align-items:center;justify-content:center;padding:0 8px}
 .drill .ans{display:none;background:#eef4fb;border:1px solid #d8e6f4;border-radius:9px;padding:11px;font-size:17px;color:var(--acc2);font-weight:700;margin:12px 0}
@@ -435,6 +442,27 @@ function render(d){
       list.appendChild(row);
     });
     s.appendChild(list); wrap.appendChild(s);
+  }
+
+  /* PIOSENKA — śpiewaj i zapamiętuj */
+  if(d.song&&d.song.audio){
+    const s=section('пісня','Piosenka');
+    sub(s,'Слухай і підспівуй — так найкраще запамʼятовується. Слова — під плеєром.');
+    if(d.song.styles&&d.song.styles.length){
+      const st=$('div','song-styles');
+      d.song.styles.forEach(t=>st.appendChild($('span','chip',esc(t))));
+      s.appendChild(st);
+    }
+    s.appendChild(audioEl(d.song.audio));
+    if(d.song.lyrics){
+      const btn=$('button','btn','Słowa piosenki'); s.appendChild(btn);
+      const ly=$('div','lyrics');
+      ly.innerHTML=esc(d.song.lyrics).split('\n')
+        .map(ln=>/^\[.*\]$/.test(ln.trim())?`<span class="lh">${ln.trim()}</span>`:ln).join('\n');
+      btn.onclick=()=>ly.classList.toggle('show');
+      s.appendChild(ly);
+    }
+    wrap.appendChild(s);
   }
 }
 
