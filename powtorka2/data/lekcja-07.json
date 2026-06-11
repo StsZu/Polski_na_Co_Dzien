@@ -663,5 +663,55 @@
       "text": "Поскаржитися на роботу й порадити в мейлі",
       "sub": "Mam już dość!, stres, wyścig szczurów, zmienić pracę"
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що ти за фахом економістка (жін. рід).",
+      "Z zawodu jestem ekonomistką.",
+      "jestem + narzędnik"
+    ],
+    [
+      "Скажи, що ти інженер і працював у будівельному підприємстві.",
+      "Jestem inżynierem i pracowałem w przedsiębiorstwie budowlanym."
+    ],
+    [
+      "Розкажи, що на попередній роботі ти займався організацією офісу.",
+      "Zajmowałem się organizacją biura.",
+      "zajmować się + narzędnik"
+    ],
+    [
+      "Скажи, що цікавишся новими технологіями.",
+      "Interesuję się nowymi technologiami."
+    ],
+    [
+      "Похвали колегу: він чудово дає раду проблемам.",
+      "Świetnie radzi sobie z problemami.",
+      "radzić sobie z + narzędnik"
+    ],
+    [
+      "Спитай на співбесіді, чи кандидатка вміє друкувати наосліп.",
+      "Czy potrafi Pani pisać bezwzrokowo?",
+      "potrafić = umieć"
+    ],
+    [
+      "Поясни, що щодня користуєшся поштовою програмою.",
+      "Na co dzień korzystam z programu pocztowego.",
+      "korzystać z = używać"
+    ],
+    [
+      "Скажи, що шукаєш нову роботу, бо хочеш працювати на повну ставку.",
+      "Szukam nowej pracy, bo chcę pracować na cały etat.",
+      "na cały etat / na pół etatu"
+    ],
+    [
+      "Поскаржися другові в мейлі, що тобі вже набридло й ти хочеш змінити роботу.",
+      "Mam już dość, chcę zmienić pracę.",
+      "skarga na pracę"
+    ],
+    [
+      "Привітай знайомого, який отримав роботу.",
+      "Gratuluję, dostałeś tę pracę!",
+      "pogratulować"
+    ]
   ]
 }

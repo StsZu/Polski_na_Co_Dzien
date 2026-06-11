@@ -691,5 +691,56 @@
       "a": 0,
       "fb": "«Nabijać kogoś w butelkę» = обдурювати. Ewa попереджає Iwonę про неперевірені пропозиції."
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що проводиш канікули в горах.",
+      "Spędzam wakacje w górach.",
+      "góry → w górach (miejscownik l. mn. після w)"
+    ],
+    [
+      "Скажи, що ночуєш у старій віллі з гарним садом.",
+      "Nocuję w starej willi z pięknym ogrodem.",
+      "willa → w willi"
+    ],
+    [
+      "Скажи, що думаєш про Віслу.",
+      "Myślę o Wiśle.",
+      "Wisła → o Wiśle (ł → l)"
+    ],
+    [
+      "Скажи, що мама народилася у Вроцлаві.",
+      "Mama urodziła się we Wrocławiu."
+    ],
+    [
+      "Скажи, що купаєшся в кристально чистому озері.",
+      "Kąpię się w krystalicznie czystym jeziorze.",
+      "jezioro → w jeziorze"
+    ],
+    [
+      "Скажи, що часто буваєш на Сувальщині.",
+      "Często bywam na Suwalszczyźnie.",
+      "na + miejscownik"
+    ],
+    [
+      "Привітайся з Евцею (зменшене ім'я).",
+      "Cześć, Ewciu!",
+      "ж. зменшене на -a → -u: Ewcia → Ewciu!"
+    ],
+    [
+      "Звернися ввічливо до пана.",
+      "Proszę pana!",
+      "wołacz: pan → panie! (виняток)"
+    ],
+    [
+      "Звернися до кількох чоловіків: «Дорогі панове!».",
+      "Drodzy panowie!",
+      "wołacz l. mn. = mianownik l. mn."
+    ],
+    [
+      "Попроси інформацію про пропозицію, терміни й форму оплати.",
+      "Proszę o informację o ofercie, terminach i formie płatności.",
+      "запит / mail з проханням"
+    ]
   ]
 }

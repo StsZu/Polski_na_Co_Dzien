@@ -654,5 +654,55 @@
       "text": "Говорити про волонтерство й допомогу іншим",
       "sub": "wolontariat, fundacja, pomagać niepełnosprawnym, kiermasz świąteczny"
     }
+  ],
+  "drills": [
+    [
+      "Подякуй другові за допомогу у важкий час.",
+      "Dziękuję ci, przyjacielu, za pomoc w trudnej chwili.",
+      "dziękować + celownik"
+    ],
+    [
+      "Скажи, що ти довіряєш Богові, що все буде добре.",
+      "Ufam Bogu, że wszystko będzie dobrze.",
+      "Bóg → Bogu (виняткова форма)"
+    ],
+    [
+      "Скажи, що щодня допомагаєш людям з інвалідністю у фонді.",
+      "Codziennie pomagam niepełnosprawnym w fundacji.",
+      "pomagać komu? + celownik"
+    ],
+    [
+      "Скажи синові, що завжди будеш йому допомагати.",
+      "Synu, zawsze będę ci pomagać.",
+      "syn → synowi, ale тут займенник «ci»"
+    ],
+    [
+      "Скажи, що завдяки друзям ти дав собі раду після розлучення.",
+      "Dzięki przyjaciołom dałem sobie radę po rozwodzie.",
+      "dzięki + celownik l. mn.: przyjaciele → przyjaciołom"
+    ],
+    [
+      "Поясни, що ти вчинила це всупереч волі батьків.",
+      "Zrobiłam to wbrew woli rodziców.",
+      "wbrew + celownik"
+    ],
+    [
+      "Скажи, що щодня молишся за душу сестри, яка загинула в аварії.",
+      "Codziennie modlę się za duszę siostry, która zginęła w wypadku."
+    ],
+    [
+      "Запитай Касю, що вона порадила б тобі як новому волонтерові.",
+      "Co byś mi doradziła jako nowemu wolontariuszowi?",
+      "doradzić komu? + celownik, wolontariusz → wolontariuszowi"
+    ],
+    [
+      "Скажи, що мусиш узяти себе в руки, бо ти потрібна своєму чоловікові.",
+      "Muszę wziąć się w garść, bo jestem potrzebna mojemu mężowi.",
+      "mąż → mężowi"
+    ],
+    [
+      "Спитай маму, як діти відреагували на новину про розлучення.",
+      "Mamo, jak dzieci zareagowały na wiadomość o rozwodzie?"
+    ]
   ]
 }

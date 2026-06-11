@@ -530,5 +530,57 @@
       "text": "Описати свої mocne i słabe strony перед іспитом",
       "sub": "Moją mocną stroną jest… / Obawiam się… / Nie radzę sobie ze stresem"
     }
+  ],
+  "drills": [
+    [
+      "Поясни, з яких частин складається мовний тест.",
+      "Test składa się z rozumienia ze słuchu, gramatyki, czytania, pisania i mówienia.",
+      "wylicz po kolei"
+    ],
+    [
+      "Дай пораду другові на «ти» — щоб виспався перед іспитом.",
+      "Wyśpij się dobrze przed egzaminem!",
+      "tryb rozkazujący, ty"
+    ],
+    [
+      "Скажи групі на «ви», щоб уважно прочитали завдання.",
+      "Przeczytajcie uważnie polecenie!",
+      "tryb rozkazujący, wy"
+    ],
+    [
+      "Скажи, ким ти працюєш (учителька), уживаючи orудний відмінок.",
+      "Jestem nauczycielką.",
+      "narzędnik: Kim jestem?"
+    ],
+    [
+      "Скажи, що опікуєшся хворою бабусею.",
+      "Opiekuję się chorą babcią.",
+      "czasownik opiekować się + narzędnik"
+    ],
+    [
+      "Зізнайся, що боїшся великих собак.",
+      "Boję się dużych psów.",
+      "bać się + dopełniacz"
+    ],
+    [
+      "Спитай когось, чи склав він іспит.",
+      "Czy zdałeś egzamin?",
+      "zdać / oblać egzamin"
+    ],
+    [
+      "Скажи, що в тебе порожнеча в голові, бо не даєш ради зі стресом.",
+      "Mam pustkę w głowie, bo nie radzę sobie ze stresem.",
+      "mówienie o stresie"
+    ],
+    [
+      "Опиши свою сильну сторону: розуміння на слух — найлегше для тебе.",
+      "Moją mocną stroną jest rozumienie ze słuchu.",
+      "mocne i słabe strony"
+    ],
+    [
+      "Заверши порівняльну ідіому про когось дуже працьовитого.",
+      "Jesteś pracowity jak mrówka!",
+      "idiomy porównawcze"
+    ]
   ]
 }

@@ -852,5 +852,57 @@
       "text": "Вживати частку byle",
       "sub": "byle jaki, bylejakość, byle był szczęśliwy"
     }
+  ],
+  "drills": [
+    [
+      "Скажи продавцеві, що вчора купив у них фен, а сьогодні він не працює.",
+      "Wczoraj kupiłem u państwa suszarkę do włosów, a dziś nie działa.",
+      "не працює — nie działa"
+    ],
+    [
+      "Попроси пана порадити, де найкраще купити частини до автомобіля.",
+      "Czy mógłby mi pan doradzić, gdzie najlepiej kupić części do samochodu?",
+      "питальне слово gdzie вводить підрядне речення"
+    ],
+    [
+      "Скажи, що усвідомлюєш, що маєш вади.",
+      "Zdaję sobie sprawę, że mam wady.",
+      "сполучник że"
+    ],
+    [
+      "Скажи, що хотів би, щоб на столі лежали лише свіжі продукти.",
+      "Pragnąłbym, żeby na stole leżały wyłącznie świeże produkty.",
+      "żeby + дієслово в минулому часі"
+    ],
+    [
+      "Поясни, що купив холодильник, бо без нього життя — мука.",
+      "Kupiłem lodówkę, bo bez niej życie jest udręką.",
+      "сполучник bo"
+    ],
+    [
+      "Запитай пані, скільки на місяць вона витрачає на покупки.",
+      "Czy może mi pani powiedzieć, ile miesięcznie wydaje pani na zakupy?",
+      "непряме питання з ile"
+    ],
+    [
+      "Поскаржся, що все дешеве, але абияке.",
+      "Wszystko tanie, ale byle jakie.",
+      "частка byle jaki"
+    ],
+    [
+      "Запитай пана, яка його думка на цю тему.",
+      "Jaka jest pańska opinia na ten temat?",
+      "Co pan sądzi o tym?"
+    ],
+    [
+      "Висловлюючи думку про рекламу, скажи, що, на твою думку, вона спокушає людей низькими цінами.",
+      "Według mnie reklama kusi ludzi niskimi cenami.",
+      "Według mnie… / Wydaje mi się, że…"
+    ],
+    [
+      "Скажи, що волієш купувати овочі на ринку, на відміну від подруги.",
+      "W przeciwieństwie do koleżanki wolę kupować warzywa na targu.",
+      "порівняння: w przeciwieństwie do"
+    ]
   ]
 }

@@ -801,5 +801,54 @@
       "a": 1,
       "fb": "Agnieszka: «nie mam zamiaru spać w namiocie w czasie burzy i umierać ze strachu» — боїться бурі."
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що ти заходиш до притулку (доконано, минулий, ч.р.).",
+      "Wszedłem do schroniska.",
+      "wejść → wszedłem (редукція -e-)"
+    ],
+    [
+      "Скажи, що ти (жінка) щойно вийшла зі школи.",
+      "Właśnie wyszłam ze szkoły.",
+      "wyjść → wyszłam"
+    ],
+    [
+      "Спитай у перехожого, як дійти до вокзалу.",
+      "Przepraszam, jak dojść do dworca?"
+    ],
+    [
+      "Попроси людину перейти вулицю по пішохідному переході.",
+      "Proszę przejść przez ulicę po pasach.",
+      "przejście dla pieszych"
+    ],
+    [
+      "Скажи, що ви (хлопці й дівчата) зійшли до найближчого села.",
+      "Zeszliśmy do najbliższej wsi.",
+      "schodzić → zejść; my (m-os.) → zeszliśmy"
+    ],
+    [
+      "Поясни, що цей магазин такий, що треба обійти все довкола, перш ніж вийти.",
+      "To taki sklep, że trzeba obejść wszystko dookoła, zanim się wyjdzie."
+    ],
+    [
+      "Скажи, що наближається буря, і це не дуже гарна ідея ночувати в лісі.",
+      "Nadchodzi burza, to nie jest dobry pomysł, żeby nocować w lesie.",
+      "nadchodzić — наближатися (про час)"
+    ],
+    [
+      "Скажи подрузі, що ти хочеш одужати (прийти до тями) перед поїздкою в гори.",
+      "Chcę dojść do siebie przed wyjazdem w góry.",
+      "dochodzić do siebie — одужувати"
+    ],
+    [
+      "Попередь туриста, що тут не можна сходити зі стежки.",
+      "Tu nie wolno schodzić ze szlaku.",
+      "zejście ze szlaku wzbronione"
+    ],
+    [
+      "Запитай господиню, чи є у неї вільні кімнати на нічліг.",
+      "Czy są u pani wolne pokoje na nocleg?"
+    ]
   ]
 }

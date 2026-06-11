@@ -831,5 +831,57 @@
       "a": 2,
       "fb": "Mami: «urodziłam się w 1980 roku i moim rokiem opiekuje się małpa» — її рік опікується Мавпа."
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що в дитинстві ти тримав удома кролика й двох кошенят.",
+      "W dzieciństwie hodowałem w domu królika i dwa kocięta.",
+      "kocię → kocięta (тип «zwierzę»)"
+    ],
+    [
+      "Скажи, що ти не любиш ходити до зоопарку, бо тобі шкода тварин у клітках.",
+      "Nie lubię chodzić do zoo, bo żal mi zwierząt w klatkach.",
+      "zwierzę → zwierząt (D. множини)"
+    ],
+    [
+      "Скажи, що ти даси цьому маленькому тигреняті трохи м'яса.",
+      "Dam temu małemu tygryskowi trochę mięsa.",
+      "albo: Dam temu zwierzęciu trochę mięsa (C. однини)"
+    ],
+    [
+      "Поясни, що собака — це вірний друг, а ти ніколи не вдягнеш хутра.",
+      "Pies to wierny przyjaciel, a ja nigdy nie ubiorę futra.",
+      "майб. док.: ubrać → ubiorę"
+    ],
+    [
+      "Пообіцяй другові, що завтра ти зателефонуєш йому і скажеш, який у нього гороскоп.",
+      "Jutro zadzwonię do ciebie i powiem ci, jaki masz horoskop.",
+      "zadzwonić → zadzwonię, powiedzieć → powiem"
+    ],
+    [
+      "Спитай знайому, чи вона завтра прийде й подивиться з тобою фільм про тварин.",
+      "Czy jutro przyjdziesz i obejrzysz ze mną film o zwierzętach?",
+      "майб. док. 2 ос.: przyjść → przyjdziesz, obejrzeć → obejrzysz"
+    ],
+    [
+      "Скажи подрузі, що ти візьмеш парасольку й підеш до парку, де живуть білки.",
+      "Wezmę parasolkę i pójdę do parku, gdzie żyją wiewiórki.",
+      "wziąć → wezmę, pójść → pójdę"
+    ],
+    [
+      "Спитай нового знайомого, під яким він знаком зодіаку.",
+      "Spod jakiego znaku jesteś?",
+      "z dialogu: «A spod jakiego znaku jesteś?»"
+    ],
+    [
+      "Скажи, що ти народився(-лась) 4 квітня, отже ти під знаком Овна.",
+      "Urodziłem się 4 kwietnia, więc jestem spod znaku barana.",
+      "kobieta: Urodziłam się…"
+    ],
+    [
+      "Поясни, що твій колега — «barania głowa», бо нічого не розуміє.",
+      "Mój kolega to barania głowa, bo nic nie rozumie.",
+      "ідіома: barania głowa = нетямущий"
+    ]
   ]
 }

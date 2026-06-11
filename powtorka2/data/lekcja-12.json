@@ -808,5 +808,53 @@
       "text": "Висловити невдоволення й написати рекламацію",
       "sub": "To skandaliczne! · niedopuszczalne · domagać się rekompensaty"
     }
+  ],
+  "drills": [
+    [
+      "Спитай у водія, чи цей автобус їде на вокзал.",
+      "Przepraszam, czy ten autobus jedzie na dworzec?"
+    ],
+    [
+      "Скажи, що щодня плаваєш, але зараз пливеш на другий берег.",
+      "Codziennie pływam, ale teraz płynę na drugi brzeg.",
+      "звичка → pływać, конкретно зараз → płynąć"
+    ],
+    [
+      "Скажи, що завтра полетиш до Варшави (доконано, один раз).",
+      "Jutro polecę do Warszawy.",
+      "доконана форма з префіксом po-: lecieć → polecieć"
+    ],
+    [
+      "Спитай, на якій зупинці тобі виходити.",
+      "Na którym przystanku mam wysiąść?"
+    ],
+    [
+      "Скажи пасажирці, що вона має пересісти на трамвай номер 18.",
+      "Musi pani przesiąść się na tramwaj numer 18.",
+      "przesiąść się na + biernik"
+    ],
+    [
+      "Спитай, чи доїдеш цим трамваєм до Національного музею.",
+      "Czy dojadę tym tramwajem do Muzeum Narodowego?"
+    ],
+    [
+      "Розкажи, що ви мусили з’їхати з головної дороги через ремонти.",
+      "Ze względu na remonty musieliśmy zjechać z głównej drogi.",
+      "zjechać z + dopełniacz"
+    ],
+    [
+      "Скажи, що машина ледве в’їхала на вершину пагорба.",
+      "Samochód ledwie wjechał na szczyt wzgórza.",
+      "рух угору / всередину → wjechać"
+    ],
+    [
+      "На заправці попроси заправити повний бак і заплати карткою.",
+      "Proszę do pełna. Czy mogę zapłacić kartą?"
+    ],
+    [
+      "Напиши в рекламації, що ти обурений і вимагаєш компенсації за невдалу відпустку.",
+      "Jestem oburzony i domagam się rekompensaty za nieudany urlop.",
+      "domagać się + dopełniacz: rekompensaty"
+    ]
   ]
 }

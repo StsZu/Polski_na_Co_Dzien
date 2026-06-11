@@ -555,5 +555,55 @@
       "a": 0,
       "fb": "«Dwutlenek węgla» = вуглекислий газ (CO₂), пов'язаний з efektem cieplarnianym (парниковим ефектом)."
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що поїхав би на пікнік, якби була гарна погода.",
+      "Pojechałbym na piknik, gdyby była ładna pogoda.",
+      "tryb warunkowy: pojechać → pojechałbym"
+    ],
+    [
+      "Скажи (від жінки), що купила б цей будинок, але він задорогий.",
+      "Kupiłabym ten dom, ale jest za drogi.",
+      "kupić → kupiłabym"
+    ],
+    [
+      "Запропонуй: якби ми мали більше часу, поїхали б у гори.",
+      "Gdybyśmy mieli więcej czasu, pojechalibyśmy w góry.",
+      "обидві частини в tryb warunkowy"
+    ],
+    [
+      "Постав реальну умову: якщо завтра буде гарна погода, то підемо в ліс.",
+      "Jeżeli jutro będzie ładna pogoda, to pójdziemy do lasu.",
+      "jeżeli + czas przyszły, без by"
+    ],
+    [
+      "Поясни, що якщо сортуєш сміття, то дбаєш про довкілля.",
+      "Jeśli segregujesz śmieci, to dbasz o środowisko."
+    ],
+    [
+      "Спитай у рецепції садиби, коли у них є вільні кімнати.",
+      "Kiedy mają państwo wolne pokoje?",
+      "ввічлива форма: państwo"
+    ],
+    [
+      "Спитай, чи пропонують вони цілоденне харчування.",
+      "Czy oferują państwo całodzienne wyżywienie?"
+    ],
+    [
+      "Поясни, що успадкував пансіонат у спадок від далекої тітки.",
+      "Odziedziczyłem pensjonat w spadku po dalekiej ciotce.",
+      "odziedziczyć, spadek"
+    ],
+    [
+      "Дай екологічну пораду (наказовий спосіб): сортуй сміття й користуйся громадським транспортом.",
+      "Segreguj śmieci i korzystaj z transportu publicznego.",
+      "tryb rozkazujący"
+    ],
+    [
+      "Вислови припущення (від жінки): що було б, якби Євросоюз розпався?",
+      "Co by było, gdyby Unia Europejska rozpadłaby się?",
+      "гіпотетичне питання з gdyby"
+    ]
   ]
 }

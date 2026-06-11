@@ -545,5 +545,55 @@
       "a": 1,
       "fb": "Другий рядок — нове речення з новим підметом (córka), тож власник позначаємо «Ich», а не «swoja»."
     }
+  ],
+  "drills": [
+    [
+      "Спитай нову знайому, чи може вона представитися (на «ти»).",
+      "Czy możesz się przedstawić?"
+    ],
+    [
+      "Розкажи, що маєш польське коріння, бо твій тато походить зі Сілезії.",
+      "Mam polskie korzenie, bo mój tata pochodzi ze Śląska."
+    ],
+    [
+      "Скажи, що любиш того відомого актора (biernik, ч. істота).",
+      "Lubię tego znanego aktora.",
+      "ч. істота: tego aktora = dopełniacz"
+    ],
+    [
+      "Скажи, що знаєш свою нову колегу (biernik, ж. рід).",
+      "Znam swoją nową koleżankę.",
+      "ж. рід: -ę → koleżankę"
+    ],
+    [
+      "Скажи, що на вокзалі ви зустріли відомих акторів (biernik множини, чоловічоособові).",
+      "Spotkaliśmy znanych aktorów.",
+      "чоловічоособові l. mn. = dopełniacz: aktorów"
+    ],
+    [
+      "Скажи, що чекаєш на відповідь з університету.",
+      "Czekam na odpowiedź z uniwersytetu.",
+      "czekać na + biernik"
+    ],
+    [
+      "Подякуй комусь за допомогу.",
+      "Dziękuję za pomoc.",
+      "dziękować za + biernik"
+    ],
+    [
+      "Скажи, що він справді кохає свою дружину (займенник swój).",
+      "On naprawdę kocha swoją żonę.",
+      "власник = підмет (on) → swoją, а не jego"
+    ],
+    [
+      "Попроси офіціанта про рахунок або чек.",
+      "Proszę o rachunek albo paragon.",
+      "prosić o + biernik"
+    ],
+    [
+      "Скажи, що мусиш устигнути на потяг, тож, мабуть, викличеш таксі.",
+      "Muszę zdążyć na pociąg, więc pewnie zadzwonię po taksówkę.",
+      "zdążyć na + biernik; dzwonić po + biernik"
+    ]
   ]
 }

@@ -816,5 +816,55 @@
       "text": "Розповідати про повоєнну історію Польщі",
       "sub": "PRL, cenzura, Marzec '68, Solidarność, wolność słowa"
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що думаєш тільки про себе.",
+      "Myślę tylko o sobie."
+    ],
+    [
+      "Попроси подругу бути щирою сама із собою.",
+      "Bądź szczera wobec siebie.",
+      "wobec + dopełniacz → siebie"
+    ],
+    [
+      "Скажи, що завдяки йому ти зрозумів цю історію.",
+      "Dzięki niemu zrozumiałem tę historię.",
+      "dzięki + celownik; po przyimku → niemu"
+    ],
+    [
+      "Спитай хлопця, чи довго він на тебе чекає.",
+      "Czy długo na mnie czekasz?",
+      "na + biernik → mnie"
+    ],
+    [
+      "Скажи, що зробив це заради неї, а не заради себе.",
+      "Zrobiłem to dla niej, a nie dla siebie.",
+      "dla + dopełniacz → niej / siebie"
+    ],
+    [
+      "Поясни, що іноді важко дати собі раду самому.",
+      "Czasem trudno poradzić sobie ze sobą samym.",
+      "poradzić sobie ze sobą"
+    ],
+    [
+      "Скажи подрузі, що це все через неї.",
+      "To wszystko przez ciebie!",
+      "przez + biernik → ciebie"
+    ],
+    [
+      "Запроси маму на кладовище на День усіх святих.",
+      "Czy wybierzesz się z nami na cmentarz na Wszystkich Świętych?"
+    ],
+    [
+      "Попроси товариша запалити лампадку на могилі.",
+      "Zapal znicz na grobie.",
+      "znicz / lampka"
+    ],
+    [
+      "Поясни, що студенти вийшли на вулицю й вимагали свободи без цензури.",
+      "Studenci wyszli na ulicę i żądali wolności bez cenzury.",
+      "wyjść na ulicę; bez + dopełniacz"
+    ]
   ]
 }

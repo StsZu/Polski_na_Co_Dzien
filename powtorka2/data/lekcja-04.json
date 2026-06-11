@@ -654,5 +654,57 @@
       "text": "Описувати спорт і коментувати матч",
       "sub": "mecz, drużyna, bramka, remis, zwycięstwo, sędzia"
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що це твої колеги — оці двоє хлопців актори.",
+      "Ci dwaj to aktorzy.",
+      "męskoosobowy: dwaj + aktorzy"
+    ],
+    [
+      "Скажи, що троє студентів медицини — сини відомого хірурга.",
+      "Ci trzej studenci medycyny to synowie znanego chirurga.",
+      "trzej studenci, synowie"
+    ],
+    [
+      "Поясни, що поляки і чехи добре грають у хокей.",
+      "Polacy i Czesi dobrze grają w hokeja.",
+      "Polak→Polacy, Czech→Czesi"
+    ],
+    [
+      "Скажи, що twої брати — лікарі.",
+      "Moi bracia są lekarzami.",
+      "wyjątek: brat→bracia"
+    ],
+    [
+      "Спитай, скільки заробляють листоноші.",
+      "Ile zarabiają listonosze?",
+      "zarabiać; listonosz→listonosze"
+    ],
+    [
+      "Скажи, що четверо польських гімалаїстів стали на вершині.",
+      "Czterej polscy himalaiści stanęli na szczycie.",
+      "czterej + himalaiści"
+    ],
+    [
+      "Поясни, що ця команда виграла матч, бо забила гол в останню хвилину.",
+      "Ta drużyna wygrała mecz, bo strzeliła bramkę w ostatniej minucie.",
+      "wygrać, strzelić bramkę"
+    ],
+    [
+      "Скажи, що твоя прабабуся мала двоє дітей.",
+      "Moja prababcia miała dwoje dzieci.",
+      "mieszana grupa: dwoje dzieci"
+    ],
+    [
+      "Спитай сусіда, чи його гості — німці чи бельгійці.",
+      "Czy pana goście to Niemcy czy Belgowie?",
+      "Niemiec→Niemcy, Belg→Belgowie"
+    ],
+    [
+      "Поясни, що в баскетболі дві команди по п'ять осіб грають одна проти одної.",
+      "W koszykówce dwie drużyny grają przeciwko sobie.",
+      "dwie drużyny (rodzaj żeński)"
+    ]
   ]
 }

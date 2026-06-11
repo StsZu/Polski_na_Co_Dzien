@@ -675,5 +675,56 @@
       "text": "Назвати й записати дати з історії",
       "sub": "13 grudnia 1981, 4 czerwca 1989, 11 września 2001"
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що не любиш понеділка.",
+      "Nie lubię poniedziałku.",
+      "після nie lubić → dopełniacz"
+    ],
+    [
+      "Скажи, що в тебе немає словника.",
+      "Nie mam słownika.",
+      "nie ma + czego (заперечення)"
+    ],
+    [
+      "Поясни, що таке повінь.",
+      "Powódź to kataklizm, kiedy za długo i zbyt intensywnie pada deszcz."
+    ],
+    [
+      "Скажи, що боїшся нової катастрофи.",
+      "Boję się nowej katastrofy.",
+      "bać się + dopełniacz"
+    ],
+    [
+      "Попроси скористатися кремом колеги.",
+      "Mogę użyć twojego kremu?",
+      "używać + dopełniacz"
+    ],
+    [
+      "Скажи, що шукаєш словник, бо не знаєш цього слова.",
+      "Szukam słownika, bo nie znam tego słowa.",
+      "szukać + dopełniacz"
+    ],
+    [
+      "Скажи, що в повені загинуло п'ять осіб (дієслово в однині).",
+      "W powodzi zginęło pięć osób.",
+      "pięć + dopełniacz → czasownik w l. poj."
+    ],
+    [
+      "Скажи, що багато людей залишилося без даху над головою.",
+      "Dużo ludzi straciło dach nad głową.",
+      "dużo + dopełniacz l. mn.; czasownik w l. poj."
+    ],
+    [
+      "Скажи, що приходиш зі Шльонська, без цукру до кави.",
+      "Jestem ze Śląska, piję kawę bez cukru.",
+      "z/ze, bez + dopełniacz"
+    ],
+    [
+      "Скажи, коли була повінь тисячоліття.",
+      "Powódź tysiąclecia była w lipcu 1997 roku.",
+      "дата + rok → roku"
+    ]
   ]
 }

@@ -798,5 +798,55 @@
       "text": "Орієнтуватися в аеропорту",
       "sub": "odprawa, karta pokładowa, kontrola bezpieczeństwa, nadbagaż"
     }
+  ],
+  "drills": [
+    [
+      "Скажи братові, щоб вимкнув комп'ютер і йшов пакуватися.",
+      "Wyłącz komputer i idź się pakować!",
+      "tryb rozkazujący (ty)"
+    ],
+    [
+      "Попроси доньку поквапитися, бо ви не встигнете на літак.",
+      "Pospiesz się, bo nie zdążymy na samolot!"
+    ],
+    [
+      "Скажи комусь не їсти над клавіатурою (заперечений наказ).",
+      "Nie jedz nad klawiaturą!",
+      "nie + jedz"
+    ],
+    [
+      "Порадь подрузі бути розважливою на відпочинку.",
+      "Bądź rozsądna na wakacjach!",
+      "być → bądź (нерегулярна форма)"
+    ],
+    [
+      "Нагадай товаришеві взяти паспорт і не забути про дощовик.",
+      "Weź paszport i nie zapomnij o kurtce przeciwdeszczowej!"
+    ],
+    [
+      "Поясни, що на борт літака не можна проносити гострі металеві предмети.",
+      "Na pokład samolotu nie wolno wnosić ostrych metalowych przedmiotów.",
+      "nie wolno + infinitiv"
+    ],
+    [
+      "Спитай у стюардеси, чи можна платити карткою.",
+      "Czy można płacić kartą?",
+      "можна"
+    ],
+    [
+      "Порадь подорожньому, що варто оформити страховку перед поїздкою.",
+      "Warto wykupić ubezpieczenie przed podróżą.",
+      "warto / powinno się wykupić"
+    ],
+    [
+      "Скажи, що треба приготувати паспорт і посадковий талон перед реєстрацією.",
+      "Trzeba naszykować paszport i kartę pokładową przed odprawą.",
+      "trzeba / należy"
+    ],
+    [
+      "Запропонуй друзям (my) перевірити список спорядження для кемпінгу разом.",
+      "Sprawdźmy razem listę sprzętu kempingowego!",
+      "форма наказу на «my»: -my"
+    ]
   ]
 }

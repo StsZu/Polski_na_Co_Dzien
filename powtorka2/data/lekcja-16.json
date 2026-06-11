@@ -501,5 +501,57 @@
       "text": "Будувати підрядні речення зі сполучниками",
       "sub": "żeby, ponieważ, zanim, choć, gdyby, im… tym…"
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що хочеш кави АБО чаю (сполучник вибору).",
+      "Masz ochotę na kawę czy na herbatę?",
+      "вибір: albo / lub / czy"
+    ],
+    [
+      "Поясни, що захворів, ТОМУ не зміг вирушити в подорож (наслідок).",
+      "Zachorowałem, więc nie mogłem wyruszyć w podróż.",
+      "наслідок: więc / dlatego / zatem"
+    ],
+    [
+      "Скажи подрузі, що Ева залишилася вдома, А Збишек поїхав у Татри (протиставлення).",
+      "Ewa została w domu, natomiast Zbyszek pojechał w Tatry.",
+      "протиставлення: ale / lecz / natomiast"
+    ],
+    [
+      "Скажи, що приїхав до Польщі, ЩОБ вивчати польську (мета).",
+      "Przyjechałem do Polski, żeby uczyć się polskiego.",
+      "мета: żeby / aby"
+    ],
+    [
+      "Поясни, що не зміг подзвонити, БО не було зв'язку (причина).",
+      "Nie mogłem zadzwonić, bo nie było zasięgu.",
+      "причина: bo / ponieważ"
+    ],
+    [
+      "Розкажи послідовно: СПОЧАТКУ ми йшли через ліс, а ПОТІМ дорога вела через відкритий простір.",
+      "Najpierw szliśmy przez las, a potem droga prowadziła przez otwartą przestrzeń.",
+      "najpierw… potem…"
+    ],
+    [
+      "Опиши раптову подію: ПОГОДА була чудова, і РАПТОМ стало сіро й темно.",
+      "Pogoda była piękna i nagle zrobiło się szaro i ciemno.",
+      "раптовість: nagle / wtem / niespodziewanie"
+    ],
+    [
+      "Скажи, що ПЕРШ НІЖ ви зорієнтувалися, що відбувається, яхта вже була під водою (час).",
+      "Zanim się zorientowaliśmy, co się dzieje, jacht był już pod wodą.",
+      "час: zanim / kiedy / gdy"
+    ],
+    [
+      "Зроби допуст: ХОЧ Татри здаються малими, це справжні гори.",
+      "Choć Tatry wydają się małe, to są prawdziwe góry.",
+      "допуст: choć / chociaż"
+    ],
+    [
+      "Розкажи про пригоду в минулому: ми вирушили в подорож, зачаровані берберською культурою.",
+      "Wyruszyliśmy w podróż, zafascynowani berberyjską kulturą.",
+      "wyruszyć w podróż, zafascynowany"
+    ]
   ]
 }

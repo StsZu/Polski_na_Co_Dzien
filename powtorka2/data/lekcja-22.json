@@ -573,5 +573,56 @@
       "text": "Знати лексику виставок і музею",
       "sub": "wernisaż, ekspozycja, malarstwo, rzeźba, kunszt, kulisy"
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що ти був у двох музеях минулого тижня (іменник на -um у множині).",
+      "W zeszłym tygodniu byłem w dwóch muzeach.",
+      "мн. muzeum → muzea, Msc. muzeach"
+    ],
+    [
+      "Скажи, що в нашому місті є кілька цікавих музеїв (Dopełniacz мн.).",
+      "W naszym mieście jest kilka ciekawych muzeów.",
+      "muzeum → muzeów"
+    ],
+    [
+      "Спитай товариша, чи це нове музей сучасного мистецтва (іменник на -um, однина).",
+      "Czy to jest nowe muzeum sztuki współczesnej?",
+      "to muzeum — середній рід, в однині незмінне"
+    ],
+    [
+      "Скажи, що твоя сестра отримала стипендію і вчиться в ліцеї (два іменники на -um, однина).",
+      "Moja siostra dostała stypendium i uczy się w liceum.",
+      "stypendium, liceum — в однині не відмінюються"
+    ],
+    [
+      "Поясни, що в цих лабораторіях проводять важливі досліди (іменник на -um у множині, Msc.).",
+      "W tych laboratoriach prowadzi się ważne badania.",
+      "laboratorium → laboratoria, laboratoriach"
+    ],
+    [
+      "Вислови сильне захоплення виставкою, яку ти щойно побачив.",
+      "Jestem pod silnym wrażeniem tej wystawy!",
+      "być pod wrażeniem"
+    ],
+    [
+      "Похвали картини художника, сказавши, що вони тебе захопили.",
+      "Zachwyciły mnie te obrazy!"
+    ],
+    [
+      "Вислови критику: скажи, що такий тип малярства тебе не дуже зачіпає.",
+      "Niezbyt do mnie przemawia taki typ malarstwa.",
+      "критика без образи"
+    ],
+    [
+      "Опиши фотографію: скажи, що на передньому плані стоїть жінка, а на задньому плані — море.",
+      "Na pierwszym planie stoi kobieta, a na drugim planie jest morze.",
+      "na pierwszym/drugim planie"
+    ],
+    [
+      "Поясни, чому виставку не вдалося зробити раніше: процес був дорогий і затратний за часом.",
+      "Ten proces był bardzo kosztowny i zbyt czasochłonny.",
+      "kosztowny, czasochłonny"
+    ]
   ]
 }

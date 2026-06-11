@@ -729,5 +729,57 @@
       "a": 0,
       "fb": "З narzędnikiem: z/ze, za, pod, nad, przed, między, poza. «Do» і «dla» вимагають dopełniacza (родового)."
     }
+  ],
+  "drills": [
+    [
+      "Скажи, хто ти за фахом (історик).",
+      "Jestem historykiem.",
+      "Jestem + кого? narzędnik: historyk → historykiem"
+    ],
+    [
+      "Скажи, що ти полька / поляк.",
+      "Jestem Polką.",
+      "ч.р. → Jestem Polakiem"
+    ],
+    [
+      "Скажи, чим ти цікавишся (література).",
+      "Interesuję się literaturą.",
+      "interesować się + czym? → literaturą"
+    ],
+    [
+      "Скажи, чим ти захоплюєшся (живопис).",
+      "Pasjonuję się malarstwem.",
+      "pasjonować się + narzędnik"
+    ],
+    [
+      "Скажи, що даєш собі раду з тваринами.",
+      "Radzę sobie ze zwierzętami.",
+      "radzić sobie z + narzędnik; ze перед zw-"
+    ],
+    [
+      "Скажи, що їдеш автобусом.",
+      "Jadę autobusem.",
+      "jak? czym? → autobus → autobusem"
+    ],
+    [
+      "Скажи, що мешкаєш зі знайомими.",
+      "Mieszkam ze znajomymi.",
+      "z/ze + narzędnik, мн. → -ymi"
+    ],
+    [
+      "Спитай ввічливо, ким співрозмовник є за фахом.",
+      "Kim pan jest z zawodu?",
+      "до жінки: Kim pani jest…"
+    ],
+    [
+      "Скажи, що ти неодружений (про себе, чоловіка).",
+      "Jestem kawalerem.",
+      "stan cywilny; жінка: Jestem panną"
+    ],
+    [
+      "Попроси допомогти заповнити бланк.",
+      "Czy mógłbyś mi pomóc wypełnić formularz?",
+      "до жінки: Czy mogłabyś…"
+    ]
   ]
 }

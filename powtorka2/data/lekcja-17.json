@@ -667,5 +667,57 @@
       "a": 1,
       "fb": "«Cisza wyborcza» — день тиші: період, коли заборонено вести передвиборчу агітацію."
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що ти вчора писав листа, але не дописав (процес, без результату).",
+      "Wczoraj pisałem list, ale go nie skończyłem.",
+      "тривання → niedokonany: pisać"
+    ],
+    [
+      "Скажи, що ти нарешті написав того листа (результат).",
+      "W końcu napisałem ten list.",
+      "результат → dokonany: napisać"
+    ],
+    [
+      "Розкажи, що в дитинстві ви щодня їздили до бабусі.",
+      "W dzieciństwie codziennie jeździliśmy do babci.",
+      "повторювана дія → niedokonany"
+    ],
+    [
+      "Опиши раптову подію: ти раптом почув дивний шум.",
+      "Nagle usłyszałem dziwny hałas.",
+      "nagle → одноразова дія → dokonany: usłyszeć"
+    ],
+    [
+      "Накажи комусь покласти це сюди.",
+      "Połóż to tutaj!",
+      "наказ на результат → dokonany: kłaść → połóż"
+    ],
+    [
+      "Заборони комусь класти це сюди.",
+      "Nie kładź tego tutaj!",
+      "після przeczenia → niedokonany"
+    ],
+    [
+      "Нагадай комусь, що ти казав йому про це ще вчора.",
+      "Mówiłam ci o tym już wczoraj.",
+      "czasowniki mówienia → часто niedokonany"
+    ],
+    [
+      "Запитай Тома, чи він уже дивився цей фільм.",
+      "Tom, oglądałeś już ten film?",
+      "pytanie o doświadczenie → niedokonany"
+    ],
+    [
+      "Розкажи, якого дня в Польщі запровадили воєнний стан і хто про це повідомив.",
+      "13 grudnia 1981 roku wprowadzono stan wojenny, a generał Jaruzelski poinformował o tym obywateli.",
+      "лексика: stan wojenny, wprowadzić"
+    ],
+    [
+      "Поясни, що таке «godzina milicyjna» під час воєнного стану.",
+      "Godzina milicyjna to zakaz przebywania na ulicy w określonych godzinach.",
+      "lexyka stanu wojennego"
+    ]
   ]
 }

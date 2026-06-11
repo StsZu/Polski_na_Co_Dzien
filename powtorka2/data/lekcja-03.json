@@ -736,5 +736,54 @@
       "text": "Будувати речення мети зі żeby",
       "sub": "poprosił, żeby kupił / kazała, żeby poczekał"
     }
+  ],
+  "drills": [
+    [
+      "Скажи в касі, що маєш бронювання на прізвище Браун.",
+      "Dzień dobry. Mam rezerwację na nazwisko Brown."
+    ],
+    [
+      "Спитай у касира, на який сеанс.",
+      "Na jaki seans?"
+    ],
+    [
+      "Скажи, що йдеш у кіно (до будівлі кінотеатру).",
+      "Idę do kina.",
+      "Заклад → do + Dopełniacz."
+    ],
+    [
+      "Скажи, що йдеш на фільм о вісімнадцятій.",
+      "Idę na film na osiemnastą.",
+      "Подія → na + Biernik."
+    ],
+    [
+      "Скажи, що чекаєш на подругу перед кіно (де?).",
+      "Czekam na koleżankę przed kinem.",
+      "przed + Narzędnik (статичний прийменник)."
+    ],
+    [
+      "Спитай, чи цей фільм дубльований.",
+      "Czy ten film jest dubbingowany?",
+      "Альтернатива: Czy ten film jest z napisami?"
+    ],
+    [
+      "Спитай, для кого є пільгові квитки.",
+      "Dla kogo są bilety ulgowe?"
+    ],
+    [
+      "Попроси Хав'єра купити квитки (передай прохання Тома).",
+      "Tom przekonał Javiera, żeby kupił bilety.",
+      "Підмети різні → żeby + минулий час: kupił."
+    ],
+    [
+      "Передай, що мама попросила Анґелу піти з нею.",
+      "Mami poprosiła Angelę, żeby z nią poszła.",
+      "żeby + минулий час (різні підмети)."
+    ],
+    [
+      "Скажи, що Аня повідомила, що завтра їде в гори.",
+      "Ania powiedziała, że jutro jedzie w góry.",
+      "Повідомлення факту → że, не żeby."
+    ]
   ]
 }

@@ -860,5 +860,56 @@
       "text": "Говорити про навчання та плани на студії",
       "sub": "studiować, profil klasy, licencjat, studia magisterskie, zainteresowania"
     }
+  ],
+  "drills": [
+    [
+      "Скажи, що читання — твоя улюблена розвага (вживай віддієслівний іменник).",
+      "Czytanie to moja ulubiona rozrywka.",
+      "czytać → czytanie"
+    ],
+    [
+      "Поясни, що куріння шкідливе для здоров’я.",
+      "Palenie jest niezdrowe.",
+      "palić → palenie"
+    ],
+    [
+      "Скажи, що пиття алкоголю в публічних місцях заборонене.",
+      "Picie alkoholu w miejscach publicznych jest zakazane.",
+      "pić → picie (короткі дієслова → -cie)"
+    ],
+    [
+      "Поясни, що говорити польською важко (через віддієслівний іменник).",
+      "Mówienie po polsku jest trudne.",
+      "mówić → mówienie"
+    ],
+    [
+      "Скажи, що останнім часом багато часу забирає писання творів, читання книжок і виконання завдань.",
+      "Ostatnio dużo czasu zajmuje mi pisanie wypracowań, czytanie lektur i odrabianie zadań.",
+      "три віддієслівні іменники поспіль"
+    ],
+    [
+      "Поясни приятелю, як увійти: треба ввести користувача і пароль.",
+      "Żeby się zalogować, musisz wpisać użytkownika i hasło.",
+      "zalogować się, użytkownik, hasło"
+    ],
+    [
+      "Скажи колезі по черзі, що треба зробити, щоб перенести текст: виділи, скопіюй, потім встав у новий документ.",
+      "Zaznacz tekst, skopiuj, a następnie wklej do nowego dokumentu.",
+      "zaznaczyć → skopiować → wkleić"
+    ],
+    [
+      "Спитай Кароліну, чи вона ходить до загальноосвітнього ліцею, чи до профільного.",
+      "Czy chodzisz do liceum ogólnokształcącego czy profilowanego?"
+    ],
+    [
+      "Спитай товариша, що він збирається вивчати у виші.",
+      "Co masz zamiar studiować?",
+      "studia, studiować"
+    ],
+    [
+      "Поясни, що найбільша загроза інтернету в тому, що він затягує, забирає час і викликає залежність.",
+      "Największym zagrożeniem jest to, że internet wciąga, zabiera czas i uzależnia.",
+      "zagrożenie, uzależniać"
+    ]
   ]
 }
