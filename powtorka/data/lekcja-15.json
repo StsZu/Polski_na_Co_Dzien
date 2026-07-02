@@ -38,7 +38,7 @@
         "words":"paczka herbaty · pudełko czekoladek · słoik dżemu · butelka piwa · puszka kukurydzy · karton soku · kawałek sera · kostka masła · tabliczka czekolady · plasterek szynki" },
       { "type":"dia", "title":"Dialog 2 · lista zakupów · трек 147", "audio":"audio/L15/L15-czytanie-03.mp3", "lines":[
         ["Joanna","Karol!","Кароль!"],
-        ["Karol","Tak mamo?","Так, мамо?"],
+        ["Karol","Tak, mamo?","Так, мамо?"],
         ["Joanna","Mam do ciebie prośbę, czy możesz iść na zakupy?","Маю до тебе прохання, чи можеш піти за покупками?"],
         ["Karol","Teraz? Wolałbym nie.","Зараз? Краще не хотів би."],
         ["Joanna","Karol!","Кароль!"],
@@ -57,7 +57,7 @@
     ]},
     { "block": "B. Zakupy na piknik", "items": [
       { "type":"dia", "title":"Ćwiczenie 1 · piknik konny · трек 149", "audio":"audio/L15/L15-czytanie-05.mp3", "lines":[
-        ["Iwona","Cześć Sylwia! Jedziesz z nami na piknik? Taka piękna pogoda, wreszcie mamy złotą polską jesień!","Привіт, Сильвіє! Їдеш із нами на пікнік? Така гарна погода, нарешті маємо золоту польську осінь!"],
+        ["Iwona","Cześć, Sylwia! Jedziesz z nami na piknik? Taka piękna pogoda, wreszcie mamy złotą polską jesień!","Привіт, Сильвіє! Їдеш із нами на пікнік? Така гарна погода, нарешті маємо золоту польську осінь!"],
         ["Sylwia","Na piknik? Raczej nie. Wiesz, ja boję się koni.","На пікнік? Радше ні. Знаєш, я боюся коней."],
         ["Iwona","Niestety, nie żartuję! Czy wybiera się dużo studentów?","На жаль, не жартую! Чи збирається багато студентів?"],
         ["Sylwia","Chyba żartujesz!","Ти, мабуть, жартуєш!"],
@@ -164,7 +164,7 @@
         ["Uwe","Zaraz do nich zadzwonię. Aha, tylko nie mam telefonu do Angeli. Masz może numer do niej?","Зараз до них зателефоную. Ага, тільки не маю телефону Анджели. Маєш, може, номер до неї?"]
       ]},
       { "type":"dia", "title":"Dialog 2 · трек 162", "audio":"audio/L15/L15-czytanie-20.mp3", "lines":[
-        ["Tom","Cześć Javier, dzwoniłeś do mnie.","Привіт, Хав’єре, ти дзвонив до мене."],
+        ["Tom","Cześć, Javier, dzwoniłeś do mnie.","Привіт, Хав’єре, ти дзвонив до мене."],
         ["Javier","Dzwoniłem do was wszystkich. Bez skutku!","Дзвонив до вас усіх. Без результату!"],
         ["Tom","Dlaczego do nas wszystkich i dlaczego się denerwujesz?","Чому до нас усіх і чому нервуєшся?"]
       ]},

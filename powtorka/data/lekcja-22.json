@@ -88,7 +88,7 @@
         ["—","No, w końcu odebrałaś. Cały czas było zajęte.","Ну, нарешті взяла слухавку. Весь час було зайнято."],
         ["—","Ach, bo dzwoniłam do wszystkich w sprawie weekendu. Ale albo poczta głosowa, albo... nieważne. Z nikim nie porozmawiałam.","Ах, бо я обдзвонювала всіх щодо вихідних. Але або голосова пошта, або... неважливо. Ні з ким не поговорила."],
         ["—","Zostawiłaś wiadomość? Odzwonią?","Залишила повідомлення? Передзвонять?"],
-        ["—","Ciekawe tylko kiedy. Wyślemy im SMS-a, kiedy coś zaplanujemy. Koniec, kropka.","Цікаво тільки коли. Надішлемо їм SMS, коли щось сплануємо. Кінець, крапка."]
+        ["—","Ciekawe tylko, kiedy. Wyślemy im SMS-a, kiedy coś zaplanujemy. Koniec, kropka.","Цікаво тільки коли. Надішлемо їм SMS, коли щось сплануємо. Кінець, крапка."]
       ]}
     ]},
     { "block": "C. Lwów — tekst historyczny", "items": [
@@ -101,8 +101,8 @@
     ]},
     { "block": "D. Dokąd pojedziemy? — Lwów", "items": [
       { "type":"dia", "title":"Dialog 1 · трек 215", "audio":"audio/L22/L22-czytanie-11.mp3", "lines":[
-        ["—","Cześć Javier.","Привіт, Хав’єре."],
-        ["Javier","O, cześć dziewczyny. Zaraz przedstawię wam moją znajomą. To jest Majka. Studentka turystyki. A to moje koleżanki ze szkoły. Mami i Angela.","О, привіт, дівчата. Зараз познайомлю вас із моєю знайомою. Це Майка. Студентка туризму. А це мої подруги зі школи. Мамі й Анджела."],
+        ["—","Cześć, Javier.","Привіт, Хав’єре."],
+        ["Javier","O, cześć, dziewczyny. Zaraz przedstawię wam moją znajomą. To jest Majka. Studentka turystyki. A to moje koleżanki ze szkoły. Mami i Angela.","О, привіт, дівчата. Зараз познайомлю вас із моєю знайомою. Це Майка. Студентка туризму. А це мої подруги зі школи. Мамі й Анджела."],
         ["—","Bardzo nam miło.","Дуже приємно."],
         ["Majka","Bardzo. Javier mówił mi, że planujecie długi weekend. Chciałabym zaproponować wam coś interesującego.","Дуже. Хав’єр казав мені, що ви плануєте довгі вихідні. Хотіла б запропонувати вам щось цікаве."],
         ["—","Posłuchamy z przyjemnością.","Послухаємо з приємністю."],

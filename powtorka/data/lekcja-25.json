@@ -66,7 +66,7 @@
       ]},
       { "type":"dia", "title":"Dialog 3 · Angela · трек 234", "audio":"audio/L25/L25-czytanie-07.mp3", "lines":[
         ["Kobieta","Halo?","Алло?"],
-        ["Kobieta 2","Cześć Angela. Co z tobą?","Привіт, Анджело. Що з тобою?"],
+        ["Kobieta 2","Cześć, Angela. Co z tobą?","Привіт, Анджело. Що з тобою?"],
         ["Angela","Zęby. Przez całą noc nie spałam.","Зуби. Цілу ніч не спала."],
         ["Kobieta 2","Musisz iść do dentysty. Mogę umówić cię na wizytę.","Ти мусиш піти до дентиста. Можу записати тебе на прийом."],
         ["Angela","A pójdziesz ze mną? Strasznie się boję.","А підеш зі мною? Я страшенно боюся."]
@@ -85,7 +85,7 @@
         ["Pani Maj","Mami, nic co ludzkie nie jest mi obce, naprawdę.","Мамі, ніщо людське мені не чуже, справді."],
         ["Mami","Co to znaczy?","Що це означає?"],
         ["Pani Maj","Że to nie twoja wina, biegunka i wymioty to normalne, kiedy masz zatrucie żołądkowe. Zjesz coś? Może chleb z masłem?","Що це не твоя провина: діарея і блювота — це нормально при харчовому отруєнні. З’їси щось? Може, хліб з маслом?"],
-        ["Mami","Niedobrze mi kiedy myślę o jedzeniu.","Мене нудить, коли думаю про їжу."],
+        ["Mami","Niedobrze mi, kiedy myślę o jedzeniu.","Мене нудить, коли думаю про їжу."],
         ["Pani Maj","To może herbata miętowa? Musisz dużo pić.","Тоді, може, м’ятний чай? Ти мусиш багато пити."],
         ["Mami","Może potem, znów muszę biec do toalety, przepraszam!","Може, потім, знову мушу бігти до туалету, перепрошую!"],
         ["Pani Maj","Mami, w porządku?","Мамі, усе гаразд?"],
@@ -110,13 +110,13 @@
         ["Javier","Nie, będę pierwszy raz. Ale jestem obcokrajowcem, nie mam polskiego ubezpieczenia.","Ні, буду вперше. Але я іноземець, не маю польської страховки."],
         ["Pani","To prywatna przychodnia, wizyta u specjalisty kosztuje 75 zł. Do jakiego lekarza?","Це приватна поліклініка, прийом у спеціаліста коштує 75 злотих. До якого лікаря?"],
         ["Javier","Jestem przeziębiony, ale boję się, że to grypa. Proszę mnie zarejestrować do lekarza ogólnego.","Я застуджений, але боюся, що це грип. Запишіть мене, будь ласка, до лікаря загальної практики."],
-        ["Pani","Mam wolny termin na jutro rano na 7.30. do doktor Kowalik. Pasuje panu?","Маю вільний час на завтра вранці о 7:30 до лікарки Ковалік. Вам підходить?"],
+        ["Pani","Mam wolny termin na jutro rano o 7:30 u lekarki Kowalik. Pasuje panu?","Маю вільний час на завтра вранці о 7:30 до лікарки Ковалік. Вам підходить?"],
         ["Javier","Trochę za wcześnie, ale trudno.","Трохи зарано, але нічого не вдієш."],
         ["Pani","Jak się pan nazywa?","Як Ваше прізвище?"],
         ["Javier","Javier Pérez. Przeliterować?","Хав’єр Перес. Продиктувати по літерах?"]
       ]},
       { "type":"dia", "title":"Ćwiczenie 2 · u lekarki · трек 238", "audio":"audio/L25/L25-czytanie-15.mp3", "lines":[
-        ["Javier","Dzień dobry pani doktor.","Добрий день, пані лікарко."],
+        ["Javier","Dzień dobry, pani doktor.","Добрий день, пані лікарко."],
         ["Lekarka","Dzień dobry, co panu dolega?","Добрий день, на що скаржитесь?"],
         ["Javier","Boli mnie wszystko: głowa, gardło, mięśnie, trochę żołądek. Mam katar i kaszel.","Болить усе: голова, горло, м’язи, трохи шлунок. Маю нежить і кашель."],
         ["Lekarka","Ma pan gorączkę?","У Вас є температура?"],
@@ -141,7 +141,7 @@
         ["Pani","Czy ta pani ma u nas kartę?","Чи має ця пані в нас картку?"],
         ["Ania","Nie, to będzie jej pierwsza wizyta.","Ні, це буде її перший візит."],
         ["Pani","W takim razie proszę imię i nazwisko. Czy ona mówi po polsku?","Тоді назвіть ім’я та прізвище. Чи розмовляє вона польською?"],
-        ["Ania","Nie, Angela jest obcokrajowką. Nie mówi po polsku.","Ні, Анджела — іноземка. Не розмовляє польською."],
+        ["Ania","Nie, Angela jest cudzoziemką. Nie mówi po polsku.","Ні, Анджела — іноземка. Не розмовляє польською."],
         ["Pani","Rozumiem. To może doktor Kowal? Jest bardzo miły i cierpliwy.","Розумію. Тоді, може, лікар Коваль? Він дуже приємний і терплячий."],
         ["Ania","Ale ona nie mówi po polsku. Czy jest jakiś lekarz, który mówi po angielsku? Albo kiedy doktor Kowal przyjmuje?","Але вона не розмовляє польською. Чи є якийсь лікар, що говорить англійською? Або коли приймає лікар Коваль?"],
         ["Pani","Doktor Kowal przyjmuje w piątki od 10 do 17.","Лікар Коваль приймає по п’ятницях з 10 до 17."],

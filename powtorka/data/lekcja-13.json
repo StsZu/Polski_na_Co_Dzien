@@ -1,6 +1,6 @@
 {
   "id": "13",
-  "title": "Gdzie byłaś Mami? Byłam w kinie",
+  "title": "Gdzie byłaś, Mami? Byłam w kinie",
   "goal": "Повторюємо: минулий час (czas przeszły) · дієслово być у минулому · -łem/-łam/-łeś/-łaś · rodzaj męskoosobowy / niemęskoosobowy · розповідь про вихідні",
   "vocab": [
     { "group": "BYĆ — czas przeszły — бути в минулому", "items": [
@@ -35,8 +35,8 @@
         ["Mami","Byłam w kinie.","Я була в кіно."],
         ["—","Byłeś już tu kiedyś?","Ти вже колись тут був?"],
         ["—","Nie, nie byłem. Jestem pierwszy raz.","Ні, не був. Я тут уперше."],
-        ["—","Cześć Mami! Gdzie byłaś?","Привіт, Мамі! Де ти була?"],
-        ["Mami","Cześć Shige! Byłam w Centrum Sztuki i Kultury Japońskiej „Manggha”.","Привіт, Шіге! Я була в Центрі японського мистецтва й культури «Манґґа»."],
+        ["—","Cześć, Mami! Gdzie byłaś?","Привіт, Мамі! Де ти була?"],
+        ["Mami","Cześć, Shige! Byłam w Centrum Sztuki i Kultury Japońskiej „Manggha”.","Привіт, Шіге! Я була в Центрі японського мистецтва й культури «Манґґа»."],
         ["—","Czy one były na meczu?","Чи вони були на матчі?"],
         ["—","A wczoraj było tak ładnie!","А вчора було так гарно!"],
         ["—","O Boże! Jak wy wyglądacie!? Gdzie byliście?","О Боже! Який у вас вигляд!? Де ви були?"],
@@ -48,14 +48,14 @@
     { "block": "B. Jak weekend? — главний діалог", "items": [
       { "type":"dia", "title":"Dialog 1 · korytarz · трек 137", "audio":"audio/L13/L13-czytanie-02.mp3", "lines":[
         ["—","(Jest poniedziałek. Mami i Angela są na korytarzu, piją herbatę. Wchodzi Uwe.)","(Понеділок. Мамі й Анджела в коридорі, п’ють чай. Заходить Уве.)"],
-        ["Uwe","Cześć dziewczyny! Co słychać? Jak weekend?","Привіт, дівчата! Як справи? Як вихідні?"],
-        ["Angela","Cześć Uwe! Weekend był świetny! W piątek w nocy byłam w Galerii Krakowskiej.","Привіт, Уве! Вихідні були чудові! У п’ятницю вночі я була в Galerii Krakowskiej."],
+        ["Uwe","Cześć, dziewczyny! Co słychać? Jak weekend?","Привіт, дівчата! Як справи? Як вихідні?"],
+        ["Angela","Cześć, Uwe! Weekend był świetny! W piątek w nocy byłam w Galerii Krakowskiej.","Привіт, Уве! Вихідні були чудові! У п’ятницю вночі я була в Galerii Krakowskiej."],
         ["Uwe","W nocy?","Уночі?"],
         ["Angela","Tak. To była specjalna „noc zakupów”, więc były duże rabaty. Kupiłam na przykład ten sweter! Wstyd, ale spędziłam tam kilka godzin.","Так. Це була особлива «ніч покупок», тож були великі знижки. Я купила, наприклад, цей светр! Соромно, але я провела там кілька годин."],
         ["Angela","W sobotę wieczorem byłam ze znajomymi w klubie „Pauza”. Poznałam interesujących ludzi, rozmawiałam po polsku, tańczyłam i wróciłam do domu w niedzielę rano.","У суботу ввечері я була зі знайомими в клубі «Pauza». Познайомилась із цікавими людьми, говорила польською, танцювала і повернулась додому в неділю вранці."],
         ["Uwe","Świetnie! To znaczy, że była dobra impreza!","Чудово! Тобто була гарна вечірка!"],
         ["Angela","O tak! Było wspaniale!","О так! Було чудово!"],
-        ["Uwe","A ty Mami? Co robiłaś w weekend?","А ти, Мамі? Що ти робила на вихідних?"],
+        ["Uwe","A ty, Mami? Co robiłaś w weekend?","А ти, Мамі? Що ти робила на вихідних?"],
         ["Mami","Ja byłam w kinie razem z Karoliną. Oglądałyśmy polski film! Rozumiałam tylko trochę, ale to nic, i tak było fajnie!","Я була в кіно разом із Кароліною. Ми дивились польський фільм! Розуміла лише трохи, але нічого — однаково було класно!"],
         ["Mami","W sobotę była świetna pogoda, więc z Karoliną spacerowałyśmy po Kazimierzu i robiłyśmy zdjęcia.","У суботу була чудова погода, тож ми з Кароліною гуляли по Казімєжу й робили фото."],
         ["Mami","W niedzielę byłam w domu, spałam, rysowałam, grałam na Nintendo, trochę uczyłam się i pomagałam pani Maj robić obiad. To był spokojny weekend.","У неділю я була вдома: спала, малювала, грала на Nintendo, трохи вчилась і допомагала пані Май готувати обід. Це були спокійні вихідні."],

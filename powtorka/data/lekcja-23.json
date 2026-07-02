@@ -95,7 +95,7 @@
         ["Sprzedawczyni","Oczywiście, jaki rozmiar?","Звичайно, який розмір?"],
         ["Angela","38.","38."],
         ["Sprzedawczyni","Proszę.","Прошу."],
-        ["Angela","Przepraszam, czy mogę prosić o rozmiar większe? Te są za małe.","Перепрошую, чи можу попросити розмір більший? Ці замалі."],
+        ["Angela","Przepraszam, czy mogę prosić o rozmiar większy? Te są za małe.","Перепрошую, чи можу попросити розмір більший? Ці замалі."],
         ["Sprzedawczyni","Zaraz sprawdzę. Są, proszę.","Зараз перевірю. Є, прошу."],
         ["Angela","Świetnie! Te są w sam raz!","Чудово! Ці саме якраз!"]
       ]},
@@ -147,7 +147,7 @@
   "drills": [
     ["Скажи, що сукня замала.","Ta sukienka jest za mała."],
     ["Скажи продавцю, що хочеш приміряти ці туфлі.","Chciałabym przymierzyć te buty."],
-    ["Попроси більший розмір.","Czy mogę prosić o rozmiar większe?"],
+    ["Попроси більший розмір.","Czy mogę prosić o rozmiar większy?"],
     ["Скажи, що туфлі саме якраз.","Te buty są w sam raz."],
     ["Утвори вищий ступінь: «długi».","dłuższy"],
     ["Утвори найвищий ступінь: «dobry».","najlepszy"],

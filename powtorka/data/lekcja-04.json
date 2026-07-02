@@ -37,8 +37,8 @@
   "czytanie": [
     { "block": "A. Co słychać? Nowy student", "items": [
       { "type":"dia", "title":"Ćwiczenie 1 · трек 054", "audio":"audio/L04/L04-czytanie-01.mp3", "lines":[
-        ["Mami","Cześć Javier.","Привіт, Хав’єре."],
-        ["Javier","Cześć Mami. Co słychać?","Привіт, Мамі. Як справи?"],
+        ["Mami","Cześć, Javier.","Привіт, Хав’єре."],
+        ["Javier","Cześć, Mami. Co słychać?","Привіт, Мамі. Як справи?"],
         ["Mami","Wszystko w porządku. A u ciebie?","Усе гаразд. А в тебе?"],
         ["Javier","U mnie też dobrze, dziękuję. Czy wiesz, kto to jest?","У мене теж добре, дякую. Знаєш, хто це?"],
         ["Mami","Nie, nie wiem. Ale myślę, że to jest nowy student.","Ні, не знаю. Але думаю, що це новий студент."],
@@ -49,7 +49,7 @@
         ["Mami","Przepraszam, nie rozumiem.","Перепрошую, не розумію."],
         ["Javier","Mami, mówimy po polsku.","Мамі, ми говоримо польською."],
         ["Mami","Ach, nie pamiętam, jak mówimy po polsku „hola”.","Ах, не пам’ятаю, як буде польською «hola»."],
-        ["Javier","No dobrze Mami, masz rację. „Hola” to słowo po hiszpańsku. Znaczy „cześć”.","Ну добре, Мамі, маєш рацію. «Hola» — іспанське слово. Означає «привіт»."],
+        ["Javier","No dobrze, Mami, masz rację. „Hola” to słowo po hiszpańsku. Znaczy „cześć”.","Ну добре, Мамі, маєш рацію. «Hola» — іспанське слово. Означає «привіт»."],
         ["Pierre","Cześć. Jestem Pierre. Pierre Lavie. Przepraszam, nie mówię po hiszpańsku, tylko po francusku i trochę po polsku.","Привіт. Я П’єр. П’єр Лав’є. Перепрошую, не говорю іспанською, лише французькою і трохи польською."],
         ["Javier","Cześć. Ja mam na imię Javier i jestem z Argentyny. A to jest Mami. Mami Takada. Ona jest z Japonii i mówi po japońsku.","Привіт. Мене звати Хав’єр, я з Аргентини. А це Мамі. Мамі Такада. Вона з Японії і говорить японською."],
         ["Pierre","Miło mi.","Приємно."],

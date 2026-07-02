@@ -44,7 +44,7 @@
         ["Kolega 1","Wiesz... a ja chyba wyjdę po coś do jedzenia.","Знаєш... а я, мабуть, вийду по щось поїсти."]
       ]},
       { "type":"dia", "title":"Ćwiczenie 2 · Dialog 3 · трек 242", "audio":"audio/L26/L26-czytanie-03.mp3", "lines":[
-        ["Angela","Cześć Mami. Co tam masz?","Привіт, Мамі. Що там у тебе?"],
+        ["Angela","Cześć, Mami. Co tam masz?","Привіт, Мамі. Що там у тебе?"],
         ["Mami","Kupiłam sobie spodnie.","Купила собі штани."],
         ["Angela","O! Wystrzałowe.","О! Шикарні."],
         ["Mami","Tak. Ale chyba są trochę za długie.","Так. Але, здається, трохи задовгі."],
@@ -104,7 +104,7 @@
     { "block": "C. Wypadek i kradzież — пригода та крадіжка", "items": [
       { "type":"dia", "title":"Ćwiczenie 1 · трек 254", "audio":"audio/L26/L26-czytanie-09.mp3", "lines":[
         ["Ania","Halo?","Алло?"],
-        ["Javier","Cześć Aniu. Nie dojadę na czas do szkoły. Czy mogłabyś poprowadzić za mnie lekcję?","Привіт, Аню. Я не встигну до школи. Чи могла б ти провести за мене урок?"],
+        ["Javier","Cześć, Aniu. Nie dojadę na czas do szkoły. Czy mogłabyś poprowadzić za mnie lekcję?","Привіт, Аню. Я не встигну до школи. Чи могла б ти провести за мене урок?"],
         ["Ania","Tak, mogłabym. Jesteś zdenerwowany. Czy coś się stało?","Так, могла б. Ти знервований. Щось сталося?"],
         ["Javier","Miałem mały wypadek samochodowy.","Я мав невелику автомобільну аварію."],
         ["Ania","Coś poważnego?","Щось серйозне?"],
