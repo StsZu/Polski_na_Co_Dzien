@@ -13,6 +13,8 @@
   --hdr:#fffefbf2;--field:#ffffff;--tag:#f1ece0;--dotbg:#e3ddcf;--mkline:#c9c3b4;
   --acc2bg:#eef4fb;--acc2line:#d8e6f4;--okbg:#eafaef;--okline:#b7e6c4;
   --midbg:#fffaf1;--midline:#f0d6a8;--badbg:#fdecec;--badline:#f3b9b9;--hl:#ffe9b8;
+  /* текст на акцентних поверхнях: у темній темі акцент світлішає, тож білий по ньому дає ~2.7:1 */
+  --onacc:#ffffff;
 }
 html[data-theme="dark"]{
   --bg:#121316;--card:#1e2127;--soft:#242830;--ink:#d8dbe0;--mut:#9aa0ab;
@@ -22,14 +24,14 @@ html[data-theme="dark"]{
   --acc2bg:rgba(107,162,214,.12);--acc2line:rgba(107,162,214,.35);
   --okbg:rgba(55,178,77,.14);--okline:rgba(55,178,77,.4);
   --midbg:rgba(252,196,25,.13);--midline:rgba(252,196,25,.38);
-  --badbg:rgba(240,62,62,.14);--badline:rgba(240,62,62,.4);--hl:rgba(252,196,25,.35);
+  --badbg:rgba(240,62,62,.14);--badline:rgba(240,62,62,.4);--hl:rgba(252,196,25,.35);--onacc:#121316;
 }
 .themebtn{font-family:Roboto,sans-serif;float:right;margin:2px 12px 0 0;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:20px;width:34px;height:34px;cursor:pointer;font-size:15px;line-height:1}
 .themebtn:hover{border-color:var(--acc)}
 *{box-sizing:border-box}
 body{margin:0;font:17px/1.65 "Iowan Old Style",Georgia,"Segoe UI",Roboto,serif;background:var(--bg);color:var(--ink)}
 header{position:sticky;top:0;z-index:20;background:var(--hdr);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:15px 22px}
-header .num{display:inline-block;background:var(--acc);color:#fff;font-weight:700;border-radius:8px;padding:3px 12px;margin-right:11px;font-family:Roboto,sans-serif}
+header .num{display:inline-block;background:var(--acc);color:var(--onacc);font-weight:700;border-radius:8px;padding:3px 12px;margin-right:11px;font-family:Roboto,sans-serif}
 header h1{font-size:21px;margin:0;display:inline;font-weight:700}
 header .goal{font-size:14px;color:var(--mut);margin-top:7px;font-family:"Segoe UI",Roboto,sans-serif}
 header .back{font-family:Roboto,sans-serif;font-size:12.5px;color:var(--acc2);text-decoration:none;float:right;margin-top:4px;margin-left:14px}
@@ -50,7 +52,7 @@ section>.sub{color:var(--mut);font-size:14px;margin:0 0 16px;font-family:"Segoe 
 .startrow label{font-family:Roboto,sans-serif;font-size:11px;color:var(--mut);display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:.4px}
 select,.filelbl{font-family:"Segoe UI",Roboto,sans-serif;background:var(--field);border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:15px;color:var(--ink)}
 select:focus{outline:none;border-color:var(--acc2)}
-.go{font-family:Roboto,sans-serif;background:var(--acc2);color:#fff;border:none;border-radius:10px;padding:12px 26px;font-size:15px;font-weight:600;cursor:pointer}
+.go{font-family:Roboto,sans-serif;background:var(--acc2);color:var(--onacc);border:none;border-radius:10px;padding:12px 26px;font-size:15px;font-weight:600;cursor:pointer}
 .go:disabled{opacity:.4;cursor:not-allowed}
 .ghost{font-family:Roboto,sans-serif;background:none;border:1px solid var(--line);border-radius:9px;padding:10px 16px;font-size:13px;cursor:pointer;color:var(--acc2)}
 .ghost:hover{border-color:var(--acc2)}
@@ -91,7 +93,7 @@ select:focus{outline:none;border-color:var(--acc2)}
 .opt:hover{border-color:var(--acc2)}
 .opt.correct{border-color:var(--ok);background:var(--okbg)}
 .opt.wrong{border-color:var(--bad);background:var(--badbg)}
-.opt .mk{width:20px;height:20px;border-radius:50%;border:1.5px solid var(--mkline);display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;flex:0 0 auto}
+.opt .mk{width:20px;height:20px;border-radius:50%;border:1.5px solid var(--mkline);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--onacc);flex:0 0 auto}
 .opt.correct .mk{background:var(--ok);border-color:var(--ok)}
 .opt.wrong .mk{background:var(--bad);border-color:var(--bad)}
 .opts.locked .opt{cursor:default}
@@ -109,7 +111,7 @@ select:focus{outline:none;border-color:var(--acc2)}
 .ctrls{display:flex;gap:10px;justify-content:space-between;align-items:center;margin-top:18px;flex-wrap:wrap}
 .ctrls .l,.ctrls .r{display:flex;gap:10px;flex-wrap:wrap}
 .ctrls button{font-family:Roboto,sans-serif;border-radius:9px;padding:10px 18px;font-size:14px;cursor:pointer;border:1px solid var(--line);background:var(--field);color:var(--ink)}
-.ctrls button.primary{background:var(--acc2);color:#fff;border-color:var(--acc2)}
+.ctrls button.primary{background:var(--acc2);color:var(--onacc);border-color:var(--acc2)}
 .ctrls button.g-ok{border-color:var(--okline);color:var(--ok)}
 .ctrls button.g-mid{border-color:var(--midline);color:var(--warn)}
 .ctrls button.g-no{border-color:var(--badline);color:var(--bad)}
