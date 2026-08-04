@@ -15,6 +15,9 @@
   --midbg:#fffaf1;--midline:#f0d6a8;--badbg:#fdecec;--badline:#f3b9b9;--hl:#ffe9b8;
   /* текст на акцентних поверхнях: у темній темі акцент світлішає, тож білий по ньому дає ~2.7:1 */
   --onacc:#ffffff;
+  /* глибші відтінки саме для маленьких кружечків ✓/✗: білий глиф на звичайних
+     --ok/--bad дає 3.4–4.4:1, бо це 13px гліф, а не великий текст */
+  --okmark:#227a38;--badmark:#c02626;
 }
 html[data-theme="dark"]{
   --bg:#121316;--card:#1e2127;--soft:#242830;--ink:#d8dbe0;--mut:#9aa0ab;
@@ -24,7 +27,7 @@ html[data-theme="dark"]{
   --acc2bg:rgba(107,162,214,.12);--acc2line:rgba(107,162,214,.35);
   --okbg:rgba(55,178,77,.14);--okline:rgba(55,178,77,.4);
   --midbg:rgba(252,196,25,.13);--midline:rgba(252,196,25,.38);
-  --badbg:rgba(240,62,62,.14);--badline:rgba(240,62,62,.4);--hl:rgba(252,196,25,.35);--onacc:#121316;
+  --badbg:rgba(240,62,62,.14);--badline:rgba(240,62,62,.4);--hl:rgba(252,196,25,.35);--onacc:#121316;--okmark:var(--ok);--badmark:var(--bad);
 }
 .themebtn{font-family:Roboto,sans-serif;float:right;margin:2px 12px 0 0;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:20px;width:34px;height:34px;cursor:pointer;font-size:15px;line-height:1}
 .themebtn:hover{border-color:var(--acc)}
@@ -94,8 +97,8 @@ select:focus{outline:none;border-color:var(--acc2)}
 .opt.correct{border-color:var(--ok);background:var(--okbg)}
 .opt.wrong{border-color:var(--bad);background:var(--badbg)}
 .opt .mk{width:20px;height:20px;border-radius:50%;border:1.5px solid var(--mkline);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--onacc);flex:0 0 auto}
-.opt.correct .mk{background:var(--ok);border-color:var(--ok)}
-.opt.wrong .mk{background:var(--bad);border-color:var(--bad)}
+.opt.correct .mk{background:var(--okmark);border-color:var(--okmark)}
+.opt.wrong .mk{background:var(--badmark);border-color:var(--badmark)}
 .opts.locked .opt{cursor:default}
 .sample{display:none;background:var(--acc2bg);border:1px solid var(--acc2line);border-radius:10px;padding:12px 14px;font-size:18px;color:var(--acc2);font-weight:700;margin:14px 0 0}
 .sample.show{display:block}

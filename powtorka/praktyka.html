@@ -9,6 +9,9 @@
   --bg:#f6f3ec;--card:#ffffff;--soft:#faf8f3;--ink:#2c2e33;--mut:#7a7f8a;
   --line:#e7e2d6;--acc:#d6455a;--acc2:#3a6ea5;--ok:#2f9e44;--bad:#e03131;--warn:#e8920c;
   --shadow:0 2px 10px rgba(60,50,30,.06);
+  /* глибші відтінки саме для маленьких кружечків ✓/✗: білий глиф на звичайних
+     --ok/--bad дає 3.4–4.4:1, бо це 13px гліф, а не великий текст */
+  --okmark:#227a38;--badmark:#c02626;
 }
 *{box-sizing:border-box}
 body{margin:0;font:17px/1.65 "Iowan Old Style",Georgia,"Segoe UI",Roboto,serif;background:var(--bg);color:var(--ink)}
@@ -76,8 +79,8 @@ select:focus{outline:none;border-color:var(--acc2)}
 .opt.correct{border-color:var(--ok);background:#eafaef}
 .opt.wrong{border-color:var(--bad);background:#fdecec}
 .opt .mk{width:20px;height:20px;border-radius:50%;border:1.5px solid #c9c3b4;display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;flex:0 0 auto}
-.opt.correct .mk{background:var(--ok);border-color:var(--ok)}
-.opt.wrong .mk{background:var(--bad);border-color:var(--bad)}
+.opt.correct .mk{background:var(--okmark);border-color:var(--okmark)}
+.opt.wrong .mk{background:var(--badmark);border-color:var(--badmark)}
 .opts.locked .opt{cursor:default}
 .sample{display:none;background:#eef4fb;border:1px solid #d8e6f4;border-radius:10px;padding:12px 14px;font-size:18px;color:var(--acc2);font-weight:700;margin:14px 0 0}
 .sample.show{display:block}
