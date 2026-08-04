@@ -3,16 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Praktyka · Polski krok po kroku 1</title>
+<title>Praktyka · Polski krok po kroku 2</title>
 <style>
 :root{
   --bg:#f6f3ec;--card:#ffffff;--soft:#faf8f3;--ink:#2c2e33;--mut:#7a7f8a;
   --line:#e7e2d6;--acc:#d6455a;--acc2:#3a6ea5;--ok:#2f9e44;--bad:#e03131;--warn:#e8920c;
   --shadow:0 2px 10px rgba(60,50,30,.06);
+  /* похідні від палітри — щоб темна тема не мала жодного забитого кольору */
+  --hdr:#fffefbf2;--field:#ffffff;--tag:#f1ece0;--dotbg:#e3ddcf;--mkline:#c9c3b4;
+  --acc2bg:#eef4fb;--acc2line:#d8e6f4;--okbg:#eafaef;--okline:#b7e6c4;
+  --midbg:#fffaf1;--midline:#f0d6a8;--badbg:#fdecec;--badline:#f3b9b9;--hl:#ffe9b8;
 }
+html[data-theme="dark"]{
+  --bg:#121316;--card:#1e2127;--soft:#242830;--ink:#d8dbe0;--mut:#9aa0ab;
+  --line:#2d323c;--acc:#e55b6e;--acc2:#6ba2d6;--ok:#37b24d;--bad:#f03e3e;--warn:#fcc419;
+  --shadow:0 4px 20px rgba(0,0,0,.35);
+  --hdr:rgba(30,33,39,.94);--field:#1e2127;--tag:rgba(154,160,171,.16);--dotbg:#2d323c;--mkline:#2d323c;
+  --acc2bg:rgba(107,162,214,.12);--acc2line:rgba(107,162,214,.35);
+  --okbg:rgba(55,178,77,.14);--okline:rgba(55,178,77,.4);
+  --midbg:rgba(252,196,25,.13);--midline:rgba(252,196,25,.38);
+  --badbg:rgba(240,62,62,.14);--badline:rgba(240,62,62,.4);--hl:rgba(252,196,25,.35);
+}
+.themebtn{font-family:Roboto,sans-serif;float:right;margin:2px 12px 0 0;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:20px;width:34px;height:34px;cursor:pointer;font-size:15px;line-height:1}
+.themebtn:hover{border-color:var(--acc)}
 *{box-sizing:border-box}
 body{margin:0;font:17px/1.65 "Iowan Old Style",Georgia,"Segoe UI",Roboto,serif;background:var(--bg);color:var(--ink)}
-header{position:sticky;top:0;z-index:20;background:#fffefbf2;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:15px 22px}
+header{position:sticky;top:0;z-index:20;background:var(--hdr);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:15px 22px}
 header .num{display:inline-block;background:var(--acc);color:#fff;font-weight:700;border-radius:8px;padding:3px 12px;margin-right:11px;font-family:Roboto,sans-serif}
 header h1{font-size:21px;margin:0;display:inline;font-weight:700}
 header .goal{font-size:14px;color:var(--mut);margin-top:7px;font-family:"Segoe UI",Roboto,sans-serif}
@@ -20,7 +36,7 @@ header .back{font-family:Roboto,sans-serif;font-size:12.5px;color:var(--acc2);te
 .wrap{max-width:860px;margin:0 auto;padding:24px 22px 60px}
 section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:0 0 20px;box-shadow:var(--shadow)}
 section>h2{font-family:Roboto,"Segoe UI",sans-serif;font-size:13px;text-transform:uppercase;letter-spacing:.8px;color:var(--acc);margin:0 0 4px;display:flex;align-items:center;gap:9px;font-weight:700}
-section>h2 .tag{background:#f1ece0;color:var(--mut);font-weight:600;border-radius:6px;padding:2px 8px;font-size:11px;letter-spacing:.3px}
+section>h2 .tag{background:var(--tag);color:var(--mut);font-weight:600;border-radius:6px;padding:2px 8px;font-size:11px;letter-spacing:.3px}
 section>.sub{color:var(--mut);font-size:14px;margin:0 0 16px;font-family:"Segoe UI",Roboto,sans-serif}
 .hide{display:none!important}
 /* ——— стан ——— */
@@ -32,7 +48,7 @@ section>.sub{color:var(--mut);font-size:14px;margin:0 0 16px;font-family:"Segoe 
 .bx.new .n{color:var(--mut)}
 .startrow{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;margin-top:18px}
 .startrow label{font-family:Roboto,sans-serif;font-size:11px;color:var(--mut);display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:.4px}
-select,.filelbl{font-family:"Segoe UI",Roboto,sans-serif;background:#fff;border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:15px;color:var(--ink)}
+select,.filelbl{font-family:"Segoe UI",Roboto,sans-serif;background:var(--field);border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:15px;color:var(--ink)}
 select:focus{outline:none;border-color:var(--acc2)}
 .go{font-family:Roboto,sans-serif;background:var(--acc2);color:#fff;border:none;border-radius:10px;padding:12px 26px;font-size:15px;font-weight:600;cursor:pointer}
 .go:disabled{opacity:.4;cursor:not-allowed}
@@ -50,70 +66,75 @@ select:focus{outline:none;border-color:var(--acc2)}
 .shead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-family:Roboto,sans-serif}
 .shead .blk{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}
 .dots{display:flex;gap:5px;flex-wrap:wrap}
-.dot{width:9px;height:9px;border-radius:50%;background:#e3ddcf}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--dotbg)}
 .dot.cur{background:var(--acc2)}.dot.ok{background:var(--ok)}.dot.mid{background:var(--warn)}.dot.no{background:var(--bad)}
-.mode{font-family:Roboto,sans-serif;font-size:10.5px;color:var(--acc2);background:#eef4fb;border:1px solid #d8e6f4;border-radius:5px;padding:2px 8px;letter-spacing:.3px}
+.mode{font-family:Roboto,sans-serif;font-size:10.5px;color:var(--acc2);background:var(--acc2bg);border:1px solid var(--acc2line);border-radius:5px;padding:2px 8px;letter-spacing:.3px}
 .stepcard{background:var(--soft);border:1px solid var(--line);border-radius:13px;padding:18px 18px 20px;min-height:250px}
 .task{font-size:18px;font-weight:600;margin:2px 0 16px}
 .hintline{font-family:"Segoe UI",Roboto,sans-serif;font-size:13.5px;color:var(--mut);margin:-10px 0 14px}
-.answer{width:100%;background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:13px 14px;font-size:18px;color:var(--ink);font-family:"Iowan Old Style",Georgia,serif}
+.answer{width:100%;background:var(--field);border:1.5px solid var(--line);border-radius:10px;padding:13px 14px;font-size:18px;color:var(--ink);font-family:"Iowan Old Style",Georgia,serif}
 .answer:focus{outline:none;border-color:var(--acc2)}
-.answer.ok{border-color:var(--ok);background:#f7fdf9}
-.answer.mid{border-color:var(--warn);background:#fffaf1}
-.answer.no{border-color:var(--bad);background:#fdf5f5}
+.answer.ok{border-color:var(--ok);background:var(--okbg)}
+.answer.mid{border-color:var(--warn);background:var(--midbg)}
+.answer.no{border-color:var(--bad);background:var(--badbg)}
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;min-height:44px}
-.chip{font-family:"Iowan Old Style",Georgia,serif;font-size:17px;background:#fff;border:1.5px solid var(--line);border-radius:9px;padding:8px 13px;cursor:pointer}
+.chip{font-family:"Iowan Old Style",Georgia,serif;font-size:17px;background:var(--field);border:1.5px solid var(--line);border-radius:9px;padding:8px 13px;cursor:pointer}
 .chip:hover{border-color:var(--acc2)}
 .chip.used{opacity:.28;pointer-events:none}
-.slot{background:#fff;border:1.5px dashed var(--line);border-radius:10px;padding:11px 13px;min-height:52px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.slot .chip{border-style:solid;border-color:#d8e6f4;background:#eef4fb}
+.slot{background:var(--field);border:1.5px dashed var(--line);border-radius:10px;padding:11px 13px;min-height:52px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.slot .chip{border-style:solid;border-color:var(--acc2line);background:var(--acc2bg)}
 .slot.ok{border-color:var(--ok);border-style:solid}
 .slot.no{border-color:var(--bad);border-style:solid}
 .slot .ph{color:var(--mut);font-size:14px;font-family:"Segoe UI",sans-serif}
 .opts{display:flex;flex-direction:column;gap:9px;font-family:"Segoe UI",Roboto,sans-serif}
-.opt{display:flex;align-items:center;gap:11px;background:#fff;border:1.5px solid var(--line);border-radius:11px;padding:11px 15px;cursor:pointer;transition:.12s;font-size:16px}
+.opt{display:flex;align-items:center;gap:11px;background:var(--field);border:1.5px solid var(--line);border-radius:11px;padding:11px 15px;cursor:pointer;transition:.12s;font-size:16px}
 .opt:hover{border-color:var(--acc2)}
-.opt.correct{border-color:var(--ok);background:#eafaef}
-.opt.wrong{border-color:var(--bad);background:#fdecec}
-.opt .mk{width:20px;height:20px;border-radius:50%;border:1.5px solid #c9c3b4;display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;flex:0 0 auto}
+.opt.correct{border-color:var(--ok);background:var(--okbg)}
+.opt.wrong{border-color:var(--bad);background:var(--badbg)}
+.opt .mk{width:20px;height:20px;border-radius:50%;border:1.5px solid var(--mkline);display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;flex:0 0 auto}
 .opt.correct .mk{background:var(--ok);border-color:var(--ok)}
 .opt.wrong .mk{background:var(--bad);border-color:var(--bad)}
 .opts.locked .opt{cursor:default}
-.sample{display:none;background:#eef4fb;border:1px solid #d8e6f4;border-radius:10px;padding:12px 14px;font-size:18px;color:var(--acc2);font-weight:700;margin:14px 0 0}
+.sample{display:none;background:var(--acc2bg);border:1px solid var(--acc2line);border-radius:10px;padding:12px 14px;font-size:18px;color:var(--acc2);font-weight:700;margin:14px 0 0}
 .sample.show{display:block}
-.sample u{text-decoration:none;background:#ffe9b8;border-radius:3px;padding:0 1px}
-.verdict{display:none;font-family:"Segoe UI",Roboto,sans-serif;font-size:14.5px;margin-top:14px;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:#fff}
+.sample u{text-decoration:none;background:var(--hl);border-radius:3px;padding:0 1px}
+.verdict{display:none;font-family:"Segoe UI",Roboto,sans-serif;font-size:14.5px;margin-top:14px;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card)}
 .verdict.show{display:block}
 .verdict .v{font-family:Roboto,sans-serif;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:5px}
-.verdict.ok{border-color:#b7e6c4;background:#eafaef}.verdict.ok .v{color:var(--ok)}
-.verdict.mid{border-color:#f0d6a8;background:#fffaf1}.verdict.mid .v{color:var(--warn)}
-.verdict.no{border-color:#f3b9b9;background:#fdecec}.verdict.no .v{color:var(--bad)}
+.verdict.ok{border-color:var(--okline);background:var(--okbg)}.verdict.ok .v{color:var(--ok)}
+.verdict.mid{border-color:var(--midline);background:var(--midbg)}.verdict.mid .v{color:var(--warn)}
+.verdict.no{border-color:var(--badline);background:var(--badbg)}.verdict.no .v{color:var(--bad)}
 .verdict .cor{font-family:"Iowan Old Style",Georgia,serif;font-size:17px;font-weight:700;color:var(--ink)}
 .verdict .why{color:var(--mut);margin-top:5px;font-size:13.5px}
 .ctrls{display:flex;gap:10px;justify-content:space-between;align-items:center;margin-top:18px;flex-wrap:wrap}
 .ctrls .l,.ctrls .r{display:flex;gap:10px;flex-wrap:wrap}
-.ctrls button{font-family:Roboto,sans-serif;border-radius:9px;padding:10px 18px;font-size:14px;cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--ink)}
+.ctrls button{font-family:Roboto,sans-serif;border-radius:9px;padding:10px 18px;font-size:14px;cursor:pointer;border:1px solid var(--line);background:var(--field);color:var(--ink)}
 .ctrls button.primary{background:var(--acc2);color:#fff;border-color:var(--acc2)}
-.ctrls button.g-ok{border-color:#b7e6c4;color:var(--ok)}
-.ctrls button.g-mid{border-color:#f0d6a8;color:var(--warn)}
-.ctrls button.g-no{border-color:#f3b9b9;color:var(--bad)}
+.ctrls button.g-ok{border-color:var(--okline);color:var(--ok)}
+.ctrls button.g-mid{border-color:var(--midline);color:var(--warn)}
+.ctrls button.g-no{border-color:var(--badline);color:var(--bad)}
 .ctrls button:disabled{opacity:.35;cursor:not-allowed}
 .kbd{font-family:Roboto,sans-serif;font-size:11.5px;color:var(--mut)}
-.kbd b{background:#f1ece0;border:1px solid var(--line);border-radius:4px;padding:1px 5px;color:var(--ink);font-weight:600}
+.kbd b{background:var(--tag);border:1px solid var(--line);border-radius:4px;padding:1px 5px;color:var(--ink);font-weight:600}
 /* ——— підсумок ——— */
 .big{font-family:Roboto,sans-serif;font-size:42px;font-weight:800;text-align:center}
 .big.good{color:var(--ok)}.big.mid{color:var(--warn)}.big.low{color:var(--bad)}
 .tally{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;font-family:Roboto,sans-serif;font-size:13px;margin-top:6px}
 .tally span{border:1px solid var(--line);border-radius:8px;padding:5px 12px;background:var(--soft)}
+.chk{font-family:"Segoe UI",Roboto,sans-serif;font-size:14.5px;margin-top:16px;text-align:left}
+.chk .row{padding:7px 0;border-bottom:1px solid var(--line)}
+.chk .row:last-child{border-bottom:none}
+.chk .sub{color:var(--mut);font-size:13px;margin-top:2px}
 .load{max-width:860px;margin:60px auto;padding:0 22px;font-family:"Segoe UI",sans-serif;color:var(--mut)}
-.load code{background:#ece7da;padding:2px 6px;border-radius:5px;color:var(--ink)}
+.load code{background:var(--tag);padding:2px 6px;border-radius:5px;color:var(--ink)}
 </style>
 </head>
 <body>
 <header>
+  <button class="themebtn" id="themebtn" title="Світла / темна тема">🌙</button>
   <a class="back" href="../index.html">← Strona główna</a>
   <a class="back" href="index.html">← усі уроки</a>
-  <span class="num">P</span><h1>Praktyka · krok po kroku 1</h1>
+  <span class="num">P</span><h1>Praktyka · krok po kroku 2</h1>
   <div class="goal" id="hGoal">Сеанс на 20–25 хвилин: пригадай, скажи, надрукуй — і повтори за графіком.</div>
 </header>
 
@@ -126,6 +147,19 @@ select:focus{outline:none;border-color:var(--acc2)}
 const $ = (t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
 const esc = s => String(s).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
 const el = id => document.getElementById(id);
+
+/* тема — спільний ключ із lekcja.html, тож вибір переноситься між сторінками */
+(function(){
+  if(localStorage.getItem('pwt-theme')==='dark') document.documentElement.setAttribute('data-theme','dark');
+  const b=el('themebtn'), isDark=()=>document.documentElement.getAttribute('data-theme')==='dark';
+  const paint=()=>{b.textContent=isDark()?'☀️':'🌙';};
+  b.onclick=()=>{
+    if(isDark()){document.documentElement.removeAttribute('data-theme'); localStorage.setItem('pwt-theme','light');}
+    else{document.documentElement.setAttribute('data-theme','dark'); localStorage.setItem('pwt-theme','dark');}
+    paint();
+  };
+  paint();
+})();
 
 const DIA = {'ą':'a','ć':'c','ę':'e','ł':'l','ń':'n','ó':'o','ś':'s','ź':'z','ż':'z'};
 const PUNCT = /[.,!?;:…"„”«»()\-–—]/g;
@@ -145,7 +179,7 @@ const today = () => new Date().toLocaleDateString('sv-SE');          // YYYY-MM-
 const plusDays = n => {const d=new Date(); d.setDate(d.getDate()+n); return d.toLocaleDateString('sv-SE');};
 
 /* ─────────── стан (localStorage) ─────────── */
-const LS_KEY = 'pnc.praktyka.k1';
+const LS_KEY = 'pnc.praktyka.k2';
 const INTERVALS = [0,1,3,7,21];           // box → через скільки днів наступний показ
 const BOX_LABEL = ['сьогодні','+1 день','+3 дні','+7 днів','+21 день'];
 const MAX_BOX = INTERVALS.length-1;
@@ -185,11 +219,12 @@ function streak(){
 }
 
 /* ─────────── банк матеріалу ─────────── */
-const BANK = {items:[], byId:{}, lessons:[]};
+const BANK = {items:[], byId:{}, lessons:[], checklist:{}};
 
 function addItem(it){ if(!BANK.byId[it.id]){BANK.byId[it.id]=it; BANK.items.push(it);} }
 
 function ingest(lesson, d){
+  if(d.checklist && d.checklist.length) BANK.checklist[lesson] = d.checklist;
   (d.drills||[]).forEach(row=>{
     const [ua, pl, hint] = row;
     if(!ua||!pl) return;
@@ -278,7 +313,7 @@ function screenHome(){
 
   /* стан */
   const s1 = $('section');
-  s1.appendChild($('h2',null,'Мій стан <span class="tag">крок 1 · A1</span>'));
+  s1.appendChild($('h2',null,'Мій стан <span class="tag">крок 2 · A2</span>'));
   s1.appendChild($('p','sub',`Банк: ${BANK.items.length} завдань із ${BANK.lessons.length} уроків. Фраза рухається боксами: ${BOX_LABEL.join(' → ')}.`));
   const bx = $('div','boxes');
   bx.appendChild($('div','bx due',`<div class="n">${due}</div><div class="l">до повторення</div>`));
@@ -300,7 +335,7 @@ function screenHome(){
   sel.value = suggestLesson();
   selWrap.appendChild(sel); row.appendChild(selWrap);
   const go = $('button','go','Почати сеанс');
-  go.onclick = ()=>{markDay(); screenSession(buildSession(sel.value));};
+  go.onclick = ()=>{markDay(); screenSession(buildSession(sel.value), sel.value);};
   row.appendChild(go);
   if(due){
     const only = $('button','ghost',`Тільки повторення (${due})`);
@@ -334,7 +369,7 @@ function screenHome(){
   const bExp = $('button','ghost','Експорт прогресу');
   bExp.onclick = ()=>{
     const blob = new Blob([JSON.stringify(ST,null,1)],{type:'application/json'});
-    const a = $('a'); a.href=URL.createObjectURL(blob); a.download=`praktyka-k1-${today()}.json`;
+    const a = $('a'); a.href=URL.createObjectURL(blob); a.download=`praktyka-k2-${today()}.json`;
     document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(a.href);
   };
   const lbl = $('label','filelbl ghost','Імпорт прогресу');
@@ -348,7 +383,7 @@ function screenHome(){
         if(!d || d.v!==1 || typeof d.items!=='object') throw 0;
         ST = {v:1, items:d.items, days:Array.isArray(d.days)?d.days:[]};
         saveState(); screenHome();
-      }catch(e){ alert('Не той файл: очікується експорт praktyka-k1-*.json'); }
+      }catch(e){ alert('Не той файл: очікується експорт praktyka-k2-*.json'); }
     };
     rd.readAsText(f);
   };
@@ -361,7 +396,7 @@ function screenHome(){
 }
 
 /* ─────────── екран сеансу ─────────── */
-function screenSession(steps){
+function screenSession(steps, lessonId){
   if(!steps.length){ alert('Немає що показати: вибери інший урок.'); return; }
   const wrap = el('wrap'); wrap.innerHTML='';
   const sec = $('section');
@@ -625,6 +660,16 @@ function screenSession(steps){
       `Наступне повторення: <b>${dueTomorrow}</b> ${plural(dueTomorrow,'фраза','фрази','фраз')} завтра` +
       (dueLeft?` · сьогодні ще чекає <b>${dueLeft}</b>`:' · на сьогодні все') +
       (failed.length?`<br>Розібрати з викладачем: <b>${failed.slice(0,3).map(f=>esc(String(f.pl||f.q).replace(/[.!?…]+$/,''))).join('</b>, <b>')}</b>.`:'')));
+    /* checklist є тільки в курсі 2 — показуємо як самоперевірку по темі уроку */
+    if(lessonId && BANK.checklist[lessonId]){
+      const ch=$('div','chk');
+      ch.appendChild($('div','plan','<b>Перевір себе</b> — чи зробиш це польською після цього уроку:'));
+      BANK.checklist[lessonId].slice(0,4).forEach(c=>{
+        const text = c && c.text ? c.text : c;
+        ch.appendChild($('div','row', `☐ ${esc(text)}` + (c && c.sub ? `<div class="sub">${esc(c.sub)}</div>` : '')));
+      });
+      card.appendChild(ch);
+    }
     const again=$('button','ghost','Ще сеанс'); again.onclick=screenHome;
     const home=$('button','ghost','До стану'); home.onclick=screenHome;
     ctrlsRow([home],[again]);
@@ -649,7 +694,7 @@ fetch('data/lessons.json')
   .catch(()=>{
     el('wrap').innerHTML =
       `<div class="load">Не вдалося зібрати банк фраз. Найчастіша причина — сторінку відкрито через <code>file://</code> ` +
-      `(браузер блокує fetch). Запусти локальний сервер у папці <code>powtorka/</code>:<br><br>` +
+      `(браузер блокує fetch). Запусти локальний сервер у папці <code>powtorka2/</code>:<br><br>` +
       `<code>python3 -m http.server 8000</code><br><br>і відкрий <code>http://localhost:8000/praktyka.html</code>. ` +
       `На GitHub Pages усе працює без сервера.</div>`;
   });
