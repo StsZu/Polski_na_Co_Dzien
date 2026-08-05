@@ -12,6 +12,7 @@
   /* глибші відтінки саме для маленьких кружечків ✓/✗: білий глиф на звичайних
      --ok/--bad дає 3.4–4.4:1, бо це 13px гліф, а не великий текст */
   --okmark:#227a38;--badmark:#c02626;
+  --field:#ffffff;--acc2bg:#eef4fb;--acc2line:#d8e6f4;--okbg:#eafaef;--badbg:#fdecec;--badline:#f3b9b9;
 }
 *{box-sizing:border-box}
 body{margin:0;font:17px/1.65 "Iowan Old Style",Georgia,"Segoe UI",Roboto,serif;background:var(--bg);color:var(--ink)}
@@ -108,6 +109,23 @@ select:focus{outline:none;border-color:var(--acc2)}
 .big.good{color:var(--ok)}.big.mid{color:var(--warn)}.big.low{color:var(--bad)}
 .tally{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;font-family:Roboto,sans-serif;font-size:13px;margin-top:6px}
 .tally span{border:1px solid var(--line);border-radius:8px;padding:5px 12px;background:var(--soft)}
+/* ——— діалог, спринт, переказ ——— */
+.dlg{background:var(--field);border:1px solid var(--line);border-radius:11px;padding:12px 14px;margin-bottom:14px;font-size:16px}
+.dline{display:flex;gap:10px;align-items:flex-start;margin:5px 0}
+.dline .who{flex:0 0 96px;color:var(--acc2);font-weight:600;font-family:"Segoe UI",sans-serif;font-size:14.5px;padding-top:1px}
+.dline .txt{flex:1 1 auto;min-width:0}
+.dline .blank{color:var(--mut);font-style:italic}
+.dline.fill{background:var(--okbg);border-radius:7px;padding:3px 5px;margin-left:-5px}
+.dline .uk{display:block;color:var(--mut);font-size:13.5px;font-style:italic;margin-top:1px}
+.kw{display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 16px}
+.kw span{font-family:Roboto,sans-serif;font-size:15px;background:var(--acc2bg);border:1px solid var(--acc2line);color:var(--acc2);border-radius:20px;padding:5px 13px}
+.timer{font-family:Roboto,sans-serif;font-size:12.5px;color:var(--mut);border:1px solid var(--line);border-radius:20px;padding:3px 11px;white-space:nowrap}
+.timer.hot{color:var(--bad);border-color:var(--badline)}
+.sprint .word{font-size:23px;font-weight:700;margin:4px 0 12px;min-height:34px}
+.sprint .sc{font-family:Roboto,sans-serif;font-size:13px;color:var(--mut);margin-top:10px}
+.sprint .sc b{color:var(--ink)}
+.aud{width:100%;height:34px;margin-top:12px;display:block}
+.wrongph{background:var(--badbg);border:1px solid var(--badline);border-radius:7px;padding:2px 9px;text-decoration:line-through}
 .load{max-width:860px;margin:60px auto;padding:0 22px;font-family:"Segoe UI",sans-serif;color:var(--mut)}
 .load code{background:#ece7da;padding:2px 6px;border-radius:5px;color:var(--ink)}
 </style>
@@ -188,7 +206,7 @@ function streak(){
 }
 
 /* ─────────── банк матеріалу ─────────── */
-const BANK = {items:[], byId:{}, lessons:[]};
+const BANK = {items:[], byId:{}, lessons:[], vocab:{}, dialogs:[]};
 
 function addItem(it){ if(!BANK.byId[it.id]){BANK.byId[it.id]=it; BANK.items.push(it);} }
 
@@ -202,6 +220,33 @@ function ingest(lesson, d){
     if(!q || !q.q || !Array.isArray(q.o)) return;
     addItem({id:keyOf('quiz',q.q), field:'quiz', lesson, q:q.q, o:q.o, a:q.a, fb:q.fb||'', topic:q.topic||'', title:d.title});
   });
+
+  (d.mistakes||[]).forEach(row=>{
+    const [bad,good,why]=row||[];
+    if(!bad||!good) return;
+    /* ключ за хибною формою: саме її показують, і два різні розбори з тим самим
+       правильним варіантом мають лишатися двома вправами */
+    addItem({id:keyOf('fix',bad), field:'fix', lesson, bad, pl:good, why:why||'', title:d.title});
+  });
+
+  BANK.vocab[lesson] = [].concat(...(d.vocab||[]).map(g=>g.items||[])).filter(p=>p&&p[0]&&p[1]);
+
+  /* діалоги: і підручник, і зошит; czytanie — блоки з items, zeszyt — плоский список */
+  [].concat(d.czytanie||[], d.zeszyt||[]).forEach(b=>{
+    ((b && b.items) ? b.items : [b]).forEach(it=>{
+      if(!it || it.type!=='dia' || !Array.isArray(it.lines) || it.lines.length<4) return;
+      const dlg={lesson, title:it.title||'Dialog', audio:it.audio||'', lines:it.lines};
+      BANK.dialogs.push(dlg);
+      /* один пропуск на діалог — найдовша репліка, перед якою вже є контекст */
+      let best=-1, bw=0;
+      dlg.lines.forEach((l,i)=>{ if(i===0) return;
+        const n=String(l[1]||'').trim().split(/\s+/).length;
+        if(n>=2 && n<=12 && n>bw){bw=n; best=i;} });
+      if(best<0) return;
+      const [who,pl,ua]=dlg.lines[best];
+      addItem({id:keyOf('gap',pl), field:'gap', lesson, pl, ua:ua||'', who, dlg, idx:best, title:dlg.title});
+    });
+  });
 }
 
 /* ─────────── склад сеансу ─────────── */
@@ -209,17 +254,29 @@ function ingest(lesson, d){
    Голос стоїть на боксі 1, щоб продукування починалося з другого показу, а не через тиждень. */
 function modeFor(box, it){
   if(it.field==='quiz') return 'quiz';
+  if(it.field==='gap')  return 'gap';
+  if(it.field==='fix')  return 'fix';
   const words = it.pl.trim().split(/\s+/).length;
   if(box===0) return words>=3 ? 'assemble' : 'translate';   // перший контакт — з опорою
-  if(box===1 || box===3) return 'oral';
+  if(box===1) return 'oral';
+  if(box===3) return 'oral10';                              // те саме вголос, але на час
   return 'translate';
 }
-const MODE_LABEL = {translate:'зворотний переклад', assemble:'збери фразу', oral:'скажи вголос', quiz:'обери відповідь'};
-const LIMITS = {due:8, fresh:8, echo:3, quiz:4, retry:5};
+const MODE_LABEL = {translate:'зворотний переклад', assemble:'збери фразу', oral:'скажи вголос',
+  oral10:'скажи за 10 секунд', quiz:'обери відповідь', gap:'віднови репліку', fix:'знайди помилку',
+  sprint:'словниковий спринт', retell:'перекажи за опорами'};
+const LIMITS = {due:8, fresh:6, echo:2, gap:2, fix:2, quiz:3, retry:5};
 
 function buildSession(lessonId){
   const steps=[], t=today();
   const seen = id => ST.items[id];
+
+  /* 0. розігрів: словниковий спринт на 60 секунд — тренує, графік не рухає */
+  const sprintWords = BANK.vocab[lessonId] || [];
+  if(sprintWords.length >= 6)
+    steps.push({it:{id:'sprint|'+lessonId, field:'sprint', lesson:lessonId, words:sprintWords},
+                mode:'sprint', blk:'Розігрів', echo:true});
+
 
   /* 1. прострочені фрази — з усіх уроків. Вибірка кругова по боксах, а не «найслабші першими»:
      інакше хвіст провалів (бокс 0) вибирає всю стелю й старші бокси не доходять до повторення,
@@ -249,10 +306,25 @@ function buildSession(lessonId){
      Без оцінки: та сама фраза не має рухати графік двічі за день. */
   fresh.slice(0,LIMITS.echo).forEach(it => steps.push({it, mode:'oral', blk:'Голос без тексту', echo:true}));
 
+  /* 2г. діалог із пропуском і розбір помилок цього уроку (у курсі без mistakes — просто нічого) */
+  const pickFresh = (field, lim) => {
+    const all = BANK.items.filter(it => it.lesson===lessonId && it.field===field);
+    const nu = all.filter(it => !seen(it.id));
+    return (nu.length ? nu : all).slice(0, lim);
+  };
+  pickFresh('gap', LIMITS.gap).forEach(it => steps.push({it, mode:'gap', blk:'Діалог із пропуском'}));
+  pickFresh('fix', LIMITS.fix).forEach(it => steps.push({it, mode:'fix', blk:'Знайди помилку'}));
+
+
   const lQuiz = BANK.items.filter(it => it.lesson===lessonId && it.field==='quiz');
   [...lQuiz.filter(it=>!seen(it.id)), ...lQuiz.filter(it=>seen(it.id))]
     .slice(0,LIMITS.quiz)
     .forEach(it => steps.push({it, mode:'quiz', blk:'Новий блок'}));
+
+  /* 3. переказ за опорами — закриває усний блок, без оцінки */
+  const rdlg = BANK.dialogs.filter(x => x.lesson===lessonId)[0];
+  if(rdlg) steps.push({it:{id:'retell|'+lessonId, field:'retell', lesson:lessonId, dlg:rdlg},
+                       mode:'retell', blk:'Переказ за опорами', echo:true});
 
   return steps;
 }
@@ -379,7 +451,7 @@ function screenSession(steps){
   const dots = head.querySelector('#sDots');
   steps.forEach(()=>dots.appendChild($('div','dot')));
 
-  let i = 0, extended = false, stepKeys = null;
+  let i = 0, extended = false, stepKeys = null, stepTimer = null;
   const tally = {ok:0, mid:0, no:0};
   const failed = [];
 
@@ -424,11 +496,13 @@ function screenSession(steps){
   function show(){
     const st = steps[i], it = st.it;
     if(stepKeys){ document.removeEventListener('keydown', stepKeys); stepKeys=null; }
+    if(stepTimer){ clearInterval(stepTimer); stepTimer=null; }
     [...dots.children].forEach((d,k)=>d.classList.toggle('cur', k===i));
     sec.querySelector('#sTag').textContent = `${i+1} / ${steps.length}`;
     head.querySelector('#sBlk').innerHTML = `${esc(st.blk)} · <span class="mode">${MODE_LABEL[st.mode]}</span> · Lekcja ${esc(it.lesson)}`;
     card.innerHTML=''; ctr.innerHTML='';
-    ({translate:stepTranslate, assemble:stepAssemble, oral:stepOral, quiz:stepQuiz})[st.mode](it);
+    ({translate:stepTranslate, assemble:stepAssemble, oral:stepOral, oral10:stepOral, quiz:stepQuiz,
+      gap:stepGap, fix:stepFix, sprint:stepSprint, retell:stepRetell})[st.mode](it);
   }
 
   function ctrlsRow(leftNodes, rightNodes){
@@ -541,9 +615,12 @@ function screenSession(steps){
   /* 5.6 усний тренажер — самооцінка */
   function stepOral(it){
     card.appendChild($('div','task',esc(it.ua)));
+    const timed = steps[i].mode==='oral10';
     card.appendChild($('div','hintline', steps[i].echo
       ? 'Ту саму фразу — тепер уголос, без тексту. Це тренування, на графік повторення не впливає.'
-      : 'Скажи фразу польською вголос — тоді відкрий зразок.'));
+      : timed
+        ? 'Десять секунд. Скажи вголос як вийде — коли час мине, зразок відкриється сам.'
+        : 'Скажи фразу польською вголос — тоді відкрий зразок.'));
     const smp=$('div','sample',esc(it.pl)); card.appendChild(smp);
     const v=$('div','verdict'); card.appendChild(v);
     const bRev=$('button','primary','Показати зразок');
@@ -565,13 +642,22 @@ function screenSession(steps){
       };
       b.disabled=true; return b;
     });
-    bRev.onclick=()=>{
+    const reveal=()=>{
+      if(shown) return;
       shown=true; smp.classList.add('show');
       grades.forEach(b=>b.disabled=false);
       bRev.disabled=true;
+      if(stepTimer){clearInterval(stepTimer); stepTimer=null;}
     };
-    ctrlsRow([bRev, $('span','kbd','<b>Enter</b> — зразок, далі <b>1</b> / <b>2</b> / <b>3</b>')],grades);
-    keys({Enter:()=>{ if(!shown) bRev.onclick(); },
+    bRev.onclick=reveal;
+    const tm=$('span','timer','10 с');
+    ctrlsRow(timed ? [bRev,tm] : [bRev, $('span','kbd','<b>Enter</b> — зразок, далі <b>1</b> / <b>2</b> / <b>3</b>')],grades);
+    if(timed){
+      let left=10;
+      stepTimer=setInterval(()=>{ left--; tm.textContent=left+' с'; tm.classList.toggle('hot',left<=3);
+                                  if(left<=0) reveal(); }, 1000);
+    }
+    keys({Enter:()=>{ if(!shown) reveal(); },
           '1':()=>grades[0].onclick(), '2':()=>grades[1].onclick(), '3':()=>grades[2].onclick()});
   }
 
@@ -609,9 +695,166 @@ function screenSession(steps){
     keys(map);
   }
 
+
+  /* спільна перевірка друкованої відповіді — використовують translate, gap і fix */
+  function judgeTyped(userRaw, target){
+    const user=norm(userRaw), t=norm(target);
+    if(!user) return 'no';
+    if(user===t) return 'ok';
+    return stripDia(user)===stripDia(t) ? 'mid' : 'no';
+  }
+  function verdictBox(v, res, target, why){
+    v.className='verdict show '+res;
+    const corr = res==='mid' ? esc(target).replace(/[ąćęłńóśźż]/g, m=>`<u>${m}</u>`) : esc(target);
+    v.innerHTML = `<span class="v">${res==='ok'?'Правильно':res==='mid'?'Правильно, крім діакритики':'Ще ні'}</span>`+
+      `<span class="cor">${corr}</span>`+
+      (why?`<div class="why">${esc(why)}</div>`:'')+
+      (res==='mid'?`<div class="why">Підсвічені літери несуть діакритику — вона змінює слово, тож фраза лишається на повторення.</div>`:'');
+  }
+  function audioEl(src){const a=$('audio','aud'); a.controls=true; a.preload='none'; a.src=src; return a;}
+  /* репліка діалогу: імʼя мовця — окрема колонка, щоб довгий текст не тікав під нього */
+  function dlineHTML(who, pl, uk){
+    return `<span class="who">${esc(who||'')}</span><div class="txt">${pl}`+
+           (uk?`<span class="uk">${esc(uk)}</span>`:'')+`</div>`;
+  }
+  function dlineEl(who, pl, uk, cls){
+    return $('div','dline'+(cls?' '+cls:''), dlineHTML(who, esc(pl), uk));
+  }
+
+  /* 5.7 діалог із пропуском */
+  function stepGap(it){
+    const d=it.dlg;
+    card.appendChild($('div','hintline',`${esc(d.title)} · віднови репліку`));
+    const box=$('div','dlg');
+    d.lines.slice(0, it.idx).forEach(([who,pl,uk])=>box.appendChild(dlineEl(who,pl,uk)));
+    const blank=$('div','dline', dlineHTML(it.who, '<span class="blank">— твоя репліка —</span>', ''));
+    box.appendChild(blank);
+    card.appendChild(box);
+    card.appendChild($('div','task', it.ua ? esc(it.ua) : 'Продовж діалог польською.'));
+    const inp=$('input','answer'); inp.type='text'; inp.autocomplete='off'; inp.spellcheck=false;
+    inp.placeholder='Репліка польською…';
+    card.appendChild(inp);
+    const v=$('div','verdict'); card.appendChild(v);
+    const bChk=$('button','primary','Перевірити');
+    let done=false;
+    const check=()=>{
+      if(done) return; done=true;
+      const res=judgeTyped(inp.value, it.pl);
+      inp.classList.add(res); inp.readOnly=true;
+      blank.className='dline fill';
+      blank.innerHTML=dlineHTML(it.who, esc(it.pl), it.ua);
+      d.lines.slice(it.idx+1).forEach(([who,pl,uk])=>box.appendChild(dlineEl(who,pl,uk)));
+      if(d.audio) box.appendChild(audioEl(d.audio));
+      verdictBox(v,res,it.pl);
+      commit(res,it);
+      bChk.replaceWith(nextBtn(i===steps.length-1?'Підсумок':'Далі'));
+      ctr.querySelector('.primary').focus();
+    };
+    bChk.onclick=check;
+    inp.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault(); check();}};
+    ctrlsRow([$('span','kbd','<b>Enter</b> — перевірити')],[bChk]);
+    inp.focus();
+  }
+
+  /* 5.5 знайди та виправ помилку */
+  function stepFix(it){
+    card.appendChild($('div','hintline','Тут помилка. Напиши речення правильно.'));
+    card.appendChild($('div','task',`<span class="wrongph">${esc(it.bad)}</span>`));
+    const inp=$('input','answer'); inp.type='text'; inp.autocomplete='off'; inp.spellcheck=false;
+    inp.placeholder='Правильний варіант…';
+    card.appendChild(inp);
+    const v=$('div','verdict'); card.appendChild(v);
+    const bChk=$('button','primary','Перевірити');
+    let done=false;
+    const check=()=>{
+      if(done) return; done=true;
+      const res=judgeTyped(inp.value, it.pl);
+      inp.classList.add(res); inp.readOnly=true;
+      verdictBox(v,res,it.pl,it.why);
+      commit(res,it);
+      bChk.replaceWith(nextBtn(i===steps.length-1?'Підсумок':'Далі'));
+      ctr.querySelector('.primary').focus();
+    };
+    bChk.onclick=check;
+    inp.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault(); check();}};
+    ctrlsRow([$('span','kbd','<b>Enter</b> — перевірити')],[bChk]);
+    inp.focus();
+  }
+
+  /* 5.9 словниковий спринт: 60 секунд, без оцінки */
+  function stepSprint(it){
+    const words=it.words.slice();
+    for(let k=words.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1)); [words[k],words[j]]=[words[j],words[k]];}
+    const box=$('div','sprint');
+    box.appendChild($('div','hintline','60 секунд. Пиши польською, <b>Enter</b> — наступне слово. Розігрів: на графік повторення не впливає.'));
+    const word=$('div','word'); const inp=$('input','answer');
+    inp.type='text'; inp.autocomplete='off'; inp.spellcheck=false; inp.placeholder='Польською…';
+    const sc=$('div','sc');
+    box.appendChild(word); box.appendChild(inp); box.appendChild(sc);
+    card.appendChild(box);
+    const tm=$('span','timer','60 с');
+    let k=0, tried=0, hit=0, left=60, over=false;
+    const draw=()=>{ word.textContent = words[k] ? words[k][1] : '—';
+                     sc.innerHTML=`Слів: <b>${tried}</b> · правильно: <b>${hit}</b>`; };
+    const stop=()=>{
+      if(over) return; over=true;
+      if(stepTimer){clearInterval(stepTimer); stepTimer=null;}
+      inp.readOnly=true; word.textContent=`${hit} / ${tried}`;
+      sc.innerHTML=`Розігрів закінчено. Слів пройдено: <b>${tried}</b>, правильно: <b>${hit}</b>.`;
+      paintDot(hit*2>=tried?'ok':'mid');
+      ctr.innerHTML=''; ctrlsRow([tm],[nextBtn(i===steps.length-1?'Підсумок':'Далі')]);
+      ctr.querySelector('.primary').focus();
+    };
+    const submit=()=>{
+      if(over || !words[k]) return;
+      const res=judgeTyped(inp.value, words[k][0]);
+      tried++; if(res!=='no') hit++;
+      inp.className='answer '+res;
+      setTimeout(()=>{inp.className='answer'; inp.value=''; k++; if(k>=words.length) stop(); else draw();}, 180);
+    };
+    inp.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault(); submit();}};
+    const bSkip=$('button',null,'Пропустити');
+    bSkip.onclick=()=>{ if(over||!words[k])return; tried++; k++; if(k>=words.length) stop(); else {inp.value=''; draw();} };
+    const bStop=$('button','primary','Закінчити');
+    bStop.onclick=stop;
+    ctrlsRow([tm,bSkip],[bStop]);
+    draw(); inp.focus();
+    stepTimer=setInterval(()=>{ left--; tm.textContent=left+' с'; tm.classList.toggle('hot',left<=10);
+                                if(left<=0) stop(); }, 1000);
+  }
+
+  /* 5.8 переказ за опорами */
+  function stepRetell(it){
+    const d=it.dlg;
+    card.appendChild($('div','hintline',`${esc(d.title)} · перекажи вголос своїми словами, спираючись на слова-опори. Потім звір із текстом.`));
+    const stop=new Set(['jest','jestem','bardzo','proszę','dziękuję','dobrze','wszystko','trochę','może','także','jeszcze']);
+    const kws=[...new Set([].concat(...d.lines.map(l=>String(l[1]||'').toLowerCase().replace(PUNCT,' ').split(/\s+/)))
+      .filter(x=>x.length>=5 && !stop.has(x)))].slice(0,4);
+    const kw=$('div','kw'); kws.forEach(x=>kw.appendChild($('span',null,esc(x))));
+    card.appendChild(kw);
+    const box=$('div','dlg'); box.classList.add('hide');
+    d.lines.forEach(([who,pl,uk])=>box.appendChild(dlineEl(who,pl,uk)));
+    if(d.audio) box.appendChild(audioEl(d.audio));
+    card.appendChild(box);
+    const bShow=$('button','primary','Показати текст');
+    let shown=false, done=false;
+    const grades=[['g-ok','✓ переказав','ok'],['g-mid','± частково','mid'],['g-no','✗ не вийшло','no']].map(([cls,txt,res])=>{
+      const b=$('button',cls,txt); b.disabled=true;
+      b.onclick=()=>{ if(done||!shown) return; done=true; tally[res]++; paintDot(res);
+        ctr.innerHTML=''; ctrlsRow([],[nextBtn(i===steps.length-1?'Підсумок':'Далі')]);
+        ctr.querySelector('.primary').focus(); };
+      return b;
+    });
+    bShow.onclick=()=>{ shown=true; box.classList.remove('hide'); grades.forEach(b=>b.disabled=false); bShow.disabled=true; };
+    ctrlsRow([bShow],grades);
+    keys({Enter:()=>{ if(!shown) bShow.onclick(); },
+          '1':()=>grades[0].onclick(), '2':()=>grades[1].onclick(), '3':()=>grades[2].onclick()});
+  }
+
   /* — підсумок — */
   function finish(){
     if(stepKeys){ document.removeEventListener('keydown', stepKeys); stepKeys=null; }
+    if(stepTimer){ clearInterval(stepTimer); stepTimer=null; }
     const total = tally.ok+tally.mid+tally.no;
     card.innerHTML=''; ctr.innerHTML='';
     sec.querySelector('#sTag').textContent='готово';
